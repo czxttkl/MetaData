@@ -1,0 +1,42 @@
+version = '0.1'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+apply plugin: 'checkstyle'
+
+checkstyle {
+    configFile = new File(rootDir, "checkstyle/checkstyle.xml")
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'io.metadata.download.CGames',
+                   'Implementation-Title': 'CGames',
+                   'Implementation-Version': version
+    }
+        from { 
+                configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } 
+        }
+}
+
+repositories {
+    mavenCentral()
+        
+    maven {
+        url "https://google-api-client-libraries.appspot.com/mavenrepo"
+    }
+}
+
+dependencies {
+    compile 'org.jsoup:jsoup:1.7.3'
+}
+
+
+task(runGenomeStore, dependsOn: 'classes', type: JavaExec) {
+    main = 'io.metadata.download.CGames'
+
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+defaultTasks 'build'
