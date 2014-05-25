@@ -60,8 +60,9 @@ public class IEEEXplore implements Website {
         }
         // Remove the first comma if keywords are found. 
         // In some articles there are no keywords.
-        if (keywordsString.length() > 0)
+        if (keywordsString.length() > 0) {
             keywordsString = keywordsString.substring(1);
+        }
 
         // Set title
         Matcher titleMatcher = TITLE_PATTERN.matcher(aString);
