@@ -50,7 +50,7 @@ public class IEEEXplore implements Website {
 
         // Set keywords
         Matcher authorKeywordsMatcher = AUTHOR_KEYWORDS_PATTERN.matcher(aString);
-        String keywordsList = null;
+        String keywordsList = "";
         if (authorKeywordsMatcher.find()) {
             keywordsList = authorKeywordsMatcher.group(1);
         }
@@ -58,7 +58,10 @@ public class IEEEXplore implements Website {
         while (keywordMatcher.find()) {
             keywordsString = keywordsString + "," + keywordMatcher.group(1);
         }
-        keywordsString = keywordsString.substring(1);
+        // Remove the first comma if keywords are found. 
+        // In some articles there are no keywords.
+        if (keywordsString.length() > 0)
+            keywordsString = keywordsString.substring(1);
 
         // Set title
         Matcher titleMatcher = TITLE_PATTERN.matcher(aString);
