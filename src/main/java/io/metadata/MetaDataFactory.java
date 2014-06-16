@@ -1,5 +1,6 @@
 package io.metadata;
 
+
 import java.io.IOException;
 
 /**
@@ -15,6 +16,11 @@ public class MetaDataFactory {
         if (websiteType.equals("IEEEXplore")) {
             return new IEEEXplore(doi);
         }
+        
+        if (websiteType.equals("DIGRA")) {
+            return new DIGRALib(doi);
+        }
+        
         return null;
     }
     

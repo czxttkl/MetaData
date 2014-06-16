@@ -23,6 +23,7 @@ public class IEEEXplore implements Website {
     private String keywordsString = "";
     private String titleString = "";
     private String abstractString = "";
+    private String yearString = "";
 
     public IEEEXplore(String doi) throws IOException{
         articleUrl = ARTICLE_ABSTRACT_URL_PREFIX + doi;
@@ -44,6 +45,11 @@ public class IEEEXplore implements Website {
         return titleString;
     }
 
+    @Override
+    public String getYear() {
+        return yearString;
+    }
+    
     @Override
     public void process() throws IOException {
         String aString = Jsoup.connect(articleUrl).get().html();

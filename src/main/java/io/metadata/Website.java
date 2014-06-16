@@ -13,5 +13,7 @@ public interface Website {
 
     String getTitle();
 
+    String getYear();
+    
     void process() throws IOException;
 }
