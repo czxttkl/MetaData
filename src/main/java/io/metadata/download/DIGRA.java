@@ -27,8 +27,8 @@ public class DIGRA {
             System.out.println(mWebsite.getTitle());
             System.out.println(mWebsite.getAbstract());
             System.out.println(mWebsite.getKeywords());
-            System.out.println(mWebsite.getYear());
             System.out.println(mWebsite.getAuthors());
+            System.out.println(mWebsite.getYear());
             System.out.println();
         }
     }
