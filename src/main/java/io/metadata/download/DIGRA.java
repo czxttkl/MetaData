@@ -4,6 +4,7 @@ import io.metadata.MetaDataFactory;
 import io.metadata.Website;
 
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
 
 public class DIGRA {
 
@@ -20,10 +21,10 @@ public class DIGRA {
         "Ethnographic-Fieldwork-in-the-Study-of-Game-Production",
     };
     
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, NoSuchMethodException, SecurityException, ClassNotFoundException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
         MetaDataFactory mMetaDataFactory = new MetaDataFactory();
         for (String doi : dois) {
-            Website mWebsite = mMetaDataFactory.getWebsite("DIGRA", doi);
+            Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.DIGRALib", doi);
             System.out.println(mWebsite.getTitle());
             System.out.println(mWebsite.getAbstract());
             System.out.println(mWebsite.getKeywords());
