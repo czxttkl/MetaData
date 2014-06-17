@@ -21,7 +21,7 @@ import org.xml.sax.helpers.DefaultHandler;
 public class DBLPParser {
     
     public static String dblpLocation = "file:///C:/workspace/MetaData/dblp.xml";
-    public static String confNameToDetect = "digra";
+    public static String confNameToDetect = "gdcse";
     
     public static void main(String[] args) {
         try {
@@ -29,11 +29,17 @@ public class DBLPParser {
             SAXParser saxParser = factory.newSAXParser();
             DefaultHandler handler = new DefaultHandler() {
                 boolean crossrefField;
+                boolean eeField;
+                String lastEEString = "";
 
                 public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
                     // System.out.println("Start Element :" + qName);
                     if (qName.equalsIgnoreCase("crossref")) {
                         crossrefField = true;
+                    }
+                    
+                    if (qName.equalsIgnoreCase("ee")) {
+                        eeField = true;
                     }
                 }
 
@@ -42,10 +48,15 @@ public class DBLPParser {
                 }
 
                 public void characters(char[] ch, int start, int length) throws SAXException {
+                    if (eeField) {
+                        lastEEString = new String(ch, start, length);
+                        eeField = false;
+                    }
+                    
                     if (crossrefField) {
                         String confName = new String(ch, start, length);
                         if (confName.contains(confNameToDetect)) {
-                            System.out.println(confName);
+                            System.out.println(confName + ":" + lastEEString);
                             crossrefField = false;
                         }
                     }
