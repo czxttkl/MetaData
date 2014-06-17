@@ -1,7 +1,5 @@
 package io.metadata.download;
 
-import java.io.IOException;
-
 import io.metadata.MetaDataFactory;
 import io.metadata.Website;
 
@@ -139,14 +137,16 @@ public class CGames {
         6000356,
     };
     
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         MetaDataFactory mMetaDataFactory = new MetaDataFactory();
         for (long doi : dois) {
             System.out.println(doi);
-            Website mWebsite = mMetaDataFactory.getWebsite("IEEEXplore", doi);
+            Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.IEEEXplore", doi);
             System.out.println(mWebsite.getTitle());
             System.out.println(mWebsite.getAbstract());
             System.out.println(mWebsite.getKeywords());
+            System.out.println(mWebsite.getAuthors());
+            System.out.println(mWebsite.getYear());
             System.out.println();
         }
     }
