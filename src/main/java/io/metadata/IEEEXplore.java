@@ -15,7 +15,7 @@ public class IEEEXplore extends Website {
     public static final Pattern TITLE_PATTERN = Pattern.compile("<div class=\"title\">\\s+<h1>\\s+(.*)\\s+</h1>");
     public static final Pattern ABSTRACT_PATTERN = Pattern.compile("<div class=\"article\">\\s+<p>(.*)</p>\\s+</div>");
     public static final Pattern AUTHORS_PATTERN = Pattern.compile("<meta name=\"citation_author\" content=\"(.*?)\" />");
-    public static final Pattern YEAR_PATTERN = Pattern.compile("<meta name=\"citation_doi\" content=\"(.*?)CGames.((\\d){4})");
+    public static final Pattern YEAR_PATTERN = Pattern.compile("<meta name=\"citation_doi\" content=\"(.*?)/\\w*?.((\\d){4})");
     public static final Pattern CONTROLLED_INDEXING_PATTERN = Pattern
             .compile("<h2>INSPEC: CONTROLLED INDEXING</h2>\\s+<ul>\\s+((<li>.+</li>\\s+)+)</ul>");
 
