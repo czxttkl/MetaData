@@ -3,9 +3,9 @@ package io.metadata.download;
 import io.metadata.MetaDataFactory;
 import io.metadata.Website;
 
-import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
-
+/**
+ * @author Zhengxing Chen
+ */
 public class DIGRA {
 
     public static String[] dois = {
@@ -21,7 +21,7 @@ public class DIGRA {
         "Ethnographic-Fieldwork-in-the-Study-of-Game-Production",
     };
     
-    public static void main(String[] args) throws IOException, NoSuchMethodException, SecurityException, ClassNotFoundException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+    public static void main(String[] args) throws Exception {
         MetaDataFactory mMetaDataFactory = new MetaDataFactory();
         for (String doi : dois) {
             Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.DIGRALib", doi);

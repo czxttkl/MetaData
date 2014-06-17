@@ -44,9 +44,10 @@ public class DBLPParser {
                 public void characters(char[] ch, int start, int length) throws SAXException {
                     if (crossrefField) {
                         String confName = new String(ch, start, length);
-                        if (confName.contains(confNameToDetect))
+                        if (confName.contains(confNameToDetect)) {
                             System.out.println(confName);
-                        crossrefField = false;
+                            crossrefField = false;
+                        }
                     }
                 }
             };

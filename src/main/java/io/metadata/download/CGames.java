@@ -1,8 +1,5 @@
 package io.metadata.download;
 
-import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
-
 import io.metadata.MetaDataFactory;
 import io.metadata.Website;
 
@@ -140,7 +137,7 @@ public class CGames {
         6000356,
     };
     
-    public static void main(String[] args) throws IOException, NoSuchMethodException, SecurityException, ClassNotFoundException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+    public static void main(String[] args) throws Exception {
         MetaDataFactory mMetaDataFactory = new MetaDataFactory();
         for (long doi : dois) {
             System.out.println(doi);

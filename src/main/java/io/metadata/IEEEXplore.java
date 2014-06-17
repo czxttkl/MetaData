@@ -11,12 +11,13 @@ public class IEEEXplore extends Website {
 
     public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=";
     public static final Pattern AUTHOR_KEYWORDS_PATTERN = Pattern.compile("<h2>AUTHOR KEYWORDS</h2>\\s+<ul>\\s+((<li>.+</li>\\s+)+)</ul>");
-    public static final Pattern CONTROLLED_INDEXING_PATTERN = Pattern.compile("<h2>INSPEC: CONTROLLED INDEXING</h2>\\s+<ul>\\s+((<li>.+</li>\\s+)+)</ul>");
     public static final Pattern KEYWORD_PATTERN = Pattern.compile("a data-keyword=\"(.*)\" role");
     public static final Pattern TITLE_PATTERN = Pattern.compile("<div class=\"title\">\\s+<h1>\\s+(.*)\\s+</h1>");
     public static final Pattern ABSTRACT_PATTERN = Pattern.compile("<div class=\"article\">\\s+<p>(.*)</p>\\s+</div>");
     public static final Pattern AUTHORS_PATTERN = Pattern.compile("<meta name=\"citation_author\" content=\"(.*?)\" />");
     public static final Pattern YEAR_PATTERN = Pattern.compile("<meta name=\"citation_doi\" content=\"(.*?)CGames.((\\d){4})");
+    public static final Pattern CONTROLLED_INDEXING_PATTERN = Pattern
+            .compile("<h2>INSPEC: CONTROLLED INDEXING</h2>\\s+<ul>\\s+((<li>.+</li>\\s+)+)</ul>");
 
     public IEEEXplore(String doi) throws IOException {
         super(doi);

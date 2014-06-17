@@ -4,14 +4,20 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * @author Zhengxing Chen
+ */
 public class DIGRALib extends Website {
 
     public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://www.digra.org/digital-library/publications/";
-    public static final Pattern KEYWORD_PATTERN = Pattern.compile("<a href=\"http://www.digra.org/digital-library/keywords/(.*?)/\">(.*?)</a>");
     public static final Pattern TITLE_PATTERN = Pattern.compile("<h1 class=\"entry-title\">(.*)</h1>");
-    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("<label class=\"diglib_item\">Abstract: </label>\\s+<br />\\s+<p>(.*)</p>");
     public static final Pattern YEAR_PATTERN = Pattern.compile("http://www.digra.org/digital-library/forums/digra((\\d){4})");
-    public static final Pattern AUTHORS_PATTERN = Pattern.compile("<a href=\"http://www.digra.org/digital-library/authors/(.*?)/\">(.*?)</a>");
+    public static final Pattern KEYWORD_PATTERN = Pattern
+            .compile("<a href=\"http://www.digra.org/digital-library/keywords/(.*?)/\">(.*?)</a>");
+    public static final Pattern ABSTRACT_PATTERN = Pattern
+            .compile("<label class=\"diglib_item\">Abstract: </label>\\s+<br />\\s+<p>(.*)</p>");
+    public static final Pattern AUTHORS_PATTERN = Pattern
+            .compile("<a href=\"http://www.digra.org/digital-library/authors/(.*?)/\">(.*?)</a>");
 
     public DIGRALib(String doi) throws IOException {
         super(doi);
