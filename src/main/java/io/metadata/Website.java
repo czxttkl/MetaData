@@ -1,6 +1,7 @@
 package io.metadata;
 
 import java.io.IOException;
+import java.net.URL;
 
 import org.jsoup.Jsoup;
 
@@ -49,7 +50,7 @@ public abstract class Website {
     }
     
     void process() throws IOException {
-        htmlString = Jsoup.connect(articleUrl).get().html();
+        htmlString = Downloader.toString(new URL(articleUrl));
         setKeywords();
         setAbstract();
         setTitle();
