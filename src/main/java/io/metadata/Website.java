@@ -3,8 +3,6 @@ package io.metadata;
 import java.io.IOException;
 import java.net.URL;
 
-import org.jsoup.Jsoup;
-
 /**
  * Created by Zhengxing Chen.
  */
