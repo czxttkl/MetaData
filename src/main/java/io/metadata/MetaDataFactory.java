@@ -1,8 +1,6 @@
 package io.metadata;
 
-import java.io.IOException;
 import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 
 /**
  * Created by Zhengxing Chen.

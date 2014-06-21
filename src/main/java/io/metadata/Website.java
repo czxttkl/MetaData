@@ -1,8 +1,7 @@
 package io.metadata;
 
 import java.io.IOException;
-
-import org.jsoup.Jsoup;
+import java.net.URL;
 
 /**
  * Created by Zhengxing Chen.
@@ -49,7 +48,7 @@ public abstract class Website {
     }
     
     void process() throws IOException {
-        htmlString = Jsoup.connect(articleUrl).get().html();
+        htmlString = Downloader.toString(new URL(articleUrl));
         setKeywords();
         setAbstract();
         setTitle();
