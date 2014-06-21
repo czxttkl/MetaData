@@ -8,13 +8,18 @@ import java.util.Scanner;
 
 import org.apache.commons.lang.StringEscapeUtils;
 
+/**
+ * @author Zhengxing Chen
+ * 
+ */
 public class Downloader {
 
-    public final static String USER_AGENT_VALUE = "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.110 Safari/537.36 CoolNovo/2.0.9.20";
-    public final static String USER_AGENT = "User-Agent";
-    public final static int CONNECT_TIMEOUT = 5000;
-    public final static int READ_TIMEOUT = 20000;
-    public final static String GET_METHOD = "GET";
+    public static final String USER_AGENT_VALUE = "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)" +
+            " Chrome/27.0.1453.110 Safari/537.36 CoolNovo/2.0.9.20";
+    public static final String USER_AGENT = "User-Agent";
+    public static final int CONNECT_TIMEOUT = 5000;
+    public static final int READ_TIMEOUT = 20000;
+    public static final String GET_METHOD = "GET";
 
     public static String toString(URL mURL) throws IOException {
         InputStream is = getInputStreamFromUrl(mURL);

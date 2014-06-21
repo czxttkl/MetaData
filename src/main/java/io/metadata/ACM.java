@@ -1,11 +1,13 @@
 package io.metadata;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.nio.charset.Charset;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * @author Zhengxing Chen
+ *
+ */
 public class ACM extends Website {
 
     public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://dl.acm.org/citation.cfm?doid=%s&preflayout=flat";
