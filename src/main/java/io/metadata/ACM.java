@@ -1,6 +1,8 @@
 package io.metadata;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.nio.charset.Charset;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,8 +12,8 @@ public class ACM extends Website {
     public static final Pattern TITLE_PATTERN = Pattern.compile("<meta name=\"citation_title\" content=\"(.*?)\">");
     public static final Pattern YEAR_PATTERN = Pattern.compile("<meta name=\"citation_date\" content=\"(\\d){2}/(\\d){2}/((\\d){4})\">");
     public static final Pattern KEYWORD_PATTERN = Pattern.compile("<meta name=\"citation_keywords\" content=\"(.*?)\">");
-    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("ABSTRACT</a></h1>(.*?)<p>(.*)</p>");
-    public static final Pattern AUTHORS_PATTERN = Pattern.compile("<meta name=\"citation_authors\" content=\"(.*?)/\">");
+    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("ABSTRACT</A></h1>\\s+(.*?)\\s+(.*?)<p>(.*)</p>");
+    public static final Pattern AUTHORS_PATTERN = Pattern.compile("<meta name=\"citation_authors\" content=\"(.*?)\">");
 
     public ACM(String doi) throws IOException {
         super(doi);
@@ -56,6 +58,8 @@ public class ACM extends Website {
         // In some articles there are no keywords.
         if (keywordsString.length() > 0) {
             keywordsString = keywordsString.substring(1);
+        } else {
+            System.err.println("No Keyword found");
         }
     }
 
@@ -63,7 +67,7 @@ public class ACM extends Website {
     void setAbstract() {
         Matcher abstractMatcher = ABSTRACT_PATTERN.matcher(htmlString);
         if (abstractMatcher.find()) {
-            abstractString = abstractMatcher.group(2);
+            abstractString = abstractMatcher.group(3);
         }
     }
 
