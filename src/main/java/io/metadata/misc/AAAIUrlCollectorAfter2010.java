@@ -16,7 +16,7 @@ public class AAAIUrlCollectorAfter2010 {
 
     public static void main(String[] args) throws IOException {
 
-        // load files before 2008
+        // load files after 2010
         File files = new File("data/aaai-after-2010");
 
         for (File file : files.listFiles()) {
@@ -31,8 +31,8 @@ public class AAAIUrlCollectorAfter2010 {
             }
             String finalString = sBuilder.toString();
 
-            // Url Pattern before 2010
-            Pattern urlPattern = Pattern.compile("http://www.aaai.org/Library/AAAI/(\\d){4}/(.*?).php");
+            // Url Pattern after 2010
+            Pattern urlPattern = Pattern.compile("http://www.aaai.org/ocs/index.php/AAAI/AAAI(\\d{2})/paper/view/(\\d{4})");
             Matcher urlMatcher = urlPattern.matcher(finalString);
             while (urlMatcher.find()) {
                 String urlString = urlMatcher.group();
