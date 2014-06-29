@@ -3,6 +3,11 @@ package io.metadata.download;
 import io.metadata.MetaDataFactory;
 import io.metadata.Website;
 
+/**
+ * Url patterns are different before and after 2010 from AAAI
+ * @author Zhengxing Chen
+ *
+ */
 public class AAAIBefore2010 {
 
     public static String[] dois = {

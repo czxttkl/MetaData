@@ -4,6 +4,11 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * Url patterns are different before and after 2010 from AAAI
+ * @author Zhengxing Chen
+ *
+ */
 public class AAAILibBefore2010 extends Website {
 
     public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://www.aaai.org/Library/AAAI/%s.php";
@@ -19,31 +24,6 @@ public class AAAILibBefore2010 extends Website {
 
     public AAAILibBefore2010(String doi) throws IOException {
         super(doi);
-    }
-
-    @Override
-    public String getKeywords() throws IOException {
-        return keywordsString;
-    }
-
-    @Override
-    public String getAbstract() {
-        return abstractString;
-    }
-
-    @Override
-    public String getTitle() {
-        return titleString;
-    }
-
-    @Override
-    public String getYear() {
-        return yearString;
-    }
-
-    @Override
-    public String getAuthors() {
-        return authorsString;
     }
 
     @Override
