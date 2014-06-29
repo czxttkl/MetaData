@@ -235,6 +235,111 @@ public class FDG {
         "1822348.1822362",
         "2159365.2159367",
         "2159365.2159411",
+        
+        // 2014
+        //http://www.fdg2014.org/proceedings.html
+        
+        // 2013
+        /*http://www.fdg2013.org/program/doctoral/dc01_barik.pdf
+          http://www.fdg2013.org/program/papers/paper16_sturn_etal.pdf
+          http://www.fdg2013.org/program/papers/paper34_barendregt_vonfeilitzen.pdf
+          http://www.fdg2013.org/program/papers/paper38_fua_etal.pdf
+          http://www.fdg2013.org/program/papers/paper24_zhao.pdf
+          http://www.fdg2013.org/program/papers/paper30_tremblay_verbrugge.pdf
+          http://www.fdg2013.org/program/posters/poster21_yu_riedl.pdf
+          http://www.fdg2013.org/program/doctoral/dc05_karhulahti.pdf
+          http://www.fdg2013.org/program/papers/short01_font_etal.pdf
+          http://www.fdg2013.org/program/papers/paper28_liapis_etal.pdf
+          http://www.fdg2013.org/program/papers/paper37_campos_etal.pdf
+          http://www.fdg2013.org/program/preface.pdf
+          http://www.fdg2013.org/program/papers/paper22_tekofsky_etal.pdf
+          http://www.fdg2013.org/program/festival/gamesforhealth.pdf
+          http://www.fdg2013.org/program/doctoral/dc03_carter.pdf
+          http://www.fdg2013.org/program/papers/paper10_marczak_etal.pdf
+          http://www.fdg2013.org/program/papers/paper44_shannon_etal.pdf
+          http://www.fdg2013.org/program/posters/poster20_warpefelt_straat.pdf
+          http://www.fdg2013.org/program/papers/paper26_gaudl_etal.pdf
+          http://www.fdg2013.org/program/papers/paper46_zorn_etal.pdf
+          http://www.fdg2013.org/program/papers/short06_eagle_etal.pdf
+          http://www.fdg2013.org/program/posters/poster07_ksuz_etal.pdf
+          http://www.fdg2013.org/program/papers/paper39_greenspan_whitson.pdf
+          http://www.fdg2013.org/program/posters/poster13_reer_kraemer.pdf
+          http://www.fdg2013.org/program/papers/paper20_emmerich_masuch.pdf
+          http://www.fdg2013.org/program/posters/poster01_christinaki_etal.pdf
+          http://www.fdg2013.org/program/papers/paper19_ekman.pdf
+          http://www.fdg2013.org/program/papers/paper42_molnar_kostkova.pdf
+          http://www.fdg2013.org/program/papers/paper17_toprak_etal.pdf
+          http://www.fdg2013.org/program/papers/paper33_wallner.pdf
+          http://www.fdg2013.org/program/doctoral/dc09_newon.pdf
+          http://www.fdg2013.org/program/doctoral/dc08_murray.pdf
+          http://www.fdg2013.org/program/papers/paper14_milam_etal.pdf
+          http://www.fdg2013.org/program/doctoral/dc04_holmgard.pdf
+          http://www.fdg2013.org/program/posters/poster02_degens_etal.pdf
+          http://www.fdg2013.org/program/papers/paper41_maung_etal.pdf
+          http://www.fdg2013.org/program/papers/paper13_mccoy_etal.pdf
+          http://www.fdg2013.org/program/doctoral/dc14_toprak.pdf
+          http://www.fdg2013.org/program/posters/poster15_ruggiero.pdf
+          http://www.fdg2013.org/program/papers/paper36_waern.pdf
+          http://www.fdg2013.org/program/papers/paper04_myers.pdf
+          http://www.fdg2013.org/program/papers/paper01_bjork.pdf
+          http://www.fdg2013.org/program/posters/poster03_cabezas_thompson.pdf
+          http://www.fdg2013.org/program/papers/paper03_moering.pdf
+          http://www.fdg2013.org/program/posters/poster09_linssen_degroot.pdf
+          http://www.fdg2013.org/program/papers/paper31_caplar_etal.pdf
+          http://www.fdg2013.org/program/posters/poster11_nielsen.pdf
+          http://www.fdg2013.org/program/papers/paper06_zagal_etal.pdf
+          http://www.fdg2013.org/program/papers/paper05_vella.pdf
+          http://www.fdg2013.org/program/festival/openrelativity.pdf
+          http://www.fdg2013.org/program/papers/paper40_marklund_etal.pdf
+          http://www.fdg2013.org/program/posters/poster14_rijnboutt_etal.pdf
+          http://www.fdg2013.org/program/festival/sightlence.pdf
+          http://www.fdg2013.org/program/festival/simula.pdf
+          http://www.fdg2013.org/program/doctoral/dc15_warpefelt.pdf
+          http://www.fdg2013.org/program/papers/paper02_calleja.pdf
+          http://www.fdg2013.org/program/papers/paper35_ryan.pdf
+          http://www.fdg2013.org/program/doctoral/dc07_milik.pdf
+          http://www.fdg2013.org/program/posters/poster16_shepherd_etal.pdf
+          http://www.fdg2013.org/program/posters/poster06_knight_etal.pdf
+          http://www.fdg2013.org/program/posters/poster10_lopes_etal.pdf
+          http://www.fdg2013.org/program/festival/movmote.pdf
+          http://www.fdg2013.org/program/doctoral/dc11_rentschler.pdf
+          http://www.fdg2013.org/program/papers/paper09_eklund_bergmark.pdf
+          http://www.fdg2013.org/program/papers/short07_schoenaufog_etal.pdf
+          http://www.fdg2013.org/program/papers/paper43_ryan_charsky.pdf
+          http://www.fdg2013.org/program/papers/paper27_koutnik_etal.pdf
+          http://www.fdg2013.org/program/papers/paper11_voulgari_komis.pdf
+          http://www.fdg2013.org/program/papers/short02_herrewijn_etal.pdf
+          http://www.fdg2013.org/program/posters/poster12_pace_thompson.pdf
+          http://www.fdg2013.org/program/doctoral/dc06_marklund.pdf
+          http://www.fdg2013.org/program/doctoral/dc13_serra.pdf
+          http://www.fdg2013.org/program/festival/networknightmares.pdf
+          http://www.fdg2013.org/program/papers/paper08_consalvo_paul.pdf
+          http://www.fdg2013.org/program/papers/paper21_orourke_etal.pdf
+          http://www.fdg2013.org/program/posters/poster19_vlachoukonchylaki_vassos.pdf
+          http://www.fdg2013.org/program/posters/poster04_janssen_etal.pdf
+          http://www.fdg2013.org/program/posters/poster17_stiegler_livingstone.pdf
+          http://www.fdg2013.org/program/papers/paper29_smith_etal.pdf
+          http://www.fdg2013.org/program/posters/poster05_khaled_yannakakis.pdf
+          http://www.fdg2013.org/program/papers/paper23_vandenabeele_etal.pdf
+          http://www.fdg2013.org/program/festival/beadloom.pdf
+          http://www.fdg2013.org/program/papers/paper18_burelli.pdf
+          http://www.fdg2013.org/program/papers/short04_koutsouras_cairns.pdf
+          http://www.fdg2013.org/program/doctoral/dc02_battaglino.pdf
+          http://www.fdg2013.org/program/doctoral/dc10_rapp.pdf
+          http://www.fdg2013.org/program/papers/paper32_drachen_etal.pdf
+          http://www.fdg2013.org/program/doctoral/dc12_reuter.pdf
+          http://www.fdg2013.org/program/papers/paper25_bauer_etal.pdf
+          http://www.fdg2013.org/program/posters/poster08_li_etal.pdf
+          http://www.fdg2013.org/program/festival/anygammon.pdf
+          http://www.fdg2013.org/program/papers/short03_james_etal.pdf
+          http://www.fdg2013.org/program/papers/paper15_shi_crawfis.pdf
+          http://www.fdg2013.org/program/papers/short05_llanso_etal.pdf
+          http://www.fdg2013.org/program/festival/moversandshakers.pdf
+          http://www.fdg2013.org/program/posters/poster18_togelius_friberger.pdf
+          http://www.fdg2013.org/program/papers/paper45_wagner_wernbacher.pdf
+          http://www.fdg2013.org/program/papers/paper12_zagal_tomuro.pdf
+          http://www.fdg2013.org/program/papers/paper07_carter_gibbs.pdf
+*/
     };
     
     public static void main(String[] args) throws Exception {
