@@ -1,5 +1,7 @@
 package io.metadata;
 
+import io.metadata.misc.Downloader;
+
 import java.io.IOException;
 import java.net.URL;
 
