@@ -32,10 +32,10 @@ public class AAAIUrlCollectorAfter2010 {
             String finalString = sBuilder.toString();
 
             // Url Pattern after 2010
-            Pattern urlPattern = Pattern.compile("http://www.aaai.org/ocs/index.php/AAAI/AAAI(\\d{2})/paper/view/(\\d{4})");
+            Pattern urlPattern = Pattern.compile("(http://www.aaai.org/ocs/index.php/AAAI/AAAI(\\d{2})/paper/view/(\\d{4}))\"");
             Matcher urlMatcher = urlPattern.matcher(finalString);
             while (urlMatcher.find()) {
-                String urlString = urlMatcher.group();
+                String urlString = urlMatcher.group(1);
                 System.out.println(urlString);
             }
             bf.close();

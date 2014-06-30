@@ -7,7 +7,6 @@ import java.util.regex.Pattern;
 /**
  * Url patterns are different before and after 2010 from AAAI
  * @author Zhengxing Chen
- *
  */
 public class AAAILibBefore2010 extends Website {
 
@@ -16,7 +15,7 @@ public class AAAILibBefore2010 extends Website {
             .compile("<h1><a href=\"../../../Papers/AAAI/(\\d{4})/(.*?).pdf\">(\\s)+(.*?)</a></h1>(\\s)+<p class=\"left\"><i>(.*?)</i></p>(\\s)+<p>(.*?)</p>");
     public static final Pattern YEAR_PATTERN = Pattern
             .compile("<h1><a href=\"../../../Papers/AAAI/(\\d{4})/(.*?).pdf\">(\\s)+(.*?)</a></h1>(\\s)+<p class=\"left\"><i>(.*?)</i></p>(\\s)+<p>(.*?)</p>");
-    public static final Pattern KEYWORD_PATTERN = Pattern.compile("<p><i>Subjects: </i>(.*?)</p>");
+//  public static final Pattern KEYWORD_PATTERN = Pattern.compile("<p><i>Subjects: </i>(.*?)</p>");
     public static final Pattern ABSTRACT_PATTERN = Pattern
             .compile("<h1><a href=\"../../../Papers/AAAI/(\\d{4})/(.*?).pdf\">(\\s)+(.*?)</a></h1>(\\s)+<p class=\"left\"><i>(.*?)</i></p>(\\s)+<p>(.*?)</p>");
     public static final Pattern AUTHORS_PATTERN = Pattern

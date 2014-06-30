@@ -4,18 +4,15 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class AAAILibAfter2010 extends Website{
+public class AAAILibAfter2010 extends Website {
 
-    public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://www.aaai.org/Library/AAAI/%s.php";
-    public static final Pattern TITLE_PATTERN = Pattern
-            .compile("<h1><a href=\"../../../Papers/AAAI/(\\d{4})/(.*?).pdf\">(\\s)+(.*?)</a></h1>(\\s)+<p class=\"left\"><i>(.*?)</i></p>(\\s)+<p>(.*?)</p>");
+    public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://www.aaai.org/ocs/index.php/AAAI/";
+    public static final Pattern TITLE_PATTERN = Pattern.compile("<meta name=\"citation_title\" content=\"(.*?)\"/>");
     public static final Pattern YEAR_PATTERN = Pattern
-            .compile("<h1><a href=\"../../../Papers/AAAI/(\\d{4})/(.*?).pdf\">(\\s)+(.*?)</a></h1>(\\s)+<p class=\"left\"><i>(.*?)</i></p>(\\s)+<p>(.*?)</p>");
-    public static final Pattern KEYWORD_PATTERN = Pattern.compile("<p><i>Subjects: </i>(.*?)</p>");
-    public static final Pattern ABSTRACT_PATTERN = Pattern
-            .compile("<h1><a href=\"../../../Papers/AAAI/(\\d{4})/(.*?).pdf\">(\\s)+(.*?)</a></h1>(\\s)+<p class=\"left\"><i>(.*?)</i></p>(\\s)+<p>(.*?)</p>");
-    public static final Pattern AUTHORS_PATTERN = Pattern
-            .compile("<h1><a href=\"../../../Papers/AAAI/(\\d{4})/(.*?).pdf\">(\\s)+(.*?)</a></h1>(\\s)+<p class=\"left\"><i>(.*?)</i></p>(\\s)+<p>(.*?)</p>");
+            .compile("<meta name=\"DC.Date.dateSubmitted\" scheme=\"ISO8601\" content=\"(\\d{4})-\\d{2}-\\d{2}\"/>");
+    // public static final Pattern KEYWORD_PATTERN = Pattern.compile("<p><i>Subjects: </i>(.*?)</p>");
+    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("<meta name=\"DC.Description\" xml:lang=\"en\" content=\"(.*?)\"/>");
+    public static final Pattern AUTHORS_PATTERN = Pattern.compile("<meta name=\"DC.Creator.PersonalName\" content=\"(.*?)\"/>");
 
     public AAAILibAfter2010(String doi) throws IOException {
         super(doi);
@@ -23,27 +20,19 @@ public class AAAILibAfter2010 extends Website{
 
     @Override
     void setKeywords() {
-       // AAAI papers don't have keywords. Use subjects instead.
-       /* Matcher keywordsMatcher = KEYWORD_PATTERN.matcher(htmlString);
-        if (keywordsMatcher.find()) {
-            String wholeKeywordsString = keywordsMatcher.group(1);
-            String[] keywords = wholeKeywordsString.split(";");
-            for (String keyword : keywords) {
-                keywordsString = keywordsString + "," + keyword.substring(keyword.indexOf(" ") + 1);
-            }
-        }
-        // Remove the first comma if keywords are found.
-        // In some articles there are no keywords.
-        if (keywordsString.length() > 0) {
-            keywordsString = keywordsString.substring(1);
-        }*/
+        // AAAI papers don't have keywords. Use subjects instead.
+        /*
+         * Matcher keywordsMatcher = KEYWORD_PATTERN.matcher(htmlString); if (keywordsMatcher.find()) { String wholeKeywordsString = keywordsMatcher.group(1); String[] keywords =
+         * wholeKeywordsString.split(";"); for (String keyword : keywords) { keywordsString = keywordsString + "," + keyword.substring(keyword.indexOf(" ") + 1); } } // Remove the first comma if
+         * keywords are found. // In some articles there are no keywords. if (keywordsString.length() > 0) { keywordsString = keywordsString.substring(1); }
+         */
     }
 
     @Override
     void setAbstract() {
         Matcher abstractMatcher = ABSTRACT_PATTERN.matcher(htmlString);
         if (abstractMatcher.find()) {
-            abstractString = abstractMatcher.group(8);
+            abstractString = abstractMatcher.group(1);
         }
     }
 
@@ -52,7 +41,7 @@ public class AAAILibAfter2010 extends Website{
 //        System.out.println(htmlString);
         Matcher titleMatcher = TITLE_PATTERN.matcher(htmlString);
         if (titleMatcher.find()) {
-            titleString = titleMatcher.group(4);
+            titleString = titleMatcher.group(1);
         }
     }
 
@@ -67,15 +56,19 @@ public class AAAILibAfter2010 extends Website{
     @Override
     void setAuthors() {
         Matcher authorsMatcher = AUTHORS_PATTERN.matcher(htmlString);
-        if (authorsMatcher.find()) {
-            String wholeAuthorsString = authorsMatcher.group(6);
-            authorsString = wholeAuthorsString.replaceAll(", ", ",");
+        while (authorsMatcher.find()) {
+            authorsString = authorsString + "," + authorsMatcher.group(1);
+        }
+        // Remove the first comma if keywords are found.
+        // In some articles there are no keywords.
+        if (authorsString.length() > 0) {
+            authorsString = authorsString.substring(1);
         }
     }
 
     @Override
     String constructUrlFromDoi(String doi) {
-        return String.format(ARTICLE_ABSTRACT_URL_PREFIX, doi);
+        return ARTICLE_ABSTRACT_URL_PREFIX + doi;
     }
 
 }
