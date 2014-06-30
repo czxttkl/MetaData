@@ -32,7 +32,7 @@ public class AAAIUrlCollectorBefore2010 {
             String finalString = sBuilder.toString();
 
             // Url Pattern before 2010
-            Pattern urlPattern = Pattern.compile("http://www.aaai.org/Library/AAAI/(\\d){4}/(.*?).php");
+            Pattern urlPattern = Pattern.compile("http://www.aaai.org/Library/AAAI/(\\d){3,}?/(.*?).php");
             Matcher urlMatcher = urlPattern.matcher(finalString);
             while (urlMatcher.find()) {
                 String urlString = urlMatcher.group();

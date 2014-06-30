@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public class AAAILibAfter2010 extends Website {
 
-    public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://www.aaai.org/ocs/index.php/AAAI/";
+    public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://www.aaai.org/ocs/index.php/";
     public static final Pattern TITLE_PATTERN = Pattern.compile("<meta name=\"citation_title\" content=\"(.*?)\"/>");
     public static final Pattern YEAR_PATTERN = Pattern
             .compile("<meta name=\"DC.Date.dateSubmitted\" scheme=\"ISO8601\" content=\"(\\d{4})-\\d{2}-\\d{2}\"/>");
@@ -38,7 +38,6 @@ public class AAAILibAfter2010 extends Website {
 
     @Override
     void setTitle() {
-//        System.out.println(htmlString);
         Matcher titleMatcher = TITLE_PATTERN.matcher(htmlString);
         if (titleMatcher.find()) {
             titleString = titleMatcher.group(1);
