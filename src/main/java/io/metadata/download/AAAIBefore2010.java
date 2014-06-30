@@ -3051,8 +3051,9 @@ public class AAAIBefore2010 {
             System.out.println(mWebsite.getAuthors());
             System.out.println(mWebsite.getYear());
             
+            // Anti-robotics
+            Thread.sleep((long) (10000 + Math.random() * 10000));
             System.out.println();
-            Thread.sleep(3000);
         }
     }
 
