@@ -148,6 +148,10 @@ public class CGames {
             System.out.println(mWebsite.getAuthors());
             System.out.println(mWebsite.getYear());
             System.out.println();
+            
+            // Anti-robotics
+            Thread.sleep((long) (10000 + Math.random() * 10000));
+            System.out.println();
         }
     }
 }

@@ -1,5 +1,7 @@
 package io.metadata;
 
+import io.metadata.misc.Downloader;
+
 import java.io.IOException;
 import java.net.URL;
 
@@ -21,33 +23,33 @@ public abstract class Website {
         process();
     }
     
-    void constructUrl(String doi) {
+    final void constructUrl(String doi) {
         articleUrl = constructUrlFromDoi(doi);
     }
 
     abstract String constructUrlFromDoi(String doi);
     
-    public String getKeywords() throws IOException {
+    public final String getKeywords(){
         return keywordsString;
     }
 
-    public String getAbstract() {
+    public final String getAbstract() {
         return abstractString;
     }
 
-    public String getTitle() {
+    public final String getTitle() {
         return titleString;
     }
 
-    public String getYear() {
+    public final String getYear() {
         return yearString;
     }
     
-    public String getAuthors() {
+    public final String getAuthors() {
         return authorsString;
     }
     
-    void process() throws IOException {
+    final void process() throws IOException {
         htmlString = Downloader.toString(new URL(articleUrl));
         setKeywords();
         setAbstract();

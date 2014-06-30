@@ -1,4 +1,4 @@
-package io.metadata;
+package io.metadata.misc;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -20,8 +20,8 @@ import org.xml.sax.helpers.DefaultHandler;
  */
 public class DBLPParser {
     
-    public static String dblpLocation = "file:///C:/workspace/MetaData/dblp.xml";
-    public static String confNameToDetect = "gdcse";
+    public static String dblpLocation = "dblp.xml";
+    public static String confNameToDetect = "AIIDE";
     
     public static void main(String[] args) {
         try {

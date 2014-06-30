@@ -22,31 +22,6 @@ public class ACM extends Website {
     }
 
     @Override
-    public String getKeywords() throws IOException {
-        return keywordsString;
-    }
-
-    @Override
-    public String getAbstract() {
-        return abstractString;
-    }
-
-    @Override
-    public String getTitle() {
-        return titleString;
-    }
-
-    @Override
-    public String getYear() {
-        return yearString;
-    }
-
-    @Override
-    public String getAuthors() {
-        return authorsString;
-    }
-
-    @Override
     void setKeywords() {
         Matcher keywordsMatcher = KEYWORD_PATTERN.matcher(htmlString);
         if (keywordsMatcher.find()) {
