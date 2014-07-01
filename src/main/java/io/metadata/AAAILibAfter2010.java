@@ -4,6 +4,12 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * Url patterns are different before and after 2010 from AAAI.
+ * 
+ * @author Zhengxing Chen
+ * 
+ */
 public class AAAILibAfter2010 extends Website {
 
     public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://www.aaai.org/ocs/index.php/";
@@ -21,11 +27,6 @@ public class AAAILibAfter2010 extends Website {
     @Override
     void setKeywords() {
         // AAAI papers don't have keywords. Use subjects instead.
-        /*
-         * Matcher keywordsMatcher = KEYWORD_PATTERN.matcher(htmlString); if (keywordsMatcher.find()) { String wholeKeywordsString = keywordsMatcher.group(1); String[] keywords =
-         * wholeKeywordsString.split(";"); for (String keyword : keywords) { keywordsString = keywordsString + "," + keyword.substring(keyword.indexOf(" ") + 1); } } // Remove the first comma if
-         * keywords are found. // In some articles there are no keywords. if (keywordsString.length() > 0) { keywordsString = keywordsString.substring(1); }
-         */
     }
 
     @Override

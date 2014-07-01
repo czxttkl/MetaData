@@ -14,7 +14,8 @@ public class ACM extends Website {
     public static final Pattern TITLE_PATTERN = Pattern.compile("<meta name=\"citation_title\" content=\"(.*?)\">");
     public static final Pattern YEAR_PATTERN = Pattern.compile("<meta name=\"citation_date\" content=\"(\\d){2}/(\\d){2}/((\\d){4})\">");
     public static final Pattern KEYWORD_PATTERN = Pattern.compile("<meta name=\"citation_keywords\" content=\"(.*?)\">");
-    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("ABSTRACT</A></h1>\\s+(.*?)\\s+(.*?)<div style=\"display:inline\">(<p>)*(.*?)(</p>)*</div>");
+    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("ABSTRACT</A></h1>\\s+(.*?)\\s+(.*?)<div style=\"display:inline\">" +
+            "(<p>)*(.*?)(</p>)*</div>");
     public static final Pattern AUTHORS_PATTERN = Pattern.compile("<meta name=\"citation_authors\" content=\"(.*?)\">");
 
     public ACM(String doi) throws IOException {

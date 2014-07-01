@@ -4,7 +4,7 @@ import io.metadata.MetaDataFactory;
 import io.metadata.Website;
 
 /**
- * Url patterns are different before and after 2010 from AAAI
+ * Url patterns are different before and after 2010 from AAAI.
  * @author Zhengxing Chen
  *
  */

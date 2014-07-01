@@ -4,7 +4,7 @@ import io.metadata.MetaDataFactory;
 import io.metadata.Website;
 
 /**
- * ACE contains papers both from acm and springer
+ * ACE contains papers both from acm and springer.
  * @author Zhengxing Chen
  */
 public class ACE {
@@ -807,8 +807,8 @@ public class ACE {
             // ACM forbids robotic process
             Thread.sleep((long) (10000 + Math.random() * 10000));
             System.out.println();
-        }*/
-        
+        }
+        */
         for (String doi : springerDois) {
             System.out.println(doi);
             Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.Springer", doi);
