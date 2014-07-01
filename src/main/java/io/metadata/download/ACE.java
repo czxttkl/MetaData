@@ -795,7 +795,7 @@ public class ACE {
     public static void main(String[] args) throws Exception {
         MetaDataFactory mMetaDataFactory = new MetaDataFactory();
         
-        /*for (String doi : acmDois) {
+        for (String doi : acmDois) {
             System.out.println(doi);
             Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.ACM", doi);
             System.out.println(mWebsite.getTitle());
@@ -808,12 +808,13 @@ public class ACE {
             Thread.sleep((long) (10000 + Math.random() * 10000));
             System.out.println();
         }
-        */
+        
         for (String doi : springerDois) {
             System.out.println(doi);
             Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.Springer", doi);
             System.out.println(mWebsite.getTitle());
             System.out.println(mWebsite.getAbstract());
+            // Note: some papers don't have keywords.
             System.out.println(mWebsite.getKeywords());
             System.out.println(mWebsite.getAuthors());
             System.out.println(mWebsite.getYear());
