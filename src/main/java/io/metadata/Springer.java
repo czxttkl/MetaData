@@ -4,20 +4,16 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * @author Zhengxing Chen
- *
- */
-public class ACM extends Website {
+public class Springer extends Website {
 
     public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://dl.acm.org/citation.cfm?doid=%s&preflayout=flat";
     public static final Pattern TITLE_PATTERN = Pattern.compile("<meta name=\"citation_title\" content=\"(.*?)\">");
     public static final Pattern YEAR_PATTERN = Pattern.compile("<meta name=\"citation_date\" content=\"(\\d){2}/(\\d){2}/((\\d){4})\">");
     public static final Pattern KEYWORD_PATTERN = Pattern.compile("<meta name=\"citation_keywords\" content=\"(.*?)\">");
-    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("ABSTRACT</A></h1>\\s+(.*?)\\s+(.*?)<div style=\"display:inline\">(<p>)*(.*?)(</p>)*</div>");
+    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("ABSTRACT</A></h1>\\s+(.*?)\\s+(.*?)<p>(.*)</p>");
     public static final Pattern AUTHORS_PATTERN = Pattern.compile("<meta name=\"citation_authors\" content=\"(.*?)\">");
 
-    public ACM(String doi) throws IOException {
+    public Springer(String doi) throws IOException {
         super(doi);
     }
 
@@ -28,7 +24,7 @@ public class ACM extends Website {
             String wholeKeywordsStrings = keywordsMatcher.group(1);
             String[] keywordsStrings = wholeKeywordsStrings.split(";");
             for (String keywordString : keywordsStrings) {
-                keywordsString = keywordsString + "," + keywordString.trim();
+                keywordsString = keywordsString + "," + keywordString;
             }
         }
         // Remove the first comma if keywords are found.
@@ -44,7 +40,7 @@ public class ACM extends Website {
     void setAbstract() {
         Matcher abstractMatcher = ABSTRACT_PATTERN.matcher(htmlString);
         if (abstractMatcher.find()) {
-            abstractString = abstractMatcher.group(4);
+            abstractString = abstractMatcher.group(3);
         }
     }
 

@@ -21,7 +21,7 @@ import org.xml.sax.helpers.DefaultHandler;
 public class DBLPParser {
     
     public static String dblpLocation = "dblp.xml";
-    public static String confNameToDetect = "ACMace/2004";
+    public static String confNameToDetect = "ACMace";
     
     public static void main(String[] args) {
         try {
@@ -55,7 +55,7 @@ public class DBLPParser {
                     
                     if (crossrefField) {
                         String confName = new String(ch, start, length);
-                        if (confName.contains(confNameToDetect)) {
+                        if (confName.contains(confNameToDetect) && lastEEString.contains("acm")) {
                             System.out.println(confName + ":" + lastEEString);
                         }
                         crossrefField = false;
