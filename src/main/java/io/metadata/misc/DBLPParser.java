@@ -55,7 +55,7 @@ public class DBLPParser {
                     
                     if (crossrefField) {
                         String confName = new String(ch, start, length);
-                        if (confName.contains(confNameToDetect) && lastEEString.contains("acm")) {
+                        if (confName.contains(confNameToDetect) && lastEEString.contains("dx.")) {
                             System.out.println(confName + ":" + lastEEString);
                         }
                         crossrefField = false;

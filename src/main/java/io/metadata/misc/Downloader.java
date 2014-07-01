@@ -24,8 +24,8 @@ public class Downloader {
     public static String toString(URL mURL) throws IOException {
         InputStream is = getInputStreamFromUrl(mURL);
         try (Scanner s = new Scanner(is, "UTF-8")) {
-            String htmlString = s.useDelimiter("\\A").hasNext() ? s.next() : "";
-            return StringEscapeUtils.unescapeHtml(htmlString);
+            return s.useDelimiter("\\A").hasNext() ? s.next() : "";
+//            return StringEscapeUtils.unescapeHtml(htmlString);
         }
     }
 

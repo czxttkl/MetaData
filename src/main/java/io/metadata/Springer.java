@@ -4,14 +4,18 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * @author Zhengxing Chen
+ *
+ */
 public class Springer extends Website {
 
-    public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://dl.acm.org/citation.cfm?doid=%s&preflayout=flat";
-    public static final Pattern TITLE_PATTERN = Pattern.compile("<meta name=\"citation_title\" content=\"(.*?)\">");
-    public static final Pattern YEAR_PATTERN = Pattern.compile("<meta name=\"citation_date\" content=\"(\\d){2}/(\\d){2}/((\\d){4})\">");
-    public static final Pattern KEYWORD_PATTERN = Pattern.compile("<meta name=\"citation_keywords\" content=\"(.*?)\">");
-    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("ABSTRACT</A></h1>\\s+(.*?)\\s+(.*?)<p>(.*)</p>");
-    public static final Pattern AUTHORS_PATTERN = Pattern.compile("<meta name=\"citation_authors\" content=\"(.*?)\">");
+    public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://link.springer.com/chapter/";
+    public static final Pattern TITLE_PATTERN = Pattern.compile("<meta name=\"citation_title\" content=\"(.*?)\"/>");
+    public static final Pattern YEAR_PATTERN = Pattern.compile("<meta name=\"citation_publication_date\" content=\"(\\d{4})/\\d{2}/\\d{2}\"/>");
+    public static final Pattern KEYWORD_PATTERN = Pattern.compile("<ul class=\"abstract-keywords\">\\s+(<li>(.*?)</li>\\s+)+</ul>");
+    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("<div class=\"abstract-content formatted\" itemprop=\"description\">\\s+<p class=\"a-plus-plus\">(.*?)</p>");
+    public static final Pattern AUTHORS_PATTERN = Pattern.compile("<meta name=\"citation_author\" content=\"(.*?)\"/>");
 
     public Springer(String doi) throws IOException {
         super(doi);
@@ -21,10 +25,10 @@ public class Springer extends Website {
     void setKeywords() {
         Matcher keywordsMatcher = KEYWORD_PATTERN.matcher(htmlString);
         if (keywordsMatcher.find()) {
-            String wholeKeywordsStrings = keywordsMatcher.group(1);
-            String[] keywordsStrings = wholeKeywordsStrings.split(";");
-            for (String keywordString : keywordsStrings) {
-                keywordsString = keywordsString + "," + keywordString;
+            String keywordsBlockString = keywordsMatcher.group(0);
+            Matcher subKeywordsMatcher = Pattern.compile("<li>(.*?)</li>").matcher(keywordsBlockString);
+            while (subKeywordsMatcher.find()) {
+                keywordsString = keywordsString + "," + subKeywordsMatcher.group(1);
             }
         }
         // Remove the first comma if keywords are found.
@@ -40,12 +44,13 @@ public class Springer extends Website {
     void setAbstract() {
         Matcher abstractMatcher = ABSTRACT_PATTERN.matcher(htmlString);
         if (abstractMatcher.find()) {
-            abstractString = abstractMatcher.group(3);
+            abstractString = abstractMatcher.group(1);
         }
     }
 
     @Override
     void setTitle() {
+        System.out.println(htmlString);
         Matcher titleMatcher = TITLE_PATTERN.matcher(htmlString);
         if (titleMatcher.find()) {
             titleString = titleMatcher.group(1);
@@ -56,22 +61,15 @@ public class Springer extends Website {
     void setYears() {
         Matcher yearMatcher = YEAR_PATTERN.matcher(htmlString);
         if (yearMatcher.find()) {
-            yearString = yearMatcher.group(3);
+            yearString = yearMatcher.group(1);
         }
     }
 
     @Override
     void setAuthors() {
         Matcher authorsMatcher = AUTHORS_PATTERN.matcher(htmlString);
-        if (authorsMatcher.find()) {
-            String wholeAuthorsString = authorsMatcher.group(1);
-            String[] authorsStringArr = wholeAuthorsString.split(";");
-            for (String authorString : authorsStringArr) {
-                String[] names = authorString.split(",");
-                String lastName = names[0].trim();
-                String firstName = names[1].trim();
-                authorsString = authorsString + "," + firstName + " " + lastName;
-            }
+        while (authorsMatcher.find()) {
+            authorsString = authorsString + "," + authorsMatcher.group(1);
         }
         // Remove the first comma if keywords are found.
         // In some articles there are no keywords.
@@ -82,7 +80,7 @@ public class Springer extends Website {
 
     @Override
     String constructUrlFromDoi(String doi) {
-        return String.format(ARTICLE_ABSTRACT_URL_PREFIX, doi);
+        return ARTICLE_ABSTRACT_URL_PREFIX + doi;
     }
 
 }
