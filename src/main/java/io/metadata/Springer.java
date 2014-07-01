@@ -5,28 +5,41 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Url patterns are different before and after 2010 from AAAI.
- * 
  * @author Zhengxing Chen
- * 
+ *
  */
-public class AAAILibAfter2010 extends Website {
+public class Springer extends Website {
 
-    public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://www.aaai.org/ocs/index.php/";
+    public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://link.springer.com/chapter/";
     public static final Pattern TITLE_PATTERN = Pattern.compile("<meta name=\"citation_title\" content=\"(.*?)\"/>");
-    public static final Pattern YEAR_PATTERN = Pattern
-            .compile("<meta name=\"DC.Date.dateSubmitted\" scheme=\"ISO8601\" content=\"(\\d{4})-\\d{2}-\\d{2}\"/>");
-    // public static final Pattern KEYWORD_PATTERN = Pattern.compile("<p><i>Subjects: </i>(.*?)</p>");
-    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("<meta name=\"DC.Description\" xml:lang=\"en\" content=\"(.*?)\"/>");
-    public static final Pattern AUTHORS_PATTERN = Pattern.compile("<meta name=\"DC.Creator.PersonalName\" content=\"(.*?)\"/>");
+    public static final Pattern YEAR_PATTERN = Pattern.compile("<meta name=\"citation_publication_date\" content=\"(\\d{4})/\\d{2}/" +
+            "\\d{2}\"/>");
+    public static final Pattern KEYWORD_PATTERN = Pattern.compile("<ul class=\"abstract-keywords\">\\s+(<li>(.*?)</li>\\s+)+</ul>");
+    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("<div class=\"abstract-content formatted\" itemprop=\"description" +
+            "\">\\s+<p class=\"a-plus-plus\">(.*?)</p>");
+    public static final Pattern AUTHORS_PATTERN = Pattern.compile("<meta name=\"citation_author\" content=\"(.*?)\"/>");
 
-    public AAAILibAfter2010(String doi) throws IOException {
+    public Springer(String doi) throws IOException {
         super(doi);
     }
 
     @Override
     void setKeywords() {
-        // AAAI papers don't have keywords. Use subjects instead.
+        Matcher keywordsMatcher = KEYWORD_PATTERN.matcher(htmlString);
+        if (keywordsMatcher.find()) {
+            String keywordsBlockString = keywordsMatcher.group(0);
+            Matcher subKeywordsMatcher = Pattern.compile("<li>(.*?)</li>").matcher(keywordsBlockString);
+            while (subKeywordsMatcher.find()) {
+                keywordsString = keywordsString + "," + subKeywordsMatcher.group(1);
+            }
+        }
+        // Remove the first comma if keywords are found.
+        // In some articles there are no keywords.
+        if (keywordsString.length() > 0) {
+            keywordsString = keywordsString.substring(1);
+        } else {
+            System.err.println("No Keyword found");
+        }
     }
 
     @Override

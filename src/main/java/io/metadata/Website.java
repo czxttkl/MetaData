@@ -1,9 +1,8 @@
 package io.metadata;
 
-import io.metadata.misc.Downloader;
-
 import java.io.IOException;
 import java.net.URL;
+import io.metadata.misc.Downloader;
 
 /**
  * Created by Zhengxing Chen.
@@ -22,14 +21,14 @@ public abstract class Website {
         constructUrl(doi);
         process();
     }
-    
+
     final void constructUrl(String doi) {
         articleUrl = constructUrlFromDoi(doi);
     }
 
     abstract String constructUrlFromDoi(String doi);
-    
-    public final String getKeywords(){
+
+    public final String getKeywords() {
         return keywordsString;
     }
 
@@ -44,11 +43,11 @@ public abstract class Website {
     public final String getYear() {
         return yearString;
     }
-    
+
     public final String getAuthors() {
         return authorsString;
     }
-    
+
     final void process() throws IOException {
         htmlString = Downloader.toString(new URL(articleUrl));
         setKeywords();
@@ -57,14 +56,14 @@ public abstract class Website {
         setYears();
         setAuthors();
     }
-    
+
     abstract void setKeywords();
-    
+
     abstract void setAbstract();
-    
+
     abstract void setTitle();
-    
+
     abstract void setYears();
-    
+
     abstract void setAuthors();
 }

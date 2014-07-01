@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Url patterns are different before and after 2010 from AAAI
+ * Url patterns are different before and after 2010 from AAAI.
  * @author Zhengxing Chen
  *
  */
@@ -21,8 +21,9 @@ public class AAAIUrlCollectorAfter2010 {
         File files = new File("data/aiide-after-2009");
 
         for (File file : files.listFiles()) {
-            if (!file.getName().endsWith(".htm"))
+            if (!file.getName().endsWith(".htm")) {
                 continue;
+            }
 
             StringBuilder sBuilder = new StringBuilder();
             BufferedReader bf = new BufferedReader(new FileReader(file));
