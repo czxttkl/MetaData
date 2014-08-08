@@ -30,6 +30,7 @@ repositories {
 
 dependencies {
     compile 'commons-lang:commons-lang:2.6'
+    compile 'org.mongodb:mongo-java-driver:2.12.3'
 }
 
 
