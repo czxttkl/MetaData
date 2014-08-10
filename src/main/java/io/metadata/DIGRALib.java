@@ -13,11 +13,11 @@ public class DIGRALib extends Website {
     public static final Pattern TITLE_PATTERN = Pattern.compile("<h1 class=\"entry-title\">(.*)</h1>");
     public static final Pattern YEAR_PATTERN = Pattern.compile("http://www.digra.org/digital-library/forums/digra((\\d){4})");
     public static final Pattern KEYWORD_PATTERN = Pattern
-            .compile("<a href=\"http://www.digra.org/digital-library/keywords/(.*?)/\">(.*?)</a>");
+            .compile("<a href=\"http://www.digra.org/digital-library/keywords/(.*?)>(.*?)</a>");
     public static final Pattern ABSTRACT_PATTERN = Pattern
-            .compile("<label class=\"diglib_item\">Abstract: </label>\\s+<br />\\s+<p>(.*)</p>");
+            .compile("<label class=\"diglib_item\">Abstract: </label>([\\s\\S]*?)<p>([\\s\\S]*?)</p>");
     public static final Pattern AUTHORS_PATTERN = Pattern
-            .compile("<a href=\"http://www.digra.org/digital-library/authors/(.*?)/\">(.*?)</a>");
+            .compile("<a href=\"http://www.digra.org/digital-library/authors/(.*?)>(.*?)</a>");
 
     public DIGRALib(String doi) throws IOException {
         super(doi);
@@ -40,7 +40,7 @@ public class DIGRALib extends Website {
     void setAbstract() {
         Matcher abstractMatcher = ABSTRACT_PATTERN.matcher(htmlString);
         if (abstractMatcher.find()) {
-            abstractString = abstractMatcher.group(1);
+            abstractString = abstractMatcher.group(2);
         }
     }
 

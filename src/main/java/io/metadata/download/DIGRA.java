@@ -2,27 +2,33 @@ package io.metadata.download;
 
 import io.metadata.MetaDataFactory;
 import io.metadata.Website;
+import io.metadata.misc.Globals;
+import io.metadata.orm.MyMongoCollection;
+import io.metadata.orm.Paper;
 
 /**
  * @author Zhengxing Chen
  */
 public class DIGRA {
 
-    public static String[] dois = {
-        "Rules-in-Computer-Games-Compared-to-Rules-in-Traditional-Games",
-        "The-Sightlence-Game-Designing-a-Haptic-Computer-Game-Interface",
-        "Defragmentation-and-Mashup-Ludic-Mashup-as-a-Design-Approach",
-        "An-Account-of-Proceduralist-Meaning",
-        "Moving-on-from-the-Original-Experience-Games-history,-preservation-and-presentation",
-        "i-commenced-an-examination-of-a-game-called-tit-tat-to-charles-babbage-and-the-first-computer-game",
-        "Embodied-Interactive-Characters-using-Social-Robots",
-        "Experts-and-Novices-or-Expertise-Positioning-Players-through-Gameplay-Reviews",
-        "Leveraging-Play-in-Health-Based-Games-to-Promote-Sustained-Behavior-Change-in-Healthy-Eating-and-Exercise",
-        "Ethnographic-Fieldwork-in-the-Study-of-Game-Production",
-    };
-    
+    public static String[] dois = { 
+            "Rules-in-Computer-Games-Compared-to-Rules-in-Traditional-Games",
+            "The-Sightlence-Game-Designing-a-Haptic-Computer-Game-Interface",
+            "Defragmentation-and-Mashup-Ludic-Mashup-as-a-Design-Approach", "An-Account-of-Proceduralist-Meaning",
+            "Moving-on-from-the-Original-Experience-Games-history,-preservation-and-presentation",
+            "i-commenced-an-examination-of-a-game-called-tit-tat-to-charles-babbage-and-the-first-computer-game",
+            "Embodied-Interactive-Characters-using-Social-Robots",
+            "Experts-and-Novices-or-Expertise-Positioning-Players-through-Gameplay-Reviews",
+            "Leveraging-Play-in-Health-Based-Games-to-Promote-Sustained-Behavior-Change-in-Healthy-Eating-and-Exercise",
+            "Ethnographic-Fieldwork-in-the-Study-of-Game-Production", 
+   };
+
     public static void main(String[] args) throws Exception {
+        // Initialize self-wrapped mongocollection
+        MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
+        
         MetaDataFactory mMetaDataFactory = new MetaDataFactory();
+
         for (String doi : dois) {
             Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.DIGRALib", doi);
             System.out.println(mWebsite.getTitle());
@@ -31,7 +37,10 @@ public class DIGRA {
             System.out.println(mWebsite.getAuthors());
             System.out.println(mWebsite.getYear());
             System.out.println();
-            
+
+            mPapersCollection.insert(new Paper().setTitle(mWebsite.getTitle()).setAbstraction(mWebsite.getAbstract())
+                    .setKeywords(mWebsite.getKeywords()).setAuthors(mWebsite.getAuthors()).setYear(mWebsite.getYear()).setVenue("DIGRA"));
+
             // Anti-robotics
             Thread.sleep((long) (10000 + Math.random() * 10000));
             System.out.println();
