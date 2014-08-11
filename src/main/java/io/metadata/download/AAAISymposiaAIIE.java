@@ -11,8 +11,8 @@ import io.metadata.orm.Paper;
 
 
 /**
- * @author Zhengxing Chen
  * Download AAAI Symposia. 
+ * @author Zhengxing Chen
  *
  */
 public class AAAISymposiaAIIE {

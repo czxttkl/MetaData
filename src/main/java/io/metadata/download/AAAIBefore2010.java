@@ -1,7 +1,13 @@
 package io.metadata.download;
 
+import java.io.IOException;
+
 import io.metadata.MetaDataFactory;
 import io.metadata.Website;
+import io.metadata.misc.Globals;
+import io.metadata.misc.Logger;
+import io.metadata.orm.MyMongoCollection;
+import io.metadata.orm.Paper;
 
 /**
  * Url patterns are different before and after 2010 from AAAI.
@@ -2929,18 +2935,36 @@ public class AAAIBefore2010 {
         "AAAI/2008/aaai08-274",
         
     };
-    
-    public static void main(String[] args) throws Exception {
+    public static final String VENUE = "AIII";
+
+    public static void main(String[] args) throws IOException, InterruptedException {
+        // Initialize logger
+        Logger mLogger = new Logger("logAIII", true);
+
+        // Initialize self-wrapped mongocollection
+        MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
+
         MetaDataFactory mMetaDataFactory = new MetaDataFactory();
+        
         for (String doi : dois) {
-            System.out.println(doi);
-            Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.AAAILibBefore2010", doi);
-            System.out.println(mWebsite.getTitle());
-            System.out.println(mWebsite.getAbstract());
-            // Note: AAAI papers don't have keywords.
-            // System.out.println(mWebsite.getKeywords());
-            System.out.println(mWebsite.getAuthors());
-            System.out.println(mWebsite.getYear());
+            try {
+                Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.AAAILibBefore2010", doi);
+                // Note: AAAI papers don't have keywords.
+                mLogger.appendLine(doi);
+                mLogger.appendLine(mWebsite.getTitle());
+                mLogger.appendLine(mWebsite.getAbstract());
+                mLogger.appendLine(mWebsite.getKeywords());
+                mLogger.appendLine(mWebsite.getAuthors());
+                mLogger.appendLine(mWebsite.getYear());
+                mLogger.appendLine("");
+
+                mPapersCollection.insert(new Paper().setTitle(mWebsite.getTitle()).setAbstraction(mWebsite.getAbstract())
+                        .setKeywords(mWebsite.getKeywords()).setAuthors(mWebsite.getAuthors()).setYear(mWebsite.getYear()).setVenue(VENUE)); 
+            } catch (Exception e) {
+                // Catch any exception
+                mLogger.appendLine("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+                mLogger.appendLine(e.getMessage());
+            }
             
             // Anti-robotics
             Thread.sleep((long) (10000 + Math.random() * 10000));

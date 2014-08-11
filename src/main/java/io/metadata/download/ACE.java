@@ -805,7 +805,7 @@ public class ACE {
             System.out.println(mWebsite.getAuthors());
             System.out.println(mWebsite.getYear());
             // ACM forbids robotic process
-            Thread.sleep((long) (10000 + Math.random() * 10000));
+            Thread.sleep((long) (Math.random() * 60000));
             System.out.println();
         }
         
@@ -818,7 +818,7 @@ public class ACE {
             System.out.println(mWebsite.getKeywords());
             System.out.println(mWebsite.getAuthors());
             System.out.println(mWebsite.getYear());
-            Thread.sleep((long) (10000 + Math.random() * 10000));
+            Thread.sleep((long) ( Math.random() * 60000));
             System.out.println();
         }
         
