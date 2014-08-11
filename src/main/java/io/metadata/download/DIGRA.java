@@ -13,7 +13,7 @@ import io.metadata.orm.Paper;
 public class DIGRA {
 
     public static String[] dois = { 
-        //1
+  /*      //1
         "designing-inside-the-box-or-pitching-practices-in-industry-and-education/",
         "pressure-at-play-measuring-player-approach-and-avoidance-behaviour-through-the-keyboard/",
         "what-makes-young-children-active-game-players-ethnographic-case-study/",
@@ -111,7 +111,7 @@ public class DIGRA {
         "game-design-tools-time-to-evaluate/",
         "in-defence-of-a-magic-circle-the-social-and-mental-boundaries-of-play/",
         "meta-synthesis-of-player-typologies/",
-        "the-early-micro-user-games-writing-hardware-hacking-and-the-will-to-mod/",
+        "the-early-micro-user-games-writing-hardware-hacking-and-the-will-to-mod/", */
         //10
         "mains-and-alts-multiple-character-management-in-world-of-warcraft/",
         "age-restriction-re-examining-the-interactive-experience-of-harmful-game-content/",
@@ -797,18 +797,23 @@ public class DIGRA {
         MetaDataFactory mMetaDataFactory = new MetaDataFactory();
 
         for (String doi : dois) {
-            Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.DIGRALib", doi);
+            try {
+                Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.DIGRALib", doi);
+                mLogger.appendLine(mWebsite.getTitle());
+                mLogger.appendLine(mWebsite.getAbstract());
+                mLogger.appendLine(mWebsite.getKeywords());
+                mLogger.appendLine(mWebsite.getAuthors());
+                mLogger.appendLine(mWebsite.getYear());
+                mLogger.appendLine("");
+
+                mPapersCollection.insert(new Paper().setTitle(mWebsite.getTitle()).setAbstraction(mWebsite.getAbstract())
+                        .setKeywords(mWebsite.getKeywords()).setAuthors(mWebsite.getAuthors()).setYear(mWebsite.getYear()).setVenue(VENUE));
+            } catch (Exception e) {
+                // Catch any exception
+                mLogger.appendLine("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+                mLogger.appendLine(e.getMessage());
+            }
             
-            mLogger.appendLine(mWebsite.getTitle());
-            mLogger.appendLine(mWebsite.getAbstract());
-            mLogger.appendLine(mWebsite.getKeywords());
-            mLogger.appendLine(mWebsite.getAuthors());
-            mLogger.appendLine(mWebsite.getYear());
-            mLogger.appendLine("");
-
-            mPapersCollection.insert(new Paper().setTitle(mWebsite.getTitle()).setAbstraction(mWebsite.getAbstract())
-                    .setKeywords(mWebsite.getKeywords()).setAuthors(mWebsite.getAuthors()).setYear(mWebsite.getYear()).setVenue(VENUE));
-
             // Anti-robotics
             Thread.sleep((long) (10000 + Math.random() * 10000));
             System.out.println();

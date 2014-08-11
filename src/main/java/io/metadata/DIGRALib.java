@@ -11,7 +11,8 @@ public class DIGRALib extends Website {
 
     public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://www.digra.org/digital-library/publications/";
     public static final Pattern TITLE_PATTERN = Pattern.compile("<h1 class=\"entry-title\">(.*)</h1>");
-    public static final Pattern YEAR_PATTERN = Pattern.compile("http://www.digra.org/digital-library/forums/digra((\\d){4})");
+//    public static final Pattern YEAR_PATTERN = Pattern.compile("http://www.digra.org/digital-library/forums/digra((\\d){4})");
+    public static final Pattern YEAR_PATTERN = Pattern.compile("<meta name=\"citation_publication_date\" content=\"((\\d){4})\">");
     public static final Pattern KEYWORD_PATTERN = Pattern
             .compile("<a href=\"http://www.digra.org/digital-library/keywords/(.*?)>(.*?)</a>");
     public static final Pattern ABSTRACT_PATTERN = Pattern
