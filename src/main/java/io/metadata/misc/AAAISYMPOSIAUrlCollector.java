@@ -8,16 +8,15 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Url patterns are different before and after 2010 from AAAI.
+ * AAAI symposia artificial intelligence and interactive environment 2000 - 2002.
  * @author Zhengxing Chen
  *
  */
-public class AAAIUrlCollectorAfter2010 {
+public class AAAISYMPOSIAUrlCollector {
 
     public static void main(String[] args) throws IOException {
-
-        // load files after 2010
-        File files = new File("data/aaai-after-2010");
+        // load files
+        File files = new File("data/aaai-symposia");
 
         for (File file : files.listFiles()) {
             if (!file.getName().endsWith(".htm")) {
@@ -32,15 +31,14 @@ public class AAAIUrlCollectorAfter2010 {
             }
             String finalString = sBuilder.toString();
 
-            // Url Pattern after 2010
-            Pattern urlPattern = Pattern.compile("(http://(www.)*aaai.org/ocs/index.php/AAAI/AAAI(\\d{2})/paper/view/\\d{3,}?)\"");
+            // Url Pattern
+            Pattern urlPattern = Pattern.compile("http://www.aaai.org/Library/Symposia/Spring/(\\d){4}/(.*?).php");
             Matcher urlMatcher = urlPattern.matcher(finalString);
             while (urlMatcher.find()) {
-                String urlString = urlMatcher.group(1);
+                String urlString = urlMatcher.group();
                 System.out.println(urlString);
             }
             bf.close();
         }
     }
-
 }

@@ -13,18 +13,14 @@ public class AAAILibBefore2010 extends Website {
 
     public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://www.aaai.org/Library/%s.php";
     public static final Pattern TITLE_PATTERN = Pattern
-            .compile("<h1><a href=\"../../../Papers/(.*?)/(\\d{4})/(.*?).pdf\">(.*?)</a></h1>(\\s)+<p( class=\"left\")*><i>(.*?)</i></p>" +
-                     "(\\s)+<p>(\\s)*(.*?)(\\s)*</p>");
+            .compile("Papers/([\\s\\S]*?).pdf\">([\\s\\S]*?)</a>");
     public static final Pattern YEAR_PATTERN = Pattern
-            .compile("<h1><a href=\"../../../Papers/(.*?)/(\\d{4})/(.*?).pdf\">(.*?)</a></h1>(\\s)+<p( class=\"left\")*><i>(.*?)</i></p>" +
-                    "(\\s)+<p>(\\s)*(.*?)(\\s)*</p>");
+            .compile("Papers/([\\s\\S]*?)(\\d{4})([\\s\\S]*?).pdf\">");
     // public static final Pattern KEYWORD_PATTERN = Pattern.compile("<p><i>Subjects: </i>(.*?)</p>");
     public static final Pattern ABSTRACT_PATTERN = Pattern
-            .compile("<h1><a href=\"../../../Papers/(.*?)/(\\d{4})/(.*?).pdf\">(.*?)</a></h1>(\\s)+<p( class=\"left\")*><i>(.*?)</i></p>" +
-                    "(\\s)+<p>(\\s)*(.*?)(\\s)*</p>");
+            .compile("Papers/([\\s\\S]*?).pdf\">([\\s\\S]*?)</p>([\\s\\S]*?)<p>([\\s\\S]*?)</p>");
     public static final Pattern AUTHORS_PATTERN = Pattern
-            .compile("<h1><a href=\"../../../Papers/(.*?)/(\\d{4})/(.*?).pdf\">(.*?)</a></h1>(\\s)+<p( class=\"left\")*><i>(.*?)</i></p>" +
-                    "(\\s)+<p>(\\s)*(.*?)(\\s)*</p>");
+            .compile("<h1><a href=\"([\\s\\S]*?)/Papers/([\\s\\S]*?).pdf\">([\\s\\S]*?)<p([\\s\\S]*?)<i>(.*?)</i></p>");
 
     public AAAILibBefore2010(String doi) throws IOException {
         super(doi);
@@ -39,15 +35,16 @@ public class AAAILibBefore2010 extends Website {
     void setAbstract() {
         Matcher abstractMatcher = ABSTRACT_PATTERN.matcher(htmlString);
         if (abstractMatcher.find()) {
-            abstractString = abstractMatcher.group(10);
+            abstractString = abstractMatcher.group(4);
         }
+        abstractString.trim();
     }
 
     @Override
     void setTitle() {
         Matcher titleMatcher = TITLE_PATTERN.matcher(htmlString);
         if (titleMatcher.find()) {
-            titleString = titleMatcher.group(4);
+            titleString = titleMatcher.group(2);
         }
     }
 
@@ -62,8 +59,9 @@ public class AAAILibBefore2010 extends Website {
     @Override
     void setAuthors() {
         Matcher authorsMatcher = AUTHORS_PATTERN.matcher(htmlString);
+//      System.out.println(htmlString);
         if (authorsMatcher.find()) {
-            String wholeAuthorsString = authorsMatcher.group(7);
+            String wholeAuthorsString = authorsMatcher.group(5);
             authorsString = wholeAuthorsString.replaceFirst(",* and ", ",").replaceAll(", ", ",");
         }
     }
