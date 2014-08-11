@@ -48,6 +48,11 @@ public abstract class Website {
         return authorsString;
     }
 
+    /**
+     * Get html string and set keywords, abstract, title, years, authors.
+     * Using "final" to prevent the method from being inherited.
+     * @throws IOException
+     */
     final void process() throws IOException {
         htmlString = Downloader.toString(new URL(articleUrl));
         setKeywords();
