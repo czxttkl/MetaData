@@ -1,0 +1,151 @@
+/*
+Print Style Sheet
+*/
+
+body {
+background: #ffffff;
+font: normal 11pt/15pt Georgia, "Times New Roman", serif;
+color: #000000;
+}
+
+a:link, a:visited {
+color: #999999;
+background: #ffffff;
+text-decoration: none;
+}
+
+h1 {
+font-weight: bold;
+font-size: 180%;
+}
+
+h2 {
+font-size: 150%;
+font-weight: bold;
+}
+
+h3 {
+font-size: 120%;
+font-weight: bold;
+}
+
+h4 {
+font-size: 110%;
+font-weight: bold;
+}
+
+#header {
+display: none;
+}
+
+#header p {
+display: none;
+}
+
+#navbar {
+display: none;
+}
+
+#main-title {
+display: none;
+}
+
+#footer {
+display: none;
+}
+
+#left-menu {
+display: none;
+}
+
+#right-column {
+display: none;
+}
+
+
+p.footer {
+display: none;
+}
+
+#main-text {
+float: none !important;
+width: auto;
+margin: 0 10%;
+padding-top: 1em;
+border: 0;
+background: transparent none;
+font-size: 95%;
+}
+
+#outer-image1 {
+display: none;
+}
+
+#inner-image1 {
+display: none;
+}
+
+#outer-image2 {
+display: none;
+}
+
+#inner-image2 {
+display: none;
+}
+
+#outer-image3 {
+display: none;
+}
+
+#inner-image3 {
+display: none;
+}
+
+#outer-image4 {
+display: none;
+}
+
+#inner-image4 {
+display: none;
+}
+
+#outer-image5 {
+display: none;
+}
+
+#inner-image5 {
+display: none;
+}
+
+#outer-image6 {
+display: none;
+} 
+
+#inner-image6 {
+display: none;
+}
+
+#outer-image7 {
+display: none;
+}
+
+#inner-image7 {
+display: none;
+}
+
+#outer-image8 {
+display: none;
+}
+
+#inner-image8 {
+display: none;
+}
+
+#content a:link:after, #content a:visited:after {
+content: " (" attr(href) ") ";
+font-size: 90%;
+}
+
+#content a[href^="/"]:after {
+content: " (http://www.aaai.org" attr(href) ") ";
+}

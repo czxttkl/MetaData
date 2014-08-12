@@ -1,0 +1,159 @@
+/** BASIC */
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin-top: 0px;
+}
+
+/** HEADER */
+
+#header {
+	width: 940px;
+	height: 100px;
+	margin: 0px auto;
+}
+
+#logo {
+	float: left;
+	width: 400px;
+	height: 100px;
+	background: url(images/backgrounds/backgrounds00.jpg) no-repeat left top;
+}
+
+#logo h1 { display: none; }
+
+/** SEARCH */
+
+#search {
+	float: right;
+	padding: 55px 35px 0px 0px;
+}
+
+/** MENU */
+
+#menu {
+	width: 900px;
+	height: 42px;
+	margin: 0px auto;
+	padding: 16px 20px 0px 20px;
+	border: 1px solid #FFFFFF;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 20px;
+	padding: 7px 15px 0px 17px;
+	background: url(images/backgrounds/backgrounds14.gif) no-repeat left top;
+}
+
+#menu .first a {
+	background: none;
+}
+
+/** CONTENT */
+
+#content {
+	width: 880px;
+	margin: 0px auto;
+	padding: 40px 30px 30px 30px;
+}
+
+#right {
+	float: right;
+	width: 639px;
+}
+
+#left {
+	float: left;
+	width: 203px;
+}
+
+/** FOOTER */
+
+#footer {
+	width: 940px;
+	margin: 0px auto;
+	padding: 15px 0px;
+}
+
+/** BOX1 */
+
+#box1 {
+	margin-bottom: 40px;
+}
+
+/** BOX2 */
+
+#box2 {
+	float: left;
+	width: 377px;
+}
+
+#box2 .content {
+	padding: 0px 15px;
+}
+
+/** BOX3 */
+
+#box3 {
+	float: right;
+	width: 229px;
+}
+
+#box3 .backgrnd8 {
+	padding: 25px 25px 0px 25px;
+}
+
+/** BOX4 */
+
+#box4 {
+}
+
+#box4 .backgrnd6 {
+	padding-bottom: 15px;
+	background-position: left bottom;
+}
+
+#box4 .content {
+	padding: 0px 15px;
+	margin-bottom: 30px;
+}
+
+/** BOX5 */
+
+#box5 {
+}
+
+#box5 .backgrnd6 {
+	padding-bottom: 15px;
+	background-position: left bottom;
+}
+
+#box5 .content {
+	padding: 0px 15px;
+}
+
+#abstract {
+position: relative;
+width: 250px;
+background-color: #ffffff;
+color: #333333;
+padding-top: 10px;
+padding-right:15px;
+padding-left: 15px; 
+}
