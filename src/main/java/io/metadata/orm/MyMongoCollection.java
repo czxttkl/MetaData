@@ -1,10 +1,10 @@
 package io.metadata.orm;
 
-import io.metadata.misc.Globals;
-
 import com.mongodb.DB;
 import com.mongodb.MongoClient;
 import com.mongodb.WriteResult;
+
+import io.metadata.misc.Globals;
 
 import org.jongo.Jongo;
 import org.jongo.MongoCollection;

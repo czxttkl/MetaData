@@ -12,7 +12,7 @@ import com.mongodb.MongoClient;
  *
  *  Test to connect to mongodb
  */
-public class MongoDB {
+public class MongoDBTest {
 
     /**
      * @param args

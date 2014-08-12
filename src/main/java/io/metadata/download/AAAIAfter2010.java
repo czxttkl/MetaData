@@ -1083,8 +1083,8 @@ public class AAAIAfter2010 {
                 mLogger.appendLine(mWebsite.getYear());
                 mLogger.appendLine("");
                 
-                mPapersCollection.insert(new Paper().setTitle(mWebsite.getTitle()).setAbstraction(mWebsite.getAbstract())
-                        .setKeywords(mWebsite.getKeywords()).setAuthors(mWebsite.getAuthors()).setYear(mWebsite.getYear()).setVenue(VENUE));
+//                mPapersCollection.insert(new Paper().setTitle(mWebsite.getTitle()).setAbstraction(mWebsite.getAbstract())
+//                        .setKeywords(mWebsite.getKeywords()).setAuthors(mWebsite.getAuthors()).setYear(mWebsite.getYear()).setVenue(VENUE));
             } catch (Exception e) {
              // Catch any exception
                 mLogger.appendLine("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");

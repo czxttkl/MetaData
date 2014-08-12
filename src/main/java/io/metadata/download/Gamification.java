@@ -1,5 +1,7 @@
 package io.metadata.download;
 
+import java.io.IOException;
+
 import io.metadata.MetaDataFactory;
 import io.metadata.Website;
 import io.metadata.misc.Globals;
@@ -7,7 +9,6 @@ import io.metadata.misc.Logger;
 import io.metadata.orm.MyMongoCollection;
 import io.metadata.orm.Paper;
 
-import java.io.IOException;
 
 /**
  * @author Zhengxing Chen
@@ -77,7 +78,7 @@ public class Gamification {
             }
             
             // Anti-robotics
-            Thread.sleep((long) ( Math.random() * 60000));
+            Thread.sleep((long) (Math.random() * 60000));
             System.out.println();
         }
     }
