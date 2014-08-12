@@ -19,7 +19,8 @@ import org.jongo.MongoCollection;
 public class MyMongoCollection<T> {
 
     private static MongoCollection mCollection;
-
+    private static DB db;
+    
     @SuppressWarnings("unused")
     private MyMongoCollection() {
         // prevent from creating with no-arg
@@ -27,7 +28,7 @@ public class MyMongoCollection<T> {
 
     public MyMongoCollection(String collectionName) {
         try {
-            DB db = new MongoClient(Globals.MONGODB_SERVER_ADDR, Globals.MONGODB_PORT).getDB(Globals.MONGODB_DBNAME);
+            db = new MongoClient(Globals.MONGODB_SERVER_ADDR, Globals.MONGODB_PORT).getDB(Globals.MONGODB_DBNAME);
             Jongo jongo = new Jongo(db);
             mCollection = jongo.getCollection(collectionName);
         } catch (Exception e) {
@@ -37,5 +38,10 @@ public class MyMongoCollection<T> {
 
     public WriteResult insert(T obj) {
         return mCollection.insert(obj);
+    }
+    
+    @SuppressWarnings("deprecation")
+    public void close() {
+        db.cleanCursors(true);
     }
 }
