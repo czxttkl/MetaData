@@ -51,7 +51,9 @@ public class AIIDEAfter2010 {
         "AIIDE/AIIDE10/paper/viewPaper/2138",
         "AIIDE/AIIDE10/paper/viewPaper/2120",
         "AIIDE/AIIDE10/paper/viewPaper/2136",
-        "AIIDE/AIIDE09/paper/viewPaper/698",
+        
+        // Notice: can't access to AIIDE 2009
+        /*"AIIDE/AIIDE09/paper/viewPaper/698",
         "AIIDE/AIIDE09/paper/viewPaper/813",
         "AIIDE/AIIDE09/paper/viewPaper/802",
         "AIIDE/AIIDE09/paper/viewPaper/776",
@@ -80,7 +82,9 @@ public class AIIDEAfter2010 {
         "AIIDE/AIIDE09/paper/viewPaper/797",
         "AIIDE/AIIDE09/paper/viewPaper/690",
         "AIIDE/AIIDE09/paper/viewPaper/799",
-        "AIIDE/AIIDE09/paper/viewPaper/775",
+        "AIIDE/AIIDE09/paper/viewPaper/775",*/
+        
+        
         "AIIDE/AIIDE11/paper/viewPaper/4046",
         "AIIDE/AIIDE11/paper/viewPaper/4086",
         "AIIDE/AIIDE11/paper/viewPaper/4078",
