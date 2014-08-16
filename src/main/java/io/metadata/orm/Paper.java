@@ -1,5 +1,7 @@
 package io.metadata.orm;
 
+import io.metadata.misc.Utils;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -19,7 +21,7 @@ public class Paper {
 
     String title;
     String abstraction;
-    long year;
+    long year = 0;
     String venue;
 
     /*public Paper(String titleString, String abstractString, String keywordsString, String authorsString, String yearString,
@@ -54,8 +56,43 @@ public class Paper {
         return this;
     }
     
+    public Paper setYear(long yearLong) {
+        year = yearLong;
+        return this;
+    }
+    
     public Paper setVenue(String venueString) {
         venue = venueString;
         return this;
     }
+    
+    public String getAbstraction() {
+        return abstraction;
+    }
+    
+    public String getTitle() {
+        return title;
+    }
+    
+    /**
+     * Validate if this paper instance has enough information:
+     * 1. title
+     * 2. year
+     * 3. venue
+     * 4. authors
+     * 5. abstract or keywords
+     * @return true if the instance has enough information
+     */
+    public boolean validate() {
+        if (Utils.nullOrEmpty(title) 
+                || year == 0 
+                || Utils.nullOrEmpty(venue) 
+                || (authors == null? true : (authors.get(0).trim().equals("") && authors.size() == 1)) 
+                || (Utils.nullOrEmpty(abstraction) && keywords == null) ) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+    
 }

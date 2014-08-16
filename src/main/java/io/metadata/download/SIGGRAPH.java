@@ -1,67 +1,154 @@
 package io.metadata.download;
 
+import io.metadata.misc.Logger;
+import io.metadata.orm.Paper;
+
 import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
 
-import javax.xml.parsers.SAXParser;
-import javax.xml.parsers.SAXParserFactory;
+import javax.xml.stream.XMLInputFactory;
+import javax.xml.stream.XMLStreamConstants;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.XMLStreamReader;
 
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
-import org.xml.sax.helpers.DefaultHandler;
+import org.apache.commons.lang.StringEscapeUtils;
 
+/**
+ * Xml Parser for SIGGRAPH. Xmls for SIGGRAPH are available in data/siggraph
+ * @author Zhengxing Chen
+ *
+ */
 public class SIGGRAPH {
 
-    
-    public static void main(String[] args) {
-        try {
-            SAXParserFactory factory = SAXParserFactory.newInstance();
-            SAXParser saxParser = factory.newSAXParser();
-            DefaultHandler handler = new DefaultHandler() {
-                boolean titleField;
-                boolean abstractField;
-                String lastEEString = "";
+    public static String VENUE = "SIGGRAPH";
 
-                public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
-                    // System.out.println("Start Element :" + qName);
-                    if (qName.equalsIgnoreCase("title")) {
-                        titleField = true;
+    public static void main(String[] args) throws XMLStreamException, IOException {
+        // Initialize logger
+        Logger mLogger = new Logger("logSIGGRAPH", true);
+        
+        String tagContent = "";
+        Paper paper = new Paper();
+        String keywords = "";
+        String authors = "";
+        String url = "";
+        long year = 0;
+
+        ArrayList<Paper> papersList = new ArrayList<Paper>();
+
+        for (File file : new File("data/siggraph").listFiles()) {
+            XMLInputFactory factory = XMLInputFactory.newInstance();
+            XMLStreamReader reader = factory.createXMLStreamReader(new FileReader(file));
+            mLogger.appendLine(file.getName());
+
+            while (reader.hasNext()) {
+                int event = reader.next();
+                switch (event) {
+                case XMLStreamConstants.START_ELEMENT:
+                    if (reader.getLocalName().equals("article_rec")) {
+                        paper = new Paper();
+                        paper.setVenue(VENUE);
+                        keywords = "";
+                        authors = "";
+                        mLogger.appendLine("");
+                        mLogger.appendLine("new article");
                     }
+                    break;
+
+                case XMLStreamConstants.CHARACTERS:
+                    tagContent = reader.getText().trim();
+                    break;
+
+                case XMLStreamConstants.END_ELEMENT:
+                    // Trim the string
+                    tagContent = tagContent.trim();
+                    // Convert html encode to unicode
+                    tagContent = StringEscapeUtils.unescapeHtml(tagContent);
+                    // Remove html tags in tagcontent 
+                    tagContent = tagContent.replaceAll("\\<.*?>","");
                     
-                    if (qName.equalsIgnoreCase("abstract")) {
-                        abstractField = true;
+                    switch (reader.getLocalName()) {
+                    case "copyright_year":
+                        year = Long.valueOf(tagContent);
+                        mLogger.appendLine(tagContent);
+                        break;
+                    case "url":
+                        url = tagContent;
+                        break;
+                    case "title":
+                        paper.setTitle(tagContent);
+                        mLogger.appendLine("title:" + tagContent);
+                        break;
+                    case "par":
+                        paper.setAbstraction(tagContent);
+                        mLogger.appendLine("abstract:" + tagContent);
+                        break;
+                    case "kw":
+                        keywords = keywords + "," + tagContent;
+                        break;
+                    case "keywords":
+                        // Remove the first ","
+                        if (keywords.startsWith(",")) {
+                            keywords = keywords.substring(1);
+                        }
+                        paper.setKeywords(keywords);
+                        mLogger.appendLine("keyword:" + keywords);
+                        break;
+                    case "first_name":
+                        authors = authors + tagContent;
+                        break;
+                    case "middle_name":
+                        if (tagContent.equals("")) {
+                            break;
+                        }
+                        authors = authors + " " + tagContent;
+                        break;
+                    case "last_name":
+                        authors = authors + " " + tagContent + ",";
+                        break;
+                    case "authors":
+                        authors = authors.substring(0, authors.length() - 1);
+                        paper.setAuthors(authors);
+                        mLogger.appendLine("authors:" + authors);
+                        break;
+                    case "ft_body":
+                        // Use full article as abstraction if abstraction itself is not available.
+                        if (paper.getAbstraction() == null) {
+                            paper.setAbstraction(tagContent);
+                            mLogger.appendLine("abstract_ft_body:" + tagContent);
+                        }
+                        break;
+                    case "article_rec":
+                        paper.setYear(year);
+                        
+                        // Validate papers. Only add papers with complete information
+                        if (paper.validate()) {
+                            papersList.add(paper);
+                        } else {
+                            mLogger.appendLine("///////////////////////////////////////////////////////////////////////");
+                            mLogger.appendLine(url);
+                            mLogger.appendLine("///////////////////////////////////////////////////////////////////////");
+                        }
+                        break;
                     }
-                }
 
-                public void endElement(String uri, String localName, String qName) throws SAXException {
-                    // System.out.println("End Element :" + qName);
-                }
+                    break;
 
-                public void characters(char[] ch, int start, int length) throws SAXException {
-                    if (abstractField) {
-                        String abstractName = new String(ch, start, length);
-                        System.err.println(abstractName);
-                        abstractField = false;
-                    }
-                    
-                    if (titleField) {
-                        String titleName = new String(ch, start, length);
-                        System.out.println(titleName);
-                        titleField = false;
-                    }
-                }
-            };
+                } // switch
+
+            } // while
             
-            for (File file : new File("data/siggraph").listFiles()) {
-                saxParser.getXMLReader().setFeature("http://xml.org/sax/features/external-general-entities", false);
-                saxParser.getXMLReader().setFeature("http://xml.org/sax/features/validation", false);
-                
-                saxParser.parse(file, handler);
-            }
+            mLogger.appendLine("");
+            mLogger.appendLine("");
+            mLogger.appendLine("");
             
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        } // for traverse all files in data/siggraph folder
 
-    }
-
+        mLogger.close();
+        
+        System.out.println(papersList.size());
+        
+        
+    } // main
 }

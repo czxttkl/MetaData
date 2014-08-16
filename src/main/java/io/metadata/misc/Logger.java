@@ -45,4 +45,8 @@ public class Logger {
     public void appendLine(String line) {
         appendLine(line, true);
     }
+    
+    public void close() {
+        pw.close();
+    }
 }
