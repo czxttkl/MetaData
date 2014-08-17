@@ -40,6 +40,10 @@ public class MyMongoCollection<T> {
         return mCollection.insert(obj);
     }
     
+    public WriteResult insert(T[] objs) {
+        return mCollection.insert(objs);
+    }
+    
     @SuppressWarnings("deprecation")
     public void close() {
         db.cleanCursors(true);

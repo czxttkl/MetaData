@@ -1,6 +1,8 @@
 package io.metadata.download;
 
+import io.metadata.misc.Globals;
 import io.metadata.misc.Logger;
+import io.metadata.orm.MyMongoCollection;
 import io.metadata.orm.Paper;
 
 import java.io.File;
@@ -147,8 +149,14 @@ public class SIGGRAPH {
 
         mLogger.close();
         
-        System.out.println(papersList.size());
+        // Convert to array for bulk insert
+        Paper[] papersArray = new Paper[papersList.size()];
+        papersList.toArray(papersArray);
         
+        // Initialize self-wrapped mongocollection
+        MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
+        
+        mPapersCollection.insert(papersArray);
         
     } // main
 }
