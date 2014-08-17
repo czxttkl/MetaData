@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>07/30/2006</start_date>
+		<end_date>08/03/2006</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Boston]]></city>
+		<state>Massachusetts</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>1179124</proc_id>
+	<acronym>SIGGRAPH '06</acronym>
+	<proc_desc>ACM SIGGRAPH 2006 award recipients</proc_desc>
+	<conference_number>2006</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn>1-59593-364-6</isbn>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2006</copyright_year>
+	<publication_date>07-30-2006</publication_date>
+	<pages>4</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<chair_editor>
+		<ch_ed>
+			<person_id>PP18005077</person_id>
+			<author_profile_id><![CDATA[81452607140]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>1</seq_no>
+			<first_name><![CDATA[John]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Finnegan]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[Purdue University]]></affiliation>
+			<role><![CDATA[Conference Chair]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+		<ch_ed>
+			<person_id>PP18005759</person_id>
+			<author_profile_id><![CDATA[81100188679]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>2</seq_no>
+			<first_name><![CDATA[Eugene]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Fiume]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[]]></affiliation>
+			<role><![CDATA[Program Chair]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+	</chair_editor>
+	<ccc>
+		<copyright_holder>
+			<copyright_holder_name>ACM</copyright_holder_name>
+			<copyright_holder_year>2006</copyright_holder_year>
+		</copyright_holder>
+	</ccc>
+</proceeding_rec>
+<content>
+	<section>
+		<section_id>1179125</section_id>
+		<sort_key>1</sort_key>
+		<section_seq_no>1</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[ACM SIGGRAPH award recipients]]></section_title>
+		<section_page_from>1</section_page_from>
+		<chair_editor>
+			<ch_ed>
+				<person_id>PP18004843</person_id>
+				<author_profile_id><![CDATA[81100188679]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Eugene]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Fiume]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Session Chair]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</ch_ed>
+		</chair_editor>
+	<article_rec>
+		<article_id>1179126</article_id>
+		<sort_key>1</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-30-2006</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Computer Graphics Achievement award]]></title>
+		<subtitle><![CDATA[Thomas W. Sederberg]]></subtitle>
+		<page_from>1</page_from>
+		<doi_number>10.1145/1179124.1179126</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1179126</url>
+		<abstract>
+			<par><![CDATA[The <b>Computer Graphics Achievement Award</b> is given each year to recognize an individual for an outstanding achievement in computer graphics and interactive techniques.The 2006 recipient of the ACM SIGGRAPH Computer Graphics Achievement Award is Thomas W. Sederberg.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.m</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>PP18005728</person_id>
+				<author_profile_id><![CDATA[81100188679]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Eugene]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Fiume]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2006</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1179127</article_id>
+		<sort_key>2</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-30-2006</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Significant New Researcher award]]></title>
+		<subtitle><![CDATA[Takeo Igarashi]]></subtitle>
+		<page_from>2</page_from>
+		<doi_number>10.1145/1179124.1179127</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1179127</url>
+		<abstract>
+			<par><![CDATA[The <b>Significant New Researcher Award</b> is given each year to a researcher who has made a recent significant contribution to the field of computer graphics and who is new to the field. The intent is to recognize people very early in their career who have already made a notable contribution and are likely to make more.The 2006 recipient of the ACM SIGGRAPH Significant New Researcher Award is Takeo Igarashi.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.m</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>PP18004899</person_id>
+				<author_profile_id><![CDATA[81100188679]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Eugene]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Fiume]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2006</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1179128</article_id>
+		<sort_key>3</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-30-2006</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Outstanding Service award]]></title>
+		<subtitle><![CDATA[John Fujii]]></subtitle>
+		<page_from>3</page_from>
+		<doi_number>10.1145/1179124.1179128</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1179128</url>
+		<abstract>
+			<par><![CDATA[The <b>Outstanding Service Award</b> is given in even-numbered years to recognize a career of outstanding service to ACM SIGGRAPH by a volunteer. It recognizes an individual who has given extraordinary service to ACM SIGGRAPH, both in the trenches and in positions of more responsibility or visibility, over a significant amount of time.The 2006 recipient of the ACM SIGGRAPH Outstanding Service Award is John Fujii.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>PP18005086</person_id>
+				<author_profile_id><![CDATA[81100188679]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Eugene]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Fiume]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2006</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	</section>
+</content>
+</proceeding>

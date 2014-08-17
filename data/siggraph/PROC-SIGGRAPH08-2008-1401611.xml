@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08/11/2008</start_date>
+		<end_date>08/15/2008</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Los Angeles]]></city>
+		<state>California</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>1401611</proc_id>
+	<acronym>SIGGRAPH '08</acronym>
+	<proc_desc>ACM SIGGRAPH 2008 award recipients</proc_desc>
+	<conference_number>2008</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2008</copyright_year>
+	<publication_date>08-11-2008</publication_date>
+	<pages>3</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<ccc>
+		<copyright_holder>
+			<copyright_holder_name>ACM</copyright_holder_name>
+			<copyright_holder_year>2008</copyright_holder_year>
+		</copyright_holder>
+	</ccc>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>1401612</article_id>
+		<sort_key>10</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>1</display_no>
+		<article_publication_date>08-11-2008</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Computer graphics achievement award]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1401611.1401612</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1401612</url>
+		<abstract>
+			<par><![CDATA[<p>ACM SIGGRAPH recognizes Ken Perlin for his broad contributions and impact across computer graphics, ranging from novel mathematical approaches for modeling to hardware interfaces. His creative research approach has produced many innovations in rendering, modeling, animation and user interfaces, and has inspired several new lines of research.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.m</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944.10011122</concept_id>
+				<concept_desc>CCS->General and reference->Document types</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P1099799</person_id>
+				<author_profile_id><![CDATA[81100250413]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ken]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Perlin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2008 ACM SIGGRAPH Awards Computer Graphics Achievement Award Ken Perlin ACM SIGGRAPH recognizes Ken 
+Perlin for his broad contributions and impact across computer graphics, ranging from novel mathematical 
+approaches for modeling to hardware interfaces. His creative research approach has produced many innovations 
+in rendering, modeling, animation and user interfaces, and has inspired several new lines of research. 
+Ken is best known for harnessing the power of stochastic processes for modeling and animation. His adaptations 
+of noise and turbulence mathematics into simple and readily implemented algorithms have become standard 
+tools in virtually every graphics modeling system. His efficient construction of these functions has 
+been applied to adding naturalistic realism to textures, shapes and motion. Noise and turbulence were 
+just part of his seminal 1985 SIGGRAPH paper that also introduced the separation of volumetric representations 
+of material structure and object shape, as well as a fully general programming language for surface shading. 
+He is one of the leaders in the area of procedural modeling in graphics and animation. Ken has introduced 
+many novel approaches to user interaction. His software Pad demonstrated the power of an interface based 
+on nesting and zooming of documents. On the hardware side of interfaces, he has contributed to autostereoscopic 
+displays. In a completely different area, Ken has created methods for developing responsive animated 
+characters with emotions and personality. He used stochastic motion controls to enliven animated characters, 
+pointing the way toward realistic behaviors. With his virtual environment IMPROV he created real-time 
+characters with life-like responses to other real or virtual actors. In further studies he explored real-time 
+facial animation, inverse kinematics, and stochastic posture controls applied to multiple interacting 
+characters. In recent years Ken has been developing innovative game-based approaches to science education 
+for school-aged children. Also, in addition to publishing highly cited papers, he has shared his inventions 
+through what he has called The Web as a Procedural Sketchbook. He is continually coding new ideas and 
+sharing them through his web page. Through this medium others can view his art, play whimsical games, 
+and learn fundamental concepts.  Running through all of Ken s research are common threads of promoting 
+community, supporting expressiveness and exploration, and forming bridges between technology and artistic 
+expression. For the creativity, enthusiasm, and technical innovations that he brings to computer graphics, 
+ACM SIGGRAPH is pleased to present this award to Ken Perlin. Previous Award Recipients 2007 Greg Ward 
+2006 Thomas W. Sederberg 2005 Jos Stam 2004 Hugues Hoppe 2003 Peter Schröder 2002 David Kirk 2001 Andrew 
+Witkin 2000 David H. Salesin 1999 Tony DeRose 1998 Michael F. Cohen 1997 Przemyslaw Prusinkiewicz 1996 
+Marc Levoy 1995 Kurt Akeley 1994 Kenneth E. Torrance 1993 Pat Hanrahan 1992 Henry Fuchs 1991 James T. 
+Kajiya 1990 Richard Shoup and Alvy Ray Smith 1989 John Warnock 1988 Alan H. Barr 1987 Robert Cook 1986 
+Turner Whitted 1985 Loren Carpenter 1984 James H. Clark 1983 James F. Blinn xviii 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2008</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1401613</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>2</display_no>
+		<article_publication_date>08-11-2008</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Significant new researcher award]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1401611.1401613</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1401613</url>
+		<abstract>
+			<par><![CDATA[<p>Maneesh Agrawala is this year's recipient of the Significant New Researcher Award. This is in recognition of his outstanding early contributions to computer graphics and interaction techniques, particularly in the area of novel visualization techniques and user interaction models across a range of problem domains.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.m</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944.10011122</concept_id>
+				<concept_desc>CCS->General and reference->Document types</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P1099800</person_id>
+				<author_profile_id><![CDATA[81100346089]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Maneesh]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Agrawala]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2008 ACM SIGGRAPH Awards Significant New Researcher Award Maneesh Agrawala Maneesh Agrawala is this 
+year s recipient of the Significant New Researcher Award. This is in recognition of his outstanding early 
+contributions to computer graphics and interaction techniques, particularly in the area of novel visualization 
+techniques and user interaction models across a range of problem domains. Maneesh has inspired many to 
+rethink how we should render com­plex information, an area of increasing societal importance. This was 
+first evidenced by his 2002 Ph.D. at Stanford University on Visualizing Route Maps, introducing the mapping 
+abstraction of LineDrive, which both simplifies and clarifies route maps. He went on to work at Microsoft 
+Research for three years and then moved to the University of California, Berkeley, where he is now an 
+Assistant Professor. The depth of Maneesh s work comes in part from a thorough study of the techniques 
+and principles artists and graphic designers use to improve the effectiveness of their work. Once common 
+per­ceptual and cognitive design principles are discovered, Maneesh then finds creative ways to codify 
+these principles in tools for artists, designers, and anyone who wants to explore complex structures 
+and phenomena. Beyond his thesis work on LineDrive, Maneesh has applied this approach to a variety of 
+visualization problem domains including visualizing structurally complex 3D models such as architecture, 
+mechanical assemblies and anatomy via cutaways and exploded views; relighting images to enhance shape 
+and detail; and the design of maps for motorists and tourists. The broad applicability of his widely 
+published work to computer graphics and visualization techniques, as well as the fundamental aspects 
+of user interface modeling, has made Maneesh a leader in his field, even at this early point in his career. 
+In previous SIGGRAPH conferences we saw aspects of his work in another area, that of computational photography. 
+The prod­uct of a fruitful collaboration with students and faculty from the University of Washington, 
+these papers included Digital Photomontage (2004), Interactive Video Cutout (2005), Panoramic Video Textures 
+(2005), Photographing Long Scenes (2006), Soft Scissors (2007) and Multi-scale Shape and Detail Enhancement 
+(2007).  Maneesh s work that has appeared at SIGCHI, IEEE Visualization and UIST is similarly wide and 
+deep. Whether focusing on visual­izing and interacting with complex information spaces, or auto­mated 
+layout and design problems, Maneesh has always relied on founding his work on perceptual or cognitive 
+principles. His insis­tence on always keeping the user at the center of any development effort is a powerful 
+one, and one we honor with this award. Previous Award Recipients 2007 Ravi Ramamoorthi 2006 Takeo Igarashi 
+2005 Ron Fedkiw 2004 Zoran Popovi´c 2003 Mathieu Desbrun 2002 Steven J. Gortler 2001 Paul Debevec xix 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2008</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1401614</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>3</display_no>
+		<article_publication_date>08-11-2008</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Outstanding service award]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1401611.1401614</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1401614</url>
+		<abstract>
+			<par><![CDATA[<p>In recognition for the quality, impact and magnitude of his work on the publication process in the field of computer graphics, ACM SIGGRAPH presents its 2008 Outstanding Service Award to Stephen Spencer.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10002944.10011122</concept_id>
+				<concept_desc>CCS->General and reference->Document types</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944.10011122</concept_id>
+				<concept_desc>CCS->General and reference->Document types</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P1099801</person_id>
+				<author_profile_id><![CDATA[81335497917]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Stephen]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Spencer]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2008 ACM SIGGRAPH Awards Outstanding Service Award Stephen Spencer In recognition for the quality, 
+impact and magnitude of his work on the publication process in the field of computer graphics, ACM SIGGRAPH 
+presents its 2008 Outstanding Service Award to Stephen Spencer. Stephen s distinguished service to the 
+graphics community began in the early 90 s with work on graphbib the ACM SIGGRAPH Computer Graphics 
+Bibliography Database project. Before CiteSeer, Google Scholar and the ACM Digital Library, this forward-looking 
+project begun by Eugene Miya consisted of a conveniently simple web form interface to a comprehensive 
+database of publication cita­tions of papers in graphics and related fields. Stephen continues to maintain 
+this resource which now contains over 21,000 citations. Stephen Spencer was appointed SIGGRAPH s Director 
+for Publications in July, 1995. In addition to overseeing SIGGRAPH s publications, Stephen contributed 
+his attention, input and insight over the past 13 years to the Executive Committee s oversight of all 
+of SIGGRAPH. During this time, Stephen also coordinated with every annual conference committee on the 
+documentation for each venue in print, online and in electronic media. Amid this demand­ing schedule 
+and responsibility, Stephen delivered quality results smoothly, dependably and quietly, as reported repeatedly 
+in numer­ous recommendations. As Director for Publications, Stephen s contributions were critical in 
+achieving SIGGRAPH s goals of nurturing small focused-topic conferences, improving cooperation with other 
+organizations and broadening its international ties. He provided his publishing pro­duction expertise 
+toward not only the past 14 SIGGRAPH Annual Conference Proceedings but the 80-some proceedings for the 
+other conferences, symposia and workshops SIGGRAPH supports and, in many cases, initiated. Even within 
+the great tradition of SIGGRAPH volunteerism, Stephen s efforts have been exceptional. During this time, 
+Stephen also guided SIGGRAPH through the transition from a classical print-based production environment 
+into an entirely electronic-based production environment. We all appreciate that the camera-ready versions 
+of our papers no longer require scissors and glue, but Stephen s careful scrutinizing of for­mats and 
+image reproduction quality preserved the fidelity of our results through this transition, including the 
+special inks and inserts needed for some of SIGGRAPH s more exotic papers.  More than the content, deliverables 
+and events, Stephen says he most enjoys working with the members of our community, from volunteers to 
+contributors to contractors. With this award, we col­lectively and formally reciprocate by expressing 
+how much we enjoy working with Stephen, and to give him the recognition he never expects but so clearly 
+deserves. Proceedings Assembled ACM SIGGRAPH Conference Proceedings: 1995-. AFRIGRAPH: 2003, 2004, 2006, 
+2007. APGV (Applied Perception in Graphics and Visualization): 2005-. ETRA (Eye Tracking Research &#38; 
+Applications): 2000, 2001, 2004, 2006, 2008. Graphics Hardware: 1997, 1998, 2003-5, 2007. GRAPHITE: 
+2003, 2004, 2006, 2007. IPT/EDT: 2007-. NPAR (Non-Photorealistic Animation &#38; Rendering): 2004, 2006-. 
+Parallel Rendering Symposium: 1995, 1997. Sandbox Symposium: 2006-. Sketch-Based Interfaces and Modeling: 
+2007. Software Visualization: 2005, 2006. Solid &#38; Physical Modeling Symposium: 2005-. Spring Conference 
+on Computer Graphics: 2004-7. SCA (Symposium on Computer Animation): 2005, 2007. I3D (Symposium on Interactive 
+3D Graphics &#38; Games): 1995, 1999, 2001, 2003, 2005-. Symposium on Volume Visualization: 1994, 1996. 
+Symposium on VRML: 1995, 1997, 1998. VAST (Virtual Reality, Archeology and Cultural Heritage): 2001. 
+VisSym (Symposium on Visualization): 2004. IEEE Visualization: 1996-1998. VRCIA (Virtual Reality Continuum 
+and its Applications): 2006. VRST (Virtual Reality Software and Technology): 2006, 2007. Web3D: 2004-. 
+ Previous Award Recipients 2006 John Fujii 2004 Judy Brown and Steve Cunningham 2002 Bertram Herzog 2000 
+Tom DeFanti and Copper Giloth 1998 Maxine Brown xx 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2008</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+</content>
+</proceeding>

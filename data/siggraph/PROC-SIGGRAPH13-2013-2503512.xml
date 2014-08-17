@@ -1,0 +1,2695 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>07/21/2013</start_date>
+		<end_date>07/25/2013</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Anaheim]]></city>
+		<state>California</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>2503512</proc_id>
+	<acronym>SIGGRAPH '13</acronym>
+	<proc_desc>ACM SIGGRAPH 2013 Mobile</proc_desc>
+	<conference_number>2013</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-4503-2341-3</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2013</copyright_year>
+	<publication_date>07-21-2013</publication_date>
+	<pages>21</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>Now in its second year, the SIGGRAPH Mobile program presents the latest advances in mobile technologies, graphics, and apps. In talks, workshops, panels, and demonstrations, mobile innovators from around the world explore powerful new graphics techniques, game production for handheld devices, visualizations with augmented reality, and how mobile games can save the world's rainforests.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<ccc>
+		<copyright_holder>
+			<copyright_holder_name>ACM</copyright_holder_name>
+			<copyright_holder_year>2013</copyright_holder_year>
+		</copyright_holder>
+	</ccc>
+</proceeding_rec>
+<content>
+	<section>
+		<section_id>2503513</section_id>
+		<sort_key>10</sort_key>
+		<section_seq_no>1</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Workshops in the studio]]></section_title>
+		<section_page_from>1</section_page_from>
+	<article_rec>
+		<article_id>2503514</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>1</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Graphics on the go]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503514</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503514</url>
+		<abstract>
+			<par><![CDATA[<p>This workshop complements the "Make Mobile Apps Quickly" workshop. That workshop will show attendees how to make HTML5 and Javascript-based mobile apps. This workshop will dive deeply into canvas elements, timers, drawing primitives and other features of HTML5 and Javascript that allow cross-platform graphics development. At the end of the workshop, attendees will not only have sample code, projects and workspaces, but will have created a simple graphics application that they can customize after the conference.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191013</person_id>
+				<author_profile_id><![CDATA[81100042683]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Gil]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Irizarry]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Conoa, Inc., Cambridge, MA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[gil@conoa.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Graphics on the Go Gil Irizarry Conoa, Inc. Cambridge, MA, USA gil@conoa.com 1. Introduction This workshop 
+complements the Make Mobile Apps Quickly workshop. That workshop will show attendees how to make HTML5 
+and Javascript-based mobile apps. This workshop will dive deeply into canvas elements, timers, drawing 
+primitives and other features of HTML5 and Javascript that allow cross-platform graphics development. 
+At the end of the workshop, attendees will not only have sample code, projects and workspaces, but will 
+have created a simple graphics application that they can customize after the conference. It is quite 
+exciting to see moving graphical elements on a phone emulator or actual handset. The workshop will have 
+you creating apps that will start you on your way towards mobile application development. The workshop 
+assumes only basic web programming or design experience. 2. Bio Gil Irizarry is a long-time SIGGRAPH 
+attendee, having attended over 20 SIGGRAPH conferences, and a graphics software developer. Gil made the 
+move to mobile development and found it to be an exciting space in which to develop. Gil has launched 
+mobile apps on both Google Play and the Apple App Store. He is a certified agile coach and have spoken 
+at a variety of conferences, including the Agile Development Conference, ProjectWorld, and Project Summit 
+&#38; Business Analyst World. At SIGGRAPH 2008, he organized and chaired the course, Know Your Rights: 
+A Legal Primer for Software Developers, Artists and Content Creators. Gil is looking forward to sharing 
+his mobile development knowledge at SIGGRAPH 2013. Permission to make digital or hard copies of part 
+or all of this work for personal or classroom use isgranted without fee provided that copies are not 
+made or distributed for commercial advantage and that copies bear this notice and the full citation on 
+the first page. Copyrights for third-party components of thiswork must be honored. For all other uses, 
+contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by 
+the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503515</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>2</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Make mobile apps quickly]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503515</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503515</url>
+		<abstract>
+			<par><![CDATA[<p>There is a lot of desire to develop mobile apps, but getting started can often feel daunting. This workshop aims to be an introduction to getting started on the path to mobile development. The emphasis will be developing quick, cross-platform apps utilizing open technologies. This includes development with HTML5, CSS3 and Javascript, and bundling via Phonegap, MoSync, UppSite and other tools. Attendees will leave with notes and sample projects to start them on their path toward becoming mobile developers. The workshop assumes only basic web programming or design experience.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191014</person_id>
+				<author_profile_id><![CDATA[81100042683]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Gil]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Irizarry]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Conoa, Inc., Cambridge, MA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[gil@conoa.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Make Mobile Apps Quickly Gil Irizarry Conoa, Inc. Cambridge, MA, USA gil@conoa.com 1. Introduction 
+There is a lot of desire to develop mobile apps, but getting started can often feel daunting. This workshop 
+aims to be an introduction to getting started on the path to mobile development. The emphasis will be 
+developing quick, cross-platform apps utilizing open technologies. This includes development with HTML5, 
+CSS3 and Javascript, and bundling via Phonegap, MoSync, UppSite and other tools. Attendees will leave 
+with notes and sample projects to start them on their path toward becoming mobile developers. The workshop 
+assumes only basic web programming or design experience. The workshop will describe the development environment 
+needed to develop mobile applications. Sample HTML5 pages will be given that will power mobile applications. 
+These pages will include examples utilizing the jQuery framework and Ajax for asynchronous communication. 
+The pages will be built as apps and sent to attendees mobile phones for testing. 2. Bio Gil Irizarry 
+is a long-time SIGGRAPH attendee, having attended over 20 SIGGRAPH conferences, and a graphics software 
+developer. Gil made the move to mobile development and found it to be an exciting space in which to develop. 
+Gil has launched mobile apps on both Google Play and the Apple App Store. He is a certified agile coach 
+and have spoken at a variety of conferences, including the Agile Development Conference, ProjectWorld, 
+and Project Summit &#38; Business Analyst World. At SIGGRAPH 2008, he organized and chaired the course, 
+Know Your Rights: A Legal Primer for Software Developers, Artists and Content Creators. Gil is looking 
+forward to sharing his mobile development knowledge at SIGGRAPH 2013. Permission to make digital or hard 
+copies of part or all of this work for personal or classroom use isgranted without fee provided that 
+copies are not made or distributed for commercial advantage and that copies bear this notice and the 
+full citation on the first page. Copyrights for third-party components of thiswork must be honored. For 
+all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 
+Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503516</article_id>
+		<sort_key>40</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>3</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Mobile visual computing in C++ on Android]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503516</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503516</url>
+		<abstract>
+			<par><![CDATA[<p>Based on a tutorial developed by NVIDIA's Mobile Visual Computing team, this course will teach the basics to jump-start a visual computing project on Android using native C/C++ code. After explaining how to set up the programming environment and write a simple native application, we will dive into more advanced topics related to Computer Vision (using OpenCV optimized for Android), and high-performance Image Processing (using OpenGL ES2).</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191015</person_id>
+				<author_profile_id><![CDATA[82459167557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Yun-Ta]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Tsai]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ytsai@nvidia.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191016</person_id>
+				<author_profile_id><![CDATA[81477644373]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Orazio]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gallo]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ogallo@nvidia.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191017</person_id>
+				<author_profile_id><![CDATA[82458902057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Pajak]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[dpajak@nvidia.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191018</person_id>
+				<author_profile_id><![CDATA[81100567347]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Kari]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Pulli]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[karip@nvidia.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Mobile Visual Computing in C++ on Android Yun-Ta Tsai* Orazio Gallo David Pajak Kari Pulli§ NVIDIA 
+NVIDIA NVIDIA NVIDIA Abstract Based on a tutorial developed by NVIDIA s Mobile Visual Com­puting team1, 
+this course will teach the basics to jump-start a visual computing project on Android using native C/C++ 
+code. After ex­plaining how to set up the programming environment and write a simple native application, 
+we will dive into more advanced topics related to Computer Vision (using OpenCV optimized for Android), 
+and high-performance Image Processing (using OpenGL ES2). 1 Introduction Android is inherently Java-oriented, 
+but native code is often a better choice for computationally heavy algorithms such as those used in visual 
+computing; among other things, it allows to exploit the power of heterogeneous computing and hardware 
+intrinsics. This course is targeted to people who are .uent in C/C++, but are not familiar with the native 
+Android development work.ow. We di­vided the tutorial into three sections: Android Native Development, 
+OpenCV, and OpenGL. As the course progresses, we will gradually build a complete visual computing application 
+which can serve as a building block for larger projects. 2 Android Native Development In this section, 
+we will quickly get people familiar with the devel­opment environment using the Tegra Android Development 
+Pack (TADP). TADP is a collection of freely available tools developed by NVIDIA to simplify the native 
+development on Android; it is fully compatible with of.cial Android systems, it is highly optimized for 
+Tegra-based devices, although it can be used with non-Tegra de­vices as well. The TADP also comes with 
+several examples that make the process of getting started easier. We will start from project creation, 
+the project s folder structure, the Android Native Activity system, Make.les, permissions, and the Android 
+Debug Bridge (ADB), which allows to communicate with Android devices. Finally, we will explain how to 
+ef.ciently debug in the Android native environment. At the end of this section, the audience should be 
+able to create a C/C++ project for Android. 3 OpenCV OpenCV is the de facto standard vision library; 
+it has been widely used and extended by the computer vision community for years. It is a great tool to 
+evaluate ideas quickly. Moreover, the TADP includes an highly optimized version of OpenCV for Tegra, 
+allow­ing developers to enjoy the convenient API without sacri.cing per­formance. In this section, we 
+will demonstrate how to integrate OpenCV in our Android project, how to control the camera of the *e-mail:ytsai@nvidia.com 
+e-mail:ogallo@nvidia.com e-mail:dpajak@nvidia.com §e-mail:karip@nvidia.com 1https://developer.nvidia.com/content/ 
+ native-android-development-tutorial  Figure 1: A screen-host of an NVIDIA-powered tablet performing 
+real-time feature detection. Today s mobile devices are suf.ciently powerful to run algorithms that were 
+prohibitive on desktop ma­chines only a few years ago. However, getting started with writing native code 
+for the Android platform can be intimidating even for programmers who are pro.cient in C/C++. device, 
+how to perform some basic computation, and how to display the results. 4 OpenGL ES2 and GPGPU OpenGL 
+ES2 is often necessary to render compelling visual content ef.ciently on Android, as it allows to off-load 
+all the heavy lifting to the GPU. In this section, we will show how to display content using OpenGL ES2, 
+with tips to improve performance in the presence of a heterogeneous pipeline that includes other hardware 
+resources, such as the CPU. The TADP also provides a set of open-source helpers to reduce the complexity 
+of the management of resources, such as textures and shaders. We will walk the audience through some 
+of the useful functionality that makes OpenGL ES2 programming easier. Finally, we will demonstrate how 
+to use shaders to perform GPGPU on the device, and we will compare the performance with the opti­mized 
+implementation for OpenCV. 5 Conclusion The same algorithms that were prohibitive for desktop machines 
+only a few years ago, are now making their way to mobile devices. This course will simplify the transition 
+from the traditional pro­gramming environment to mobile development. After attending this course, researchers 
+and scientists will be able to quickly prototype their ideas on Android platforms. Permission to make 
+digital or hard copies of part or all of this work for personal or classroom use isgranted without fee 
+provided that copies are not made or distributed for commercial advantage and that copies bear this notice 
+and the full citation on the first page. Copyrights for third-party components of thiswork must be honored. 
+For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 
+Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>2503517</section_id>
+		<sort_key>50</sort_key>
+		<section_seq_no>2</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[SIGGRAPH mobile panel]]></section_title>
+		<section_page_from>2</section_page_from>
+	<article_rec>
+		<article_id>2503518</article_id>
+		<sort_key>60</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>4</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[New directions and developments in mobile GPU design]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503518</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503518</url>
+		<abstract>
+			<par><![CDATA[<p>Computing is evolving as smartphones and tablets increasingly become primary entertainment devices. This shift requires greater performance from mobile processors to deliver the same quality experiences that a PC or gaming console does, but without compromising battery life in a more compact mobile device form factor.</p> <p>This panel, composed of leading mobile graphics experts from Qualcomm, NVIDIA, Intel, ARM and Imagination Technologies, will cover the newest and best ways advanced programmers can take advantage of GPU design implementation and optimize for mobile-specific platforms. The discussion will cover the latest graphics APIs like OpenGL ES 3.0 for sophisticated graphics programming, compute APIs like OpenCL to enable GPGPU acceleration, and Android APIs like Renderscript for advanced features such as instancing, occlusion queries, superior texture compression formats, and multiple render targets. Panelists will discuss these programs which enable the GPU to deliver incredibly immersive 3D gaming and responsive, complex user interfaces.</p> <p>Additionally, all of the above mentioned advanced graphics that are enabled by leading GPU technology require more device power. The panel will address new GPU architecture which performs more efficiently than predecessors. By using less power for the same workload to deliver advanced visuals, users can keep playing, watching and enjoying longer on mobile devices.</p> <p>Beyond what is possible today, industry experts on this panel will explore where mobile graphics are headed and discuss their companies' respective visions for the future of mobile graphics.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191019</person_id>
+				<author_profile_id><![CDATA[81322489153]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Blythe]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Intel Corporation, Santa Clara, CA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[david.blythe@intel.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191020</person_id>
+				<author_profile_id><![CDATA[82459145057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Eric]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Demers]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Qualcomm Incorporated, San Diego, CA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[edemers@qti.qualcomm.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191021</person_id>
+				<author_profile_id><![CDATA[81100628596]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Barthold]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lichtenbelt]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA, Santa Clara, CA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[blichtenbelt@nvidia.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191022</person_id>
+				<author_profile_id><![CDATA[82458845957]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[James]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McCombe]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Caustic Graphics/Imagination Technologies, San Francisco, CA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[James.McCombe@imgtec.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191023</person_id>
+				<author_profile_id><![CDATA[82459178757]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Anand]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Shimpi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[AnandTech, Raleigh, NC]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[anand.shimpi@anandtech.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191024</person_id>
+				<author_profile_id><![CDATA[81322506343]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Dave]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Shreiner]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ARM, San Jose, CA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[Dave.Shreiner@arm.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ New Directions and Developments in Mobile GPU Design  David Blythe Intel Corporation Santa Clara, CA, 
+USA david.blythe@intel.com Eric Demers Qualcomm Incorporated San Diego, CA, USA edemers@qti.qualcomm.com 
+ Barthold Lichtenbelt NVIDIA Santa Clara, CA, USA blichtenbelt@nvidia.com  James McCombe Caustic Graphics/Imagination 
+Technologies San Francisco, CA, USA James.McCombe@imgtec.com Anand Shimpi AnandTech Raleigh, NC, USA 
+anand.shimpi@anandtech.com Dave Shreiner ARM San Jose, CA, USA Dave.Shreiner@arm.com 1. Introduction 
+ This panel is designed to benefit advanced programmers who want to learn more about taking full advantage 
+of the latest GPU design and implementations to deliver the most advanced graphics for smartphone and 
+tablet users. 2. Abstract Computing is evolving as smartphones and tablets increasingly become primary 
+entertainment devices. This shift requires greater performance from mobile processors to deliver the 
+same quality experiences that a PC or gaming console does, but without compromising battery life in a 
+more compact mobile device form factor. This panel, composed of leading mobile graphics experts from 
+Qualcomm, NVIDIA, Intel, ARM and Imagination Technologies, will cover the newest and best ways advanced 
+programmers can take advantage of GPU design implementation and optimize for mobile-specific platforms. 
+The discussion will cover the latest graphics APIs like OpenGL ES 3.0 for sophisticated graphics programming, 
+compute APIs like OpenCL to enable GPGPU acceleration, and Android APIs like Renderscript for advanced 
+features such as instancing, occlusion queries, superior texture compression formats, and multiple render 
+targets. Panelists will discuss these programs which enable the GPU to deliver incredibly immersive 3D 
+gaming and responsive, complex user interfaces. Additionally, all of the above mentioned advanced graphics 
+that are enabled by leading GPU technology require more device power. The panel will address new GPU 
+architecture which performs more efficiently than predecessors. By using less power for the same workload 
+to deliver advanced visuals, users can keep playing, watching and enjoying longer on mobile devices. 
+ Beyond what is possible today, industry experts on this panel will explore where mobile graphics are 
+headed and discuss their companies respective visions for the future of mobile graphics. 3. Audience 
+ This panel is designed for advanced programmers. Attendees will leave this session with a clear understanding 
+of the latest developments in mobile GPU design and implementations. They will have learned the true 
+definition of a core, how GPGPU is implemented, and what comes next with OpenGL.   
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>2503519</section_id>
+		<sort_key>70</sort_key>
+		<section_seq_no>3</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Advances in mobile graphics]]></section_title>
+		<section_page_from>3</section_page_from>
+	<article_rec>
+		<article_id>2503520</article_id>
+		<sort_key>80</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>5</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Unity: the chase]]></title>
+		<subtitle><![CDATA[pushing the limits of modern mobile GPU]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503520</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503520</url>
+		<abstract>
+			<par><![CDATA[<p>In this talk we will share our experience developing interactive demonstration targeting high-end spectrum of mobile hardware. Our main goal was to achieve believable shading and lighting of human skin and to probe practical limits of modern mobile hardware.</p> <p>We will cover optimization techniques that we used to light and shade human skin, multi-layered metalic surfaces, atmospheric scattering for distant objects, long vistas and characters with very high geometrical complexity.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191025</person_id>
+				<author_profile_id><![CDATA[81504687519]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Renaldas]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Zioma]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Unity Technologies]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[rej@unity3d.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191026</person_id>
+				<author_profile_id><![CDATA[81384620507]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Ole]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ciliox]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Unity Technologies]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ole@unity3d.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Unity: The Chase - Pushing the limits of Modern Mobile GPU Renaldas Zioma Unity Technologies rej@unity3d.com 
+1. Abstract In this talk we will share our experience developing interactivedemonstration targeting high-end 
+spectrum of mobile hardware. Our main goal was to achieve believable shading and lighting of human skin 
+and to probe practical limits of modern mobile hardware. We will cover optimization techniques that we 
+used to lightand shade human skin, multi-layered metalic surfaces, atmospheric scattering for distant 
+objects, long vistas and characters with very high geometrical complexity. 2. Elaboration Modern mobile 
+GPUs (PowerVR-5xx, Tegra-4, Adreno-3x0, Mali-T6xx) have modest computational power and memory bandwidth 
+comparing with desktop GPUs, however by carefulparallelization of work between computational and texture 
+fetch units wide range of high-end visual techniques are possible even today. Average frame of our demo 
+contains around 250K static vertices and 80K animated vertices running at 30FPS on iPad4 at full Retina 
+resolution (2048x1536 pixels) and analogous on other mobile devices.  3. Our Approaches 3.1 Surface 
+Shading We took approach of extensive use of pre-calculated look-up tables to store slices through surface 
+BRDFs as well asdifferent light scattering phenomena in participating media. Westrove to split workload 
+between pre-computations and realtime evaluation of parts of lighting equation to maximizeusage of GPU 
+power and to balance against banding artifactsthat are inevitable with pure look-up based approaches. 
+Use of pre-calculated look-up tables allowed to achieve closeto energy conserving shading and lighting 
+model while simulating phenomenas like Fresnel re.ectivity on mobile GPUs at high frame-rates. We will 
+describe following techniques used in the demo in details and discuss different practical performanceconsideration 
+applicable for speci.c mobile GPU family thatwe learned during development: Screen Space Subsurface 
+Scattering  Skin and Eye shading  Rayleigh Atmospheric Scattering  Ole Ciliox Unity Technologies ole@unity3d.com 
+  3.2 Image Post Effects Due to limited memory bandwidth on modern mobile devicestechniques already 
+traditional to realtime graphics like fullscreen image post processing are hardly practical especially 
+atincreasing resolution of mobile displays. We will discuss our partial substitution for lens effects. 
+We developed novel approach for solving geometricalocclusion (typically implemented on CPU or require 
+DirectX11 compatibility level) for Anamorphic Light Flares purely on GPU by leveraging texture fetch 
+functionality in vertex shader. 3.2 Gamma Correction Finally we will discuss selective Gamma correction 
+and tone­mapping for certain surfaces like skin in order to workaround lack of sRGB texture sampling 
+on certain GPU families and to achieve better performance. Permission to make digital or hard copies 
+of part or all of this work for personal or classroom use isgranted without fee provided that copies 
+are not made or distributed for commercial advantage and that copies bear this notice and the full citation 
+on the first page. Copyrights for third-party components of thiswork must be honored. For all other uses, 
+contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by 
+the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503521</article_id>
+		<sort_key>90</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>6</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Moving to mobile graphics and GPGPU]]></title>
+		<subtitle><![CDATA[forget everything you know]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503521</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503521</url>
+		<abstract>
+			<par><![CDATA[<p>Embedded, and especially mobile, GPUs are increasingly powerful: the latest mobile GPUs have caught up with some desktop cards in terms of raw computing power. The amount of work mobile GPUs are required to do is also increasing -- for example, the display resolution of some current mobile devices exceeds that of many conventional PC systems.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191027</person_id>
+				<author_profile_id><![CDATA[82458663057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Andrew]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Garrard]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Samsung Research UK, Staines-upon-Thames, Surrey, UK]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[a.garrard@samsung.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ S3HeatSink.JPG Moving to Mobile Graphics and GPGPU Forget Everything You Know Andrew Garrard Samsung 
+Research UK Staines-upon-Thames, Surrey, UK a.garrard@samsung.com 1. Introduction Embedded, and especially 
+mobile, GPUs are increasingly powerful: the latest mobile GPUs have caught up with some desktop cards 
+in terms of raw computing power. The amount of work mobile GPUs are required to do is also increasing 
+ for example, the display resolution of some current mobile devices exceeds that of many conventional 
+PC systems. It is tempting to think that developing for a mobile GPU is simply a case of restricting 
+the problem size or using code designed for older or low-end PC systems. In reality, the architectures 
+of mobile GPUs differ significantly from their desktop relatives, and the best performance is achieved 
+by different approaches. 2. Mobile Hardware Mobile GPUs are limited both in size and power consumption 
+compared with a desktop graphics card. Many of the differences follow from the use of shared memory: 
+where a desktop GPU typically has dedicated high-speed memory, mobile devices have shared memory. Not 
+only does this memory have limited performance, the bandwidth is shared with the CPU. In addition, mobile 
+GPUs are very resource constrained compared with current desktop devices. The total compute resource 
+available is, unlike desktop systems, not much greater than the attached CPUs; efficiency depends on 
+a good fit to hardware constraints, and it is easy to lose significant performance. On top of this, mobile 
+hardware typically has reduced compatibility (or baggage, if you prefer) compared with desktop systems. 
+ 3. Mobile Graphics Graphics in mobile is heavily constrained by memory bandwidth. To work around this, 
+many mobile architectures make use of tiled rendering an approach which has advantages and disadvantages 
+compared with the conventional immediate-mode renderers seen in the desktop space. Techniques which are 
+convenient and low-cost in the desktop environment may be prohibitive in mobile; equally, some mobile 
+operations carry much less overhead than might be expected. It is particularly beneficial to make use 
+of compressed texture formats and avoid retaining unneeded buffers, and to be wary of multiple rendering 
+passes within a frame. Mobile devices are also necessarily limited in cache size, and resource constraints 
+limit the extent to which latency can be hidden. Therefore locality of reference in texture access is 
+especially important for mobile devices. Compute performance is improving faster than bandwidth, and, 
+especially for future devices, it may be better to repeat calculations than to use a bandwidth-hogging 
+look-up table. We discuss opportunities for achieving acceptable rendering quality while maintaining 
+performance on mobile devices. 4. Mobile GPGPU General-purpose computation on mobile GPUs is an increasingly-important 
+area of development. The performance gains available depend highly on the nature of the problem to be 
+solved. In many cases, the benefit is primarily in power saving rather than outright speed, and in freeing 
+the CPU to work in parallel. Not only do current mobile GPUs have a limited raw performance advantage 
+over embedded CPUs, there are a number of architectural differences between mobile implementations which 
+are significant to the author of GPGPU code. Ignoring these variations can impede performance enough 
+to negate the benefits of using the GPU at all. Combined with additional resource and compatibility limitations 
+on mobile systems compared with a larger desktop system, porting a GPGPU application to a mobile device 
+is not simply a matter of relying on a portable API. We discuss the constraints that one may expect 
+when running on a mobile device, behavioural differences between platforms of which the programmer should 
+be aware, and techniques that can be used to maximize mobile GPGPU efficiency.  Figure 1. A tablet like 
+this won t pass user trials.  5. Summary Mobile GPUs are not simply scaled-down desktop GPUs: they 
+have different architectures which influence their performance characteristics. In this talk, we discuss 
+how code development should be influenced by those architectural changes, and how to suit coding styles 
+to the power and performance demands of mobile systems. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503522</article_id>
+		<sort_key>100</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>7</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Challenges with high quality mobile graphics]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503522</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503522</url>
+		<abstract>
+			<par><![CDATA[<p>Mobile GPUs are widely expected to edge into the low hundreds of GFlops inside the next few years. On this measure, they will be in the same range as current console GPUs, but considerable differences exist between the architectures that make this basic comparison questionable. The underlying memory architectures differ, and their relative bandwidths remain far apart. Mobile devices frequently have significantly higher display resolutions than their static counterparts. Mobile GPUs also show considerable variety. The hardware rasterisation approach employed varies between devices, producing a broad spectrum of capabilities. These create unique challenges for mobile devices rendering high quality graphics.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191028</person_id>
+				<author_profile_id><![CDATA[81487641330]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Sam]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Martin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Geomerics, Cambridge, UK]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[sam.martin@geomerics.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191029</person_id>
+				<author_profile_id><![CDATA[82458998057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Marius]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bj&#248;rge]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ARM, Trondheim, Norway]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[marius.bjorge@arm.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191030</person_id>
+				<author_profile_id><![CDATA[82459007357]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Sandeep]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kakarlapudi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ARM, Trondheim, Norway]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[sandeep.kakarlapudi@arm.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191031</person_id>
+				<author_profile_id><![CDATA[82459322757]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Jan-Harald]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Fredriksen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ARM, Trondheim, Norway]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jan-harald.fredriksen@arm.com]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>2341915</ref_obj_id>
+				<ref_obj_pid>2341910</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Martin, S., Wash, M. 2012. Advancing Dynamic Lighting on Mobile. From <i>ACM SIGGRAPH Mobile 2012</i>. http://www.geomerics.com/media/presentations.html]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Davies, J. 2010. ARM Mali-T604: New GPU & Architecture For Highest Performance & Flexibility. http://bit.ly/dqiCRD]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Challenges With High Quality Mobile Graphics Sam Martin Geomerics Cambridge, UK sam.martin@geomerics.com 
+ Marius Bjørge ARM Trondheim, Norway marius.bjorge@arm.com Sandeep Kakarlapudi ARM Trondheim, Norway 
+sandeep.kakarlapudi@arm.com Jan-Harald Fredriksen ARM Trondheim, Norway jan-harald.fredriksen@arm.com 
+1. Introduction Mobile GPUs are widely expected to edge into the low hundreds of GFlops inside the next 
+few years. On this measure, they will be in the same range as current console GPUs, but considerable 
+differences exist between the architectures that make this basic comparison questionable. The underlying 
+memory architectures differ, and their relative bandwidths remain far apart. Mobile devices frequently 
+have significantly higher display resolutions than their static counterparts. Mobile GPUs also show considerable 
+variety. The hardware rasterisation approach employed varies between devices, producing a broad spectrum 
+of capabilities. These create unique challenges for mobile devices rendering high quality graphics. 
+In this talk, we identify and explore potential solutions to the challenges unique to mobile graphics 
+through a series of experiments. Using a high quality asset authored for use on a DirectX 11 renderer, 
+we port it to run on a mobile device and measure the performance and power impact of rendering it with 
+different techniques. We quantify the impact of new features in OpenGL ES 3.0, and what is possible if 
+we go beyond the OpenGL model with hardware-specific optimizations. 2. Approach Our Atlas test asset 
+was authored for a DirectX 11 renderer and is broadly representative of modern rendering practices. The 
+scene includes widespread use of high detail normal maps sculpted in ZBrush, fully dynamic global illumination 
+[Martin &#38; Wash 2012], a mix of material types (foliage, rock, metal, water), and uses full screen 
+post processing effects. We base our investigations on the ARM Mali GPU architecture, a tile-based GPU, 
+and run on a custom Linux OS where we have access to development drivers and can explore beyond the limits 
+of existing Android and iOS devices. We investigate the power and performance impact of alternative 
+rendering techniques. We test mixed resolution rendering approaches to make the best use of high native 
+display resolutions on mobile. We compare the relative performance of different rendering approaches, 
+including deferred and light-pre pass techniques, using the new capabilities of OpenGL ES 3.0. Focusing 
+on the Mali architecture allows us to explore the potential impact of hardware specific optimizations. 
+We exploit driver extensions that allow us to significantly reduce memory traffic and describe a novel 
+on chip deferred rendering approach and quantify its performance against existing approaches. Alongside 
+testing changes in technology, we identify the reduction of asset complexity required to run on the latest 
+Mali-based SoCs. We expect our results to provide guidelines to content creators moving content from 
+console to mobile.         Figure 1. The Atlas test asset in a DirectX 11 renderer 3. Challenges 
+ We contend that AAA quality graphics will not happen on mobile through brute force methods that rely 
+on memory bandwidth for their performance. The memory bandwidths seen today on mobile are not on par 
+with consoles, and the additional power limits and unified architecture constrain this further. This 
+is a challenge for several popular graphics techniques, notably deferred rendering and post processing 
+effects. High resolution displays present a similar challenge. The advent of OpenGL ES 3.0 will allow 
+developers a practical means of writing such techniques on mobile for the first time. Critical features, 
+such as support for multiple render targets, were absent from OpenGL ES 2.0. We compare performance of 
+well-known rendering techniques that OpenGL ES 3.0 enables. Our results provide a guideline for best 
+practices. We extend our tests with a novel on chip deferred rendering implementation that uses hardware 
+specific extensions. This allows us to minimize off chip memory bandwidth and quantify the impact on 
+power and performance. Texture data is another significant source of memory bandwidth. OpenGL ES 3.0 
+and ASTC offer new opportunities for high quality texture compression. We evaluate the options and provide 
+an analysis. High resolution displays present challenges for both engineering and asset creation. We 
+explore upsampling and mixed-resolution rendering options, and the challenges of authoring for high resolution 
+screens with a reduced resource budget. References MARTIN, S., WASH, M. 2012. Advancing Dynamic Lighting 
+on Mobile. From ACM SIGGRAPH Mobile 2012. http://www.geomerics.com/media/presentations.html DAVIES, 
+J. 2010. ARM Mali-T604: New GPU &#38; Architecture For Highest Performance &#38; Flexibility. http://bit.ly/dqiCRD 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>2503523</section_id>
+		<sort_key>110</sort_key>
+		<section_seq_no>4</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Mobile case studies]]></section_title>
+		<section_page_from>4</section_page_from>
+	<article_rec>
+		<article_id>2503524</article_id>
+		<sort_key>120</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>8</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[The collaborative composite image at RIT]]></title>
+		<subtitle><![CDATA[the MAG project]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503524</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503524</url>
+		<abstract>
+			<par><![CDATA[<p>Professors Susan Lakin and David Halbstein developed and implemented a new course at RIT, designed to explore the practical and aesthetic challenges encountered during a collaborative effort between students of photography and students of 3D digital design. Wanting to reach beyond the more traditional kinds of imagery that might result from this kind of collaboration, we explored the possibilities of using augmented reality in one of our projects.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191032</person_id>
+				<author_profile_id><![CDATA[82459226557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Susan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lakin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Rochester Institute of Technology, Rochester, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191033</person_id>
+				<author_profile_id><![CDATA[81504687394]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Halbstein]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Rochester Institute of Technology, Rochester, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Mills, Matt, "Image Recognition that Triggers Augmented Reality", July, 2012. <i>Ted.com</i>, Sept, 2012. &lt;http://www.ted.com/talks/matt_mills_image_recognition_that_triggers_augmented_reality.html&gt;]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ The Collaborative Composite Image at RIT: The MAG Project   1.Introduction Professors Susan Lakin 
+and David Halbstein developed and implemented a new course at RIT, designed to explore the practical 
+and aesthetic challenges encountered during a collaborative effort between students of photography and 
+students of 3D digital design. Wanting to reach beyond the more traditional kinds of imagery that might 
+result from this kind of collaboration, we explored the possibilities of using augmented reality in one 
+of our projects. 2. The  MAGProject   After some research, we decided to use Aurasma, an augmented 
+reality platform, for this project. We wanted to create an augmented reality experience for visitors 
+to the Memorial Art Gallery, an established museum of art in the City of Rochester. Our collaboration 
+expanded to include Professor Nitin Sampat and his students, who were studying color management and art 
+reproduction, and the curators of the Memorial Art Gallery. After a tour of the permanent collection 
+at MAG, we divided the students into teams of two; each team comprised of one photography student and 
+one 3D student. When possible, teams were based on common interest in specific paintings they had seen. 
+Once we had a list of selected paintings, we gave the list to Professor Sampat s class for reproduction. 
+These digital images were then given to the teams of Photo/3D students for their part in the project. 
+The paintings were used as trigger images which, when viewed through the camera of a mobile device, would 
+come to life in the hands of the viewer; using the image-recognition and tracking capabilities of the 
+Aurasma platform. 3.  Implementation Each student brought his or her own skillset and experience to 
+the project, and the goals of each individual piece were the result of complete creative freedom on the 
+part of each team. Ideas and work in progress critiques were presented at intervals in the class; feedback 
+was given and discussed. Some students kept their overlays within the 2D picture plane, others extended 
+outside of the frame into the museum space, and still others went deep inside the z-depth of the image 
+inside the frame. Some used video, some used computer animation, and still others used animated GIF sequences. 
+Professor Lakin worked with Aurasma and developed our own channel for viewing these images, and ultimately 
+created our own RIT CCI Aurasma skinned app, which is available in the Apple Store and on Google Play. 
+ 4.Results The final critique was held on-site at the Memorial Art Gallery, and as such was open to 
+the general public. Each student was able to see the results of their work and the reaction of the public 
+in a very impressive space. Ten individual projects were created, each bringing a different painting 
+to life in unique and sometimes startling ways, when viewed through the mobile device running the application. 
+ 5.Presentation This presentation is about our process; the challenges we faced with developing a project 
+around new augmented reality technology, and of the hurdles we encountered through our multiple collaborative 
+experiences. The presentation will end with a hands-on demonstration of our results, using our free course 
+mobile skinned app and high quality reproductions of the paintings captured by the Color Management for 
+Photography students. 6.Bibliography Mills,Matt,   ImageRecognitionthatTriggersAugmented  Reality ,July,2012.Ted.com, 
+ Sept,  2012. <http://www.ted.com/talks/matt_mills_image_recog nition_that_triggers_augmented_reality.html> 
+ Permission to make digital or hard copies of part or all of this work for personal or classroom use 
+isgranted without fee provided that copies are not made or distributed for commercial advantage and that 
+copies bear this notice and the full citation on the first page. Copyrights for third-party components 
+of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 
+2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503525</article_id>
+		<sort_key>130</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>9</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Red ball]]></title>
+		<subtitle><![CDATA[iPads in performance]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503525</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503525</url>
+		<abstract>
+			<par><![CDATA[<p>Now you see it. Now you don't. This red ball is real, mimed, and rendered. In this performance these versatile performers use magic, mime, movement and iPads to play with a simple, red ball and a few heads. The performers from PUSH Physical Theatre and the graphics created by Marla Schweppe combined to create Red Ball.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191034</person_id>
+				<author_profile_id><![CDATA[81100387185]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Marla]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Schweppe]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Rochester Institute of Technology, Rochester, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[marla.schweppe@rit.edu]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Red Ball: iPads in Performance Marla Schweppe Rochester Institute of Technology Rochester, NY, USA 
+ marla.schweppe@rit.edu 1. Introduction Now you see it. Now you don t. This red ball is real, mimed, 
+and rendered. In this performance these versatile performers usemagic, mime, movement and iPads to play 
+with a simple, red balland a few heads. The performers from PUSH Physical Theatreand the graphics created 
+by Marla Schweppe combined to create Red Ball. 2. The Creators PUSH Physical Theatre has been called 
+a cross between fine artsculpture and the hit movie, The Matrix, but its co-founders currently (and with 
+tongue firmly in cheek) characterize it as: like regular theatre but more painful. Founded in Rochester,NY 
+in 2000 by husband-and-wife team, Darren and HeatherStevenson, PUSH represents the couple s desire to 
+push theboundaries of conventional theatre. Its physical feats can be awe­inspiring (hence the painful 
+attribute), but the cherry on top ofthis acrobatic sundae is PUSH s ability to grab hold of audiences 
+emotions through exceptional storytelling. Marla Schweppe is a professor in the School of Design at theRochester 
+Institute of Technology. Early in her career she designed for theatre, television and movies in New York 
+City and other theatres around the country. She traveled through fourcontinents and over 30 countries 
+designing for Jennifer Mullerand the Works, a contemporary dance company. She did her graduate work in 
+computer graphics and animation and has been teaching computer graphics and animation for 30 years at 
+OhioState University, the School of the Art Institute of Chicago,Northwestern University and RIT. Her 
+creative work includes the incorporation digital graphics in both live and virtual performances. She 
+was the 1999 SIGGRAPH Gallery Chair. 3. The Process RedBallwascreatedattheNationalTechnicalInstitutefortheDeaf. 
+ Intheoriginalperformancethreestudents  performedwithPUSHmembers.Thepiecewasdevelopedfrom  anoriginalconceptusing 
+ red  ballastheconsistentelementand  thenimaginingallthat  couldbedonewith  red  ballaniPadsincombinationwithmovement,magic,andmime.Manyideasevolvedlike 
+ placing  animaginary,mimedballinmid-­-airand  thenhavingit  appear  ontheiPadasthoughtheiPadwereamovingwindow 
+ intotheimaginaryworldthatwouldbeviewedwhensomeone  walkedpastthe  positionofthe  imaginaryball.Some 
+ ofthe  ideasinvolved  single  iPad  and  othersinvolved  multipleiPads,likethecascade(Fig.1)inwhichtheball 
+falls throughfiveiPadsfromtoptobottomandendsuprollingacrossthefloorasphysicalball.Stillotherideasinvolved 
+ additionalvisualelementsontheiPads.Ablunderbussfiresaburningredballintotheair,whichhitsan  imaginarybirdandthenthefeathersfallandareonlyvisibleintheiPad 
+windows .  Additionalelementsinvolvetheappearanceanddisappearanceoffewheads.  Figure 1. Ball at the 
+top of the cascade. 4. Conclusion Using iPads and commercial software we created an entertainingperformance, 
+which is now being performed in the repertory ofthe company from New York to California. The success 
+of the performance depends on the expertise of the performers in timing their movements with the visuals 
+on the iPads. In total, more than100 short videos were used on the five iPads. Over 600 were created 
+in the process of developing the piece. We are workingon a second performance and a specialized application 
+for theiPad that does specifically what is needed in the performanceenvironment. Links PUSH PHYSICAL 
+THEATRE. www.pushtheatre.org MARLA SCHWEPPE, cias.rit.edu/~mkspph Permission to make digital or hard 
+copies of part or all of this work for personal or classroom use isgranted without fee provided that 
+copies are not made or distributed for commercial advantage and that copies bear this notice and the 
+full citation on the first page. Copyrights for third-party components of thiswork must be honored. For 
+all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 
+Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503526</article_id>
+		<sort_key>140</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>10</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Social reform through mobile gaming (seed.genesis)]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503526</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503526</url>
+		<abstract>
+			<par><![CDATA[<p>Team Seed is a group of friends who banded together to address the problem of inadequate rainforest awareness in recent times. In the 1990's, rainforest protection education was often touted as being one of the most pressing of global issues. Currently, however, energy usage and the world's depleting oil reserves have nearly overshadowed the rainforest awareness movement. If this trend continues, our global climate will be changed for the worse and future medicines may forever be out of our reach.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191035</person_id>
+				<author_profile_id><![CDATA[82458745357]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Alexis]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Polanco]]></last_name>
+				<suffix><![CDATA[Jr.]]></suffix>
+				<affiliation><![CDATA[New Jersey Institute of Technology, Newark, NJ]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[apolancojr@gmail.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191036</person_id>
+				<author_profile_id><![CDATA[82458677257]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Danielle]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Esmaya]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[New Jersey Institute of Technology, Newark, NJ]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[danielleesmaya@gmail.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191037</person_id>
+				<author_profile_id><![CDATA[82458728157]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Nathaniel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Martin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[New Jersey Institute of Technology, Newark, NJ]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[nam23@njit.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191038</person_id>
+				<author_profile_id><![CDATA[82459021457]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Bradley]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chun]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[New Jersey Institute of Technology, Newark, NJ]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[brad@njit.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191039</person_id>
+				<author_profile_id><![CDATA[82458844857]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Mateuz]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mrowiec]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[New Jersey Institute of Technology, Newark, NJ]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[matt.mrowiec@gmail.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191040</person_id>
+				<author_profile_id><![CDATA[82458676957]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Joseph]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hewitt]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[New Jersey Institute of Technology, Newark, NJ]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jah25@njit.edu]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Google. "Web Search Interest: Nonrenewable Energy, Rainforest Deforestation." Google Trends. Google, Nov. 2012. Web.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Social Reform through Mobile Gaming (Seed.Genesis) Alexis Polanco, Jr. Danielle Esmaya Nathaniel Martin 
+New Jersey Institute of New Jersey Institute of New Jersey Institute of Technology Technology Technology 
+Newark, NJ, USA Newark, NJ, USA Newark, NJ, USA apolancojr@gmail.com danielleesmaya@gmail.com nam23@njit.edu 
+1. Introduction &#38; Team Mission Team Seed is a group of friends who banded together to addressthe 
+problem of inadequate rainforest awareness in recent times. Inthe 1990 s, rainforest protection education 
+was often touted asbeing one of the most pressing of global issues. Currently,however, energy usage and 
+the world s depleting oil reserves havenearly overshadowed the rainforest awareness movement. If thistrend 
+continues, our global climate will be changed for the worseand future medicines may forever be out of 
+our reach. 2. Problem &#38; Solution/Game Proposal In analyzing the situation, we discovered the corollary 
+problem ofincreasing disinterest (or, in the very least, indifference) with therainforest awareness movement. 
+To address the aforementioned problems, Team Seed began development on the mobile gamecalled Seed.Genesis 
+[pronounced: Seed dot Genesis]. In this game, the player takes the role of a seed growing through atropical 
+rainforest encountering the various strata along the way. In order to promote greater knowledge about 
+rainforest flora, theplayer will be rewarded with different plant emblems, animations, and achievements 
+based on how they perform. 2.1 Proposal Elaboration In order to achieve our goals of increased interest 
+and education, we plan to release the game as free-to-play with the backing ofalready-established entities 
+as in-game sponsors (coupled with in­game purchases). The ultimate goal is to partner with existing organizations 
+to allow for in-game achievements to correspondwith real trees being re-/planted, photographed, and publicized 
+through social media. Plant-it-2020, for example, has a dollar-per­tree planting program that mirrors 
+mobile-app pricing. Additionalin-game goals are: (1) to have sponsored areas that allow forindividuals, 
+schools, and other entities to pay for non-intrusiveadvertising that incentivizes players with upgrades 
+to their plants,and (2) to host special events during holidays, like Earth Day. Figure 1. Documented 
+disinterest in rainforest deforestation over the past 10 yrs, as compared to interest in nonrenewable 
+energy. Bradley Chun Mateuz Mrowiec Joseph Hewitt New Jersey Institute of New Jersey Institute of New 
+Jersey Institute of Technology Technology Technology Newark, NJ, USA Newark, NJ, USA Newark, NJ, USA 
+ brad@njit.edu matt.mrowiec@gmail.com jah25@njit.edu  3. Initial Results &#38; Reception As it stands, 
+Team Seed has a working prototype that was well­received by the organizers and participants of Global 
+Game Jam2012. For those unaware, GGJ is a hackathon focused on gamedevelopment. For those in attendance 
+the processes of ideation,programing, designing, and testing are condensed into a 48 hourdevelopment 
+period. The prototype itself was initially developedfor the Windows Phone 7 platform as per a challenge 
+set forthby a Microsoft representative who attended the New Jersey Institute of Technology-hosted event. 
+Additionally, it was recommended that the teams in attendance keep sustainability inmind when thinking 
+about our games. Team Seed took both ofthese suggestions to heart and merged them into one game. 4. Conclusions 
+&#38; Intended Audience This talk and its corresponding game, Seed.Genesis , is gearedtowards video game 
+enthusiasts, entrepreneurs, environmentalists, educators, and proponents of gamification theory. The 
+concept ofthis talk is to use Seed.Genesis as an example for how smallminutes-long bits of time spent 
+playing on a mobile device can directly lead to real-world change. Conversations with various individuals 
+from the aforementioned target groups have yielded significant levels of enthusiasm with regards to both 
+Seed.Genesis and other potential offshoots that can use this model of mobilegaming to super-charge social 
+reform. References Google. "Web Search Interest: Nonrenewable Energy, RainforestDeforestation." Google 
+Trends. Google, Nov. 2012. Web. Permission to make digital or hard copies of part or all of this work 
+for personal or classroom use isgranted without fee provided that copies are not made or distributed 
+for commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights 
+for third-party components of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 
+2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503527</article_id>
+		<sort_key>150</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>11</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Sketching data]]></title>
+		<subtitle><![CDATA[lessons learned from a formative user evaluation]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503527</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503527</url>
+		<abstract>
+			<par><![CDATA[<p>Mobile devices require new interaction approaches for working with data, as inputting numbers into a spreadsheet on a tablet is especially tedious. Last year we presented SketchGraph [Martino et al. 2012] for sketching data in a fluid manner (Fig. 1). Here, we discuss observations of usability based on a user study.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191041</person_id>
+				<author_profile_id><![CDATA[81100508902]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jacquelyn]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Martino]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[IBM T. J. Watson Research Center, Yorktown Heights, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jmartino@us.ibm.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191042</person_id>
+				<author_profile_id><![CDATA[81100257325]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Rachel]]></first_name>
+				<middle_name><![CDATA[K. E.]]></middle_name>
+				<last_name><![CDATA[Bellamy]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[IBM T. J. Watson Research Center, Yorktown Heights, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[rachel@us.ibm.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191043</person_id>
+				<author_profile_id><![CDATA[81100317041]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Paul]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Matchen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[IBM T. J. Watson Research Center, Yorktown Heights, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[pmatchen@us.ibm.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191044</person_id>
+				<author_profile_id><![CDATA[81100333974]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Harold]]></first_name>
+				<middle_name><![CDATA[L.]]></middle_name>
+				<last_name><![CDATA[Ossher]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[IBM T. J. Watson Research Center, Yorktown Heights, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ossher@us.ibm.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191045</person_id>
+				<author_profile_id><![CDATA[81100451878]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[John]]></first_name>
+				<middle_name><![CDATA[T.]]></middle_name>
+				<last_name><![CDATA[Richards]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[IBM T. J. Watson Research Center, Yorktown Heights, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ajtr@us.ibm.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191046</person_id>
+				<author_profile_id><![CDATA[81100027041]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Cal]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Swart]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[IBM T. J. Watson Research Center, Yorktown Heights, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[cals@us.ibm.com]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>2342926</ref_obj_id>
+				<ref_obj_pid>2342896</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Martino, J., et al., SketchGraph: Gestural Data Input for Mobile Tablet Devices. SIGGRAPH, 2012.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Plimmer, B. 2008. Experiences with digital pen, keyboard and mouse usability. Journal on Multimodal User Interfaces, 2(1).]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Sketching Data: Lessons Learned From a Formative User Evaluation Jacquelyn Martino, Rachel K. E. Bellamy, 
+Paul Matchen, Harold L. Ossher, John T. Richards and Cal Swart IBM T. J. Watson Research Center. PO Box 
+218, Yorktown Heights, NY 10598 USA {jmartino, rachel, pmatchen, ossher, ajtr, cals}@us.ibm.com  Figure 
+1. User draws a recognized graph gesture (left), strokes curves and labels (middle), gestures to get 
+the underlying data table (right).   Figure 2. Gesture misinterpretations with study participants: 
+A down gesture to open the data table is outside graph boundary and so leaves a mark instead(left); C, 
+intended as a clear command, is not interpreted (middle); Horizontal scribble, intended to delete, is 
+not currently a supported gesture (right). 1 Exposition Mobile devices require new interaction approaches 
+for workingwith data, as inputting numbers into a spreadsheet on a tablet isespecially tedious. Last 
+year we presented SketchGraph [Martinoet al. 2012] for sketching data in a fluid manner (Fig. 1). Here, 
+wediscuss observations of usability based on a user study. SketchGraph lets users sketch a graph on a 
+tablet, using a fewsimple gestures. The strokes making up the axes are recognized as such. Strokes within 
+the area defined by these axes are interpretedas data curves and a collection of relative points fitting 
+eachstroke is generated. A smooth curve is drawn through these points. The graph can be made up of many 
+curves, each distinguished by color. The axes, the graph as a whole, and the curves can be labeled. The 
+user can manipulate the curves,displaying the generated points and moving them around at will,with quick, 
+automatic data interpolation and underlying data tableupdates. Dragging a curve from its starting point 
+and off the edgeof the graph deletes it. A C gesture clears the entire graph area.Also, the user can, 
+at any time, make a down stroke to see theunderlying data table. The user can go back and forth, examiningand 
+changing either the numbers in the table or the positions ofpoints on the graph with immediate, synchronized 
+feedback.Users engage in quantitative sketching, without the interactionoverhead of WIMP interfaces, 
+and the result is a hand-drawn graph, formally backed by a table of data. In a study of pen-based tools, 
+[Plimmer 2008] revealed a range ofbasic usability problems to address so as not to impede fluid work. 
+Fluidity requires a careful balance of inking, recognition,smoothing, and fitting. It also requires a 
+suite of common gestures such as circling to select, and pinching and stretching to shrinkand expand 
+axes. We have conducted a formative user study ofSketchGraph with ten people to better understand how 
+our currentdesign choices do, or do not, impede flow when sketching data. First, we showed participants 
+a one-minute video demonstrating all SketchGraph s creation and editing features. Then, we askedparticipants 
+to use SketchGraph to perform a somewhat realistic task: sketching a graph of rainfall in New York and 
+California, and manipulating the data. We designed the protocol to include allthe prototype s gestures 
+and features. A summary of our observations is: Gestural input for both content and commands led to 
+errors for7 participants. Gesture misinterpretation led to frustration interfering with smooth operation 
+of the tool and leaving visibleerrors on the screen (Fig. 2, middle).  5 participants experienced confusion 
+from mixing gestural and WIMP-style interactions. For example, after making the downgesture to open the 
+data table, some users tried to close it with amirroring up gesture, rather than finding and tapping 
+the X close box on the data table.  5 participants generalized from typical paper and pencil techniques 
+making a not-yet-supported gesture, such as a scribble intended to indicate deletion (Fig. 2, right). 
+ Half of our participants initially had trouble with recognition oftheir gestures due to stroke timing. 
+For example, if too muchtime is left between drawing the two axes, the strokes are not recognized as 
+axes. We found that, fortunately, users quicklylearned the timing after a few attempts.  6 participants 
+made errors and were frustrated by a lack offeedback in the interface. As an example, several people 
+drew a line by mistake when trying to open the data table, becausethey didn t gesture in the right location 
+relative to the graph sbounding box. SketchGraph uses the bounding box of the graphto scope and interpret 
+user intent, but provides no visible cuesto the bounding box itself beyond the sketched graph lines. 
+ Even from these early results, we learned useful lessons and defined additional research that will 
+determine the proper balanceof features needed to create a natural and expressive data sketching tool. 
+ References MARTINO, J., et al., SketchGraph: Gestural Data Input for MobileTablet Devices. SIGGRAPH, 
+2012. PLIMMER, B. 2008. Experiences with digital pen, keyboard andmouse usability. Journal on Multimodal 
+User Interfaces, 2(1). Permission to make digital or hard copies of part or all of this work for personal 
+or classroom use isgranted without fee provided that copies are not made or distributed for commercial 
+advantage and that copies bear this notice and the full citation on the first page. Copyrights for third-party 
+components of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 
+21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>2503528</section_id>
+		<sort_key>160</sort_key>
+		<section_seq_no>5</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[New mobile techniques]]></section_title>
+		<section_page_from>5</section_page_from>
+	<article_rec>
+		<article_id>2503529</article_id>
+		<sort_key>170</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>12</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Multi-channel acoustic data transmission to ad-hoc mobile phone arrays]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503529</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503529</url>
+		<abstract>
+			<par><![CDATA[<p>There are many uses for a reliable communication channel from an event (at entertainment or show environments like cinemas, theaters and sport stadiums) towards the mobile phones of the audience. Such a channel enables new mobile applications that should interest the SIGGRAPH Mobile community: For example, events in a movie can trigger assisting information to appear on a phone's display ("second screen"). or games involving the phones and the event are enabled through synchronous message transmissions. Real time information about an event can enrich the story telling when augmented-reality is applied. We report on a prototype system that operates only with the audio channel and the existing audio infrastructure. The system does not require any dedicated wireless (radio) infrastructure such as Wi-Fi access points to be set-up in the environment. This setup maps nicely to many event environments: Avoiding the need for a new wireless infrastructure, a movie (or a show, concert, etc.) can directly interact with mobile phones in virtually any location across the world.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191047</person_id>
+				<author_profile_id><![CDATA[82458889057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Roman]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Frigg]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ETH Zurich]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191048</person_id>
+				<author_profile_id><![CDATA[82458711057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Thomas]]></first_name>
+				<middle_name><![CDATA[R.]]></middle_name>
+				<last_name><![CDATA[Gross]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ETH Zurich]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191049</person_id>
+				<author_profile_id><![CDATA[81100245179]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Stefan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mangold]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Disney Research, Zurich]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Cho, K. and Yun, H. S. and Kim, N. S. (2010) <i>Robust Data Hiding for MCLT Based Acoustic Data Transmission</i>. IEEE Signal Processing Letters, IEEE, 17(7): 679--682. DOI:10.1109/LSP.2010.2051174]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Frigg, R. (2013) <i>Acoustic Data Transmission with Cooperative Diversity to Ad-hoc Mobile Phone Arrays</i>. Master Thesis, ETH Zurich, Switzerland.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2219594</ref_obj_id>
+				<ref_obj_pid>2219092</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Lazic, N. and Aarabi, P. (2006) <i>Communication Over an Acoustic Channel Using Data Hiding Techniques</i>. Trans. on Multimedia, IEEE, 8(5): 918--924. DOI:10.1109/TMM.2006.879880]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2272987</ref_obj_id>
+				<ref_obj_pid>2263465</ref_obj_pid>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Yuksel, M. and Erkip, E. (2007) <i>Multiple-Antenna Cooperative Wireless Systems: A Diversity--Multiplexing Tradeoff Perspective</i>. Information Theory, IEEE Transactions on, 53(10): 3371--3393. DOI: 10.1109/TIT.2007.904972]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Multi-Channel Acoustic Data Transmission to Ad-Hoc Mobile Phone Arrays Roman Frigg, Thomas R. Gross 
+ETH Zurich 1. Introduction There are many uses for a reliable communication channel from anevent (at 
+entertainment or show environments like cinemas, theatersand sport stadiums) towards the mobile phones 
+of the audience. Such a channel enables new mobile applications that should interest the SIGGRAPH Mobile 
+community: For example, events in a mov­ie can trigger assisting information to appear on a phone s display( 
+second screen ). or games involving the phones and the event areenabled through synchronous message transmissions. 
+Real time information about an event can enrich the story telling when aug­mented-reality is applied. 
+We report on a prototype system thatoperates only with the audio channel and the existing audio infra­structure. 
+The system does not require any dedicated wireless (ra­dio) infrastructure such as Wi-Fi access points 
+to be set-up in theenvironment. This setup maps nicely to many event environments: Avoiding the need 
+for a new wireless infrastructure, a movie (or a show, concert, etc.) can directly interact with mobile 
+phones invirtually any location across the world. We will demonstrate a novel way of decoding the received 
+data sothat quality and reliability of the audio communication are greatlyimproved, as described in the 
+next section. 2. Approach and System Architecture By offering users to connect their phones with other 
+participants viaWi-Fi or Bluetooth ad-hoc networks, a group of connected phonesacts as an ad-hoc microphone 
+array and exploits the diversity of theindividual message receptions. Different phones are likely to 
+ob­serve transmission errors at different times. Hence, bit errors aremore likely to be identified and 
+corrected in a joint, cooperativeapproach. Such a multi-phone approach is known from distributed radio 
+networks and referred to as cooperative diversity Phones in Audience: (microphone array) MCLT: Modi.ed 
+Complex Lapped Transform  Figure 1: System architecture: Messages are encoded so that theyare not hearable. 
+Participating phones in the audience connect with each other (wireless ad-hoc network) and exchange their 
+received data. Final decoding and error correction is performed jointly andthe resulting messages are 
+shared with all phones. Stefan Mangold Disney Research, Zurich  Yuksel (2007). Messages are encoded 
+into a movie soundtrack with the help of the Modulated Complex Lapped Transform (MCLT) as described by 
+Cho (2010) and modified towards multi-channel usage as described by Frigg (2013), so that they are hidden 
+and not heara­ble. Participating phones exchange their received data streams andthe results of the redundancy 
+check. The decoding and error han­dling is then performed on one of the phones, and the resulting mes­sages 
+are shared with all phones. Today s mobile phones are increasingly powerful with fast graphicsand signal 
+processing units, at reduced power consumption. These features enable a cooperative resource sharing 
+in applications suchas mobile social games. When offering ad-hoc connectivity, privacy and security aspects 
+will have to be taken into account. However,there is also an opportunity to address a social demand, 
+becauseusers with common interest will be able to share their experienceimmediately. 3. Demo The concept 
+can be demonstrated with a laptop as mockup source,and a handful of iPhones as receiving devices. Note 
+that it is notrequired to create a strong and loud sound with additional loud­speakers, in order to operate 
+the prototype. The basic principle ofthe cooperative diversity reception can be demonstrated at normal 
+loudness. It might help to set up a larger monitor with a slideshowin the background, and to use additional 
+iPad tablets to engage intechnical discussion for example about the MCLT implementation,or our recent 
+measurement campaign and experiments in a cinema. 4. References CHO, K. AND YUN, H.S. AND KIM, N.S. 
+(2010) Robust Data Hiding for MCLT Based Acoustic Data Transmission. IEEE Signal Processing Let­ ters, 
+IEEE, 17(7): 679-682. DOI:10.1109/LSP.2010.2051174 FRIGG, R. (2013) Acoustic Data Transmission with 
+Cooperative Diversityto Ad-hoc Mobile Phone Arrays. Master Thesis, ETH Zurich, Switzerland. LAZIC, N. 
+AND AARABI, P. (2006) Communication Over an Acoustic Channel Using Data Hiding Techniques. Trans. on 
+Multimedia, IEEE, 8(5): 918-924. DOI:10.1109/TMM.2006.879880 YUKSEL, M. AND ERKIP, E. (2007) Multiple-Antenna 
+Cooperative Wire­ less Systems: A Diversity Multiplexing Tradeoff Perspective. Information Theory, IEEE 
+Transactions on, 53(10): 3371-3393. DOI: 10.1109/TIT.2007.904972 Permission to make digital or hard 
+copies of part or all of this work for personal or classroom use isgranted without fee provided that 
+copies are not made or distributed for commercial advantage and that copies bear this notice and the 
+full citation on the first page. Copyrights for third-party components of thiswork must be honored. For 
+all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 
+Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503530</article_id>
+		<sort_key>180</sort_key>
+		<display_label>Article No.</display_label>
+		<display_no>13</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Reliable product visualisation on mobile devices]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503530</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503530</url>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191050</person_id>
+				<author_profile_id><![CDATA[82459023157]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hermes]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191051</person_id>
+				<author_profile_id><![CDATA[81320496420]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Andrea]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Weidlich]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503531</article_id>
+		<sort_key>190</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>14</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Create games in real-time across multiple devices]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503531</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503531</url>
+		<abstract>
+			<par><![CDATA[<p>We've been working between the intersection of HTML5 and native technologies developing a cross-platform multiplayer gaming environment that allows you to edit the games as they're being played.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191052</person_id>
+				<author_profile_id><![CDATA[82459017057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ashraf]]></first_name>
+				<middle_name><![CDATA[Samy]]></middle_name>
+				<last_name><![CDATA[Hegab]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[MultiPlay.io, London, UK]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ash@multiplay.io]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Mark Zuckerberg, 2012. Interview. "Our Biggest Mistake Was Betting Too Much On HTML5" TechCrunch Disrupt SF]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Gabe Newell, 2013. Presentation. "A View on the Next Steps." Keynote of DICE]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ CREATE GAMES IN REAL-TIME ACROSS MULTIPLE DEVICES Ashraf Samy HegabMultiPlay.ioLondon, UKash@multiplay.io 
+ 1. Introduction We ve been working between the intersection of HTML5 andnative technologies developing 
+a cross-platform multiplayergaming environment that allows you to edit the games as they rebeing played. 
+ Figure 1. Drag and drop cross-platform synchronization Live creation and editing of games running on 
+mobile phones using our web based editor will be presented. Featuring the real­time deployment of new 
+3d models, animations, levels and sourcecode. Application engine architecture utilizes the bulk of its 
+processingin JavaScript, leveraging its emerging APIs such as WebSockets, WebGL and IndexedDB for its 
+application logic will be explained. Going into hybrid approached optimization details toattain mobile 
+performance. 2. Going HTML5 The creating apps and games for mobiles has traditionally been aniterative 
+process of requiring design to feed into technical implementation, then testing and back to re-design. 
+Once developed the result is then submitted for review before publication. This process has been developed 
+not only to ensuresoftware quality but also as a technical constraint to ensure software performance 
+and device interoperability. However withthe recent cross-platform adoption of JavaScript, many apps 
+andgames have been developed utilizing this technology to varied results[1]. 2.1 Use case for dynamic 
+languages Our goal was to develop a 3d multiplayer games engine that couldhave its assets, design and 
+code logic updated in real-time. Thiswould require our implementation to predominantly utilize JavaScript 
+for its cross-platform install base and dynamic nature. But to also ensure that the performance of the 
+engine operatedsufficiently on mobile devices, without limiting the dynamic nature of operations that 
+could be executed in real-time. Figure 2. Native vs Hybrid perfromance  3. Results The bottlenecks 
+for developing this system varied from performance and HTML5 API implementation bottlenecks. Formost 
+platforms, OpenGL and Direct3D wrappers for WebGLwere required. Some platforms were very performance 
+sensitivedue to a lack of just in time compilation. WebSockets weren tsupported well for mobile data 
+connections, and native platformdependent file storage systems were required. However, afterthese hurdles 
+were crossed and the non-performing operationswere optimized, the engine could be dynamically changed 
+viaasset, code and design at runtime. 4. Conclusions The use case presented had been proved possible. 
+However,implementing user generated content into production is still anemerging topic with only a few 
+proven successes to name; TeamFortress 2[2], Minecraft and Little Big Planet. Therefore questions on 
+whether allowing such rapid development techniqueswould be favorable over the traditional model to ensure 
+software quality is still open for debate. For raw performance going nativeis still the best approach 
+and with the continued development andimprovements to JavaScript it is unknown if the cost of codecomplexity 
+introduced by a hybrid application model is worthwhile over the long term benefits to developing for 
+a purelyweb environment. References [1]MARK ZUCKERBERG, 2012. Interview. Our Biggest MistakeWas Betting 
+Too Much On HTML5 TechCrunch Disrupt SF [2]GABE NEWELL, 2013. Presentation. A View on the Next Steps. 
+Keynote of DICE Permission to make digital or hard copies of part or all of this work for personal or 
+classroom use isgranted without fee provided that copies are not made or distributed for commercial advantage 
+and that copies bear this notice and the full citation on the first page. Copyrights for third-party 
+components of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 
+21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503532</article_id>
+		<sort_key>200</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>15</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[OpenCL - OpenGL ES interop]]></title>
+		<subtitle><![CDATA[processing live video streams on a mobile device - case study]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503532</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503532</url>
+		<abstract>
+			<par><![CDATA[<p>Smart-phones and tablets have become high-performance mobile devices that package a great deal of computing power. In today's devices, GPUs are part of the integrated system-on-a-chip hardware (application processor) which offers tight integration and increased communication between all the system's hardware components (CPUs, DSPs, etc.). The purpose of this presentation is to highlight the advantages of using the GPU as a computational device and explain the process of effectively using/connecting the OpenCL and OpenGL ES APIs to do high performance visual data processing on the GPU.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191053</person_id>
+				<author_profile_id><![CDATA[82458897957]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Adrian]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bucur]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Samsung Research UK, Staines-upon-Thames, Surrey, United Kingdom]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[adrian.bucur@samsung.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ OpenCL OpenGL ES Interop Processing live video streams on a mobile device Case Study Adrian Bucur 
+Samsung Research UK Staines-upon-Thames, Surrey, United Kingdom adrian.bucur@samsung.com Abstract Smart-phones 
+and tablets have become high-performance mobile devices that package a great deal of computing power. 
+In today s devices, GPUs are part of the integrated system-on-a-chip hardware (application processor) 
+which offers tight integration and increased communication between all the system s hardware components 
+(CPUs, DSPs, etc.). The purpose of this presentation is to highlight the advantages of using the GPU 
+as a computational device and explain the process of effectively using/connecting the OpenCL and OpenGL 
+ES APIs to do high performance visual data processing on the GPU. Introduction Parallel hardware delivers 
+performance by running multiple operations at the same time. GPUs consist of many smaller, more efficient 
+cores, designed for parallel performance (compared to CPUs). Certain types of data are well suited for 
+GPU processing such as static images or video frames. Having the GPU busy with rendering and processing 
+visual data while the CPU is coordinating the application process can yield a good balance and increase 
+performance considerably. An embedded GPU shares the system bus with other compute devices to access 
+the off-chip memory. Thus, any data copying between the two compute devices can be costly in terms of 
+performance. If the target data is already present in the GPU memory space, then it would make sense 
+to use the GPU for processing. OpenCL and its interop with GLES make this possible. Processing Considering 
+the GPU as the main OpenCL compute device and the main rendering device, the OpenCL and OpenGL ES APIs 
+can be used to effectively share the same data that is prepared for display. The interop definition in 
+both these standards allows data to be shared by the graphics driver, so the processing takes place on 
+the same memory rather than on separate allocations. This involves less data copying and increases performance. 
+(gl_sharing is the interop extension that enables, among others, sharing GLES texture data with OpenCL 
+in the form of a cl image). While the CPU is concerned with the main application thread, events handling 
+and the rendering thread (directing jobs at the GPU), the visual processing of the current displayed 
+data can be offloaded to the GPU. A video stream provider (such as a smart-phone camera) can supply 
+frame data as a GLES texture data source - ready to be processed by the GPU using an OpenCL kernel. 
+ Fig. 1 Processing Flow An OpenCL kernel will be executed for each frame, before rendering as depicted 
+in Fig. 1. Synchronisation is an important aspect in this case, since both OpenGL and OpenCL effectively 
+work on the same memory and the data is processed in real time. Using synchronisation events/APIs (cl_event/clFinish/clFlush) 
+the user can make sure OpenCL has finished with the data before GLES takes over. The image/data formats 
+supported by both OpenCL and OpenGL affect computation and may have an impact on performance. Most video 
+formats store data in YUV. Common mobile formats for video include: mp4 and 3gp. Generally YUV frames 
+will be mapped to memory in different representations such as YV12 and NV21. Depending on the algorithm 
+used, extracting Y, U, V or R, G, B components may have an impact on performance. OpenCL kernels offer 
+a greater degree of flexibility in memory access than GLSL shader. Even though performance is still an 
+area where OpenCL needs to catch up, especially on mobile devices, being able to access more than one 
+pixel at a time and process raw buffer memory data instead of pixels in RGBA form (as provided by GLSL) 
+gives much greater flexibility and allows for a wider range of video/image effects/filters. Conclusion 
+ The interaction between OpenCL and OpenGLES bridges the gap between graphics accelerated rendering and 
+general processing on the GPU, and highlights the increased flexibility, performance and parallelism 
+offered by modern mobile devices. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>2503533</section_id>
+		<sort_key>210</sort_key>
+		<section_seq_no>6</section_seq_no>
+		<section_type>DEMONSTRATION SESSION</section_type>
+		<section_title><![CDATA[Demonstrations]]></section_title>
+		<section_page_from>6</section_page_from>
+	<article_rec>
+		<article_id>2503534</article_id>
+		<sort_key>220</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>16</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Create games in real-time across multiple devices]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503534</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503534</url>
+		<abstract>
+			<par><![CDATA[<p>We've been working between the intersection of HTML5 and native technologies developing a cross-platform multiplayer gaming environment that allows you to edit the games as they're being played.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191054</person_id>
+				<author_profile_id><![CDATA[82459017057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ashraf]]></first_name>
+				<middle_name><![CDATA[Samy]]></middle_name>
+				<last_name><![CDATA[Hegab]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[MultiPlay.io, London, UK]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ash@multiplay.io]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Mark Zuckerberg, 2012. Interview. "Our Biggest Mistake Was Betting Too Much On HTML5" TechCrunch Disrupt SF]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Gabe Newell, 2013. Presentation. "A View on the Next Steps." Keynote of DICE]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ CREATE GAMES IN REAL-TIME ACROSS MULTIPLE DEVICES Ashraf Samy HegabMultiPlay.ioLondon, UKash@multiplay.io 
+ 1. Introduction We ve been working between the intersection of HTML5 andnative technologies developing 
+a cross-platform multiplayergaming environment that allows you to edit the games as they rebeing played. 
+ Figure 1. Drag and drop cross-platform synchronization Live creation and editing of games running on 
+mobile phones using our web based editor will be presented. Featuring the real­time deployment of new 
+3d models, animations, levels and sourcecode. Application engine architecture utilizes the bulk of its 
+processingin JavaScript, leveraging its emerging APIs such as WebSockets, WebGL and IndexedDB for its 
+application logic will be explained. Going into hybrid approached optimization details toattain mobile 
+performance. 2. Going HTML5 The creating apps and games for mobiles has traditionally been aniterative 
+process of requiring design to feed into technical implementation, then testing and back to re-design. 
+Once developed the result is then submitted for review before publication. This process has been developed 
+not only to ensuresoftware quality but also as a technical constraint to ensure software performance 
+and device interoperability. However withthe recent cross-platform adoption of JavaScript, many apps 
+andgames have been developed utilizing this technology to varied results[1]. 2.1 Use case for dynamic 
+languages Our goal was to develop a 3d multiplayer games engine that couldhave its assets, design and 
+code logic updated in real-time. Thiswould require our implementation to predominantly utilize JavaScript 
+for its cross-platform install base and dynamic nature. But to also ensure that the performance of the 
+engine operatedsufficiently on mobile devices, without limiting the dynamic nature of operations that 
+could be executed in real-time. Figure 2. Native vs Hybrid perfromance  3. Results The bottlenecks 
+for developing this system varied from performance and HTML5 API implementation bottlenecks. Formost 
+platforms, OpenGL and Direct3D wrappers for WebGLwere required. Some platforms were very performance 
+sensitivedue to a lack of just in time compilation. WebSockets weren tsupported well for mobile data 
+connections, and native platformdependent file storage systems were required. However, afterthese hurdles 
+were crossed and the non-performing operationswere optimized, the engine could be dynamically changed 
+viaasset, code and design at runtime. 4. Conclusions The use case presented had been proved possible. 
+However,implementing user generated content into production is still anemerging topic with only a few 
+proven successes to name; TeamFortress 2[2], Minecraft and Little Big Planet. Therefore questions on 
+whether allowing such rapid development techniqueswould be favorable over the traditional model to ensure 
+software quality is still open for debate. For raw performance going nativeis still the best approach 
+and with the continued development andimprovements to JavaScript it is unknown if the cost of codecomplexity 
+introduced by a hybrid application model is worthwhile over the long term benefits to developing for 
+a purelyweb environment. References [1]MARK ZUCKERBERG, 2012. Interview. Our Biggest MistakeWas Betting 
+Too Much On HTML5 TechCrunch Disrupt SF [2]GABE NEWELL, 2013. Presentation. A View on the Next Steps. 
+Keynote of DICE Permission to make digital or hard copies of part or all of this work for personal or 
+classroom use isgranted without fee provided that copies are not made or distributed for commercial advantage 
+and that copies bear this notice and the full citation on the first page. Copyrights for third-party 
+components of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 
+21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503535</article_id>
+		<sort_key>230</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>17</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Augmented reality gaming with sphero]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503535</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503535</url>
+		<abstract>
+			<par><![CDATA[<p>Sphero is revolutionizing the augmented reality gaming genre by eliminating the need for a static paper marker and replacing it with a fully motive robot. Robotics unlocks endless possibilities for new gameplay. No longer restricted to playing near a stationary marker or the television screen, the player can run around their entire house using a mobile device as a window into an augmented world. Imagine fighting monsters in your bedroom, saving the princess in the kitchen or even taking the virtual experience outside.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191055</person_id>
+				<author_profile_id><![CDATA[82458688057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jon]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Carroll]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Orbotix, Inc., Boulder, CO]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jon@orbotix.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191056</person_id>
+				<author_profile_id><![CDATA[82459256657]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Fabrizio]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Polo]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Orbotix, Inc., Boulder, CO]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[fab@orbotix.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Augmented Reality Gaming with Sphero Jon Carroll Fabrizio Polo Orbotix, Inc.Orbotix, Inc.Boulder, CO 
+USABoulder, CO USAjon@orbotix.com fab@orbotix.com 1. Introduction Sphero is revolutionizing the augmented 
+reality gaming genre by eliminating the need for a static paper marker and replacing itwith a fully motive 
+robot. Robotics unlocks endless possibilities for new gameplay. No longer restricted to playing near 
+a stationary marker or the television screen, the player can run around their entire house using a mobile 
+device as a window into an augmented world. Imagine .ghting monsters in your bedroom, saving the princess 
+in the kitchen or even taking the virtualexperience outside. Figure 1. Sharky the Beaver. 2. Design 
+The Sphero Augmented Reality Engine combines techniques fromrobotics and computer vision to create a 
+robust, stable experience. The system has two central components. The .rst is an optimized tracking system, 
+which utilizes the back-facing cameras on consumer phones and tablets to identify Sphero s position in 
+thescene and the relationship of the mobile device to it. The second component is a collection of sensor 
+fusion algorithms that generate position estimates from robotic information and integratethose into a 
+.nal camera pose estimate. Together, these components produce a camera matrix and Sphero position for 
+each frame allowing developers to render arbitrary 3D virtualcontent at Sphero s location or into the 
+environment at large. 3. Pose Estimation Sphero s absolute position is approximated robotically bycombining 
+IMU and motor output to determine rolling velocity and integrating. The position of the mobile device 
+relative to therobot is determined by the visual tracking system and the mobiledevice s IMU. We want 
+to combine absolute sphero position with relative observed position to produce a camera position. Unfortunately 
+the robot and device (necessarily) operate in their own coordinate systems. Learning the difference between 
+coordinates is treated as a non-linear optimization problem in which the visually observed velocity of 
+Sphero is corollated with its robotically reported velocity.  3. Results Leveraging robotics to estimate 
+the absolute position of a featureless marker allows one to upgrade featureless marker tracking into 
+a full AR engine, which generates camera position estimates. When the marker is not in view it is no 
+longer possibleto compute a camera position. However, if the camera is nottranslated (i.e. it may be 
+rotated in place) the AR experience willcontinue accurately. In this case it is possible to estimate 
+thelocation of the marker even though it is entirely occluded. 4. Conclusion Robotics and visual tracking 
+have a symbiotic relationship. By relying on the strengths of one system when the other fails thehybrid 
+robotics/vision AR platform provides a robust experience. The visual tracking system itself is quite 
+robust because the targetobject is very simple. But, even if tracking fails for a short period of time 
+(for instance if the marker passes behind a chair), sensorsand robotics can be used as a backup to convincingly 
+continue theexperience. While many AR experiences break down rapidly in real world use, Sphero AR stands 
+up to the demands of unpracticed users, varying lighting/environmental conditions, and low cost commodity 
+cameras. Permission to make digital or hard copies of part or all of this work for personal or classroom 
+use isgranted without fee provided that copies are not made or distributed for commercial advantage and 
+that copies bear this notice and the full citation on the first page. Copyrights for third-party components 
+of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 
+2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503536</article_id>
+		<sort_key>240</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>18</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Enhancement to mobile products visualization]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503536</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503536</url>
+		<abstract>
+			<par><![CDATA[<p>This application proposes an enhancement to the product visualization experiences using any mobile devices accompanied with Leap Motion [Leap Motion Inc. 2010] device.</p> <p>Many in the past have tried to utilize the Web, Virtual Reality platform and/or the current trend which is to use Augmented Reality (AR) technology to create immersive and fun experiences for users to test the products at their own time and convenience. However, there are still some deficiencies with costs and effort required to build such an application as indicated below. In addition, the tracking of hands is sometimes inaccurate and latency tends to lower user expectations.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191057</person_id>
+				<author_profile_id><![CDATA[82458728257]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Peng]]></first_name>
+				<middle_name><![CDATA[Junming]]></middle_name>
+				<last_name><![CDATA[Jimmy]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Fraunhofer IDM@NTU, Singapore, SG]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jmpeng@fraunhofer.sg]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[HolitianAR, 2011. Bella Luce -- Augmented Reality. http://www.youtube.com/watch?v=R_F1LvK5gCk.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1899960</ref_obj_id>
+				<ref_obj_pid>1899950</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Jimmy Junming Peng and Wolfgang M&#252;ller-Wittig. 2010. <i>Understanding Ohm's law: enlightenment through augmented reality</i>. In <i>ACM SIGGRAPH ASIA 2010 Sketches</i> (SA '10). ACM, New York, NY, USA, Article 10, 2 pages. DOI=10.1145/1899950.1899960 http://doi.acm.org/10.1145/1899950.1899960.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Leap Motion Inc., 2010. https://www.leapmotion.com/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Timo Engelke and Jens Keil, 2011. A Modern WEB based mobile AR architecture for research and development based on standards. <i>Position paper for the Third International AR-Standards Meeting, June, 15.-16. 2011, TAICHUNG</i>. Fraunhofer Institute for Computer Graphics Research (IGD), Germany.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Enhancement to Mobile Products Visualization Peng Junming JimmyFraunhofer IDM@NTUSingapore, SGjmpeng@fraunhofer.sg 
+Abstract This application proposes an enhancement to the productvisualization experiences using any mobile 
+devices accompanied with Leap Motion [Leap Motion Inc. 2010] device. Many in the past have tried to utilize 
+the Web, Virtual Realityplatform and/or the current trend which is to use Augmented Reality (AR) technology 
+to create immersive and fun experiencesfor users to test the products at their own time and convenience.However, 
+there are still some deficiencies with costs and effortrequired to build such an application as indicated 
+below. In addition, the tracking of hands is sometimes inaccurate and latency tends to lower user expectations. 
+1. Introduction This mobile application introduces a fun method to test differentproducts by simply pointing 
+your iPhone device to a hand orfingers without the use of any markers. For instance, HolitianAR[HolitianAR 
+2011] is using a cutout wearable marker wrappedaround the finger for viewing of its client s products. 
+In our application, we are using a virtual ring as an example in our showcase. With the help of gesture 
+functionality and 3D fingers,and hand coordinates provided by Leap Motion SDK, we are able to predefine 
+our gestures and bind this information to our homebrewed mobile backend engine, MobileAR [Timo and Jens 
+2011],to provide better augmented experiences for our users. The Leap Motion provides a great amount 
+of information aboutwhat it tracks which in turn enables us to reconstruct a hand skeleton with relative 
+ease. As a result of this, we can easilyreconstruct a representation of the hand with parameters such 
+asthe fingertip position and direction to the position of the palm andits orientation. In addition, with 
+a finger swap gesture, we are ableto augment various rings onto the desired finger to enhance theshopping 
+experience. 2. Our System The design of the mobile augmented ring application focuses onthe basic principles 
+of wearable ring advertisement product. Hardware components include an iPhone device, Leap Motionsensory 
+device and desktop system unit to transmit data across tomobile device as currently, the Leap Motion 
+sensor is a wireddevice but the wireless version might be in the market soon.Furthermore, the main system 
+uses the mobile Instant Realityframework also known as the MobileAR to drive the AR and virtual content. 
+Please refer to Figure 1 for a simplified illustrationof our application. Figure 1. Mobile Augmented 
+Ring Visualization. 3. Results This application makes use of HTML5 Websocket library tocommunicate between 
+iPhone and Leap Motion components forquick prototyping purposes. Once the essential data is received 
+by the mobile device, our algorithms will do the calculation anddisplay the ring on the correct position 
+of the finger. The advantage of using Leap Motion is that besides enabling us toselect the specific ring 
+using swap gesture, it can also allow us tochoose between our desired wearable fingers. 4. Conclusions 
+The benefit of using our application is that we provide seamlessexperiences as we don t require a marker 
+to be tied to any finger. In this way, we save on the effort needed to create a skin texture orshader 
+to deliberately hide the marker as shown in HolitianARexample.  References HOLITIANAR, 2011. BELLA LUCE 
+ AUGMENTED REALITY. http://www.youtube.com/watch?v=R_F1LvK5gCk. JIMMY JUNMING PENG AND WOLFGANG MÜLLER-WITTIG. 
+2010. Understanding Ohm's law: enlightenmentthrough augmented reality. In ACM SIGGRAPH ASIA 2010 Sketches 
+(SA '10). ACM, New York, NY, USA, , Article 10 , 2 pages. DOI=10.1145/1899950.1899960 http://doi.acm.org/10.1145/1899950.1899960. 
+ LEAP MOTION INC., 2010. https://www.leapmotion.com/ TIMO ENGELKE AND JENS KEIL, 2011. A Modern WEB based 
+mobile AR architecture for research and development based on standards. Position paper for the Third 
+International AR-Standards Meeting, June, 15.-16. 2011, TAICHUNG. Fraunhofer Institute for Computer Graphics 
+Research (IGD), Germany. Permission to make digital or hard copies of part or all of this work for personal 
+or classroom use isAcknowledgements. Fraunhofer IDM@NTU would like to thank Media granted without fee 
+provided that copies are not made or distributed for commercial advantage and that copies bear this notice 
+and the full citation on the first page. Copyrights for third-party components of thisDevelopment Authority 
+(MDA) Singapore for their support work must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 
+2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503537</article_id>
+		<sort_key>250</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>19</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[ourcam]]></title>
+		<subtitle><![CDATA[on-site programming environment for digital photography]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503537</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503537</url>
+		<abstract>
+			<par><![CDATA[<p>Nowadays, with the widespread use of digital cameras and smart phones, a large number of pictures are taken in our daily lives. Moreover, many of the pictures are processed and shared via various applications such as Instagram (http://instagram.com/) and FxCamera (http://fxc.am). Sharing these pictures on social networks makes it easy for the users to visually communicate with friends. The core of such services is image processing. It enables every user to take photos "pretty" well. Communicating with others easily using images makes the app a successful service. Given the introduction of such applications and the advancements in digital cameras, the history of photography is expected to progress swiftly.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191058</person_id>
+				<author_profile_id><![CDATA[81474653069]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ryo]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Oshima]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Keio University, Fujisawa, Kanagawa, Japan]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[oshima.sfc@gmail.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191059</person_id>
+				<author_profile_id><![CDATA[81100527572]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Yasuaki]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kakehi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Keio University, Fujisawa, Kanagawa, Japan]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ykakehi@sfc.keio.ac.jp]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ ourcam: On-Site Programming Environment for Digital Photography Ryo OshimaYasuaki Kakehi Keio UniversityKeio 
+University Fujisawa, Kanagawa, JapanFujisawa, Kanagawa, Japan oshima.sfc@gmail.com ykakehi@sfc.keio.ac.jp 
+   (a)  (b)   (e) download mode. 1. ourcam Nowadays, with the widespread use of digital cameras 
+and smartphones, a large number of pictures are taken in our daily lives.Moreover, many of the pictures 
+are processed and shared viavarious applications such as Instagram (http://instagram.com/)and FxCamera 
+(http://fxc.am). Sharing these pictures on socialnetworks makes it easy for the users to visually communicate 
+with friends. The core of such services is image processing. It enables every user to take photos pretty 
+well. Communicating withothers easily using images makes the app a successful service.Given the introduction 
+of such applications and the advancements in digital cameras, the history of photography is expected 
+toprogress swiftly. In this research, we propose a new method of taking photographswith a digital camera 
+that is connected to a network. This cameraenables users to experiment with the way of making photographs 
+by rapid trial and error on-site, and to share not only the picture but also the way of making photographs 
+through the network.More concretely, this work proposes an integrated developmentenvironment on a mobile 
+phone named ``ourcam, which has avisual programming environment and a program sharing and forking function. 
+This environment stores specific techniques forshooting digital photographs and creating media within 
+the digital camera. This system enables users to rapid-prototype on-site whenthey have ideas. Additionally, 
+users can take photos processed bythe program in real time so that they may program the new ideawithout 
+considering the limitations of their locations. It enablesusers to confirm the synergies between the 
+ideas and photographicsubjects and to rapidly experiment. Moreover, it is expected that users will find 
+new subjects suitable for the programs they built. Furthermore, ourcam enables users to share photos 
+along withphotographic techniques which other users are able to change. 2. Application Design This system 
+consists of the iOS app, server, and photo storage(Figure 1(a)). A program in this environment is called 
+a sketch and is tied to the photographs. The user can take a picture whilewatching the sketch applied 
+to the image. When taking a photograph, the data of a sketch and photographs are uploaded tothe server. 
+On the database, the photographic data are recorded along with the metadata of the sketch. Furthermore, 
+it is possibleto directly upload to various social networking services.In order to describe the photography 
+techniques easily and intuitively, we take a visual programming approach in ourcam, and arrange the blocks 
+of methods, called ``codeblocks, in a vertical line. Codeblocks are roughly classified into three types:shutter 
+functions, image-processing functions, and share functions. A shutter function is a function that takes 
+a picture when certainconditions are fulfilled, such as the time, an object recognition or a user act. 
+The image-processing function consists of imagefiltering functions and functions that generate a picture 
+from twoor more pictures. The share function consists of editing anduploading functions. Figure 1(c) 
+shows the programming screen. When programming,the user drags the codeblock of the sketch displayed on 
+the left tothe sketch on the right. The codeblocks are applied sequentiallyfrom the top, and the results 
+may change depending on the orderof the codeblocks. The data structure of a sketch consists of a program 
+id, program parameters, name, a photograph, and an id of the parent program (Figure 1(b)). It can be 
+seen how the programhas been forked from the id of the parent program. The user can take a photograph 
+during the shooting mode (Figure 1(d)).Usually, when users want to take photos with computationalprocessing, 
+it is not possible to check the result until the editing isfinished. However, with this system, the user 
+can check the results of the processed images before they are taken. This means that theediting process 
+is moved from post-production to pre-production. When photograph is taken, the processed picture, the 
+originalpicture, and the sketch are uploaded to the server. The list of thesketches is displayed on a 
+download screen (Figure 1(e)). When asketch is chosen, the app indicates the picture taken with thesketch, 
+the details of the program, and the change log of the program as a directed graph. By downloading the 
+sketch, thecodeblocks within it become usable in the user s environments. Permission to make digital 
+or hard copies of part or all of this work for personal or classroom use isgranted without fee provided 
+that copies are not made or distributed for commercial advantage and that copies bear this notice and 
+the full citation on the first page. Copyrights for third-party components of thiswork must be honored. 
+For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 
+Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503538</article_id>
+		<sort_key>260</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>20</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[Multi-channel acoustic data transmission to ad-hoc mobile phone arrays]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503538</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503538</url>
+		<abstract>
+			<par><![CDATA[<p>There are many uses for a reliable communication channel from an event (at entertainment or show environments like cinemas, theaters and sport stadiums) towards the mobile phones of the audience. Such a channel enables new mobile applications that should interest the SIGGRAPH Mobile community: For example, events in a movie can trigger assisting information to appear on a phone's display ("second screen"). or games involving the phones and the event are enabled through synchronous message transmissions. Real time information about an event can enrich the story telling when augmented-reality is applied. We report on a prototype system that operates only with the audio channel and the existing audio infrastructure. The system does not require any dedicated wireless (radio) infrastructure such as Wi-Fi access points to be set-up in the environment. This setup maps nicely to many event environments: Avoiding the need for a new wireless infrastructure, a movie (or a show, concert, etc.) can directly interact with mobile phones in virtually any location across the world.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191060</person_id>
+				<author_profile_id><![CDATA[82458889057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Roman]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Frigg]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ETH Zurich]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191061</person_id>
+				<author_profile_id><![CDATA[82458711057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Thomas]]></first_name>
+				<middle_name><![CDATA[R.]]></middle_name>
+				<last_name><![CDATA[Gross]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ETH Zurich]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191062</person_id>
+				<author_profile_id><![CDATA[81100245179]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Stefan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mangold]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Disney Research, Zurich]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Cho, K. and Yun, H. S. and Kim, N. S. (2010) <i>Robust Data Hiding for MCLT Based Acoustic Data Transmission</i>. IEEE Signal Processing Letters, IEEE, 17(7): 679--682. DOI:10.1109/LSP.2010.2051174]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Frigg, R. (2013) <i>Acoustic Data Transmission with Cooperative Diversity to Ad-hoc Mobile Phone Arrays</i>. Master Thesis, ETH Zurich, Switzerland.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2219594</ref_obj_id>
+				<ref_obj_pid>2219092</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Lazic, N. and Aarabi, P. (2006) <i>Communication Over an Acoustic Channel Using Data Hiding Techniques</i>. Trans. on Multimedia, IEEE, 8(5): 918--924. DOI:10.1109/TMM.2006.879880]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2272987</ref_obj_id>
+				<ref_obj_pid>2263465</ref_obj_pid>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Yuksel, M. and Erkip, E. (2007) <i>Multiple-Antenna Cooperative Wireless Systems: A Diversity--Multiplexing Tradeoff Perspective</i>. Information Theory, IEEE Transactions on, 53(10): 3371--3393. DOI: 10.1109/TIT.2007.904972]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Multi-Channel Acoustic Data Transmission to Ad-Hoc Mobile Phone Arrays Roman Frigg, Thomas R. Gross 
+ETH Zurich 1. Introduction There are many uses for a reliable communication channel from anevent (at 
+entertainment or show environments like cinemas, theatersand sport stadiums) towards the mobile phones 
+of the audience. Such a channel enables new mobile applications that should interest the SIGGRAPH Mobile 
+community: For example, events in a mov­ie can trigger assisting information to appear on a phone s display( 
+second screen ). or games involving the phones and the event areenabled through synchronous message transmissions. 
+Real time information about an event can enrich the story telling when aug­mented-reality is applied. 
+We report on a prototype system thatoperates only with the audio channel and the existing audio infra­structure. 
+The system does not require any dedicated wireless (ra­dio) infrastructure such as Wi-Fi access points 
+to be set-up in theenvironment. This setup maps nicely to many event environments: Avoiding the need 
+for a new wireless infrastructure, a movie (or a show, concert, etc.) can directly interact with mobile 
+phones invirtually any location across the world. We will demonstrate a novel way of decoding the received 
+data sothat quality and reliability of the audio communication are greatlyimproved, as described in the 
+next section. 2. Approach and System Architecture By offering users to connect their phones with other 
+participants viaWi-Fi or Bluetooth ad-hoc networks, a group of connected phonesacts as an ad-hoc microphone 
+array and exploits the diversity of theindividual message receptions. Different phones are likely to 
+ob­serve transmission errors at different times. Hence, bit errors aremore likely to be identified and 
+corrected in a joint, cooperativeapproach. Such a multi-phone approach is known from distributed radio 
+networks and referred to as cooperative diversity Phones in Audience: (microphone array) MCLT: Modi.ed 
+Complex Lapped Transform  Figure 1: System architecture: Messages are encoded so that theyare not hearable. 
+Participating phones in the audience connect with each other (wireless ad-hoc network) and exchange their 
+received data. Final decoding and error correction is performed jointly andthe resulting messages are 
+shared with all phones. Stefan Mangold Disney Research, Zurich  Yuksel (2007). Messages are encoded 
+into a movie soundtrack with the help of the Modulated Complex Lapped Transform (MCLT) as described by 
+Cho (2010) and modified towards multi-channel usage as described by Frigg (2013), so that they are hidden 
+and not heara­ble. Participating phones exchange their received data streams andthe results of the redundancy 
+check. The decoding and error han­dling is then performed on one of the phones, and the resulting mes­sages 
+are shared with all phones. Today s mobile phones are increasingly powerful with fast graphicsand signal 
+processing units, at reduced power consumption. These features enable a cooperative resource sharing 
+in applications suchas mobile social games. When offering ad-hoc connectivity, privacy and security aspects 
+will have to be taken into account. However,there is also an opportunity to address a social demand, 
+becauseusers with common interest will be able to share their experienceimmediately. 3. Demo The concept 
+can be demonstrated with a laptop as mockup source,and a handful of iPhones as receiving devices. Note 
+that it is notrequired to create a strong and loud sound with additional loud­speakers, in order to operate 
+the prototype. The basic principle ofthe cooperative diversity reception can be demonstrated at normal 
+loudness. It might help to set up a larger monitor with a slideshowin the background, and to use additional 
+iPad tablets to engage intechnical discussion for example about the MCLT implementation,or our recent 
+measurement campaign and experiments in a cinema. 4. References CHO, K. AND YUN, H.S. AND KIM, N.S. 
+(2010) Robust Data Hiding for MCLT Based Acoustic Data Transmission. IEEE Signal Processing Let­ ters, 
+IEEE, 17(7): 679-682. DOI:10.1109/LSP.2010.2051174 FRIGG, R. (2013) Acoustic Data Transmission with 
+Cooperative Diversityto Ad-hoc Mobile Phone Arrays. Master Thesis, ETH Zurich, Switzerland. LAZIC, N. 
+AND AARABI, P. (2006) Communication Over an Acoustic Channel Using Data Hiding Techniques. Trans. on 
+Multimedia, IEEE, 8(5): 918-924. DOI:10.1109/TMM.2006.879880 YUKSEL, M. AND ERKIP, E. (2007) Multiple-Antenna 
+Cooperative Wire­ less Systems: A Diversity Multiplexing Tradeoff Perspective. Information Theory, IEEE 
+Transactions on, 53(10): 3371-3393. DOI: 10.1109/TIT.2007.904972 Permission to make digital or hard 
+copies of part or all of this work for personal or classroom use isgranted without fee provided that 
+copies are not made or distributed for commercial advantage and that copies bear this notice and the 
+full citation on the first page. Copyrights for third-party components of thiswork must be honored. For 
+all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 
+Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503539</article_id>
+		<sort_key>270</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>21</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>6</seq_no>
+		<title><![CDATA[CreatAR]]></title>
+		<subtitle><![CDATA[augmented reality app]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503539</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503539</url>
+		<abstract>
+			<par><![CDATA[<p>CreatAR is an Augmented Reality application for Apple and Android devices which allows users to create geo-locative AR (location-based) with their smart device. The User can place his content at will using his/her location and a search query for subject matter. creatAR simplifies the creation process to make augmented reality creation more accessible to the general public. Anyone with a smart phone or tablet can create whatever they want wherever they want simply by asking for it through the search query window, after which it will 'appear' in front of the user. CreatAR is the world's ultimate tool for art, communication, and intervention. The creatAR is the first iteration of creation software-made Semblance Augmented Reality. Its primary goal is to create the easiest user point of entry while still allowing open-source code modification.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191063</person_id>
+				<author_profile_id><![CDATA[82459289557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Mark]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Skwarek]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Semblance Augmented Reality]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[mark.skwarek@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ CreatAR-Augmented Reality App Mark Skwarek Semblance Augmented Reality mark.skwarek@gmail.com  1. 
+Abstract CreatAR is an Augmented Reality application for Apple and Android devices which allows users 
+to create geo-locative AR (location-based) with their smart device. The User can place his content at 
+will using his/her location and a search query for subject matter. creatAR simplifies the creation process 
+to make augmented reality creation more accessible to the general public. Anyone with a smart phone or 
+tablet can create whatever they want wherever they want simply by asking for it through the search query 
+window, after which it will appear in front of the user. CreatAR is the world's ultimate tool for art, 
+communication, and intervention. The creatAR is the first iteration of creation software-made Semblance 
+Augmented Reality. Its primary goal is to create the easiest user point of entry while still allowing 
+open­source code modification. CR Categories: [Computer Graphics]: Three-Dimensional Graphics, [Mobile 
+Augmented Reality] Augmented Reality 2 Exposition The creatAR app was built on top of the Layar app and 
+is hosted on a private server. Building on Layar does have its limitations which has impacted both user 
+experience and our goal of bringing augmented reality to the masses. Layar embedded interface is the 
+biggest factor hampering a user-friendly experience. Currently, the user must either load a QR code twice 
+for the 1st user experience or navigate through a series of confusing menus. In the current version of 
+creatAR, the user types objects into a text interface and clicks on the create key. A request is sent 
+from client side to server side. There, the request is checked against the content in a pre-made server 
+side database. If the object exists in the database, it will be created at the user s location. If it 
+does not, a Google image search is run and matching content is found. The matching image is generated 
+in front of the user. In the future versions of creatAR the search will access 3D model databases. 2.1 
+Elaboration The user sees the object through the display of the smart phone or tablet. The object is 
+located with Global Positioning System [GPS] which needs at least 3 satellites to triangulate the user 
+s position. Therefore when the user s position is established, a model can be located nearby. The user 
+can then edit the object by clicking on it which opens the edit interface. From the edit interface the 
+object can be deleted, made bigger or smaller, and be moved in all directions by the user with the help 
+of the options shown in Fig. 1. A model update takes place with every change that is incorporated by 
+the user. All the objects that are created and the modifications that the user performs with them are 
+updated in all the user s windows machines. Users may choose to upload their own content such as 3d models 
+in Layar s native l3d format, jpeg images and pngs with transparency. Audio files in the form of mp3s 
+may also be uploaded by adding the word sound after the file name in the text creation field. Once the 
+file is uploaded the user may create that content through the text interface on the create page. Now 
+the user can create that content anywhere and as many times as they wish. Figure 1-Options and keys 
+of creatAR app User testing revealed confusion and frustration among users trying to navigate through 
+the Layar's interface. Hence, we have developed a series of tutorials showing users how to operate the 
+app. This library is an ever expanding one. We will also furnish a user created tutorial in the next 
+iteration of creatAR. The video for basic AR content creation has also been made. Next, user ownership 
+and account permission will be created providing users their own accounts and also, ownership of the 
+content they create. They may set permissions as to who can see, edit and delete their content. The users 
+may share their creations with the public or just specific friends. On top of this the new version will 
+be open source which permits the user to modify the underlying code making up their app.  5. Conclusion 
+From all the testing and field work, the need for a standalone app was apparent. creatAR s low point 
+of user entry and expandable framework makes it perfect for users of all skill levels. The current interface 
+barrier hinders the goal of creatAR which is to bring AR to the masses. The conclusion was to build a 
+standalone app with a highly specialized interface specific to AR creation where the creation process 
+takes as few clicks as possible and also utilizes voice recognition for further user simplification. 
+Through testing and modification the creatAR app is set to become the AR creation app which educates 
+and enables the masses Permission to make digital or hard copies of part or all of this work for personal 
+or classroom use isgranted without fee provided that copies are not made or distributed for commercial 
+advantage and that copies bear this notice and the full citation on the first page. Copyrights for third-party 
+components of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 
+21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503540</article_id>
+		<sort_key>280</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>22</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>7</seq_no>
+		<title><![CDATA[A portable exploratorium]]></title>
+		<subtitle><![CDATA[hands-on learning on the iPad]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503512.2503540</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503540</url>
+		<abstract>
+			<par><![CDATA[<p>The Exploratorium debuted its first iPad app, &lt;u&gt;Color Uncovered&lt;/u&gt;, in 2011, followed in February 2013 by &lt;u&gt;Sound Uncovered&lt;/u&gt;. Both apps were developed by in-house teams and are available for free in the iTunes App Store.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191064</person_id>
+				<author_profile_id><![CDATA[82458672457]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jean]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Cheng]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Exploratorium, San Francisco, CA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jcheng@exploratorium.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191065</person_id>
+				<author_profile_id><![CDATA[82458682557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Aaron]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kline]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Exploratorium, San Francisco, CA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[akline@exploratorium.edu]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ A Portable Exploratorium: Hands-on Learning on the iPad Jean Cheng Exploratorium San Francisco, CA, 
+USA jcheng@exploratorium.edu Aaron Kline Exploratorium San Francisco, CA, USA akline@exploratorium.edu 
+ The Exploratorium debuted its first iPad app, Color Uncovered, in 2011, followed in February 2013 by 
+Sound Uncovered. Both apps were developed by in-house teams and are available for free in the iTunes 
+App Store. Much like the Exploratorium itself, the apps are hard to categorize because they offer a hybrid 
+experience, combining playful and surprising interactivities with experiments, articles and multimedia 
+while touching on topics as diverse as science, art, music, and illusions.  Figure 2. Screenshot from 
+Sound Uncovered. Color Uncovered asks, How is Monet like a honeybee? What color is a whisper? The app 
+includes simple color experiments you can do with common objects found at home: a CD case, a piece of 
+paper and a drop of water.   Figure 1. Screenshot from Color Uncovered.  Sound Uncovered takes you 
+on a journey out into the world and inside your head: How do you make a saxophone growl? Why can t you 
+talk and listen at the same time? See what you can discover by experimenting with different sounds and 
+adding in some of your own. Like many of the Exploratorium's award-winning websites, these apps are designed 
+to extend the visitor experience beyond the museum s walls not defined by geography and physical space 
+but in a philosophical sense engaging users with hands-on learning in authentic, personal ways. Color 
+Uncovered and Sound Uncovered explore new possibilities for re-imagining content within a digital, tactile 
+environment. In this demonstration, key project staff from the Exploratorium will be on hand to show 
+the apps and answer questions about the content, the experience design and the development process. 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	</section>
+</content>
+</proceeding>

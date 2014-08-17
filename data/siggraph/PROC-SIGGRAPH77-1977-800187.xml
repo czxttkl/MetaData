@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date></start_date>
+		<end_date></end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[]]></city>
+		<state></state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<proceeding_rec>
+	<proc_id>800187</proc_id>
+	<acronym>SIGGRAPH '77</acronym>
+	<proc_desc>Specifications</proc_desc>
+	<conference_number></conference_number>
+	<proc_class>other</proc_class>
+	<proc_title>The SIGGRAPH/GSPC Core System</proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>1977</copyright_year>
+	<publication_date>01-01-1977</publication_date>
+	<pages>117</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node>I.3</cat_node>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<ccs2012>
+		<concept>
+			<concept_id>0.10010147.10010371</concept_id>
+			<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10010147.10010371</concept_id>
+			<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+			<concept_significance>500</concept_significance>
+		</concept>
+	</ccs2012>
+	<general_terms>
+		<gt>Theory</gt>
+	</general_terms>
+	<chair_editor>
+		<ch_ed>
+			<person_id>PP14043503</person_id>
+			<author_profile_id><![CDATA[81100095587]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>1</seq_no>
+			<first_name><![CDATA[Robert]]></first_name>
+			<middle_name><![CDATA[M.]]></middle_name>
+			<last_name><![CDATA[Dunn]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[]]></affiliation>
+			<role><![CDATA[Chairman]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+		<ch_ed>
+			<person_id>PP39096296</person_id>
+			<author_profile_id><![CDATA[81100423056]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>2</seq_no>
+			<first_name><![CDATA[Bertram]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Herzog]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[]]></affiliation>
+			<role><![CDATA[Chairman]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+	</chair_editor>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>808860</article_id>
+		<sort_key>1.1</sort_key>
+		<display_label></display_label>
+		<article_publication_date>01-01-1977</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[State-of-the-Art of graphic software packages]]></title>
+		<page_from>1.1</page_from>
+		<page_to>1.19</page_to>
+		<doi_number>10.1145/800187.808860</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=808860</url>
+		<abstract>
+			<par><![CDATA[<p>This report summarizes the activities of the GSPC State-of-the-Art subcommittee. The subcommittee was charged with reviewing and reporting on existing graphics software for line drawing graphics systems. The approach used to develop the survey criteria, format, and data is first described. The second section is a detailed discussion of the comparison criteria as used by reviewers. The next section presents tabulated survey results. Finally, a summary comparing and contrasting the package features is given.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.4</cat_node>
+				<descriptor>Graphics packages</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.3</cat_node>
+				<descriptor>Line and curve generation</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.2</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010396.10010399</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Shape modeling->Parametric curve and surface models</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010520.10010521.10010542.10011714</concept_id>
+				<concept_desc>CCS->Computer systems organization->Architectures->Other architectures->Special purpose systems</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<seq_no />
+				<first_name />
+				<middle_name />
+				<last_name />
+				<suffix />
+				<role />
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA["FORTRAN IV Language and Programming System," Revision A, Adage Inc., Boston, MA, February 1972.]]></ref_text>
+				<ref_id>1</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA["GRAFX - AMOS/2 Graphics Image Processor," Revision C, Adage Inc., Boston, MA, August 1975.]]></ref_text>
+				<ref_id>2</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA["RGS - Adage/300 Refresh Graphics System," Revision C, Adage Inc., Boston, MA, March 1974.]]></ref_text>
+				<ref_id>3</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA["CalComp Software Reference Manual," California Computer Products Inc., Anaheim, CA, October 1976.]]></ref_text>
+				<ref_id>4</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA["Programming CalComp Electromechanical Plotters," California Computer Products Inc., Anaheim, CA, January 1976.]]></ref_text>
+				<ref_id>5</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[User's guides to all CalComp Functional and Application Packages.]]></ref_text>
+				<ref_id>6</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA["DISSPLA Advanced Manual," Integrated Software Systems Corp., San Diego, CA, 1970.]]></ref_text>
+				<ref_id>7</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA["DISSPLA Beginners/Intermediate Manual," Integrated Software Systems Corp., San Diego, CA, 1970.]]></ref_text>
+				<ref_id>8</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA["DISSPLA Pocket Manual," Integrated Software Systems Corp., San Diego, CA, 1975.]]></ref_text>
+				<ref_id>9</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA["DISSPOP - DISSPLA Post Processor Option," Integrated Software Systems Corp., San Diego, CA, 1976.]]></ref_text>
+				<ref_id>10</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA["Graphics Compatibility System Programmer's Reference Manual," U.S. Army Corps of Engineers, Waterways Experiment Station, Vicksburg, MS.]]></ref_text>
+				<ref_id>11</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA["Primer on Computer Graphics Programming," U.S. Army Corps of Engineers, Waterways Experiment Station, Vicksburg, MS.]]></ref_text>
+				<ref_id>12</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA["GCS - The Graphics Compatibility System," Computing Center, Purdue University, Lafayette, IN, June 1976.]]></ref_text>
+				<ref_id>13</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA["GINO-F Technical Information Booklet, " Issue 4, Computer Aided Design Centre, Cambridge, England, 1977.]]></ref_text>
+				<ref_id>14</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA["GINO-F User Manual," Issue 2, Computer Aided Design Centre, Cambridge, England, December 1976.]]></ref_text>
+				<ref_id>15</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Groot, D., Hermans, E., Caruthers, L., and J. Patberg, "General Purpose Graphic System Reference Manual," University of Nijmegen, Nijmegen, The Netherlands, November 1975.]]></ref_text>
+				<ref_id>16</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Caruthers, L.C., and A. van Dam, "General Purpose Graphic System User's Tutorial," First Edition, University of Nijmegen, Nijmegen, The Netherlands, October 1975.]]></ref_text>
+				<ref_id>17</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA["GPGS-F Users Guide," RUNIT Computer Center, University of Trondheim, Trondheim, Norway, September 1975.]]></ref_text>
+				<ref_id>18</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[Goodrich, A.C., "Integrated Graphics Implementation Guide," Computing Center, University of Michigan, Ann Arbor, MI, March 1977.]]></ref_text>
+				<ref_id>19</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[Goodrich, A.C., "Integrated Graphics System User's Guide," Computing Center Memo 229, University of Michigan, Ann Arbor, MI, January 1976.]]></ref_text>
+				<ref_id>20</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[Goodrich, A.C., "Recent Changes and Additions to the Integrated Graphics System," Computing Center, University of Michigan, Ann Arbor, MI, February 1977.]]></ref_text>
+				<ref_id>21</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>22</ref_seq_no>
+				<ref_text><![CDATA["Advanced Graphing II User's Manual," Tektronix, Inc., Beaverton, OR, 1973.]]></ref_text>
+				<ref_id>22</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>23</ref_seq_no>
+				<ref_text><![CDATA["Terminal Control System User's Manual," Tektronix, Inc., Beaverton, OR, 1976.]]></ref_text>
+				<ref_id>23</ref_id>
+			</ref>
+		</references>
+	</article_rec>
+	<article_rec>
+		<article_id>808861</article_id>
+		<sort_key>2.1</sort_key>
+		<display_label></display_label>
+		<article_publication_date>01-01-1977</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Chapter 1]]></title>
+		<subtitle><![CDATA[Methodology]]></subtitle>
+		<page_from>2.1</page_from>
+		<page_to>2.6</page_to>
+		<doi_number>10.1145/800187.808861</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=808861</url>
+		<abstract>
+			<par><![CDATA[<p>In order for successful design activity to take place, two essential ingredients must exist. The first of these is a <underline>body of knowledge</underline> on which to base the design. The second is a set of strategies or codes of practice, based on this body of knowledge, that the designer can follow in order to produce his design; we call this a design <underline>methodology</underline>. In attempting to design a graphics standard, we can fall back on a fairly extensive body of knowledge, represented by the graphics literature. We lack the corresponding methodology for graphics standards design&#8212;indeed, prior to 1976 the notion of such a methodology hardly existed. Over the last year and a half, however, a great deal of progress has been made towards developing a useful design methodology for graphics standards. This chapter discusses a methodology for graphics standards, and shows how it leads to the specification of a standard graphics package, called the Core System.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.6</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.4</cat_node>
+				<descriptor>Graphics packages</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.6</cat_node>
+				<descriptor>Standards</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10011007.10011006.10011050.10011017</concept_id>
+				<concept_desc>CCS->Software and its engineering->Software notations and tools->Context specific languages->Domain specific languages</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010919.10010177</concept_id>
+				<concept_desc>CCS->Computing methodologies->Distributed computing methodologies->Distributed programming languages</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Standardization</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<seq_no />
+				<first_name />
+				<middle_name />
+				<last_name />
+				<suffix />
+				<role />
+			</au>
+		</authors>
+	</article_rec>
+	<article_rec>
+		<article_id>808862</article_id>
+		<sort_key>2.7</sort_key>
+		<display_label></display_label>
+		<article_publication_date>01-01-1977</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Chapter 2]]></title>
+		<subtitle><![CDATA[Functional specification for a Core graphics System]]></subtitle>
+		<page_from>2.7</page_from>
+		<page_to>2.77</page_to>
+		<doi_number>10.1145/800187.808862</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=808862</url>
+		<abstract>
+			<par><![CDATA[<p>According to criteria discussed below in Section 1.4, the Core System is intended to be a rich, essentially stand-alone subroutine package for most (simple) application programs on modern line drawing plotters and displays. It should be usable from such high-level application programming languages as FORTRAN or PL/I, and the user interface is device-, machine-, and operating system-independent. Its functional characteristics (i.e., its semantics) are defined below in Sections 2 through 9, with a suggested but not mandated syntax. Each of those sections contains an overview, a description of functional capabilities, and a list of major issues discussed during the design phase. A fuller presentation of these issues is found in Chapter 3 on Core System issues.</p> <p>Section 1 starts with the notion of device-independence in the Core System. An overview of the Core System's functional capabilities by category is provided in Section 1.2, followed in Section 1.3 by a delineation of the four upward compatible levels of the Core System. The specific methodological and pragmatic criteria used to design the Core System's facilities are stated in Section 1.4. A glossary ends Section 1.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.4</cat_node>
+				<descriptor>Graphics packages</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>K.6.1</cat_node>
+				<descriptor>Systems analysis and design</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003456.10003457.10003490.10003491.10003495</concept_id>
+				<concept_desc>CCS->Social and professional topics->Professional topics->Management of computing and information systems->Project and people management->Systems analysis and design</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Management</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<seq_no />
+				<first_name />
+				<middle_name />
+				<last_name />
+				<suffix />
+				<role />
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Carlbom, I. and J. Paciorek, Geometric Projections and Viewing Transformations, Computer Science Program, Brown University, Technical Report No. CS-30, (June, 1977) (to be submitted for publication).]]></ref_text>
+				<ref_id>1</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Caruthers, L.C. and A. van Dam, GPGS User's Tutorial, Informatica Group, Faculty of Science, University of Nijmegen, The Netherlands, (October, 1975).]]></ref_text>
+				<ref_id>2</ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>563878</ref_obj_id>
+				<ref_obj_pid>563858</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Caruthers, L.C., J. van der Bos, and A. van Dam, "A Device-Independent General Purpose Graphic System for Stand-Alone and Satellite Graphics", Proceedings of SIGGRAPH '77, published in Computer Graphics, Volume 11, Number 3, (1977).]]></ref_text>
+				<ref_id>3</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Foley, J.D. and V.L. Wallace, "The Art of Natural Graphic Man - Machine Conversation", Proceedings of the IEEE, Volume 62, Number 4, (April, 1974).]]></ref_text>
+				<ref_id>4</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[GINO-F, The General Purpose Graphics Package Reference Manual, CAD Centre, Cambridge, England, (July, 1975).]]></ref_text>
+				<ref_id>5</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[GPGS-F User's Guide, RUNIT Computer Centre, University of Trondheim, Norway, (September, 1975).]]></ref_text>
+				<ref_id>6</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Groot, D., E. Hermans, L.C. Caruthers, and J. Schwartz, GPGS Reference Manual, Rekencentrum, T.H. Delft and Informatica Group, Faculty of Science, University of Nijmegen, The Netherlands, (May, 1977).]]></ref_text>
+				<ref_id>7</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Guedj, R.A. et al., Report on the IFIP W.G. 5.2 Workshop on "Methodology in Computer Graphics", (July, 1976) (draft report, to be published).]]></ref_text>
+				<ref_id>8</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Middleton, N.C. et al., Graphics Compatibility System (GCS) Programmer's Reference Manual, United States Military Academy, West Point, N.Y., NTIS #AD779211, (April, 1974).]]></ref_text>
+				<ref_id>9</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Puk, R.F., The 3D Graphics Compatibility System, U.S. Army Corps of Engineers, Waterways Experiment Station, Vicksburg, Ms., (October, 1976).]]></ref_text>
+				<ref_id>10</ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>804734</ref_obj_id>
+				<ref_obj_pid>800143</ref_obj_pid>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Wallace, V.L., "The Semantics of Graphic Input Devices", Proceedings ACM Symposium on Graphics Languages, (April, 1976), Miami, Florida. Published as SIGPLAN Notices, Volume II, Number 6, June 1976, and SIGGRAPH Computer Graphics, Volume 10, Number 1, Spring 1976.]]></ref_text>
+				<ref_id>11</ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Woodsford, P.A., "The design and Implementation of the GINO 3D Graphics Software Package", Software - Practice and Experience, Volume 1, Number 4, (October-December, 1971).]]></ref_text>
+				<ref_id>12</ref_id>
+			</ref>
+		</references>
+	</article_rec>
+	<article_rec>
+		<article_id>808863</article_id>
+		<sort_key>2.78</sort_key>
+		<display_label></display_label>
+		<article_publication_date>01-01-1977</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Chapter 3]]></title>
+		<subtitle><![CDATA[Issues leading to the functional specification of a Core graphics System]]></subtitle>
+		<page_from>2.78</page_from>
+		<page_to>2.117</page_to>
+		<doi_number>10.1145/800187.808863</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=808863</url>
+		<abstract>
+			<par><![CDATA[<p>This chapter contains brief descriptions of the major issues discussed during the design of the Core System. Each section in Chapter 2 on functional capabilities of the Core System has a corresponding section in this chapter. Issues marked with *** are those which can have an impact on program structure.</p> <p>It should be realized that our original goal of recording all major issues and design trade-offs had to be largely abandoned after February of 1977 in favor of spending all available time resolving outstanding technical issues and preparing a thorough functional specification of the Core System. Unfortunately, this chapter is therefore incomplete as a technical record, and sufficiently unpolished so that it should be viewed primarily as a collection of informal notes. There may even be inconsistencies in terminology. Furthermore, because of space limitations, some of the descriptive information we did record has been deleted from this version of the document. The most important issues include a description of the problem, a list of feasible alternatives, arguments for and against these alternatives and a resolution. Less important issues have only a resolution. Only titles have been included for issues which were considered, but are no longer relevant to the present definition of the Core System.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.4</cat_node>
+				<descriptor>Graphics packages</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>K.6.1</cat_node>
+				<descriptor>Systems analysis and design</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003456.10003457.10003490.10003491.10003495</concept_id>
+				<concept_desc>CCS->Social and professional topics->Professional topics->Management of computing and information systems->Project and people management->Systems analysis and design</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Management</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<seq_no />
+				<first_name />
+				<middle_name />
+				<last_name />
+				<suffix />
+				<role />
+			</au>
+		</authors>
+	</article_rec>
+</content>
+</proceeding>

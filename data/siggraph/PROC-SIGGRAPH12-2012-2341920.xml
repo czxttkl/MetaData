@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08/05/2012</start_date>
+		<end_date>08/09/2012</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Los Angeles]]></city>
+		<state>California</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>2341920</proc_id>
+	<acronym>SIGGRAPH '12</acronym>
+	<proc_desc>ACM SIGGRAPH 2012 Awards</proc_desc>
+	<conference_number>2012</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-4503-1676-7</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2012</copyright_year>
+	<publication_date>08-05-2012</publication_date>
+	<pages>4</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>The ACM SIGGRAPH Awards program recognizes individuals who have made a significant contribution to the computer graphics community through their research, teaching, service, or writing.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>2341921</article_id>
+		<sort_key>10</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>1</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Outstanding Service Award]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341920.2341921</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341921</url>
+		<abstract>
+			<par><![CDATA[<p>The Outstanding Service Award is awarded in even-numbered years to recognize a career of outstanding service to ACM SIGGRAPH by a volunteer. It recognizes an individual who has given extraordinary service to ACM SIGGRAPH, both in the trenches and in positions of more responsibility or visibility, over a significant period of time.</p> <p>The 2012 recipient of the Outstanding Service Award is David Kasik.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<seq_no />
+				<first_name />
+				<middle_name />
+				<last_name />
+				<suffix />
+				<role />
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2012 ACM SIGGRAPH Awards Outstanding Service Award  David Kasik For his leadership, dedication, and 
+expertise, ACM SIGGRAPH recognizes David J. Kasik s commitment to our community with the 2012 Outstanding 
+Service Award. Dave has been actively involved in SIGGRAPH for many years. He attended the very first 
+SIGGRAPH conference in 1974 and is the only person to attend every SIGGRAPH conference! He has contributed 
+to the organization in almost every way possible: technically, logistically and organizationally. His 
+main organizational contributions have been in two areas: the conference exhibits program and the development 
+of a mentoring program for high­school students. Dave has also been on the Editorial Board of IEEE Computer 
+Graphics &#38; Applications since 2005. A major factor in the growth of SIGGRAPH, both the orga­nization 
+and the conference, throughout the late 70s and especially in the 80s and 90s, was the rapidly evolving 
+use of graphics in 3D CAD. Nowhere was this excitement more evident than on the exhibits show floor at 
+the annual con­ference. Income from exhibits helped SIGGRAPH explore new ideas for the conference and 
+adapt and innovate to match the changing needs of the computer graphics com­munity. During the 80s the 
+annual conference grew from a strong base developed by volunteers to a professionally managed conference 
+with the same amazing qualities. Key to this was a close relationship between the professional management 
+firms and the volunteers. The teams were responsible for ensuring an appropriate balance between a business-like 
+approach and the grass-roots enthusiasm that propelled SIGGRAPH to the top rank of ACM conferences. Dave 
+was a major driver of this transformation. He was volunteer Exhibits Chair for SIGGRAPH 80 in Seattle, 
+the first year a professional exhibits management firm was employed, with all 25,000 square feet of the 
+Seattle Coliseum selling out. This set a pattern that established exhibitors as equal partners with other 
+stakeholders. Dave returned as volunteer Exhibits Chair in Orlando in 1994, selling out 104,000 square 
+feet. He served as Exhibitor Advisory Committee Chair from 1981-92, providing continuity and an active 
+voice for the exhibitor community.  Equally important is Dave s contribution to SIGGRAPH s future. As 
+head of Computer Graphics Pioneers a decade ago, he established a mentoring program to attract high­school 
+students to computer graphics. He has had a leading role in this organization every year since then. 
+His dedica­tion and enthusiasm for bringing new people into our com­munity is truly impressive. Letters 
+from students leave no doubt the mentoring program makes a lasting impression on those who attend their 
+first SIGGRAPH conference guided by one of the volunteer pioneers. Over 100 students have participated 
+to date, with perhaps half going on to careers in computer graphics or related areas. Biographical Sketch 
+Dave Kasik is Boeing s Senior Technical Fellow in visu­alization and interactive techniques, exploring 
+new ways to visualize huge amounts of geometric and complex non­geometric data. He earned a Bachelor 
+s at Johns Hopkins University (1970), and a Masters in Computer Science at the University of Colorado 
+(1972). As an undergraduate he produced an animated film using a punch card script and a microfilm recorder. 
+He developed an interest in interactive 3D graphics at Battelle-Columbus Laboratories and moved to Boeing 
+in Seattle. At Boeing, he focused on interac­tive 3D graphics, user interface management systems, and 
+industrial use of NURBS solids and surfaces. His recent work in massive model visualization and low-end 
+visualiza­tion of aerospace geometry is in full production use and affects thousands. Previous Award 
+Recipients 2010 Kellogg S. Booth 2008 Stephen Spencer 2006 John Fujii 2004 Judy Brown and Steve Cunningham 
+2002 Bertram Herzog 2000 Tom DeFanti and Copper Giloth 1998 Maxine Brown 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341922</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>2</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Significant New Researcher Award]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341920.2341922</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341922</url>
+		<abstract>
+			<par><![CDATA[<p>The Significant New Researcher Award is given each year to a researcher who has made a recent significant contribution to the field of computer graphics and who is new to the field. The intent is to recognize people very early in their career who have already made a notable contribution and are likely to make more.</p> <p>The 2012 recipient of the Significant New Researcher Award is Karen Liu.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<seq_no />
+				<first_name />
+				<middle_name />
+				<last_name />
+				<suffix />
+				<role />
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2012 ACM SIGGRAPH Awards Significant New Researcher Award Karen Liu ACM SIGGRAPH is delighted to present 
+the 2012 Significant New Researcher award to Karen Liu, in recognition of her pioneering contributions 
+in the field of computer animation, particularly her work in optimization and control of human motion. 
+Liu s seminal contributions lie in physics-based animation, character animation, and computational biomechanics. 
+Her work can be broadly characterized as employing optimization and physical simulation to discover fundamental 
+and natural patterns of human motion. Karen has amassed an impressive body of work beginning with her 
+first ACM SIGGRAPH paper in 2002, Synthesis of Complex Dynamics Character Motion from Simple Animation. 
+Her work is marked by a principled and biomechanically sound approach to modeling the human form. This 
+scientific grounding for her optimizations causes her results to naturally represent such characteristics 
+of lifelike behavior as appropriate forces and energy efficient strategies. Her work is rife with compelling 
+examples that span much of human behavior and include a small child pulling on the hand of a parent as 
+they walk together ( Composition of Complex Optimal Multi-Character Motions ), human grasps that include 
+the soft contacts of the figures ( Dextrous Manipulation from a Grasping Pose and Controlling Physics-Based 
+Characters Using Soft Contacts ), and the elastic elements in shoes, tendons and ligaments that enable 
+natural gait patterns on rough terrain ( Learning Physics-Based Motion Style with Nonlinear Inverse Optimization 
+). Her recent research has expanded on the theme of optimization to create motion and control for creatures 
+swimming through water ( Articulated Swimming Creatures ). We are very pleased to recognize her talents 
+with the 2012 Significant New Researcher Award.  Biographical Sketch Karen Liu joined Georgia Tech in 
+August 2007 as an assistant professor in the School of Interactive Computing and the GVU Center. Before 
+moving to Atlanta, she was an assistant professor at the University of Southern California, after she 
+received her Ph.D. and M.S. in 2005 and 2001 from the University of Washington. Karen has been honored 
+by the Georgia Tech Sigma Xi Young Faculty Award (2011), a Sloan Research Fellowship (2010), the Young 
+Innovators Under 35 (Technology Review, 2007), and a NSF Career Award (2007). Previous Award Recipients 
+2011 Olga Sorkine 2010 Alexei Efros 2009 Wojciech Matusik 2008 Maneesh Agrawala 2007 Ravi Ramamoorthi 
+2006 Takeo Igarashi 2005 Ron Fedkiw 2004 Zoran Popovi´c 2003 Mathieu Desbrun 2002 Steven J. Gortler 2001 
+Paul Debevec 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341923</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>3</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Computer Graphics Achievement Award]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341920.2341923</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341923</url>
+		<abstract>
+			<par><![CDATA[<p>The Computer Graphics Achievement Award is given each year to an individual to honor that person's lifetime contribution to computer graphics and interactive techniques.</p> <p>The 2012 recipient of the Computer Graphics Achievement Award is Greg Turk.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<seq_no />
+				<first_name />
+				<middle_name />
+				<last_name />
+				<suffix />
+				<role />
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2012 ACM SIGGRAPH Awards Computer Graphics Achievement Award Greg Turk ACM SIGGRAPH recognizes Greg 
+Turk with the 2012 Computer Graphics Achievement Award for his contributions to physically-inspired mathematical 
+application in graphics, particularly his work on texture synthesis, geometric modeling, and physical 
+simulation involving thin structures. Greg s Ph.D. thesis work on textures generated by reaction­diffusion 
+equations, a notion originally proposed by Alan Turing, showed how to generate realistic-looking patterns 
+like leopard spots or zebra stripes. Furthermore, in studying these in situ rather than via a parameterization, 
+he developed a physically-inspired sample-selection scheme for surfaces, in which adjacent samples repelled 
+one another, leading to a sampling pattern with roughly equal inter-sample distances. This early work 
+on reaction­diffusion evolved into other texture research throughout his career: texture synthesis by 
+example, stitching textures using graph cuts, geometric textures, texture transfer from one shape to 
+another, and even the formation of patterns of vegetation in wetlands. He has also done extensive work 
+on meshes, from image­guided simplification, in which the metric for simplifying a polyhedral object 
+was view-dependent, to automatic remeshing techniques to improve mesh characteristics needed for faithful 
+simulation and other computations, to zippered meshes , in which multiple geometric scans of an object 
+are joined into a single continuous whole, most notably the Stanford bunny, a mesh that has served as 
+a test-case in hundreds of SIGGRAPH papers. In recent years, Greg has worked on techniques for the simulation 
+of physical materials, including the representation of thin features, and on surface-tension effects, 
+such as the crown-splash produced by a droplet falling into a bowl of water. Techniques like anisotropic 
+kernel representations of fluids have vastly improved the appearance of the results of these simulations, 
+while a careful understanding of physical phenomena have helped motivate techniques in which thin features 
+exhibit appropriate behaviors.  Above and beyond his research, Greg has been an enormously effective 
+advisor and mentor, not just to his own students, but to many others with whom he s come in contact. 
+He s always willing to share advice and encouragement. His short essay on writing technical reviews, 
+produced when he served as the SIGGRAPH 2008 papers chair, has served as a guideline for responsibility 
+and civility in our field s reviews ever since. We are very pleased to recognize Greg Turk with the 2012 
+Computer Graphics Achievement Award. Biographical Sketch Greg Turk received a Ph.D. in computer science 
+in 1992 from the University of North Carolina at Chapel Hill. He was a postdoctoral researcher at Stanford 
+University for two years, followed by two years as a research scientist at UNC Chapel Hill. He is currently 
+holds the rank of Professor at the Georgia Institute of Technology, where he is a member of the School 
+of Interactive Computing and the Graphics, Visualization and Usability Center. In 2008 he was the Technical 
+Papers Chair for ACM SIGGRAPH. Previous Award Recipients 2011 Richard Szeliski 1996 Marc Levoy 2010 Jessica 
+K. Hodgins 1995 Kurt Akeley 2009 Michael Kass 1994 Kenneth E. Torrance 2008 Ken Perlin 1993 Pat Hanrahan 
+2007 Greg Ward 1992 Henry Fuchs 2006 Thomas W. Sederberg 1991 James T. Kajiya 2005 Jos Stam 1990 Richard 
+Shoup 2004 Hugues Hoppe   and Alvy Ray Smith 2003 Peter Schröder 1989 John Warnock 2002 David Kirk 
+1988 Alan H. Barr 2001 Andrew Witkin 1987 Robert Cook 2000 David H. Salesin 1986 Turner Whitted 1999 
+Tony DeRose 1985 Loren Carpenter 1998 Michael F. Cohen 1984 James H. Clark 1997 Przemyslaw Prusinkiewicz 
+1983 James F. Blinn  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341924</article_id>
+		<sort_key>40</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>4</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Lifetime Achievement Award in Digital Art]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341920.2341924</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341924</url>
+		<abstract>
+			<par><![CDATA[<p>The Distinguished Artist Award is awarded annually to an artist who has created a substantial and important body of work that significantly advances aesthetic content in the field of digital art.</p> <p>The 2012 recipient of the Distinguished Artist Award is Jean Pierre H&#233;bert.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<seq_no />
+				<first_name />
+				<middle_name />
+				<last_name />
+				<suffix />
+				<role />
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2012 ACM SIGGRAPH Awards Lifetime Achievement Award in Digital Art Jean Pierre Hébert The 2012 ACM 
+SIGGRAPH Lifetime Achievement Award in Digital Art is awarded to Jean-Pierre Hébert for his pioneering 
+achievements in creating art through computer programming. At the core of his work are algorithms that 
+generate drawings on paper as well as sand and other mixed media. Jean-Pierre began working with digital 
+conceptual algorithmic art in 1974 and has been an independent artist since 1984. From 1989 on, his work 
+has appeared in 17 SIGGRAPH Art Galleries to date. In 1995, he co-founded The Algorists with Roman Verostko, 
+joined by Hans Dehlinger, Helaman Ferguson, Manfred Mohr, Ken Musgrave, and Mark Wilson. Jean-Pierre 
+Hébert was appointed Artist in Residence at the Kavli Institute for Theoretical Physics at UC Santa Barbara 
+in June 2003.He has been awarded grants from the Pollock-Krasner Foundation in 2006 and the David Bermant 
+Foundation in 2009. An image from the Hubble telescope of the most distant observed galaxies is interpreted 
+by Hébert's software to create a network of lines on a large-format digital inkjet printer. (Original 
+about 24 inches across.) &#38;#169; Jean-Pierre Hébert His aesthetic is based on a patient, evolving 
+exploration of the line. He looks at drawing not as gestural, but more essentially as a direct expression 
+of thought that might be inspired by or suggestive of motion, time, music, light, logic, nature. Technically, 
+his work rests on simple coding informed by geometry, mathematics, physics and great attention to rendering 
+details. He also explores chaos and order, silence and sounds, music, text, poetry, and the ephemeral. 
+Some of the ideas and concepts Jean-Pierre incorporates into his work stem from Zen Buddhism and his 
+spiritual approach to life. The first public exhibition of his digital drawings was in France in 1989 
+at the Galerie Alphonse Chave in Vence. Other landmark exhibitions he has participated in include Alien 
+Intelligence at the Kiasma Museum of Contemporary Art, Helsinki, Finland in 2000, Drawing with the Mind 
+at the Santa Barbara Contemporary Arts Forum, Imaging by Numbers at the Block Museum of Art, Chicago 
+in 2008, Digital Pioneers at the Victoria &#38; Albert Museum in London in 2010, and Drawing with Code 
+at the deCordova Museum in 2011.  Additional selected venues have included the Kavli Institute of Theoretical 
+Physics, Brooklyn Museum, Santa Barbara Museum of Art, Tweed Museum, Getty Research Institute, New York 
+Drawing Center, DAM (Berlin, Cologne). Hébert has resided in Santa Barbara, California since 1985. In 
+addition to international exhibitions, he shows in Santa Barbara and Los Angeles venues and galleries. 
+Jean-Pierre Hébert is active as a public speaker and advocate for digital art and algorithmic methods 
+of creating art. He has participated in SIGGRAPH panels in 1995, 1998, and 2005, the UCSB Art Symposiums 
+in 1999 and 2007, Pratt Institute, UCLA, University of Chicago, Rhode Island School of Design, Pasadena 
+Art Center College of Design, Southern California Institute of Architecture and many other conferences 
+and artist talks. ACM SIGGRAPH is honored to recognize Jean-Pierre Hébert. He is one of the pioneers 
+who have led the way towards new forms of creative expression using digital techniques and algorithms. 
+His consistent record of art production, exhibiting his work and public speaking as an advocate of digital 
+art make him an exceptional individual in the field. Previous Award Recipients 2011 Charles Csuri 2010 
+Yoichiro Kawaguchi 2009 Lynn Hershman Leeson and Roman Verostko 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+</content>
+</proceeding>

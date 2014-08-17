@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08-06-1995</start_date>
+		<end_date>08-11-1995</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Los Angeles]]></city>
+		<state>California</state>
+		<country>USA</country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>216037</proc_id>
+	<acronym>SIGGRAPH '95</acronym>
+	<proc_desc>ACM SIGGRAPH 95 Visual Proceedings: The art and interdisciplinary programs of SIGGRAPH '95</proc_desc>
+	<conference_number></conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn>0-89791-702-2</isbn>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>1995</copyright_year>
+	<publication_date>10-01-1995</publication_date>
+	<pages>265</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source>ACM member price $35, Order No. 428951</other_source>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node>J.5</cat_node>
+			<descriptor/>
+			<type/>
+		</primary_category>
+		<other_category>
+			<cat_node>H.5.0</cat_node>
+			<descriptor></descriptor>
+			<type></type>
+		</other_category>
+		<other_category>
+			<cat_node>I.3.0</cat_node>
+			<descriptor></descriptor>
+			<type></type>
+		</other_category>
+		<other_category>
+			<cat_node>I.4.0</cat_node>
+			<descriptor></descriptor>
+			<type></type>
+		</other_category>
+	</categories>
+	<ccs2012>
+		<concept>
+			<concept_id>0.10010147.10010371.10010382.10010383</concept_id>
+			<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation->Image processing</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10010147.10010178.10010224</concept_id>
+			<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10003120</concept_id>
+			<concept_desc>CCS->Human-centered computing</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10010147.10010371.10010382</concept_id>
+			<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10010147.10010371</concept_id>
+			<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10010405.10010469</concept_id>
+			<concept_desc>CCS->Applied computing->Arts and humanities</concept_desc>
+			<concept_significance>500</concept_significance>
+		</concept>
+	</ccs2012>
+	<general_terms>
+		<gt>Design</gt>
+		<gt>Theory</gt>
+	</general_terms>
+	<chair_editor>
+		<ch_ed>
+			<person_id>P116994</person_id>
+			<author_profile_id><![CDATA[81100608851]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>1</seq_no>
+			<first_name><![CDATA[Isaac]]></first_name>
+			<middle_name><![CDATA[Victor]]></middle_name>
+			<last_name><![CDATA[Kerlow]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[]]></affiliation>
+			<role><![CDATA[Chairman]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+		<ch_ed>
+			<person_id>PP39095079</person_id>
+			<author_profile_id><![CDATA[81100011947]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>2</seq_no>
+			<first_name><![CDATA[Coco]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Conn]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[]]></affiliation>
+			<role><![CDATA[Chairman]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+		<ch_ed>
+			<person_id>P18760</person_id>
+			<author_profile_id><![CDATA[81100313249]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>3</seq_no>
+			<first_name><![CDATA[Andy]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Goodrich]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[]]></affiliation>
+			<role><![CDATA[Chairman]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+		<ch_ed>
+			<person_id>P243822</person_id>
+			<author_profile_id><![CDATA[81100018292]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>4</seq_no>
+			<first_name><![CDATA[Rob]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Hennigar]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[]]></affiliation>
+			<role><![CDATA[Chairman]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+		<ch_ed>
+			<person_id>PP14139508</person_id>
+			<author_profile_id><![CDATA[81100393994]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>5</seq_no>
+			<first_name><![CDATA[Ken]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[O'Connell]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[]]></affiliation>
+			<role><![CDATA[Editor]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+	</chair_editor>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>225457</article_id>
+		<sort_key>85</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1995</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Interactive entertainment]]></title>
+		<page_from>85</page_from>
+		<page_to>111</page_to>
+		<doi_number>10.1145/216037.225457</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=225457</url>
+		<categories>
+			<primary_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>H.5.1</cat_node>
+				<descriptor>Artificial, augmented, and virtual realities</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>H.5.1</cat_node>
+				<descriptor>Audio input/output</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>H.5.1</cat_node>
+				<descriptor>Video (e.g., tape, disk, DVI)</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.4</cat_node>
+				<descriptor>Virtual device interfaces</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010245.10010248</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Computer vision problems->Video segmentation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387.10010866</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces->Virtual reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10011007.10010940.10010941.10010969</concept_id>
+				<concept_desc>CCS->Software and its engineering->Software organization and properties->Contextual software domains->Virtual worlds software</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010225.10010230</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Computer vision tasks->Video summarization</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003124.10010866</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction paradigms->Virtual reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003124.10010870</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction paradigms->Natural language interfaces</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002951.10003317.10003371.10003386.10003389</concept_id>
+				<concept_desc>CCS->Information systems->Information retrieval->Specialized information retrieval->Multimedia and multimodal retrieval->Speech / audio search</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010583.10010588.10003247</concept_id>
+				<concept_desc>CCS->Hardware->Communication hardware, interfaces and storage->Signal processing systems</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003124.10010392</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction paradigms->Mixed / augmented reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P116994</person_id>
+				<author_profile_id><![CDATA[81100608851]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Isaac]]></first_name>
+				<middle_name><![CDATA[Victor]]></middle_name>
+				<last_name><![CDATA[Kerlow]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+	</article_rec>
+	<article_rec>
+		<article_id>225465</article_id>
+		<sort_key>113</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1995</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Interactive communities]]></title>
+		<page_from>113</page_from>
+		<page_to>159</page_to>
+		<doi_number>10.1145/216037.225465</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=225465</url>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.1</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010469</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002951.10003227.10003251</concept_id>
+				<concept_desc>CCS->Information systems->Information systems applications->Multimedia information systems</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP39074946</person_id>
+				<author_profile_id><![CDATA[81100011947]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Coco]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Conn]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P243822</person_id>
+				<author_profile_id><![CDATA[81100018292]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Rob]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hennigar]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P18760</person_id>
+				<author_profile_id><![CDATA[81100313249]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Andy]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Goodrich]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+	</article_rec>
+	<article_rec>
+		<article_id>225466</article_id>
+		<sort_key>161</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1995</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Computer animation festival/electronic theatre]]></title>
+		<page_from>161</page_from>
+		<page_to>263</page_to>
+		<doi_number>10.1145/216037.225466</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=225466</url>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.1</cat_node>
+				<descriptor>Animations</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor>Animation</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010341.10010349.10011310</concept_id>
+				<concept_desc>CCS->Computing methodologies->Modeling and simulation->Simulation types and techniques->Simulation by animation</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP31078204</person_id>
+				<author_profile_id><![CDATA[81320489758]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Frank]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Foster]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP31072911</person_id>
+				<author_profile_id><![CDATA[81332493956]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Joan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Collins]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+	</article_rec>
+	<article_rec>
+		<article_id>225467</article_id>
+		<sort_key>264</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1995</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Graphicsnet]]></title>
+		<page_from>264</page_from>
+		<page_to>265</page_to>
+		<doi_number>10.1145/216037.225467</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=225467</url>
+		<categories>
+			<primary_category>
+				<cat_node>C.2.1</cat_node>
+				<descriptor>Internet</descriptor>
+				<type>P</type>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>I.4.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382.10010383</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation->Image processing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003033.10003034</concept_id>
+				<concept_desc>CCS->Networks->Network architectures</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P159102</person_id>
+				<author_profile_id><![CDATA[81332518325]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Keith]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Nesson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P298120</person_id>
+				<author_profile_id><![CDATA[81100133572]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Wesley]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hein]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+	</article_rec>
+</content>
+</proceeding>

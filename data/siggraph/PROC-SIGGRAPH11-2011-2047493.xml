@@ -1,0 +1,2786 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08/07/2011</start_date>
+		<end_date>08/11/2011</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Vancouver]]></city>
+		<state>British Columbia</state>
+		<country>Canada</country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>2047493</proc_id>
+	<acronym>SIGGRAPH '11</acronym>
+	<proc_desc>ACM SIGGRAPH 2011 Dailies</proc_desc>
+	<conference_number>2011</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-4503-0968-4</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2011</copyright_year>
+	<publication_date>08-07-2011</publication_date>
+	<pages>25</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>This celebration of excellence in computer graphics showcases images and short animations of extraordinary power and beauty. Each presenter has one minute to present an animation and describe the work. The format is very similar to Technical Papers Fast Forward, except there is no talk later in the week.</p> <p>SIGGRAPH Dailies! is where you can catch up on the state of the art - and craft - of computer graphics.</p> <p>SIGGRAPH Dailies! is where you will be astounded by sheer excellence in modeling, shading, animation, lighting, effects, and more.</p> <p>SIGGRAPH Dailies! is where you can participate in the vibrant production culture that surrounds presenting and reviewing work that was completed despite seemingly endless obstacles.</p> <p>The program debuted last year at SIGGRAPH 2010 in Los Angeles, to rave reviews.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<chair_editor>
+		<ch_ed>
+			<person_id>P2837630</person_id>
+			<author_profile_id><![CDATA[81490657824]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>1</seq_no>
+			<first_name><![CDATA[Rajesh]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Sharma]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+			<role><![CDATA[Conference Chair]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+	</chair_editor>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>2047494</article_id>
+		<sort_key>10</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>1</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Extreme animation]]></title>
+		<subtitle><![CDATA[novice edition]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047494</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047494</url>
+		<abstract>
+			<par><![CDATA[<p>A team of first-time animators test their chops on prime-time television.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837631</person_id>
+				<author_profile_id><![CDATA[81490670587]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Honeck]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University Entertainment Technology Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837632</person_id>
+				<author_profile_id><![CDATA[81490683829]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Steve]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Geist]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University Entertainment Technology Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837633</person_id>
+				<author_profile_id><![CDATA[81490663877]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Kim]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kiser]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University Entertainment Technology Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837634</person_id>
+				<author_profile_id><![CDATA[81490690098]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Franz]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mendonsa]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University Entertainment Technology Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837635</person_id>
+				<author_profile_id><![CDATA[81490643092]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Katherine]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Rubenstein]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University Entertainment Technology Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837636</person_id>
+				<author_profile_id><![CDATA[81490694576]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Freddie]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sulit]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University Entertainment Technology Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Hi, I m Mike Honeck, I m a graduate student at Carnegie Mellon s Entertainment Technology Center in 
+Pittsuburgh, Pennsylvania. I d like to share with you my team s experience working on our first prime-time 
+show, ABC s Extreme Makeover: Home Edition. Every week, Extreme Makeover builds new homes for families 
+in need. They came to the ETC because an upcoming episode was filmed near us, and they wanted an animated 
+storybook sequence to take the place of their traditional house demolition. On paper, this looked great. 
+We were a local school with a focus on entertainment and they were a budget minded production team able 
+to get work for free. In reality, the ETC is not an animation school. Our team had no trained animators. 
+The client s production team had also never worked in animation, so this became one high-profile learning 
+experience for everyone. We built our pipeline using Photoshop, Maya, After Effects and Premiere. All 
+camera moves and character animation happened in After Effects. The house demolition was simulated in 
+Maya with dust added using Trapcode s Particular plugin for After Effects. Final editing and exporting 
+was done with Premiere. Producing the complete two-and-a-half minute piece was a challenge. We had 8 
+weeks to go from concept to final render, and only 4 weeks before a rough cut was needed for editing. 
+And because we were all on summer internships, all of this had to be done after 5 and on weekends. Dropbox 
+and Google docs became essential for managing assets and tracking progress. We could send animatics, 
+rough cuts for edit, and corrected frames of animation to LA quickly and at full quality while working 
+from multiple locations. We had no render farm for the project, so for our rough cut I spent 48 hours 
+straight editing and rendering shots on 4 workstations close enough together that I could reach them 
+all by swiveling around in my office chair. The client was so pleased with our first pass that they decided 
+not to film a backup. With the pressure really on, we began to work toward final. So, after another all-night 
+swivel chair fest, we had what we thought was our final render. We uploaded the cut to Dropbox and then 
+immediately (and deliriously) boarded a plane for SIGGRAPH. Once in LA, far, far away from our computers, 
+we learned that some last minute notes had come in from the executive producers. Our favorites included 
+enhancing some breasts and shrinking a butt that was deemed too voluptuous. Tweaks made and the whole 
+saga behind us, we eagerly gathered to see our episode air to find that all but the 40 seconds you saw 
+here had been cut.
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047495</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>2</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Terrene]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047495</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047495</url>
+		<abstract>
+			<par><![CDATA[<p>An animation produced in four weeks by eight inexperienced but dedicated undergraduate students across the United States and Europe, collaborating over the Internet.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837637</person_id>
+				<author_profile_id><![CDATA[81490654153]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Kevan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Loney]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837638</person_id>
+				<author_profile_id><![CDATA[81388602091]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Justin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sheehy]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837639</person_id>
+				<author_profile_id><![CDATA[81490696666]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Wesley]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Cardwell]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837640</person_id>
+				<author_profile_id><![CDATA[81490682793]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Anne]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lynch]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837641</person_id>
+				<author_profile_id><![CDATA[81490679619]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Thomas]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Storey]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837642</person_id>
+				<author_profile_id><![CDATA[81490649454]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Caleb]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kicklighter]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837643</person_id>
+				<author_profile_id><![CDATA[81490665378]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>7</seq_no>
+				<first_name><![CDATA[James]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Storey]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837644</person_id>
+				<author_profile_id><![CDATA[81490677243]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>8</seq_no>
+				<first_name><![CDATA[Jose]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Contreras]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837645</person_id>
+				<author_profile_id><![CDATA[81490688324]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>9</seq_no>
+				<first_name><![CDATA[Federico]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Burch]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Hello, my name is Wes Cardwell, and I am an undergraduate student from the Department of Visualization 
+at Texas A&#38;M University. Over this past winter break, I, along with seven other students, collaborated 
+to produce an animation. We made it our goal to coordinate our artistic and technical efforts in a professional 
+manner, while also working through a traditional production process. We created concept sketches, animatics, 
+matte paintings, color scripts, lighting keys, texture maps, character models, rigs, and particle simulation. 
+The project served as a unique challenge in that each of us sat in different parts of the U.S. and, in 
+one case, across the ocean in Italy, visiting family for the holidays. Using our college student budget 
+of exactly zero dollars, we employed every free Internet service we could summon to assist us in communicating 
+information and sharing files. At one point, Federico Burch was forced to steal Wi-fi from a closed airport 
+shop in Italy in order to maintain an Internet connection to dropbox. At the same time, I found myself 
+sharing the tiny bandwidth of a 3G AT&#38;T aircard with my dad to upload files, while Jose worked from 
+his laptop on a sixteen-hour drive to Minnesota to visit family. Challenges that professionals are familiar 
+with tested us as novel concepts. Effects failed, rigs broke without warning, unexplainable artifacts 
+reared their ugly heads, and all of it had to be fixed on the fly to meet our established goal of finishing 
+before the next semester. Despite all of these obstacles, we persevered and produced an animation in 
+which we are proud.
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047496</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>3</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA["Ad Infinitum"]]></title>
+		<subtitle><![CDATA[how to make a fractal]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047496</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047496</url>
+		<abstract>
+			<par><![CDATA[<p>"Ad Infinitum" has been featured in film festivals in the US, Canada, and Ireland, and was an award winner at the Moondance International Film Fest in Boulder, CO.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837646</person_id>
+				<author_profile_id><![CDATA[81490664360]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Benjamin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ridgway]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Northeastern University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ "Ad Infinitum" How to Make a Fractal "Ad Infinitum" has been showcased in film festivals worldwide 
+and has received numerous awards. "Ad Infinitum" won the Royal Reel Award at the Canada International 
+Film Festival, won the Seahorse Award at the Moondance International Film Fest, Won an Honorable Mention 
+award at the Los Angeles New Wave International Film Festival, and was on display at the Autodesk booth 
+at SIGGRAPH 2010. "Ad Infinitum" is a sculptural continuum that continuously unfolds before your eyes 
+by revealing finer and finer details emanating from a single point. What you are seeing on the screen 
+is not the camera delving deeper and deeper into the sculpture. The sculpture pieces are actually expanding 
+and the camera is just simply observing it from different angles. Each sculpture piece can be thought 
+of as a perfect square plane with a hole in the center that is exactly half the size of the square. As 
+the square expands, eventually the hole in the center of the square becomes the same size as the original 
+size of the square. By continually expanding the series of squares in a linear procession by powers of 
+two, each piece scales from an imperceptibly small size to an incredibly enormous size with no gap between 
+the squares. This procession is a cycle where the last square in the series seamlessly combines with 
+the first. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047497</article_id>
+		<sort_key>40</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>4</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[The Bookshelf and the Skirt]]></title>
+		<subtitle><![CDATA[how a prop tool saved a character rigger]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047497</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047497</url>
+		<abstract>
+			<par><![CDATA[<p>A prop distortion tool saves a TD's sanity on a rigging a characters skirt on the student film "Collectible."</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837647</person_id>
+				<author_profile_id><![CDATA[81490651725]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Andrew]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gartner]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon Entertainment Technology Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837648</person_id>
+				<author_profile_id><![CDATA[81490670587]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Honeck]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon Entertainment Technology Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837649</person_id>
+				<author_profile_id><![CDATA[81490693771]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Patrick]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jalbert]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon Entertainment Technology Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837650</person_id>
+				<author_profile_id><![CDATA[81490694075]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Mike]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Capristo]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon Entertainment Technology Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837651</person_id>
+				<author_profile_id><![CDATA[81490663877]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Kim]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kiser]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon Entertainment Technology Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837652</person_id>
+				<author_profile_id><![CDATA[81490683829]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Steve]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Geist]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon Entertainment Technology Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Presentation Backstory: Hello, I m Andrew Gartner and I m a graduate student at Carnegie Mellon s Entertainment 
+Technology Center. I m here to share a little story surrounding the student production of the animated 
+short Collectible . More specifically, how a tool built to distort props quickly wound up becoming the 
+solution to a very frustrating wardrobe malfunction with the main character s skirt. During the beginning 
+of January 2011 the short Collectible entered the last phases of pre-production. The short follows a 
+lonely old woman named Lenora, as she develops an obsession with cheap figurines purchased from a television 
+shopping network called. This obsession ultimately leads to her downfall. In this case, she literally 
+falls off of a precariously high tower of boxes and footstools. The art style developed by the team 
+to support Lenora s growing madness and obsession reflected a number of stylized distortions of space. 
+Props grew larger and more distorted as the short progressed. However, even though we had a large amount 
+of modeling help from students outside the project, we knew we would not be able to remodel every object 
+that required this kind of distortion. As the sole TD on the project I decided to solve the problem 
+by creating a tool that could distort objects quickly and easily. The tool consisted of a Free Form Lattice 
+Deformer that was skinned to series of control points which were then placed according the bounding box 
+of the model. While developing this tool I was also writing a ton of code to rig up the main character 
+Lenora. So when the prop tool was done I could refocus on tackling some of the problems that were coming 
+up with her skirt setup. Lenora needed a rough proxy rig so that animation could begin while I worked 
+on correcting and refining her eventual deformations. The majority of this was fairly straightforward. 
+I cut up her final geometry and parented it to the animated skeleton. However, Lenora s skirt presented 
+a real problem at the proxy and stage As a team, we decided early on as a team that we would not be 
+running any dynamic simulation on Lenora s clothing as it would cause havoc with our sixteen week production 
+schedule. However, we still needed a way to get a lot of nice deformations without someone having to 
+constantly animate the skirt directly. Moreover, I did not want to burn time by painting skin weights 
+for a proxy rig. I began to try and solve the problem and after a numerous disasters and malfunctions 
+using bones, I had wasted almost a full week of a sixteen week production and we still had no skirt rig. 
+ At the end of that particular week, our animator Patrick had just given me the bad news that the skirt 
+had blown up again during an animation test. As it happened I was currently submitting some changes to 
+the prop distortion tool at the moment he gave me the bad news. Perhaps due to a desire to try and shut 
+out all the problems with Lenora s skirt but I could not really get my brain off of concentrating on 
+the prop tool. For once my ADD helped me, and I mentioned, almost as a joke, the idea of using the lattice 
+to deform the skirt. After a few seconds I realized that although it seemed a bit crazy it was worth 
+a shot to try the prop tool on the skirt. To my relief the initial test worked. A few lines of code to 
+parent some stuff around and we finally had a rig with which we could start animating. Eventually the 
+lattice would not be needed in the high res version of Lenora s rig but it was invaluable in getting 
+a proxy rig done so that animation could begin. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047498</article_id>
+		<sort_key>50</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>5</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[Designing a splash in Disney's "Tangled"]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047498</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047498</url>
+		<abstract>
+			<par><![CDATA[<p>This takes a water splash in "Tangled" from hand drawn keys by a Disney effects veteran to techniques on hitting the design and timing.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837653</person_id>
+				<author_profile_id><![CDATA[81442592544]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Dale]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mayeda]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Hi My name is Dale Mayeda and I was an Effects Animator on Disney Animation Studios' "Tangled". I created 
+the water splash for when the main characters, Flynn and Rapunzel, were trying to escape a chamber where 
+they were about to drown. In our effects department, we are lucky to have an effects animator, Ted Kierscey, 
+who has been creating effects animation dating back to some of our Disney classics. He was actually hired 
+personally by Walt himself as Trainee #1. I collaborated with Ted and he drew some effects keys for me 
+which was a great inspiration in order to hit that classic Disney timing and design for my water splash. 
+His drawings were really amazing, but the funny thing was that Ted drew his water splash keys in white 
+chalk and every time I flipped through them I had to be extra careful so that I wouldn't accidentally 
+erase it when I touched the paper. I almost thought I should be wearing white gloves with it. Anyways 
+as I was examining his keys, it helped to determine the various methods I was going to use to simulate 
+and choreograph my water splash to match his design. To hit the initial water shapes as Flynn tries to 
+break through the wall, I created a splash rig in Houdini which allowed me to easily set up a region 
+for water to spray from and art direct the shape and angle of spray. In order to hit the shapes of the 
+main water splash when the rock wall comes apart, I used PhysBam to simulate the thrust of water coming 
+out of the chamber. I then generated a secondary PhysBam simulation to get the reaction of the splash 
+hitting the river. Here's the final shot with all of the layers put together and lit. Having a strong 
+plan of design and timing was integral to get a splash that had both a caricatured look and snappy stylized 
+timing.
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047499</article_id>
+		<sort_key>60</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>6</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>6</seq_no>
+		<title><![CDATA[Running out of steam]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047499</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047499</url>
+		<abstract>
+			<par><![CDATA[<p>The concept was a result of tackling German culture while studying abroad and discovering the German cityscape through a magnifying glass; Robert discovers his world from a strange detailed perspective.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837654</person_id>
+				<author_profile_id><![CDATA[81490689067]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Kevin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Primm]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837655</person_id>
+				<author_profile_id><![CDATA[81490671311]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Jake]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ross]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Running Out of Steam By: Kevin Primm &#38; Jake Ross This project was given to us while we were studying 
+abroad during the spring of 2010 in Bonn Germany. Our professors, Anton Marcus and Judith Reitz, gave 
+us a prompt in which we had to de­velop a fictional character on the base of a written description, as 
+well as design a detailed 3-D char­acter using the textual descriptions as a starting point. This included 
+design, texture, facial and body expressions, movement, hair, etc. We were given ten characteristics 
+such as: the name given to us was Robert the Steam Junky, He is always smoking and loves old steam trains, 
+ He has never been seen without a hat, and He drives an old very small Italian car. Our character was 
+roughly based on the French comic series les petits homes from Pierre Seron written and drawn in the 
+1960 s. It is the result of tackling the German culture while studying abroad and discovering the German 
+cityscape through a magnifying glass. Similar to Serons Tiny people, Robert discovers his world from 
+a strange detailed perspective. This project was coordinated with our cinematography course earlier 
+in the semester. Our ob­jective was to find a location that could be used as a backdrop to composite 
+our character into. We had our character designed and story created, but we still needed a setting for 
+our character to interact with. So we set off scouring the city for the perfect spot but to no avail. 
+It was the in middle of February during a harsh German winter, and we searched the city for hours assuming 
+difficult positions in order to get the best shots of certain areas around the city that would fit with 
+our character. Some of these locations included grates, metal benches, fences, garbage, and other random 
+metal objects. One of us would stand watch while the other would bend down on all fours taking pictures 
+of these locations. We received many strange looks from the local Germans while our rather large expensive 
+camera was pointed at seemingly pointless nooks and crannies throughout the city. Several asked to be 
+a part of the supposed film we were making. We soon developed a few ready-made responses to dish out 
+to the puzzled passersby, such as Ich weiss nicht, Ich bin ein Studenten, Ich komme aus Texas , which 
+loosely translates to I don t know, I am a student from Texas. Later, after much fruitless searching, 
+we finally found a spot that we deemed worthy of our character. Ironically, our location turned out to 
+be a rusty grate in the building located directly across the street from the school, which was our starting 
+point. One of the other requirements was to start the piece with an establishing shot involving a tilt 
+shift time lapse. We found a great establishing shot location, but only after other failed attempts in­volving 
+hiking through what, most likely, was private property of German farmers to find high ground overlooking 
+the city. Our final time lapse was situated on a bridge overlooking some train tracks, which also involved 
+long hours in the freezing cold and puzzled onlookers, although instead of unintelligible German questions, 
+we received many honks and waves from cars going across the bridge. All in all, the long and miserable 
+quest to find the perfect spot was worth it, because we got to see even more of Bonn, the city that we 
+would grow to love. This love may have been enhanced by the fact that we ended up getting an A on the 
+project too, but hey, who s keeping track?  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047500</article_id>
+		<sort_key>70</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>7</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>7</seq_no>
+		<title><![CDATA[Cooking flower soup for Disney's "Tangled"]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047500</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047500</url>
+		<abstract>
+			<par><![CDATA[<p>The plot of "Tangled" required visual effects to show the magic flower transforming into a life-giving soup without destroying the essence of its power, allowing Rapunzel's birth.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837656</person_id>
+				<author_profile_id><![CDATA[81100351513]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Andrew]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Selle]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ dailies 0047 Cooking Flower Soup for Disney s Tangled In Disney s Tangled, a magic .ower is found that 
+is subsequently turned into soup. This soup heals the queen and allows her to give birth to Rapunzel. 
+Nobody said how this should happen, but they did tell me it was my job. I thought maybe I could go to 
+the local super market and .nd some reference. Unfortunately, they didn t have the kind of soup I wanted. 
+Without reference, I was left to forge ahead blind, but luckily I had some layout anima­tion. Unfortunately, 
+early tests showed there was insuf.cient time to melt the .ower, so I had to retime the shot. After this, 
+I followed the usual effect animator technique of using particles, more particles, and when that fails, 
+a .uid sim. To make the .ower disintegrate, I devised an unstructured heat diffusion technique de.ned 
+on a pointcloud. Then, at any newly eroded area I emitted particles which were advected by a .uid simulation. 
+Lastly, I created a .uid simulation to animate the water surface. Once all the sims and geometry was 
+ready I rendered everything together. Unfortunately, the directors told me I was killing the Rapunzel 
+.ower, making it appear to dissipate rather than augment. My propensity for .ower killing should not 
+be surprising from my youthful pasttime .ower trampling. I decided to counteract my tendencies by creating 
+a glow in the water the .ower as the melting continues. I made a new version which was very close to 
+the .nal. The directors liked this version much better. Here is the shot in continuity. (C)Disney Enterprises 
+ 1 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047501</article_id>
+		<sort_key>80</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>8</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>8</seq_no>
+		<title><![CDATA[James Webb Space Telescope, how to build a sunshield]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047501</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047501</url>
+		<abstract>
+			<par><![CDATA[<p>This presentation outlines how we programmatically simulated the deployment of a cloth-like sunshield for NASA's James Webb Space Telescope</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837657</person_id>
+				<author_profile_id><![CDATA[81331504155]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Vladimir]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sierra]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Northrup Grumman Aerospace Systems]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837658</person_id>
+				<author_profile_id><![CDATA[81490650281]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Tony]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Carrillo]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Northrup Grumman Aerospace Systems]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837659</person_id>
+				<author_profile_id><![CDATA[81490689614]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Faren]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mandel]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Northrup Grumman Aerospace Systems]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ James Webb Space Telescope How to Build a Sunshield Presented by Vladimir Sierra My name is Vladimir 
+Sierra, and I d like to talk about the work we did in creatinga deployable sunshield for the JWST telescope 
+for Northrop Grumman. Given that the mylar material from which this sunshield is made has very cloth-like 
+properties, it wasobvious that we would use some form of cloth simulation. What wasn t so obvious was 
+.guring out how we would get a good folded initial state from which we could createthe cloth simulation. 
+After we experimented with paper models, we decided rebuildthe shield using a high number of nurbs curves 
+to form a kind of skeleton. The trick was coming up with a folding algorithm that would synchronize the 
+motion of all thecurves into discrete non-penetrating pleats. For this, we used Maya s non-linear bend 
+deformers across multiple sub-curves. Because each curve would need to fold differently depending on 
+its orientation, the algorithm needed to take into account each curve s placement with respect to its 
+neighbors. Once we had an algorithm inplace, we could then fold the shield to a stowed con.guration, 
+and we could thenbegin the iterative process of building a cloth simulation. An added complexity that 
+we had to contend with was the fact that the shield itself is made up of .ve layers ofthis material. 
+In order to generate stable simulations with reasonable compute times,we opted to simulate each layer 
+independently, turning each cloth simulation into acached collision object for the remaining layers. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047502</article_id>
+		<sort_key>90</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>9</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>9</seq_no>
+		<title><![CDATA[Zombie Satellites]]></title>
+		<subtitle><![CDATA[a technical animation]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047502</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047502</url>
+		<abstract>
+			<par><![CDATA[<p>Technical animation depicting a drifting "Zombie" satellite causing headaches in geosynchronous orbit.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837660</person_id>
+				<author_profile_id><![CDATA[81466643212]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Kel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Elkins]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837661</person_id>
+				<author_profile_id><![CDATA[81466647810]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Ed]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mackey]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837662</person_id>
+				<author_profile_id><![CDATA[81466648399]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Ed]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gee]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837663</person_id>
+				<author_profile_id><![CDATA[81490689460]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Josh]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Reicher]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Zombie Satellites: A Technical Animation Technical animation depicting a drifting Zombie satellite causing 
+headaches in geosynchronous orbit. This animation was created with actual satellite telemetry data. It 
+helps explain what was happening with Intelsat s Galaxy-15 satellite dubbed the Zombie Sat by some in 
+the media. We start at geosynchronous orbit. The satellites here are relatively stationary with respect 
+to the Earth, so this is an ideal location for telecommunications satellites. Because this particular 
+orbit is so popular, each satellite sits in an assigned parking space, shown in yellow. Everything was 
+fine and dandy for this AMC satellite until a drifting Zombie satellite came staggering toward its location. 
+Last year, Intelsat lost control of its Galaxy-15 satellite and couldn t perform the stationkeeping maneuvers 
+required to keep it in its parking spot. While most satellites disable themselves when they fail, Galaxy-15 
+continued to broadcast at full power via its antenna arrays. As Galaxy-15 drifted along, it began threatening 
+other satellites with powerful radio interference. That s how it earned its zombie nickname. Basically, 
+the satellite was drifting out of control, threatening to eat the brains of anything in its path. Of 
+course we all know from the movies what happens next: more and more zombie satellites are created until 
+eventually the entire orbit is just a bunch of mindless, wandering drones. The AMC satellite performed 
+this fancy dance maneuver to avoid the zombie satellite while its communications were relayed through 
+a nearby satellite. One month later, a similar maneuver was employed to save another operational Galaxy 
+satellite. Lesson learned: when facing the undead, running away is always the best option. Intelsat 
+regained control of Galaxy-15 after its batteries drained and it essentially rebooted itself. After recharging 
+the batteries via the solar arrays, operators returned Galaxy-15 to its original parking spot, narrowly 
+saving us all from the impending undead satellite space apocalypse. Contributors: Ed Mackey, Ed Gee, 
+Kel Elkins, Josh Reicher, 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047503</article_id>
+		<sort_key>100</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>10</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>10</seq_no>
+		<title><![CDATA[The "water sheeting" effect in Megamind]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047503</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047503</url>
+		<abstract>
+			<par><![CDATA[<p>Water streaming, or "sheeting," down the street during a rainstorm was a subtle, yet highly effective effects element that aided an emotional sequence in Megamind.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837664</person_id>
+				<author_profile_id><![CDATA[81490650101]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Devon]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Penney]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[PDI/DreamWorks Animation]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837665</person_id>
+				<author_profile_id><![CDATA[81490689603]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Darin]]></first_name>
+				<middle_name><![CDATA[GrantPDI/DreamWorks]]></middle_name>
+				<last_name><![CDATA[Animation]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[PDI/DreamWorks Animation]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047504</article_id>
+		<sort_key>110</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>11</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>11</seq_no>
+		<title><![CDATA[Peak 9 VFX]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047504</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047504</url>
+		<abstract>
+			<par><![CDATA[<p>The main achievement for me was the process from conceptualization to development till the final output.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837666</person_id>
+				<author_profile_id><![CDATA[81490694914]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Yuvraj]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Magar]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixelsque Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Proposed BackStory: SandCanvas: New Possibilities in Sand Animation Rubaiat Habib Kazi rubaiat@comp.nus.edu.sg 
+ Sand animation, also known as sand art, is a form of visual storytelling in which an artist dexterously 
+manipulates fine granules of sand to produce images and animations. Sand animation stands out from most 
+other artistic media, because its a performance art. Its attraction and aesthetics are closely tied to 
+the creation process as well as the finished artwork. In addition to that, sand animations are formed 
+through a powerful and expressive vocabulary of physical interactions between artist s hands and small 
+granules of sand. Sand animation leverages the delicate structure of the artist s whole. Inspired by 
+the aesthetics and history of this medium, we have developed a multi-touch artistic medium that simplifies 
+the creation of sand animation. Producing this new artistic medium required us develop a new approach 
+to real-time sand simulation that strikes a balance between speed and realism. Most of the multi-touch 
+devices to not attempt to map touch regions in the current time step to touch regions in the previous 
+time step. This required us to devise a new, fast approach to performing this mapping and simulate sand 
+in real-time in response to gestural input. SandCanvas possesses the fluidity and flow of physical sand 
+animation, while its color and texture features enable faster, more dramatic transitions, while its mixed 
+media and gesture recording features make it possible to create entirely new experiences. Session recording 
+and frame capture complement these capabilities by simplifying post-production of sand animation performances. 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047505</article_id>
+		<sort_key>120</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>2</pages>
+		<display_no>12</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>12</seq_no>
+		<title><![CDATA[SandCanvas]]></title>
+		<subtitle><![CDATA[new possibilities in sand animation]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>2</page_to>
+		<doi_number>10.1145/2047493.2047505</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047505</url>
+		<abstract>
+			<par><![CDATA[<p>Inspired by this popularity and aesthetics of sand animation, we have developed a new multitouch artistic medium named SandCanvas that simplifies the creation of sand animations and enable new expressions.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837667</person_id>
+				<author_profile_id><![CDATA[81484645237]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Rubaiat]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kazi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Singapore Management University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837668</person_id>
+				<author_profile_id><![CDATA[81484650843]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Kien-Chuan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chua]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Singapore Management University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837669</person_id>
+				<author_profile_id><![CDATA[81416592901]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Shengdong]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Zhao]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Singapore Management University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837670</person_id>
+				<author_profile_id><![CDATA[81100143361]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Kok-Lim]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Low]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Singapore Management University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ SIGGRAPH DAILIES submission In the Clouds Presented by Jennifer Deafenbaugh The Itty-Bitty Studio These 
+shots are from the soon to be finished short film In the Clouds. They were created using an unusual and 
+slightly experimental process, combining HD video, homemade animation tools, rotoscoping and digital 
+compositing. The story is one of an imaginative woman who has prepared a picnic for a date--and is waiting 
+for him to show up . In her boredom, she discovers she can sculpt men out of clouds. Her date never shows 
+up. She ends up realizing that she s perfectly content with herself, her own creativity and her daydreams. 
+In the Clouds has been an idea floating for the past 3 years. One of the largest struggles with piece 
+has been to find the right style and process for creating it. After seeing a talk by traditional effects 
+animator Joseph Gilland, it was clear that the cloud men would be best hand animated (not shown in current 
+footage). Given limited resources and budget, we determined that video wasn t viable--however, hand-drawing 
+the entire film would mean adding years, possibly, onto our timeline. Inspiration also came through a 
+piece called The Art of Drowning by Diego Maclean. It is a visually stunning black-and-white, two-minute 
+short. The piece was entirely rotoscoped. Here was a viable solution. Footage of the main character, 
+Tiffany, was shot over two beautiful summer days and then edited. Cloud men were recorded on a green 
+screen and matched to Tiffany s hands, when needed. These video clips were output as image sequences 
+and copied to netbooks. The netbooks were attached to computer monitors, which we modified by removing 
+the base from the bottom and sticking animation pegbars onto the front of each one--creating our own 
+homemade animation tables. Black and white pencil drawings were then made by cross-hatching and tracing 
+portions of the images on our displays onto punched paper --frame by frame, of course. Cloud men and 
+cloud puffs could then be hand-animated using the same tools. Unlike Diego s piece --we needed a bit 
+of color. Completed sequences of drawings were scanned, brought into AfterEffects, and composited on 
+top of the original video. This allowed us to create the colored pencil-like style seen in the final 
+footage without doubling or tripling the time spent drawing each frame. These are some of the first shots 
+completed for the film, drawn by our small-but-dedicated team of seven animators --(Emily Berrios, Catie 
+Newell, Michael Carroll, Antonio Crespo, Natalie Jackson, Brad Sherman and myself.) Thank you. :)
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047506</article_id>
+		<sort_key>130</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>13</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>13</seq_no>
+		<title><![CDATA[In the clouds]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047506</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047506</url>
+		<abstract>
+			<par><![CDATA[<p>We wanted to make a traditional animation that kept a handmade feel while leveraging digital techniques and tools.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837671</person_id>
+				<author_profile_id><![CDATA[81490691681]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jennifer]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Deafenbaugh]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Itty-Bitty Studio]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837672</person_id>
+				<author_profile_id><![CDATA[81490686527]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Emily]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Berrios]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Itty-Bitty Studio]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837673</person_id>
+				<author_profile_id><![CDATA[81490646415]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Catherine]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Newell]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Itty-Bitty Studio]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837674</person_id>
+				<author_profile_id><![CDATA[81539053756]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Carroll]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Itty-Bitty Studio]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837675</person_id>
+				<author_profile_id><![CDATA[81490678309]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Antonio]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Crespo]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Itty-Bitty Studio]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Comparing the radar cross section of jet fighters: An idiot s guide Technical animation used to express 
+the differences in radar cross section among fighter jets and its impact on mission success. At AGI, 
+our team is often tasked with helping customers easily explain technical concepts. For this video, the 
+goal was to portray differences in radar cross section among fighter jets to help our customer express 
+why their jet fighter is superior. Here is an example of how this customer typically conveys this information. 
+You ll see a target, various strike forces, defensive weapon ranges and radar envelopes. The result is 
+a cryptic mess that probably makes perfect sense to the engineer that created it. Now here s how we 
+conveyed some of the same information in a more visually pleasing format. Normally you wouldn t associate 
+an F-18 with a Volkswagen Beetle you re never going to get to fly with the Blue Angels talking like 
+that but in this case we re simply comparing the radar cross sections of these to aircraft to different 
+sized objects. Smaller is better here. Suffice to say that the F-35 is apparently pretty awesome. This 
+top down shot illustrates the chances of enemy radar, shown in yellow, picking up each of the jet fighters. 
+The older aircraft are shown with larger green circles around them, signifying a larger radar cross section. 
+Again, large radar cross section is bad, and these are the first ones to be detected and presumably shot 
+down. Our goal was to make several clips in order to provide our customer with a montage of options 
+to get their point across. As an added challenge, these clips were being shown to some rather high-level 
+government personnel, many of whom we were told had no technical background. We hope that we not only 
+helped our customer successfully sell their jet fighter to the government, but highlighted our software 
+s awesomeness at the same time. Contributors: Branden Coker, Kel Elkins 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047507</article_id>
+		<sort_key>140</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>14</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>14</seq_no>
+		<title><![CDATA[Comparing the radar cross section of jet fighters]]></title>
+		<subtitle><![CDATA[an idiot's guide]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047507</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047507</url>
+		<abstract>
+			<par><![CDATA[<p>Technical animation used to express the differences in radar cross section among fighter jets and its impact on mission success.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837676</person_id>
+				<author_profile_id><![CDATA[81466647494]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Branden]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Coker]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837677</person_id>
+				<author_profile_id><![CDATA[81466643212]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Kel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Elkins]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Michael Cuevas Sony Computer Entertainment America Santa Monica Studios 1630 Stewart St Suite 130 Santa 
+Monica, California 90404 Siggraph Dailies Submission: God of War 3: Chimaera Tail Swipe Attack For 
+god of war 3, I was tasked with fleshing out the attacks for the three headed, dual stance changing Chimaera 
+mini-boss. This was my first assignment after coming from a three year job doing motion capture and humans/bipeds 
+and was thrown right into the fire. The Chimaera sports three heads (a goat, a lion and a snake), a tail, 
+walks on all fours and has a set of goat legs for his bottom half. I ve never animated anything like 
+this before. For this particular animation sequence, I decided to use a breakdancing move called a hand 
+glide (or spinning crab walk/spinning jackhammer). The trick was getting the right coordination, balance, 
+sense of momentum and weight while accommodating a multitude of limbs and heads. You can see that he 
+plants almost all of his weight on his right arm before simultaneously kicking his right leg underneath 
+(for momentum), then planting his left arm, shifting his weight to his left arm while spinning and finishing 
+with a nice circular slide as he tries to get his footing back. Secondary motion in the hips and tail 
+help sell the weight of the character and the speed of the move. After numerous iterations (and a few 
+rug burns from research attempts) I was able to come up with the version that made it into our game. 
+In the end, even with a complex rig, going back to animation fundamentals helped me pull of this assignment. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047508</article_id>
+		<sort_key>150</sort_key>
+		<display_label>Article No.</display_label>
+		<display_no>15</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>15</seq_no>
+		<title><![CDATA[God of War 3]]></title>
+		<subtitle><![CDATA[chimaera tail swipe attack]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047508</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047508</url>
+		<abstract>
+			<par><![CDATA[<p>Breakdancing inspired attack for the Chimaera mini-boss from God of War 3</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837678</person_id>
+				<author_profile_id><![CDATA[81490677087]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Cuevas]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[SCEA Santa Monica Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047509</article_id>
+		<sort_key>160</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>16</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>16</seq_no>
+		<title><![CDATA[CG on the high seas]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047509</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047509</url>
+		<abstract>
+			<par><![CDATA[<p>Hear about one grad student's animation adventure producing a short while living with scientists aboard a research vessel for eight weeks in the North Pacific.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837679</person_id>
+				<author_profile_id><![CDATA[81490690067]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Stephanie]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Keske]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ SIGGRAPH Dailies Submission Stephanie Keske I m a first year master s student at the Texas A&#38;M University 
+Visualization Laboratory. Last summer, I worked aboard the geological research vessel JOIDES Resolution, 
+which drills for ocean crust samples at sites all around the world. I was a member of the eight-week 
+long Expedition 327 which sailed out of Victoria, B.C. just across the bay from Vancouver. Our expedition 
+s mission was to install sub-seafloor observatories that monitor fluid flow as well as record temperature, 
+pressure, and microbiological data. The really amazing part is that the crew was installing these observatories 
+in 2600 meters of ocean depth- that s like trying to dangle thread through the eye of a needle on the 
+floor while you re standing up. Suffice to say, it s really hard to envision what s happening on an inky 
+black seafloor a mile and a half below your feet. That s where I came in. My job was to collaborate with 
+the scientists to produce an animation that would explain our expedition s work to the general public. 
+My first step, of course, was understanding what the heck was going on myself. I quizzed my shipmates 
+endlessly about basic aspects of oceanography and geology, pored over engineering drawings and planning 
+documents, and donned my PPE (that s Personal Protective Equip­ment) to poke around the back decks and 
+get a good look at the observatories themselves as the scientists were putting them together. It was 
+really cool to be able to get up and close with the objects I was supposed to be portraying in my animation. 
+Of course, working on the high seas isn t without perils. Data backup is vital because the pitching motion 
+of the waves has a tendency to make hard drives fail. I kept double backups on my own hardware and also 
+stored files on the ship s server which was backed up onshore daily via satellite. We did have the Internet, 
+but it was only a half-gig connection to service the whole ship- not to mention it went out occasionally 
+depending on the ship s orientation. Email was doable, but watching reference videos or looking up tutorials 
+was pretty much out of the question. The nature of the expedition meant that we were at sea the whole 
+time- no port calls, no resupply. Living condi­tions on the whole were good, but I did miss the comforts 
+of land after a while. Fortunately scurvy isn t really a danger on modern ships, but we did run out of 
+fresh produce around week four- when the last apples disap­peared from the galley fruit bowl, it was 
+a sad day. When our ship finally made port four weeks later, I skipped down the gangplank, kicked off 
+my shoes and sprinted across the nearest grassy field, and then ordered an enor­mous salad at the first 
+restaurant I saw. It was a very interesting experience to work with scientists, as their point of view 
+is probably a lot different than the average director. They are completely focused on accuracy and thoroughness, 
+and sometimes I found myself making interesting compromises- for example, I thought of using water caustics 
+on the seafloor to add visual interest, but the scientists couldn t stand it because of course there 
+are no caustics that deep in the ocean. Overall though, I had a wonderful time working with them and 
+learned more science in eight weeks than I did in all of college, I think. Together we made something 
+that everyone was proud of, and I got my sea legs to boot!  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047510</article_id>
+		<sort_key>170</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>2</pages>
+		<display_no>17</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>17</seq_no>
+		<title><![CDATA[Nova]]></title>
+		<page_from>1</page_from>
+		<page_to>2</page_to>
+		<doi_number>10.1145/2047493.2047510</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047510</url>
+		<abstract>
+			<par><![CDATA[<p>"Nova" is an innovative collaborative class project created by students in an experimental animation course at the Emily Carr University of Art & Design in Vancouver, Canada.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837680</person_id>
+				<author_profile_id><![CDATA[81490658109]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Martin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Rose]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Emily Carr University of Art & Design]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ May 17, 2011 SIGGRAPH Dailies Submission Back Story NOVA - Animation Presented on the Canada Line 
+NOVA is a joint public art project featuring the work of twelve Emily Carr University animation students, 
+facilitated by ECU s Faculty of Culture + Community and InTransit BC Limited (Canada Line). The student 
+creators were Jenna Brown, Kristen Campbell, Kendra Davey, Gaby Esquivel, James Hebers, Laurence Li, 
+Julie Liu, Becky Manson, Ryan McKenna, Toan Nguyen, Leon Rego, Konstantin Steshenko, and Sunny Xie. The 
+course instructor was Martin Rose. The following senior-level students provided creative input: Ippik 
+Friesen, Carrie Mombourquette, Kim Palmer, and Ceci Velasco. Stephen Wichuk and Kate Freeman helped with 
+technical support. The students worked together to design a 40-second piece consisting of four distinct 
+10-second sequences, involving a similar central character -- the project s namesake, Nova. They designed 
+the clips to play on high-definition advertising monitors located on the station platforms of the new 
+rapid transit system in Vancouver, the Canada Line. In January 2011, the clips played as separate, distinct 
+10-second scenes, projected as episodic events broadcast in one-week repeating intervals. The scenes 
+were also meant to connect and make a four-part story. The sequences are silent, the video monitors did 
+not play sound. In fact, the students felt that the live ambience of the stations were the sound track. 
+Over the four sequences, Nova appears from a formless void, and comes to life with a sense of curiosity 
+and joy. As she makes her way through new discoveries, her personality grows, and her exuberance affects 
+the others around her. By making connections with people, creatures, and qualities in the environments 
+she traverses, she is both inspired and propelled to a higher plane of space and time. The twelve student 
+artist-animators worked both collaboratively and individually to create the four scenes, applying both 
+traditional materials, digital production and compositing methods. In Episode 1, the students animated 
+with ink drops and composited digitally drawn movement. In Episode 2, the group employed cut-out animation 
+with mapped, hand-created textures. In Episode 3, a group of four individuals worked with puppet animation, 
+but also applied sophisticated compositing techniques. Finally, with Episode 4, two students created 
+hand-drawn animation using a flashlight and long exposures recorded with a digital camera. They then 
+worked with their library of movement phrases and assembled elements in After Effects. Special thanks 
+to Susan Stewart, Dean, Emily Carr University s Faculty of Culture + Community; Jean-Marc Arbaud, President 
++ CEO, InTransit BC; Janice Fairley, Ancillary Activities Coordinator, InTransit BC Limited Partnership; 
+and Coleen Nemtin, Art Consultant. Submitted by: Martin Rose Associate Professor, Animation Faculty of 
+Design &#38; Dynamic Media Emily Carr University of Art &#38; Design 1399 Johnston Street Vancouver, 
+BC V6H 2M4 E-mail: mrose@ecuad.ca Telephone: 604-844-3877
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047511</article_id>
+		<sort_key>180</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>18</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>18</seq_no>
+		<title><![CDATA[The candlelight shot "Mother knows best" for "Tangled"]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047511</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047511</url>
+		<abstract>
+			<par><![CDATA[<p>24 candles and 144 shadowmaps in a week!</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837681</person_id>
+				<author_profile_id><![CDATA[81466641974]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Hans-Joerg]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Keim]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ The candle light shot "Mother knows best" for Tangled Hi, my name is Hans-Joerg Keim and I lit the candle 
+light shots in Tangled for the song "Mother knows best". The idea for the sequence was to use a black 
+background and whenever there was a visible light source in frame it was a candle light. To make it look 
+natural and moody I used Point lights which are harder to control and produce six times more shadow maps 
+than spotlights. For example, one shot had one candle and another had three candles. Reel lock came closer 
+and there was only one shot left (First Layout clip) and it only had two candle lights in it. So it should 
+be no problem to finish this shot on time, but when I got the final layout the second part looked slightly 
+different. Instead of two candles it had 24 candles and by using point lights I ended up with 144 shadow 
+maps per frame for the stair case alone. Here is my first comp of the shot. I couldn't even render the 
+stair case in one part because I reached the maximum for cached shadow maps. I already passed the deadline 
+for 1k approval and there was only one week left for the reel lock. So I rendered all the passes in 2k 
+but I still needed the flames from the effects department. I got the effect Wednesday afternoon and I 
+could show my shot at evening rounds. And then the question came up how do we turn off the lights? I 
+didn't even know that the lights were turned off at the end. Because we were running out of time the 
+vfx supervisor said I should try to fade it to black over a few frames. My idea was to use Mother Gothel's 
+performance when she spins her coat at the end to magically turn off the lights. But how could I achieve 
+this on time and coordinate this with the effects department? My solution was to render every light as 
+a separate renderpass, animate everything in the comp and fade the effects with a rotoshape. So I ended 
+up with 69 animation curves. And here is the final comp. Everybody liked it and it got approved Thursday 
+night. Next day I passed the 2k check and handed it off to stereo. It got approved and was shipped Friday 
+night for Saturday reel lock.
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047512</article_id>
+		<sort_key>190</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>19</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>19</seq_no>
+		<title><![CDATA[Eyes on the gulf]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047512</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047512</url>
+		<abstract>
+			<par><![CDATA[<p>Collaboration between researchers and TACC's visualization staff to create timely visualizations of the oil spill during the time of the Deepwater Horizon disaster.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837682</person_id>
+				<author_profile_id><![CDATA[81100381129]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Karla]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Vega]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas Advanced Computing Center, The University of Texas at Austin]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837683</person_id>
+				<author_profile_id><![CDATA[81490695169]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Adam]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kubach]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas Advanced Computing Center, The University of Texas at Austin]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Speaker Names: Adam Kubach, Karla Vega Affiliations: Texas Advanced Computing Center, The University 
+of Texas at Austin Contact Information: adamk@tacc.utexas.edu, vega@tacc.utexas.edu Title of Work: Eyes 
+On The Gulf The Deepwater Horizon oil spill is the largest accidental marine oil spill in the history 
+of the petroleum industry. The effects of the spill the tragic loss of live, economic losses and pollution 
+of the environment are enormous and still continuing today. To help limit the oil s spread to environmentally 
+sensitive areas, researchers at The University of Texas at Austin, along with several collaborators, 
+responded to the disaster. The researchers were funded to create simulations to forecast the leaked oil 
+s behavior in the event of a hurricane. They were given one million hours of processing time on the Ranger 
+supercomputer. The modeling software, ADCIRC Coastal Circulation and Storm Surge Model, used day­to-day 
+oil position derived from satellite imaging to predict the spill s movement up to three days into the 
+future. The simulations ran daily over the summer and produced large amounts of data to be analyzed. 
+Since conditions in the gulf were changing rapidly, there was a need to quickly visualize the results. 
+Leveraging open source software, we developed a tool to overlay the simulated oil particles on satellite 
+imagery. This contribution the ability to see the data in its geographic context provided valuable 
+information in showing potential oil movement and evaluating the simulation results. The visualizations 
+were produced daily after the end of each simulation run. As you can see from this short clip, there 
+were several iterations of the visualizations, with the final representation shown at the end of the 
+video. By the end of the summer, the simulation was producing results with over one million particles.
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047513</article_id>
+		<sort_key>200</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>20</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>20</seq_no>
+		<title><![CDATA[Air traffic visualization using AGI STK]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047513</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047513</url>
+		<abstract>
+			<par><![CDATA[<p>A brief overview of a visualization effort to convert NASA simulated air traffic data, depicting Human In The Loop conflict prevention, to AGI STK for post analysis review.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837684</person_id>
+				<author_profile_id><![CDATA[81490692947]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Joey]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ponthieux]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[SSAI]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837685</person_id>
+				<author_profile_id><![CDATA[81490685676]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Wing]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NASA Langley Research Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ AIR TRAFFIC VISUALIZATION USING AGI STK Joey Ponthieux Science Systems and Applications Inc NASA Langley 
+Research Center In support of the Next Generation Air Transportation System, or Nextgen, NASA produces 
+research to enable new methods of air traffic management in the National Airspace System. One such research 
+asset is the Air Traffic Operations Laboratory, or ATOL, at NASA Langley in Hampton VA. The centerpiece 
+of ATOL is a software written by NASA, called ATOS, which enables researchers the ability to evaluate 
+new air traffic management methods and procedures through Human in The Loop interactivity of the ATOS 
+software. ATOL provides hundreds of machines, each acting as a single aircraft using a Pilot Model and 
+some which provide access for human pilots to interact with in real time. The studies performed by ATOL 
+result in large datasets of self separated aircraft maneuvers and actions which can be reviewed to derive 
+new and exciting methods of air traffic management. We send this data to STK using Perl scripting as 
+a conversion platform to input the data. We gather and re-associate numerous data types including intended 
+trajectories, potential conflicts, conflict associations, and strategic/tactical flight modes to turn 
+post experiment data into an easy to understand visual from what is an otherwise intensive and data heavy 
+process.
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047514</article_id>
+		<sort_key>210</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>21</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>21</seq_no>
+		<title><![CDATA[Oil, pixels and poetry]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047514</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047514</url>
+		<abstract>
+			<par><![CDATA[<p>Oil, Pixels and Poetry is a collaboration between TACC, their 75-monitor tile display and Francesca Samsel, a visual artist, producing a series depicting the 2010 Gulf Oil Disaster.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837686</person_id>
+				<author_profile_id><![CDATA[81490689015]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Francesca]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Samsel]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas Advanced Computing Center, Univ. of Texas at Austin]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837687</person_id>
+				<author_profile_id><![CDATA[81440620618]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Brandt]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Westing]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas Advanced Computing Center, Univ. of Texas at Austin]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2837688</person_id>
+				<author_profile_id><![CDATA[81100381129]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Karla]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Vega]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas Advanced Computing Center, Univ. of Texas at Austin]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Oil, Pixels and PoetryTexas Advanced Commuting CenterUniversity of Texas at Austin Francesca Samsel 
+Artist Brandt Westing Visualization Laboratory Manager Texas Advanced Computing Center University of 
+Texas at Austin My name is Francesca Samsel. I am a visual artist who can usually be found in my printmaking 
+studio, elbow deep in ink or up on rickety scaffolding with 97 jars ofpaint painting images ten times 
+life size. Last spring I was working on a series of prints about the Gulf Oil Spill. I watched in stunned 
+horror as the oil gushed day after day into the water, smothering life in its path. At the exhibition 
+opening, I heard time and again, Oh, what beautiful work. Well, I suppose that was truebut beautiful 
+did not quite mesh with the horror of theimpact of the event. Then along came TACC and their 75 monitor 
+tile display. From the moment I loaded the first images onto that307 megapixel display... okay, from 
+the moment the Vislab staff loaded my images onto the 307 megapixeldisplay, I knew I had found the appropriate 
+media for the topic. The glow of the screens and the crisp clearimagery shoot out at you. The scale gives 
+you the connection to the world larger then ourselves. That was just the beginning. Soon the images were 
+dancing, morphing and exploding across the screens. It is not a story but an experience, an experience 
+about living in a world where the technology and capabilities dwarf us asindividuals. The movement, the 
+passage of time, gives the viewer the time to experience and devle into theconnections and relationships 
+of the imagery to our lives. Stallion , as the system is called, has given me themeans to clearly express 
+the beauty and the havoc our our 21st century technology can create.  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047515</article_id>
+		<sort_key>220</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>22</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>22</seq_no>
+		<title><![CDATA[God of War 3 poseidon creature boss fight]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047515</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047515</url>
+		<abstract>
+			<par><![CDATA[<p>During the production of God of War 3 I was tasked with creating one the most complicated characters I have ever worked on.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837689</person_id>
+				<author_profile_id><![CDATA[81490653839]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Katon]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Callaway]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[SCEA Sony Santa Monica]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Early in production I was tasked to make the opening boss in God of War 3, the Poseidon Creature. When 
+I heard this I was so excited, because it was the opening boss fight and that is always a big moment 
+in the God of War franchise. Then, they showed me the concept and it was a horse made of water, and 
+not only that, they said you will fight it on top of Gaia while she is moving around, I about crapped 
+my pants... I was thinking water creatures in movies are hard enough to make, let alone a video game. 
+So there laid our task, something I had no idea how we would pull off, but that is what our studio is 
+known for and always tries to achieve. Thankfully my only task was the creature itself, while some of 
+the most talented environment artists were in charge of completing Gaia, which to this day I am still 
+very impressed with. I went through the traditional steps of a character not really knowing where to 
+start. I figured I could start sculpting, so I gathered all sorts of reference, from crabs and sea creatures, 
+to waterfalls and rivers. It was such a fun character to sculpt in Zbrush, working on all the little 
+details, like all the shells to having his teeth made of coral, it really was a lot of fun, but I still 
+didn t know how we would tackle the water itself. I finally came to a point where I couldn t hide behind 
+my traditional character skills, I had to get the help from all over the team. Guys on the environment 
+side showed me how to make materials feel like water, and how they go about making their waterfall effects. 
+Using this got us to a point we were pretty happy with, but there still were issues to work out, since 
+there were texture seems all over him due to the fast he was a creature and not just a plane waterfall. 
+Thankfully there is an FX team and they helped me greatly on this. Our effects artist covered up most 
+those seems right away with water splashing all over the place and really brought the character to life, 
+they helped set the standard to how we could match the rest of the water on the horse. Finally with some 
+back and forth from the art director we got something we liked! This had to be one of the most challenging 
+and frustrating characters to make but, when everything came together in the end I was really happy with 
+how it turned out! After the first pass, we had Poseidon in game running and we noticed something right 
+away. Kratos was so small on screen and Poseidon so large, that the details didn t hold up anymore. Again 
+back to the environment artist for help! Using our terrain shader on the character itself, we were able 
+to add details not possible before on a character, and it really took it to the next level that was needed 
+for such an up close fight. But then came the kicker, there was another part to him and this horse was 
+just one small aspect, we had to make the final stage to the fight, and the character was massive!! Alright, 
+here we go, round two! Lastly, I wanted to thank the programmers, environment artist, animators, FX team 
+and really the whole team for being such a huge and integral part to this. Everyone really came together 
+and for what I consider one of the best characters I have ever worked on. I was such a small part in 
+what was such a big piece! 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047516</article_id>
+		<sort_key>230</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>23</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>23</seq_no>
+		<title><![CDATA[Mortal Kombat x-ray attacks]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047516</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047516</url>
+		<abstract>
+			<par><![CDATA[<p>An overview of the art process used in creating the new x-ray attacks in Mortal Kombat</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837690</person_id>
+				<author_profile_id><![CDATA[81490651082]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jon]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Greenberg]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[netherrealm studios/wb games]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ X-RAY ATTACKS IN MORTAL KOMBAT X-Ray Attacks are a new feature in Mortal Kombat, complimenting the 
+return of Fatalities. We started working on the idea of X-Ray Attacks early on and went through several 
+prototypes before we got to something that matched our initial vision. The idea is to showcase the ferocity 
+of a player s attack by exposing the muscle, bone and organ damage inflicted on their opponent. Creating 
+an X-Ray Attack requires input from most of the team the modelers build the internal anatomy for the 
+characters, the animators bring the attacks to life, and finally the cinema team adds the effects and 
+visual polish that brings it all together. Since we have many unique fighters in the game, like cyborgs 
+and four armed monsters, we had to make custom skeletons, skulls, and internal organs for each of them. 
+Each character has a unique X-Ray Attack based on their personality as well as their gameplay style. 
+We knew we had created something special when we showed the X-Ray Attacks at E3 and got a huge reaction 
+from the crowds. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2047517</article_id>
+		<sort_key>240</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>24</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>24</seq_no>
+		<title><![CDATA[Unrolling Rapunzel's hair]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2047493.2047517</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2047517</url>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P2837691</person_id>
+				<author_profile_id><![CDATA[81450592780]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Kelly]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ward]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Rolling &#38; Unrolling Rapunzel's Hair Kelly Ward Walt Disney Animation Studios On Tangled, I was 
+a hair simulation software developer, but I was actually given the opportunity to run a few Rapunzel 
+hair simulation shots for the actual film - which was a first for me. This is one of the first shots 
+I ran, where Rapunzel needs to unroll out of her hair. Of course, the shot didn't come out of the box 
+like that....I had a big job ahead of me. Before Rapunzel could unroll out of her hair, I had to first 
+roll her up in her hair. So, I took her animation and ran it backwards. Looking at the path she needed 
+to take, I positioned the hair so she could roll into it appropriately. With the placement of the camera 
+and the lighting of the final shot, it's a bit difficult to tell but Rapunzel does indeed unravel out 
+of a single piece of her actual hair we didn't need to add any extra unattached sections of hair to 
+trick it. At the end of the day, though, it actually took longer to get her rolled into her hair than 
+to unroll her out of it - which is the part of the simulation you don't even see in the final film. But 
+I must have done something right because once I completed this shot I was given 3 more Rapunzel hair 
+rolling shots to do. I became the expert at rolling and unrolling a CG character in 70 feet of hair. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+</content>
+</proceeding>

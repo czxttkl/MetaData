@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>07/30/2006</start_date>
+		<end_date>08/03/2006</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Boston]]></city>
+		<state>Massachusetts</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>1180092</proc_id>
+	<acronym>SIGGRAPH '06</acronym>
+	<proc_desc>ACM SIGGRAPH 2006 Special sessions</proc_desc>
+	<conference_number>2006</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle><h3>Video presentations for special sessions are available by clicking on individual citation pages</h3></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn>1-59593-364-6</isbn>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2006</copyright_year>
+	<publication_date>07-30-2006</publication_date>
+	<pages></pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[Intermixtures of advanced design, engineering breakthroughs, and deep interactivity. In Special Sessions, leading explorers demonstrate recent achievements in ocean exploration, vehicle performance and marketing, interactive performance, and character animation.]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<chair_editor>
+		<ch_ed>
+			<person_id>PP18005849</person_id>
+			<author_profile_id><![CDATA[81309489098]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>1</seq_no>
+			<first_name><![CDATA[John]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Finnegan]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[Purdue University]]></affiliation>
+			<role><![CDATA[Conference Chair]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+		<ch_ed>
+			<person_id>PP18011518</person_id>
+			<author_profile_id><![CDATA[81100131241]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>2</seq_no>
+			<first_name><![CDATA[Joshua]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Strickon]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[The New York Times Company]]></affiliation>
+			<role><![CDATA[Program Chair]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+	</chair_editor>
+</proceeding_rec>
+<content>
+	<section>
+		<section_id>1180093</section_id>
+		<sort_key>1</sort_key>
+		<section_seq_no>1</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Special sessions]]></section_title>
+		<section_page_from>1</section_page_from>
+		<chair_editor>
+			<ch_ed>
+				<person_id>PP18011519</person_id>
+				<author_profile_id><![CDATA[81100131241]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Joshua]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Strickon]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The New York Times Company]]></affiliation>
+				<role><![CDATA[Session Chair]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</ch_ed>
+		</chair_editor>
+	<article_rec>
+		<article_id>1180094</article_id>
+		<sort_key>1</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-30-2006</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Plugged in: creating emotional responses through the use of entertainment technology in live performance]]></title>
+		<subtitle><![CDATA[Copyright restrictions prevent ACM from providing the full text for this work.]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1180092.1180094</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1180094</url>
+		<abstract>
+			<par><![CDATA[New technologies are influencing the design of performance spaces, spectacles, and events. From fireworks displays and fountains to computer graphics and parades, live performance is evolving. In this session, designers, programmers, and producers reveal the evolution of live performance.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.8</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>I.4.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382.10010383</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation->Image processing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010497.10010504.10010507</concept_id>
+				<concept_desc>CCS->Applied computing->Document management and text processing->Document capture->Graphics recognition and interpretation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP18005219</person_id>
+				<author_profile_id><![CDATA[81319490309]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Tom]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Craven]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P824389</person_id>
+				<author_profile_id><![CDATA[81542820056]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Don]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Dorsey]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP30044459</person_id>
+				<author_profile_id><![CDATA[81100369938]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Marc]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Downie]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P824390</person_id>
+				<author_profile_id><![CDATA[81331495318]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hynds]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P824391</person_id>
+				<author_profile_id><![CDATA[81320489876]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Tony]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Freitas]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+	</article_rec>
+	<article_rec>
+		<article_id>1180095</article_id>
+		<sort_key>2</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-30-2006</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Vrooom vrooom: SIGGRAPH at 500 horsepower]]></title>
+		<subtitle><![CDATA[Copyright restrictions prevent ACM from providing the full text for this work.]]></subtitle>
+		<page_from>2</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1180092.1180095</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1180095</url>
+		<abstract>
+			<par><![CDATA[Attendees, start your graphics engines! Cars are now communication devices, entertainment centers, and social statements. From video games and movies to research labs and design centers, cars are evolving faster than ever.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.8</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>I.4.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382.10010383</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation->Image processing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010497.10010504.10010507</concept_id>
+				<concept_desc>CCS->Applied computing->Document management and text processing->Document capture->Graphics recognition and interpretation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP18009096</person_id>
+				<author_profile_id><![CDATA[81331501510]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Phil]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Patton]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The New York Times]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P343980</person_id>
+				<author_profile_id><![CDATA[81319497809]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Tim]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Milliron]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P824392</person_id>
+				<author_profile_id><![CDATA[81546504756]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Gary]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Schultz]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P824393</person_id>
+				<author_profile_id><![CDATA[81331504745]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Eddie]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Soto]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P824394</person_id>
+				<author_profile_id><![CDATA[81320496342]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Frans]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[von Holzhausen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+	</article_rec>
+	<article_rec>
+		<article_id>1180096</article_id>
+		<sort_key>3</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-30-2006</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[20,000 bits under the sea: how robotics, visualization, and scientific computing are changing the way we explore, discover, and understand our oceans]]></title>
+		<subtitle><![CDATA[Copyright restrictions prevent ACM from providing the full text for this work.]]></subtitle>
+		<page_from>3</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1180092.1180096</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1180096</url>
+		<abstract>
+			<par><![CDATA[Oceans cover more than 70% of our planet, yet more is known about outer space. Computer graphics, robotics, user-interface design, visualization, and scientific computing are changing how oceanographers explore the deep.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.8</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>I.4.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382.10010383</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation->Image processing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010497.10010504.10010507</concept_id>
+				<concept_desc>CCS->Applied computing->Document management and text processing->Document capture->Graphics recognition and interpretation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P822407</person_id>
+				<author_profile_id><![CDATA[81319489392]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Alan]]></first_name>
+				<middle_name><![CDATA[D.]]></middle_name>
+				<last_name><![CDATA[Chave]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Woods Hole Oceanographic Institution]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P824395</person_id>
+				<author_profile_id><![CDATA[81320490306]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Graham]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hawkes]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP31066853</person_id>
+				<author_profile_id><![CDATA[81100569988]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Chris]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Henze]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP39066912</person_id>
+				<author_profile_id><![CDATA[81407594107]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Chris]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hill]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+	</article_rec>
+	<article_rec>
+		<article_id>1180097</article_id>
+		<sort_key>4</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-30-2006</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Sounding off: how voice talents bring characters to life in CG film]]></title>
+		<subtitle><![CDATA[Copyright restrictions prevent ACM from providing the full text for this work.]]></subtitle>
+		<page_from>4</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1180092.1180097</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1180097</url>
+		<abstract>
+			<par><![CDATA[Voice casting, recording, and animation are an integral part of CG character development. Join this exploration of how major studios and talents use different approaches and techniques to integrate voice performance with computer graphics to create emotionally resonant computer-generated characters and stories.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.5</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.5.4</cat_node>
+				<descriptor>Signal processing</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.8</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010497.10010504.10010507</concept_id>
+				<concept_desc>CCS->Applied computing->Document management and text processing->Document capture->Graphics recognition and interpretation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010583.10010588.10003247</concept_id>
+				<concept_desc>CCS->Hardware->Communication hardware, interfaces and storage->Signal processing systems</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002951.10003317.10003371.10003386.10003390</concept_id>
+				<concept_desc>CCS->Information systems->Information retrieval->Specialized information retrieval->Multimedia and multimodal retrieval->Music retrieval</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010475</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Sound and music computing</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP30035840</person_id>
+				<author_profile_id><![CDATA[81100401728]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Lori]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Forte]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P824383</person_id>
+				<author_profile_id><![CDATA[81320488147]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Jim]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bresnahan]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P824384</person_id>
+				<author_profile_id><![CDATA[81539100956]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Mary]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hidalgo]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P824385</person_id>
+				<author_profile_id><![CDATA[81320489052]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Peter]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[de Seve]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P824386</person_id>
+				<author_profile_id><![CDATA[81320488170]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Mario]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Cantone]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+	</article_rec>
+	</section>
+</content>
+</proceeding>

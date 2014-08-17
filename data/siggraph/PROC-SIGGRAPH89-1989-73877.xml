@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>07-31-1989</start_date>
+		<end_date>08-04-1989</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Boston]]></city>
+		<state>Massachusetts</state>
+		<country>USA</country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>73877</proc_id>
+	<acronym>SIGGRAPH '89</acronym>
+	<proc_desc>SIGGRAPH 89 Art show catalog - Computer art in context</proc_desc>
+	<conference_number>1989</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn>0-08-037921-4</isbn>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>1989</copyright_year>
+	<publication_date>10-01-1989</publication_date>
+	<pages>126</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP476</sponsor_id>
+			<sponsor_name>Computer Society</sponsor_name>
+			<sponsor_abbr>IEEE-CS</sponsor_abbr>
+		</sponsor>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node>J.5</cat_node>
+			<descriptor>Arts, fine and performing**</descriptor>
+			<type>S</type>
+		</primary_category>
+		<other_category>
+			<cat_node>H.1.2</cat_node>
+			<descriptor>Human factors</descriptor>
+			<type>S</type>
+		</other_category>
+		<other_category>
+			<cat_node>I.3.0</cat_node>
+			<descriptor></descriptor>
+			<type></type>
+		</other_category>
+		<other_category>
+			<cat_node>I.3.5</cat_node>
+			<descriptor></descriptor>
+			<type></type>
+		</other_category>
+		<other_category>
+			<cat_node>K.4.3</cat_node>
+			<descriptor></descriptor>
+			<type></type>
+		</other_category>
+	</categories>
+	<ccs2012>
+		<concept>
+			<concept_id>0.10010147.10010371.10010396</concept_id>
+			<concept_desc>CCS->Computing methodologies->Computer graphics->Shape modeling</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10010147.10010371</concept_id>
+			<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10003456.10003457.10003567</concept_id>
+			<concept_desc>CCS->Social and professional topics->Professional topics->Computing and business</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10003120.10003121</concept_id>
+			<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10003752.10010061.10010063</concept_id>
+			<concept_desc>CCS->Theory of computation->Randomness, geometry and discrete structures->Computational geometry</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10003752.10010061</concept_id>
+			<concept_desc>CCS->Theory of computation->Randomness, geometry and discrete structures</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10010405.10010469.10010471</concept_id>
+			<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+			<concept_significance>500</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10010405.10010469.10010470</concept_id>
+			<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+			<concept_significance>500</concept_significance>
+		</concept>
+	</ccs2012>
+	<general_terms>
+		<gt>Human Factors</gt>
+		<gt>Theory</gt>
+	</general_terms>
+	<chair_editor>
+		<ch_ed>
+			<person_id>PP14214632</person_id>
+			<author_profile_id><![CDATA[81408594810]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>1</seq_no>
+			<first_name><![CDATA[Mark]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Resch]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[]]></affiliation>
+			<role><![CDATA[Editor]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+	</chair_editor>
+	<ccc>
+		<copyright_holder>
+			<copyright_holder_name>ACM</copyright_holder_name>
+			<copyright_holder_year>1989</copyright_holder_year>
+		</copyright_holder>
+	</ccc>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>73878</article_id>
+		<sort_key>3</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[A brief history of SIGGRAPH art exhibitions]]></title>
+		<page_from>3</page_from>
+		<page_to>5</page_to>
+		<doi_number>10.1145/73877.73878</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73878</url>
+		<categories>
+			<primary_category>
+				<cat_node>H.1.2</cat_node>
+				<descriptor>Human factors</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>K.7.2</cat_node>
+				<descriptor>ACM</descriptor>
+				<type>P</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003456.10003457.10003580.10003584</concept_id>
+				<concept_desc>CCS->Social and professional topics->Professional topics->Computing profession->Computing organizations</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Human Factors</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P217283</person_id>
+				<author_profile_id><![CDATA[81100003921]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[P.]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Prince]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>73879</article_id>
+		<sort_key>7</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[The tao of postmodernism: computer art, scientific visualization and other paradoxes]]></title>
+		<page_from>7</page_from>
+		<page_to>12</page_to>
+		<doi_number>10.1145/73877.73879</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73879</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.2.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>H.1.2</cat_node>
+				<descriptor>Human factors</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>K.4.3</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003456.10003457.10003567</concept_id>
+				<concept_desc>CCS->Social and professional topics->Professional topics->Computing and business</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010216</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Philosophical/theoretical foundations of artificial intelligence</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Human Factors</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP14108035</person_id>
+				<author_profile_id><![CDATA[81332494414]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[J.]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Cox]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>73880</article_id>
+		<sort_key>13</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[The wizard of ethereal pictures and virtual places]]></title>
+		<page_from>13</page_from>
+		<page_to>20</page_to>
+		<doi_number>10.1145/73877.73880</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73880</url>
+		<categories>
+			<primary_category>
+				<cat_node>G.2.2</cat_node>
+				<descriptor>Graph algorithms</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>F.2.2</cat_node>
+				<descriptor>Geometrical problems and computations</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>H.1.2</cat_node>
+				<descriptor>Human factors</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.5</cat_node>
+				<descriptor>Geometric algorithms, languages, and systems</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010396</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Shape modeling</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003752.10010061.10010063</concept_id>
+				<concept_desc>CCS->Theory of computation->Randomness, geometry and discrete structures->Computational geometry</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003752.10010061</concept_id>
+				<concept_desc>CCS->Theory of computation->Randomness, geometry and discrete structures</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003752.10010061</concept_id>
+				<concept_desc>CCS->Theory of computation->Randomness, geometry and discrete structures</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002950.10003624.10003633.10010917</concept_id>
+				<concept_desc>CCS->Mathematics of computing->Discrete mathematics->Graph theory->Graph algorithms</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Algorithms</gt>
+			<gt>Design</gt>
+			<gt>Human Factors</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P273797</person_id>
+				<author_profile_id><![CDATA[81332490390]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[T.]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Binkley]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>73881</article_id>
+		<sort_key>21</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Fractals and an art for the sake of science]]></title>
+		<page_from>21</page_from>
+		<page_to>14</page_to>
+		<doi_number>10.1145/73877.73881</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73881</url>
+		<categories>
+			<primary_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.5</cat_node>
+				<descriptor>Curve, surface, solid, and object representations</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010396</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Shape modeling</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010396.10010399</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Shape modeling->Parametric curve and surface models</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010396.10010401</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Shape modeling->Volumetric models</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Human Factors</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P27237</person_id>
+				<author_profile_id><![CDATA[81100153269]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[B.B.]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mandelbrot]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>73882</article_id>
+		<sort_key>25</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[Mathematics as an artistic-generative principle]]></title>
+		<page_from>25</page_from>
+		<page_to>26</page_to>
+		<doi_number>10.1145/73877.73882</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73882</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.5</cat_node>
+				<descriptor>Curve, surface, solid, and object representations</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>H.1.2</cat_node>
+				<descriptor>Human factors</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010396.10010399</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Shape modeling->Parametric curve and surface models</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010396</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Shape modeling</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010396.10010401</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Shape modeling->Volumetric models</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Human Factors</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P102774</person_id>
+				<author_profile_id><![CDATA[81100183395]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[H.]]></first_name>
+				<middle_name><![CDATA[W.]]></middle_name>
+				<last_name><![CDATA[Franke]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>73883</article_id>
+		<sort_key>27</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>6</seq_no>
+		<title><![CDATA[Cinema and the code]]></title>
+		<page_from>27</page_from>
+		<page_to>30</page_to>
+		<doi_number>10.1145/73877.73883</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73883</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Linguistics</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.4.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>I.4.9</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010473</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Language translation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010179</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Natural language processing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010225</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Computer vision tasks</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382.10010383</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation->Image processing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Languages</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P93063</person_id>
+				<author_profile_id><![CDATA[81332537322]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[G.]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Youngblood]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>73884</article_id>
+		<sort_key>31</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>7</seq_no>
+		<title><![CDATA[Computer imagery: imitation and representation of realities]]></title>
+		<page_from>31</page_from>
+		<page_to>38</page_to>
+		<doi_number>10.1145/73877.73884</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73884</url>
+		<categories>
+			<primary_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>H.1.2</cat_node>
+				<descriptor>Human factors</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003120.10003121</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Human Factors</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP14192719</person_id>
+				<author_profile_id><![CDATA[81332507463]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[B.]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jones]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>73885</article_id>
+		<sort_key>39</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>8</seq_no>
+		<title><![CDATA[Beyond computer art]]></title>
+		<page_from>39</page_from>
+		<page_to>41</page_to>
+		<doi_number>10.1145/73877.73885</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73885</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>H.1.2</cat_node>
+				<descriptor>Human factors</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Human Factors</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP14038460</person_id>
+				<author_profile_id><![CDATA[81332528417]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[B.]]></first_name>
+				<middle_name><![CDATA[R.]]></middle_name>
+				<last_name><![CDATA[Smith]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>73886</article_id>
+		<sort_key>43</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>9</seq_no>
+		<title><![CDATA[Emergent aesthetic&#8212;aesthetic issues in computer arts]]></title>
+		<page_from>43</page_from>
+		<page_to>48</page_to>
+		<doi_number>10.1145/73877.73886</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73886</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>H.1.2</cat_node>
+				<descriptor>Human factors</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Human Factors</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP14133197</person_id>
+				<author_profile_id><![CDATA[81409591939]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[M.]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Nadin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>73887</article_id>
+		<sort_key>49</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>10</seq_no>
+		<title><![CDATA[The image in art and `computer art']]></title>
+		<page_from>49</page_from>
+		<page_to>53</page_to>
+		<doi_number>10.1145/73877.73887</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73887</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>K.4.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003456.10003462</concept_id>
+				<concept_desc>CCS->Social and professional topics->Computing / technology policy</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Human Factors</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP14226521</person_id>
+				<author_profile_id><![CDATA[81332536255]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[R.]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Wright]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>73888</article_id>
+		<sort_key>55</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>11</seq_no>
+		<title><![CDATA[The proceduralist manifesto]]></title>
+		<page_from>55</page_from>
+		<page_to>56</page_to>
+		<doi_number>10.1145/73877.73888</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73888</url>
+		<categories>
+			<primary_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>H.1.2</cat_node>
+				<descriptor>Human factors</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003120.10003121</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Human Factors</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P127208</person_id>
+				<author_profile_id><![CDATA[81100229556]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[J.]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Rosebush]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>73889</article_id>
+		<sort_key>57</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>12</seq_no>
+		<title><![CDATA[Dataism]]></title>
+		<page_from>57</page_from>
+		<page_to>61</page_to>
+		<doi_number>10.1145/73877.73889</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73889</url>
+		<categories>
+			<primary_category>
+				<cat_node>H.1.2</cat_node>
+				<descriptor>Human factors</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>K.4.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003456.10003462</concept_id>
+				<concept_desc>CCS->Social and professional topics->Computing / technology policy</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Human Factors</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P274147</person_id>
+				<author_profile_id><![CDATA[81332495870]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[T.]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[DeWitt]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>73890</article_id>
+		<sort_key>63</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>13</seq_no>
+		<title><![CDATA[Art and the information revolution]]></title>
+		<page_from>63</page_from>
+		<page_to>65</page_to>
+		<doi_number>10.1145/73877.73890</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73890</url>
+		<categories>
+			<primary_category>
+				<cat_node>K.4.3</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>K.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010489</concept_id>
+				<concept_desc>CCS->Applied computing->Education</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003456.10003457.10003527</concept_id>
+				<concept_desc>CCS->Social and professional topics->Professional topics->Computing education</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003456.10003457.10003567</concept_id>
+				<concept_desc>CCS->Social and professional topics->Professional topics->Computing and business</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Human Factors</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P214118</person_id>
+				<author_profile_id><![CDATA[81332491330]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[P.]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Browwn]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>73891</article_id>
+		<sort_key>67</sort_key>
+		<display_label></display_label>
+		<article_publication_date>10-01-1989</article_publication_date>
+		<seq_no>14</seq_no>
+		<title><![CDATA[Computer art in the contex of the journal Leonardo]]></title>
+		<page_from>67</page_from>
+		<page_to>70</page_to>
+		<doi_number>10.1145/73877.73891</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=73891</url>
+		<categories>
+			<primary_category>
+				<cat_node>H.1.2</cat_node>
+				<descriptor>Human factors</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Arts, fine and performing**</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>K.4.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>K.4.3</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003456.10003462</concept_id>
+				<concept_desc>CCS->Social and professional topics->Computing / technology policy</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003456.10003457.10003567</concept_id>
+				<concept_desc>CCS->Social and professional topics->Professional topics->Computing and business</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Human Factors</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P234010</person_id>
+				<author_profile_id><![CDATA[81100439791]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[R.]]></first_name>
+				<middle_name><![CDATA[F.]]></middle_name>
+				<last_name><![CDATA[Malina]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1989</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+</content>
+</proceeding>

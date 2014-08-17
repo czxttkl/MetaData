@@ -1,0 +1,2997 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>07/21/2013</start_date>
+		<end_date>07/25/2013</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Anaheim]]></city>
+		<state>California</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>2503673</proc_id>
+	<acronym>SIGGRAPH '13</acronym>
+	<proc_desc>ACM SIGGRAPH 2013 Studio Talks</proc_desc>
+	<conference_number>2013</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-4503-2343-7</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2013</copyright_year>
+	<publication_date>07-21-2013</publication_date>
+	<pages>23</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>Take a behind-the-scenes look at Studio-related technologies, artwork, and concepts. Then follow up with the presenters in informal sessions after their talks.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<ccc>
+		<copyright_holder>
+			<copyright_holder_name>ACM</copyright_holder_name>
+			<copyright_holder_year>2013</copyright_holder_year>
+		</copyright_holder>
+	</ccc>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>2503674</article_id>
+		<sort_key>10</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>1</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Playing Audrey II]]></title>
+		<subtitle><![CDATA[creating a digital actor through game technology]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503674</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503674</url>
+		<abstract>
+			<par><![CDATA[<p>The fields of 3D computer animation and digital game design owe a great deal to traditional performance practice and theory, particularly in terms of creating emotionally resonant digital characters. Digital actors can hold their own with live actors on film, but are rarely used in live stage performance. This talk discusses how a team of faculty and students in game development and animation joined forces with faculty in music and theater to bring a digital character to life on-stage through the use of gaming technology. This talk also discusses how our methodology can effectively improve the development of interactive digital characters in the future, in terms of technology, production pipeline, and approaches to performance.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191242</person_id>
+				<author_profile_id><![CDATA[82458873857]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Monica]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Evans]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Texas at Dallas, Richardson, TX]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[mevans@utdallas.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191243</person_id>
+				<author_profile_id><![CDATA[82459036457]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Kathryn]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Evans]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Texas at Dallas, Richardson, TX]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[kcevans@utdallas.edu]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Geigel, J. "Motion capture for real-time control of virtual actors in live, distributed, theatrical performances." IEEE International Conference on Automatic Face & Gesture Recognition and Workshops, 21--25 Mar. 2011.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[<i>Little Shop of Horrors</i>. Dir. Frank Oz. Warner Bros. Pictures, 1986.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Turkle, Sherry. "Authenticity in the Age of Digital Companions." Interaction Studies: Social Behavior and Communication in Biological and Artificial Systems. Vol. 8, No. 3, 2007.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Playing Audrey II: Creating a Digital Actor Through Game Technology Monica Evans The University of 
+Texas at Dallas Richardson, TX, USA mevans@utdallas.edu 1. Introduction The fields of 3D computer animation 
+and digital game design owe a great deal to traditional performance practice and theory, particularly 
+in terms of creating emotionally resonant digital characters. Digital actors can hold their own with 
+live actors onfilm, but are rarely used in live stage performance. This talk discusses how a team of 
+faculty and students in gamedevelopment and animation joined forces with faculty in music and theater 
+to bring a digital character to life on-stage through the use of gaming technology. This talk also discusses 
+how ourmethodology can effectively improve the development of interactive digital characters in the future, 
+in terms of technology,production pipeline, and approaches to performance. 2. Challenges The musical 
+Little Shop of Horrors and its character, Audrey II, a blood-sucking alien plant that grows to enormous 
+size and eventually eats whole people, presents an opportunity to create a digital character that may 
+be more emotionally engaging than thetraditional actor-controlled puppets usually built or rented forproductions. 
+Audrey II is introduced as a small plant in a pot, butgrows to an enormous size by the end of the show. 
+The largerAudrey II characters are usually performed with two puppets, oneabout the size of an adult 
+man, and another that can be twenty feettall. The puppets are expensive to build or rent, difficult tomanipulate, 
+and have a severely limited range of motion andexpression. Coupled with the fact that the plant is literally 
+rooted to the stage in one spot, this can make Audrey II a very boringcharacter to watch, relying almost 
+completely on her voice actorto bring her to life. Clearly, the opportunity to merge digitaltechnology 
+with live theater could improve the performance of acharacter like Audrey II. 3. Production Pipeline 
+At the University of Texas at Dallas, the authors of this talk choseto include Audrey II as a character 
+in a musical revue showentitled Best of Broadway. Faculty and students went through a blended game, animation, 
+and theatrical production schedule tocreate and rehearse with the Audrey II character, including 3Dmodeling, 
+rigging, and character animation techniques, motioncapture and facial animation techniques, virtual environment 
+creation, game control and interface design, and a significantlymodified rehearsal schedule in which 
+actors, animators, and theAudrey II puppeteers modified both the controls and the animations of the digital 
+character based on its performance withlive actors and musicians. Technical challenges included usingthe 
+Unreal Development Kit (UDK) to create and project a digital set that blended with a stage set; using 
+FaceFX to create believable lip motion for a non-hum an face; using FaceFX tocreate lip movements for 
+singing as well as speaking; and creating Kathryn Evans The University of Texas at Dallas Richardson, 
+TX, USA kcevans@utdallas.edu  Figure 1. Audrey II in performance. a system in UDK that would allow 
+a live performer to puppeteer Audrey II as if she were a video game character, allowing her tointeract 
+in real time with actors. 4. Results and Conclusions For the November 2012 production of Best of Broadway, 
+AudreyII was performed for audiences six times: two dress rehearsals andfour performances. Our talk will 
+discuss the full production cycle,pipeline, and lessons learned about bringing game and animationtechnology 
+to bear on live theatrical performance. We will discusshow the directing process reshaped the structure 
+and design of theanimation sets; and how the required precision of musical timingaffected our interface 
+design and control system. We will alsodiscuss modifications made to both the UDK and the live performance 
+that allowed us to use FaceFX, designed primarily for speech, for a sung performance. Finally, we will 
+discuss usingour current systems in conjunction with real-time motion captureand facial animation software 
+to bring Audrey II or a similarcharacter into a full-length performance. References Geigel, J. Motion 
+capture for real-time control of virtual actors in live, distributed, theatrical performances. IEEE InternationalConference 
+on Automatic Face &#38; Gesture Recognition andWorkshops, 21-25 Mar. 2011. Little Shop of Horrors. Dir. 
+Frank Oz. Warner Bros. Pictures, 1986. Turkle, Sherry. Authenticity in the Age of Digital Companions. 
+Interaction Studies: Social Behavior and Communication in Biological and Artificial Systems. Vol. 8, 
+No. 3, 2007. Permission to make digital or hard copies of part or all of this work for personal or classroom 
+use isgranted without fee provided that copies are not made or distributed for commercial advantage and 
+that copies bear this notice and the full citation on the first page. Copyrights for third-party components 
+of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 
+2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503675</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>2</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Skyfarer]]></title>
+		<subtitle><![CDATA[a mixed reality shoulder exercise game]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503675</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503675</url>
+		<abstract>
+			<par><![CDATA[<p><i>Skyfarer</i> is a mixed reality shoulder exercise game developed for prevention and treatment of shoulder pain for individuals aging with spinal cord injury. We are adapting a shoulder exercise protocol that has been evaluated in a randomized clinical trial [Mulroy et al. 2011]. This demonstration will showcase a second-generation integrated exercise hardware and software system. The system consists of an adjustable metal rig outfitted with GameTrak sensors that are attached to interchangeable Thera-Bands and free weights. The rig can accommodate individuals with various types of manual wheelchairs and can be adjusted for arm length. The GameTrak sensors provide three-dimensional movement data to the calibration and exercise software application that was developed in Unity Engine 3.5.</p> <p><i>Skyfarer</i> has emerged after iterating numerous prototypes that incorporated individual elements of a shoulder exercise protocol using a first-generation metal rig [Gotsis et al. 2012]. Skyfarer requires calibration of the game to the physical dimensions and muscle strength of individual players. Player profiles can be stored and the number of required repetitions per exercise can be manually adjusted before playing.</p> <p>Skyfarer 0.5a incorporates the following parts of the exercise protocol: external rotation, rowing, diagonal pull-down and vertical lift exercises. This version has been evaluated in a biomechanical study conducted at Rancho Los Amigos National Rehabilitation Center. The virtual environment immerses players into an adventure inspired by Pre-Colombian mythology inspired by the landscapes of South America. With each exercise, players prepare, propel and lift their vessel into water or air, collecting energy that can be used during breaks between exercise sets. <i>Skyfarer</i> 0.5b includes Microsoft Kinect as input for free-form movement segments of the game, such as drawing and improved calibration, animation and movement cuing.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191244</person_id>
+				<author_profile_id><![CDATA[81442600669]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Marientina]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gotsis]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[mgotsis@cinema.usc.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191245</person_id>
+				<author_profile_id><![CDATA[82459232457]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Fotos]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Frangoudes]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191246</person_id>
+				<author_profile_id><![CDATA[81502806372]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Vangelis]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lympouridis]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191247</person_id>
+				<author_profile_id><![CDATA[82458900557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Somboon]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Maneekobkunwong]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Rancho Los Amigos National Rehabilitation Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191248</person_id>
+				<author_profile_id><![CDATA[81502709557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Turpin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191249</person_id>
+				<author_profile_id><![CDATA[81464676946]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Maryalice]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jordan-Marsh]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>2224779</ref_obj_id>
+				<ref_obj_pid>2224479</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Gotsis, M., Lympouridis, V., Turpin, D., Tasse, A., Poulos, I. C., Tucker, D., Swider, M., Thin, A. G., and Jordan-Marsh., M. 2012. Mixed Reality Game Prototypes for Upper Body Exercise and Rehabilitation. In <i>Proceedings of the 2012 Virtual Reality</i>. IEEE, 181--182.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Mulroy, S. J., Thompson, L., Kemp, B., Hatchett, P. P., Newsam, C. J., Lupold, D. G., Haubert, L. L., Eberly, V., Ge T. T., and Azen S. P. 2011. Strengthening and Optimal Movements for Painful Shoulders (STOMPS) in Chronic Spinal Cord Injury: A Randomized Controlled Trial. <i>Phys. Ther. 91</i>(3), 305--324. 2011.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Skyfarer: A Mixed Reality Shoulder Exercise Game Marientina Gotsis* University of Southern California 
+Vangelis Lympouridis University of Southern California David TurpinUniversity of Southern California 
+Fotos Frangoudes University of Southern California Somboon Maneekobkunwong Rancho Los Amigos National 
+Rehabilitation Center Maryalice Jordan-Marsh University of Southern California Abstract Skyfarer is 
+a mixed reality shoulder exercise game developed for prevention and treatment of shoulder pain for individuals 
+aging with spinal cord injury. We are adapting a shoulder exercise protocol that has been evaluated in 
+a randomized clinical trial [Mulroy et al. 2011]. This demonstration will showcase a second­generation 
+integrated exercise hardware and software system. The system consists of an adjustable metal rig outfitted 
+with GameTrak sensors that are attached to interchangeable Thera-Bands and free weights. The rig can 
+accommodate individuals with various types of manual wheelchairs and can be adjusted for arm length. 
+The GameTrak sensors provide three-dimensional movement data to the calibration and exercise software 
+application that was developed in Unity Engine 3.5. Figure 1. Skyfarer 0.5a (left and bottom right) 
+was evaluated in real-time in a biomechanical study (top right) Skyfarer has emerged after iterating 
+numerous prototypes that incorporated individual elements of a shoulder exercise protocol using a first-generation 
+metal rig [Gotsis et al. 2012]. Skyfarer requires calibration of the game to the physical dimensions 
+and muscle strength of individual players. Player profiles can be stored and the number of required repetitions 
+per exercise can be manually adjusted before playing. Figure 3 Resistance-training exercises in Skyfarer 
+0.5a Skyfarer 0.5a incorporates the following parts of the exercise protocol: external rotation, rowing, 
+diagonal pull-down and vertical lift exercises. This version has been evaluated in a biomechanical study 
+conducted at Rancho Los Amigos National Rehabilitation Center. The virtual environment immerses players 
+* email: mgotsis@cinema.usc.edu into an adventure inspired by Pre-Colombian mythology inspired by the 
+landscapes of South America. With each exercise, players prepare, propel and lift their vessel into water 
+or air, collecting energy that can be used during breaks between exercise sets. Skyfarer 0.5b includes 
+Microsoft Kinect as input for free-form movement segments of the game, such as drawing and improved calibration, 
+animation and movement cuing. Figure 2. Each movement is first shown to the player and then calibrated 
+for their abilities and body dimensions before playing Acknowledgements The contents of this research 
+paper were developed under a grant from the Department of Education, NIDRR grant number H133E080024. 
+However, those contents do not necessarily represent the policy of the Department of Education, and you 
+should not assume endorsement by the Federal Government. The authors would like to thank Carolee Winstein, 
+Phil Requejo, Sara Mulroy, Lisa Haubert, the OPTT-RERC investigators, the members of the Rehabilitation 
+Engineering and Pathokinesiology Laboratory for their assistance and input in the design and evaluation 
+of Skyfarer, Evan Stern for additional programming and Tristan Dyer for concept art. References GOTSIS, 
+M., LYMPOURIDIS, V., TURPIN, D., TASSE, A., POULOS, I.C., TUCKER, D., SWIDER, M., THIN, A.G., AND JORDAN-MARSH., 
+M. 2012. Mixed Reality Game Prototypes for Upper Body Exercise and Rehabilitation. In Proceedings of 
+the 2012 Virtual Reality. IEEE, 181-182. MULROY, S. J., THOMPSON, L., KEMP, B., HATCHETT, P. P., NEWSAM, 
+C. J., LUPOLD, D. G., HAUBERT, L. L., EBERLY, V., GE T. T., AND AZEN S. P. 2011. Strengthening and Optimal 
+Movements for Painful Shoulders (STOMPS) in Chronic Spinal Cord Injury: A Randomized Controlled Trial. 
+Phys. Ther. 91(3), 305-324. 2011. Permission to make digital or hard copies of part or all of this work 
+for personal or classroom use isgranted without fee provided that copies are not made or distributed 
+for commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights 
+for third-party components of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 
+2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<article_sponsors>
+			<funding_agency>Department of Education, NIDRR</funding_agency>
+			<grant_numbers>
+				<grant_number>H133E080024</grant_number>
+			</grant_numbers>
+		</article_sponsors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503676</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>3</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Red ball]]></title>
+		<subtitle><![CDATA[iPads in performance]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503676</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503676</url>
+		<abstract>
+			<par><![CDATA[<p>Now you see it. Now you don't. This red ball is real, mimed, and rendered. In this performance these versatile performers use magic, mime, movement and iPads to play with a simple, red ball and a few heads. The performers from PUSH Physical Theatre and the graphics created by Marla Schweppe combined to create Red Ball.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191250</person_id>
+				<author_profile_id><![CDATA[81100387185]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Marla]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Schweppe]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Rochester Institute of Technology, Rochester, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[marla.schweppe@rit.edu]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[PUSH Physical Theatre. www.pushtheatre.org]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Marla Schweppe, cias.rit.edu/~mkspph]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Red Ball: iPads in Performance Marla Schweppe Rochester Institute of Technology Rochester, NY, USA 
+ marla.schweppe@rit.edu 1. Introduction Now you see it. Now you don t. This red ball is real, mimed, 
+and rendered. In this performance these versatile performers usemagic, mime, movement and iPads to play 
+with a simple, red balland a few heads. The performers from PUSH Physical Theatreand the graphics created 
+by Marla Schweppe combined to create Red Ball. 2. The Creators PUSH Physical Theatre has been called 
+a cross between fine artsculpture and the hit movie, The Matrix, but its co-founders currently (and with 
+tongue firmly in cheek) characterize it as: like regular theatre but more painful. Founded in Rochester,NY 
+in 2000 by husband-and-wife team, Darren and HeatherStevenson, PUSH represents the couple s desire to 
+push theboundaries of conventional theatre. Its physical feats can be awe­inspiring (hence the painful 
+attribute), but the cherry on top ofthis acrobatic sundae is PUSH s ability to grab hold of audiences 
+emotions through exceptional storytelling. Marla Schweppe is a professor in the School of Design at theRochester 
+Institute of Technology. Early in her career she designed for theatre, television and movies in New York 
+City and other theatres around the country. She traveled through fourcontinents and over 30 countries 
+designing for Jennifer Mullerand the Works, a contemporary dance company. She did her graduate work in 
+computer graphics and animation and has been teaching computer graphics and animation for 30 years at 
+OhioState University, the School of the Art Institute of Chicago,Northwestern University and RIT. Her 
+creative work includes the incorporation digital graphics in both live and virtual performances. She 
+was the 1999 SIGGRAPH Gallery Chair. 3. The Process RedBallwascreatedattheNationalTechnicalInstitutefortheDeaf. 
+ Intheoriginalperformancethreestudents  performedwithPUSHmembers.Thepiecewasdevelopedfrom  anoriginalconceptusing 
+ red  ballastheconsistentelementand  thenimaginingallthat  couldbedonewith  red  ballaniPadsincombinationwithmovement,magic,andmime.Manyideasevolvedlike 
+ placing  animaginary,mimedballinmid-­-airand  thenhavingit  appear  ontheiPadasthoughtheiPadwereamovingwindow 
+ intotheimaginaryworldthatwouldbeviewedwhensomeone  walkedpastthe  positionofthe  imaginaryball.Some 
+ ofthe  ideasinvolved  single  iPad  and  othersinvolved  multipleiPads,likethecascade(Fig.1)inwhichtheball 
+falls throughfiveiPadsfromtoptobottomandendsuprollingacrossthefloorasphysicalball.Stillotherideasinvolved 
+ additionalvisualelementsontheiPads.Ablunderbussfiresaburningredballintotheair,whichhitsan  imaginarybirdandthenthefeathersfallandareonlyvisibleintheiPad 
+windows .  Additionalelementsinvolvetheappearanceanddisappearanceoffewheads.  Figure 1. Ball at the 
+top of the cascade. 4. Conclusion Using iPads and commercial software we created an entertainingperformance, 
+which is now being performed in the repertory ofthe company from New York to California. The success 
+of the performance depends on the expertise of the performers in timing their movements with the visuals 
+on the iPads. In total, more than100 short videos were used on the five iPads. Over 600 were created 
+in the process of developing the piece. We are workingon a second performance and a specialized application 
+for theiPad that does specifically what is needed in the performanceenvironment. Links PUSH PHYSICAL 
+THEATRE. www.pushtheatre.org MARLA SCHWEPPE, cias.rit.edu/~mkspph Permission to make digital or hard 
+copies of part or all of this work for personal or classroom use isgranted without fee provided that 
+copies are not made or distributed for commercial advantage and that copies bear this notice and the 
+full citation on the first page. Copyrights for third-party components of thiswork must be honored. For 
+all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 
+Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503677</article_id>
+		<sort_key>40</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>4</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[The bleeding edge of 3D printing and digital fabrication]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503677</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503677</url>
+		<abstract>
+			<par><![CDATA[<p>This presentation provides an overview of recent advances in 3D printing and digital fabrication. At the heart of these processes is the desire to translate three-dimensional objects designed in the virtual space of the computer into tangible objects. Additive and subtractive processes at a staggering array of scales are being used in a variety of disciplines to produce tangible prototypes and sculptures with increasingly varied functional and material properties---from electronic circuits at nanometer scales, to biological substrates, to high-density tooling, to architecturally-scaled structures and functional firearms.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191251</person_id>
+				<author_profile_id><![CDATA[82458676157]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Dan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Collins]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Arizona State University, Tempe, AZ]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[dan.collins@asu.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191252</person_id>
+				<author_profile_id><![CDATA[82459173857]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[John]]></first_name>
+				<middle_name><![CDATA[William]]></middle_name>
+				<last_name><![CDATA[Penn]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[JWP Design, Tempe, AZ]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[john@jwpdesign.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191253</person_id>
+				<author_profile_id><![CDATA[82458687057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Robert]]></first_name>
+				<middle_name><![CDATA[Michael]]></middle_name>
+				<last_name><![CDATA[Smith]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[New York Institute of Technology, New York, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[Sculpt3D@yahoo.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191254</person_id>
+				<author_profile_id><![CDATA[82458791457]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Don]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Vance]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Arizona State University, Tempe, AZ]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[devance@asu.edu]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Collins, D., 1997. <i>The Challenge of Digital Sculpture</i>. http://www.public.asu.edu/~dan53/digital_sculpt.html]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[FEI, 2013. <i>Prototyping for MEMS and NEMS</i>, http://www.fei.com/applications/materials-science/prototyping-mems-nems.aspx]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Khoshnevis, B., 2013. <i>Contour Crafting</i>. http://www-rcf.usc.edu/~khoshnev/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Oxman, N., 2011. <i>Variable property rapid prototyping</i>, http://dx.doi.org/10.1080/17452759.2011.558588]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Vance, A., 2011, <i>The Wow Factor of 3D Printing</i>. http://www.nytimes.com/2011/01/13/technology/personaltech/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ The Bleeding Edge of 3D Printing and Digital Fabrication Dan Collins Arizona State University Tempe, 
+AZ, USA dan.collins@asu.edu John William Penn JWP Design Tempe, AZ, USA john@jwpdesign.com Robert Michael 
+Smith New York Institute of Technology New York, NY, USA Sculpt3D@yahoo.com Don Vance Arizona State 
+University Tempe, AZ, USA devance@asu.edu 1. Introduction This presentation provides an overview of 
+recent advances in 3D printing and digital fabrication. At the heart of these processes is the desire 
+to translate three-dimensional objects designed in the virtual space of the computer into tangible objects. 
+Additive and subtractive processes at a staggering array of scales are being used in a variety of disciplines 
+to produce tangible prototypes and sculptures with increasingly varied functional and material properties 
+from electronic circuits at nanometer scales, to biological substrates, to high-density tooling, to architecturally-scaled 
+structures and functional firearms. 2. Discussion With respect to additive technologies, advances in 
+the range of materials available for prototyping permit resolutions as fine as 6 microns (e.g., Solidscape 
+s wax deposition process). At the other extreme, architecturally scaled elements have been successfully 
+created using masonry extrusion devices developed at the University of Southern California (Khoshnevis, 
+2013). The market for low cost systems, below $1000 US, has exploded (Vance, 2011). High end systems 
+such as the Objet Connex 3D Printer from Stratasys uses multiple materials in one printed prototype to 
+create composites with distinct, predictable material properties (see http://www.stratasys.com/3d-printers/design-series/precision/objet-connex500). 
+In material science labs, structures in the 50 nm range using a combination of Focused Ion Beams (FIB) 
+and Scanning Electron Microscopy (SEM) have been realized (FEI, 2013). Advances in subtractive processes 
+include expanded material palettes, high speed cutting, and novel software applications. The work of 
+Don Vance (Figure 1) utilizes a custom algorithm developed in Grasshopper (a Rhino3D plug-in) to automate 
+the processes of 3D solid model analysis, facet intersection, and manufacturing. Refinements in digital 
+stone carving yield unprecedented opportunities for sculptors and designers. High speed mills cut machine 
+time by several orders of magnitude. 4. Future Research Functional prototypes in materials ranging 
+from hard steel to flexible rubbers to biological substrates are already possible. The new unit of choice 
+for designers may be the "voxel"--a neologism that combines the words "pixel" and "volume." Design environments 
+using voxel data sets will soon allow an operator to specify not only volumetric information, but material 
+or physical property characteristics. Imagine a knife blade custom crafted to different specified levels 
+of flexibility and density (Collins 1997, Oxman 2011).  Figure 1. Don Vance. Delivery. Laser cut birch 
+ply. Sculpture created using 3D Studio Max and custom Rhino/Grasshopper routine References Collins, 
+D., 1997. The Challenge of Digital Sculpture. http://www.public.asu.edu/~dan53/digital_sculpt.html FEI, 
+2013. Prototyping for MEMS and NEMS, http://www.fei.com/applications/materials-science/prototyping-mems-nems.aspx 
+Khoshnevis, B., 2013. Contour Crafting. http://www-rcf.usc.edu/~khoshnev/ Oxman, N., 2011. Variable property 
+rapid prototyping, http://dx.doi.org/10.1080/17452759.2011.558588 Vance, A., 2011, The Wow Factor of 
+3D Printing. http://www.nytimes.com/2011/01/13/technology/personaltech/ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503678</article_id>
+		<sort_key>50</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>5</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[Visualizing progression in EVE online]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503678</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503678</url>
+		<abstract>
+			<par><![CDATA[<p>EVE Online is a massive multiplayer online game celebrating its 10th anniversary this year. CCP wanted to rethink how players plan and execute the progression path of their characters, as well as define more clearly the attributes and roles of the hundreds of ships that exist in the game. CCP developed a visualization tree to show players their mark on the EVE Universe in terms of piloting and mastering of ships using their UI framework, Carbon to move the Player Experience of EVE into the next decade while making sure the Art Direction and technical aspects were being considered along the way.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191255</person_id>
+				<author_profile_id><![CDATA[82459037957]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Orvar]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Halldorsson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[CCP Games]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[orvarh@ccpgames.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191256</person_id>
+				<author_profile_id><![CDATA[82458894357]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Arnar]]></first_name>
+				<middle_name><![CDATA[Birgir]]></middle_name>
+				<last_name><![CDATA[Jonsson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[CCP Games]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[arnarb@ccpgames.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Visualizing Progression in EVE Online Orvar Halldorsson Senior Game Designer CCP Games orvarh@ccpgames.com 
+ Arnar Birgir Jonsson Software Engineer CCP Games arnarb@ccpgames.com  1. Introduction EVE Online is 
+a massive multiplayer online game celebrating its 10th anniversary this year. CCP wanted to rethink how 
+players plan and execute the progression path of their characters, as well as define more clearly the 
+attributes and roles of the hundreds of ships that exist in the game. CCP developed a visualization tree 
+to show players their mark on the EVE Universe in terms of piloting and mastering of ships using their 
+UI framework, Carbon to move the Player Experience of EVE into the next decade while making sure the 
+Art Direction and technical aspects were being considered along the way.  2. Exposition When CCP set 
+out to fulfill their goal of making ship progression paths and skill planning clearer in EVE Online, 
+it was quickly realized that simply improving the UI would only solve a portion of that problem, the 
+actual progression system had to be iterated on as well. The skill requirements for ships were changed 
+considerably as well as the skill grouping itself. Required skills for ships got categorized into two 
+main groups, one for skills that affected piloting abilities and the other for how well a pilot could 
+use the ship by fitting it with modules. Research and focus group testing had given clear indications 
+that new players were having a hard time learning how to utilize each ship as well as the core roles 
+for ship groups. EVE Online currently has more than 300 different ship classes for players to pilot. 
+ 2.1 Elaboration With the goal of explaining the main differences between races, ship groups and the 
+ships themselves, CCP is currently designing a new system which will guide the user to the high level 
+information needed to find the right ship for any given task a user wants to take on. The new feature 
+which, codenamed ISIS (Interbus Ship Identification System)will not compete with or replace any other 
+feature in the game but rather introduce a new and more streamlined way to choose and compare ships to 
+use or progress towards. Early on in the design phase it was decided to come up with new iconography 
+for ship groups and ship progression to give players a quick way to navigate a visualization tree. All 
+ship groups in the game got new icons as well as the two main skill groups for ships progression, Piloting 
+and Mastery.     3. Results A fully functional, albeit not fully polished, ship browsing user interface, 
+using in-house developed Carbon UI Framework and Trinity rendering technology has been implemented successfully, 
+allowing us to evaluate in a much more meaningful way than before what we do and do not want the final 
+feature to look and feel like. The prototype was designed as a full 3D scene entailing that most of the 
+entities used were objects positioned in 3D space. The various primitives used include sprite billboards, 
+ship models (both fully textured and with a hologram shader), projected fixed width lines as well as 
+both 2D and 3D UI components. The implementation was architecture in such a way that the data layer is 
+completely independent of the user interface layer, so even though the front end of the final product 
+would go through massive redesign, the data layer is still usable. During prototyping we identified additional 
+features which could be introduced in steps post release like a comparison tool, social sharing and statistic 
+visualization tools. The project is currently set to move into full production in the coming months. 
+ 4. Conclusions One of the major things we wanted to evaluate were the pros and cons of adding the third 
+dimension to your typical game progression tree. Doing so made the endeavor considerably more technically 
+challenging, but proved to be well technically feasibly by using Carbon UI framework and the Trinity 
+rendering engine. A progress tree implemented as a 3D scene made it trivial to utilize the large amount 
+of ship model assets we have generated through the years. Another benefit realized was that a sense of 
+scale between ships was almost automatically achieved. On the con side, a three dimensional ship tree 
+can be considerably more complicated for a user to browse than a flat one. Camera transitions required 
+switching between ships and sub-trees can end up leaving a user feeling lost. Constraining camera movement 
+was found necessary in many places as too much freedom would make it way too easy for users to get lost. 
+One of the biggest usability concern encountered was the fact that smooth camera transitions, by nature, 
+take up too much time when compared to common two dimensional approaches such as tab switching. By implementing 
+a prototype within the same environment as the final product will eventually be implemented in, a lot 
+of the same code can be used, as is, in the final product. The most essential step in the development 
+process and also the most challenging was the collaboration between Art and Design where a certain visual 
+direction had to be catered to while making sure user-centered design aspects where being considered. 
+The process was an important learning phase for both disciplines. The development process was longer 
+than initially anticipated due to the additional time spent on iterating on the visual style and iterating 
+on the feature after getting valuable feedback from user testing sessions. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503679</article_id>
+		<sort_key>60</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>6</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>6</seq_no>
+		<title><![CDATA[Biological printing]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503679</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503679</url>
+		<abstract>
+			<par><![CDATA[<p>During the past decade medical researchers at Wake Forest Institute for Regenerative Medicine (WFIRM) have developed technologies to generate human tissue for manufacture of human organs such as kidneys, bladders, and heart valves. Human organs have been created via Rapid Prototype processes similar to the systems that Digital Sculptors have used to print sculptural forms during the past couple of decades.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191257</person_id>
+				<author_profile_id><![CDATA[82458687057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Robert]]></first_name>
+				<middle_name><![CDATA[Michael]]></middle_name>
+				<last_name><![CDATA[Smith]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[New York Institute of Technology, New York, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[sculpt3d@yahoo.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Biological Printing Robert Michael Smith New York Institute of Technology New York, NY, USA sculpt3d@yahoo.com 
+ 1. Introduction During the past decade medical researchers at Wake Forest Institute for Regenerative 
+Medicine (WFIRM) have developed technologies to generate human tissue for manufacture of human organs 
+such as kidneys, bladders, and heart valves. Human organs have been created via Rapid Prototype processes 
+similar to the systems that Digital Sculptors have used to print sculptural forms during the past couple 
+of decades. 2. Background Although the basic manufacturing techniques are similar, the huge difference 
+is that medical researchers have developed printable materials from cloned human cells that can be transplanted 
+into the bodies of donors whose cells were cloned. It is projected that we will soon be able to replace 
+most human organs (including skin) with precisely matched genetically compatible parts that will dramatically 
+reduce the problem of rejection by the host body after transplants. There have already been some successful 
+human trials with transplanted bladders. Beyond being impressed with the impact of another great medical 
+achievement for quality life extension, my more immediate reaction upon learning of this significant 
+research two years ago was that the threshold for a new aesthetic had been reached. It was now possible 
+to achieve a goal that I had set twenty years ago: To build sculpture with living tissue to actuate organically 
+kinetic sculpture much like the first virtual sculpture animation works that I was producing at that 
+time. During the early 1990s, while working on the critically acclaimed CD-ROM game, Millennium Auction, 
+ I developed characters that represented future artists engaged with making art that utilized advanced 
+technologies that were considered as science fiction. Since then I have personally realized the technical 
+ambitions that I had set forth within several of those fictional future artists such as virtual art museums/sculpture 
+parks, virtual sculpture projections, virtual sculpture accessible on the Internet, and physical sculpture 
+manufactured by robotic devices. However, even I was skeptical that any time soon I would achieve the 
+Human Meat sculpture that was also anticipated in the story of that game. That time has in fact arrived. 
+The Art &#38; Science collaboration project with Dr. Anthony Atala at Wake Forest Institute for Regenerative 
+Medicine has achieved Stage One, which is the first rapid prototyped human tissue of an invented sculptural 
+form that I designed directly in a CAD program. 3. Future Research Later stages of this project will 
+investigate means to keep the various human tissue sculptural forms alive for extended periods, probably 
+within a sealed aquarium system. I will design endoskeleton and exoskeleton forms to allow more complex 
+form with greater support for later developments of my bio-sculpture creatures. Eventually we expect 
+to manufacture internal capillary systems that will aid development of self-sustaining bio-organisms. 
+We have already been in serious discussions with artificial intelligence and robotics engineers to eventually 
+wire these more complex life forms to enable smart technologies that will control life-like responses 
+as well as motion to be programmed into the sculptural creatures. The resulting bio-mechanical sculptural 
+organisms will be capable of a number of research tasks to simulate various environment effects on human 
+tissue including zero-gravity and extra-terrestrial exploration.  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503680</article_id>
+		<sort_key>70</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>7</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>7</seq_no>
+		<title><![CDATA[London 2012 olympic and paralympic opening and closing ceremonies]]></title>
+		<subtitle><![CDATA[audience pixel content]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503680</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503680</url>
+		<abstract>
+			<par><![CDATA[<p>While the Opening and Closing Ceremonies of each successive Olympic Games have tended to grow increasingly sophisticated in their scope and scale, a key ambition of the London 2012 Ceremonies team was to integrate the in-stadium audience as part of the show, emphasising the narrative themes of inclusiveness and togetherness. Furthermore, the large size of an Olympic stadium can make it harder to create an intimate and immersive live experience for the stadium audience. In response, 70,500 audience seats in the stadium were fitted with a 9-LED pixel paddle, all of which were wired to a central visual controller. The result was an enormous immersive display that holds the current world-record for the largest landscape video display. Live equipment company Tait Technology designed and installed the tablets, known as the Audience Pixels, while software designers Immersive provided the 37 Ai Servers that controlled the LEDs. Digital media studio Crystal CG created all 14 hours of Audience Pixels content for the Olympic & Paralympic Opening & Closing Ceremonies, and an intensive period of creative and technical R&D was required to get the best out of the innovative display.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191258</person_id>
+				<author_profile_id><![CDATA[81421598504]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ed]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Cookson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Crystal CG, London]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[edcookson@me.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191259</person_id>
+				<author_profile_id><![CDATA[82458820957]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Will]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Case]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Crystal CG, London]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[will@fizzymilk.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ London 2012 Olympic and Paralympic Opening and Closing Ceremonies: Audience Pixel Content Ed Cookson 
+Crystal CG 31-35 Kirby Street London, EC1N 8TE edcookson@me.com 1. Introduction While the Opening and 
+Closing Ceremonies of each successiveOlympic Games have tended to grow increasingly sophisticated intheir 
+scope and scale, a key ambition of the London 2012 Ceremonies team was to integrate the in-stadium audience 
+as partof the show, emphasising the narrative themes of inclusivenessand togetherness. Furthermore, the 
+large size of an Olympic stadium can make it harder to create an intimate and immersive live experience 
+for the stadium audience. In response, 70,500 audience seats in the stadium were fitted with a 9-LED 
+pixelpaddle, all of which were wired to a central visual controller. Theresult was an enormous immersive 
+display that holds the currentworld-record for the largest landscape video display. Live equipment company 
+Tait Technology designed and installed the tablets, known as the Audience Pixels, while software designersImmersive 
+provided the 37 Ai Servers that controlled the LEDs.Digital media studio Crystal CG created all 14 hours 
+of AudiencePixels content for the Olympic &#38; Paralympic Opening &#38; ClosingCeremonies, and an intensive 
+period of creative and technicalR&#38;D was required to get the best out of the innovative display. 
+2. Exposition The production &#38; implementation of the visual content requiredclose collaboration with 
+the teams of Creative Directors, AVProducers, Stage Designers and Video Directors assembled by theLondon 
+2012 Organising Committee for each Ceremony particularly 59 Productions, Treatment Studio and the LOCOGCeremonies 
+AV team lead by Justine Catterall. To create the motion graphics content, Crystal CG assembled a production 
+teamcomprised of over 40 Motion Graphic Designers, Animators, 3DDesigners and Producers. An additional 
+54 dedicated 8-core blades were added to their existing high specification RenderFarm, to cope with round-the-clock 
+rendering requirements, andalso the changing briefs as the shows evolved through rehearsals and iterative 
+integration of the digital content into the narrative ofeach ceremony. Due to the unique size, shape 
+and nature of the display, Crystal CG faced numerous visualisation challenges. 2.1 Visualisation Challenges 
+The first few months of 2012 were spent trying to understand howthe panels would display seemingly simple 
+creative ideas. Circleswould not appear circular, certain colours would appear washedout, and it took 
+a while to get the speeds of objects moving aroundthe stadium to feel right . The time available to view 
+creative ideas on the actual Audience Pixels themselves was also restricted, due to installation timescales 
+and limited Stadium access. While the simulation of ideas in the studio was possible using Immersive 
+s Ai software, it took a while to understand the relationship between how results would appear in the 
+visualisationsoftware and how they would look and feel in the stadium. Will Case Crystal CG 31-35 Kirby 
+Street London, EC1N 8TE will@fizzymilk.com  Figure 1. London 2012 Olympics Opening Ceremony (Getty 
+Images)  3. Results The resulting immersive experience extended the visual canvasfrom the field of play 
+up into the stadium audience, making thempart of the show &#38; enhancing the broadcast spectacle. A 
+video ofedited highlights of the Audience Pixels as featured in the fourCeremonies is available online 
+here: http://vimeo.com/48434161 The Ceremonies in general were well received by both critics andthe public. 
+As hoped, the Audience Pixels appear to have been ahit with the in-stadium audiences, as well as the 
+broadcast audience (estimated at around 900m worldwide for the Olympics Opening Ceremony). 4. Conclusions 
+While production for the Audience Pixels posed many creative, technical and logistical challenges, the 
+results of their use in thefour London 2012 Opening and Closing Olympic and ParalympicCeremonies points 
+to an evolution of the presentation of digitalcontent in live events, creating an ever more immersive 
+experience. For the ceremonies, the technology and content were designed entirely around a cohesive creative 
+narrative. While there are numerous learnings from the challenges faced in London2012 that can help to 
+deliver future events, results are likely to be more successful if they are led by a similarly strong 
+event narrative, rather than applying the technology for its own sake. www.crystalcg.co.uk Permission 
+to make digital or hard copies of part or all of this work for personal or classroom use isgranted without 
+fee provided that copies are not made or distributed for commercial advantage and that copies bear this 
+notice and the full citation on the first page. Copyrights for third-party components of thiswork must 
+be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 
+2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503681</article_id>
+		<sort_key>80</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>8</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>8</seq_no>
+		<title><![CDATA[Clara.io]]></title>
+		<subtitle><![CDATA[full-featured 3D content creation for the web and cloud era]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503681</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503681</url>
+		<abstract>
+			<par><![CDATA[<p>Clara.io is a cloud and browser-based full featured 3D content creation tool that enables collaborative modelling, animation, simulation and rendering for independent and studio-affiliated artists. Our tool democratizes access to technology by making professional grade content creation capabilities and features accessible to all with internet access at a low cost.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[GUI]]></kw>
+			<kw><![CDATA[WebGL]]></kw>
+			<kw><![CDATA[client-server]]></kw>
+			<kw><![CDATA[collaboration software]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191260</person_id>
+				<author_profile_id><![CDATA[81320490566]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ben]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Houston]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Exocortex Technologies Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ben@exocortex.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191263</person_id>
+				<author_profile_id><![CDATA[82458879857]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Wayne]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Larsen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Exocortex Technologies Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191264</person_id>
+				<author_profile_id><![CDATA[82459336057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Bryan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Larsen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Exocortex Technologies Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191265</person_id>
+				<author_profile_id><![CDATA[82459113157]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Jack]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Caron]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Exocortex Technologies Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191266</person_id>
+				<author_profile_id><![CDATA[82459019957]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Nima]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Nikfetrat]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Exocortex Technologies Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191267</person_id>
+				<author_profile_id><![CDATA[82459123257]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Catherine]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Leung]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Seneca College]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[catherine.leung@senecacollege.ca]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191268</person_id>
+				<author_profile_id><![CDATA[82459062557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>7</seq_no>
+				<first_name><![CDATA[Jesse]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Silver]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Seneca College]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191269</person_id>
+				<author_profile_id><![CDATA[82459224157]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>8</seq_no>
+				<first_name><![CDATA[Hasan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kamal-Al-Deen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Seneca College]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191270</person_id>
+				<author_profile_id><![CDATA[82458882557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>9</seq_no>
+				<first_name><![CDATA[Peter]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Callaghan]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Seneca College]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191261</person_id>
+				<author_profile_id><![CDATA[82459008657]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>10</seq_no>
+				<first_name><![CDATA[Roy]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Seneca College]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191262</person_id>
+				<author_profile_id><![CDATA[82459096957]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>11</seq_no>
+				<first_name><![CDATA[Tim]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McKenna]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Seneca College]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Contributors, 2010. Three.js 3d engine. http://github.com/mrdoob/three.js/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Jakob, W., 2010. Mitsuba renderer. http://www.mitsuba-renderer.org.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Clara.io: Full-Featured 3D Content Creation for the Web and Cloud Era Ben Houston* , Wayne Larsen, 
+Bryan Larsen, Jack Caron, Nima Nikfetrat Exocortex Technologies Inc. Catherine Leung , Jesse Silver, 
+Hasan Kamal-Al-Deen, Peter Callaghan, Roy Chen, Tim McKenna Seneca College Abstract Clara.io is a cloud 
+and browser-based full featured 3D content cre­ation tool that enables collaborative modelling, animation, 
+simu­lation and rendering for independent and studio-af.liated artists. Our tool democratizes access 
+to technology by making professional grade content creation capabilities and features accessible to all 
+with internet access at a low cost. Keywords: GUI, WebGL, client-server, collaboration software. 1 Introduction 
+Clara.io is inspired by Google Docs in both ease of use and col­laboration features. Like Google Docs 
+reimaging of how people create written documents, our tool transforms and democratizes 3D content creation 
+for the web and cloud era. Clara.io is the result of a very successful collaboration between the Center 
+for the Devel­opment of Open Technology (CDOT) at Seneca College and Exo­cortex Technologies, Inc. 2 
+Architecture and Extensibility At Clara.io s core is an extensible generative scene graph built us­ing 
+the same ideas that underlie the existing popular desktop-based professional 3D creation tools. But Clara.io 
+does differs from ex­isting desktop solutions in that it stores its data in a true database in the cloud 
+rather than just the current revision to a local .le. Thus, instead of local data and desktop-based editing 
+applications, con­tent creating happens through a modern web browser. With Exocortex Studio there is 
+no installation, con.guration or manual upgrading of our software package, just log into your ac­count 
+and you are ready to go with the latest version of our soft­ware. Because we are database driven, our 
+software solution auto­matically stores all versions of your creations and they are all ac­cessible at 
+any time. To render your creations, you no longer need to purchase and con.gure costly render farms and 
+their software, just click render and your result will render on the cloud and be accessible whereever 
+you are as soon as it completes. Our core, like existing professional content creation tools on the desktop, 
+is designed to be extensible via a plugin model. Our plugin model already rivals that of desktop-based 
+tools in terms of features. But unlike traditional plugin models, our plugins can, because of our uni.ed 
+data model, utilize both local and cloud resources in order to achieve their results. In tool scripting, 
+for automation pur­poses, and our plugin model both utilize our uni.ed scene graph. Users can share plugins 
+as easily as they can share their scenes with each other. *e-mail:ben@exocortex.com e-mail:catherine.leung@senecacollege.ca 
+ Figure 1: Clara.io s user interface featuring two characters and three models loaded. 3 User Interface 
+As artists move away from desktop-based solutions, they will con­tinue to expect the responsive and polished 
+user interfaces they have been using on the desktop. We have created such a UI for our users using fully 
+W3C standard compliant browser technol­ogy combined with WebGL. For handling 3D object display we are 
+using Three.JS [Contributors 2010], a very powerful interaction­ oriented WebGL 3D engine. From the UI 
+artists can already im­port .les, import textures, create objects, materials, cameras, lights and apply 
+procedural modi.cations. For animation, we support keyframed parameters as well as using equations to 
+drive action. For characters we have a bone system with weight-based skinning. Lastly, we have integrated 
+two renderers into our system, including the open source research-oriented Mitsuba Renderer [Jakob 2010]. 
+When sharing scenes with collaborators, our system allows for both the simultaneous editing of the same 
+scene as well as the ability to reference other scenes by versions. Together the features smooth the 
+collaborative creation process. 4 Future Clara.io s technology and design has the potential to introduce 
+a new era in 3D content creation, an era where everyone has access to the best tools from anywhere, anytime 
+at low cost. Our tool will also allow for the rise of virtual studios, composed of collaborating students 
+and otherwise amateur artists, who are now capable of pro­ducing high quality content without costly 
+physical of.ces or large investments in infrastructure.  References CO N T R I BU TO R S, 2010. Three.js 
+3d engine. http://github.com/mrdoob/three.js/. JA KO B , W., 2010. Mitsuba renderer. http://www.mitsuba­renderer.org. 
+Permission to make digital or hard copies of part or all of this work for personal or classroom use isgranted 
+without fee provided that copies are not made or distributed for commercial advantage and that copies 
+bear this notice and the full citation on the first page. Copyrights for third-party components of thiswork 
+must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, 
+California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503682</article_id>
+		<sort_key>90</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>9</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>9</seq_no>
+		<title><![CDATA[Alternative performance capturing]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503682</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503682</url>
+		<abstract>
+			<par><![CDATA[<p>In this talk we present a combination of well-known and proven HCI techniques to create a markerless performance capturing system based on low-cost consumer hardware for live performances with virtual characters. The use case for our approach was a theatrical play on the occasion of the celebration of the 60<sup>th</sup> anniversary of the federal state of Baden-Wuerttemberg, Germany, in which a virtual alter ego of the current prime minister interacted directly with the stage actors and musicians.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191271</person_id>
+				<author_profile_id><![CDATA[82459334557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bu&#223;ler]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Filmakademie Baden-Wuerttemberg - Institute of Animation, Visual Effects and Digital Postproduction]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191272</person_id>
+				<author_profile_id><![CDATA[82459208657]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Simon]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Spielmann]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Filmakademie Baden-Wuerttemberg - Institute of Animation, Visual Effects and Digital Postproduction]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191273</person_id>
+				<author_profile_id><![CDATA[82458778857]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Nicole]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Rothermel]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Filmakademie Baden-Wuerttemberg - Institute of Animation, Visual Effects and Digital Postproduction]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[research@filmakademie.de]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191274</person_id>
+				<author_profile_id><![CDATA[81100178077]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Volker]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Helzle]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Filmakademie Baden-Wuerttemberg - Institute of Animation, Visual Effects and Digital Postproduction]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>2356374</ref_obj_id>
+				<ref_obj_pid>2355573</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Stoll, C., Hasler, N., Gall, J., Seidel, H.-P., Theobald, C. 2011. Fast Articulated Motion Tracking using a Sums of Gaussians Body Model. In <i>ICCV</i>, 2011]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2403068</ref_obj_id>
+				<ref_obj_pid>2403006</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Ye, G., Liu, Y., Hasler, N., Ji, X., Dai, Q., Theobald, C. 2012. Performance Capture of Interacting Characters with Handheld Kinects. In <i>Proceedings ECCV12</i>]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Alternative Performance Capturing Figure 2. Direct control of the virtual character.  Figure 1. The 
+virtual prime minister performing live on stage.  Michael Bußler, Simon Spielmann, Nicole Rothermel, 
+Volker Helzle* *e-mail: research@filmakademie.de **web: http://www.animationsinstitut.de Filmakademie 
+Baden-Wuerttemberg - Institute of Animation, Visual Effects and Digital Postproduction**  Abstract 
+In this talk we present a combination of well-known and proven HCI techniques to create a markerless 
+performance capturing system based on low-cost consumer hardware for live performances with virtual characters. 
+The use case for our approach was a theatrical play on the occasion of the celebration of the 60th anniversary1 
+of the federal state of Baden-Wuerttemberg, Germany, in which a virtual alter ego of the current prime 
+minister interacted directly with the stage actors and musicians. 1http://research.animationsinstitut.de/171.0.html 
+2http://www.faceshift.com Introduction Marker-based motion capture systems have become the de facto 
+standard for creating realistic and natural movement in computer animation. Such systems often require 
+long setup times and are unaffordable for budget limited productions. Other methods, like the one proposed 
+by [Stoll et al. 2011] use a set of low-cost, unsynchronized cameras to capture motion data without markers, 
+but also require calibration and have high demands on computing power and memory to achieve almost real-time 
+processing. The development of low-cost depth-sensing cameras like the Microsoft Kinect has made spatial 
+capturing available to a large audience of consumers. Such cameras allow capturing of movement in space 
+without markers by design: An actor can start performing immediately without need for markers to be placed. 
+As shown by [Ye et al. 2012], it is sufficient to use three handheld Kinect cameras to gather highly 
+detailed motion capturing data, even though not with real-time performance. Our approach combines two 
+Kinect cameras for the capturing of body and facial performances of an actor, as well as two Nintendo 
+Wiimotes, to control a virtual character live and in real-time. Operating on off-the-shelf hardware, 
+the system is cost and time saving and therefore affordable for small budget productions. Facial and 
+Body Capturing While body capturing alone gives a virtual character only basic movement like a puppet, 
+the combination with facial capturing, head movement and gaze tracking yields a very natural look and 
+feel. We implemented the system with Frapper, our open-source application framework, which is able to 
+load and steer animated characters with pre-defined animation clips and to apply motion capture data 
+received via network. The body capturing was implemented with the Microsoft Kinect SDK that allows defining 
+orientation constrains for the bones and to stream skeleton data over the network. Relying solely on 
+bone orientations, an actor can play different virtual characters independent of their scale and appearance. 
+Unfortunately, the Kinect SDK is not able to capture hand gestures, so that we also used two Wiimotes 
+to give the actor direct control over a set of pre-animated hand and body gestures, like pointing, waving, 
+clapping and dancing or entering and leaving the stage. The facial performance capturing was done using 
+FaceShift2, a markerless capturing solution that streams FACS-based animation parameters as well as the 
+head orientation and gaze direction using a Kinect camera. Discussion After collecting some experience 
+with the arrangement of the two cameras, our alternative performance capturing system could be set up 
+much faster than a marker-based capturing system, which requires time-consuming calibration steps. Although 
+it took the actor some time to learn the 21 pre-built animations, he was absolutely convinced about our 
+capturing solution, as he could just step on a predefined position and starts acting immediately. Some 
+problems arose from the interference of the two Kinect cameras, especially in the region of the shoulders, 
+which we could avoid by tweaking the solid angle of the infrared output pattern of the facial Kinect 
+to light only a small region around the head. The actors face had to stay within this area for full facial 
+capturing, which was an acceptable limitation for our use case and could easily be handled by fixing 
+the camera to the actors head. As we use only a single Kinect for the body capturing, the actor had to 
+stand front-facing to the camera all the time. Using multiple Kinects would result in more freedom for 
+the actor and more stable capturing results. Overall, our approach serves well the described use case 
+of projecting an actor s performance directly on a virtual character, and could in principle be used 
+as cost effective solution in other productions that involve direct interaction with a naturally behaving 
+virtual character. References STOLL, C., HASLER, N., GALL, J., SEIDEL, H.-P., THEOBALD, C. 2011. Fast 
+Articulated Motion Tracking using a Sums of Gaussians Body Model. In ICCV, 2011 YE, G., LIU, Y., HASLER, 
+N., JI, X., DAI, Q., THEOBALD, C. 2012. Performance Capture of Interacting Characters with Handheld Kinects. 
+In Proceedings ECCV12 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503683</article_id>
+		<sort_key>100</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>10</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>10</seq_no>
+		<title><![CDATA[A retailers way into 3D]]></title>
+		<subtitle><![CDATA[IKEA]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503683</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503683</url>
+		<abstract>
+			<par><![CDATA[<p>Technical leaders from IKEA Communications AB in Sweden will present the challenge for a retailer to take on photographic renderings of indoor homes for Catalog and Web. We will share the progress from the first stumbling steps of creating product images to large volumes of full room sets that is used alongside traditionally created studio photos for the catalog and on the web.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191275</person_id>
+				<author_profile_id><![CDATA[82458793557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Martin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Enthed]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[IKEA Communications AB, &#196;lmhult, Sweden]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[martin.enthed@ikea.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ A retailers way into 3D : IKEA Martin Enthed IKEA Communications AB Älmhult, Sweden martin.enthed@ikea.com 
+ 1. Introduction Technical leaders from IKEA Communications AB in Sweden will present the challenge 
+for a retailer to take on photographicrenderings of indoor homes for Catalog and Web. We will sharethe 
+progress from the first stumbling steps of creating product images to large volumes of full room sets 
+that is used alongsidetraditionally created studio photos for the catalog and on the web. 2. Exposition 
+At IKEA our vision is to create a better everyday life for the manypeople. Our business idea supports 
+this vision by offering a widerange of well-designed, functional home furnishing products atprices so 
+low that as many people as possible will be able to afford them. IKEA is a global retailer available 
+in 40 countries allover the world. IKEA Communication AB is an IKEA companythat creates global content 
+to support the IKEA business idea andVision. One of the biggest parts of the production at IKEA Communication 
+has always been images. The need for more images was the spark that started 3D usage for image productionat 
+IKEA in 2006. 2.1 Elaboration To be able to use photo and 3D methods to produce images and tothe same 
+quality output, we needed to solve some basic problems, and we will show and talk about all these in 
+our presentation. The material definition for our products needs to be a physically accurate as possible. 
+The more accurate the material is, the fasterand more secure the production will be. We have solved how 
+tograb accurate textures, use them in a good way to create large volumes of materials and have now more 
+than 5000 IKEA materials defined. IKEA sells a lot of products and all these needs a stable 3D modelstandard 
+that at least can work for 5-7 years without the need ofremake of old models. We created our own definition, 
+with LODlevels called PQPM and have created 22,000 models in 4 LODlevels according to that standard and 
+now have the full IKEArange. All managed in our own production-tracking tool. To create photographs and 
+3D renderings with the same qualityyou need to mix the two groups of 3D artists and photographers in 
+a way that they contribute to each other s knowledge and development, and we did. To be able to use and 
+work with 3D in a large scale we needed tosimplify tasks. We needed to create and interact with a large 
+3Dasset bank and connect that to the tool. We created our own movement mode in the 3D tool in addition 
+to move/rotate/scalecalled pick and place . And we created our own extension to a physics engine and 
+used it to do a lot of the time consuming tasks that really needs gravity and collision to work, but 
+with verylimited need of settings. And we needed away of utilizing all the compute power, both in arender 
+farm but also in the office space to be able to render larger and larger volumes of images.  Figure 
+1. Examples of room set images created in 3D for IKEACatalogue 2011 .  3. Results Today 75% of the product 
+images and 20% of the room setimages are created from renderings in a 3D scene only. 3D is a proven production 
+method that we rely on at IKEA Communication AB. 4. Conclusions Even if a retailer like IKEA now can 
+rely on 3D for large parts ofits needs for images there are still areas that have potential forimprovements. 
+Where IKEA would like the industry to focus are among other things. A more generic definition of physically 
+accurate material definition that could be portable/convertiblebetween renderers.  A more generic way 
+of describing with physicalaccuracy how one 3D asset can connect to other 3Dasset e.g. where a shelf 
+can be placed in a cabinet. Thatthen could be portable/convertible between interactive3D tools.  A way 
+to easily and more accurately interact with soft3D assets when building a set e.g. cushions, duvet, plaids 
+and so on.  Faster, Automated and more accurate ways of modeling/capturing a 3D assets and creating 
+LOD levels  and of course faster more interactive physically correct renderings.  At IKEA we are continuously 
+evolving and finding new use of the 3D assets to support the overall vision and business idea of IKEA. 
+Permission to make digital or hard copies of part or all of this work for personal or classroom use isgranted 
+without fee provided that copies are not made or distributed for commercial advantage and that copies 
+bear this notice and the full citation on the first page. Copyrights for third-party components of thiswork 
+must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, 
+California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503684</article_id>
+		<sort_key>110</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>11</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>11</seq_no>
+		<title><![CDATA[Interactive card weaving design and construction]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503684</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503684</url>
+		<abstract>
+			<par><![CDATA[<p>Weaving is a method of fabric production, consisting of two distinct sets of yarns (warp and weft). It is popular and similar to other fabric production methods, such as knitting, felting, and lace making. In particular, 'card weaving' is a very simple and easy weaving method. The user prepares nothing more than colored yarns and simple cardboard squares with four holes [Crockett 1991]. The user can produce exquisitely patterned woven bands, such as ribbons, straps, and hair accessories. However, the textile patterns are typically designed via a laborious manual process. The final textile design is determined by 1) the color of each warp yarn, 2) the direction of four yarns passing through each card, and 3) the direction and number of rotations of the cards.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191276</person_id>
+				<author_profile_id><![CDATA[82459177157]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Yuki]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Igarashi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Tsukuba, Japan]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191277</person_id>
+				<author_profile_id><![CDATA[81100209891]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Jun]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mitani]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Tsukuba, Japan]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Crockett, C. 1991. Card Weaving. Interweave Pr.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Coahranm M. and Fiume, E. 2005. Sketch-Based Design for Bargello Quilts. Eurographics Workshop on Sketch-Based Interfaces and Modeling 2005, 165--174.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Polak, G. 2002. Card Weaver. http://www.theloomybin.com]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Interactive Card Weaving Design and Construction C:\Users\yuki\conference\siggraph2013\.1.emf C:\Users\yuki\conference\siggraph2013\.2.emf 
+C:\Users\yuki\conference\siggraph2013\.3.emf C:\Users\yuki\conference\siggraph2013\.5.emf Yuki Igarashi 
+Jun Mitani University of Tsukuba, Japan Figure 1: System overview. (a) The user designs a textile pattern 
+using a painting interface. (b) The user defines the direction of the cards. (c) The system shows the 
+user how each yarn should pass through the card. (d) The user finally weaves the yarns using the cards. 
+ 1 Introduction Weaving is a method of fabric production, consisting of two distinct sets of yarns (warp 
+and weft). It is popular and similar to other fabric production methods, such as knitting, felting, and 
+lace making. In particular, card weaving is a very simple and easy weaving method. The user prepares 
+nothing more than colored yarns and simple cardboard squares with four holes [Crockett 1991]. The user 
+can produce exquisitely patterned woven bands, such as ribbons, straps, and hair accessories. However, 
+the textile patterns are typically designed via a laborious manual process. The final textile design 
+is determined by 1) the color of each warp yarn, 2) the direction of four yarns passing through each 
+card, and 3) the direction and number of rotations of the cards. We therefore propose an interactive 
+system to assist in the design of original weaving patterns and their construction. Coahranm and Fiume 
+[2005] presented a sketch-based design system for quilting arts. In contrast, weaving textile design 
+is more like pixel art (all pixels are the same size). The difference is that each pixel in a woven band 
+is a diamond shape (not a square). The width (the number of columns) of a woven band is determined by 
+the number of cards (n). The number of colors for each column is determined by the number of holes in 
+a card (4 in our current system). The Card Weaver [Polak 2002] is a previous design system for card weaving. 
+However, it only supported the design of patters with simple repetitions and did not support free painting 
+described in the next section. 2 User Interface Figure 1 shows the overall process. The user first designs 
+the color of warp yarns in the matrix of 4 × n cells, as shown in Figure 1(a). The user can increase/decrease 
+the number of cards, and modify the direction of the four yarns passing through each card by clicking 
+on the corresponding arrow (Fig. 2). The final textile design is defined by the direction and number 
+of rotations of the cards (Fig. 1b). F4B4 means that the user first rotates all the cards four times 
+in the forward direction and four times in the backward direction for this one set. The user repeats 
+the set until he/she is satisfied with the length of the fabric. The user can check the final textile 
+design in the system before real weaving. He/she then passes the yarn through the hole of each card using 
+a construction guide (Fig. 1c). Finally, the user creates a real original weaving using these cards and 
+yarns (Fig. 1d). The system also provides a special mode that supports free painting with binary colors 
+(Fig. 3b). In this mode, the user passes the yarns with the foreground color in the adjacent two holes 
+in a card and the yarns with the background color in the remaining two holes. The user then paints an 
+arbitrary pattern on the band with the two colors. The system then automatically derives rotation direction 
+of each card at each step from the pattern. The system also visualizes the orientation of the diamond 
+shape at each cell, which is determined by the rotation direction at the cell. Figure 2: Final orientation 
+of the diamond shape (each cell) depends on how the yarn passes through the hole, up or down.  Figure 
+3: Snapshots of the system. (a) The standard mode. The user specifies the colors of 4 yarns of each card, 
+as well as the rotation direction at each step. (b) The free painting mode. The user paints an arbitrary 
+pattern and the system automatically derives the rotation direction of each card. 3 Results We used 
+our system to create textile designs and actual weaving results, as shown in Figure 4. A design session 
+typically took about 10 min, and production of the weaving required 1 3 hours. Figure 4 right shows 
+woven bands in the standard mode (top) and in the free paining mode (bottom). Figure 4: Results using 
+our system. References CROCKETT, C. 1991. Card Weaving. Interweave Pr. COAHRANM M. AND FIUME, E. 2005. 
+Sketch-Based Design for Bargello Quilts. Eurographics Workshop on Sketch-Based Interfaces and Modeling 
+2005, 165 174. POLAK, G. 2002. Card Weaver. http://www.theloomybin.com 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503685</article_id>
+		<sort_key>120</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>12</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>12</seq_no>
+		<title><![CDATA[Join the digital text revolution]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503685</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503685</url>
+		<abstract>
+			<par><![CDATA[<p>This talk addresses computer graphics teaching, research, and authoring in the age of digital texts. Graphics content is best presented in a high-resolution, color, animated, and interactive medium; its authors are technically savvy and able to create their own tools; and the target audience values presentation quality and technological advances. This is the ideal domain for aggressive innovation in digital publishing. I present selected examples from the publication processes of four digital texts to advocate for that innovation and address concrete topics including:</p> <p>&#8226; Content authoring for an always-online reader</p> <p>&#8226; The economics of digital publishing</p> <p>&#8226; Practical technology for dynamic resolution and layout</p> <p>&#8226; Authoring, editing, marketing, and distribution for self-publishing</p> <p>&#8226; How I integrated web, mobile, and electronic text resources in my own undergraduate graphics course</p> <p>&#8226; Digital rights management and intellectual property</p> <p>&#8226; Free and open tools for managing publication</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191278</person_id>
+				<author_profile_id><![CDATA[81327490282]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Morgan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McGuire]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA & Williams College]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Join the Digital Text Revolution Morgan McGuire NVIDIA &#38; Williams College This talk addresses computer 
+graphics teaching, research, and au­thoring in the age of digital texts. Graphics content is best presented 
+in a high-resolution, color, animated, and interactive medium; its authors are technically savvy and 
+able to create their own tools; and the target audience values presentation quality and technologi­cal 
+advances. This is the ideal domain for aggressive innovation in digital publishing. I present selected 
+examples from the publication processes of four digital texts to advocate for that innovation and address 
+concrete topics including: Content authoring for an always-online reader  The economics of digital 
+publishing  Practical technology for dynamic resolution and layout  Authoring, editing, marketing, 
+and distribution for self­publishing  How I integrated web, mobile, and electronic text resources in 
+my own undergraduate graphics course  Digital rights management and intellectual property  Free and 
+open tools for managing publication  I disclose actual market data, cost models, tools, schedules, 
+and adoption rates where permitted by publishing agreements. The projects that I use as case studies 
+span the breadth of current electronic publishing. Undertaken with many coauthors, these are: Computer 
+Graphics: Principles and Practice 3rd Edition (Hughes et al. 2013, .gure 1) is a textbook published by 
+Addison-Wesley si­ multaneously in paper and standard e-book formats, with signif­icant online content. 
+The new edition of this widely-used book demonstrates the role of the traditional brick-and-mortar publisher 
+and pipeline in digital content creation and distribution. The Graphics Codex (McGuire 2012) is a computer 
+graphics text­book and reference packaged as a custom mobile app (.gure 2). Originally conceived as a 
+simple PDF of lecture notes, under class­room testing it grew into a unique non-linear and interactive 
+book for teaching and research. TGC integrates tightly with courseware by supporting links both to and 
+from API documentation, course syllabi, digital libraries, and web pages. It borrows user-interface paradigms 
+from Google, Wikipedia, Facebook, and Twitter based on observation of how industry professionals and 
+students access technical information. http://graphicscodex.com The Journal of Computer Graphics Techniques 
+is an open-access research journal founded in 2012 as a spiritual successor to Graph­ics Gems and the 
+Journal of Graphics Tools. It is exclusively pub­lished online, uses Creative Commons licensing and only 
+open stan­dards, and operates with zero formal revenue stream. Yet, it main­tains quality comparable 
+to other journals with noted authors, re­viewers, and editors, and the .rst volume was downloaded tens 
+of thousands of times. http://jcgt.org codeheart.js: Learn to Program Web and Mobile Games is a new introduction 
+to game development text for high school and undergraduate students that I m writing on Apple s propri­etary 
+standard iBook platform for release as PDF and e-book. http://codeheartjs.com I will also show how the 
+interaction of market forces, technology, target audience, and legal agreements motivated application 
+of the different technologies and arrangements for these projects. For ex­ample, two of these texts are 
+restricted to Apple s iOS platform,  Figure 1: Computer Graphics: Principles and Practice will be published 
+in July at SIGGRAPH in paper and e-book versions with signi.cant supplemental online content.  Figure 
+2: The Graphics Codex dynamically adjusts content for de­vice shape, orientation, and font size. even 
+though there is no technical barrier to releasing simultaneously on iOS, Android, and desktop operating 
+systems. It is inevitable that digital will become the primary publication method and computer graphics 
+should be a leading application area. The objective aspects of the talk address the practical how-to 
+and the state of the art. In closing, I ll brie.y address two controver­sial topics with subjective arguments 
+and speculation. First, both open, free journals and closed, commercial texts are not only viable counterparts 
+but also equally essential parts of a stable publishing ecosystem. Second, digital publishing and its 
+extension into mas­sive online open courses (MOOCs) lower economic barriers in the education sector for 
+both authors and students, simultaneously en­abling a free market and accessibility. However, as has 
+been ob­served in other content markets with strong .rst-movers, the eco­nomic structure of incentives 
+and digital rights has the potential to create de facto monopolies for the single best course and text, 
+which could inhibit diversity and pedagogical improvement. Permission to make digital or hard copies 
+of part or all of this work for personal or classroom use isgranted without fee provided that copies 
+are not made or distributed for commercial advantage and that copies bear this notice and the full citation 
+on the first page. Copyrights for third-party components of thiswork must be honored. For all other uses, 
+contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by 
+the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503686</article_id>
+		<sort_key>130</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>13</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>13</seq_no>
+		<title><![CDATA[Virtual cinematography]]></title>
+		<subtitle><![CDATA[beyond big studio production]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503686</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503686</url>
+		<abstract>
+			<par><![CDATA[<p>In the current production environment, the ability to previsualize shots utilizing a virtual camera system requires expensive hardware and large motion capture spaces only available to large studio environments. With accessible hardware such as multi-touch tablets and the latest video game motion controllers, there exists an opportunity to develop a new virtual camera system utilizing only consumer technologies and openly accessible game engines. The MobileVCS system is designed for directors, both amateur and professional, who wish to embrace the notion of Virtual Production for films and game cinematics without a big studio budget. The director will be able to compose and record camera motions in freespace and manipulate scene elements, such as characters & environments, through a real-time intuitive touch interface that is guided by system intelligence based on cinematic principles. By exploring these new immersive hybrid interface possibilities and democratizing this technology, all directors will now be able to achieve their creative vision by previsualizing their scenes and shot compositions without the need for expensive hardware or large motion capture volumes. MobileVCS has potential applications to other areas including game level design, real-time compositing & post-production, and architectural visualization</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191279</person_id>
+				<author_profile_id><![CDATA[82458833157]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Girish]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Balakrishnan]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Drexel University, Philadelphia, PA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[Girish.Balakrishnan90@gmail.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191280</person_id>
+				<author_profile_id><![CDATA[81100433862]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Paul]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Diefenbach]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Drexel University, Philadelphia, PA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[pjdief@drexel.edu]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[H. Jenkins, "Convergence Culture," New York University Press, 2006.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[M. Nitsche, "Experiments in the Use of Game Technology for Pre-Visualization," Georgia Institute of Technology, Atlanta, Georgia, 2008.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[R. P. Ken Hinckley, John C. Goble, Neal F. Kassell, "A Survey of Design Issues in Spatial Input," 1994.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Virtual Cinematography: Beyond Big Studio Production Girish Balakrishnan and Paul Diefenbach Drexel 
+University Philadelphia, PA, USA Girish.Balakrishnan90@gmail.com, pjdief@drexel.edu  Figure 1. Mobile 
+Virtual Camera System featuring the Apple iPad and Playstation Move &#38; Navigation Controllers. 1. 
+Introduction In the current production environment, the ability to previsualizeshots utilizing a virtual 
+camera system requires expensive hardware and large motion capture spaces only available to largestudio 
+environments. With accessible hardware such as multi­touch tablets and the latest video game motion controllers, 
+thereexists an opportunity to develop a new virtual camera systemutilizing only consumer technologies 
+and openly accessible gameengines. The MobileVCS system is designed for directors, bothamateur and professional, 
+who wish to embrace the notion ofVirtual Production for films and game cinematics without a bigstudio 
+budget. The director will be able to compose and recordcamera motions in freespace and manipulate scene 
+elements, suchas characters &#38; environments, through a real-time intuitive touchinterface that is 
+guided by system intelligence based on cinematicprinciples. By exploring these new immersive hybrid interfacepossibilities 
+and democratizing this technology, all directors willnow be able to achieve their creative vision by 
+previsualizing theirscenes and shot compositions without the need for expensive hardware or large motion 
+capture volumes. MobileVCS has potential applications to other areas including game level design, real-time 
+compositing &#38; post-production, and architectural visualization 2. Exposition Utilizing affordable 
+hardware, an intuitive user interface, the real­time benefits of game engines, and an intelligent camera 
+system,MobileVCS provides professional directors as well as a newmarket of amateur filmmakers the ability 
+to previsualize theirfilms or game cinematics with familiar and accessible technology.The support of 
+both free-space movement and controller-based naviagation with adjustable scene scales permits the user 
+to navigate the virtual space and record camera motion in a varietyof means. The user can additionally 
+mark keyframes for virtualdollies or booms, and control camera parameters such as focallength or aspect 
+ratio. An important aspect of our system is theinclusion of cinematic principals for intelligent generation 
+ofshots. For example, dolly tracks and timings are generated based on physically-guided principals in 
+order to produce realistic camera paths. MobileVCS also supports rudimentary scene editing, and has the 
+ability to integrate into a professional production pipeline such as exporting camera paths or scene 
+descriptions with industry software packages such as AutodeskMaya. Additionally, integrating both the 
+external Move cameraand the internal iPad camera streams permits multi-perspectivehighly-flexible mixed-reality 
+shot composition. 3. Implications of Research MobileVCS supports an iterative production pipeline that 
+canlower production costs by allowing directors and cinematographers to experiment with their shot compositions 
+throughout the production process instead of simply at the previsualization stage, and has application 
+for set layout, level design, and lighting design. Its ability to continually build moreintelligence 
+into the tool has the potential to open up a newmarket of amateur content makers ranging from students 
+to small­production teams that cannot afford the cost of studio previsualization tools and who might 
+not even fully understand the theory and principles of shot layout. The intelligence can be customized 
+to both create more professional content or even serve as an educational tool to guide the user; this 
+flexibility permitsMobileVCS to expand in the future as a hybrid freespace inputdevice for video games, 
+robotics, and medicine. References H. JENKINS, "CONVERGENCE CULTURE," NEW YORK UNIVERSITY PRESS, 2006. 
+M. NITSCHE, "EXPERIMENTS IN THE USE OF GAME TECHNOLOGY FOR PRE-VISUALIZATION," GEORGIA INSTITUTE OF TECHNOLOGY,ATLANTA, 
+GEORGIA, 2008. R. P. KEN HINCKLEY, JOHN C. GOBLE, NEAL F. KASSELL, "A SURVEY OF DESIGN ISSUES IN SPATIAL 
+INPUT," 1994. Permission to make digital or hard copies of part or all of this work for personal or classroom 
+use isgranted without fee provided that copies are not made or distributed for commercial advantage and 
+that copies bear this notice and the full citation on the first page. Copyrights for third-party components 
+of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 
+2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503687</article_id>
+		<sort_key>140</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>14</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>14</seq_no>
+		<title><![CDATA[Screencasting strategies]]></title>
+		<subtitle><![CDATA[heuristics for using video content in 3D computer graphics technological and aesthetic education]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503687</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503687</url>
+		<abstract>
+			<par><![CDATA[<p>Supplementing both text and lecture with videos has become a necessary part of a comprehensive course that incorporates both technical and design elements. As educators who have participated in developing multiple training videos we have begun to develop strategies and rules of thumb for developing and implementing <i>effective</i> video within our educational process.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191281</person_id>
+				<author_profile_id><![CDATA[81504683402]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Shaun]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Foster]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Rochester Institute of Technology, Rochester, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[scffaa@rit.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191282</person_id>
+				<author_profile_id><![CDATA[81504687394]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Halbstein]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Rochester Institute of Technology, Rochester, NY]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[dlhfaa@rit.edu]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Clark, Ruth, Nguyen, Frank, Sweller, John 2006 <i>Efficiency in Learning: Evidence-Based Guidelines to Manage Cognitive Load</i> San Francisco: Pfieffer]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Smicklas, Mark 2012 <i>The Power of Infographics: Using Pictures to Communicate and Connect with Your Audience</i> Que Publishing]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Garrick, R, Villasmil, R, Dell, E Hart, R 2013 <i>Increasing Student Engagement and Retention using Classroom Technologies:Classroom Response Systems and Mediated Discourse Technologies</i>, Unpublished/In-Press, Emerald Group Publishing Limited]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Screencasting Strategies: Heuristics for using Video Content in 3D computer Graphics Technological 
+and Aesthetic Education Shaun Foster Rochester Institute of Technology Rochester, NY, USA scffaa@rit.edu 
+ 1. Introduction Supplementing both text and lecture with videos has become a necessary part of a comprehensive 
+course that incorporates both technical and design elements. As educators who have participated in developing 
+multiple training videos we have begun to develop strategies and rules of thumb for developing and implementing 
+effective video within our educational process. 2. Exposition Increasingly large amounts of research 
+have been published in support of the effectiveness of multimedia, which connects to multi-modal learning 
+styles over text. Written text based communication is processed in a significantly slower and linear 
+fashion. Over 50% of the brain is dedicated to visual processing (Smicklas). Images are processed holistically 
+and nearly instantaneously. Consequently, text often requires an information redesign to show the information 
+vs. describing the information. Additional data (Clark) has shown the amount of information per second 
+processed by the brain is higher from multi-modal sources, for example video with audio. 2.1 Elaboration 
+Our goal has been to use screencasting technology in order to leverage our time so that we can focus 
+on teaching the design process, giving greater individual attention to our students while maintaining 
+the highest standards for technical instruction. During the process of accommodating, adopting and adapting 
+to screencasting we have begun to develop categories for video usage as well as strategies for their 
+delivery. In doing our results are starting to fall in-line with external research being done on the 
+rapidly growing amount of training content delivered by online video. Figure 1. From Framework to Full 
+Knowledge David Halbstein Rochester Institute of Technology Rochester, NY, USA dlhfaa@rit.edu We'll 
+discuss information design for screencast in the following categories: Interface tours  Pitfalls and 
+demons: Task specific videos  Flipped classroom: Full lecture video before class  Sequential: Step 
+by step instructional videos  Question and answer specific tutorials  Critiques: Screencasting using 
+tablet based integration  Contextualizing: Strategies for encapsulating information  Figure 2. Percentage 
+of DFW grades for Pneumatics &#38; Hydraulics Class (Garrick) 3. Results Video and media rich media will 
+play a growing roll ineducation for the foreseeable future. Its use has already produced significant, 
+quantifiable positive results (GarrickFig 2). Specific structuring of information and delivery with certain 
+temporal parameters within the categorieslisted above will further improve quality of education. References 
+CLARK, RUTH, NGUYEN, FRANK, SWELLER, JOHN 2006 Efficiency in Learning: Evidence-Based Guidelines to ManageCognitive 
+Load San Francisco: Pfieffer SMICKLAS, MARK 2012 The Power of Infographics: UsingPictures to Communicate 
+and Connect with Your Audience Que Publishing GARRICK, R, VILLASMIL, R, Dell, E HART, R 2013 Increasing 
+Student Engagement and Retention using ClassroomTechnologies: Classroom Response Systems and MediatedDiscourse 
+Technologies, Unpublished/In-Press, Emerald Group Publishing Limited Permission to make digital or hard 
+copies of part or all of this work for personal or classroom use is granted without fee provided that 
+copies are not made or distributed for commercial advantage and that copies bear this notice and the 
+full citation on the first page. Copyrights for third-party components of this work must be honored. 
+For all other uses, contact the Owner/Author. SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 
+2013 Copyright held by the Owner/Author. ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503688</article_id>
+		<sort_key>150</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>15</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>15</seq_no>
+		<title><![CDATA[Fight our shadow robot]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503688</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503688</url>
+		<abstract>
+			<par><![CDATA[<p>Recently, many researchers have developed computer support systems for handwork design [1]. Using these systems, museums and universities have conducted handwork workshops, in which novices have mastered specialized knowledge and techniques. Moreover, the participants have found these activities interesting and enjoyable. Such workshops offer important opportunities for adults and children to use advanced technology.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191283</person_id>
+				<author_profile_id><![CDATA[82459067557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Hiroshi]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Suzuki]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Kanagawa Institute of Technology, Athugi Kanagawa Japan]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[hsuzuki@ic.kanagawa-it.ac.jp]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191284</person_id>
+				<author_profile_id><![CDATA[82459202457]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Hisashi]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sato]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Kanagawa Institute of Technology, Athugi Kanagawa Japan]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[sato@ic.kanagawa-it.ac.jp]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191285</person_id>
+				<author_profile_id><![CDATA[82458982657]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Haruo]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hayami]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Kanagawa Institute of Technology, Athugi Kanagawa Japan]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[hayami@ic.kanagawa-it.ac.jp]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>1015711</ref_obj_id>
+				<ref_obj_pid>1015706</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Mitani, J. and Suzuki, H.:"Making Papercraft Toys from Meshes using Strip-based Approximate Unfolding", ACM Transactions on Graphics(Proceeding of SIGGRAPH 2004),23(3),pp.259--263(2004)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Fight our Shadow Robot Hiroshi Suzuki Hisashi Sato Haruo Hayami Kanagawa Institute of TechnologyKanagawa 
+Institute of TechnologyKanagawa Institute of Technology Shimoogino1030 Shimoogino1030 Shimoogino1030 
+Athugi Kanagawa JapanAthugi Kanagawa JapanAthugi Kanagawa Japan 46-291-3210,+81 46-291-3247,+81 46-291-3246,+81 
+hsuzuki@ic.kanagawa-it.ac.jp sato@ic.kanagawa-it.ac.jp hayami@ic.kanagawa-it.ac.jp 1. INTRODUCTION 
+Recently, many researchers have developed computer supportsystems for handwork design [1]. Using these 
+systems, museumsand universities have conducted handwork workshops, in which novices have mastered specialized 
+knowledge and techniques.Moreover, the participants have found these activities interestingand enjoyable. 
+Such workshops offer important opportunities foradults and children to use advanced technology. 2. FIGHT 
+OUR SHADOW ROBOT In this study, we propose the use of advanced technology inworkshop environments, which 
+drastically enhances the workshop experience by making it interesting and enjoyable. We develop Fight! 
+Our Shadow Robot a digital workshop that offers recreational paper-craft activities. Our workshop is 
+based on a dramatic fictional scenario. Childrenimagine and then create original robots to protect their 
+city fromenemies. They carry out this protective function using their own bodily actions. The workshop 
+involves the following tasks. First,the children use markers of their favorite colors to draw on a paper-craft 
+template. Then, we convert their drawings into digital images using a scanner. Subsequently, the children 
+make originalpaper-craft robots using glue and scissors. Finally, they play thevideo game by operating 
+the robots through their bodily actions. Thus, this workshop enables children to experience three recreational 
+activities: drawing, making paper-craft objects, andcontrolling these objects through their bodily actions. 
+2.1 System Setup Our system consists of a server module, multiple client modules,and a router that connects 
+these modules to form a LAN. Figure 1 shows an overview of the system. Children draw on paper-craft templates 
+and hand them over to personnel in charge of a server, who scan in the templates using the image scanner 
+connected to the server. The templates are returned to the children immediately after scanning. Then, 
+thechildren take the paper-craft templates to a client system and use its barcode reader to scan in the 
+bar codes on the templates. Agame program in the client system obtains image files from theserver using 
+a key, which is the identification number read in bythe barcode reader. Finally, the game program uses 
+the image files as textures for 3D models of the robots. 2.2 Video game We developed an original video 
+game based on the Unity gameengine. The pose of a robot during a game is determined by that ofthe player, 
+which is recognized by Microsoft Kinect a motion­sensing input device. The body information recognized 
+by Kinect can be easily handled by a library based on the OpenNI framework, which is compatible with 
+Unity. The robot skeleton ismatched with the input human skeleton using OpenNI. 3. RESULT We conducted 
+our workshop at a Chigasaki primary school in Yokohama. The children were amazed by the system; they 
+foundthe activities highly interesting and enjoyable. Many of themstated that they would like to play 
+again with the robots theydesigned. We plan to develop a system that enables users to playthe game on 
+a network, using the created robots. 4. REFERENCES [1] Mitani,J. and Suzuki,H.: Making Papercraft Toys 
+from Meshes using Strip-based Approximate Unfolding , ACM Transactions on Graphics(Proceeding of SIGGRAPH 
+2004),23(3),pp.259-263(2004) Permission to make digital or hard copies of part or all of this work for 
+personal or classroom use isgranted without fee provided that copies are not made or distributed for 
+commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights 
+for third-party components of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 
+2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503689</article_id>
+		<sort_key>160</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>16</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>16</seq_no>
+		<title><![CDATA[Romibo robot project]]></title>
+		<subtitle><![CDATA[an open-source effort to develop a low-cost sensory adaptable robot for special needs therapy and education]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503689</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503689</url>
+		<abstract>
+			<par><![CDATA[<p>The Romibo Robot Project is an evolving robot for motivation, education and social therapy. Our project goal is to improve research techniques through the use of robots and social therapies while providing value to the Do-It-Yourself movement and STEM education initiatives. The robot has been designed around applications for individuals with conditions including autism, traumatic brain injury and dementia. Romibo includes features taken from other therapeutic robots currently used in research, such as Keepon, Pleo and Paro. The Romibo Project stands out by providing a low-cost development platform while providing the necessary features for use in a wide range of social therapies. The platform features a fully customizable design, allowing for individual creativity, ease of assembly and experimentation. Romibo is a social robot, able to convey emotions, communicate socially, and form relationships with individuals.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191286</person_id>
+				<author_profile_id><![CDATA[81416607001]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Aubrey]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Shick]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University, Pittsburgh, PA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[aubreyshick@cs.cmu.edu]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Aldebaran Robotics. "NAO." 2012. http://www.aldebaran-robotics.com/en/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Feil-Seifer, David, and Maja J. Mataric. "Defining socially assistive robotics." Rehabilitation Robotics, 2005. ICORR 2005. 9th International Conference on. IEEE, 2005.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Kozima, H., Michalowski, M. P., & Nakagawa, C. (2008). Keepon - A Playful Robot for Research, Therapy, and Entertainment. International Journal of Social Robotics, 1(1), 3--18.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Scassellati, Brian, H. Admoni and Maja Matari&#263;. 2012. "Robots for Use in Autism Research." Annual review of biomedical engineering, (May), 275--294.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1349858</ref_obj_id>
+				<ref_obj_pid>1349822</ref_obj_pid>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Stanton, C. M., Kahn Jr., P. H., Severson, R. L., Ruckert, J. H., & Gill, B. T. (2008). Robotic animals might aid in the social development of children with autism. (<i>Proceedings of HRI '08</i>), 271.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Romibo Robot Project An Open-Source Effort to Develop a Low-CostSensory Adaptable Robot for Special 
+Needs Therapy and Education Aubrey ShickCarnegie Mellon University, Robotics InstituteQuality of Life 
+Technology CenterPittsburgh, PA, USAaubreyshick@cs.cmu.edu 1. Introduction The Romibo Robot Project is 
+an evolving robot for motivation,education and social therapy. Our project goal is to improve research 
+techniques through the use of robots and social therapieswhile providing value to the Do-It-Yourself 
+movement and STEMeducation initiatives. The robot has been designed around applications for individuals 
+with conditions including autism, traumatic brain injury and dementia. Romibo includes features taken 
+from other therapeutic robots currently used in research,such as Keepon, Pleo and Paro. The Romibo Project 
+stands out byproviding a low-cost development platform while providing the necessary features for use 
+in a wide range of social therapies. Theplatform features a fully customizable design, allowing for individual 
+creativity, ease of assembly and experimentation. Romibo is a social robot, able to convey emotions, 
+communicatesocially, and form relationships with individuals. 2. Robots in Social Therapy Today numerous 
+robots are in use for motivating and educatingpatients with autism, traumatic brain injury, dementia 
+and otherdisabilities [2]. Among the most used and effective robots areParo, Pleo, Keepon, NAO. Research 
+has shown that social interactions and verbal communication skills may increase by upto 30% when a robot 
+and child with ASD are interacting [5].Improvement is not only noticeable in interactions with the robot,but 
+also in subsequent interactions with parents and therapists. Existing social therapy robots rely on computational 
+systems thatrequire expert technologists to assist clinicians. Additionally,these systems are either 
+priceless, one-of-a-kind prototypes orhave been developed in limited numbers with expensive prototyping 
+technologies. Therapy robots in current production range between $16,000 and $30,000 [1, 3]. This prohibitive 
+cost excludes the general public from benefitting from this technology.  3. Romibo a Sensory Adaptable 
+Robot Extreme sensory idiosyncrasies and cognitive dissonances make itdifficult to create a general appearance 
+and robot behavior. Each child is different and requires a unique treatment regimen. An individual child 
+s needs vary from moment to moment and so thetherapy must be flexible in order to adapt [4]. Romibo is 
+able todynamically adapt to sensory preferences or therapeutic needsover time. For example a child may 
+start with a short furred slow­moving robot with simple pupils and over time move to a long-furquick-moving 
+robot with humanlike expressive eyes. The objective is to gently introduce a child to unpredictability 
+and facilitate their ability to generalize understanding over time. Theability to dynamically evolve 
+the robot with the person s individualized therapeutic needs and progression is an essential part of 
+the design. One robot may be configured for use with many children or adults. In practice, one clinician 
+may configure aunique visual, tactile, audio and gestural experience for each of many children. This 
+adaptability also allows the robot to dynamically evolve throughout the child's individualized therapy 
+experience. Once an appropriate configuration has been identified for the child a "prescription" configured 
+robot may be acquiredfor the child for supplementary therapeutic use in the home.  4. Future Work Romibo 
+is being developed as a open-source research platform kit to allow use for a range of purposes in therapy 
+or education.Building Romibo also teaches science, technology, engineering,and mathematics (STEM) skills 
+to individuals of all ages. Theform of the robot may be altered with simple line-editing tools and be 
+laser-cut to any shape. We are continuing to developRomibo with accompanying tablet apps and smartphone 
+eyes to leverage face-tracking, logging and other capabilities. References 1. Aldebaran Robotics. NAO. 
+2012. http://www.aldebaran­robotics.com/en/ 2. Feil-Seifer, David, and Maja J. Mataric. "Defining sociallyassistive 
+robotics." Rehabilitation Robotics, 2005. ICORR 2005. 9th International Conference on. IEEE, 2005. 3. 
+Kozima, H., Michalowski, M. P., &#38; Nakagawa, C. (2008).Keepon -A Playful Robot for Research, Therapy, 
+andEntertainment. International Journal of Social Robotics, 1(1),3 18. 4. Scassellati, Brian, H. Admoni 
+and Maja Mataric. 2012. Robots for Use in Autism Research. Annual review of biomedical engineering, (May), 
+275-294. 5. Stanton, C. M., Kahn Jr., P. H., Severson, R. L., Ruckert, J. H.,&#38; Gill, B. T. (2008). 
+Robotic animals might aid in the social development of children with autism. (Proceedings of HRI 08), 
+271.  Permission to make digital or hard copies of part or all of this work for personal or classroom 
+use isgranted without fee provided that copies are not made or distributed for commercial advantage and 
+that copies bear this notice and the full citation on the first page. Copyrights for third-party components 
+of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 
+2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503690</article_id>
+		<sort_key>170</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>17</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>17</seq_no>
+		<title><![CDATA[Tampa to Anaheim soup-to-nuts Hackshack]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503690</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503690</url>
+		<abstract>
+			<par><![CDATA[<p>The Tampa to Anaheim Hackshack workshop is designed for dogged tinkerers of all descriptions and levels of skill. Be your motives moral, ethical, frivolous, or just plain senseless, the Tampa to Anaheim Hackshack workshop provides the means and expertise to implement a large host of Ad-Hoc solutions to the issues of everyday life. Projects to be built by participants include the creation of a microphone and amplifier, a solenoid drum, a California or Florida citrus battery, machines made out of paper, a confetti cannon, a desk-mounted trebuchet, a clockwork manifesto, a passive water heater, a swamp cooler, and a portable distillery. In addition to instructions for small on-site projects and take-home projects of a larger scope, the workshop provides instruction in basic programming for Arduino, basic electronics, clockwork strategies for mechanization, and armchair engineering.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191287</person_id>
+				<author_profile_id><![CDATA[82458946057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Mark]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Weston]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of South Florida, Tampa, FL]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[mw@usf.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191288</person_id>
+				<author_profile_id><![CDATA[82458844657]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Anat]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Pollack]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of South Florida, Tampa, FL]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[anat@usf.edu]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[HTTP://MAKEZINE.COM/04/OWNYOUROWN/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ TAMPA TO ANAHEIM SOUP-TO-NUTS HACKSHACK Mark Weston University of South Florida Tampa, FL, USA mw@usf.edu 
+ 1. A How-To Workshop for Pursuits both Sensibleand Senseless The Tampa to Anaheim Hackshack workshop 
+is designed fordogged tinkerers of all descriptions and levels of skill. Be yourmotives moral, ethical, 
+frivolous, or just plain senseless, theTampa to Anaheim Hackshack workshop provides the means andexpertise 
+to implement a large host of Ad-Hoc solutions to theissues of everyday life. Projects to be built by 
+participants includethe creation of a microphone and amplifier, a solenoid drum, aCalifornia or Florida 
+citrus battery, machines made out of paper, a confetti cannon, a desk-mounted trebuchet, a clockwork 
+manifesto, a passive water heater, a swamp cooler, and a portabledistillery. In addition to instructions 
+for small on-site projects andtake-home projects of a larger scope, the workshop providesinstruction 
+in basic programming for Arduino, basic electronics, clockwork strategies for mechanization, and armchair 
+engineering. In this project, we examine the relationship between art and everyday life by combining 
+electronic technologies with analogue mechanisms in a willfully tinker-centric approach. The ongoing 
+surge of open source thinking, hacktivism, 3d printers,garage based manufactories, and electronic toolkits 
+has gifted thelaity with a level of accessibility to technology previouslyavailable only to the technical 
+elite. Suddenly, anyone can make anything. Within an art setting, technology and interactive experiences 
+provide new tools to an old outlet for commentary on contemporary culture, but also for exuberant expressions 
+of sheertechno-joy. In a time when digital communication systems areradically shifting the configuration 
+of contemporary social structures, and the speed of information technologies has resultedin a growing 
+alienation from "self" and "community," thisproject/artwork pursues a utopian social remediation prioritizing 
+memory, body, and community. The work bridges the edges ofmind, body, and technology by drawing participants 
+into an interactive experience that promotes awareness of socio­technological environments and, by so 
+doing, emphasizes humanresponsibility within them. All of the projects to be made in Anaheim are envisioned 
+to educate and delight participants with the ease andethic of producing everyday necessities and delights. 
+We seek tooffer likeminded handyfolk a sense of agency and freedom through making and creative problem-solving. 
+Some of the projects will be display items and handouts offering detailed step­by-step project schematics, 
+while other enterprises will offer audience participation and instruction, including working withmicrocontroller 
+toolkits, building analog and digital circuits, making musical instruments, controlling LED's, as well 
+as introductions to gears, pulleys and levers. We will also invite the audience to share in their favorite 
+DIY project, providing the munitions for the Hackshack arsenal. In addition to what we exhibit and teach 
+at this workshop, we will seek expertise fromthe audience, and encourage impromptu demonstrations from 
+outside our skillset. Our endeavor is driven by the philosophy that Making rather than consuming leads 
+to self-reliance, an engaged worldview, enhanced personal relationships, robust local Anat Pollack University 
+of South Florida Tampa, FL, USA anat@usf.edu economies, and ultimately to a sustainable future. Careful 
+research into historical and contemporary DIY movements revealsthat there is a growing resistance to 
+corporate cultural mediationthrough technology by a congregation of tinkerers who choose touse that very 
+technology as a means to draw closer. Under thisethic, our work explores the co-joined spaces between 
+self andcommunity and reveals how humankind can and must leverage technology to create a free and healthy 
+world, made by our ownhands. Implicit in this approach is a drive to develop poeticsystems that function 
+as tools as well as constructive critiques ona world running low on long-term critical thinking. By creatingwork 
+that overlaps old and new technologies to query the human experience, we create new spaces for reframing 
+a world which has grown complex beyond our understanding. An interactive workshop offers a space for 
+an audience to become responsibleparticipants in the work of making the world. Permission to make digital 
+or hard copies of part or all of this work for personal or classroom use isgranted without fee provided 
+that copies are not made or distributed for commercial advantage and that copies bear this notice and 
+the full citation on the first page. Copyrights for third-party components of thiswork must be honored. 
+For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 
+Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503691</article_id>
+		<sort_key>180</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>18</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>18</seq_no>
+		<title><![CDATA[2.5D graphics in mobile apps using "Corona SDK"]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503691</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503691</url>
+		<abstract>
+			<par><![CDATA[<p>Corona SDK is a Lua-based framework for iOS and Android app development. The latest release optimizes OpenGL-ES 2 for 2D based on the painter-based graphics model familiar to interactive designers. This enables an intuitive programming paradigm for advanced motion graphics rendering, such as Photoshop-style filter effects, video compositing, and 3D perspective without the Z-axis.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191289</person_id>
+				<author_profile_id><![CDATA[82458817557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Walter]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Luh]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Corona Labs Inc., Palo Alto, CA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[wluh@coronalabs.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2.5D Graphics in Mobile Appsusing Corona SDK Walter Luh Corona Labs Inc Palo Alto, CA, USA wluh@coronalabs.com 
+ Abstract Corona SDK is a Lua-based framework for iOS and Android app development. The latest release 
+optimizes OpenGL-ES 2 for 2D based on the painter-based graphics model familiar to interactive designers. 
+This enables an intuitive programming paradigm for advanced motion graphics rendering, such asPhotoshop-style 
+.lter effects, video compositing, and 3D perspective without the Z-axis. Permission to make digital 
+or hard copies of part or all of this work for personal or classroom use isgranted without fee provided 
+that copies are not made or distributed for commercial advantage and that copies bear this notice and 
+the full citation on the first page. Copyrights for third-party components of thiswork must be honored. 
+For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 
+Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503692</article_id>
+		<sort_key>190</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>19</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>19</seq_no>
+		<title><![CDATA[Alternative digital fine art printmaking]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503692</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503692</url>
+		<abstract>
+			<par><![CDATA[<p>Nance Paternoster and Lyn Bishop are exploring the process of Alternative Digital Fine Art Printmaking in their work. Their experimentation with digital printmaking onto alternative surfaces has included printing onto fabric, metal, uncoated fine art papers, acrylic skins, transfer film and other unique substraits.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191290</person_id>
+				<author_profile_id><![CDATA[82459284057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Nance]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Paternoster]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191291</person_id>
+				<author_profile_id><![CDATA[81335488001]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Lyn]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bishop]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Alternative Digital Fine Art Printmaking Nance Paternoster Digitial Artist/Compositior-FX Artist/Instructor 
+blog: http://synergisticpreservations.wordpress.com/ www.nancepaternoster.com Lyn Bishop Artist blog: 
+http://lynbishop.com/blog/ www.lynbishop.com  1. Introduction: Nance Paternoster and Lyn Bishop are 
+exploring the process of Alternative Digital Fine Art Printmaking in their work. Their experimentation 
+with digital printmaking onto alternative surfaces has included printing onto fabric, metal, uncoated 
+fine art papers, acrylic skins, transfer film and other unique substraits. 2. Exposition Their unique 
+experience using the latest in tools and processes to­gether with a variety of different ink jet printers 
+has allowed them to fine tune various techniques in an effort to produce unique, original artwork that 
+fuses both the digital and the traditional worlds of printmaking together. 2.1 Elaboration Paternoster 
+and Bishop will demystify the process of creating hybrid alternative digital fine art prints. They will 
+share many of their successful outcomes and as well important challenges that they have faced in the 
+experimentation process. In addition, they will discuss collaborative projects combining several of the 
+different techniques presented. The two will go on to discuss issues including moisture, archivability, 
+tools, products, printers, color management, and other topics related to their past experimentation in 
+the field. 3. Results The artists will present their results of their various projects that they have 
+executed and exhibited, as well as share tips and techniques that will enable SIGGRAPH attendees to return 
+to their personal studios and experiment with these techniques. In addition, the artists will be presenting 
+hands on demonstrations in The Studio area within the 2013 SIGGRAPH conference for attendees to try themselves. 
+4. Conclusion The artists aim to share their love for the process of alternative digital fine art printmaking 
+through discussions of collaboration, experimentation and following their gut instincts in their contin­ued 
+investigation of creating hybrid fine art prints. Nance Paternoster s H_N_O_Flntg From the Underwater 
+Masking series giclee print onto aluminum w/MSA varnish, 11 x 14  Lyn Bishop s Bombs Away , From the 
+Mundane Spaces series luminescent screen print, pigment print on Hahnemüehle Tokinoko paper mounted 
+to traditional Japanese shikishi board, 10.75 x 9.5  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503693</article_id>
+		<sort_key>200</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>20</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>20</seq_no>
+		<title><![CDATA[Collaborative rephotography]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503693</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503693</url>
+		<abstract>
+			<par><![CDATA[<p>Rephotography is the process of capturing the same scene at a different time, in order to capture changes. Previous work at SIGGRAPH [BAE2010] demonstrated the ability for smart-phone apps to guide a user to the correct viewpoint, here we promote the use of such tools distributed widely over space and time, by enabling collaborative projects that allow multiple users to re-photograph multiple sites over time. These sites may be architectural, social, urban scenes or ecological. Current projects utilizing our mobile tools range from nation-scale rephotography of scenic overlooks, to monitoring of urban street trees in NYC by local conservancy group volunteers. Rephotography directly connects pictures at one time to pictures at another time. It also connects a photographer at one time to a photographer at another time, by providing a mechanism to collaboratively record the story of how our world changes.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191292</person_id>
+				<author_profile_id><![CDATA[82459319157]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ruth]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[West]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of North Texas, Denton, TX]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ruth@viewingspace.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191293</person_id>
+				<author_profile_id><![CDATA[82459004357]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Abby]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Halley]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Washington University, MO]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ahalley@seas.wustl.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191294</person_id>
+				<author_profile_id><![CDATA[82458834657]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Daniel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gordon]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Washington University, MO]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[dgordon@seas.wustl.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191295</person_id>
+				<author_profile_id><![CDATA[82458956657]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Jarlath]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[O'Neil-Dunne]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Vermont, Burlington, VT]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[joneildu@uvm.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191296</person_id>
+				<author_profile_id><![CDATA[81100514541]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Robert]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Pless]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Washington University, MO]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[pless@cs.wustl.edu]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>1805968</ref_obj_id>
+				<ref_obj_pid>1805964</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Bae S., Agarwala A., Durand F.: Computational rephotography. ACM TOG 29, 3 (2010), 24:1--24:15]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Collaborative Rephotography Ruth West University of North Texas 1155 Union Circle Denton, TX 76203 
+ruth@viewingspace.com Abby Halley Computer Science Washington University St. Louis, MO, 63130 ahalley@seas.wustl.edu 
+ Daniel Gordon Computer ScienceWashington UniversitySt. Louis, MO, 63130 dgordon@seas.wustl.edu Jarlath 
+O Neil-Dunne University of VermontSpatial Analysis LabBurlington, VT 05405joneildu@uvm.edu Robert Pless 
+Computer Science Washington University St. Louis, MO, 63130 pless@cs.wustl.edu  1. Introduction Rephotography 
+is the process of capturing the same scene at adifferent time, in order to capture changes. Previous 
+work at SIGGRAPH [BAE2010] demonstrated the ability for smart-phoneapps to guide a user to the correct 
+viewpoint, here we promote theuse of such tools distributed widely over space and time, by enabling collaborative 
+projects that allow multiple users to re­photograph multiple sites over time. These sites may be architectural, 
+social, urban scenes or ecological. Current projectsutilizing our mobile tools range from nation-scale 
+rephotographyof scenic overlooks, to monitoring of urban street trees in NYC by local conservancy group 
+volunteers. Rephotography directly connects pictures at one time to pictures at another time. It also 
+connects a photographer at one time to a photographer at anothertime, by providing a mechanism to collaboratively 
+record thestory of how our world changes. 2. Design and Workflow While several rephotography projects 
+exist to document particular locations and changes, a more powerful tool can leveragevolunteers on an 
+occasional basis by providing a database ofrephoto locations. This led to a user experience that is location 
+based and includes the lowest possible barrier to entry forvolunteer users, comprising the following 
+illustrated steps:  (1) chooe photo subject from map, then (2) verify the photograph subject, (3) align 
+current picture using transparent overlay, and (4) upload the image. Collaborative re-photography allows 
+anyone to contribute to projects, facilitating projects that require pictures taken over atemporal or 
+spatial extent that is not possible for a single person. Ongoing projectsincludenationalscenicoverlooks 
+(1stmapscreenshot,  left)andtheGowanusconservancyinNYC(2ndmapscreenshot),  where volunteersuse rephototomonitorthehealth,changes, 
+andlocalenvironmentofstreettrees. New projects can be defined by specifying the GPS locations, ifavailable, 
+and/or initial pictures for each subject, if available. Current projects have spatial scales ranging 
+from national studiesof landscape change through re-photography from scenic overlooks, and local monitoring 
+of urban forest health, using volunteers from local tree conservancy groups. 3. Visualizing the Collaborative 
+Collaborative contributions are visualized through a web andmobile interface, showing the map of each 
+project, a timeline ofthe data submission to the project, and a random montage ofrecent submissions: 
+ Visit: http://www.projectrephoto.com/ 4. Conclusions Rephotography is already recognized as a tool 
+to record andquantify changes in the environment, but distributing the ability for any person to define 
+and contribute to projects makes possible applications that require frequent and widespread data contributions. 
+This supports current efforts in citizen science,stewardship, and sustainability. It also promotes a 
+new tool incoordinating efforts for community participation in collecting data documenting changes in 
+social and ecological environments. References BAE S., AGARWALA A., DURAND F.: COMPUTATIONAL REPHOTOGRAPHY. 
+ACM TOG 29, 3 (2010), 24:1 24:15 This material is based upon work supported by the NationalScience Foundation 
+under Grant No. DEB1053566. Permission to make digital or hard copies of part or all of this work for 
+personal or classroom use isgranted without fee provided that copies are not made or distributed for 
+commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights 
+for third-party components of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 
+2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503694</article_id>
+		<sort_key>210</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>21</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>21</seq_no>
+		<title><![CDATA[Air painting with Corel Painter Freestyle and the leap motion controller]]></title>
+		<subtitle><![CDATA[a revolutionary new way to paint!]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503694</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503694</url>
+		<abstract>
+			<par><![CDATA[<p>The feel of air painting is like none other! It is like being a dancer, conductor and magician all wrapped up in one. As legendary science fiction writer and visionary, Arthur C. Clarke, famously said, "any sufficiently advanced technology is indistinguishable from magic". Air painting is indeed magical! Imagine being able to control every aspect of the painting process through only gesture and movement of your fingers in the air, and being able to paint with up to ten simultaneous brush strokes controlled by the movement of your fingers and thumbs on both hands. This is now a reality with the combination of the revolutionary new Leap Motion Controller providing 3-D motion-generated input data to the Corel Painter Freestyle application. It is the powerful synergy of these two complementary technologies applied to fine art observational painting that is the focus of this talk.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191297</person_id>
+				<author_profile_id><![CDATA[82458927057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jeremy]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sutton]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Sutton Studios & Gallery, San Francisco, CA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jeremy@jeremysutton.com]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[http://www.paintboxtv.com/air-painting/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[https://www.leapmotion.com/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[http://www.corel.com/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Air Painting with Corel Painter Freestyle and the Leap Motion Controller: A Revolutionary New Way to 
+Paint! Jeremy Sutton Sutton Studios &#38; Gallery San Francisco, CA, USA jeremy@jeremysutton.com 1. 
+Introduction The feel of air painting is like none other! It is like being a dancer, conductor and magician 
+all wrapped up in one. As legendary science fiction writer and visionary, Arthur C. Clarke, famously 
+said, "any sufficiently advanced technology is indistinguishable from magic". Air painting is indeed 
+magical! Imagine being able to control every aspect of the painting process through only gesture and 
+movement of your fingers in the air, and being able to paint with up to ten simultaneous brush strokes 
+controlled by the movement of your fingers and thumbs on both hands. This is now a reality with the combination 
+of the revolutionary new Leap Motion Controller providing 3-D motion-generated input data to the Corel 
+Painter Freestyle application. It is the powerful synergy of these two complementary technologies applied 
+to fine art observational painting that is the focus of this talk. 2. Exposition Artist and Corel Painter 
+Master Jeremy Sutton, author of the Painter Creativity Digital Artist s Handbook series of books, has 
+worked closely with Leap Motion and Corel to help develop the air painting user interface. He is named 
+as a co-inventor on Corel s pending patent application for controlling color selection using gestures 
+in a vision system. In this talk, Jeremy will demonstrate live air painting. He will take you step-by-step 
+through the capabilities of the Corel Painter Freestyle software, showing how to choose, adjust and control 
+brushes, color and texture, undo and save, all through motion in the air. Jeremy will share examples 
+of his air paintings, one of which is shown here in this abstract. While demonstrating air painting, 
+and with reference to his artworks, Jeremy will address the following commonly asked questions: 1. Is 
+air painting just a gimmick or a serious new painting technology suitable for professional use? 2. Does 
+air painting give you as much control as when using a Wacom pen tablet? 3. Will the Leap Motion Controller 
+replace or complement the Wacom pen tablet? 4. What distinguishes painting in the air from painting 
+with other media? 5. Do you need to wear anything special, or attach anything special to your hand, 
+to use the Leap Motion Controller? 6. What difference does holding a tool, such as a chopstick or a 
+paintbrush, make versus painting with a finger? 7. Is air painting tiring on the arms? 8. Is the lack 
+of resistance an obstacle to producing art? 9. Can you paint from photo reference in Corel Painter 
+ Freestyle? In addition to addressing these questions, Jeremy will also share tips on air painting technique, 
+including his approach to leaning in and out of the hover plane for fine brush control.  Figure 2. The 
+resulting still life shown being created in Figure 1. 4. Conclusions Air painting is a powerful new 
+way to paint that has appeal across a broad spectrum of potential users, from enthusiasts and hobbyists 
+who want to have fun and experiment, to professional painters, illustrators, cartoonists and sketch artists 
+who are looking for new looks in their artwork. It is well worth putting the time and effort into getting 
+used to the three dimensional painting and hover zones. The reward is the magical and fun experience 
+of painting in the air! Reference URLs http://www.paintboxtv.com/air-painting/ https://www.leapmotion.com/ 
+http://www.corel.com/ Permission to make digital or hard copies of part or all of this work for personal 
+or classroom use isgranted without fee provided that copies are not made or distributed for commercial 
+advantage and that copies bear this notice and the full citation on the first page. Copyrights for third-party 
+components of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 
+21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503695</article_id>
+		<sort_key>220</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>22</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>22</seq_no>
+		<title><![CDATA[Tower of the Dragon]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503695</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503695</url>
+		<abstract>
+			<par><![CDATA[<p>Tracy McSheery will give a presentation example of pre-visualization, showing work in progress on the full length animated movie <b><i>Tower of the Dragon</i></b> (http://www.towerofthedragon.com) where tools readily available from commercial vendors (no specialized tools will be used to make the movie) from Autodesk, Otoy, HP, Nvidia and others will allow low cost productions of full animated movies. Special guests will be present during the talk, including celebrated author David Gerrold from Star Trek, STNG, The Martian Child, along with actors and production members.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191298</person_id>
+				<author_profile_id><![CDATA[82458809457]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Tracy]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McSheery]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[PhaseSpace, Inc., San Leandro, CA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[tracy@phasespace.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Tower of the Dragon Tracy McSheery PhaseSpace, Inc. San Leandro, CA USA tracy@phasespace.com 1. Introduction 
+Tracy McSheery will give a presentation example of pre-visualization, showing work in progress on the 
+full length animated movie Tower of the Dragon (http://www.towerofthedragon.com ) where tools readily 
+available from commercial vendors (no specialized tools will be used to make the movie) from Autodesk, 
+Otoy, HP, Nvidia and others will allow low cost productions of full animated movies. Special guests will 
+be present during the talk, including celebrated author David Gerrold from Star Trek, STNG, The Martian 
+Child, along with actors and production members. www.towerofthedragon.com 2. Exposition The Tower of 
+the Dragon project will change the wayanimations are done, not by a single revolutionarystep, but by 
+starting fresh and taking advantage of themyriad hardware, software and production tools available and 
+supported by the computer and gamesindustries. Figure 1 Permission to make digital or hard copies of 
+part or all of this work for personal or classroom use isgranted without fee provided that copies are 
+not made or distributed for commercial advantage and that copies bear this notice and the full citation 
+on the first page. Copyrights for third-party components of thiswork must be honored. For all other uses, 
+contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by 
+the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503696</article_id>
+		<sort_key>230</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>23</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>23</seq_no>
+		<title><![CDATA[Mobile visual computing in C++ on Android]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503673.2503696</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503696</url>
+		<abstract>
+			<par><![CDATA[<p>Based on a tutorial developed by NVIDIA's Mobile Visual Computing team, this course will teach the basics to jump-start a visual computing project on Android using native C/C++ code. After explaining how to set up the programming environment and write a simple native application, we will dive into more advanced topics related to Computer Vision (using OpenCV optimized for Android), and high-performance Image Processing (using OpenGL ES2).</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4191299</person_id>
+				<author_profile_id><![CDATA[82459167557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Yun-Ta]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Tsai]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ytsai@nvidia.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191300</person_id>
+				<author_profile_id><![CDATA[81477644373]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Orazio]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gallo]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ogallo@nvidia.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191301</person_id>
+				<author_profile_id><![CDATA[82458902057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Pajak]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[dpajak@nvidia.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4191302</person_id>
+				<author_profile_id><![CDATA[81100567347]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Kari]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Pulli]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[karip@nvidia.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Mobile Visual Computing in C++ on Android Yun-Ta Tsai* Orazio Gallo David Pajak Kari Pulli§ NVIDIA 
+NVIDIA NVIDIA NVIDIA Abstract Based on a tutorial developed by NVIDIA s Mobile Visual Com­puting team1, 
+this course will teach the basics to jump-start a visual computing project on Android using native C/C++ 
+code. After ex­plaining how to set up the programming environment and write a simple native application, 
+we will dive into more advanced topics related to Computer Vision (using OpenCV optimized for Android), 
+and high-performance Image Processing (using OpenGL ES2). 1 Introduction Android is inherently Java-oriented, 
+but native code is often a better choice for computationally heavy algorithms such as those used in visual 
+computing; among other things, it allows to exploit the power of heterogeneous computing and hardware 
+intrinsics. This course is targeted to people who are .uent in C/C++, but are not familiar with the native 
+Android development work.ow. We di­vided the tutorial into three sections: Android Native Development, 
+OpenCV, and OpenGL. As the course progresses, we will gradually build a complete visual computing application 
+which can serve as a building block for larger projects. 2 Android Native Development In this section, 
+we will quickly get people familiar with the devel­opment environment using the Tegra Android Development 
+Pack (TADP). TADP is a collection of freely available tools developed by NVIDIA to simplify the native 
+development on Android; it is fully compatible with of.cial Android systems, it is highly optimized for 
+Tegra-based devices, although it can be used with non-Tegra de­vices as well. The TADP also comes with 
+several examples that make the process of getting started easier. We will start from project creation, 
+the project s folder structure, the Android Native Activity system, Make.les, permissions, and the Android 
+Debug Bridge (ADB), which allows to communicate with Android devices. Finally, we will explain how to 
+ef.ciently debug in the Android native environment. At the end of this section, the audience should be 
+able to create a C/C++ project for Android. 3 OpenCV OpenCV is the de facto standard vision library; 
+it has been widely used and extended by the computer vision community for years. It is a great tool to 
+evaluate ideas quickly. Moreover, the TADP includes an highly optimized version of OpenCV for Tegra, 
+allow­ing developers to enjoy the convenient API without sacri.cing per­formance. In this section, we 
+will demonstrate how to integrate OpenCV in our Android project, how to control the camera of the *e-mail:ytsai@nvidia.com 
+e-mail:ogallo@nvidia.com e-mail:dpajak@nvidia.com §e-mail:karip@nvidia.com 1https://developer.nvidia.com/content/ 
+ native-android-development-tutorial  Figure 1: A screen-host of an NVIDIA-powered tablet performing 
+real-time feature detection. Today s mobile devices are suf.ciently powerful to run algorithms that were 
+prohibitive on desktop ma­chines only a few years ago. However, getting started with writing native code 
+for the Android platform can be intimidating even for programmers who are pro.cient in C/C++. device, 
+how to perform some basic computation, and how to display the results. 4 OpenGL ES2 and GPGPU OpenGL 
+ES2 is often necessary to render compelling visual content ef.ciently on Android, as it allows to off-load 
+all the heavy lifting to the GPU. In this section, we will show how to display content using OpenGL ES2, 
+with tips to improve performance in the presence of a heterogeneous pipeline that includes other hardware 
+resources, such as the CPU. The TADP also provides a set of open-source helpers to reduce the complexity 
+of the management of resources, such as textures and shaders. We will walk the audience through some 
+of the useful functionality that makes OpenGL ES2 programming easier. Finally, we will demonstrate how 
+to use shaders to perform GPGPU on the device, and we will compare the performance with the opti­mized 
+implementation for OpenCV. 5 Conclusion The same algorithms that were prohibitive for desktop machines 
+only a few years ago, are now making their way to mobile devices. This course will simplify the transition 
+from the traditional pro­gramming environment to mobile development. After attending this course, researchers 
+and scientists will be able to quickly prototype their ideas on Android platforms. Permission to make 
+digital or hard copies of part or all of this work for personal or classroom use isgranted without fee 
+provided that copies are not made or distributed for commercial advantage and that copies bear this notice 
+and the full citation on the first page. Copyrights for third-party components of thiswork must be honored. 
+For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 
+Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+</content>
+</proceeding>

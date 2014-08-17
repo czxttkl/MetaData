@@ -1,0 +1,3672 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08/05/2012</start_date>
+		<end_date>08/09/2012</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Los Angeles]]></city>
+		<state>California</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>2341836</proc_id>
+	<acronym>SIGGRAPH '12</acronym>
+	<proc_desc>ACM SIGGRAPH 2012 Computer Animation Festival</proc_desc>
+	<conference_number>2012</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-4503-1677-4</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2012</copyright_year>
+	<publication_date>08-05-2012</publication_date>
+	<pages>77</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>The leading annual festival for the world's most innovative, accomplished, and amazing digital film and video creators. An internationally recognized jury receives hundreds of submissions and presents the best work of the year in Daily Selects and the Electronic Theater. Selections include outstanding achievements in time-based art, scientific visualization, visual effects, real-time graphics, and narrative shorts.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+</proceeding_rec>
+<content>
+	<section>
+		<section_id>2341837</section_id>
+		<sort_key>10</sort_key>
+		<section_seq_no>1</section_seq_no>
+		<section_type>SECTION</section_type>
+		<section_title><![CDATA[Computer Animation Festival]]></section_title>
+		<section_page_from>5</section_page_from>
+	<article_rec>
+		<article_id>2341838</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Abiogenesis]]></title>
+		<page_from>5</page_from>
+		<page_to>5</page_to>
+		<doi_number>10.1145/2341836.2341838</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341838</url>
+		<abstract>
+			<par><![CDATA[<p>A mysterious robot lands on a desolate world and uses the planet to undergo a startling transformation that has profound implications for an entire galaxy.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734246</person_id>
+				<author_profile_id><![CDATA[81504682997]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Richard]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mans]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Fuzzy Realms Ltd, New Zealand]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[richard@fuzzyrealms.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341839</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Amsterdam DNA]]></title>
+		<page_from>6</page_from>
+		<page_to>6</page_to>
+		<doi_number>10.1145/2341836.2341839</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341839</url>
+		<abstract>
+			<par><![CDATA[<p>The Amsterdam Museum opened an entirely new department: Amsterdam DNA, a three-dimensional, 45-minute journey through the Dutch capital's history. The story of the city is presented in seven intriguing films.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734247</person_id>
+				<author_profile_id><![CDATA[81504688235]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Marcel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Vrieswijk]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[PlusOne, Netherlands]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[marcel@plusoneamsterdam.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341840</article_id>
+		<sort_key>40</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Aquatic Bloom]]></title>
+		<page_from>7</page_from>
+		<page_to>7</page_to>
+		<doi_number>10.1145/2341836.2341840</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341840</url>
+		<abstract>
+			<par><![CDATA[<p>"Aquatic Bloom" is about the playful interactions of a mechanical fish and a hermit crab with a flower.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734248</person_id>
+				<author_profile_id><![CDATA[81504687657]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Sarah]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Schuerhoff]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[School of Visual Arts]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[sschuerhoff@sva.edu]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341841</article_id>
+		<sort_key>50</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Brother]]></title>
+		<page_from>8</page_from>
+		<page_to>8</page_to>
+		<doi_number>10.1145/2341836.2341841</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341841</url>
+		<abstract>
+			<par><![CDATA[<p>"Brother" is about a humanoid robot whose job in life is to build mechanical creatures. However, he is never able to succeed in bringing his creations to life. Brother later realizes that feelings and emotions play a large part in making a successful piece.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734249</person_id>
+				<author_profile_id><![CDATA[81504687705]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Sari]]></first_name>
+				<middle_name><![CDATA[Brielle]]></middle_name>
+				<last_name><![CDATA[Rodrig]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[School of Visual Arts]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[saribrielle@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341842</article_id>
+		<sort_key>60</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[Clover "Way Better"]]></title>
+		<page_from>9</page_from>
+		<page_to>9</page_to>
+		<doi_number>10.1145/2341836.2341842</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341842</url>
+		<abstract>
+			<par><![CDATA[<p>Shy The Sun creates a fantastical world of clover milk, cream, cheese and butter in the Milky Way.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734250</person_id>
+				<author_profile_id><![CDATA[81504688669]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Cecile]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Barou]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Passion Pictures, United Kingdom]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[cecile@passion-pictures.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Clover Way better  contact Cecile barou Passion Pictures cecile@passion-pictures.com www.passion-pictures.com 
+United Kingdom  Shy The Sun creates a fantastical world of clover milk, cream, cheese and butter in 
+the Milky Way. production Company Shy The Sun Animation Director Jannes Hendrikz Character Designs and 
+Concept Development Ree Treweek Character and environ­ment Development Linsey Levendall modelling and 
+Animation Stanley Segal producer Nina Pfeiffer Assistant producer Andre Sales post-production and Animation 
+BlackGinger vFX supervisor Hilton Treves Animation supervisor Darrin Hofmeyr lead nuke Compositor Marco 
+Raposo de Barbosa lighting &#38; rendering Jason Slabber William Harley post producer Tracy-Lee Portnoi 
+production House (live Action top &#38; tail) CAB Films Director Bruce Paynter producer Charles Gallacher 
+line producer Suzanne Currie production Coordinator Warren Amour 9 Computer Animation Festival SIGGRAPH 
+2012 tAble oF Contents 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341843</article_id>
+		<sort_key>70</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>6</seq_no>
+		<title><![CDATA[Coke]]></title>
+		<subtitle><![CDATA["Spirit of the Euro"]]></subtitle>
+		<page_from>10</page_from>
+		<page_to>10</page_to>
+		<doi_number>10.1145/2341836.2341843</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341843</url>
+		<abstract>
+			<par><![CDATA[<p>In "Spirit of the Euro", a crazed soccer fan, dressed in red and white Coca-Cola colors, flies a giant soccer shoe that runs on Coca-Cola and spews carbonated bubbles in the shape of soccer balls. The soccer balls shower the city, transforming its many residents into fun-loving fans.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734251</person_id>
+				<author_profile_id><![CDATA[81504686818]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Holly]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Petersen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Bent Image Lab]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[hollyp@bentimagelab.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Coke: spirit of the euro contact Holly petersen Bent Image Lab hollyp@bentimagelab.com www.bentimagelab.com 
+United States In Spirit of the Euro , a crazed soccer fan, dressed in red and white Coca-Cola colors, 
+flies a giant soccer shoe that runs on Coca-Cola and spews carbonated bubbles in the shape of soccer 
+balls. The soccer balls shower the city, transforming its many residents into fun-loving fans. Director/production 
+Copywriters producer Designer Pablo Minces Marissa Weisman Carlos Lascano Sebastian Wilhelm Juan Pablo 
+Lufrano mixer/engineer executive producer Lance Limbocker Ray Di Carlo Art Director Maximiliano Anselmo 
+technical Director Client Joshua Cox Coke executive producer Leando Sussman CG Art Director Agency Javier 
+Leon SANTO Agency producers Nadia Lozano vo talent executive Creative Sam Mowry Director Global Account 
+Director Sebastian Wilhelm Ignacio Diez executive Creative Account executive Director Ricardo Honnegger 
+Maximiliano Anselmo Sheila Suaya General Creative production Company Director Bent Image Lab Pablo Minces 
+ 10 Computer Animation Festival SIGGRAPH 2012 tAble oF Contents 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341844</article_id>
+		<sort_key>80</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>7</seq_no>
+		<title><![CDATA[Dilated pixels episodic television VFX 2011-12]]></title>
+		<page_from>11</page_from>
+		<page_to>11</page_to>
+		<doi_number>10.1145/2341836.2341844</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341844</url>
+		<abstract>
+			<par><![CDATA[<p>This reel showcases episodic television work from 2011 to 2012: effects from "<i>Fringe</i>" and "<i>CSI: Crime Scene Investigation</i>".</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734252</person_id>
+				<author_profile_id><![CDATA[81504686162]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[P.]]></first_name>
+				<middle_name><![CDATA[J.]]></middle_name>
+				<last_name><![CDATA[Foley]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Dilated Pixels]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[pjf@dilatedpixels.net]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341845</article_id>
+		<sort_key>90</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>8</seq_no>
+		<title><![CDATA[DiRT3]]></title>
+		<page_from>12</page_from>
+		<page_to>12</page_to>
+		<doi_number>10.1145/2341836.2341845</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341845</url>
+		<abstract>
+			<par><![CDATA[<p>RealtimeUK was appointed by Codemasters to produce a CG teaser trailer for their new game release DiRT3---the latest game from the successful DiRT franchise.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734253</person_id>
+				<author_profile_id><![CDATA[81504687680]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jenny]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McConchie]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[RealtimeUK, United Kingdom]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jenny@realtimeuk.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341846</article_id>
+		<sort_key>100</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>9</seq_no>
+		<title><![CDATA[DiRT showdown]]></title>
+		<page_from>13</page_from>
+		<page_to>13</page_to>
+		<doi_number>10.1145/2341836.2341846</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341846</url>
+		<abstract>
+			<par><![CDATA[<p>An action-packed, dynamic trailer for DiRT Showdown.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734254</person_id>
+				<author_profile_id><![CDATA[81504687680]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jenny]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McConchie]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[RealtimeUK, United Kingdom]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jenny@realtimeuk.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341847</article_id>
+		<sort_key>110</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>10</seq_no>
+		<title><![CDATA[Divine intervention]]></title>
+		<page_from>14</page_from>
+		<page_to>14</page_to>
+		<doi_number>10.1145/2341836.2341847</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341847</url>
+		<abstract>
+			<par><![CDATA[<p>Two turtles are making a living as performers on the street. Suddenly, all the money they earned disappears without any reason, so the turtles misunderstand each other and fight. However, they do not know that the money was stolen by a human.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734255</person_id>
+				<author_profile_id><![CDATA[81504686976]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Alan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chiou]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[National Taiwan University of Science and Technology, Taiwan]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[dmd@yuntech.edu.tw]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341848</article_id>
+		<sort_key>120</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>11</seq_no>
+		<title><![CDATA[Dota 2 teaser]]></title>
+		<page_from>15</page_from>
+		<page_to>15</page_to>
+		<doi_number>10.1145/2341836.2341848</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341848</url>
+		<abstract>
+			<par><![CDATA[<p>Dota 2 is a multiplayer action game that pits players against each other as heroes fighting for control of a fantasy battlefield. On the surface, the game is marked by mayhem and magic. It is a deep and complex game that rewards players with endless opportunities for mastery.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734256</person_id>
+				<author_profile_id><![CDATA[81466647603]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Lars]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jensvold]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Valve Corporation]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[lars@valvesoftware.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341849</article_id>
+		<sort_key>130</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>12</seq_no>
+		<title><![CDATA[Douce menace]]></title>
+		<page_from>16</page_from>
+		<page_to>16</page_to>
+		<doi_number>10.1145/2341836.2341849</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341849</url>
+		<abstract>
+			<par><![CDATA[<p>Dawn. Paris is waking. A giant feather falls slowly to earth, settling over the city. We see Paris from a different perspective. A soft and light feather floating 80 meters above the city is more dangerous than it might seem.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734257</person_id>
+				<author_profile_id><![CDATA[81552216256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Annabel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sebag]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Premium Films, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[animation@premium-films.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341850</article_id>
+		<sort_key>140</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>13</seq_no>
+		<title><![CDATA[Encounter]]></title>
+		<page_from>20</page_from>
+		<page_to>20</page_to>
+		<doi_number>10.1145/2341836.2341850</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341850</url>
+		<abstract>
+			<par><![CDATA[<p>A story about a boy who was severely injured and loses his family in an accident. He struggles to escape from the unpleasant situation and is finally released, mentally and physically.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734258</person_id>
+				<author_profile_id><![CDATA[81504684630]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[SeeHun]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jeon]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[School of Visual Arts]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[seehun.jeon@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341851</article_id>
+		<sort_key>150</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>14</seq_no>
+		<title><![CDATA[Estefan]]></title>
+		<page_from>21</page_from>
+		<page_to>21</page_to>
+		<doi_number>10.1145/2341836.2341851</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341851</url>
+		<abstract>
+			<par><![CDATA[<p>The world's greatest hairdresser, Estefan, is faced with his ultimate challenge: design the perfect hairstyle for Clara, a woman with no hair.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734259</person_id>
+				<author_profile_id><![CDATA[81504686129]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jeffrey]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Call]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Brigham Young University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jeffisnotart@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341852</article_id>
+		<sort_key>160</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>15</seq_no>
+		<title><![CDATA[Evolution of the moon]]></title>
+		<page_from>22</page_from>
+		<page_to>22</page_to>
+		<doi_number>10.1145/2341836.2341852</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341852</url>
+		<abstract>
+			<par><![CDATA[<p>Witness nearly five billion years of history in less then three minutes as NASA presents the evolution of our moon, from its infancy as a superheated ball of magma to the cratered, rocky satellite we know today.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734260</person_id>
+				<author_profile_id><![CDATA[81504685599]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Christopher]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Smith]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NASA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[christopher.j.smith-1@nasa.gov]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341853</article_id>
+		<sort_key>170</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>16</seq_no>
+		<title><![CDATA[Fat]]></title>
+		<page_from>23</page_from>
+		<page_to>23</page_to>
+		<doi_number>10.1145/2341836.2341853</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341853</url>
+		<abstract>
+			<par><![CDATA[<p>A small, isolated farm is struck by a strange phenomenon. The farmer's life changes along with his surroundings. He must adapt, in his own way, to this new zany world.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734261</person_id>
+				<author_profile_id><![CDATA[81552216256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Annabel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sebag]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Premium Films, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[animation@premium-films.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341854</article_id>
+		<sort_key>180</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>17</seq_no>
+		<title><![CDATA[Fertilization]]></title>
+		<page_from>24</page_from>
+		<page_to>24</page_to>
+		<doi_number>10.1145/2341836.2341854</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341854</url>
+		<abstract>
+			<par><![CDATA[<p>Fertilization is the epic story of a single sperm facing incredible odds to unite with an egg and form a new human life. The sperm's journey is visualized with rich detail and narrative to convey a fresh understanding of a classic physiological tale.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734262</person_id>
+				<author_profile_id><![CDATA[81504682201]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Thomas]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Brown]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Nucleus Medical Media Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[tbrown@nucleusinc.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341855</article_id>
+		<sort_key>190</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>18</seq_no>
+		<title><![CDATA[Fischkopp]]></title>
+		<page_from>25</page_from>
+		<page_to>25</page_to>
+		<doi_number>10.1145/2341836.2341855</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341855</url>
+		<abstract>
+			<par><![CDATA[<p>A little fisherman in his diving suit competes in a fishing contest. After a crazy chase underwater, he manages to catch the "Big Fish" and knock his competitors out.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734263</person_id>
+				<author_profile_id><![CDATA[81504687537]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Vera]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Angstenberger]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Filmakademie Baden-W&#252;erttemberg, Germany]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[vera.angstenberger@filmakademie.de]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341856</article_id>
+		<sort_key>200</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>19</seq_no>
+		<title><![CDATA[Flat Frog]]></title>
+		<page_from>26</page_from>
+		<page_to>26</page_to>
+		<doi_number>10.1145/2341836.2341856</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341856</url>
+		<abstract>
+			<par><![CDATA[<p>"Flat Frog" is based on the misadventures of two rustic frogs that are always anxious to cross the road in search of females.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734264</person_id>
+				<author_profile_id><![CDATA[81487655454]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Margherita]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Premuroso]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[InkyMind, Italy]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[mmeghy@mac.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Flat Frog  contact margherita premuroso InkyMind mmeghy@mac.com www.inkymind.com Italy Flat Frog is 
+based on the misadventures of two rustic frogs that are always anxious to cross the road in search of 
+females. executive producer modeling voices Luca Da Rios Luca Maniscalco SideUK Bruce Mckinnon Director 
+&#38; Art Director texturing Ben Small Margherita Premuroso Margherita Premuroso Elena Redaelli music 
+storywriter Alex Harwood Rick Gush Animation supervisor Frank Spalteholz sound Design producer Filipe 
+Paszkiewicz Ivan Piasini Animation Alessio Giorgianni Frank Spalteholz storyboarding Dana Boadway title 
+song Margherita Premuroso Jonas Manke Flat Frog Rodrigo Huerta Character &#38; Luca Bima singer environment 
+Design Tom Lock Griffiths Margherita Premuroso lighting &#38; rendering William Lorenzetti baritone for 
+ Finchan 3D supervisor Gianluca Antonini Dal vino from mozart s William Lorenzetti Don Giovanni Compositing 
+Milo Harries Characters modeling &#38; 2D effects &#38; rigging Margherita Premuroso InkyMind/Playstos 
+Frank Spalteholz Entertainment voice Directing Giacomo Zito 26 Computer Animation Festival SIGGRAPH 
+2012 tAble oF Contents
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341857</article_id>
+		<sort_key>210</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>20</seq_no>
+		<title><![CDATA[For the remainder]]></title>
+		<page_from>27</page_from>
+		<page_to>27</page_to>
+		<doi_number>10.1145/2341836.2341857</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341857</url>
+		<abstract>
+			<par><![CDATA[<p>An old house cat's farewell journey to his home as he prepares to leave it.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734265</person_id>
+				<author_profile_id><![CDATA[81504688221]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Omer]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ben David]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Bezalel Academy of Arts & Design, Israel]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[omer.bendavid@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341858</article_id>
+		<sort_key>220</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>21</seq_no>
+		<title><![CDATA[Getaway]]></title>
+		<page_from>28</page_from>
+		<page_to>28</page_to>
+		<doi_number>10.1145/2341836.2341858</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341858</url>
+		<abstract>
+			<par><![CDATA[<p>A car travels through transforming environments as it makes its way from the busy city to a secluded log cabin in the mountains.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734266</person_id>
+				<author_profile_id><![CDATA[81504684599]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Eric]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Cunha]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[School of Visual Arts]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[emcunha77@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341859</article_id>
+		<sort_key>230</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>22</seq_no>
+		<title><![CDATA[Give me Posada]]></title>
+		<page_from>29</page_from>
+		<page_to>29</page_to>
+		<doi_number>10.1145/2341836.2341859</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341859</url>
+		<abstract>
+			<par><![CDATA[<p>During a normal working day, J. Posada looks through the window at politicians, drunks, wives, children, and musicians. The engraving press starts to work, this is not a normal day: his engravings come to life as nightfall descends, and the door opens loudly. His prints want to take him away.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734267</person_id>
+				<author_profile_id><![CDATA[81504683784]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Cecilio]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Vargas]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[El Bigote de Chaplin, Mexico]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[lio@elbigotedechaplin.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341860</article_id>
+		<sort_key>240</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>23</seq_no>
+		<title><![CDATA[Globosome]]></title>
+		<page_from>30</page_from>
+		<page_to>30</page_to>
+		<doi_number>10.1145/2341836.2341860</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341860</url>
+		<abstract>
+			<par><![CDATA[<p>In the vastness of space, there's a small speck of rock inhabited by the most peculiar lifeforms: Dark little dots that start to replicate fast and begin to show signs of intelligence. "Globosome" tells the story of the rise and fall of these little creatures.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734268</person_id>
+				<author_profile_id><![CDATA[81504687537]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Vera]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Angstenberger]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Filmakademie Baden-W&#252;rttemberg, Germany]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[vera.angstenberger@filmakademie.de]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341861</article_id>
+		<sort_key>250</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>24</seq_no>
+		<title><![CDATA[Great expectations title sequence]]></title>
+		<page_from>31</page_from>
+		<page_to>31</page_to>
+		<doi_number>10.1145/2341836.2341861</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341861</url>
+		<abstract>
+			<par><![CDATA[<p>The birth and death of a butterfly. The creature bursts out of its cocoon unfurling its fragile self into a dark world. As the sequence progresses, it reveals intricate filigree tattooed onto the wings, growing like creeping ivy until the entire wingspan is eerily blacked out into silhouette.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734269</person_id>
+				<author_profile_id><![CDATA[81504688583]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Nic]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Benns]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Momoco, United Kingdom]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[nic@momoco.co.uk]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341862</article_id>
+		<sort_key>260</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>25</seq_no>
+		<title><![CDATA[Hai hase]]></title>
+		<page_from>32</page_from>
+		<page_to>32</page_to>
+		<doi_number>10.1145/2341836.2341862</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341862</url>
+		<abstract>
+			<par><![CDATA[<p>A man gets a tattoo of a sweet pin-up girl on his upper arm as the other tattoos on his body watch with excitement. The surfer rabbit falls instantly in love, and the pin-up is also drawn to him.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734270</person_id>
+				<author_profile_id><![CDATA[81504687537]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Vera]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Angstenberger]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Filmakademie Baden-W&#252;rttemberg, Germany]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[vera.angstenberger@filmakademie.de]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341863</article_id>
+		<sort_key>270</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>26</seq_no>
+		<title><![CDATA[Harmony]]></title>
+		<page_from>33</page_from>
+		<page_to>33</page_to>
+		<doi_number>10.1145/2341836.2341863</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341863</url>
+		<abstract>
+			<par><![CDATA[<p>Two groups of dancers compete for visibility on the stage.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734271</person_id>
+				<author_profile_id><![CDATA[81504686733]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Sangyeong]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jeong]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[South Korea]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[beaqueer@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341864</article_id>
+		<sort_key>280</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>27</seq_no>
+		<title><![CDATA[Hatching]]></title>
+		<page_from>34</page_from>
+		<page_to>34</page_to>
+		<doi_number>10.1145/2341836.2341864</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341864</url>
+		<abstract>
+			<par><![CDATA[<p>A short film about how a loving mother-daughter relationship turns tense at a certain point. The see-through glass belly manifests the intimate, delicate bond between them.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734272</person_id>
+				<author_profile_id><![CDATA[81504686538]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Tong]]></first_name>
+				<middle_name><![CDATA[Yi]]></middle_name>
+				<last_name><![CDATA[Kuo]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The White Rabbit Animation, Inc., Taiwan]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[tkuo@twrglobal.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Hatching  contact tong Yi Kuo The White Rabbit Animation, Inc. tkuo@twrglobal.com www.twranimation.com 
+Taiwan A short film about how a loving mother-daughter relationship turns tense at a certain point. 
+The see-through glass belly manifests the intimate, delicate bond between them. Directors Chen-Hui Liu 
+Jung-Hsien Lin executive producer Chao-hua Lee producer &#38; supervisor Chishan Liu screenwriting Annie 
+Yang Chao-hua Lee Creative Director Chao-hua Lee Concept Art Hsiao-Ron Cheng storyboard Hsin-Yu Kuan 
+lead model, texture and shading Kuang-Pin Lan model, texture and shading Wei-Lun Tsai Mei-Kung Chen lead 
+previs and Animation Chih-Ming Chang previs and Animation Erik Lee Akira Chang Cheng-Wei Wu rigging Isaac 
+Su lead effects Chia-Chun Lin effects Chen-Yuan Hsu Yi-Min Fan lead lighting Chishan Liu lighting Chun-Lun 
+Ma Additional lighting Mei-Kung Chen Wei-Lun Tsai Joe Chiang Compositing Iden Yang Hair system Developer 
+Gene Lin Hair simulation Ryan Lu Wink Fan Mea Wu production Coordinator Tong-Yi Kuo pipeline Jin-Kuen 
+Lin Kai-Wei Tang Qian-Hao Chai sound We Digital Media Co., Ltd sound supervisor Webber Chen sound effects 
+Dante Huang music Szu-Yin Ho mix Sammi Lin special thanks Jazz Kung Annie Liu Edward Lai Faith Lu Vicky 
+Hu 34 Computer Animation Festival SIGGRAPH 2012 tAble oF Contents 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341865</article_id>
+		<sort_key>290</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>28</seq_no>
+		<title><![CDATA[Herr Hoppe und der atomm&#252;ll]]></title>
+		<page_from>35</page_from>
+		<page_to>35</page_to>
+		<doi_number>10.1145/2341836.2341865</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341865</url>
+		<abstract>
+			<par><![CDATA[<p>A barrel of nuclear waste drops into the living room of Herr Hoppe, an average suburban German. He has to get rid of it and does it in his own wacky way.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734273</person_id>
+				<author_profile_id><![CDATA[81504687537]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Vera]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Angstenberger]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Filmakademie Baden-W&#252;erttemberg, Germany]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[vera.angstenberger@filmakademie.de]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341866</article_id>
+		<sort_key>300</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>29</seq_no>
+		<title><![CDATA[How to eat your apple]]></title>
+		<page_from>36</page_from>
+		<page_to>36</page_to>
+		<doi_number>10.1145/2341836.2341866</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341866</url>
+		<abstract>
+			<par><![CDATA[<p>Here is a delicious apple. How would you eat it?</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734274</person_id>
+				<author_profile_id><![CDATA[81504686504]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Erick]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Oh]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[oshman84@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341867</article_id>
+		<sort_key>310</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>30</seq_no>
+		<title><![CDATA[Jack and Chuck]]></title>
+		<page_from>37</page_from>
+		<page_to>37</page_to>
+		<doi_number>10.1145/2341836.2341867</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341867</url>
+		<abstract>
+			<par><![CDATA[<p>Chuck, the writer without arms, meets Smiley Jack, the strange, fat bearded salesman. A pact will be sealed to allow Chuck to regain the capacity to write.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734275</person_id>
+				<author_profile_id><![CDATA[81552216256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Annabel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sebag]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Premium Films, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[animation@premium-films.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341868</article_id>
+		<sort_key>320</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>31</seq_no>
+		<title><![CDATA[Jack Daniels "Tennessee Honey"]]></title>
+		<page_from>38</page_from>
+		<page_to>38</page_to>
+		<doi_number>10.1145/2341836.2341868</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341868</url>
+		<abstract>
+			<par><![CDATA[<p>On a moonlit country night, we are in no doubt that our hero is one cool bee. On an urgent mission, he flies through the forest at high speed until he finds what he's been searching for: a bottle of Jack Daniel's Black Label.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734276</person_id>
+				<author_profile_id><![CDATA[81504688669]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Cecile]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Barou]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Passion Pictures, United Kingdom]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[cecile@passion-pictures.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Jack Daniels tennessee Honey  contact Cecile barou Passion Pictures cecile@passion-pictures.com www.passion-pictures.com 
+United Kingdom On a moonlit country night, we are in no doubt that our hero is one cool bee. On an urgent 
+mission, he flies through the forest at high speed until he finds what he s been searching for: a bottle 
+of Jack Daniel s Black Label. production Company Art Director matte painting Passion Pictures NYC Blacknail 
+Kim Dulaney Director lighting/texturing/ Additional editing Pete Candeland Comp Sam Mason Mario Ucci 
+Dace Willmott producer Rick Theile Belinda Blacklock Cesar Eiji Nunes Character Design Jaroslav Polensky 
+Sam Mason Co-producer Anna Lord modelling production Assistant Sue Jang Dace Willmott CG Animation Mark 
+Yagos Ryan Bradley Lee Wolland Colourist Leo Baker Paul Harrison vFX bleed vFX MPC CG Coordination Jamie 
+Franks Aline Ngo Augusto Lombardi sound Simon Clarke Colin editor The Lodge NYC Leo Baker rigging Leo 
+Baker  38 Computer Animation Festival SIGGRAPH 2012 tAble oF Contents 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341869</article_id>
+		<sort_key>330</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>32</seq_no>
+		<title><![CDATA[J'aurai ta peau]]></title>
+		<page_from>39</page_from>
+		<page_to>39</page_to>
+		<doi_number>10.1145/2341836.2341869</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341869</url>
+		<abstract>
+			<par><![CDATA[<p>A multitude of questions about our relationships with our body shapes during a walk on skin.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734277</person_id>
+				<author_profile_id><![CDATA[81552216256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Annabel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sebag]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Premium Films, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[animation@premium-films.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341870</article_id>
+		<sort_key>340</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>33</seq_no>
+		<title><![CDATA[Karma]]></title>
+		<page_from>42</page_from>
+		<page_to>42</page_to>
+		<doi_number>10.1145/2341836.2341870</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341870</url>
+		<abstract>
+			<par><![CDATA[<p>The story of a robot that chooses to rob parts due to its greedy nature. The stealing ends with the robot's demise.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734278</person_id>
+				<author_profile_id><![CDATA[81504683857]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Da]]></first_name>
+				<middle_name><![CDATA[Suel]]></middle_name>
+				<last_name><![CDATA[Kim]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[School of Visual Arts]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ottodix84@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341871</article_id>
+		<sort_key>350</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>34</seq_no>
+		<title><![CDATA[Kinect Sports]]></title>
+		<subtitle><![CDATA[Season 2]]></subtitle>
+		<page_from>43</page_from>
+		<page_to>43</page_to>
+		<doi_number>10.1145/2341836.2341871</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341871</url>
+		<abstract>
+			<par><![CDATA[<p>A CGi/live-action cinematic experience for games Kinect Sports: Season 2. We took the lead role in creating all pre-production and co-organising a green-screen shoot to film the actors in motion, all before creating an entire trailer out of CGI and the four actors.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734279</person_id>
+				<author_profile_id><![CDATA[81504687680]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jenny]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McConchie]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[RealtimeUK, United Kingdom]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jenny@realtimeuk.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341872</article_id>
+		<sort_key>360</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>35</seq_no>
+		<title><![CDATA[La lune et le coq]]></title>
+		<page_from>44</page_from>
+		<page_to>44</page_to>
+		<doi_number>10.1145/2341836.2341872</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341872</url>
+		<abstract>
+			<par><![CDATA[<p>A moon and a rooster struggle to get what they want.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734280</person_id>
+				<author_profile_id><![CDATA[81504685351]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Raymond]]></first_name>
+				<middle_name><![CDATA[McCarthy]]></middle_name>
+				<last_name><![CDATA[Bergeron]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Rochester Institute of Technology]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[mccarthybergeron@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341873</article_id>
+		<sort_key>370</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>36</seq_no>
+		<title><![CDATA[Le taxidermiste]]></title>
+		<page_from>45</page_from>
+		<page_to>45</page_to>
+		<doi_number>10.1145/2341836.2341873</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341873</url>
+		<abstract>
+			<par><![CDATA[<p>A taxidermist has just died. His widow and a team of funeral directors pay him their final respects.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734281</person_id>
+				<author_profile_id><![CDATA[81552216256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Annabel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sebag]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Premium Films, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[animation@premium-films.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341874</article_id>
+		<sort_key>380</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>37</seq_no>
+		<title><![CDATA[Link]]></title>
+		<page_from>46</page_from>
+		<page_to>46</page_to>
+		<doi_number>10.1145/2341836.2341874</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341874</url>
+		<abstract>
+			<par><![CDATA[<p>An African couple is separated by the First World War.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734282</person_id>
+				<author_profile_id><![CDATA[81552216256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Annabel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sebag]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Premium Films, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[animation@premium-films.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341875</article_id>
+		<sort_key>390</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>38</seq_no>
+		<title><![CDATA["Little talks"]]></title>
+		<subtitle><![CDATA[of monsters and men]]></subtitle>
+		<page_from>47</page_from>
+		<page_to>47</page_to>
+		<doi_number>10.1145/2341836.2341875</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341875</url>
+		<abstract>
+			<par><![CDATA[<p>Five sky-sailors discover a crystal meteor containing a lost mythical female creature. An epic journey through fantastical worlds ensues as the sailors struggle to return her to her people.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734283</person_id>
+				<author_profile_id><![CDATA[81504685710]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Marcella]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Moser]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[WeWereMonkeys, Canada]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[marcella@weweremonkeys.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ little talks - of monsters and men  contact marcella moser WeWereMonkeys marcella@weweremonkeys.com 
+www.weweremonkeys.com/vid_littletalks.php Canada Client Of Monsters and Men record label Universal Music 
+Group/Republic Director Mihai Wilson WeWereMonkeys post production Mihai Wilson producer Marcella Moser 
+WeWereMonkeys production studio Vision Entertainment executive producer Geoff McLean Director of photography 
+Hákon Sverrisson production manager Kristín Andrea Þórðardóttir u.s. representative Yvette Lang-Einczig 
+Yell Productions 47 Computer Animation Festival SIGGRAPH 2012 Five sky-sailors discover a crystal meteor 
+containing a lost mythical female creature. An epic journey through fantastical worlds ensues as the 
+sailors struggle to return her to her people. Commissioner Shannon Weil Universal Music Group Actors 
+Nanna Bryndís Hilmarsdóttir Ragnar þórhallsson Árni Guðjónsson Kristján Páll Kristjánsson Arnar Rósenkranz 
+Hilmarsson Brynjar Leifsson Costume and makeup Design Marcella Moser Mihai Wilson WeWereMonkeys makeup 
+and Hair Ísak Freyr Helgason Oddvar Örn Hjartarson makeup Assistant Björg Ólöf Greenscreen studio 380 
+Studios Key Grip Gunnar Gunnarsson tAble oF Contents 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341876</article_id>
+		<sort_key>400</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>39</seq_no>
+		<title><![CDATA[Mac 'n' cheese]]></title>
+		<page_from>48</page_from>
+		<page_to>48</page_to>
+		<doi_number>10.1145/2341836.2341876</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341876</url>
+		<abstract>
+			<par><![CDATA[<p>When you find yourself running scared and running out of energy, there are only a few options left to outrun your opponent through the southern desert. Stopping at nothing, these two guys wear each other out and rip through boundaries hitherto unbroken.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734284</person_id>
+				<author_profile_id><![CDATA[81504687707]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Gijs]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[van Kooten]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Colorbleed Studios, Netherlands]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[gijs@colorbleed.nl]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341877</article_id>
+		<sort_key>410</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>40</seq_no>
+		<title><![CDATA[My little friend]]></title>
+		<page_from>49</page_from>
+		<page_to>49</page_to>
+		<doi_number>10.1145/2341836.2341877</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341877</url>
+		<abstract>
+			<par><![CDATA[<p>A hungry hobo gets his food taken by a cute little pigeon.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734285</person_id>
+				<author_profile_id><![CDATA[81504688718]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Eric]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Prah]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Ringling College of Art and Design]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[eprah@c.ringling.edu]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341878</article_id>
+		<sort_key>420</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>41</seq_no>
+		<title><![CDATA[Oh sheep!]]></title>
+		<page_from>50</page_from>
+		<page_to>50</page_to>
+		<doi_number>10.1145/2341836.2341878</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341878</url>
+		<abstract>
+			<par><![CDATA[<p>Two flocks of sheep are searching for companionship. But their shepherds, being at odds with each other, do everything to keep them separated.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734286</person_id>
+				<author_profile_id><![CDATA[81504687537]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Vera]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Angstenberger]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Filmakademie Baden-W&#252;rttemberg, Germany]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[vera.angstenberger@filmakademie.de]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ oh sheep!  contact vera Angstenberger Filmakademie Baden-Württemberg vera.angstenberger@filmakademie.de 
+www.filmakademie.de Germany Two flocks of sheep are searching for companionship. But their shepherds, 
+being at odds with each other, do everything to keep them separated. Director Camera/Dop sound Gottfried 
+Mentor Gottfried Mentor Roman Volkholz Christian Heck student producers Character Design Leonid Godik 
+Max Lang Actors/voices Gottfried Mentor David Steffen production Design Gottfried Mentor lead Animator 
+Gottfried Mentor Michel Heberlein Gottfried Mentor shading, lighting, Compositing Animators rendering 
+technical Peter Hacker Cordula Langhans Director Bin Han To Marcel Reinhard editing Paul Cichon Gottfried 
+Mentor Aennie Habermehl Character technical Director vFX Tom Ferstl Peter Hacke Marcel Reinhard music 
+Christoph Hempel Matthias Klein David Kirchner Yannik Faase 50 Computer Animation Festival SIGGRAPH 
+2012 tAble oF Contents
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341879</article_id>
+		<sort_key>430</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>42</seq_no>
+		<title><![CDATA[Omerta]]></title>
+		<page_from>51</page_from>
+		<page_to>51</page_to>
+		<doi_number>10.1145/2341836.2341879</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341879</url>
+		<abstract>
+			<par><![CDATA[<p>In 1930, Mafia gangs do battle in the slums of New York. To the beat of devilish music, Teddy Toad and his gang of frogs engage in a battle to pluck the delectable Lady Horny from the grasp of the powerful White Coal.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734287</person_id>
+				<author_profile_id><![CDATA[81552216256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Annabel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sebag]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Premium Films, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[animation@premium-films.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341880</article_id>
+		<sort_key>440</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>43</seq_no>
+		<title><![CDATA[Pelephone wedding]]></title>
+		<page_from>52</page_from>
+		<page_to>52</page_to>
+		<doi_number>10.1145/2341836.2341880</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341880</url>
+		<abstract>
+			<par><![CDATA[<p>Fantastical and magical with a whimsical feel, this film combines wonderful live action with some incredible post work from Gravity Tel Aviv.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734288</person_id>
+				<author_profile_id><![CDATA[81442615994]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ilan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bouni]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Gravity, Israel]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ilan@gravity.co.il]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341881</article_id>
+		<sort_key>450</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>44</seq_no>
+		<title><![CDATA[Photofly]]></title>
+		<page_from>53</page_from>
+		<page_to>53</page_to>
+		<doi_number>10.1145/2341836.2341881</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341881</url>
+		<abstract>
+			<par><![CDATA[<p>An R&D project testing Autodesk's Photofly. Scenes were enhanced with effects and additional modeling. In some cases, models were re-lit using HDRI. Environments were photographed in Riga, Latvia, capturing historical statues and architecture.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734289</person_id>
+				<author_profile_id><![CDATA[81504688288]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Simon]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hegarty]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Rumble Studios, United Kingdom]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[simon@rumblestudios.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341882</article_id>
+		<sort_key>460</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>45</seq_no>
+		<title><![CDATA[Poulet free]]></title>
+		<page_from>54</page_from>
+		<page_to>54</page_to>
+		<doi_number>10.1145/2341836.2341882</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341882</url>
+		<abstract>
+			<par><![CDATA[<p>Thierry, a mascot at a fast-food chicken restaurant, is celebrating his 35th birthday alone in the toilets. That same day, clumsy Thierry has an accident. Rejected by the city as he has been by life, Thierry makes a curious discovery that will change his life forever.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734290</person_id>
+				<author_profile_id><![CDATA[81504687753]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Anne-Laure]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Beaujard]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ISART Digital, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[c.boco@isartdigital.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341883</article_id>
+		<sort_key>470</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>46</seq_no>
+		<title><![CDATA[Prey 2]]></title>
+		<page_from>55</page_from>
+		<page_to>55</page_to>
+		<doi_number>10.1145/2341836.2341883</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341883</url>
+		<abstract>
+			<par><![CDATA[<p>In the highly anticipated sequel from Bethesda and Human Head Studios, former U. S. Marshal turned bounty hunter Killian Samuels pursues down targets through the vast alien vistas and clustered alleyways of Exodus. Goodness MFG selected Blur to bring this high-octane chase to the big screens of E3 2011.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734291</person_id>
+				<author_profile_id><![CDATA[81504685151]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Amanda]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Powell]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Blur Studio, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[amanda@blur.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ prey 2  contact Amanda powell Blur Studio, Inc. amanda@blur.com www.blur.com United States In the highly 
+anticipated sequel from Bethesda and Human Head Studios, former U.S. Marshal turned bounty hunter Killian 
+Samuels pursues down targets through the vast alien vistas and clustered alleyways of Exodus. Goodness 
+MFG selected Blur to bring this high-octane chase to the big screens of E3 2011. lighting and prop and 
+vehicle storyboards Compositing modeling Joshua Shaw Gary Christian Zack Cork Chuck Wojtkiewicz Colin 
+James Colin James Daniel Trbovic Jinho Jang production Assistant Olivier Vernay-Kim Kris Kaufman Amanda 
+Powell Barrett Meeker Hair and Cloth tools and scripts simulation production Coordinator Brendan Abel 
+Steve Guevara Janis Robertson Mike Hendricks Jon Jordan Eric Hulser Luis Lopez motion Capture Jace Trimmer 
+Brian McKee programming and Danny Young Anthony Romero systems Administration Duane Powell Director Associate 
+producer Character modeling Animation FX layout tD Jeremy Donahue Dave Wilson Tiffany Webber James Ku 
+Thomas Cannell Daniel Chamberlin Brian McKee Paul Huang Alex Litchinko Kyle Gaulin Kevin Kim Matt Newell 
+Creative Director executive producer Jason Martin Jeremiah Izzard John Kosnik technical and QC Tim Miller 
+Al Shier Oliver Parcasio Johanes Kurnia Shaun Absher mocap Coordinator/ rigging Christian Reese Zack 
+Cork Choreography CG supervisor layout Chris Boylan Jon Vener environment modeling Chris Grim Philip 
+Silvera Heikki Anttila David Nibbelin Justin Callanan Greg Kegel Jennifer Hendrich Nick Whitmire Jennifer 
+Hendrich lighting and Olivier Vernay-Kim Bryan Hillestad mocap talent Animation supervisor Enoch Ihde 
+Compositing lead Enoch Ihde Ashton Moio Hubert Daniel Character modeling Michael Stieber Greg Kegel Brent 
+Wiley Roberto Guierrez lead Brent Wiley Philip Silvera FX supervisor Alessandro Baldasseroni Concept 
+Design Brandon Riza Animation lead Hugo Martin William Rocky Vanoost Sean McNally Joshua Shaw 55 Computer 
+Animation Festival SIGGRAPH 2012 tAble oF Contents
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341884</article_id>
+		<sort_key>480</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>47</seq_no>
+		<title><![CDATA[Ramus]]></title>
+		<page_from>56</page_from>
+		<page_to>56</page_to>
+		<doi_number>10.1145/2341836.2341884</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341884</url>
+		<abstract>
+			<par><![CDATA[<p>A thunderstorm separates a young branch from his mother tree and sends him falling into the town below. The small sapling awakens and quickly realizes that this town may be his worst nightmare. Getting back home becomes his only hope for survival.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734292</person_id>
+				<author_profile_id><![CDATA[81504683676]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Danica]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Parry]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[School of Visual Arts]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[danicathehorrid@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341885</article_id>
+		<sort_key>490</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>48</seq_no>
+		<title><![CDATA[Ra.One]]></title>
+		<page_from>57</page_from>
+		<page_to>57</page_to>
+		<doi_number>10.1145/2341836.2341885</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341885</url>
+		<abstract>
+			<par><![CDATA[<p>This video shows a Synthespian Studios sequence from the film "Ra.One". In this sequence, electronic "smart cubes" emerge from asphalt and, with individual and mass intelligence, organize to build up an antagonistic video game character in the real world.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734293</person_id>
+				<author_profile_id><![CDATA[81504687104]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jeff]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kleiser]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Synthespian Studios, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jk@synthespians.net]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ ra.one contact Jeff Kleiser Synthespian Studios, Inc. jk@synthespians.net www.synthespianstudios.net 
+United States This video shows a Synthespian Studios sequence from the film Ra.One . In this sequence, 
+electronic smart cubes emerge from asphalt and, with individual and mass intelligence, organize to build 
+up an antagonistic video game character in the real world. Director software Developer Compositor Anubhav 
+Sinha Helge Mathee Jay Lalime producer look Development modeling, plate Gauri Khan Travis Pinsonnault 
+photography redchillies.vfx vFX supervisor Camera tracker Jeff Kleiser Matt Shapiro Additional Digital 
+Content Creation Concept Design senior systems Luma Animation cc Diana Walczak Administrator (South Africa) 
+Joel Feder vFX producer Wendy Gipp i/o Steve Hagenkord CG supervisor, Animator, Compositor production 
+Coordinator Edward Quirk Marie Trudeau  57 Computer Animation Festival SIGGRAPH 2012 tAble oF Contents 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341886</article_id>
+		<sort_key>500</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>49</seq_no>
+		<title><![CDATA[Red]]></title>
+		<page_from>58</page_from>
+		<page_to>58</page_to>
+		<doi_number>10.1145/2341836.2341886</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341886</url>
+		<abstract>
+			<par><![CDATA[<p>In the dark, cold streets of the metropolis, a mysterious serial killer strikes down women dressed in red. A crime-scene photographer whose wife has been killed is about to encounter the next victim, followed by a strange man.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734294</person_id>
+				<author_profile_id><![CDATA[81552216256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Annabel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sebag]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Premium Films, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[animation@premium-films.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341887</article_id>
+		<sort_key>510</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>50</seq_no>
+		<title><![CDATA[R&#233;flexion]]></title>
+		<page_from>59</page_from>
+		<page_to>59</page_to>
+		<doi_number>10.1145/2341836.2341887</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341887</url>
+		<abstract>
+			<par><![CDATA[<p>"R&#233;flexion" is a description of women's concerns about the way they look.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734295</person_id>
+				<author_profile_id><![CDATA[81421593105]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Sun]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Limet]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[PLANKTOON, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[sunlimet@hotmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ réflexion contact sun limet PLANKTOON sunlimet@hotmail.com www.planktoon.com France  Best in Show 
+ Réflexion is a description of women's concerns about the way they look. Director Yoshimichi Tamura producer 
+Planktoon music Guillaume Poyet realisation Assistant Marine Seraphin storyboard Yoshimichi Tamura visual 
+Development Lauren Airriess Lorelay Bove Floriane Marchix Yoshimichi Tamura post-production COSMO STUDIO 
+research &#38; Development Olivier Roux Julien Duchesne modeling Characters Nicolas Duthatco modeling 
+set Celestin Salomon modeling props Nicolas Duthatco matte painting Jean-Michel Trauscht Stéphanie Baillod 
+Benjamin Bardou textures Stéphanie Baillod setup Quentin Auger Benoît Guillou Dynamics Enis Kaya layout 
+Christele Jolens Mehdi Tebbakh 3D supervisor Animation Fabrice Senia 3D Animators Guillaume Deparis Alexandre 
+Henri Christele Jolens Chloe Lang-Willar Vincent Lemaire Patricia Magniez 2D Animators Baptiste Rogron 
+Chloe Roux Nawell Sdiri Jeremy Macedo supervisor render Sun Limet render Julien Duchesne Vincent Duponchel 
+Nicolas Duthatco Louis Fremont Aurelien Rantet Thomas Motte Compositing Gaélle Bossis Julien Goepp Joel 
+Pitren 59 Computer Animation Festival SIGGRAPH 2012 tAble oF Contents  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341888</article_id>
+		<sort_key>520</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>51</seq_no>
+		<title><![CDATA[Release your imagination]]></title>
+		<page_from>60</page_from>
+		<page_to>60</page_to>
+		<doi_number>10.1145/2341836.2341888</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341888</url>
+		<abstract>
+			<par><![CDATA[<p>A story of numerous characters leading monotonous adult lives who are catapulted into a world of creative imagination following one spark of inspiration.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734296</person_id>
+				<author_profile_id><![CDATA[81504687680]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jenny]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McConchie]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[RealtimeUK, United Kingdom]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jenny@realtimeuk.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341889</article_id>
+		<sort_key>530</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>52</seq_no>
+		<title><![CDATA[Rising]]></title>
+		<page_from>61</page_from>
+		<page_to>61</page_to>
+		<doi_number>10.1145/2341836.2341889</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341889</url>
+		<abstract>
+			<par><![CDATA[<p>A dreamlike vision of nature, where only light can carry life toward any kind of existence.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734297</person_id>
+				<author_profile_id><![CDATA[81442617717]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Carine]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Quignon]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Groupe Mikros Image, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[caq@mikrosimage.eu]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ risinG  contact Carine Quignon Groupe Mikros Image caq@mikrosimage.eu www.mikrosimage.fr France A 
+dreamlike vision of nature, where only light can carry life toward any kind of existence. vFX producer/ 
+Animation DCp post-producer Alexandre Sauthier David Mangin Lionel Juglair Vincent Lemaire François Duboux 
+Geoffroy Barbet Massin CG lead Anne Chatelain thanks Stéphane Thibert Amélie-Anne Chuche stereoscopy 
+for project follow up modeling Erwan Davigano François Rimasson Mathias Barday Jérome Desvignes Compositing 
+nuke for the animatic lighting Guillaume Parra Animatic Jérome Foucout Mickaél Camus Barthélémy Beaux 
+Barthélémy Beaux for post-production setup Grading Color Alexandre Sauthier Christine Szymkowiak lighting 
+subtitles Julien Haillot Maud Drouin shave/texture Final Compositing Nicolas Bruchet Michael Moercant 
+Benjamin Lenfant Jean-Yves Parent 61 Computer Animation Festival SIGGRAPH 2012 tAble oF Contents
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341890</article_id>
+		<sort_key>540</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>53</seq_no>
+		<title><![CDATA[Rosette]]></title>
+		<page_from>62</page_from>
+		<page_to>62</page_to>
+		<doi_number>10.1145/2341836.2341890</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341890</url>
+		<abstract>
+			<par><![CDATA[<p>In a cured-meats deli, a customer starts fantasizing about the butcher. She takes us into a cliched vision of couple-hood, transcribed, for better or for worse, within a universe of pork products.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734298</person_id>
+				<author_profile_id><![CDATA[81552216256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Annabel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sebag]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Premium Films, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[animation@premium-films.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341891</article_id>
+		<sort_key>550</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>54</seq_no>
+		<title><![CDATA[Rotting Hill]]></title>
+		<page_from>63</page_from>
+		<page_to>63</page_to>
+		<doi_number>10.1145/2341836.2341891</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341891</url>
+		<abstract>
+			<par><![CDATA[<p>It is not easy to find love, especially if you are falling apart, stinky, and a little bloody around the edges. Welcome to Rotting Hill, where the extinction of humanity has led to the rise of a new species: ZOMBIES.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734299</person_id>
+				<author_profile_id><![CDATA[81504683201]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[James]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Cunningham]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Media Design School, New Zealand]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[delfemail@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ rotting Hill  contact James Cunningham Media Design School delfemail@gmail.com www.rottinghillmovie.com 
+New Zealand It is not easy to find love, especially if you are falling apart, stinky, and a little bloody 
+around the edges. Welcome to Rotting Hill, where the extinction of humanity has led to the rise of a 
+new species: ZOMBIES. Director, producer, makeup effects Digital Artist editor Andrew Beattie Son Ly 
+James Cunningham makeup Artist sound editor producer Vanessa Hurley Victoria Parsons Oliver Hilbert Digital 
+Artist soundmix producer Stephen Vaifoou Dave Whitehead Leon Woud Digital Artist original music/ Writer 
+Thomas Martin Composer Guy Hamling Timmy Schumacher Digital Artist lead Actor Jennifer Sol Composer Anna 
+Hutchison out in the street Digital Artist Alastair Riddell lead Actor Kazuko Nishitani Jason Smith 
+Digital Artist supporting Actor Michael Hsieh Bruce Hopkins Digital Artist Cinematographer/Dp Raka Sarkar 
+Simon Riera  63 Computer Animation Festival SIGGRAPH 2012 tAble oF Contents 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341892</article_id>
+		<sort_key>560</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>55</seq_no>
+		<title><![CDATA[Subject code Q80-203]]></title>
+		<page_from>65</page_from>
+		<page_to>65</page_to>
+		<doi_number>10.1145/2341836.2341892</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341892</url>
+		<abstract>
+			<par><![CDATA[<p>A humanoid robot has been captured by human beings. The robot waits for a long time to collect his. He uses his remaining energy to escape from the laboratory.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734300</person_id>
+				<author_profile_id><![CDATA[81504687657]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Sarah]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Schuerhoff]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[School of Visual Arts]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[sschuerhoff@sva.edu]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341893</article_id>
+		<sort_key>570</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>56</seq_no>
+		<title><![CDATA[The colors of evil]]></title>
+		<page_from>67</page_from>
+		<page_to>67</page_to>
+		<doi_number>10.1145/2341836.2341893</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341893</url>
+		<abstract>
+			<par><![CDATA[<p>Children often pick on one another, but Vivian has had enough. Tormented on a daily basis by her schoolmate Nancy, Vivian uses her knowledge of the dark arts to summon a demon servant who'll do her bidding. When she performs the ritual, however, the results are not what she expected.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734301</person_id>
+				<author_profile_id><![CDATA[81504686234]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Alyse]]></first_name>
+				<middle_name><![CDATA[Lauren]]></middle_name>
+				<last_name><![CDATA[Miller]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Ringling College of Art and Design]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[amiller2@c.ringling.edu]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341894</article_id>
+		<sort_key>580</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>57</seq_no>
+		<title><![CDATA[The Girl with the Dragon Tattoo - 2011]]></title>
+		<page_from>68</page_from>
+		<page_to>68</page_to>
+		<doi_number>10.1145/2341836.2341894</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341894</url>
+		<abstract>
+			<par><![CDATA[<p>The main title for David Fincher's portrayal of the internationally acclaimed bestselling books is a glimpse into the psyche of heroine Lisbeth Salander. A fever dream/nightmare that foreshadows the entire Millennium series, the sequence is a non-linear impressionistic story featuring breathtaking imagery and visual effects.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734302</person_id>
+				<author_profile_id><![CDATA[81504685151]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Amanda]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Powell]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Blur Studio, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[amanda@blur.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ the Girl With the Dragon tattoo - 2011  contact Amanda powell Blur Studio, Inc. amanda@blur.com www.blur.com 
+United States  The main title for David Fincher's portrayal of the internationally acclaimed bestselling 
+books is a glimpse into the psyche of heroine Lisbeth Salander. A fever dream/nightmare that foreshadows 
+the entire Millennium series, the sequence is a non-linear impressionistic story featuring breathtaking 
+imagery and visual effects. Director Tim Miller CG supervisor Jerome Denjean editor &#38; layout Franck 
+Balson Animation supervisor Derron Ross FX supervisor Kirby Miller Design &#38; type Animation Jennifer 
+Miller Onur Senturk producer Tobin Kirk executive producer Al Shier production Coordinator Jean Ho layout 
+Jeff Fowler Douglas Lassance David Nibbelin Derron Ross Nick Whitmire Character modeling Shaun Absher 
+Mathieu Aerni Alessandro Baldasseroni Chris Grim Zbynek Kysela Desiree Lunsford Laurent Pierlot rigging 
+lead Enoch Ihde rigging Steven Alley Chris Boylan Justin Callanan Ben Durkin Jennifer Hendrich Brent 
+Wiley Animation Kyle Gaulin Warren Grubb Jason Hendrich Jeremiah Izzy Izzard Oliver Parcasio William 
+Rocky Vanoost Jon Vener Brian Whitmire Nick Whitmire Cloth simulation Steve Guevara Hair sim Danny Young 
+prop modeling Zack Cork Jinho Jang lighting &#38; Compositing Chris Bedrock Bedrosian Colin James Tom 
+Nemeth David Stinnett Onur Senturk Daniel Trbovic Dan Woje FX Daniel Chamberlin Ian Clemmer Seung Jae 
+Lee Johanes Kurnia John Kosnik Ole Lemming Matt Radford Brandon Riza Brandon Young Additional FX Fusion 
+CI Studios Spatial Harmonics Group Concept Design Jason Felix Norn Jordan Sean McNally Jared Purrington 
+Onur Senturk Joshua Shaw Tom Zhao motion Capture tDs Anthony Romero Brian McKee mocap talent Derron 
+Ross Sheila Atkinson programming and systems Administration Duane Powell Jeremy Donahue Paul Huang Matt 
+Newell models Peyton Kirk Tess Masters scanning services The Nicholas VFX Group 68 Computer Animation 
+Festival SIGGRAPH 2012 tAble oF Contents 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341895</article_id>
+		<sort_key>590</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>58</seq_no>
+		<title><![CDATA[Tour of the moon]]></title>
+		<page_from>70</page_from>
+		<page_to>70</page_to>
+		<doi_number>10.1145/2341836.2341895</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341895</url>
+		<abstract>
+			<par><![CDATA[<p>Using the latest laser altimetry and image data from Lunar Reconnaissance Orbiter, this virtual tour visits 10 sites of interest on the moon, from the permanently shadowed floor of Shackleton to the central peak of Tycho and the tire tracks of the astronauts at the landing site of Apollo 17.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734303</person_id>
+				<author_profile_id><![CDATA[81485650797]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ernest]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Wright]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Universities Space Research Association]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ernest.t.wrighT@nasa.gov]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341896</article_id>
+		<sort_key>600</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>59</seq_no>
+		<title><![CDATA[Tuurngait]]></title>
+		<page_from>71</page_from>
+		<page_to>71</page_to>
+		<doi_number>10.1145/2341836.2341896</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341896</url>
+		<abstract>
+			<par><![CDATA[<p>An Inuit child wanders away from his village, fascinated by a wild bird. His father follows his trail, dertermined to find him before he gets lost on the ice floe.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734304</person_id>
+				<author_profile_id><![CDATA[81552216256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Annabel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sebag]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Premium Films, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[animation@premium-films.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341897</article_id>
+		<sort_key>610</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>60</seq_no>
+		<title><![CDATA[Void]]></title>
+		<page_from>72</page_from>
+		<page_to>72</page_to>
+		<doi_number>10.1145/2341836.2341897</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341897</url>
+		<abstract>
+			<par><![CDATA[<p>Two miners in a future world where the land is covered in a toxic gas accidentally discover the pre-apocalyptic history of the area. The miners accidentally bore through a protective metal shell built around the city of Paris to protect it from the toxins.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734305</person_id>
+				<author_profile_id><![CDATA[81504687741]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Arsen]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Arzumanyan]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[School of Visual Arts]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[specars4@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341898</article_id>
+		<sort_key>620</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>61</seq_no>
+		<title><![CDATA[Wanted melody]]></title>
+		<page_from>73</page_from>
+		<page_to>73</page_to>
+		<doi_number>10.1145/2341836.2341898</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341898</url>
+		<abstract>
+			<par><![CDATA[<p>In the Wild West, a cocky cowboy falls in love with a diva. Things get hard after a case of mistaken identity, but our hero can't leave her behind alone.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734306</person_id>
+				<author_profile_id><![CDATA[81552216256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Annabel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sebag]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Premium Films, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[animation@premium-films.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341899</article_id>
+		<sort_key>630</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>62</seq_no>
+		<title><![CDATA["We are music" Bon Iver]]></title>
+		<page_from>74</page_from>
+		<page_to>74</page_to>
+		<doi_number>10.1145/2341836.2341899</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341899</url>
+		<abstract>
+			<par><![CDATA[<p>A bucolic winter vista is actually a detailed miniature world, an imagined finite landscape floating in the atmosphere of dynamically driven winds, motivated by music, carrying away the particle elements to the rhythms of Bon Iver's song "Holocene".</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734307</person_id>
+				<author_profile_id><![CDATA[81504688599]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Paul]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Abatemarco]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The Moving Picture Company]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[summer-m@moving-picture.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ We Are music bon iver  contact paul Abatemarco The Moving Picture Company summer-m@moving-picture.com 
+www.moving-picture.com United States Agency TBWA\Chiat\Day Chief Creative officer Rob Schwartz executive 
+Creative Director Patrick O'Neill Creative Director Patrick Condo Creative Director Bob Rayburn Group 
+Creative Director of media Arts Olivier Rabenschlag ACD/Copywriter Eric Terchila ACD/Art Director Denise 
+Zurilgen ACD Eze Blaine senior Art Director Andrew Reizuch Copywriter Avi Klein Copywriter/technical 
+Director Matt Kalish Designer Jenn Kutchey executive Director of integrated production Richard O'Neill 
+producer/music supervisor Michael Gross production MPC Creative Directors Ryan Knowles Dan Marsh executive 
+producer Paul Abatemarco Head of production Jenny Bright A bucolic winter vista is actually a detailed 
+miniature world, an imagined finite landscape floating in the atmosphere of dynamically driven winds, 
+motivated by music, carrying away the particle elements to the rhythms of Bon Iver's song Holocene . 
+vFX 3D Artists (bon iver) Designers (bon iver) MPC Jessie Amadio Darryl Mascarenhas Clint Sui 3D lead 
+Matt Johnson John Cherniack Jonah Austin Andres Weber smoke editorial William Schilthuis Mark Holden 
+Fred Durand Ben Davidson Ian Wilson Color 2D Artists (bon iver) Mark Gethin Ash Wagers Derek Hansen Brinton 
+Jaecks Lisa Ryan Benoit Mannequin  74 Computer Animation Festival SIGGRAPH 2012 tAble oF Contents 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341900</article_id>
+		<sort_key>640</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>63</seq_no>
+		<title><![CDATA[X inactivation and epigenetics]]></title>
+		<page_from>75</page_from>
+		<page_to>75</page_to>
+		<doi_number>10.1145/2341836.2341900</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341900</url>
+		<abstract>
+			<par><![CDATA[<p>X inactivation is a vital process that occurs in all DNA-containing cells of the female body. It is also an important research model and tool for studying biology. Epigenetics refers to processes that tell our cells how, and when, to read the DNA blueprint.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734308</person_id>
+				<author_profile_id><![CDATA[81421602218]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Etsuko]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Uno]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The Walter and Eliza Hall Institute of Medical Research, Australia]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[uno@wehi.edu.au]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	</section>
+	<section>
+		<section_id>2341901</section_id>
+		<sort_key>650</sort_key>
+		<section_seq_no>2</section_seq_no>
+		<section_type>SECTION</section_type>
+		<section_title><![CDATA[Real-Time Live!]]></section_title>
+		<section_page_from>77</section_page_from>
+	<article_rec>
+		<article_id>2341902</article_id>
+		<sort_key>660</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[ARCADE]]></title>
+		<subtitle><![CDATA[a system for augmenting gesture-based computer graphic presentations]]></subtitle>
+		<page_from>77</page_from>
+		<page_to>77</page_to>
+		<doi_number>10.1145/2341836.2341902</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341902</url>
+		<abstract>
+			<par><![CDATA[<p>ARCADE is a system that allows real-time video-based presentations that convey the illusion that presenters are directly manipulating holographic 3D objects with their hands. This illusion is maintained by custom 3D finger tracking from Microsoft Kinect depth-image data, pre-authoring of smart interaction objects that can respond to a presenter's gestures with high-level behavior, and a suite of rendering effects that convey the visual illusion of a floating-in-air holographic projection. The system is currently used as a research platform for improving finger-based gesture recognition and as a production tool for creating compelling videos for distance education. This Real-Time Live! demonstration features ARCADE's application for a diverse range of topics, including computer graphics, mathematics, physics, chemistry, biology, and cartography. This project is inspired by the post-production effects typically used in Hollywood films, such as "Minority Report", "Harry Potter", and "Star Wars", but it enables non-professionals to author these experiences and then perform them live.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734309</person_id>
+				<author_profile_id><![CDATA[81504683109]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Murphy]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Stein]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[New York University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[murphy@cs.nyu.edu]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ ArCADe: A system for Augmenting Gesture-based Computer Graphic presentations contact murphy stein New 
+York University murphy@cs.nyu.edu United States ARCADE is a system that allows real-time video-based 
+presentations that convey the illusion that presenters are directly manipulating holographic 3D objects 
+with their hands. This illusion is maintained by custom 3D finger tracking from Microsoft Kinect depth-image 
+data, pre-authoring of smart interaction objects that can respond to a presenter s gestures with high-level 
+behavior, and a suite of rendering effects that convey the visual illusion of a floating-in-air holographic 
+projection. The system is currently used as a research platform for improving finger-based gesture recognition 
+and as a production tool for creating compelling videos for distance education. This Real-Time Live! 
+demonstration features ARCADE s application for a diverse range of topics, including computer graphics, 
+mathe­matics, physics, chemistry, biology, and cartography. This project is inspired by the post-production 
+effects typically used in Hollywood films, such as Minority Report , Harry Potter , and Star Wars , but 
+it enables non-professionals to author these experiences and then perform them live. tAble oF Contents 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341903</article_id>
+		<sort_key>670</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Beauty]]></title>
+		<subtitle><![CDATA[real-time visuals]]></subtitle>
+		<page_from>78</page_from>
+		<page_to>78</page_to>
+		<doi_number>10.1145/2341836.2341903</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341903</url>
+		<abstract>
+			<par><![CDATA[<p>Visual performances such as those seen in exhibitions, museums, and night clubs should take advantage of advanced rendering technology to create the most immersive experience possible. This project achieves immersion by merging three principles: reactivity, visual quality, and interactivity.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734310</person_id>
+				<author_profile_id><![CDATA[81504687787]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Pol]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jeremias]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[info@beautypi.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P3734311</person_id>
+				<author_profile_id><![CDATA[81504687663]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Inigo]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Quilez]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ beauty: real-time visuals contact pol Jeremias &#38; inigo Quilez info@beautypi.com http://www.beautypi.com 
+United States Visual performances such as those seen in exhibitions, mu­seums, and night clubs should 
+take advantage of advanced rendering technology to create the most immersive experience possible. This 
+project achieves immersion by merging three principles: reactivity, visual quality, and interactivity. 
+Reactivity adds dynamism and links visuals with the music, as opposed to the classic approach of pre-recorded 
+content. Most of the event can be left to improvisation (through different input devices like MIDI controllers), 
+letting the performance flow seam­lessly with the music. Visual quality (landscapes, colors, textures, 
+and shapes) is mostly created procedurally in real time. There are no pictures or recorded footage, so 
+every aspect of the imagery can be changed as needed during the show. Finally, the audience can interact 
+with the show, making them feel part of it. The interactivity is achieved with mobile devices, 3D cameras, 
+and standard cameras Each show is unique, because the artist can write code in real time during the event. 
+ tAble oF Contents 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341904</article_id>
+		<sort_key>680</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Leo]]></title>
+		<page_from>80</page_from>
+		<page_to>80</page_to>
+		<doi_number>10.1145/2341836.2341904</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341904</url>
+		<abstract>
+			<par><![CDATA[<p>The Leo Demo showcases a real-time, DirectX 11, forward-based lighting pipeline designed to allow for rendering scenes with no practical limit on the number of lights (1000s). Scenes can be made of arbitrarily complex materials (including transparencies) and multiple lighting models---all while supporting hardware MSAA and efficient memory usage.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734312</person_id>
+				<author_profile_id><![CDATA[81504682907]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Abraham]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Wiley]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Advanced Micro Devices, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[abewiley@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ leo contact Abraham Wiley Advanced Micro Devices, Inc. abewiley@gmail.com United States The Leo Demo 
+showcases a real-time, DirectX 11, forward-based lighting pipeline designed to allow for rendering scenes 
+with no practi­cal limit on the number of lights (1000s). Scenes can be made of arbi­trarily complex 
+materials (including transparencies) and multiple lighting models all while supporting hardware MSAA 
+and efficient memory usage. Specifically, this demo uses DirectCompute to cull and manage lights in a 
+scene. The end result is a per-pixel or per-tile list of lights that forward-render-based shaders use 
+for lighting each pixel. This tech­nique is leveraged to provide beautifully naturalistic single-bounce 
+global illumination lighting in the Leo Demo by spawning virtual-point light sources where light strikes 
+a surface. The lighting in this demo is physically based in that it is fully HDR, and the material and 
+reflection models take advantage of the ALU power available on modern GPUs to calculate physically accurate 
+light and surface interactions (multiple BRDF equations, realistic use of index of refraction, absorption 
+based on wavelength for metals, etc). The beautifully naturalistic lighting in the Leo Demo is achieved 
+entirely with run-time lights and utilizes a combination of direct and indirect lights. The lighting 
+is complimented with volumetric lighting effects and multiple high-resolution exponential shadow maps 
+for increased real­ism and detail. The novel lighting and material pipeline developed for the Leo Demo 
+is fully dynamic and interactive at run time. Every light source and mate­rial in the demo can be modified 
+and updated at run time. tAble oF Contents
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341905</article_id>
+		<sort_key>690</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Luminous studio tech demo]]></title>
+		<page_from>81</page_from>
+		<page_to>81</page_to>
+		<doi_number>10.1145/2341836.2341905</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341905</url>
+		<abstract>
+			<par><![CDATA[<p>This technical demonstration reveals some of the graphics capabilities of the next-generation Luminous Game Engine:</p> <p>Tessellation, photo-realistic rendering, real-time global illumination, reflection, refraction, particle systems, advanced shading of hair and skin, and much more.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734313</person_id>
+				<author_profile_id><![CDATA[81504682203]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Yoshihisa]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hashimoto]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Square Enix Co., Ltd., Japan]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[yoshihis@square-enix.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341906</article_id>
+		<sort_key>700</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[Separable subsurface scattering]]></title>
+		<page_from>82</page_from>
+		<page_to>82</page_to>
+		<doi_number>10.1145/2341836.2341906</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341906</url>
+		<abstract>
+			<par><![CDATA[<p>Due to the parallel advances in hardware and software, graphics in games are continuously improving. Still, for a 60-fps game, everything contained in a frame must be computed in just about 16 milliseconds. Given this tight time budget, certain effects cannot be computed and are simply not simulated, sacrificing realism to reallocate resources to other aspects of the game. This demo shows a technique to simulate subsurface scattering for human skin that runs in just over one millisecond per frame, making it a practical option for even the most challenging game scenarios. Previous real-time approaches simulate it by approximating the non-separable diffusion kernel using a sum of Gaussians, which require several (usually six) 1D convolutions. The proposed technique decomposes the exact 2D diffusion kernel with only two 1D functions, which allows subsurface scattering rendering with only two convolutions, reducing both time and memory without a decrease in quality. The 1D functions are defined in an intuitive way with just three parameters, allowing for easy edits.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734314</person_id>
+				<author_profile_id><![CDATA[81443594174]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jorge]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jimenez]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Universidad de Zaragoza, Spain]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jim@unizar.es]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ separable subsurface scattering contact Jorge Jimenez Universidad de Zaragoza jim@unizar.es Spain Due 
+to the parallel advances in hardware and software, graphics in games are continuously improving. Still, 
+for a 60-fps game, everything contained in a frame must be computed in just about 16 milliseconds. Given 
+this tight time budget, certain effects cannot be computed and are simply not simulated, sacrificing 
+realism to reallocate resources to other aspects of the game. This demo shows a technique to simu­late 
+subsurface scattering for human skin that runs in just over one millisecond per frame, making it a practical 
+option for even the most challenging game scenarios. Previous real-time approaches simulate it by approximating 
+the non-separable diffusion kernel using a sum of Gaussians, which require several (usually six) 1D convolutions. 
+The proposed technique decomposes the exact 2D diffusion kernel with only two 1D functions, which allows 
+subsurface scattering rendering with only two convolutions, reducing both time and memory without a decrease 
+in quality. The 1D functions are defined in an intuitive way with just three parameters, allowing for 
+easy edits. tAble oF Contents 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341907</article_id>
+		<sort_key>710</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>6</seq_no>
+		<title><![CDATA[Uncharted 3 visual effects]]></title>
+		<page_from>84</page_from>
+		<page_to>84</page_to>
+		<doi_number>10.1145/2341836.2341907</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341907</url>
+		<abstract>
+			<par><![CDATA[<p>For Uncharted 3, Naughty Dog tackled the challenge of rendering multiple environmental effects, such as fire, water, and sand in the game set pieces. The biggest challenge was delivering high-quality visual effects in real time while keeping the strict cinematographic and artistic style of the game.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734315</person_id>
+				<author_profile_id><![CDATA[81504684491]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Mohammed]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ikram]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Naughty Dog]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[iki_ikram@naughtydog.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341908</article_id>
+		<sort_key>720</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>7</seq_no>
+		<title><![CDATA[UNIGINE engine render]]></title>
+		<subtitle><![CDATA[flexible cross-API technologies]]></subtitle>
+		<page_from>85</page_from>
+		<page_to>85</page_to>
+		<doi_number>10.1145/2341836.2341908</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341908</url>
+		<abstract>
+			<par><![CDATA[<p>Unigine is a real-time 3D engine for games, simulation, visualization, and virtual reality systems. It provides an all-in-one solution featuring render, physics, world management, scripting, GUI, sound, pathfinding, tools, and a lot more.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734316</person_id>
+				<author_profile_id><![CDATA[81504687952]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Denis]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Shergin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Unigine LLC, Russia]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[binstream@unigine.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341909</article_id>
+		<sort_key>730</sort_key>
+		<display_label>Pages</display_label>
+		<pages>1</pages>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>8</seq_no>
+		<title><![CDATA[Unreal Engine 4 Elemental]]></title>
+		<page_from>86</page_from>
+		<page_to>86</page_to>
+		<doi_number>10.1145/2341836.2341909</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341909</url>
+		<abstract>
+			<par><![CDATA[<p>Developed by Epic Games, Elemental is the first real-time demonstration showcasing its next-generation Unreal Engine 4 technology. The demo presents rendering features utilizing DirectX 11 hardware. It takes per-pixel deferred shading to the next level: energy-conserving specular highlights from area lights and shadowed reflections from emissive materials creating area lights with shadowing, dynamic global illumination that affects both opaque and translucent materials, glossy surfaces that feature accurate reflections, subsurface scattering, and deferred decals. All lighting is complemented by the new GPU-accelerated particle simulation and the new post-processing pipeline.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734317</person_id>
+				<author_profile_id><![CDATA[81488643752]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Paul]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Oliver]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Epic Games, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[paul.oliver@epicgames.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	</section>
+</content>
+</proceeding>

@@ -1,0 +1,2536 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08-06-1990</start_date>
+		<end_date>08-10-1990</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Dallas]]></city>
+		<state>Texas</state>
+		<country>USA</country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>328750</proc_id>
+	<acronym>SIGGRAPH '90</acronym>
+	<proc_desc>ACM SIGGRAPH 90 Panel Proceedings</proc_desc>
+	<conference_number>1990</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn>0-89791-378-7</isbn>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>1990</copyright_year>
+	<publication_date>08-06-1990</publication_date>
+	<pages>340</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source>ACM order number 428901</other_source>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node>I.3.0</cat_node>
+			<descriptor/>
+			<type/>
+		</primary_category>
+		<other_category>
+			<cat_node>H.0</cat_node>
+			<descriptor></descriptor>
+			<type></type>
+		</other_category>
+		<other_category>
+			<cat_node>I.4.0</cat_node>
+			<descriptor></descriptor>
+			<type></type>
+		</other_category>
+	</categories>
+	<ccs2012>
+		<concept>
+			<concept_id>0.10010147.10010371.10010382.10010383</concept_id>
+			<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation->Image processing</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10010147.10010178.10010224</concept_id>
+			<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10002951</concept_id>
+			<concept_desc>CCS->Information systems</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10010147.10010371.10010382</concept_id>
+			<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+			<concept_significance>100</concept_significance>
+		</concept>
+		<concept>
+			<concept_id>0.10010147.10010371</concept_id>
+			<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+			<concept_significance>500</concept_significance>
+		</concept>
+	</ccs2012>
+	<general_terms>
+		<gt>Design</gt>
+		<gt>Documentation</gt>
+		<gt>Human Factors</gt>
+		<gt>Legal Aspects</gt>
+		<gt>Management</gt>
+		<gt>Performance</gt>
+		<gt>Theory</gt>
+	</general_terms>
+	<chair_editor>
+		<ch_ed>
+			<person_id>PP40041417</person_id>
+			<author_profile_id><![CDATA[81100411412]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>1</seq_no>
+			<first_name><![CDATA[James]]></first_name>
+			<middle_name><![CDATA[J.]]></middle_name>
+			<last_name><![CDATA[Thomas]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[Battelle Pacific Northwest Labs, Richardson, WA]]></affiliation>
+			<role><![CDATA[Chairman]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+		<ch_ed>
+			<person_id>PP39074104</person_id>
+			<author_profile_id><![CDATA[81310493227]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>2</seq_no>
+			<first_name><![CDATA[Judith]]></first_name>
+			<middle_name><![CDATA[R.]]></middle_name>
+			<last_name><![CDATA[Brown]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[The Univ. of Iowa, Iowa City]]></affiliation>
+			<role><![CDATA[Chairman]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+		<ch_ed>
+			<person_id>P15777</person_id>
+			<author_profile_id><![CDATA[81100533681]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>3</seq_no>
+			<first_name><![CDATA[Alyce]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Kaprow]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[The New Studio, Newton, MA]]></affiliation>
+			<role><![CDATA[Chairman]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+	</chair_editor>
+	<ccc>
+		<copyright_holder>
+			<copyright_holder_name>ACM</copyright_holder_name>
+			<copyright_holder_year>1990</copyright_holder_year>
+		</copyright_holder>
+	</ccc>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>328761</article_id>
+		<sort_key>101</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Grand challenges of computational science (panel session)]]></title>
+		<page_from>101</page_from>
+		<page_to>127</page_to>
+		<doi_number>10.1145/328750.328761</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328761</url>
+		<categories>
+			<primary_category>
+				<cat_node>C.5.1</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>I.4.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382.10010383</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation->Image processing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010520.10010521</concept_id>
+				<concept_desc>CCS->Computer systems organization->Architectures</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP31095112</person_id>
+				<author_profile_id><![CDATA[81100268376]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Larry]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Smarr]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NCSA]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P99857</person_id>
+				<author_profile_id><![CDATA[81406593307]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Gregory]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McRae]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP14034078</person_id>
+				<author_profile_id><![CDATA[81544527056]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Dixon]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[E. I. Du Pont De Nemours & Co.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P78248</person_id>
+				<author_profile_id><![CDATA[81100374814]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Eric]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lander]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[MIT]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Grand Challenges of Computational Science Chair Larry Smarr NCSA Panelists Gregory McRae Carnegie Mellon 
+University David Dixon E. I. Du Pont De Nemours &#38; Co. Eric Lander MIT There has been a massive expansion 
+in the computa- tional infrastructure supporting scientific research in the last five years. Today tens 
+of thousands of researchers have access from their desktop computers to supercomputer centers over the 
+national network. Scientific visualization has arisen as a critical tool of discovery, analysis and communication; 
+fundamen- tal research problems with economic or scientific impact are being attacked. Leading researchers 
+discuss how advanced computing and visualization resources are used to advance knowledge on these problems 
+in university, industrial, and governmental research centers. They explain the White House's High Performance 
+Computing Program, a $500 million annual program for computer and technology research and development. 
+Larry Smarr Welcome to the SIGGRAPH Panel on Grand Challenges of Computational Science. I think I want 
+to go ahead and get started because we have a lot of very exciting material to get through today and 
+I want to give plenty of time for questions at the end of the panelist presenta- tion. If you can hold 
+your questions until then, we'll take them on the entire set of talks. I've been asked by the SIGGRAPH 
+people in charge of panels to remind you of a few house- keeping details. There will be a breakout session 
+afterwards if there are still people that want to talk for a little bit in $412 upstairs. This session 
+will go until 12:30. We will try to leave some- thing like 20 minutes to a half an hour of time at the 
+end for questions. There is no audio, video or taping or still photography allowed by SIGGRAPH of this 
+event. There will be a tran- script prepared which will be available in the SIGGRAPH printed collection 
+-- and it is being videotaped. There is a National Center for Supercomputing Applications press packet 
+in the press room with individual -- one individual slide and a little bit of write-up on each of the 
+panelist area -- or at least on some of the panelist areas. There is a companion panel which will go 
+into more detail on the legislative agenda and the politics of the high performance computing initiative 
+which Donna Cox will be chairing. That will be on Friday from 9:00 a.m. to 10:30 in this theater. I will 
+also be a part of that panel and it will get into much more of the very, very rapid pace of activity 
+in this particular area that is going on now in Washington. This is a very hot topic and that's the reason 
+we wanted to have this panel. I'm thrilled actually that we were able to get the three speakers here 
+to join us. Art Freeman, who is on the program became ill at the very last minute. He called in last 
+night and was not able to join us. Dave Dixon will be covering his material on materials during his presentation. 
+I'll introduce briefly the three panelists. First, l guess I should introduce myself; I'm Larry Smarr. 
+I'm a physicist -- an astrophysicist and I'm the director of the National Center for Supercomputing Applications 
+at the University of Illinois at Urbana-Champaign --one of the National Science Foundation supercomputer 
+centers. The panelists have been put together with the following qualifications. They had to be abso- 
+lutely recognized as one of the forefront re- searchers in their field by their community --by their 
+colleagues. And they had to also be actively involved in public policy issues engaged with the various 
+entities in the science policy arena. We have achieved that goal. These people are absolutely first-rate. 
+It's a real treat, I think at SIGGRAPH to have scientists share with you what the scientific visualization 
+and corn- Grand Challenges of Computational Science   Grand Challenges of ComputationalScience COMPUTATIONAL 
+SCIENTIST / '%O.,T.M~.EO.Y l Oa{a Archive Visualization work. What he needs to be able to do --and here 
+he sits in the center --is to have access to hardware. Well, he can't just have access to a fast CPU. 
+That's what the teraflop mission is basically focused on. It has to actually focus on a much more balanced 
+machine. He needs large memory devices. He also needs very large amounts of scratch disk and storage 
+devices so he can store the data that's actually computed. If you run 50 hours on a supercomputer at 
+today's costs, you can't afford to throw that data away and not be able to use it later. You also have 
+to have appropriate software and one of the things that's really made numeri- cal simulation possible 
+over the last few years has been the ability to have things such as high quality operating systems, good 
+compilers and also very good programs that have actually been made accessible for the user to be able 
+to do his computations. We now look at what's available for you to support. There are two areas that 
+are very important here. One is the visualization which has been the focus of most of what SIGGRAPH is 
+interested in. There is also a very large amount of work that has to go into how do we actually archive 
+all of this data, and how can we actually access it. Finally, we have to have the people who develop 
+the algorithms and the new theoretical models. One of the important things that has hap- pened is that 
+this field is really becoming very, very strong again -- especially at least in the areas that I'm familiar 
+with in computational chemistry --because we now have supercomputers. When you couldn't calculate anything 
+that was very big and didn't really interest very many chemists, there really wasn't much reason to actually 
+develop new methods. It's turned out in the last 10 years because of the availability of supercomputers 
+that there have been dramatic new developments in algorithmic methods and in theoretical methods. On 
+the next slide, let's look what any basic user in say an industrial environment wants to do. What he 
+wants to do is access a set of data, and where does this data come from? Well, it can come from measurement. 
+That's sort of been the traditional way. But now we can I MEASURE I ~ I COMPUTE I also compute the data 
+or it may come from an internal data base or it may come from an external data base. It's this access 
+to data that's really going to dramatically change how people do their work. On the next slide, let's 
+look at what the actual weak link is and the weak link is really not how you measure, calculate or access 
+the data from a data base, but how does the user interface with the data. And this is where we would 
+hope that there can be dramatic changes in terms of the way people who develop graphical techniques can 
+help the user, the generic user who is not an expert in any area of computing. They're not an WEAK LINK 
+Data Browser i I ~ Visualization Data Modifier Data Access Generic User is not an Expert in any area 
+of computing expert in mathematics, they are an expert in their own area of science. What they want to 
+be able to do is access data. They want to be able to have graphical data browsers, a graphical data 
+modifier, visualization and then they also need to actually find out what data is there and how can they 
+actually get at it. All of this can be really enhanced by having very good graphical interfaces, and 
+it's critical for the actual users who aren't computa- tional scientists to be able to have this kind 
+of access. On the next slide, what is the value for numerical simulation? Well, there are two real values. 
+The first, and it has really made a big difference by validating the techniques, has been accurate numerical 
+prediction. We want to be able to reliably calculate the properties --in our case of molecules --for 
+use by experimentalists.  Grand Challenges of Computational Science NCSA. We'll be looking at how the 
+bonding between a chromium and a chloride ion devel- ops. Could you turn the volume up, please? <Video 
+being played > The people who are associated with this work are given here. There are people from AMOCO, 
+NCSA, Michigan State, and Northwestern. The first set of sequences you saw was actually done using ab 
+initio quantum chemistry using molecular orbital theory, and the second set was actually done with the 
+density functional method using the program DMol, which is a new technique that's now being applied to 
+molecular systems. Thank you very much for that video. On the next slide, what we're going to be talking 
+about now is an example from Du Pont of how we actually integrate computational science through one product 
+line, and this is an important product line for us. This line is the chlorofluorocarbon (CFC) line. Everybody 
+is aware of the problems of CFCs in terms of looking at ozone depletion, and what we're looking at now 
+is how we can actually use com- putational science to study this problem The problem here is that experimental 
+data is lacking. For the available materials that contain one or two carbons, only about 30% of the Role 
+of Computational Science for CFC Replacements Experimentaldata Is iacklng Reaction Enorg~e$ experimental 
+data is available. Yet we need this data if we're actually going to be doing quantita- tive experiments 
+and calculations. What we need to do first is be able to predict reaction energies for designing the 
+catalyst and that's what we need for the research part. When you look at heat release from a chemical 
+reac- tion, we impact development, process design and optimization of plant design. These are critical 
+because we have to keep the costs down so that the cost of your air conditioning systems or your home 
+refrigeration systems, doesn't get out of hand. And we're trying to do this in the most cost-effective 
+way so we need simulations in order to do this. It's not just this basic level that we need the results 
+of simulations, but as shown on the next slide, it actually integrates all the way down into marketing 
+where we're using molecular graphics Role of Corn lionaf Sdenco f¢¢ F ~ ExpeHmenLaldoll Ii I~klr~; I 
+to aid in marketing these materials. We need to look at customer product support, where we're predicting 
+various properties of the molecules. We can calculate the intensity of the infrared absorption for global 
+warming because we can't just worry about ozone depletion We also have to worry about the global warming 
+potential of any of these compounds. Finally, we can actually use these techniques to study fluid environmental 
+models in order to look at how we would dispose of waste fluids for some of the systems that we're looking 
+at. So this actually shows that we go from the molecular level all the way down to the very long time-scale 
+environmental level. The important point in these last two areas involving the environment is that we 
+cannot do any experiments here. We can't go 50 to 10,000 years out and do an experiment and see what 
+the materials are going to do. We have to do these simulations on the computer if we're going to make 
+any progress at all in terms of providing information for the environmental models for both regulatory 
+approval and for public accep- tance of these new materials. On the next slide -- what are the cost benefits 
+of doing a simulation? To do one measurement of one alternate at NIST, which is the old NBS, would cost 
+us about $50,000. The calculations Benefits of Numericat Simulation for CFC Atternates Program Cost 
+benefi~e  Measurement for one alternate at NIST - $50M  -Calculation for one alternate - $2-5M Time 
+reduction Measurement requires 90 days at NIST after synthesis and pur;ficatlon -Calcutatlon requires 
+3-7 days Lilora~ of data - Proprietary and most ¢omplele  Can calculate other proper~ies  -Separation 
+systems -Refrigerant properties actually cost us between two and five thousand dollars So they're about 
+in order of magnitude cheaper than doing the experiment. But some- thing more important is that if we're 
+going to do it at NIST, it would take about three months to f          Grand Challenges of 
+ComputationalScience Japanese and the Germans, for example, are producing. They're probably outproducing 
+us in a number of areas, for example, the Europeans in computational chemistry, and the people they produce 
+are especially good at knowing how to really get very good numbers. There are quite a few people being 
+produced in the biological molecular dynamics areas for chemical systems in the U.S., but in the hard 
+core computational side there are not that many. So trained people are obviously something that we're 
+going to need. It's also true in engineering. We didn't really cover all that much of that discipline 
+here, but there aren't that many engineers being trained at the college level in computational science. 
+There are very few Ph.D. engineers produced in the U.S. who would go into industry. We tend to hire mostly 
+people with bachelors or masters degrees. We have to train them how to do computational science. We need 
+to do that much earlier in the educational system. Another area that I think that is really critical, 
+for this community especially, is we have to introduce the idea of scientific visualization and computer 
+graphics into courses throughout all of the disciplines. We need to be introducing this not only into 
+the computer science, but we need to have courses where we're integrating this into chemistry courses, 
+physics courses, geology, biology and so forth, at the undergraduate level. That's an area that we have 
+not really as any kind of community focused on. Computer graphics is something that's "gee whiz", "it's 
+special", "it's too hard". But there are a lot of basic ideas that if we get them across to the students, 
+would make a big difference in terms of what we will have down the road in 10 and 20 years. It's going 
+to be critical that we integrate the visualization, the computer graphics, and the ability to get good 
+numbers out if we're really going to solve problems in the U.S. to keep it competitive. Another area 
+that I think is important is that you can't neglect the hardware side of things. We're all going to continue 
+to buy it. I would certainly not want to be recommending on a policy issue that says well, we dump it 
+all into people resources and we don't provide them with any computer resources, because if there are 
+no computer resources, we're not going to be developing anything. So there has to be a balance between 
+develop- ing the people, between making sure that there is hardware available for them through the various 
+centers and so forth, especially at the universities, and also we have to make sure that we're going 
+to allow people to not only develop the algorithms, which is fine, but if they don't implement them in 
+code that I can use, I'm out of business. At the cost of one scientist, which is roughly a third of a 
+million dollars a person in Du Pont Research, I don't have time to sit there and spend five years developing 
+code --espe- cially if it's 100,000 lines that only I can use and maintain. So it's very important that 
+we take this algorithm development and make it into usable code and then we have to provide really first 
+rate, front end and back end interfaces. The front ends are coming along pretty well for a lot of these 
+things. The analysis packages are really lacking and I think again that's an enormous area that can be 
+attacked by the graphics community. Smarr Thank you. Next question? Q. Ben Bacon, Computers in Physics. 
+There are, from a number of new computational methodologies that get loosely lumped under the name of 
+chaos, and at AIP it's very controversial right now as to what sort of credence to give this. We're seeing 
+an explosion in the submission rate of papers. Based upon such methodologies, would the members of this 
+very distinguished panel like to take a crack at assessing the relative importance of these techniques 
+in your various specialties? Dixon I'll try and start because we actually have a couple of areas where 
+I think it's relevant. We've actually found chaotic behavior in industrial applications; chaos is here 
+to stay. It's a different kind of solution space for a set of differential equations. So of course it's 
+going to be impor- tant I think in a number of areas. Speaking specifically about chemical engineering 
+applica- tions in a plant process system, we've actually found these kinds of things going on in some 
+of our oxidation systems. So chaotic behavior potentially can have a very strong business impact if one 
+wants to optimize a process. If your process is running in the chaotic regime, you have to make sure 
+you understand that so you can run it optimally. It's still a basic area of research. It's only really 
+been around as a well-defined area for 10 or 15 years, and I think that it's too soon to say what all 
+the practical implications are going to be, but there clearly are going to be some. It is basically rethinking 
+the kinds of solution spaces one has for very complex sets of differential equations. Lander I think 
+in biology it's at an earlier stage still than that. Mostly for our inability to collect large amounts 
+of data points and well define a system. But there are some areas where chaotic dynamics are beginning 
+to be applied with actual experi- mental verification out the other end. Those pertain to things like 
+heart attacks, epileptic attacks, epileptic fits in the brain, and to some work with neural networks. 
+Remember, in his situation, he's got far better defined equations governing the vessel contain- ing what's 
+going on --we don't. And so we have to do a fair bit more simulation of what may be going on, and then 
+to actually believe that, we've got to come up with experimentally testable predictions. That's beginning 
+to happen, although 1 think at our primitive stage it would be fair to say it's a small impact on the 
+field and a much smaller impact that I suspect eventually will come as we get better descrip- tions. 
+McRae I'd just like to make two very quick comments. I think that there's a lot of interesting mathemat- 
+ics in chaos. The real issue is how do you get your knowledge of the physics into a lot of the formalisms 
+that are being present. Since I work in climate kinds of issues. You see lots of discussions that maybe 
+the climatic system is chaotic. What's typically missing from the many, many papers that I have read 
+in this area is that the climate system is a forced damped system. It's forced by the sun and there's 
+damping dissipational processes which we move the energy and radiate it back out into space. A lot of 
+the mathematics papers that you read do not typically include damping and that really can change the 
+modes of behavior of a system. The second comment that I'd make is that one of the conclusions that a 
+lot of these papers reach is that if a system is chaotic you can't predict what's going on or alternatively 
+if you can't predict what's going on, then you shouldn't do anything about the system. I think this is 
+a good example of where we need to really rethink our approaches to algorithms because uncertainly is 
+endemic in essentially every one of the problems that we've talked about today. In the past we've been 
+--I would characterize -- victims of uncertainty. What we need to do is to think about how do we actually 
+push through these complex models, notions of uncertainty --uncertainties in parameter variables -- and 
+begin in the case of public policy for environmental problems, think about the development and design 
+of robust strategies -- strategies which allow you to get the sign right even in the presence of lots 
+of uncertainties. So I would characterize the field right now as being relatively immature in terms of 
+how it actually might help us solve real problems. But that's not to say that any time we bring new mathematics 
+that we don't get more descriptive power. Smarr I've just been advised that we need to terminate this 
+discussion with maybe one more quick question and then we can move upstairs to continue it in S412 because 
+these guys back here have got to get ready for the next thing. Yes, you were waiting next. Q. Burt Freedhoff, 
+University of California. From the sound of things, one might get the impression that computational science 
+and visualization are the same. And I wondered whether any of the members of the panel would want to 
+comment on whether there's a role of computational science without visualization, what the connection 
+between them. Smarr I'll just make a brief answer to that. The ques- tion is the difference between computational 
+science and scientific visualization. It is true that a great deal of computational science -- the use 
+of computers to explore science -- is done without visualization. And in fact, the largest uses of supercomputers 
+today are for lattice gauge theory --elementary particle theory --in which no visualization of any sort 
+is done. When you give scientific visualization tools to scientists in any field, they almost invariably 
+find ways to look at their data that they had not looked at before, and they come to rely on the scientific 
+visualization as both a discovery and an analytic process, which we've tried to explore here. So a great 
+deal of it is that the scientific community is very poor. What you see out on the floor here has very 
+little relation to what the average scientist has on his desk. And this is one of the things that's got 
+to change. Because visualization basically should take place in the privacy of your own room, with you 
+interacting with it, and that's what we'd like to move toward with the desktop wired in to these larger 
+resources in the national centers. And at that point, because we're very visual animals, scien- tific 
+visualization will become a dominant part of the scientific method. Thank you very much for your attention. 
+Let's thank the speakers again and then those who would like to move up can do that. Grand Challenges 
+of Computational Science 
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328763</article_id>
+		<sort_key>201</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Interface and new interactive systems (panel session)]]></title>
+		<page_from>201</page_from>
+		<page_to>213</page_to>
+		<doi_number>10.1145/328750.328763</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328763</url>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.2</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>H.5.1</cat_node>
+				<descriptor>Artificial, augmented, and virtual realities</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor>Virtual reality</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>H.1.2</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003120.10003121.10003124.10010392</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction paradigms->Mixed / augmented reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387.10010866</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces->Virtual reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387.10010866</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces->Virtual reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003124.10010866</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction paradigms->Virtual reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Human Factors</gt>
+			<gt>Management</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP31049512</person_id>
+				<author_profile_id><![CDATA[81100603693]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Brenda]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Laurel]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP14084996</person_id>
+				<author_profile_id><![CDATA[81340491376]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Nagel]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Apple Computer, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP39043065</person_id>
+				<author_profile_id><![CDATA[81100444749]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Chris]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Schmandt]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[MIT Media Lab]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP17009882</person_id>
+				<author_profile_id><![CDATA[81100242173]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Naimark]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P69656</person_id>
+				<author_profile_id><![CDATA[81538189056]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Douglas]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Crockford]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Lucasfilm Games, a Division of LucasArts Entertainment]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328766</article_id>
+		<sort_key>301</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Using photographic quality images in desktop applications (panel session)]]></title>
+		<page_from>301</page_from>
+		<page_to>313</page_to>
+		<doi_number>10.1145/328750.328766</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328766</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.4.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.7.2</cat_node>
+				<descriptor>Desktop publishing</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010476.10010477</concept_id>
+				<concept_desc>CCS->Applied computing->Computers in other domains->Publishing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010476.10011187</concept_id>
+				<concept_desc>CCS->Applied computing->Computers in other domains->Personal computers and PC applications</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382.10010383</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation->Image processing</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Documentation</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P12173</person_id>
+				<author_profile_id><![CDATA[81100532010]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Alain]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Rossmann]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[C-Cube MicroSystems]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P58204</person_id>
+				<author_profile_id><![CDATA[81332522464]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Dan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Putman]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Adobe Software]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P196434</person_id>
+				<author_profile_id><![CDATA[81100002430]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bourgoin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Aldus Corporation]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P99471</person_id>
+				<author_profile_id><![CDATA[81332515801]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Greg]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Millar]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Radius, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328767</article_id>
+		<sort_key>401</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Multimedia document architecture (panel session)]]></title>
+		<page_from>401</page_from>
+		<page_to>421</page_to>
+		<doi_number>10.1145/328750.328767</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328767</url>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.1</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10002951.10003227.10003251</concept_id>
+				<concept_desc>CCS->Information systems->Information systems applications->Multimedia information systems</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002951.10003227.10003251</concept_id>
+				<concept_desc>CCS->Information systems->Information systems applications->Multimedia information systems</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Documentation</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P268083</person_id>
+				<author_profile_id><![CDATA[81100159061]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Stephen]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bulick]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[U.S. West Advanced Technologies]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P279267</person_id>
+				<author_profile_id><![CDATA[81100490569]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Terry]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Crowley]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Bolt, Berenek, and Newman]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P171129</person_id>
+				<author_profile_id><![CDATA[81100613207]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Lester]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ludwig]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Bell Communications Research]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP39082440</person_id>
+				<author_profile_id><![CDATA[81342509312]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Jonathan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Rosenberg]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie-Mellon University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328768</article_id>
+		<sort_key>501</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[Special section]]></title>
+		<subtitle><![CDATA[SIGGRAPH bowl]]></subtitle>
+		<page_from>501</page_from>
+		<page_to>529</page_to>
+		<doi_number>10.1145/328750.328768</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328768</url>
+		<categories>
+			<primary_category>
+				<cat_node>K.2</cat_node>
+				<descriptor>Theory</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>K.2</cat_node>
+				<descriptor>Software</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>I.4.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003456.10003457.10003521.10003524</concept_id>
+				<concept_desc>CCS->Social and professional topics->Professional topics->History of computing->History of software</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382.10010383</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation->Image processing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003456.10003457.10003521.10003526</concept_id>
+				<concept_desc>CCS->Social and professional topics->Professional topics->History of computing->History of computing theory</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P283884</person_id>
+				<author_profile_id><![CDATA[81539708656]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Tomas]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Porter]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Princeton University]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP15033698</person_id>
+				<author_profile_id><![CDATA[81100482576]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Pat]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hanrahan]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Princeton University]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P140234</person_id>
+				<author_profile_id><![CDATA[81100294395]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Jim]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Blinn]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[California Institute of Technology]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP39035674</person_id>
+				<author_profile_id><![CDATA[81100278087]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Nick]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[England]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Sun Microsystems]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP45026692</person_id>
+				<author_profile_id><![CDATA[81343502664]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Rob]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Pike]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[AT&T Bell Labs]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P84499</person_id>
+				<author_profile_id><![CDATA[81341495007]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Flip]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Phillips]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328770</article_id>
+		<sort_key>601</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>6</seq_no>
+		<title><![CDATA[Beyond scientific visualization (panel session)]]></title>
+		<subtitle><![CDATA[mapping information]]></subtitle>
+		<page_from>601</page_from>
+		<page_to>623</page_to>
+		<doi_number>10.1145/328750.328770</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328770</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.4.9</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>D.1.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10011007.10011006.10011050.10011058</concept_id>
+				<concept_desc>CCS->Software and its engineering->Software notations and tools->Context specific languages->Visual languages</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010225</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Computer vision tasks</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP31073353</person_id>
+				<author_profile_id><![CDATA[81542923256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Donna]]></first_name>
+				<middle_name><![CDATA[J.]]></middle_name>
+				<last_name><![CDATA[Cox]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NCSA]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P140234</person_id>
+				<author_profile_id><![CDATA[81100294395]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Jim]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Blinn]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[California Institute of Technology]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P241824</person_id>
+				<author_profile_id><![CDATA[81332497454]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Richard]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ellison]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Eastman Kodak Company]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P108993</person_id>
+				<author_profile_id><![CDATA[81100188656]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Helga]]></first_name>
+				<middle_name><![CDATA[M. Leonardt]]></middle_name>
+				<last_name><![CDATA[Hendriks]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The Leonhardt Language System]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328772</article_id>
+		<sort_key>701</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>7</seq_no>
+		<title><![CDATA[Interactive art and artificial reality (panel session)]]></title>
+		<page_from>701</page_from>
+		<page_to>718</page_to>
+		<doi_number>10.1145/328750.328772</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328772</url>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.2</cat_node>
+				<descriptor>Interaction styles (e.g., commands, menus, forms, direct manipulation)</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>H.5.1</cat_node>
+				<descriptor>Artificial, augmented, and virtual realities</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor>Virtual reality</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003120.10003121.10003124.10010392</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction paradigms->Mixed / augmented reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387.10010866</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces->Virtual reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003124.10010866</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction paradigms->Virtual reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387.10010866</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces->Virtual reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003124</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction paradigms</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP35023041</person_id>
+				<author_profile_id><![CDATA[81100031851]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Gregory]]></first_name>
+				<middle_name><![CDATA[P.]]></middle_name>
+				<last_name><![CDATA[Garvey]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The New England School of Art and Design~Northeastern University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP31083421</person_id>
+				<author_profile_id><![CDATA[81100204270]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Myron]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Krueger]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P74594</person_id>
+				<author_profile_id><![CDATA[81100259475]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Ed]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Tannenbaum]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP31029772</person_id>
+				<author_profile_id><![CDATA[81332523793]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Don]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ritter]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Concordia University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328777</article_id>
+		<sort_key>801</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>8</seq_no>
+		<title><![CDATA[Hand tools or head tools? (panel session)]]></title>
+		<page_from>801</page_from>
+		<page_to>824</page_to>
+		<doi_number>10.1145/328750.328777</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328777</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.4.9</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>J.5</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>J.6</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010432.10010439</concept_id>
+				<concept_desc>CCS->Applied computing->Physical sciences and engineering->Engineering</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010225</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Computer vision tasks</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP14095893</person_id>
+				<author_profile_id><![CDATA[81100251077]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Robin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Baker]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Royal College of Art]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP14199366</person_id>
+				<author_profile_id><![CDATA[81543405356]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Alison]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Black]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Reading University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP42057767</person_id>
+				<author_profile_id><![CDATA[81341496850]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Gillian]]></first_name>
+				<middle_name><![CDATA[Crampton]]></middle_name>
+				<last_name><![CDATA[Smith]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Royal College of Art]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP14149652</person_id>
+				<author_profile_id><![CDATA[81100424369]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Bill]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Verplank]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328795</article_id>
+		<sort_key>901</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>9</seq_no>
+		<title><![CDATA[New methods, new artforms (panel session)]]></title>
+		<subtitle><![CDATA[3D applications in sculpture]]></subtitle>
+		<page_from>901</page_from>
+		<page_to>925</page_to>
+		<doi_number>10.1145/328750.328795</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328795</url>
+		<categories>
+			<primary_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Fine arts</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>H.5.1</cat_node>
+				<descriptor>Artificial, augmented, and virtual realities</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor>Virtual reality</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387.10010866</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces->Virtual reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387.10010866</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces->Virtual reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003124.10010866</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction paradigms->Virtual reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003124.10010392</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction paradigms->Mixed / augmented reality</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P27739</person_id>
+				<author_profile_id><![CDATA[81100280180]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Barbara]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mones-Hattal]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[George Mason University]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P159606</person_id>
+				<author_profile_id><![CDATA[81341496783]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Ken]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Snelson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P258799</person_id>
+				<author_profile_id><![CDATA[81539581756]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Sally]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Weber]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP39040862</person_id>
+				<author_profile_id><![CDATA[81100394889]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Charles]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Csuri]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The Ohio State University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P284363</person_id>
+				<author_profile_id><![CDATA[81100411570]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Tony]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Longson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[California State University, Los Angeles]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328798</article_id>
+		<sort_key>1001</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>10</seq_no>
+		<title><![CDATA[Hip, hype and hope&#8212;the three faces of virtual worlds (panel session)]]></title>
+		<page_from>1001</page_from>
+		<page_to>1029</page_to>
+		<doi_number>10.1145/328750.328798</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328798</url>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.1</cat_node>
+				<descriptor>Artificial, augmented, and virtual realities</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010226.10010239</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Image and video acquisition->3D imaging</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387.10010866</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces->Virtual reality</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003124.10010392</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction paradigms->Mixed / augmented reality</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003124.10010866</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction paradigms->Virtual reality</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P31249</person_id>
+				<author_profile_id><![CDATA[81100031912]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Bob]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jacobson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Washington]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP14159616</person_id>
+				<author_profile_id><![CDATA[81547526956]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[John]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Barlow]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP31050559</person_id>
+				<author_profile_id><![CDATA[81100628819]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Esther]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Dyson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP31086222</person_id>
+				<author_profile_id><![CDATA[81100306335]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Timothy]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Leary]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P298647</person_id>
+				<author_profile_id><![CDATA[81100087720]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[William]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bricken]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Human Interface Technology Lab]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P296785</person_id>
+				<author_profile_id><![CDATA[81100253164]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Warren]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Robinett]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of North Carolina]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP31050370</person_id>
+				<author_profile_id><![CDATA[81100623833]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>7</seq_no>
+				<first_name><![CDATA[Jaron]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lanier]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[VPL Research]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328811</article_id>
+		<sort_key>1101</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>11</seq_no>
+		<title><![CDATA[Getting it off the screen and onto paper (panel session)]]></title>
+		<subtitle><![CDATA[current accomplishments and future goals]]></subtitle>
+		<page_from>1101</page_from>
+		<page_to>1127</page_to>
+		<doi_number>10.1145/328750.328811</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328811</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.7.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.2</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.3</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010372</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Rendering</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010520.10010521.10010542.10011714</concept_id>
+				<concept_desc>CCS->Computer systems organization->Architectures->Other architectures->Special purpose systems</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010497</concept_id>
+				<concept_desc>CCS->Applied computing->Document management and text processing</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP42054595</person_id>
+				<author_profile_id><![CDATA[81339516843]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Gary]]></first_name>
+				<middle_name><![CDATA[W.]]></middle_name>
+				<last_name><![CDATA[Meyer]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Meyer University of Oregon]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P241167</person_id>
+				<author_profile_id><![CDATA[81100310104]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Ricardo]]></first_name>
+				<middle_name><![CDATA[J.]]></middle_name>
+				<last_name><![CDATA[Motta]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Hewlett-Packard Laboratories]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P141696</person_id>
+				<author_profile_id><![CDATA[81452615099]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Joann]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Taylor]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Tektronix Laboratories]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP42054833</person_id>
+				<author_profile_id><![CDATA[81100388123]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Maureen]]></first_name>
+				<middle_name><![CDATA[C.]]></middle_name>
+				<last_name><![CDATA[Stone]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Xerox PARC]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328824</article_id>
+		<sort_key>1201</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>12</seq_no>
+		<title><![CDATA[What is happening on the Hill? (panel session)]]></title>
+		<page_from>1201</page_from>
+		<page_to>1215</page_to>
+		<doi_number>10.1145/328750.328824</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328824</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.4.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>K.5.2</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003456.10003462.10003588</concept_id>
+				<concept_desc>CCS->Social and professional topics->Computing / technology policy->Government technology policy</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382.10010383</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation->Image processing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Human Factors</gt>
+			<gt>Legal Aspects</gt>
+			<gt>Management</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>PP31075340</person_id>
+				<author_profile_id><![CDATA[81542923256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Donna]]></first_name>
+				<middle_name><![CDATA[J.]]></middle_name>
+				<last_name><![CDATA[Cox]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NCSA]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP31096967</person_id>
+				<author_profile_id><![CDATA[81100268376]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Larry]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Smarr]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NCSA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P130841</person_id>
+				<author_profile_id><![CDATA[81100383003]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Jacob]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Maizel]]></last_name>
+				<suffix><![CDATA[Jr.]]></suffix>
+				<affiliation><![CDATA[The Laboratory Mathematical Biology, NCI]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P241270</person_id>
+				<author_profile_id><![CDATA[81544981456]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Rich]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hirsh]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[National Science Foundation]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328827</article_id>
+		<sort_key>1301</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>13</seq_no>
+		<title><![CDATA[Visualization technologies as a tool for science education (panel session)]]></title>
+		<page_from>1301</page_from>
+		<page_to>1316</page_to>
+		<doi_number>10.1145/328750.328827</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328827</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.4.9</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>J.1</cat_node>
+				<descriptor>Education</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>I.3.8</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>J.2</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+			<other_category>
+				<cat_node>K.3.1</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010432</concept_id>
+				<concept_desc>CCS->Applied computing->Physical sciences and engineering</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010489</concept_id>
+				<concept_desc>CCS->Applied computing->Education</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010406</concept_id>
+				<concept_desc>CCS->Applied computing->Enterprise computing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010497.10010504.10010507</concept_id>
+				<concept_desc>CCS->Applied computing->Document management and text processing->Document capture->Graphics recognition and interpretation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010178.10010224.10010225</concept_id>
+				<concept_desc>CCS->Computing methodologies->Artificial intelligence->Computer vision->Computer vision tasks</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P246940</person_id>
+				<author_profile_id><![CDATA[81100634914]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Robert]]></first_name>
+				<middle_name><![CDATA[Sherman]]></middle_name>
+				<last_name><![CDATA[Wolff]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Apple Computer, Inc.]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP15032716</person_id>
+				<author_profile_id><![CDATA[81100455127]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Dan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sandin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Illinois at Chicago]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P222350</person_id>
+				<author_profile_id><![CDATA[81332532285]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Paul]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Trunfio]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Boston University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P168778</person_id>
+				<author_profile_id><![CDATA[81546642056]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Larry]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Yaeger]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Apple Computer, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P221509</person_id>
+				<author_profile_id><![CDATA[81332504052]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Paul]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hickman]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Belmont High School]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328828</article_id>
+		<sort_key>1401</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>14</seq_no>
+		<title><![CDATA[The state of the animation industry (panel session)]]></title>
+		<page_from>1401</page_from>
+		<page_to>1415</page_to>
+		<doi_number>10.1145/328750.328828</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328828</url>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.1</cat_node>
+				<descriptor>Animations</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor>Animation</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>K.1</cat_node>
+				<descriptor>Suppliers</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>K.3.1</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010489</concept_id>
+				<concept_desc>CCS->Applied computing->Education</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003456.10003457.10003458.10003461</concept_id>
+				<concept_desc>CCS->Social and professional topics->Professional topics->Computing industry->Computer manufacturing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010341.10010349.10011310</concept_id>
+				<concept_desc>CCS->Computing methodologies->Modeling and simulation->Simulation types and techniques->Simulation by animation</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P40883</person_id>
+				<author_profile_id><![CDATA[81100251531]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Carl]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Rosendahl]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pacific Data Images, Inc.]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P44202</person_id>
+				<author_profile_id><![CDATA[81100256415]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Charlie]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gibson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Rhythm & Hues]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P199194</person_id>
+				<author_profile_id><![CDATA[81365595781]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Wahrman]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[deGraf/Wahrrnan, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P238429</person_id>
+				<author_profile_id><![CDATA[81100332863]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Ralph]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Guggenheim]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P219625</person_id>
+				<author_profile_id><![CDATA[81100240667]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Pascal]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bap]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ExMachina]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328829</article_id>
+		<sort_key>1501</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>15</seq_no>
+		<title><![CDATA[Color portability&#8212;reality in the '90s (panel session)]]></title>
+		<page_from>1501</page_from>
+		<page_to>1524</page_to>
+		<doi_number>10.1145/328750.328829</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328829</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor>Color, shading, shadowing, and texture</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>I.7.2</cat_node>
+				<descriptor>Desktop publishing</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>D.2.7</cat_node>
+				<descriptor>Portability</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010476.10010477</concept_id>
+				<concept_desc>CCS->Applied computing->Computers in other domains->Publishing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010476.10011187</concept_id>
+				<concept_desc>CCS->Applied computing->Computers in other domains->Personal computers and PC applications</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10011007.10011074.10011092.10011096</concept_id>
+				<concept_desc>CCS->Software and its engineering->Software creation and management->Software development techniques->Reusability</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382.10010384</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation->Texturing</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Documentation</gt>
+			<gt>Human Factors</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P75817</person_id>
+				<author_profile_id><![CDATA[81100519011]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Efraim]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Arazi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Electronics for Imaging]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P145137</person_id>
+				<author_profile_id><![CDATA[81332515630]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[John]]></first_name>
+				<middle_name><![CDATA[D.]]></middle_name>
+				<last_name><![CDATA[Meyer]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Hewlett-Packard Lab]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P132654</person_id>
+				<author_profile_id><![CDATA[81100620013]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[James]]></first_name>
+				<middle_name><![CDATA[A.]]></middle_name>
+				<last_name><![CDATA[Kasson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[IBM Almaden Research Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>328831</article_id>
+		<sort_key>1601</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-06-1990</article_publication_date>
+		<seq_no>16</seq_no>
+		<title><![CDATA[Digital publication (panel session)]]></title>
+		<subtitle><![CDATA[status, opportunities and problems]]></subtitle>
+		<page_from>1601</page_from>
+		<page_to>1622</page_to>
+		<doi_number>10.1145/328750.328831</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=328831</url>
+		<categories>
+			<primary_category>
+				<cat_node>I.7.2</cat_node>
+				<descriptor>Desktop publishing</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>J.7</cat_node>
+				<descriptor>Publishing</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010476.10010477</concept_id>
+				<concept_desc>CCS->Applied computing->Computers in other domains->Publishing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010476.10010477</concept_id>
+				<concept_desc>CCS->Applied computing->Computers in other domains->Publishing</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010476.10011187</concept_id>
+				<concept_desc>CCS->Applied computing->Computers in other domains->Personal computers and PC applications</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Documentation</gt>
+			<gt>Performance</gt>
+			<gt>Theory</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P66738</person_id>
+				<author_profile_id><![CDATA[81100520747]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Dick]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Phillips]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Los Alamos National Laboratory]]></affiliation>
+				<role><![CDATA[Chairman]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP31086441</person_id>
+				<author_profile_id><![CDATA[81100556662]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lesk]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Bellcore]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP14076589</person_id>
+				<author_profile_id><![CDATA[81546363556]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hawley]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[MIT Media Laboratory]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP40027057</person_id>
+				<author_profile_id><![CDATA[81452592989]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Andries]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[van Dam]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Brown University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P241413</person_id>
+				<author_profile_id><![CDATA[81407594230]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Richard]]></first_name>
+				<middle_name><![CDATA[J.]]></middle_name>
+				<last_name><![CDATA[Beach]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Xerox PARC]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>1990</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+</content>
+</proceeding>

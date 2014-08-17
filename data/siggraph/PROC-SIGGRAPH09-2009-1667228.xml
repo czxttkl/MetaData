@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08/03/2009</start_date>
+		<end_date>08/07/2009</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[New Orleans]]></city>
+		<state>Louisiana</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>1667228</proc_id>
+	<acronym>SIGGRAPH '09</acronym>
+	<proc_desc>ACM SIGGRAPH 2009 Awards</proc_desc>
+	<conference_number>2009</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2009</copyright_year>
+	<publication_date>08-03-2009</publication_date>
+	<pages>3</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<chair_editor>
+		<ch_ed>
+			<person_id>P1797074</person_id>
+			<author_profile_id><![CDATA[81448599888]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>1</seq_no>
+			<first_name><![CDATA[John]]></first_name>
+			<middle_name><![CDATA[(Spike)]]></middle_name>
+			<last_name><![CDATA[Hughes]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[Brown University]]></affiliation>
+			<role><![CDATA[Editor]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+	</chair_editor>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>1667229</article_id>
+		<sort_key>10</sort_key>
+		<display_label>Article No.</display_label>
+		<display_no>1</display_no>
+		<article_publication_date>08-03-2009</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Steven A. Coons Award]]></title>
+		<subtitle><![CDATA[Robert L. Cook]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1667228.1667229</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1667229</url>
+		<abstract>
+			<par><![CDATA[<p>The Steven A. Coons Award is given in odd-numbered years to an individual to honor that person's lifetime contribution to computer graphics and interactive techniques.</p> <p>The 2009 recipient of the Steven A. Coons Award is Robert L. Cook.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<seq_no />
+				<first_name />
+				<middle_name />
+				<last_name />
+				<suffix />
+				<role />
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2009 ACM SIGGRAPH Awards Steven A. Coons Award Robert L. Cook ACM SIGGRAPH is proud to recognize Robert 
+L. Cook as this year s winner of the Steven A. Coons Award for his numerous pioneering technical contributions 
+to rendering, as well as for his extraordinary record of service. Rob received a Bachelor s degree in 
+physics from Duke University, and a Master s degree in computer graphics in 1981 from Cornell University. 
+After leaving Cornell he was one of the first to join the group at Lucasfilm that eventually became Pixar, 
+where he is currently Vice President of Advanced Technology. In 1987 Rob received the SIGGRAPH Computer 
+Graphics Achievement Award for the work he did at Cornell. In 2001 he, Ed Catmull, and Loren Carpenter, 
+were awarded the first Oscar&#38;#169; for software for their development of RenderMan, and in 2009 he 
+was inducted into the National Academy of Engineering. Virtually every paper Rob has written has been 
+seminal. This stems in large part from his nature as a true scholar. He strives for a deep level of understanding, 
+and eschews flashy results that are not based on sound underlying principles. He also steeps himself 
+in other scientific and technical disciplines to uncover results that are relevant to computer graphics. 
+These traits were particularly well demonstrated in his Master s thesis. At Cornell Rob became interested 
+in physically-based reflectance models. In researching the topic, he ran across several papers writ­ten 
+by Ken Torrance, who happened to be a professor at Cornell. Their collaboration led to the now standard 
+Torrance-Cook reflec­tance model. That work explained for the first time why computer graphics images 
+had previously all looked like plastic. The work also provided the means to create far more realistic 
+images of real materials. Rob extended this work at Lucasfilm with the invention of programmable shading, 
+which enabled the simulation of a wide range of surface appearances. Programmable shading has since become 
+indispensable for visual effects, games, and GPUs. Rob, along with Tom Porter, Loren Carpenter, and Rodney 
+Stock, also developed the idea of distribution ray tracing, which made many visual phenomena, such as 
+motion blur, translucency, depth of field, and glossy reflection suddenly tractable with a single bril­liant 
+insight: these phenomena all require integration of incoming illumination, and these integrals can be 
+efficiently estimated by stochastically sampling the integrand. Digging deeper, Rob later published a 
+short treatise showing that distribution ray tracing was in fact an instance of Monte Carlo integration. 
+In that work he also explained why the noisy results inherent in Monte Carlo integration are perfectly 
+suited to the human visual system.  These advances were incorporated into the Reyes rendering archi­tecture, 
+which was created by Loren and Rob to handle large, complex scenes. Rob wrote the software, which was 
+first used for Pixar shorts and Lucasfilm visual effects and then made commer­cially available in 1988 
+as the RenderMan renderer. Since its initial release, RenderMan has become a mainstay in the film industry, 
+and remains so today, twenty years later. In the last 15 years, every film nominated for a Visual Effects 
+Academy Award has used RenderMan. Rob has also had an exceptional record of service to our field: he 
+was the SIGGRAPH electronic theater chair in 1985, the SIGGRAPH technical papers chair in 1995, served 
+on the Executive Committee from 2004 to 2007, and is currently the founding chair of the Papers Advisory 
+Group. ACM SIGGRAPH is proud to recognize Rob s achievements with the 2009 Steven A. Coons Award. Previous 
+Award Recipients 2007 Nelson Max 2005 Tomoyuki Nishita 2003 Pat Hanrahan 2001 Lance J. Williams 1999 
+James F. Blinn 1997 James Foley 1995 José Luis Encarnação 1993 Ed Catmull 1991 Andries van Dam 1989 David 
+C. Evans 1987 Donald P. Greenberg 1985 Pierre Bézier 1983 Ivan E. Sutherland xvii 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1667230</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<display_no>2</display_no>
+		<article_publication_date>08-03-2009</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Computer Graphics Achievement Award]]></title>
+		<subtitle><![CDATA[Michael Kass]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1667228.1667230</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1667230</url>
+		<abstract>
+			<par><![CDATA[<p>The Computer Graphics Achievement Award is given each year to an individual to honor that person's lifetime contribution to computer graphics and interactive techniques.</p> <p>The 2009 recipient of the Computer Graphics Achievement Award is Michael Kass.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<seq_no />
+				<first_name />
+				<middle_name />
+				<last_name />
+				<suffix />
+				<role />
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2009 ACM SIGGRAPH Awards Computer Graphics Achievement Award Michael Kass ACM SIGGRAPH recognizes 
+Michael Kass with the 2009 Computer Graphics Achievement Award for his extensive and significant contributions 
+to computer graphics, ranging from image processing to animation to modeling, and in particular for his 
+introduction of optimization techniques as a fundamental tool in graphics. Michael received his B.A. 
+from Princeton in 1982, his M.S. from M.I.T. in 1984, and his Ph.D. from Stanford in 1988. Before joining 
+Pixar in 1995, he held research positions at Schlumberger Palo Alto Research and Apple Computer. He is 
+currently a Senior Scientist at Pixar. In 2005 he, David Baraff, and Andy Witkin won a Scientific and 
+Technical Academy Award for their pioneering work in cloth simulation for use in motion pictures. In 
+1987 Michael, Andy Witkin, and Demetri Terzopoulos introduced snakes, an active contour model for segmenting 
+digital images. This work, cited thousands of times in the graphics, image processing, and vision literature, 
+spawned whole new areas of research in which results arose from the interaction between data and physically-motivated 
+models. The following year, after John Lasseter had introduced the principles of traditional animation 
+to SIGGRAPH in 1987, describing such techniques as squash and stretch, and anticipation, Michael and 
+Andy Witkin showed that both squash-and-stretch and anticipation could arise as natural consequences 
+of simulating a physical system that tries to optimize a particular set of goals. The brief movies of 
+Luxo, Jr., squatting, jumping, and landing on his heels, and of him jumping off a ski­jump, still seem 
+remarkable 20 years later. Just two years later, with Gavin Miller, he developed a system for simulating 
+water flow. The paper was notable for its simplicity, for helping to popularize the use of implicit solvers 
+for PDEs in computer graphics, and for the thoroughness of the work: not only did the paper describe 
+water simulation, it also introduced a method for rendering shallow water and producing caustic effects. 
+Michael s animation Splash Dance, based on this technique, won the Grand Prix at Imagina in 1991. Michael 
+has also worked in appearance- and shape-modeling, introducing an early texture-synthesis method based 
+on Turing s work on reaction-diffusion textures (images from this work won an Ars Electronica Golden 
+Nica in 1992), using subdivision surfaces both for interpolation and for animation, and most recently 
+in developing a new spline model for the animation of oscillatory motion.  In the area of physical simulation, 
+he was the first to develop a production quality cloth simulator, which was used in the creation of the 
+Oscar&#38;#169; winning short film Geri s Game in 1997. Together with Andy Witkin and David Baraff, he 
+extended these techniques to develop a cloth simulator used in subsequent Pixar films, one robust enough 
+to handle more than a hundred garments used in The Incredibles. Throughout his career, Michael has sought 
+to provide not just pleasing or innovative results, but to provide mathematically justified error bounds 
+as well; his work with Ned Greene on rendering massively complex polygonal scenes to given anti­aliasing 
+requirements with hierarchical Z-buffering is an example. Michael is a graphics renaissance man: he s 
+worked on animation, modeling, textures, image-processing, and even on graphics systems. In each area, 
+he s made groundbreaking contributions. ACM SIGGRAPH is pleased to award Michael Kass the 2009 Computer 
+Graphics Achievement Award. Previous Award Recipients 2008 Ken Perlin 1990 Richard Shoup 2007 Greg Ward 
+   and Alvy Ray Smith 2006 Thomas W. Sederberg 1989 John Warnock 2005 Jos Stam 1988 Alan H. Barr 2004 
+Hugues Hoppe 1987 Robert Cook 2003 Peter Schröder 1986 Turner Whitted 2002 David Kirk 1985 Loren Carpenter 
+2001 Andrew Witkin 1984 James H. Clark 2000 David H. Salesin 1983 James F. Blinn 1999 Tony DeRose 1998 
+Michael F. Cohen 1997 Przemyslaw Prusinkiewicz 1996 Marc Levoy 1995 Kurt Akeley 1994 Kenneth E. Torrance 
+1993 Pat Hanrahan 1992 Henry Fuchs 1991 James T. Kajiya xviii 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1667231</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<display_no>3</display_no>
+		<article_publication_date>08-03-2009</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Significant New Researcher Award]]></title>
+		<subtitle><![CDATA[Wojciech Matusik]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1667228.1667231</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1667231</url>
+		<abstract>
+			<par><![CDATA[<p>The Significant New Researcher Award is given each year to a researcher who has made a recent significant contribution to the field of computer graphics and who is new to the field. The intent is to recognize people very early in their career who have already made a notable contribution and are likely to make more.</p> <p>The 2009 recipient of the Significant New Researcher Award is Wojciech Matusik.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<seq_no />
+				<first_name />
+				<middle_name />
+				<last_name />
+				<suffix />
+				<role />
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2009 ACM SIGGRAPH Awards Significant New Researcher Award Wojciech Matusik ACM SIGGRAPH is please to 
+award the 2009 Significant New Researcher award to Wojciech Matusik, in recognition of his origi­nal 
+and decisive contributions to computer graphics, particularly in the area of data-driven material representations 
+and innovative systems for data acquisition and display. Wojciech obtained a B.S. from the University 
+of California at Berkeley, an M.S. from M.I.T. in 2001, then a Ph.D. from M.I.T. in 2003. He worked at 
+Mitsubishi Electric Research Laboratories before joining Adobe Systems, Inc. in 2007. His first SIGGRAPH 
+papers illustrated the convergence of com­puter graphics and computer vision techniques to produce 3D 
+representations of real objects, including those with specular and fuzzy materials, from multiple cameras. 
+He moved on to the dif­ficult problem of acquiring and manipulating material representa­tions, allowing 
+the acquired objects to be illuminated synthetically. His research addressed both the compression and 
+manipulation of BRDF data as well as specialized capture techniques for materials such as skin or hair. 
+He also worked on 3D television systems, extending his model acquisition techniques with appropriate 
+coding and autostereoscopic display systems. In addition to pursuing these lines of research he has recently 
+made contributions to computa­tional photography. Wojciech s work on materials represents a comprehensive 
+set of important advances: starting from very detailed measurements of material reflectance properties, 
+he developed compression and factorization techniques that allow easy synthesis of existing or new materials. 
+He applied similar ideas to the decomposition of complex reflectance functions (such as those that are 
+spatially- or temporally-varying, or those with heterogeneous subsurface scatter­ing) into simpler components. 
+Interestingly he now seeks to apply a similar data-driven and component-based approach to the creation 
+of virtual humans. Wojciech clearly has a personal and original vision of research in computer graphics, 
+and the talent to develop this vision into real scientific contributions. We are extremely pleased to 
+recognize this promising talent with the 2009 Significant New Researcher Award.  Previous Award Recipients 
+2008 Maneesh Agrawala 2007 Ravi Ramamoorthi 2006 Takeo Igarashi 2005 Ron Fedkiw 2004 Zoran Popovi´c 2003 
+Mathieu Desbrun 2002 Steven J. Gortler 2001 Paul Debevec xix 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+</content>
+</proceeding>

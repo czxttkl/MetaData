@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08/07/2011</start_date>
+		<end_date>08/11/2011</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Vancouver]]></city>
+		<state>British Columbia</state>
+		<country>Canada</country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>2037957</proc_id>
+	<acronym>SIGGRAPH '11</acronym>
+	<proc_desc>ACM SIGGRAPH 2011 Real-Time Live!</proc_desc>
+	<conference_number>2011</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-4503-0972-1</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2011</copyright_year>
+	<publication_date>08-07-2011</publication_date>
+	<pages></pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>Immerse yourself in the world's most innovative and stimulating interactive real-time animation and graphics. As part of the Computer Animation Festival, an international jury selected submissions from several areas, including games, animation, performance, and visualization. Real-Time Live! is the premiere showcase for the latest trends and techniques for pushing the boundaries of interactive visuals.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<chair_editor>
+		<ch_ed>
+			<person_id>P2809866</person_id>
+			<author_profile_id><![CDATA[81488647033]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>1</seq_no>
+			<first_name><![CDATA[Jason]]></first_name>
+			<middle_name><![CDATA[RM]]></middle_name>
+			<last_name><![CDATA[Smith]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[LucasArts]]></affiliation>
+			<role><![CDATA[Conference Chair]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+	</chair_editor>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>2037958</article_id>
+		<sort_key>10</sort_key>
+		<display_label>Article No.</display_label>
+		<display_no>1</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Alien vs Triangles]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037957.2037958</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037958</url>
+		<abstract>
+			<par><![CDATA[<p>Aliens vs Triangles uses hardware tessellation to create more realistic and dynamic characters in real time. The demo uses an innovative method of blending multiple displacement maps to create a transformation of the alien's skin. Touching the alien's shoulder starts the transformation that slowly travels over the skin, turning him into a brutal soldier. On the other side of his body, when his hand is touched, an infection moves up his arm until he is fully transformed into a completely different mutant character. A laser blaster reveals the multiple levels of skin that can be blasted away to reveal his metal skeleton. The damage happens on several layers of displacements, starting with blisters, muscles, organs, and finally the metal skeleton. All of this is seamlessly blended using a multi-dimensional tessellation engine on a single-skinned and animated character.</p> <p>Highlights of the demo include:</p> <p>bull; Dynamic hardware tessellation to enable richer and more lifelike characters by dynamically increasing resolution based on eye-space distance, transformation maps, and damage maps.</p> <p>bull; Blending of multi-dimensional displacement maps to enable a single-skinned character to seamlessly transform using many displacement maps.</p> <p>bull; Tessallator knitting of each level of transformation and damage into a solid mesh, seamlessly integrating multiple displacement maps, tessellation amounts, and surface shaders.</p> <p>bull; Hardware tessellation for adding detail to the environment, optimized to add detail only where needed.</p> <p>bull; Seamless shader propagation and display of transformation and damage over a single-skinned character.</p> <p>bull; Animation blending driven by texture lookups into transformation and damage textures (using DirectX occlusion query).</p> <p>bull; DirectX Compute to calculate particle systems caused by laser blasts.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2809867</person_id>
+				<author_profile_id><![CDATA[81466645583]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Mark]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Swain]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA Corporation]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037959</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<display_no>2</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Chrysaora]]></title>
+		<subtitle><![CDATA[WebGL jellyfish simulation]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037957.2037959</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037959</url>
+		<abstract>
+			<par><![CDATA[<p>Chrysaora is a real-time jellyfish simulation created entirely with web technologies such as javascript, WebGL, websockets and CSS. It uses realistic rendering and simulation techniques similar to those used in modern 3D video games, but it can run in an internet browser on any operating system. It takes advantage of WebGL API to deliver real-time hardware-accelerated graphics to the browser. At the same time, Chrysaora uses the latest web-socket technology for full-duplex communication over a single TCP socket to establish real-time synchronization across multiple browsers. This enables the application to render different parts of the scene on multiple computers while they are being synchronized by a remote server in real time.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2809868</person_id>
+				<author_profile_id><![CDATA[81423596279]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Aleksandar]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Rodic]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Savannah College of Art and Design]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037960</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<display_no>3</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Enlighten real-time radiosity]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037957.2037960</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037960</url>
+		<abstract>
+			<par><![CDATA[<p>Using Geomerics Enlighten technology, this demo shows how dynamic real-time lighting enhances game play and visual quality in computer games. Enlighten is a cross-platform, real-time radiosity solution that can generate bounce lighting for a game level in a fraction of a frame. By combining Enlighten real-time radiosity with a fully dynamic lighting environment in Unreal Engine 3, the demo shows how lighting can add an extra dimension to the traditional first-person shooter.</p> <p>The demo shows the death-match level on a CUDA research platform, which provides an insight into lighting in the next generation of top-tier games. The death-match level contains 100 fighting "bots", each with a flashlight, sentry rocket turrets, and vehicles with headlights. All lights are shadow casting, and they bounce radiosity lighting.</p> <p>Weapon fire and explosions contribute most of the lighting to the scene. Action-filled shoot-outs light up the screen, with the radiosity lighting providing most of the fill lighting. The player can control the lighting in the immediate environment through weapon fire and see the lighting from distant fights as it illuminates the level. Dynamic changes in the time of day change the mood and atmosphere in the game, and the demo compares the appearance of the game with and without radiosity lighting.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2809869</person_id>
+				<author_profile_id><![CDATA[81487641330]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Sam]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Martin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Geomerics Ltd.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037961</article_id>
+		<sort_key>40</sort_key>
+		<display_label>Article No.</display_label>
+		<display_no>4</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[GPU-based interactive simulation of liver resection]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037957.2037961</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037961</url>
+		<abstract>
+			<par><![CDATA[<p>This GPU-based interactive simulation of laparoscopic liver resection is implemented using the open-source SOFA framework. While similar medical simulators have been developed in the past, this demo relies on advanced methods and the computational power of current GPUs to simulate multiple organs with high-resolution deformations and collisions in real time. It is based on recently proposed methods: high-resolution Finite Element Model (FEM) with implicit time-integration implemented on GPU, volume-contact constraints, an efficient numerical solver based on asynchronous preconditioning, and improvements in visual and haptic rendering. And it uses detailed meshes generated from segmented CT scans to facilitate reproduction of patient-specific scenarios, which is necessary for pre-operative rehearsal of complex or risky medical procedures.</p> <p>These methods allow real-time simulation of all organs in the abdominal cavity using an improved level of precision compared to previous systems. The FEM formulation enables reproduction of specific material properties. Contacts are handled by precise constraints with frictions on detailed surface meshes. Both methods efficiently support topological changes, as demonstrated by performing a resection of a portion of a liver, an important step in surgical procedures performed to remove cancerous tumors. Users can examine the mechanical and collision models, and the generated contacts while the simulated patient is breathing, and manipulate a laparoscopic instrument to navigate through the abdominal cavity, push on organs, and perform a thermal ablation.</p> <p>This project is a result of a collaboration between INRIA and IRCAD within the EU-funded PASSPORT project.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2809870</person_id>
+				<author_profile_id><![CDATA[81440622142]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Hadrien]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Courtecuisse]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[INRIA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809871</person_id>
+				<author_profile_id><![CDATA[81100214461]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[St&#233;phane]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Cotin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[INRIA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809872</person_id>
+				<author_profile_id><![CDATA[81100097644]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[J&#233;r&#233;mie]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Allard]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[INRIA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809873</person_id>
+				<author_profile_id><![CDATA[81100200709]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Luc]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Soler]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[IRCAD]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037962</article_id>
+		<sort_key>50</sort_key>
+		<display_label>Article No.</display_label>
+		<display_no>5</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[iMedic]]></title>
+		<subtitle><![CDATA[immersive medical environment for distributed interactive consultation]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037957.2037962</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037962</url>
+		<abstract>
+			<par><![CDATA[<p>This interactive medical visualization system is based on two hand-held tracked controllers that directly control the position and orientation of two 3D cursors. Button presses enable direct manipulation of space with either or both hands, resulting in intuitive manipulation of the viewpoint. You can place yourself anywhere at any orientation and at any scale with just a few simple gestures. A control panel, held in the left hand, acts as a container for tools and widgets such as sliders and buttons. For example, the widgets can be used to select various tools, or control transparency and rendering mode.</p> <p>iMedic also includes the FilterBox, which enables radiologists to dynamically and simultaneously visualize multiple mappings of their data. They can see beyond obstructing anatomy to hidden or partially hidden structures, and they can quickly identify, isolate, and view structures of interest from any angle, which reduces the time-consuming need to reposition and rescan or physically inspect the patient.</p> <p>The system uses several real-time raycasting shaders. These shaders include isosurface, transparency, maximum-intensity projection, and lit volumetric rendering, as well as hybrid shaders that combine these rendering methods. The shaders also support mixing of volumetric and polygonal data, which provides accurate depth cues.</p> <p>iMedic currently supports several features including measurement (for example, linear, angular, and area), volume segmentation and editing, and multiple avatar collaboration. The software will be commercially available later this year.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2809874</person_id>
+				<author_profile_id><![CDATA[81488641530]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Arun]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Yoganandan]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Digital ArtForms, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809875</person_id>
+				<author_profile_id><![CDATA[81328488809]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Jason]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jerald]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Digital ArtForms, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037963</article_id>
+		<sort_key>60</sort_key>
+		<display_label>Article No.</display_label>
+		<display_no>6</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>6</seq_no>
+		<title><![CDATA[Raging Rapids rides]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037957.2037963</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037963</url>
+		<abstract>
+			<par><![CDATA[<p>This scene of a river flowing through a rough valley achieves a level of realism not seen before in real time. The river exhibits a variety of medium- and small-scale details, including breaking waves, waterfalls, foam, and splashes resulting from interaction with solids. The goal of the player or autopilot is to drive a boat past as many checkpoints as possible while avoiding falling rocks and logs as well as deformable water plants.</p> <p>A hybrid water-simulation method combines a height-field grid with particles. The main body of water is simulated by solving the shallow-water equations on the grid. Four types of particles are auto-generated using physically inspired criteria. Wave fronts with slopes exceeding a limit emit particles to form breaking waves. Waterfall particles are generated when the water flows across steep terrain. Collisions of solids with the water surface produce splashes with a volume that depends on the impact velocity. When particles fall into the grid, they are turned into foam which is then advected with the horizontal flow of the water surface. When particles are created, they take away mass from the grid and deposit it again when they return. The system adds water-surface details using wave textures generated by an FFT-based simulation. Texture coordinates are advected with the water flow and regenerated periodically to reduce distortion. Rigid and deformable objects are two-way coupled with the height-field simulation. Solids alter the height and velocity of water, which in turn exerts drag, lift, and buoyancy forces on the solids.</p> <p>The underlying simulation technique is an extension of Chentanez N. and Muller M., Real-time simulation of large bodies of water with small scale details, Proceedings of the 2010 ACM SIGGRAPH/Eurographics SCA.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2809876</person_id>
+				<author_profile_id><![CDATA[81314493444]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Nuttapong]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chentanez]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA Corporation]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809877</person_id>
+				<author_profile_id><![CDATA[81100615490]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Matthias]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Muller]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA Corporation]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037964</article_id>
+		<sort_key>70</sort_key>
+		<display_label>Article No.</display_label>
+		<display_no>7</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>7</seq_no>
+		<title><![CDATA[Samaritan real-time demo]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037957.2037964</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037964</url>
+		<abstract>
+			<par><![CDATA[<p>Samaritan is a real-time demonstration of the latest Unreal Engine 3 technology that shows off DirectX 11 support and DirectX features such as tessellation and displacement mapping, geometry shaders, multi-sampled textures and Shader Model 5. High-end rendering enhancements include image-based reflections, Bokeh depth of field, subsurface scattering, anti-aliased masked materials, deferred rendering with MSAA support, and high-quality dynamic shadows. In addition, NVIDIA's APEX physics technology is illustrated by Samaritan's dynamic clothing movement.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2809878</person_id>
+				<author_profile_id><![CDATA[81488643752]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Paul]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Oliver]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Epic Games Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809879</person_id>
+				<author_profile_id><![CDATA[81487652311]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Chris]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Perna]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Epic Games Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809880</person_id>
+				<author_profile_id><![CDATA[81487643106]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Jordan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Walker]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Epic Games Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809881</person_id>
+				<author_profile_id><![CDATA[81339494733]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Clausen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Epic Games Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809882</person_id>
+				<author_profile_id><![CDATA[81487654862]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Zak]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Belica]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Epic Games Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809883</person_id>
+				<author_profile_id><![CDATA[81487644040]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Gavin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Moran]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Epic Games Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809884</person_id>
+				<author_profile_id><![CDATA[81487655606]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>7</seq_no>
+				<first_name><![CDATA[Jay]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hosfelt]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Epic Games Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+</content>
+</proceeding>

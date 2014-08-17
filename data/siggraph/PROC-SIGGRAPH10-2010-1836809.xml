@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>07/26/2010</start_date>
+		<end_date>07/30/2010</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Los Angeles]]></city>
+		<state>California</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>1836809</proc_id>
+	<acronym>SIGGRAPH '10</acronym>
+	<proc_desc>ACM SIGGRAPH 2010 Awards</proc_desc>
+	<conference_number>2010</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-4503-0391-0</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2010</copyright_year>
+	<publication_date>07-26-2010</publication_date>
+	<pages>4</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>1969804</article_id>
+		<sort_key>0</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>1</display_no>
+		<article_publication_date>04-14-2011</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[ACM SIGGRAPH Achievement Awards Presentation]]></title>
+		<page_from></page_from>
+		<doi_number>10.1145/1836809.1969804</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1969804</url>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2627956</person_id>
+				<author_profile_id><![CDATA[81484657524]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[2010 ACM SIGGRAPH Award Winners, Awards Committee and SIGGRAPH Conference Chair]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="keynote" />
+	</article_rec>
+	<article_rec>
+		<article_id>1836810</article_id>
+		<sort_key>10</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>2</display_no>
+		<article_publication_date>07-26-2010</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Computer Graphics Achievement Award]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1836809.1836810</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1836810</url>
+		<abstract>
+			<par><![CDATA[<p>ACM SIGGRAPH recognizes Jessica Hodgins for her contributions in the field of physically based animation. Her research has had a significant impact on our understanding, simulation, and animation of how people and other creatures move. She, together with her students and postdocs, has achieved this understanding by developing new techniques in simulation, control systems, and motion capture. She has also led efforts in helping us understand how people perceive motion of both simulated characters and real humans.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2264076</person_id>
+				<author_profile_id><![CDATA[81466642041]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jessica]]></first_name>
+				<middle_name><![CDATA[K.]]></middle_name>
+				<last_name><![CDATA[Hodgins]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2010 ACM SIGGRAPH Awards Computer Graphics Achievement Award Jessica K. Hodgins ACM SIGGRAPH recognizes 
+Jessica Hodgins for her contributions in the field of physically based animation. Her research has had 
+a significant impact on our understanding, simulation, and animation of how people and other creatures 
+move. She, together with her stu­dents and postdocs, has achieved this understanding by developing new 
+techniques in simulation, control systems, and motion capture. She has also led efforts in helping us 
+understand how people per­ceive motion of both simulated characters and real humans. Hodgins is best 
+known for her work on animating humans, par­ticularly those performing dynamic and athletic activities. 
+Her approach to using physics as the underlying model grew from graduate work in robotics where she developed 
+some of the earliest agile legged robots. In computer graphics, her papers from the early 1990s on legged 
+motion and human athletics laid the groundwork for research in using dynamics to simulate complex characters 
+such as humans. Hodgins once again applied ideas from physics to create realistic animations of inanimate 
+objects, including the animation of brittle fracture, explosions, and the motion of complex media like 
+sand, mud, and snow. This work inspired whole new lines of research, both in her lab and others; her 
+group s recent work on viscoelastic and incompressible flow is an example. Her work has also resulted 
+in improved techniques for capturing and modeling the deformable elements of human motion, including 
+not just the motion of rigid elements such as bones, but also those of soft elements like skin and muscle, 
+and the simulation of the resulting motion of clothing. Captured data can perfectly represent any single 
+motion, but allow­ing a user to build up new motions from fragments of other captured motions i.e., 
+the introduction of user control presents substantial challenges. Hodgins has made major contributions 
+in this area; her group produced one of the original papers on motion graphs in 2002; in 2005, they developed 
+performance interfaces that used a small number of markers to drive complex synthesized motions; they 
+then went on to further explore markerless and accelerometer­based systems for reconstructing human motion. 
+She has also developed algorithms for efficiently leveraging motion data by combining it with dynamics 
+and by interpolating trajectories. One theme throughout Hodgins work has been careful evaluation. With 
+her human simulations, she has compared the motion trajec­tories and force patterns to those captured 
+from human subjects. In her work on passive simulations, she has compared high speed foot­age of the 
+phenomena being modeled to that produced by the simu­lations. More recently, she and her students have 
+used user studies and perceptual studies to validate the efficacy of their approaches.  In addition 
+to Hodgins breadth of research, she has been a sig­nificant positive force in the graphics community, 
+mentoring eleven Ph.D. students and postdocs who are now faculty in graphics, animation, and robotics. 
+From her role as editor-in-chief of ACM Transactions on Graphics, to chairing the SIGGRAPH papers com­mittee, 
+to co-founding the Symposium on Computer Animation, her efforts have supported a wide range of educational 
+and scientific efforts. We are proud to name her this year s Computer Graphics Achievement Award winner. 
+Biographical Sketch Jessica Hodgins is a currently a Professor in the Robotics Institute and Computer 
+Science Department at Carnegie Mellon University and part-time Director of Disney Research, Pittsburgh. 
+She earned her Ph.D. in legged locomotion with Marc Raibert at the CMU and MIT Leglab. Prior to moving 
+to Carnegie Mellon in 2000, she was on the faculty in the College of Computing at Georgia Institute of 
+Technology where she received a NSF Young Investigator award, a Sloan Fellowship, and a Packard Fellowship. 
+Previous Award Recipients 2009 Michael Kass 1990 Richard Shoup 2008 Ken Perlin   and Alvy Ray Smith 
+2007 Greg Ward 1989 John Warnock 2006 Thomas W. Sederberg 1988 Alan H. Barr 2005 Jos Stam 1987 Robert 
+Cook 2004 Hugues Hoppe 1986 Turner Whitted 2003 Peter Schröder 1985 Loren Carpenter 2002 David Kirk 1984 
+James H. Clark 2001 Andrew Witkin 1983 James F. Blinn 2000 David H. Salesin 1999 Tony DeRose 1998 Michael 
+F. Cohen 1997 Przemyslaw Prusinkiewicz 1996 Marc Levoy 1995 Kurt Akeley 1994 Kenneth E. Torrance 1993 
+Pat Hanrahan 1992 Henry Fuchs 1991 James T. Kajiya xx 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1836811</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>3</display_no>
+		<article_publication_date>07-26-2010</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Significant New Researcher Award]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1836809.1836811</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1836811</url>
+		<abstract>
+			<par><![CDATA[<p>ACM SIGGRAPH is delighted to present the 2010 Significant New Researcher award to Alexei "Alyosha" Efros, in recognition of his pioneering contributions at the intersection of computer graphics and computer vision, particularly his work in texture synthesis and in leveraging huge image databases.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2264077</person_id>
+				<author_profile_id><![CDATA[81466642060]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Alexei]]></first_name>
+				<middle_name><![CDATA["Alyosha"]]></middle_name>
+				<last_name><![CDATA[Efros]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2010 ACM SIGGRAPH Awards Significant New Researcher Award Alexei "Alyosha" Efros ACM SIGGRAPH is delighted 
+to present the 2010 Significant New Researcher award to Alexei "Alyosha" Efros, in recognition of his 
+pioneering contributions at the intersection of computer graphics and computer vision, particularly his 
+work in texture synthesis and in leveraging huge image databases. Efros has published in a variety of 
+areas in computer graphics and computer vision, but his work can be broadly characterized as employing 
+data-driven approaches to solve problems that are difficult to model using parametric methods. For example 
+his work in texture synthesis by example revolutionized an area in which previous researchers had largely 
+employed parametric approaches with moderate success. This work inspired a body of research by other 
+investigators who applied similar non-parametric methods to synthesize by-example in other domains within 
+computer graphics. More recently, Efros, together with his students and collaborators, has addressed 
+the question of how to extract and use the vast visual resources of online image collections. He has 
+developed many creative and novel answers to this question including; creating simple "pop-up" 3D models 
+from single photos, completing holes in photos by searching for suitable fill-regions in millions of 
+Flickr images, using components from photos as clip art, and even digital facial "shaving". This work 
+demonstrates new synthesis techniques for application in computer graphics -- often by adapting methods 
+from computer vision in completely novel ways. Moreover, it demonstrates a major insight of Efros' research 
+agenda: that the richness and diversity of our visual world requires us to rely on vast amounts of data 
+to understand and model it, and that online image collections provide exactly that kind of data. Efros 
+offers a fresh view on variety of synthesis problems and his work has already had tremendous impact in 
+the computer graphics community. We are very pleased to recognize his talents with the 2010 Significant 
+New Researcher Award. Biographical Sketch Originally from St. Petersburg, Russia, Alexei (Alyosha) Efros 
+earned his Ph.D. at U.C. Berkeley in 2004 under Jitendra Malik, and spent one year as a post-doctoral 
+fellow in Oxford, England. Since then he has been an Assistant Professor at The Robotics Institute and 
+Computer Science Department at Carnegie Mellon University. He served as a Guggenheim Fellow at the École 
+Normale Supérieure de Paris/INRIA in 2009.  Previous Award Recipients 2009 Wojciech Matusik 2008 Maneesh 
+Agrawala 2007 Ravi Ramamoorthi 2006 Takeo Igarashi 2005 Ron Fedkiw 2004 Zoran Popovi´c 2003 Mathieu Desbrun 
+2002 Steven J. Gortler 2001 Paul Debevec xxi 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1836812</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>4</display_no>
+		<article_publication_date>07-26-2010</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Outstanding Service Award]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1836809.1836812</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1836812</url>
+		<abstract>
+			<par><![CDATA[<p>For his leadership, dedication, and expertise, ACM SIGGRAPH recognizes Kellogg S. Booth for his commitment to our community with the 2010 Outstanding Service Award.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2264078</person_id>
+				<author_profile_id><![CDATA[81100170154]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Kellogg]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Booth]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2010 ACM SIGGRAPH Awards Outstanding Service Award Kellogg Booth For his leadership, dedication, and 
+expertise, ACM SIGGRAPH recognizes Kellogg S. Booth for his commitment to our community with the 2010 
+Outstanding Service Award. Kelly s first leadership role in ACM SIGGRAPH was in 1981 when he chaired 
+an ad-hoc committee that made policy recommendations about the conference technical program. This began 
+more than a decade of continuous service at the highest level in the organization. Kelly served on an 
+ACM committee that recommended comprehen­sive changes to how SIG conferences should be managed. In 1983 
+he served as co-chair for the SIGGRAPH Conference. He was then elected to the position of ACM SIGGRAPH 
+Chair in 1985, serving in that role until 1989. He helped guide the organization and the conference through 
+a period of extraordinary creativity and growth in the field of computer graphics and interactive techniques, 
+work­ing to put in place a three-year budgeting cycle to ensure financial stability. Peer review is the 
+mechanism by which scientific communities vet and improve research contributions. ACM SIGGRAPH has always 
+held its sponsored conferences to the highest standards of peer review. Kelly has contributed to this 
+effort with service on the program committees of at least 18 conferences sponsored by ACM SIGGRAPH over 
+the past 30 years. He has reviewed an estimated 500 papers during this time, helping to identify the 
+best ones and providing constructive feedback for all of them. With this award, ACM SIGGRAPH shows its 
+pride in Kelly Booth and his exemplary contributions to the organization, its confer­ences, and its tradition 
+of scholarship. Biographical Sketch Kellogg S. Booth is a Professor of Computer Science and the for­mer 
+Director of the Media and Graphics Interdisciplinary Centre at the University of British Columbia. He 
+has worked in the fields of computer graphics and human-computer interaction since 1968. He received 
+his bachelor s degree in mathematics from the California Institute of Technology, and his master s and 
+PhD degrees from the University of California at Berkeley. Prior to UBC, he was a faculty member in the 
+Department of Computer Science at the University of Waterloo (1977-1990), and before that a staff mem­ber 
+at Lawrence Livermore National Laboratory (1968-1976). His research interests include human-computer 
+interaction, visualiza­tion, computer graphics, user-interface design, and analysis of algo­rithms. He 
+has co-authored more than 100 journal and conference papers. He is a Distinguished Member of the ACM. 
+  Previous Award Recipients 2008 Stephen Spencer 2006 John Fujii 2004 Judy Brown and Steve Cunningham 
+2002 Bertram Herzog 2000 Tom DeFanti and Copper Giloth 1998 Maxine Brown xxii 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1836813</article_id>
+		<sort_key>40</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>5</display_no>
+		<article_publication_date>07-26-2010</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[Distinguished Artist Award for Lifetime Achievement]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1836809.1836813</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1836813</url>
+		<abstract>
+			<par><![CDATA[<p>The 2010 ACM-SIGGRAPH Distinguished Artist Award for Lifetime Achievement is presented to Yoichiro Kawaguchi for creative and innovative artistry, giving life to a stunning aesthetic derived from his dedicated research in computer technology, biological forms, and contemporary artistic practice.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2264079</person_id>
+				<author_profile_id><![CDATA[81100605028]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Yoichiro]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kawaguchi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2010 ACM SIGGRAPH Awards Distinguished Artist Award for Lifetime Achievement Yoichiro Kawaguchi The 
+2010 ACM-SIGGRAPH Distinguished Artist Award for Lifetime Achievement is presented to Yoichiro Kawaguchi 
+for creative and innovative artistry, giving life to a stunning aesthetic derived from his dedicated 
+research in computer technology, bio­logical forms, and contemporary artistic practice. Kawaguchi is 
+one of the rare individuals who fearlessly experiment in a multitude of directions, weaving together 
+commonalities that give rise to new ways of thinking, seeing, and feeling. With his explorations of the 
+fundamental concepts of growth , he crosses the lines between generative art and biological processes, 
+resulting in mesmerizing imagery that strikes a primordial note with audi­ences, who are lured into his 
+universe by pulsating colors and forms so rich that they provide an irresistible tableau. Working on 
+the artistic side of Computer Graphics since the 1970 s, Yoichiro s prolific career began in 3D Computer 
+Animation at Kyushu University (BA) and University of Tsukuba (MFA). Soon after receiving his degrees, 
+he applied his interest in nature to creat­ing GROWTH Model, a Self-Organizing approach to developing 
+a formative algorithm of a complex life form. The resulting paper and works he submitted to SIGGRAPH 
+1982 contributed to the emerg­ing field of representing natural phenomenon. Since the mid 1980s he has 
+been active in the international community, showing at ven­ues such as Images du Futur in Montreal, ISEA, 
+Ars Electronica, the Venice Biennale, and at SIGGRAPH. He has taught at the University of Tsukuba, and 
+since 1998, at the University of Tokyo. Kawaguchi is a tireless supporter of our community, enthusiasti­cally 
+sharing his work with other artists around the globe. He greets students and colleagues with the same 
+warmth and sincere interest in sharing, continuing to inspire others to follow his lead in explora­tions 
+with personal aesthetics in the digital arena. Recently, his interest in collaborations led him to work 
+with per­formers, merging his dynamic imagery of natural fantasy forms with the movements and forms of 
+human dancers. Similarly, he has collaborated with researchers working on new forms of electronic image 
+output, ranging from the early pioneers of high definition video to those who are bringing digital imagery 
+to our tangible everyday environment through designs on clothing and sculpture. His current research 
+includes exploring large-scale plastic sculp­tures using newly available materials. We are pleased to 
+honor Yoichiro Kawaguchi while he is still actively contributing to our field, and we look forward to 
+many more creative years from this innovative and inspirational artist.  Previous Award Recipients 2009 
+Lynn Hershman Leeson 2009 Roman Verostko 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+</content>
+</proceeding>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08/05/2007</start_date>
+		<end_date>08/09/2007</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[San Diego]]></city>
+		<state>California</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>1278400</proc_id>
+	<acronym>SIGGRAPH '07</acronym>
+	<proc_desc>ACM SIGGRAPH 2007 panels</proc_desc>
+	<conference_number>2007</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2007</copyright_year>
+	<publication_date>08-05-2007</publication_date>
+	<pages>4</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>Debate, discussion, dissemination on the big topics in computer graphics and beyond: humanoid robots, worldwide intellectual property protection, brain/machine interfaces, virtual humans, the Uncanny Valley, and 22nd-century entertainment. Panelists present their positions, exchange opinions, and answer audience questions.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<chair_editor>
+		<ch_ed>
+			<person_id>P139385</person_id>
+			<author_profile_id><![CDATA[81100049661]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>1</seq_no>
+			<first_name><![CDATA[Jessica]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Hodgins]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[Carnegie Mellon University]]></affiliation>
+			<role><![CDATA[Conference Chair]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+		<ch_ed>
+			<person_id>P891490</person_id>
+			<author_profile_id><![CDATA[81447598325]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>2</seq_no>
+			<first_name><![CDATA[Jerome]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Solomon]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[Industrial Light & Magic]]></affiliation>
+			<role><![CDATA[Conference Chair]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+	</chair_editor>
+	<ccc>
+		<copyright_holder>
+			<copyright_holder_name>ACM</copyright_holder_name>
+			<copyright_holder_year>2007</copyright_holder_year>
+		</copyright_holder>
+	</ccc>
+</proceeding_rec>
+<content>
+	<section>
+		<section_id>1278401</section_id>
+		<sort_key>1</sort_key>
+		<section_seq_no>1</section_seq_no>
+		<section_type>PANEL SESSION</section_type>
+		<section_title><![CDATA[Panels]]></section_title>
+		<section_page_from>1</section_page_from>
+	<article_rec>
+		<article_id>1278402</article_id>
+		<sort_key>1</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-05-2007</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[The uncanny valley of eeriness]]></title>
+		<page_from>1</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1278400.1278402</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1278402</url>
+		<abstract>
+			<par><![CDATA[<p>In 1970, an eminent Japanese roboticist, Masahiro Mori, proposed the "uncanny valley" curve to describe the emotional response of humans to nonhuman agents. At the core of his proposal is the idea that as an agent is made more humanlike, the observer's familiarity does not linearly increase as one would intuit, but falls into a "valley of eeriness," when the agent closely yet imperfectly impersonates a human being. Although Mori used the uncanny valley to describe robots, the hypothesis has been revived to describe emotional responses to computer-animated agents in movies and videogames.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P891493</person_id>
+				<author_profile_id><![CDATA[81335488758]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Thierry]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chaminade]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University College London]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P139384</person_id>
+				<author_profile_id><![CDATA[81100049661]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Jessica]]></first_name>
+				<middle_name><![CDATA[K.]]></middle_name>
+				<last_name><![CDATA[Hodgins]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P891491</person_id>
+				<author_profile_id><![CDATA[81335493780]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Joe]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Letteri]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Weta Digital]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P690344</person_id>
+				<author_profile_id><![CDATA[81100632490]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Karl]]></first_name>
+				<middle_name><![CDATA[F.]]></middle_name>
+				<last_name><![CDATA[MacDorman]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Indiana University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2007</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1278403</article_id>
+		<sort_key>2</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-05-2007</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[IP & patents for art, technology, and entertainment]]></title>
+		<page_from>2</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1278400.1278403</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1278403</url>
+		<abstract>
+			<par><![CDATA[<p>Right now art and entertainment are challenging the frontiers of patent and IP law in unexpected and, to some, alarming ways. Changes that are in motion today will no doubt affect you in the months and years to come. This panel presents a lively overview and discussion of the patent process, pitfalls, opportunities, and exploitation in the art and technology sectors. The discussion will help you understand the many ways to protect your content and discuss how others are protecting theirs.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P837820</person_id>
+				<author_profile_id><![CDATA[81408592669]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Robert]]></first_name>
+				<middle_name><![CDATA[P.]]></middle_name>
+				<last_name><![CDATA[Cogan]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Nath Law Group]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P822427</person_id>
+				<author_profile_id><![CDATA[81319496894]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Andy]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Luckey]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Greater Family, LLC]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35046626</person_id>
+				<author_profile_id><![CDATA[81100025852]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Greg]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Aharonian]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Internet Patent News Service]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2007</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1278404</article_id>
+		<sort_key>3</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-05-2007</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[The potential of end-user programmable worlds]]></title>
+		<subtitle><![CDATA[present and future]]></subtitle>
+		<page_from>3</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1278400.1278404</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1278404</url>
+		<abstract>
+			<par><![CDATA[<p>In Vernor Vinge's 1981 science fiction classic <i>True Names</i>, a global multi-user virtual world underlies the functioning of government and business. Some control this world in a literal-minded filing cabinet sort of fashion, and others with more colorful metaphors. Either style of interaction is a form of end-user programming. The power of cyberspace lies in the creativity and programming talent of its inhabitants.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P139385</person_id>
+				<author_profile_id><![CDATA[81100049661]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jessica]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hodgins]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP40037618</person_id>
+				<author_profile_id><![CDATA[81100562702]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Amy]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bruckman]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Gerogia Institute of Technology]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P891492</person_id>
+				<author_profile_id><![CDATA[81335491731]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Paul]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hemp]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Harvard Business Review]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35052338</person_id>
+				<author_profile_id><![CDATA[81335495755]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Cory]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ondrejka]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Linden Labs]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP43122101</person_id>
+				<author_profile_id><![CDATA[81100561675]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Vernor]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Vinge]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[San Diego State University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2007</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	</section>
+</content>
+</proceeding>

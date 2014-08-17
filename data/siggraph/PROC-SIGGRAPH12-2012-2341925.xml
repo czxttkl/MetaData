@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08/05/2012</start_date>
+		<end_date>08/09/2012</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Los Angeles]]></city>
+		<state>California</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>2341925</proc_id>
+	<acronym>SIGGRAPH '12</acronym>
+	<proc_desc>ACM SIGGRAPH 2012 Dailies</proc_desc>
+	<conference_number>2012</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-4503-1679-8</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2012</copyright_year>
+	<publication_date>08-05-2012</publication_date>
+	<pages>7</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>This celebration of excellence in computer graphics showcases images and short animations of extraordinary power and beauty. Each presenter has one minute to present an animation and describe the work. The format is very similar to Technical Papers Fast Forward, except there is no talk later in the week.</p> <p>SIGGRAPH Dailies! is where you can catch up on the state of the art - and craft - of computer graphics.</p> <p>SIGGRAPH Dailies! is where you will be astounded by sheer excellence in modeling, shading, animation, lighting, effects, and more.</p> <p>SIGGRAPH Dailies! is where you can participate in the vibrant production culture that surrounds presenting and reviewing work that was completed despite seemingly endless obstacles.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>2341926</article_id>
+		<sort_key>10</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>1</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[3D printed Faberge-style egg]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341925.2341926</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341926</url>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734330</person_id>
+				<author_profile_id><![CDATA[81504686282]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Sarah]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McGee]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Title: 3D Printed Faberge-style Egg Contributor: Sarah McGee My first encounter with 3D printing was 
+at an LA Siggraph event called Digital Sculpture in which presenters demonstrated how they sculpted models 
+in zBrush and Mudbox and then printed them out for display or prototypes for toys. Exploring the expo 
+floors at the 2010 and 2011 Siggraph conferences, I realized that there were vendors, like Shapeways, 
+that offered 3D printing to the masses as well. Being an engineer, I decided to develop a program in 
+Houdini to create a Faberge-style egg. To create my egg, I projected a curve onto the surface of an ovoid. 
+I then wrote a program in VOPs to compute the basis at each point along the curve to properly align a 
+decorative leaf bunch chain on the egg surface. Finally, I repeated the curve around the egg to complete 
+the design. While I initially wanted to print the egg like this, a survey of current 3D printing technologies 
+revealed that only one material could be printed at a time. To compromise, I removed the glass portion 
+and placed three tori to hold the curves together. Unfortunately, despite meeting the minimum thickness 
+requirements for silver in the automated check on Shapeway s website, my design still failed the human 
+inspection test for fragility. After three more iterations, I was finally able to print my design. I 
+am more than satisfied with the results, and I hope that I can create more 3D printable designs in the 
+future.
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341927</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>2</pages>
+		<display_no>2</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Which book should I pick?]]></title>
+		<subtitle><![CDATA[text visualization based on readability and genre]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341925.2341927</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341927</url>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734331</person_id>
+				<author_profile_id><![CDATA[81492649544]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Hyoyoung]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kim]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P3734332</person_id>
+				<author_profile_id><![CDATA[81504686120]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Jin]]></first_name>
+				<middle_name><![CDATA[Wan]]></middle_name>
+				<last_name><![CDATA[Park]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P3734333</person_id>
+				<author_profile_id><![CDATA[81492642551]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Dongseop]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lee]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Which book should I pick? - Text Visualization based on readability and genre - Readability Visualization 
+ - Readability is the ease in which text can be read and understood and it directly affects difficulty 
+of a book. - The longer words, sentences and paragraphs have less readability. For the expression, we 
+converted each character to a visible point of which the brightness decreases gradually during reading 
+process. - If the sentence has commas or a punctuation, the brightness of the points next to them is 
+slightly increased. - There is a clear difference between two books. 'My sister's keeper' has clear 
+and concise sentence and paragraph style. - But 'The Critique of Pure Reason' is extremely hard to understand 
+even for well educated people not only because of the difficulty of contents but also because of the 
+long and complex sentences and paragraphs. - Next, Genre Visualization - General Word Frequency Dictionary 
+ - We collected 4,000 digital books to make the 'General Word Frequency Dictionary'. It contains frequency 
+and rank of each word in the 4,000 books. - More than half million words are in this dictionary, but 
+the 20% of high ranked words covers more than 98% of whole words in use. - Genre Word Frequency Dictionary 
+ - As same way of making 'General Word Frequency Dictionary' we made multiple 'Genre Word Frequency Dictionaries'. 
+Some books represent 4 genres - Fantasy, Philosophy, Custom, Science Fiction- were selected. - Then 
+we make 'Genre Word Frequency Dictionary' with these 15 books. - The 'Genre Word Frequency Dictionary' 
+has to be refined to represent a genre identity. So We designed an algorithm to compare 'Genre Word Frequency 
+Dictionary' with the 'General Word Frequency Dictionary'. - Then measured a rank difference of a same 
+word between two dictionaries. If a word has higher rank in the 'Genre Word Frequency Dictionary', We 
+recorded the word into a database with a rank distance. - We call these words as 'Genre Identity Words' 
+and the database as 'Genre Identity Dictionary'. Each genre has a special set of extraordinary words. 
+- Now we can calculate the 'Genre Closeness' with comparing to each 'Genre Identity Dictionary'. For 
+the experiment, we picked 'Harry Potter book 3 - Harry Potter and the Prisoner of Azkaban- the representative 
+fantasy novel and analyzed its 'Words Dictionary'. - Then we made the algorithm to find the same words 
+and to connect the two same words with a line. The line thickness and transparency are proportional to 
+distance of each line. Therefore, the closer genre has more bright visualization image. - The most complex 
+and bright image implies the closest genre of the subject book, so users are able to instantly describe 
+the genre closeness. - The book 'Solaris' has high closeness figure not only in the science fiction 
+but also philosophy. It means this genre closeness visualization can the multi-genre of the books. - 
+Combine visualization of readability and genre a) Define genre-hue: Fantasy, Philosophy, Science Fiction, 
+Custom genre. b) Set the genre-hue as base hue in the readability visualization with hue rotation. 
+c) Make a lengthy paragraph colored with de-saturated tone due to the saturation setup function in the 
+algorithm. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341928</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>2</pages>
+		<display_no>3</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Teaching art and science of rendering and shading]]></title>
+		<page_from>1</page_from>
+		<page_to>2</page_to>
+		<doi_number>10.1145/2341925.2341928</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341928</url>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734334</person_id>
+				<author_profile_id><![CDATA[81332497494]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Sarah]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Eisinger]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P3734335</person_id>
+				<author_profile_id><![CDATA[81100124987]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Ergun]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Akleman]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Akleman, E., and Eisinger, S. B., 2012. Viza 616 - rendering and shading course website: http://www.viz.tamu.edu/courses/viza616/12spring/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Wachowski, L., and Wachowski, A., 1999. Time slice effect website: http://en.wikipedia.org/wiki/bullet time.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Online Submission ID: 0040 Teaching Art and Science of Rendering and Shading  In our department, we 
+have a course called Rendering &#38; Shading. The formal description of the course is the exploration 
+of advanced rendering and shading techniques for the attainment of a desired visual e.ect. Topics include 
+shading languages, attainment of visual realism, integration of rendering and modeling tools, and non-photorealistic 
+rendering. In practice, the course focuses on the creation of shaders using Renderman rarely focusing 
+on global illumination. We have redesigned the course to include global illumination [Akleman and Eisinger 
+2012]. Students, using their own 3D models or 3D models that are free to use, build and render a 3D scene 
+frozen in time that tells a story. The course consisted of seven bi-weekly projects. With every project, 
+students improved this scene until they turned it into a 3D painting. This painting was supposed to have 
+some objects with 1 Online Submission ID: 0040 subsurface scattering (such as milk, skin, marble or 
+fruit), some objects with iridescence (such as butter.y wings, shells, .sh scales, insects), transparent 
+and translucent objects (such as water in a glass jar), re.ective and glossy re.ective objects and objects 
+with an complicated BRDF such as fabric. Once the project was completed, each student had a frozen-in-time 
+scene that looked like an an­imated still-life painting in the time slice e.ect introduced by the movie 
+Matrix [Wachowski and Wachowski 1999]. The objects together implicitly told a story. References Akleman, 
+E., and Eisinger, S. B., 2012. Viza 616 -rendering and shading course website: http://www.viz.tamu.edu/courses/viza616/12spring/. 
+Wachowski, L., and Wachowski, A., 1999. Time slice e.ect website: http://en.wikipedia.org/wiki/bullet 
+time. 2  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341929</article_id>
+		<sort_key>40</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>4</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Dancing, moment]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341925.2341929</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341929</url>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734336</person_id>
+				<author_profile_id><![CDATA[81504683476]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Soojung]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Huh]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ SIGGRAPH Dailies Submission .Dancing, Moment' Presented by SooJung Huh "There is a stream, a succession 
+of states, or waves, or .elds (or whatever you please to call them), ofknowledge, of feeling, of desire, 
+of deliberation, etc., that constantly pass and repass, and that constituteour inner life" (William James). 
+I'm here to talk about consciousness and its expression, the art, and to introduce one of my relatedexperiments, 
+Dancing, Moment . I totally agree with the quotes of William James which I said rightbefore. And, since 
+late twenty century, there have been various types of .lm making utilizing new technology and experimenting 
+new way of addressing narratives, and Gene Youngblood de.ned them as .Expanded cinema' in his book. As 
+for me, manifesting inner life out of my mind, in front of our eyes, is the dominating subject of my 
+work.A myriad of impressions from everyday life go into my mind and constitute my consciousness. They 
+reside in my mind as visual, sound and/or motion at the same time, like life, and form my own narratives.In 
+my experience, only one element of art, visual, sound, or motion was not suf.cient to deliver myconsciousness 
+fully and thus I have tried to combine them into new language. I abstracted myimpressions and narratives 
+into an animation, a kind of expanded cinema, and believe and hope it wouldevoke parts of audience's 
+consciousness and allow him/her to create his/her own emotions or narratives.Each person will interpret 
+my animation differently based on all his/her own experiences, memories and life. That's the goal of 
+my experiment and I met several technical challenges for the goal working on thisanimation. First, visually, 
+I wanted to create a kind of dancing abstract painting. I had been doing researches on visual music and 
+seeking for the connection between visual and sound in order to .nd how color andshape can be connected 
+with sound and music. In those researches, Kandinsky is the one who gave methe answer with his both artworks 
+and theories. And, Klee is another important in.uence to me regarding the rhythmic expression and the 
+narrative created by symbolic shapes and colors. Beyond justsynchronizing sound and visual, I try to 
+contain narrative in my work. Those researches showed me the clue to create abstract shapes as visual 
+elements which play as characters to deliver my narrative whencombined with sound and motion. Additionally, 
+with my experience of the research on developing NPR(Non Photorealistic Rendering) technology 2006, I 
+developed the algorithm for painterly expression with openFrameworks and applied itto the background 
+texture which generated overall painterly look. Second, there were some imageries I couldn't create with 
+only 2D animation technique. The study at ITP, especially the class about Processing, helped me expand 
+the boundary of expression. Severalanimations developed with Processing were added to my overall 2D digital 
+animation. The third was my biggest challenge, Creating sound.I need to work on it by myself because 
+.Sound' is one of the three elements which I try to combine into anew language. But, I had not have any 
+experience or background in music at that time and just started tolearn composing music, especially algorithmic 
+composition with Pure Data.This project is the .rst one which I worked on music by myself editing the 
+musics of Stravinsky and JohnCage. It was an invaluable experience, taught me a lot and opened me the 
+next step, composing mymusic and combining it with visual and motion algorithmically. Actually, Dancing, 
+Moment was designed to be shown at InterActiveCorp's 120 X 12-foot video wall and this movie you are 
+watching here was extracted from it for this presentation.
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341930</article_id>
+		<sort_key>50</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>5</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[How we recreated the 2001: A Space Odyssey's star-gate effect for PixelJunk 4am]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341925.2341930</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341930</url>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734337</person_id>
+				<author_profile_id><![CDATA[81504686489]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Edward]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lee]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ As we were developing PixelJunk 4am, we were constantly looking for inspiration to inject into our audio-reactive 
+visualizers. Many of us are huge fans of the 1968 science fiction classic 2001: A Space Odyssey. Dylan 
+Cuthbert, President of Q-Games, wanted to pay homage to the great film by doing an interpretation of 
+his favorite scene in the movie -- the star-gate sequence. The development started off rather choppy. 
+The problem began when Baiyon, the art director of PixelJunk 4am, noted that all other existing visualizers 
+were heavily focused on abstract two­dimensional aesthetics and expressed concern that having a perspective 
+three-dimensional scene might clash with the aesthetic flow. Thus, implementing the visualizer would 
+either turn out great or appear awkwardly out of place. But after some persuasion from Dylan, we began 
+prototyping the effect. We watched the film star-gaze scene hundreds of times in order to identify patterns 
+which we could replicate. After some prototyping, the effect immediately caught on within the studio 
+and we realized that we had something truly special on our hands. From then on, we began pouring more 
+resources into beautifying and optimizing the visual until it became the version that we shipped with.
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+</content>
+</proceeding>

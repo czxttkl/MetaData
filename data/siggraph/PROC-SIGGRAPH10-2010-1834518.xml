@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>07/25/2010</start_date>
+		<end_date>07/29/2010</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Los Angeles]]></city>
+		<state>California</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>1834518</proc_id>
+	<acronym>SIGGRAPH '10</acronym>
+	<proc_desc>ACM SIGGRAPH 2010 Dailies</proc_desc>
+	<conference_number></conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-4503-0210-4</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2010</copyright_year>
+	<publication_date>07-25-2010</publication_date>
+	<pages></pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>This new program celebrates excellence in computer graphics by showcasing images and short animations of extraordinary power and beauty.</p> <p>The work might be:</p> <p>&#8226; For film: A turnaround of a model or shader</p> <p>&#8226; For film: A final animation, FX, or lighting shot</p> <p>&#8226; For games: a game character or level design</p> <p>&#8226; For games: a killer cinematic</p> <p>&#8226; Or anything in between</p> <p>The only criterion is mind-blowing excellence. Period.</p> <p>SIGGRAPH Dailies! is where you can catch up on the state of the art - and craft - of computer graphics.</p> <p>SIGGRAPH Dailies! is where you will be astounded by sheer excellence in modeling, shading, animation, lighting, effects, and more.</p> <p>SIGGRAPH Dailies! is where you can participate in the vibrant production culture that surrounds presenting and reviewing work that was completed despite seemingly endless obstacles.</p> <p>SIGGRAPH Dailies! will be scheduled early on Tuesday and Wednesday. Start your busy SIGGRAPH schedule at Dailies. Grab a cup of coffee, meet your friends, get an agenda, and watch (or present!) the very best of computer graphics in a fun, fast format.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>1834519</article_id>
+		<sort_key>10</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>1</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Toy Story 3]]></title>
+		<subtitle><![CDATA[Death By Monkeys]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834519</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834519</url>
+		<abstract>
+			<par><![CDATA[<p>How we made an exploding swarm of red plastic monkeys.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258938</person_id>
+				<author_profile_id><![CDATA[82458730257]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[J.]]></first_name>
+				<middle_name><![CDATA[D.]]></middle_name>
+				<last_name><![CDATA[Northrup]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834520</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>2</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Nuit Blanche]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834520</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834520</url>
+		<abstract>
+			<par><![CDATA[<p>Making a hyper real fantasy world for the short film "Nuit Blanche."</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258939</person_id>
+				<author_profile_id><![CDATA[81546658156]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Marc-Andr&#233;]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gray]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Stellar Scene]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834521</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>3</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Tangled]]></title>
+		<subtitle><![CDATA[The Pixels Behind the People Behind the Pixels]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834521</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834521</url>
+		<abstract>
+			<par><![CDATA[<p>Two real-time days of rendering are compressed down to a single second by animating the resource usage of the render queue on Tangled.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258940</person_id>
+				<author_profile_id><![CDATA[81474643213]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ramon]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Montoya-Vozmediano]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834522</article_id>
+		<sort_key>40</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>4</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Percy Jackson]]></title>
+		<subtitle><![CDATA[Fire-Breathing Menace]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834522</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834522</url>
+		<abstract>
+			<par><![CDATA[<p>Digital fx artist Jeremy Hampton explains how the fire-spewing hydra in "Percy Jackson & The Olympians" came to have such dangerous breath.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258941</person_id>
+				<author_profile_id><![CDATA[81466642349]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jeremy]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hampton]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Digital Domain]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834523</article_id>
+		<sort_key>50</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>5</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[Toy Story 3]]></title>
+		<subtitle><![CDATA[Mr Potato Head moneybags & coins]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834523</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834523</url>
+		<abstract>
+			<par><![CDATA[<p>The first shot of the movie sets up the playtime fantasy of how Andy used to play with his toys.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258942</person_id>
+				<author_profile_id><![CDATA[81466642955]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Tristan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ikuta]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834524</article_id>
+		<sort_key>60</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>6</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>6</seq_no>
+		<title><![CDATA[Tangled]]></title>
+		<subtitle><![CDATA[How to Control Naughty Hair]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834524</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834524</url>
+		<abstract>
+			<par><![CDATA[<p>How we controlled Rapunzel's hair when she fights an intruder in the tower, Flynn, with her hair.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258943</person_id>
+				<author_profile_id><![CDATA[81466648668]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Hidetaka]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Yosumi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834525</article_id>
+		<sort_key>70</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>7</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>7</seq_no>
+		<title><![CDATA[Loss of Control on Approach Colgan Air, Inc., Operating as Continental Connection Flight 3407 Bombardier DHC-8-400, N200WQ Clarence Center, New York February 12, 2009]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834525</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834525</url>
+		<abstract>
+			<par><![CDATA[<p>Demonstration of how the National Transportation Safety Board uses accident data to create an accident reconstruction animation that is used to explain the circumstances of an accident to the public and entities responsible for implementing transportation safety improvements.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258944</person_id>
+				<author_profile_id><![CDATA[81421593579]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Christy]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Spangler]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258945</person_id>
+				<author_profile_id><![CDATA[81421597854]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Alice]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Park]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834526</article_id>
+		<sort_key>80</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>8</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>8</seq_no>
+		<title><![CDATA[Cool Shading Study]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834526</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834526</url>
+		<abstract>
+			<par><![CDATA[<p>A small shading and lighting project to learn more about RenderMan's depth-of-field and bokeh controls.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258946</person_id>
+				<author_profile_id><![CDATA[81466644360]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ariel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chisholm]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834527</article_id>
+		<sort_key>90</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>9</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>9</seq_no>
+		<title><![CDATA[The Tower Waterfall on Disney's Tangled]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834527</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834527</url>
+		<abstract>
+			<par><![CDATA[<p>The creation of the Tangled waterfall, from artist concept to final CG imagery.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258947</person_id>
+				<author_profile_id><![CDATA[81100351513]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Andrew]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Selle]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258948</person_id>
+				<author_profile_id><![CDATA[81466648514]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kaschalk]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834528</article_id>
+		<sort_key>100</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>10</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>10</seq_no>
+		<title><![CDATA[Toy Story 3]]></title>
+		<subtitle><![CDATA[Bridge Explosion]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834528</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834528</url>
+		<abstract>
+			<par><![CDATA[<p>he exploding railroad trestle bridge in the opening sequence.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258949</person_id>
+				<author_profile_id><![CDATA[81442595983]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Eric]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Froemling]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834529</article_id>
+		<sort_key>110</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>11</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>11</seq_no>
+		<title><![CDATA[Snowflower]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834529</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834529</url>
+		<abstract>
+			<par><![CDATA[<p>Create a flower growing up through melting snow in two days.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258950</person_id>
+				<author_profile_id><![CDATA[81466648343]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Mark]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Wrabel]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Lumen3D]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834530</article_id>
+		<sort_key>120</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>12</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>12</seq_no>
+		<title><![CDATA[Prep and Landing]]></title>
+		<subtitle><![CDATA[Snow Effects Animation]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834530</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834530</url>
+		<abstract>
+			<par><![CDATA[<p>Snow falls in every way imaginable -- and everyone has a slightly different recollection of it. Clearly I needed to do research. After a snowboarding trip I created the snow system for Prep and Landing.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258951</person_id>
+				<author_profile_id><![CDATA[81466645957]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Kevin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lee]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834531</article_id>
+		<sort_key>130</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>13</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>13</seq_no>
+		<title><![CDATA[Cool Concept Art]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834531</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834531</url>
+		<abstract>
+			<par><![CDATA[<p>A series of digital concept paintings which explore non-verbal visual narrative construction. My hypothesis is that there are compelling kinds of narrative that can be communicated and understood visually but not communicated or understood verbally.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258952</person_id>
+				<author_profile_id><![CDATA[81466644360]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ariel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chisholm]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834532</article_id>
+		<sort_key>140</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>14</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>14</seq_no>
+		<title><![CDATA[Fate of the Apollo 13 crew might have been much different than originally thought]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834532</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834532</url>
+		<abstract>
+			<par><![CDATA[<p>Technically accurate animation of the Apollo 13 mission leads to discovery of an alternative, grave outcome when flight data is re-examined using up-to-date analysis software.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258953</person_id>
+				<author_profile_id><![CDATA[81466648399]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ed]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gee]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258954</person_id>
+				<author_profile_id><![CDATA[81466644095]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Glenn]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Warrington]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258955</person_id>
+				<author_profile_id><![CDATA[81466643212]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Kel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Elkins]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258956</person_id>
+				<author_profile_id><![CDATA[81466647494]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Branden]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Coker]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834533</article_id>
+		<sort_key>150</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>15</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>15</seq_no>
+		<title><![CDATA[Tangled]]></title>
+		<subtitle><![CDATA[Forest Environment]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834533</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834533</url>
+		<abstract>
+			<par><![CDATA[<p>How do we create and render a lush forest and complex characters with fur and hair? How do we gain control of light and shadow shapes in the middle of the forest where trees block out most of the sun and skylight?</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258957</person_id>
+				<author_profile_id><![CDATA[81466640921]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Josh]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Staub]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834534</article_id>
+		<sort_key>160</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>16</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>16</seq_no>
+		<title><![CDATA[Toy Story 3]]></title>
+		<subtitle><![CDATA[Force Field & Transporter Effect]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834534</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834534</url>
+		<abstract>
+			<par><![CDATA[<p>How I created a force field effect for Slinky the Dog.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258958</person_id>
+				<author_profile_id><![CDATA[81466646391]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Mach]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kobayashi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834535</article_id>
+		<sort_key>170</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>17</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>17</seq_no>
+		<title><![CDATA[US Airways Flight 1549 Hudson River crash animation with flight data]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834535</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834535</url>
+		<abstract>
+			<par><![CDATA[<p>US Airways Flight 1549 Hudson River crash simulation using actual flight data provides further insight into the event.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258959</person_id>
+				<author_profile_id><![CDATA[81466643212]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Kel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Elkins]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258960</person_id>
+				<author_profile_id><![CDATA[81466644095]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Glenn]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Warrington]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834536</article_id>
+		<sort_key>180</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>18</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>18</seq_no>
+		<title><![CDATA[Prep and Landing]]></title>
+		<subtitle><![CDATA[Area Lights w/ Animated Shadow Blur]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834536</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834536</url>
+		<abstract>
+			<par><![CDATA[<p>Master lighting Timmy's house -- i.e. developing the light setups for the backgrounds, which will be used later on for shot production.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258961</person_id>
+				<author_profile_id><![CDATA[81466641974]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Hans-Joerg]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Keim]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834537</article_id>
+		<sort_key>190</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>19</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>19</seq_no>
+		<title><![CDATA[Scrooge Rockets]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834537</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834537</url>
+		<abstract>
+			<par><![CDATA[<p>Scrooge blasts into the night sky on the Ghost of Christmas Past's candle snuffer.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258962</person_id>
+				<author_profile_id><![CDATA[81466642976]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Scott]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Wirtz]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ImageMovers Digital]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834538</article_id>
+		<sort_key>200</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>20</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>20</seq_no>
+		<title><![CDATA[Toy Story 3]]></title>
+		<subtitle><![CDATA[Woody's Fiery Death]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834538</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834538</url>
+		<abstract>
+			<par><![CDATA[<p>Woody and the toys head towards certain death in a junkyard incinerator.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258963</person_id>
+				<author_profile_id><![CDATA[81466645244]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jason]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Johnston]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258964</person_id>
+				<author_profile_id><![CDATA[81466648046]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Bill]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Polson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834539</article_id>
+		<sort_key>210</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>21</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>21</seq_no>
+		<title><![CDATA[The Princess and the Frog]]></title>
+		<subtitle><![CDATA[Evolution of a 2D Layout Shot]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834539</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834539</url>
+		<abstract>
+			<par><![CDATA[<p>How we set the scene for the "proposal" moment, with one day to go before the screening.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258965</person_id>
+				<author_profile_id><![CDATA[81466647267]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jean-Christophe]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Poulain]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834540</article_id>
+		<sort_key>220</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>22</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>22</seq_no>
+		<title><![CDATA[Satellite collision visualization]]></title>
+		<subtitle><![CDATA[Technically accurate depictions of debris breakup and evolution]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834540</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834540</url>
+		<abstract>
+			<par><![CDATA[<p>This video demonstrates the approach trajectories of the Cosmos 2251 and Iridium 33 satellites prior to impact, as well as a statistical breakup model with an example of propagated debris tracked several days after the event.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258966</person_id>
+				<author_profile_id><![CDATA[81466643212]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Kel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Elkins]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258967</person_id>
+				<author_profile_id><![CDATA[81466648399]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Ed]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gee]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258968</person_id>
+				<author_profile_id><![CDATA[81466647494]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Branden]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Coker]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258969</person_id>
+				<author_profile_id><![CDATA[81466641329]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Jason]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Martin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258970</person_id>
+				<author_profile_id><![CDATA[81466647810]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Ed]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mackey]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834541</article_id>
+		<sort_key>230</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>23</seq_no>
+		<title><![CDATA[Gargoyle]]></title>
+		<subtitle><![CDATA[A rigging study]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834541</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834541</url>
+		<abstract>
+			<par><![CDATA[<p>The challenge was to create a "cute" character model and rig. The gargoyle made an interesting project since it was both biped and quadruped, and had a flight sequence.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258971</person_id>
+				<author_profile_id><![CDATA[81466647591]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Megha]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Davalath]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258972</person_id>
+				<author_profile_id><![CDATA[81466648046]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Bill]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Polson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834542</article_id>
+		<sort_key>240</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>24</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>24</seq_no>
+		<title><![CDATA[The Princess and the Frog]]></title>
+		<subtitle><![CDATA[Magic Memory Smoke Bubbles]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834542</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834542</url>
+		<abstract>
+			<par><![CDATA[<p>The villain taunts our heroine, Tiana, by materializing 'discouraging' visions in ectoplasmic memory clouds.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258973</person_id>
+				<author_profile_id><![CDATA[81466642051]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[James]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mansfield]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834543</article_id>
+		<sort_key>250</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>25</seq_no>
+		<title><![CDATA[Partly Cloudy]]></title>
+		<subtitle><![CDATA[the Opening Fly-in Shot]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834543</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834543</url>
+		<abstract>
+			<par><![CDATA[<p>The lighting setup for Partly Cloudy. Every kind of character and effect in the film appears in the very first shot -- the last to be completed.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258974</person_id>
+				<author_profile_id><![CDATA[81466641093]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Tim]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Best]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834544</article_id>
+		<sort_key>260</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>26</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>26</seq_no>
+		<title><![CDATA[MADCAT]]></title>
+		<subtitle><![CDATA[Graphical all-on-all conjunction assessment for objects in outer space]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834544</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834544</url>
+		<abstract>
+			<par><![CDATA[<p>Conjunction assessment visualization tool used to determine when objects in space are at risk of colliding with each other.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258975</person_id>
+				<author_profile_id><![CDATA[81466644095]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Glenn]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Warrington]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258976</person_id>
+				<author_profile_id><![CDATA[81466643212]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Kel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Elkins]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258977</person_id>
+				<author_profile_id><![CDATA[81466648399]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Ed]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gee]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Analytical Graphics, Inc.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834545</article_id>
+		<sort_key>270</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>27</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>27</seq_no>
+		<title><![CDATA[Tangled]]></title>
+		<subtitle><![CDATA[Flynn Tied Up]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834545</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834545</url>
+		<abstract>
+			<par><![CDATA[<p>How a specific shot on Tangled deals with 70 feet of Rapunzel's hair.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258978</person_id>
+				<author_profile_id><![CDATA[81466643671]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Hubert]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Leo]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834546</article_id>
+		<sort_key>280</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>28</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>28</seq_no>
+		<title><![CDATA[Rendering the Mandelbulb]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834546</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834546</url>
+		<abstract>
+			<par><![CDATA[<p>This presentation identifies problems and solutions for rendering a Mandelbulb animation.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258979</person_id>
+				<author_profile_id><![CDATA[81466643916]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Robert]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Graf]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834547</article_id>
+		<sort_key>290</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>29</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>29</seq_no>
+		<title><![CDATA[Percy Jackson]]></title>
+		<subtitle><![CDATA[Taming the Hydra]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834547</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834547</url>
+		<abstract>
+			<par><![CDATA[<p>Animation supervisor Erik Gamache explains why that giant creature doesn't just eat those darn kids.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258980</person_id>
+				<author_profile_id><![CDATA[81421595710]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Erik]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gamache]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ImageMovers Digital]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834548</article_id>
+		<sort_key>300</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>30</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>30</seq_no>
+		<title><![CDATA[Prep and Landing Effects]]></title>
+		<subtitle><![CDATA[Coffee with Cream]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834548</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834548</url>
+		<abstract>
+			<par><![CDATA[<p>EFX setups created for a coffee cup and a can of whipped cream.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258981</person_id>
+				<author_profile_id><![CDATA[81320488843]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ian]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Coony]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834549</article_id>
+		<sort_key>310</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>31</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>31</seq_no>
+		<title><![CDATA[Ratatouille]]></title>
+		<subtitle><![CDATA[Rivers of Rodents]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834549</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834549</url>
+		<abstract>
+			<par><![CDATA[<p>How a malfunctioning agent brain gave rise to the frenzied rat swarm behavior in Ratatouille. Rats pour through a ceiling, run from a shotgun-wielding granny, and procedurally bounce off furniture without physics simulation.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258982</person_id>
+				<author_profile_id><![CDATA[81365593228]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Paul]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kanyuk]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834550</article_id>
+		<sort_key>320</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>32</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>32</seq_no>
+		<title><![CDATA[Princess and the Frog]]></title>
+		<subtitle><![CDATA[Almost There]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834550</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834550</url>
+		<abstract>
+			<par><![CDATA[<p>The main character's fantasy of someday owning a great restaurant in New Orleans takes the form of the art from that time; specifically, the artistic style of the Harlem Renaissance.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258983</person_id>
+				<author_profile_id><![CDATA[81332495128]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Eric]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Daniels]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834551</article_id>
+		<sort_key>330</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>33</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>33</seq_no>
+		<title><![CDATA[Clock Tower]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834551</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834551</url>
+		<abstract>
+			<par><![CDATA[<p>Here Scrooge witnesses the effects of the Ghost of Christmas Present aging, until he's merely dust in front of the clock tower.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258984</person_id>
+				<author_profile_id><![CDATA[81466643338]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Shirk]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ImageMovers Digital]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834552</article_id>
+		<sort_key>340</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>34</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>34</seq_no>
+		<title><![CDATA[Prep and Landing]]></title>
+		<subtitle><![CDATA[Gingerbread Scanner Effects]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834552</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834552</url>
+		<abstract>
+			<par><![CDATA[<p>The elves use a handheld holographic projector to measure the space under the tree for Santa's gift.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258985</person_id>
+				<author_profile_id><![CDATA[81466647053]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hutchins]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834553</article_id>
+		<sort_key>350</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>35</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>35</seq_no>
+		<title><![CDATA['Up']]></title>
+		<subtitle><![CDATA[Master Lighting for the]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834553</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834553</url>
+		<abstract>
+			<par><![CDATA[<p>Master lighting the first portion of the Epilogue sequence for 'Up' where Carl, Russell and Dug say their farewells to Kevin and her babies.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258986</person_id>
+				<author_profile_id><![CDATA[81466647892]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Farhez]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Rayani]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834554</article_id>
+		<sort_key>360</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>36</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>36</seq_no>
+		<title><![CDATA[Painting Watercolor in Photoshop]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834554</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834554</url>
+		<abstract>
+			<par><![CDATA[<p>Trying to find a way to create a watercolor look that would mimic an Art Nouveau print, I stumbled on a process in Photoshop that defines the look of our film "Winnie the Pooh."</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258987</person_id>
+				<author_profile_id><![CDATA[81466648547]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Lisa]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Keene]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834555</article_id>
+		<sort_key>370</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>37</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>37</seq_no>
+		<title><![CDATA[Untitled Lovestory]]></title>
+		<subtitle><![CDATA[the 3D Previs of a feature film]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834555</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834555</url>
+		<abstract>
+			<par><![CDATA[<p>A 2nd time director, a student VFX-Supervisor and a DoP locked themselves into the director's apartment for 3 months and created a 3D previs for the feature film "Untitled Lovestory." They had no clue how to do it, hacked themselves through the jungle of 3D apps and succeeded: 100mins of animated 3D previs.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258988</person_id>
+				<author_profile_id><![CDATA[81466647029]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Peter]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Koller]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[KOP 11 Filmproduktion]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258989</person_id>
+				<author_profile_id><![CDATA[81466647664]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Peter]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hacker]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Filmacademy Baden-Wuerrtemberg]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258990</person_id>
+				<author_profile_id><![CDATA[81466648386]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Marcus]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Stotz]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Eidolon Entertainment]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2258991</person_id>
+				<author_profile_id><![CDATA[81314486408]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Thomas]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Strasser]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Eidolon Entertainment]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>1834556</article_id>
+		<sort_key>380</sort_key>
+		<display_label>Article No:</display_label>
+		<display_no>38</display_no>
+		<article_publication_date>07-25-2010</article_publication_date>
+		<seq_no>38</seq_no>
+		<title><![CDATA[Not a Ball Pit]]></title>
+		<subtitle><![CDATA[Shredded Trash on Toy Story 3]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1834518.1834556</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1834556</url>
+		<abstract>
+			<par><![CDATA[<p>The shredded trash conveyor belt -- with a challenge from the director on what it should NOT look like.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P2258992</person_id>
+				<author_profile_id><![CDATA[81466646915]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ryu]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Pixar Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+</content>
+</proceeding>

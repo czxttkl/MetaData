@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08/03/2009</start_date>
+		<end_date>08/07/2009</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[New Orleans]]></city>
+		<state>Louisiana</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>1597983</proc_id>
+	<acronym>SIGGRAPH '09</acronym>
+	<proc_desc>ACM SIGGRAPH 2009: Music &#38; Audio</proc_desc>
+	<conference_number>2009</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-60558-832-2</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2009</copyright_year>
+	<publication_date>08-03-2009</publication_date>
+	<pages>8</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>For over 35 years, SIGGRAPH has been the premier conference for showcasing computer graphics and work in interactive techniques. The primary focus has been on the visual, but that's just one sense among many. SIGGRAPH 2009 is highlighting the strongly related areas of music and audio, because:</p> <p>* Audiences absorb visual stories as complete experiences, so integration of the visual and audio components is critical.</p> <p>* Multimodal communication and interaction can enhance or surpass visual-only experiences.</p> <p>* Creating and editing music and audio define an important area of study in interactive techniques.</p> <p>Music has an extra special connection for SIGGRAPH 2009 as we return to New Orleans, the birthplace of jazz and a vital melting pot of American music.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<ccc>
+		<copyright_holder>
+			<copyright_holder_name>ACM</copyright_holder_name>
+			<copyright_holder_year>2009</copyright_holder_year>
+		</copyright_holder>
+	</ccc>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>1597984</article_id>
+		<sort_key>10</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>1</display_no>
+		<article_publication_date>08-03-2009</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Pandeiro funk]]></title>
+		<subtitle><![CDATA[experiments on rhythm-based interaction]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1597983.1597984</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1597984</url>
+		<abstract>
+			<par><![CDATA[<p>In this work, we address to the problem of making the machine listen and react to the musician in an improvisation situation with the purpose of generating high-quality music.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.2</cat_node>
+				<descriptor>Input devices and strategies (e.g., mouse, touchscreen)</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>H.5.5</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010469.10010475</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Sound and music computing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002951.10003317.10003371.10003386.10003390</concept_id>
+				<concept_desc>CCS->Information systems->Information retrieval->Specialized information retrieval->Multimedia and multimodal retrieval->Music retrieval</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003125</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction devices</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003125.10011666</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction devices->Touch screens</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Human Factors</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P1617578</person_id>
+				<author_profile_id><![CDATA[81447598503]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Sergio]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Krakowski]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[IMPA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P1617579</person_id>
+				<author_profile_id><![CDATA[81100202267]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Luiz]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Velho]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[IMPA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P1617580</person_id>
+				<author_profile_id><![CDATA[81100218356]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Francois]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Pachet]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Sony CSL - Paris]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Pandeiro Funk: Experiments on Rhythm-Based Interaction Sergio Krakowski Luiz Velho Francois Pachet IMPA 
+IMPA Sony CSL -Paris 1 The Problem In this work, we address to the problem of making the machine listen 
+and react to the musician in an improvisation situation with the purpose of generating high-quality music. 
+Nowadays, on the shelf technology directed to live performance is still very limited with respect to 
+the potential modern computers of­fer in terms of processing power. The great majority of equipments 
+designed for musicians allows them to loop live recorded samples or .lter theirs sounds. On the other 
+hand, DJ s have access to CD players and Drum Machines (e.g. MPC-2000) but the functionali­ties offered 
+by these tools are not in the hand of musicians, in a live context and many times are shown to be in.exible. 
+Playing over a .xed-tempo pre-recorded loop in an improvisation context is one of the most unpleasant 
+situation a professional mu­sician can go through. For this reason we developed methods that make the 
+communication between musician and machine more nat­ural during the improvisation experience. With respect 
+to Rowe s classi.cation, we could de.ne our research as a Performance-Driven, Instrument-Driven approach. 
+We can .nd many examples of performance-driven systems in com­puter music literature such as Francois 
+Pachet s Continuator. Usu­ally, these systems provide one or more modes of interaction. Sim­ply speaking, 
+we could see these modes as games the musician play with the computer. In general, a limitation to these 
+systems is the fact that the musi­cian don t have the choice to change the mode of interaction she/he 
+is using during the interaction experience without interrupting the music .ow. 2 In Music During a performance, 
+players have to communicate to each other for many reasons. In a Jazz context, e.g., a musical phrase 
+can be used to point out the end of a piece or the restart of the tune s theme. A more complex example 
+of musical command are the phrases used by the saxophone player Steve Coleman to give orders to his band. 
+This incredible musician developed with his group a vocabu­lary of some phrase-orders that, when played, 
+change the behaviour his band interacts with him. Another example are the Bata drum s music. This drum 
+ensemble is composed by a hierarchy of three drums, the okonkolo (smaller drum), itotele (medium drum) 
+and the yia (biggest leading drum). The yia drum leads the other two drums by play one of the possible 
+calls , rhythmic phrases that are interpreted by the other players as a sign to switch to another rhythmic 
+pattern. 3 Our main contribution We now propose the main innovation of our approach: The use of rhythmic 
+phrases as commands to control the computer. By rhyth­mic phrases we mean the rhythmic content of a musical 
+phrase which can be extracted directly from the audio signal captured by a microphone. The advantages 
+of this approach are many: 1. Is based in real life experience. 2. The musician can concentrate only 
+in the music and not on pedals or other interfaces. 3. Let the musician control the machine without 
+stopping the music .ow. 4. Low computational cost and fast results. 5. As it is audio-based, can be 
+applied to many sorts of instru­ments. 6. A rhythmic phrase carries several informations that can be 
+used as parameters during the interaction. In this way, the commands carry more information and the interaction 
+be­comes richer and more natural.  4 The research What we present here is part of a PhD research of 
+the .rst author of the abstract. In the thesis currently being written we give a mathe­matical formalization 
+to the concept of modes of interaction using the synchronized automata theory which was found to be the 
+best suited considering our instrument-driven approach. In the thesis, among other things, we rigorously 
+de.ne what are the rhythmic phrases, and propose they can be seen as actions in the synchronized automata 
+context. We also propose a robust method for detection of rhythmic phrases. 5 Case Study and Conclusion 
+As a case study, we implemented this method in a system adapted to work with a percussion instrument 
+called Pandeiro. This Brazil­ian tambourine is the instrument played professionally by the .rst author 
+of the abstract. The low level analysis and the detection of rhythmic phrases were all implemented in 
+C language as externals in the Pure Data frame­work. This analysis can be easily adapted to other instruments. 
+The system has some modes of interaction and to each one, a dif­ferent rhythmic phrase associated to 
+it, used to enter or leave that mode. We strongly encourage the reader to watch the Supplemen­tary Video 
+to see an explanation about how the system works and a demonstration of the system in action. Our hypotheses 
+of a multi-modal system with a natural switching­mode strategy has shown to be very ef.cient during the 
+experiment­ing phase and has been used in real life during a series of perfor­mances that took place 
+in Rio de Janeiro in the month January 2009. These performances were part of a musical project done by 
+the .rst author of this abstract in which he mixed two different Brazilian genres, the traditional Choro 
+(where we .nd the Pandeiro) and the .rst Brazilian electronic style called Funk Carioca . In these concerts, 
+the system had an important artistic function of blending the traditional Pandeiro playing to resources 
+that, up to now, were exclusive to DJ s and VJ s. This can be seen in the Supplementary Video. Copyright 
+is held by the author / owner(s). SIGGRAPH 2009, New Orleans, Louisiana, August 3 7, 2009. ISBN 978-1-60558-726-4/09/0008 
+  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>Copyright is held by the author/owner(s).</copyright_holder_name>
+				<copyright_holder_year>2009</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1597985</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>2</display_no>
+		<article_publication_date>08-03-2009</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Reconciling musical language in mixed works]]></title>
+		<subtitle><![CDATA[a case study]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1597983.1597985</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1597985</url>
+		<abstract>
+			<par><![CDATA[<p>Mixed works combining live instruments with non-live electronic sounds are commonplace in the field of contemporary music but pose particular compositional challenges relating to musical language. Working in the electronic realm, composers have unprecedented control over the timbre and behavior of sounds, and some of the most exciting results fall into the category of non-pitched 'noise' sounds. An avoidance of pitch forces composers to find new organizing principles, which in turn leads to new musical languages based on parameters such as gesture, texture, and spectro-morphology (how a sound's spectrum changes over time). On the contrary, traditional instruments and their associated conventional performance practices tend to be fairly limited in comparison, considering that most instruments were designed specifically for the production of pitched material. I have often found that the juxtaposition of pitch-based material with non-pitched electronic sounds is musically problematic, not because of the sounds themselves, but because the materials often suggest different listening strategies. For example, in the live instrument's part listeners may need to focus on pitch relations, such as dissonance resolving to consonance, in order to interpret the tension-release contour of a work, while tension in the electronic components may be generated and dissipated based on spectro-morphological energy profiles within the sounds themselves. While acknowledging that musical languages can be successfully combined, it should not be done arbitrarily---one must consider the nature of the materials and the listening strategies that they invoke. Reconciling this discrepancy between live and non-live components is one of the great compositional challenges of mixed works.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Fine arts</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>H.5.5</cat_node>
+				<descriptor>Methodologies and techniques</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010469.10010475</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Sound and music computing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Human Factors</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P1617581</person_id>
+				<author_profile_id><![CDATA[81442614748]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Mike]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Frengel]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Northeastern University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>Copyright is held by the author/owner(s).</copyright_holder_name>
+				<copyright_holder_year>2009</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1597986</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>3</pages>
+		<display_no>3</display_no>
+		<article_publication_date>08-03-2009</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[SIGGRAPH 2009 envyCODE lecture/performance notes]]></title>
+		<page_from>1</page_from>
+		<page_to>3</page_to>
+		<doi_number>10.1145/1597983.1597986</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1597986</url>
+		<abstract>
+			<par><![CDATA[<p><b>envyCODE</b> is Butch Rovan on custom instruments, extended alto clarinet (MiMICS System), and interactive electronics; Kevin Patton on extended guitar (Taurex System), custom instruments, and interactive electronics; and Carmen Montoya on custom instruments and interactive electronics.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>J.5</cat_node>
+				<descriptor>Fine arts</descriptor>
+				<type>S</type>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010470</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Fine arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010471</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Performing arts</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Human Factors</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P1617582</person_id>
+				<author_profile_id><![CDATA[81442617416]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Joseph]]></first_name>
+				<middle_name><![CDATA[Butch]]></middle_name>
+				<last_name><![CDATA[Rovan]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Brown University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ SIGGRAPH 2009 envyCODE lecture/performance notes (contact: Butch Rovan, rovan@brown.edu) envyCODE is 
+Butch Rovan on custom instruments, extended alto clarinet (MiMICS System), and interactive electronics; 
+Kevin Patton on extended guitar (Taurex System), custom instruments, and interactive electronics; and 
+Carmen Montoya on custom instruments and interactive electronics. Performance Program Notes: FrameGarden 
+(2009) for experimental instrument ensemble FrameGarden is a structured improvisation loosely inspired 
+by the formal arrangement of a karesansui, or Japanese dry rock garden. The piece features hybrid/extended 
+alto clarinet and guitar, custom instruments, and interactive computer music. The alto clarinet and guitar 
+incorporate onboard sensor systems that allow each instrumentalist to control real-time processing as 
+part of their normal performance gestures. Custom instruments include The Globe and The Banshee, new 
+instruments designed by Rovan, and The Digital Poplar Consort, a set of four new sensor instruments designed 
+by Patton and Montoya. All sources extended alto clarinet, extended guitar, and new instruments control 
+real-time processing in MaxMSP and STEIM s LiSa. BIOS: Joseph Butch Rovan Brown University Co-director, 
+MEME: Multimedia &#38; Electronic Music Experiments Joseph Butch Rovan is a composer and performer on 
+the faculty of the Department of Music at Brown University, where he co-directs MEME (Multimedia &#38; 
+Electronic Music Experiments @ Brown) and the Ph.D. Copyright is held by the author / owner(s). SIGGRAPH 
+2009, New Orleans, Louisiana, August 3 7, 2009. ISBN 978-1-60558-726-4/09/0008 program in Computer Music 
+and Multimedia. Prior to joining Brown he directed CEMI, the Center for Experimental Music and Intermedia, 
+at the University of North Texas, and was a compositeur en recherche with the Real-Time Systems Team 
+at the Institut de Recherche et Coordination Acoustique/Musique (IRCAM) in Paris. Rovan worked at Opcode 
+Systems before leaving for Paris, serving as Product Manager for MAX, OMS and MIDI hardware. Rovan has 
+received prizes from the Bourges International Electroacoustic Music Competition, first prize in the 
+Berlin Transmediale International Media Arts Festival, and his work has been performed throughout Europe 
+and the U.S. He frequently performs his own work, either with his custom glove-controller system or with 
+augmented acoustic instruments. Rovan's research includes new sensor hardware design and wireless microcontroller 
+systems. His research into gestural control and interactivity has been featured in IRCAM's journal "Resonance", 
+"Electronic Musician", the Computer Music Journal, the Japanese magazine "SoundArts," the CDROM "Trends 
+in Gestural Control of Music" (IRCAM 2000), and will appear in the upcoming book "Mapping Landscapes 
+for Performance as Research: Scholarly Acts and Creative Cartographies," to be published 2009 by Palgrave 
+Macmillan. Kevin Patton Brown University Graduate student, MEME: Multimedia &#38; Electronic Music Experiments 
+Kevin Patton is a composer, scholar, and experimental sound performer whose work explores the intersection 
+of music, technology, and the body.The design of new musical interfaces and computer music systems for 
+the analysis, composition, and performance of electronic, multimedia, and experimental music is at the 
+center of his practice. Furthermore, the integration of interactive music and machine improvisation into 
+traditional performance contexts is a key to broadening the audience for contemporary and experimental 
+music. Kevin often performs his own work in both instrumental improvisation and interactive chamber music 
+and has performed in Europe, Japan, and throughout North America. His chamber music has also been performed 
+by such ensembles as Dinosaur Annex. Kevin is a recent winner of the Rhizome 2009 commission competition 
+with visual artist Maria del Carmen Montoya for their installation, I Sky You. His performance project, 
+GrayCode, combines electronic instrument design, machine improvisation with experimental jazz practice 
+in collaboration with percussionist Frederick Kennedy and clarinetist and composer Butch Rovan. Kevin's 
+music and ideas have been presented at the Electronic Music Studies (EMS) International conference in 
+Paris, France and Beijing, China, and the Visiones Sonoras festival in Morelia, Mexico, among many. He 
+is also an Invited Researcher at the Sorbonne, in Paris France for the Spring of 2009. Kevin holds a 
+Master of Music degree in jazz studies and composition from the University of North Texas and a Master 
+of Arts Degree from Brown University. He is currently a PhD Candidate in electronic music and multimedia 
+composition at Brown University. Maria Del Carmen Montoya New media artist Maria del Carmen Montoya is 
+a new media artist that works in sculpture, performance and video. Her work explores the personal, emotional 
+and utterly irrational tendencies of technological manifestations. Most recently Carmen received the 
+2009 Rhizome Commission for New Media Art, with composer Kevin Patton, for I Sky You a work wherein the 
+darkness of a room is intermittently broken by erratic bursts of chemically synthesized light and dissonant 
+tones which respond to the unique luminescence and duration of each individual flare. It was inspired 
+by the phrase Frida Kahlo used to describe infinite love: I Sky You. Carmen s work has been presented 
+nationally and internationally including the State-X New Forms Festival in Den Haag, Holland, the Athens 
+Festival of Video Art, Athens, Greece and Eyebeam Center for Art and Technology in New York City. She 
+holds a Bachelor s degree in Philosophy from Loyola University-Chicago and a Masters Degree in Digital 
+Media from Rhode Island School of Design. She currently lives and works in Providence, RI. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>Copyright is held by the author/owner(s).</copyright_holder_name>
+				<copyright_holder_year>2009</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1597987</article_id>
+		<sort_key>40</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>4</display_no>
+		<article_publication_date>08-03-2009</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Improvisation with the TOOB]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1597983.1597987</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1597987</url>
+		<abstract>
+			<par><![CDATA[<p>The TOOB is a unique wireless electronic instrument I created to extend wind instrument performance techniques into the electroacoustic realm. Being originally a trumpet player, I wanted to utilize some of the skills of trumpet performance in a new way, creating and manipulating completely different sounds and musical material. The TOOB has been tweaked for more than two years to give the performer a vast but intuitive range of sonic choices, allowing creative freedom in solo or group improvisation. Sound can be generated within the instrument from a library of 'noisy' sound samples or sampled on the fly from the environment or the instrument itself and manipulated.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.2</cat_node>
+				<descriptor>Input devices and strategies (e.g., mouse, touchscreen)</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>C.2.1</cat_node>
+				<descriptor>Wireless communication</descriptor>
+				<type>S</type>
+			</other_category>
+			<other_category>
+				<cat_node>H.5.5</cat_node>
+				<descriptor>Methodologies and techniques</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010469.10010475</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Sound and music computing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003033.10003106.10003113</concept_id>
+				<concept_desc>CCS->Networks->Network types->Mobile networks</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003033.10003106.10003119</concept_id>
+				<concept_desc>CCS->Networks->Network types->Wireless access networks</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003125.10011666</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction devices->Touch screens</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003125</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction devices</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Human Factors</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P1617583</person_id>
+				<author_profile_id><![CDATA[81442617015]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Arvid]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Tomayko-Peters]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[http://arvidtp.net/portfolio -- 2007--09 the TOOB online]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[http://www.wired.com/gadgets/mods/multimedia/2009/03/gallery_instruments?slide=8 -- 2009 the TOOB featured in <i>Wired</i>
+]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Improvisation with The TOOB Arvid Tomayko-Peters arvid@arvidtp.net 1 Overview The TOOB is a unique wireless 
+electronic instrument I created to extend wind instrument performance techniques into the electroacoustic 
+realm. Being originally a trumpet player, I wanted to utilize some of the skills of trumpet performance 
+in a new way, creating and manipulating completely different sounds and musical material. The TOOB has 
+been tweaked for more than two years to give the performer a vast but intuitive range of sonic choices, 
+allowing creative freedom in solo or group improvisation. Sound can be generated within the instrument 
+from a library of noisy sound samples or sampled on the fly from the environment or the instrument itself 
+and manipulated. The instrument senses breath, finger pressure, tilt and acceleration and has several 
+other tactile controls. Sound is created and processed using Max/MSP/Jitter on a computer. The unique 
+aspect of the TOOB s sound processing is a breath and accelerometer controlled spectral filter. The performer 
+determines a frequency in the audible spectrum with using hand motion, while blowing into the breath 
+sensor to create spikes in the normally closed spectral filter, allowing sound from audio samples to 
+pass at those frequencies. The width of each spike and its decay rate are controlled by finger pressures. 
+In this way, many spikes or mountains can be created and layered in the spectral filter to create a complex 
+frequency landscape that interacts with rising and falling partials from audio passing through the filter 
+as it changes speed in response to the gestures of the performer. This frequency landscape can be further 
+modified by dynamic control of its overall height, width and position. The instrument also contains a 
+looping system made from a breath-tempo synced analog-style delay line with dynamic control of input, 
+feedback and length, and the ability to revert to the previous loop even after having been temporally 
+distorted by modulation of the delay length. Any audio created by the instrument can become the source 
+audio for this component. Additionally a cartoon looping system (à la Zorn s Cobra) can quickly blurt 
+out a wide variety of sharp, fast noises in contrast to the sometimes atmospheric sonic landscapes otherwise 
+generated when performing the instrument. This component spits fragments of audio samples with dynamic 
+control of source audio selection, gain, speed, fragment length and fragment source position within the 
+audio sample. All three of these sound generation modules can be active and controlled concurrently. 
+Their intent is to combine to form an expressive and wide-open yet intuitive performance instrument. 
+  My performance will explore the creation of sound and music via the gesture and breath control of 
+this electronic wind instrument. The TOOB, like any instrument, inspires and requires its own set of 
+gestures that make up a unique gestural repertoire. Since the TOOB presents both predictable and unpredictable 
+elements to even the most experienced performer (including its creator), every performance is unique 
+and improvisational experimentation is the most exciting way to experience the TOOB. It allows the performer 
+to react to the unpredictable elements of the instrument and massage them into extended, coherent phrases, 
+hopefully creating an expressive and worthwhile musical experience. References http://arvidtp.net/portfolio 
+ 2007-09 the TOOB online http://www.wired.com/gadgets/mods/multimedia/2009/03/gallery _instruments?slide=8 
+ 2009 the TOOB featured in Wired Copyright is held by the author / owner(s). SIGGRAPH 2009, New Orleans, 
+Louisiana, August 3 7, 2009. ISBN 978-1-60558-726-4/09/0008  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>Copyright is held by the author/owner(s).</copyright_holder_name>
+				<copyright_holder_year>2009</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1597988</article_id>
+		<sort_key>50</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>5</display_no>
+		<article_publication_date>08-03-2009</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[Program notes]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1597983.1597988</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1597988</url>
+		<abstract>
+			<par><![CDATA[<p>This piece is performed on the <i>Silent Drum</i> controller. This controller began to be developed in 2006 as a percussion controller, thought to be hit by mallets within a percussion setup; hence the name and look of a drum. However, through further experimentation and development, a hand technique was revealed possible.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.0</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10002944.10011122</concept_id>
+				<concept_desc>CCS->General and reference->Document types</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944.10011122</concept_id>
+				<concept_desc>CCS->General and reference->Document types</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P1617584</person_id>
+				<author_profile_id><![CDATA[81442599074]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jaime]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Oliver]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Program notes This piece is performed on the Silent Drum controller. This controller began to be developed 
+in 2006 as a percussion controller, thought to be hit by mallets within a percussion setup; hence the 
+name and look of a drum. However, through further experimentation and development, a hand technique was 
+revealed possible. This work explores hand gestures. The elastic drumhead works as a force-resistant 
+haptic boundary for the hand. The performer is able to detach him or herself completely from the object 
+to produce silence. This sound performance piece consists of a set of concatenated environments, in the 
+sense that they are gestural sound spaces. Human gestures transform pre-recorded sounds, creating a fully 
+embodied live electronic sound world and providing the audience with a large amount of gestural information. 
+The performer controls sound morphologies and transitions through material. The compositional process 
+is not strictly the design and organization of sounds, but is, or ought to be, a composition of environments 
+or sound spaces that are brought to a concrete morphology by performance gestures. It is the design of 
+the multiple instruments that inhabit this controller. Copyright is held by the author / owner(s). SIGGRAPH 
+2009, New Orleans, Louisiana, August 3 7, 2009. ISBN 978-1-60558-726-4/09/0008 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>Copyright is held by the author/owner(s).</copyright_holder_name>
+				<copyright_holder_year>2009</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1597989</article_id>
+		<sort_key>60</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>6</display_no>
+		<article_publication_date>08-03-2009</article_publication_date>
+		<seq_no>6</seq_no>
+		<title><![CDATA[Reactable performance]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/1597983.1597989</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1597989</url>
+		<abstract>
+			<par><![CDATA[<p><b>The Reactable</b> is a new electronic musical instrument with a simple and intuitive design, which enables musicians to experiment with sound, change its structure, control its parameters in a direct, refreshing and unseen way. It uses a luminous surface interface, where the musician controls the system by manipulating tangible objects.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.5</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>H.5.2</cat_node>
+				<descriptor>Input devices and strategies (e.g., mouse, touchscreen)</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003120.10003121.10003125</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction devices</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003125.10011666</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction devices->Touch screens</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010469.10010475</concept_id>
+				<concept_desc>CCS->Applied computing->Arts and humanities->Sound and music computing</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002951.10003317.10003371.10003386.10003390</concept_id>
+				<concept_desc>CCS->Information systems->Information retrieval->Specialized information retrieval->Multimedia and multimodal retrieval->Music retrieval</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Human Factors</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P1617585</person_id>
+				<author_profile_id><![CDATA[81100660486]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Sergi]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jord&#224;]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Reactable performance, by Sergi Jordà Sergi Jordà holds a PhD in Computer Science and Digital Communication. 
+He is a lecturer at the Pompeu Fabra University of Barcelona, where he teaches computer music, HCI, and 
+interactive media arts. Sergi discovered the magic of computer programming while completing a Bachelor 
+of Science in Fundamental Physics in the early 1980s, and he immediately decided to give up the saxophone 
+practice in order to become a computer music improviser. He has written many articles, books, given workshops 
+and lectured though Europe, Asia and America, always trying to bridge HCI, music performance and interactive 
+media arts, and he is currently best known as one of the luthiers inventors of the reactable. As a luthier 
+and improviser, Sergi likes to invent new digital musical instruments without forgetting to make music 
+with them, and although his music has been released on various labels and he has composed for different 
+instrumental setups and for films, he prefers the immediacy and volatility of free improvisation. The 
+Reactable is a new electronic musical instrument with a simple and intuitive design, which enables musicians 
+to experiment with sound, change its structure, control its parameters in a direct, refreshing and unseen 
+way. It uses a luminous surface interface, where the musician controls the system by manipulating tangible 
+objects.  The Reactable is based on a translucent and luminous round table. By putting tangible pucks 
+on the Reactable surface, by turning them and connecting them to each other, performers can combine different 
+elements like synthesizers, effects, sample loops or control elements in order to create a unique and 
+flexible composition. Reactable s pucks represent the building blocks of electronic music, each one having 
+a different functionality in sound generation or in effect processing, in a way deeply inspired by modular 
+analogue synthesizers such as those developed by Bob Moog in the early 60s. The Reactable was conceived 
+and developed since 2003 by a research team at the Pompeu Fabra University in Barcelona. Sergi Jordà, 
+Martin Kaltenbrunner, Günter Geiger and Marcos Alonso premiered their creation in a concert in 2005, 
+but the instrument got known to a wider audience when the team released several demonstration videos 
+on Youtube in late 2006. These videos have been watched by more than four million people, including eminent 
+musicians such as Icelandic songstress Björk, who successfully incorporated the Reactable on her last 
+18-months world tour Volta. In parallel, during the last two years, the Reactable team has given more 
+than 150 presentations and concerts in 30 countries, turning it into one of the most worldwide acclaimed 
+new musical instruments of the 21st century. Declared the Hot Instrument of the Year by the Rolling Stone 
+Magazine (2007), the Reactable has received many prestigious international awards such as the Prix Ars 
+Electronica Golden Nica for Digital Musics (2008), two D&#38;AD Yellow Pencil Awards (2008), the MIDEM 
+Hottest Music Biz Start-Up Award (2008) or the Ciutat de Barcelona (2007). On February 2009, the creators 
+of the Reactable founded the spin-off company Reactable Systems (www.reactable.com). 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>Copyright is held by the author/owner(s).</copyright_holder_name>
+				<copyright_holder_year>2009</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+</content>
+</proceeding>

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08/07/2011</start_date>
+		<end_date>08/11/2011</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Vancouver]]></city>
+		<state>British Columbia</state>
+		<country>Canada</country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>2018996</proc_id>
+	<acronym>SIGGRAPH '11</acronym>
+	<proc_desc>ACM SIGGRAPH 2011 Awards</proc_desc>
+	<conference_number>2011</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-4503-0965-3</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2011</copyright_year>
+	<publication_date>08-07-2011</publication_date>
+	<pages>4</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>The ACM SIGGRAPH Awards program recognizes individuals who have made a significant contribution to the computer graphics community through their research, teaching, service, or writing.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>2018997</article_id>
+		<sort_key>10</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>1</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Computer Graphics Achievement Award]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2018996.2018997</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2018997</url>
+		<abstract>
+			<par><![CDATA[<p>ACM SIGGRAPH recognizes Richard Szeliski with the 2011 Computer Graphics Achievement Award for his pioneering contributions at the intersection of computer graphics and computer vision, particularly his work in image-based modeling and rendering. His work has significantly advanced our ability to capture the world in photographs and video and has shown how these advances enable a wide variety of new applications.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2759026</person_id>
+				<author_profile_id><![CDATA[81466640963]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Richard]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Szeliski]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2011 ACM SIGGRAPH Awards Computer Graphics Achievement Award  Richard Szeliski ACM SIGGRAPH recognizes 
+Richard Szeliski with the 2011 Computer Graphics Achievement Award for his pioneering con­tributions 
+at the intersection of computer graphics and computer vision, particularly his work in image-based modeling 
+and render­ing. His work has significantly advanced our ability to capture the world in photographs and 
+video and has shown how these advances enable a wide variety of new applications. Szeliski has spent 
+decades pursuing image-based rendering, compu­tational photography, video scene analysis, and the use 
+of computer vision to build 3D models from images. He has published two books and well over 100 research 
+papers in computer vision, computer graphics, and medical imaging. He currently leads the Interactive 
+Visual Media Group at Microsoft Research, where he has worked since 1995. He also holds an Affiliate 
+Professor appointment at the University of Washington. He has taught courses in computer vision at both 
+the University of Washington and Stanford, and has advised numerous graduate students. He received a 
+Ph.D. from Carnegie Mellon University in 1988. Prior to Microsoft, he worked at Bell-Northern Research, 
+Schlumberger, SRI International, and Digital s Cambridge Research Laboratory. A hallmark of Szeliski 
+s work is the insight that it is often not neces­sary to solve the entire computer vision problem of 
+reconstructing a full 3D model from imagery; for many applications it is sufficient to re-render the 
+input imagery using a simpler proxy model. In a world where image (and video) capture and distribution 
+has become increasingly easy, this insight means that high-quality computer graphics experiences can 
+be delivered without high-fidelity 3D models. Szeliski and his collaborators have developed several new 
+representations that leverage this insight and consequently changed the way computer graphics researchers 
+think about capturing the world. Layered depth images showed that incorporating just one extra channel 
+per pixel (depth) leads to efficient re-rendering of imagery from nearby camera views. His work on the 
+Lumigraph went towards the other extreme and showed that it is enough to sample the light emanating in 
+all directions from an object in order to synthesize new views of the object. Szeliski has also worked 
+to develop practical new applications supported by cutting edge research. Algorithms for image stitching 
+now allow people to capture hundreds of overlapping images of a scene, and then fully-automatically create 
+a seamless panorama over which a viewer can pan and zoom interactively. Here, the challenges are to perform 
+feature matching for image alignment and seamless blending of a large, unorganized set of photographs. 
+He has also done pioneering work in other areas of computational pho­tography, including merging images 
+with different exposures and flash and non-flash images, as well as extending these approaches to the 
+temporal domain by aligning, blending, and looping video clips and sequences.  In the Photo Tourism 
+work, collections of photos taken of a scene by different photographers at different times can be combined 
+to allow people to virtually tour the location by flying from one pho­tograph to another. Again, the 
+challenge is to find common feature points in a large, unorganized set of photographs, but in this case, 
+where the camera parameters are very different in each photo. Surprisingly, this kind of input data can 
+lead to an accurate cloud of points in 3D, which serves as a proxy model for locating and transitioning 
+between photos. Beyond graphics and computational photography, Szeliski is widely known for his work 
+in computer vision, ranging from basic research into stereo matching to helping to move the field forward 
+through the creation of many benchmark studies. Throughout his research career, Szeliski has combined 
+a deep understanding of the mathematical underpinnings of image capture and rendering with an encyclopedic 
+knowledge of available meth­ods and brought these to bear in new and creative applications at the intersection 
+of computer graphics and computer vision. ACM SIGGRAPH is delighted to present Richard Szeliski the 2011 
+Computer Graphics Achievement Award. Previous Award Recipients 2010 Jessica K. Hodgins 1995 Kurt Akeley 
+2009 Michael Kass 1994 Kenneth E. Torrance 2008 Ken Perlin 1993 Pat Hanrahan 2007 Greg Ward 1992 Henry 
+Fuchs 2006 Thomas W. Sederberg 1991 James T. Kajiya 2005 Jos Stam 1990 Richard Shoup 2004 Hugues Hoppe 
+   and Alvy Ray Smith 2003 Peter Schröder 1989 John Warnock 2002 David Kirk 1988 Alan H. Barr 2001 
+Andrew Witkin 1987 Robert Cook 2000 David H. Salesin 1986 Turner Whitted 1999 Tony DeRose 1985 Loren 
+Carpenter 1998 Michael F. Cohen 1984 James H. Clark 1997 Przemyslaw Prusinkiewicz 1983 James F. Blinn 
+1996 Marc Levoy xviii 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2018998</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>2</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Significant New Researcher Award]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2018996.2018998</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2018998</url>
+		<abstract>
+			<par><![CDATA[<p>SIGGRAPH is proud to recognize Olga Sorkine as the 2011 recipient of the Significant New Researcher Award. Her outstanding early contributions to the field of geometry processing, particularly her highly influential graduate research on differential coordinates, and her subsequent work on interactive mesh editing have already had a huge impact; her recent entry into new areas like color harmonization, video retargeting, and visualization demonstrate her breadth.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2759027</person_id>
+				<author_profile_id><![CDATA[81441592250]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Olga]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sorkine]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2011 ACM SIGGRAPH Awards Significant New Researcher Award Olga Sorkine SIGGRAPH is proud to recognize 
+Olga Sorkine as the 2011 recipient of the Significant New Researcher Award. Her outstanding early contributions 
+to the field of geometry processing, particularly her highly influential graduate research on differential 
+coordinates, and her subsequent work on interactive mesh editing have already had a huge impact; her 
+recent entry into new areas like color harmonization, video retargeting, and visualization demonstrate 
+her breadth. Sorkine grew up in Tel Aviv, and got her B.Sc. (2000) and Ph.D. (2006) from Tel Aviv University, 
+after which she spent two years in a postdoctoral appointment at the Technical University of Berlin. 
+She then took an Assistant Professor position at New York University, and as of 2011 has joined the faculty 
+at ETH Zurich. She received an Alexander von Humbolt Fellowship in 2006, and the Eurographics Young Researcher 
+award in 2008. The idea behind differential coordinates is to represent the geometry of meshes by encoding 
+locally-defined details rather than absolute positions of mesh vertices. This approach can be viewed 
+as generalizing gradient domain representations for images to meshes in three-space, and leads to versatile 
+geometric modeling and processing techniques. This generalization presents significant challenges, many 
+of which were addressed in a series of papers that Sorkine co-authored in 2004-2007, such as Laplacian 
+surface editing (SGP 2004), Linear rotation-invariant coordinates for meshes (SIGGRAPH 2005), and As-rigid-as-possible 
+surface modeling (SGP 2007). In work on detail preserving deformation, she and her coauthors showed that 
+the optimization problems that arise can be solved at interactive rates, and applied the technique to 
+such problems as character animation, sketch-based shape editing, and image manipulation. The theme of 
+interactivity in mesh processing has continued with her more recent work on FiberMesh (SIGGRAPH 2007) 
+and iWires (SIGGRAPH 2009). Fibermesh is an artist-friendly system that allows users to create and edit 
+3D models using an arbitrary collection of sketched curves, and iWires makes manipulation of man-made 
+objects far easier by discovering and preserving important design features such as symmetries. Sorkine 
+has also demonstrated enormous breadth of interests; in just the last two years she s produced papers 
+on image and video retargeting, reverse tone mapping, volumetric modeling, and visualization.  We re 
+delighted to name Olga Sorkine as this year s Significant New Researcher, and we look forward to her 
+future accomplishments. Previous Award Recipients 2010 Alexei Efros 2009 Wojciech Matusik 2008 Maneesh 
+Agrawala 2007 Ravi Ramamoorthi 2006 Takeo Igarashi 2005 Ron Fedkiw 2004 Zoran Popovi´c 2003 Mathieu Desbrun 
+2002 Steven J. Gortler 2001 Paul Debevec xix 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2018999</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>3</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Steven A. Coons Award]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2018996.2018999</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2018999</url>
+		<abstract>
+			<par><![CDATA[<p>ACM SIGGRAPH is proud to recognize Jim Kajiya as this year's recipient of the Steven A. Coons Award for his numerous pioneering technical contributions to rendering and computer graphics hardware design.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2759028</person_id>
+				<author_profile_id><![CDATA[81487646397]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[James]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kajiya]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2011 ACM SIGGRAPH Awards Steven A. Coons Award James Kajiya ACM SIGGRAPH is proud to recognize Jim 
+Kajiya as this year s recipient of the Steven A. Coons Award for his numerous pioneer­ing technical contributions 
+to rendering and computer graphics hardware design. Kajiya started his professional graphics career in 
+1973 at Evans and Sutherland Computer Corporation. Jim received a doctorate in computer science from 
+the University of Utah in 1979. For the next 15 years he was on the faculty of the California Institute 
+of Technology where he founded the graphics research group with Al Barr. He then joined Microsoft Research 
+(MSR) in 1994 where he built and led the graphics group and eventually went on to become a director in 
+the MSR lab in Redmond. He now contributes at MSR in his role as a Distinguished Engineer. In 1991 Kajiya 
+was honored with the SIGGRAPH Technical Achievement Award. In 1997, he, along with Timothy Kay, received 
+a technical Academy Award for work on rendering hair and fur. Kajiya has an exceptional record of service 
+to our field. In 1993 he served as the technical program chair for SIGGRAPH 1993. In this role he transformed 
+the paper review process into one that has been widely emulated. As part of this effort, Kajiya authored 
+an often read but rarely cited article entitled How to get your SIGGRAPH Paper rejected. He has also 
+served on the SIGGRAPH executive committee. Kajiya is perhaps best known as the sole author of the seminal 
+paper The Rendering Equation published in ACM SIGGRAPH 1986. Building on ideas published in SIGGRAPH 
+such as the radiosity algorithm and Pixar s Distributed Ray Tracing technique, he advanced the application 
+of radiative transfer to the problem of rendering. He recognized that various approximations to the series 
+solution to the resulting integral equation encompassed virtually all known rendering algorithms. But 
+beyond this, he showed how to use Monte-Carlo Markov Chain approximations to the solution to generate 
+pictures with a better visual fidelity than any previously produced. His path tracing algorithm remains 
+the gold standard to which other approaches are compared. In succinct paragraphs, he also describes importance 
+sampling and several approaches to hierarchical subdivision of the image plane for variance-reduction. 
+For a paper with only two computer-generated images and several hand-drawn diagrams, it s had an enormous 
+impact on the entire field.  Much of Kajiya s work has raised the bar for quality of image synthesis, 
+included nonlinear anti-aliasing algorithms for text, ray­tracing acceleration structures, an early paper 
+on volume rendering, anisotropic light reflection models, and a technique for representing and rendering 
+fur and hair. In addition to developing foundational mathematics and associated algorithms for computer 
+graphics, Kajiya has also been instrumen­tal in hardware for graphics. He designed the Evans &#38; Sutherland 
+frame buffer, a device of significance for early raster graphics work at the University of Utah, New 
+York Institute of Technology, JPL, and Cornell. Frame buffers are found inside every PC, tablet, and 
+smartphone today. At Microsoft, he was also the principal architect on Talisman, advancing ideas such 
+as texture compression and anisotropic filtering that are found in most current low-level 3D graphics 
+standards. Across the decades and in many areas, Kajiya has been a pioneer, leading us to a deeper understanding 
+of everything from hardware to algorithms to languages. At the same time he has helped set in place the 
+unique processes that have helped make SIGGRAPH what it is today. For this, we are honored and proud 
+to present Jim Kajiya with this year s Steven A. Coons Award. Previous Award Recipients 2009 Robert L. 
+Cook 2007 Nelson Max 2005 Tomoyuki Nishita 2003 Pat Hanrahan 2001 Lance J. Williams 1999 James F. Blinn 
+1997 James Foley 1995 José Luis Encarnação 1993 Ed Catmull 1991 Andries van Dam 1989 David C. Evans 1987 
+Donald P. Greenberg 1985 Pierre Bézier 1983 Ivan E. Sutherland xx 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2019000</article_id>
+		<sort_key>40</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>4</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Lifetime Achievement Award in Digital Art]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2018996.2019000</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2019000</url>
+		<abstract>
+			<par><![CDATA[<p>The 2011 ACM SIGGRAPH Lifetime Achievement Award in Digital Art is awarded to Charles Csuri, for his visionary and creative blending of Art and Technology.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2759029</person_id>
+				<author_profile_id><![CDATA[81487651485]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Charles]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Csuri]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ 2011 ACM SIGGRAPH Awards Lifetime Achievement Award in Digital Art Charles Csuri The 2011 ACM SIGGRAPH 
+Lifetime Achievement Award in Digital Art is awarded to Charles Csuri, for his visionary and creative 
+blending of Art and Technology. In the 1960s, Charles Csuri envisioned the intertwining of art and computer 
+science that gave rise not only to his own expansive body of work, but inspired generations to embrace 
+computer imaging as a serious form of artistic investigation. As a painter, he was immersed in the passionate 
+discussions of his time, when abstract expressionists challenged everything from the purpose of art to 
+the functions of abstract compositional elements. Through his personal network of colleagues, he was 
+also aware of parallel discourses among scientists who debated the role of computers in society. His 
+profound understanding of these two cultures put him in a unique position to merge aesthetics and computing, 
+long before either group recognized the potential synergies. Combining the two fields at that time was 
+a bold move. As an artist, Csuri had the vision to approach the National Science Foundation, and succeeded 
+in securing funding to establish a leading center of computer graphics at The Ohio State University. 
+Through his teaching, his research, and his own artistic output he exemplified his convictions that the 
+fundamental aesthetic concepts which make conventional media so dynamic could not only form the basis 
+of computer generated art, but also that entirely new aesthetic ideals could arise from the incalculable 
+possibilities of computer imaging. An Ohio native, Professor Csuri attended the Ohio State University, 
+where, while studying fine art, he also excelled at football, proving that the creative mind can move 
+through any number of obstacles. He received the B.F.A. and M.A. degrees from OSU, was appointed a faculty 
+member in 1949, and in 1971 established the Computer Graphics Research Group that later, as ACCAD, emerged 
+as one of the leading centers for research on the use and integration of emerging arts technologies. 
+Csuri s work is in the collections of the Museum of Modern Art, the Zagreb Museum of Contemporary Art, 
+the Victoria and Albert Museum, the ZKM Center for Art and Media, and numerous other important collections. 
+SIGGRAPH attendees know his work through many SIGGRAPH art shows and a special retrospective at SIGGRAPH 
+2006.  ACM SIGGRAPH is honored to recognize Charles Csuri. He is a true visionary who decades ago embraced 
+the aesthetic potential of early computer imaging, and since then has unfailing worked in both teaching 
+and aesthetic production, keeping us growing, discussing, and moving forward. Previous Recipients 2010 
+Yoichiro Kawaguchi 2009 Lynn Hershman Leeson 2009 Roman Verostko 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+</content>
+</proceeding>

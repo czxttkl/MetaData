@@ -1,0 +1,2394 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>07/31/2005</start_date>
+		<end_date>08/04/2005</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Los Angeles]]></city>
+		<state>California</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>1187335</proc_id>
+	<acronym>SIGGRAPH '05</acronym>
+	<proc_desc>ACM SIGGRAPH 2005 Web program</proc_desc>
+	<conference_number>2005</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2005</copyright_year>
+	<publication_date>07-31-2005</publication_date>
+	<pages>145</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<chair_editor>
+		<ch_ed>
+			<person_id>PP39102823</person_id>
+			<author_profile_id><![CDATA[81447600918]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>1</seq_no>
+			<first_name><![CDATA[Nishant]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Kothary]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[Amazon.com]]></affiliation>
+			<role><![CDATA[Editor]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+	</chair_editor>
+	<ccc>
+		<copyright_holder>
+			<copyright_holder_name>ACM</copyright_holder_name>
+			<copyright_holder_year>2005</copyright_holder_year>
+		</copyright_holder>
+	</ccc>
+</proceeding_rec>
+<content>
+	<section>
+		<section_id>1187336</section_id>
+		<sort_key>1</sort_key>
+		<section_seq_no>1</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Technical track]]></section_title>
+		<section_page_from>1</section_page_from>
+	<article_rec>
+		<article_id>1187337</article_id>
+		<sort_key>1</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Exploiting an evolutionary accident in web3D communications to integrate application components]]></title>
+		<page_from>1</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187337</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187337</url>
+		<abstract>
+			<par><![CDATA[The Virtual Reality Modeling Language (VRML) ushered in a new era in computer graphics by providing the first international standard 3D format for the Web (web3D). Unfortunately, some who tried VRML applications found they did not work and naturally blamed the language. However, the problem often lay in the sensitivity to different client software environments of the programming interfaces used to extend VRML. In many cases, VRML applications had to be extended to include things VRML lacked, such as sophisticated user interface and interactivity, database access, multiuser support, security and system integration support. These important aspects of modern systems were added via a programming interface (PI), called the External Authoring Interface (EAI). The problem was that applications based on the EAI would not work reliably due to changes in the client environment by competitive commercial stakeholders, affecting things like the support for a required third party programming language. It is this problem that often lead to unsatisfactory user experiences, not VRML itself.Below the client battlefield radar, three small web3D functions accidentally evolved, in symbiosis with the Web, to provide an alternative integration method built on a simple but solid foundation: the Hypertext Transport Protocol (HTTP). HTTP is the protocol from which the very fabric of the Web was woven. This paper presents methods to integrate web3D application components directly via HTTP. The three web3D functions are used in combination to implement a communication cycle that makes use of persistent state stored in web services. The approach uses open standards, is portable across platforms and resilient to changes in client environment. Applications based on this approach will work more reliably on disparate end user systems and enable developers to leverage increasingly sophisticated web advances.]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[HTML]]></kw>
+			<kw><![CDATA[HTTP]]></kw>
+			<kw><![CDATA[architecture]]></kw>
+			<kw><![CDATA[programming interface]]></kw>
+			<kw><![CDATA[protocol]]></kw>
+			<kw><![CDATA[scene graph]]></kw>
+			<kw><![CDATA[state]]></kw>
+			<kw><![CDATA[statefull]]></kw>
+			<kw><![CDATA[stateless]]></kw>
+			<kw><![CDATA[web 3D]]></kw>
+			<kw><![CDATA[web page]]></kw>
+			<kw><![CDATA[web services]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.2</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010520.10010521.10010542.10011714</concept_id>
+				<concept_desc>CCS->Computer systems organization->Architectures->Other architectures->Special purpose systems</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010520.10010521.10010542.10011714</concept_id>
+				<concept_desc>CCS->Computer systems organization->Architectures->Other architectures->Special purpose systems</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>PP24025896</person_id>
+				<author_profile_id><![CDATA[81323496636]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Chris]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Thorne]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Western Australia]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[APACHE. http://www.apache.org.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[ANFY3D. http://any3D.com.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Contact 3D. http://www.blaxxun.com/en/products/blaxxun3d.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>510645</ref_obj_id>
+				<ref_obj_pid>510378</ref_obj_pid>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Belfore, L. A. II, Chitithoti, S. 2000. An Interactive Land Use VRML Application (ILUVA) with Servlet Assist, Proceedings of the 2000 Winter Simulation Conference. 1823--1830.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Blais, C., Brutzman, D., Horner, D., Niclaus, S. 2001. Web-based 3D technology for scenario authoring and visualisation: the SAVAGE project, Interservice/Industry Training, Simulation and Education Conference (I/ITSEC) 2001, Orlando, Florida.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>279550</ref_obj_id>
+				<ref_obj_pid>271897</ref_obj_pid>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Campbell, D. A. 1998. VRML In Architectural Construction Documents: A Case Study, VRML98, Monterey CAUSA.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>279553</ref_obj_id>
+				<ref_obj_pid>271897</ref_obj_pid>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Coors, V. and Jung, V. 1998. Using VRML as an Interface to the 3D Data Warehouse, Proceedings of VRML '98, New York.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[CORTONA JET. http://parallelgraphics.com.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Cowie, D. 2002. Use JSP to create your own VRML world, http://builder.com.com/5100-6371-1050067.html.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[CULT3D. http://www.cult3D.com.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>253468</ref_obj_id>
+				<ref_obj_pid>253437</ref_obj_pid>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Chen, S, Myers, R., Pasetto, R. 1997. The out of box experience: lessons learned creating compelling VRML 2.0 content, Proceedings of the second symposium on Virtual reality modeling language, Monterey, California, United States. ISBN:0-89791-886-X. 83 - ff.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[EAI. ISO/IEC 14772-2:2004. The Virtual Reality Modeling Language, Part 2.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[JBOSS. http://www.jboss.org.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[JAKARTA, http://jakarta.apache.org.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[KAON, http://kaon.com.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Kochy, K. Kirschbaum, C., Tschirley, R., Markle, S. 2002. A client server architecture based on secure communication for visualization of an interaction with 3D medical data, Proceedings of Euro PACS 2002, Oulu University Press. Oulu, 63--65.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>983407</ref_obj_id>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Kurose and Ross, 2004. Computer Networking: A top-down approach featuring the Internet, 3rd edition, Addison Wesley, 2004. http://kia.etel.ru/lib/Networking/kurose/apps/http.htm.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[FREEWRL. http://freewrl.sourceforge.net/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[Gahedan, M. 1998. Scatterplots and scenes: visualization techniques for exploratory analysis, Computers, Environment and Urban systems, Vol. 22, No. 1, 43--56.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[Gilbert, H. 2003. The Tragedy of Microsoft and Java, Technology and Planning, Yale University. http://pclt.cis.yale.edu/pclt/mscase/microsoft_java.htm.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[Lipkin, D. 1998. VRML Informative Annex, Recommended Practices for SQL Database Access, Oracle Corporation, December 1998.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>22</ref_seq_no>
+				<ref_text><![CDATA[Maranne, E and Vaucher, E. 2003. De La formation A L'Action, ING Magazine, No 16. Mars-Avril 2003, pp4--7.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>23</ref_seq_no>
+				<ref_text><![CDATA[Neilson, J. 1994. Usability Engineering, published by Morgan Kaufmann, San Francisco, chapter 5. ISBN 0-12-518406-9.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>24</ref_seq_no>
+				<ref_text><![CDATA[Pesce, M., Kennard, P. and Parisi, A. 1994. Cyberspace. First International Conference on WWW, Geneva, May.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>25</ref_seq_no>
+				<ref_text><![CDATA[Ressler, S., Wang, Q., Bodarky, S., Sheppard, C., Seidman, G. 1996. VIM: Using VRM: to Access Manufacturing Data, Information Technology Laboratory, National Institute of Standards and Technology.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>26</ref_seq_no>
+				<ref_text><![CDATA[RFC 1945 - Hypertext Transfer Protocol - HTTP/1.0, May 1996.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>27</ref_seq_no>
+				<ref_text><![CDATA[RFC 793 - Transmission Control Protocol, DARPA INTERNET PROGRAM PROTOCOL SPECIFICATION, 1981.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>28</ref_seq_no>
+				<ref_text><![CDATA[RFC 768 - User Datagram Protocol, J. Postel, ISI, 28, 1980.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>29</ref_seq_no>
+				<ref_text><![CDATA[RFC 966 - Host groups: A multicast extension to the Internet Protocol, Network Working Group, S. E. Deering, D. R. Cheriton, Stanford University, December 1985.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>30</ref_seq_no>
+				<ref_text><![CDATA[Ranga, K. and Gramoll, K. 1999. Design Education over the Internet using VRML, American Society of Engineering Education (ASEE) 1999 Conference, June 20--23, Charlotte, NC.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>31</ref_seq_no>
+				<ref_text><![CDATA[Stoter, J. and Zlatanova, S. 2003. Visualisation and editing of 3D objects organised in a DBMS, Proceedings of the EuroSDR Com. V. Workshop on Visualisation and Rendering, 22--24 January, 2003, Enschede, The Netherlands, 16.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1186216</ref_obj_id>
+				<ref_obj_pid>1186194</ref_obj_pid>
+				<ref_seq_no>32</ref_seq_no>
+				<ref_text><![CDATA[Thorne, C. and Haines, K. 2004. Gateway and Protocol for Modern Cyberspace, Proceedings of the SIGGRAPH 2004 conference on Web graphics: in conjunction with ACM SIGGRAPH 2004: Web Graphics, Session: 3D, Conference CD ROM, Los Angeles, CA, 8--12 August, 2004.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>965341</ref_obj_id>
+				<ref_obj_pid>965333</ref_obj_pid>
+				<ref_seq_no>33</ref_seq_no>
+				<ref_text><![CDATA[Thorne, C. and Weiley, V. 2003. Earth's Avatar: The Web Augmented Virtual Earth (WAVE), Proceedings of the SIGGRAPH 2003 conference on Web graphics: in conjunction with the 30th annual conference on Computer graphics and interactive techniques, Conference CD ROM, San Diego, CA, 27--31 July, 2003.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>RFC2396</ref_obj_id>
+				<ref_seq_no>34</ref_seq_no>
+				<ref_text><![CDATA[Berners-Lee, T., Fielding, R., Masinter, L. 2004. Uniform Resource Identifier (URI): Generic Syntax, http://gbiv.com/protocols/uri/rev-2002/rfc2396bis.html.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>35</ref_seq_no>
+				<ref_text><![CDATA[VRML. ISO/IEC 14772-1:1997. The Virtual Reality Modeling Language, Part 1.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>36</ref_seq_no>
+				<ref_text><![CDATA[WEBOPEDIA, http://www.webopedia.com/TERM/H/HTTP.html.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>37</ref_seq_no>
+				<ref_text><![CDATA[Wilson, N., Yergeau, D. and Dutton, R. 2000. Internet Based Prototyping of Micro-Electro-Mechanical Systems, International Conference of Computational Engineering & Sciences, Aug. 2000.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>38</ref_seq_no>
+				<ref_text><![CDATA[XJ3D web site, http://www.xj3d.org/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>39</ref_seq_no>
+				<ref_text><![CDATA[Zlatanova, S. 1999. VRML for 3D GIS, ITC, Enshede, The Nertherland.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>40</ref_seq_no>
+				<ref_text><![CDATA[Zoi, S., Melas, J, Kalliaras, P. and Mitrou, N. 2003. An open framework for the prototyping and delivery of multimedia-rich virtual learning experiences through the internet, WSCG, Vol 11, ISSN 123-6972.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187338</article_id>
+		<sort_key>2</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Perceptually optimized 3D transmission over wireless networks]]></title>
+		<page_from>2</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187338</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187338</url>
+		<abstract>
+			<par><![CDATA[Many protocols optimized to transmissions over wireless networks have been proposed. However, one issue that has not been looked into is considering human perception in deciding a transmission strategy for 3D objects. Many factors, such as the number of vertices and the resolution of texture, can affect the display quality of 3D objects. When the resources of a graphics system are not sufficient to render the ideal image, degradation is inevitable. It is therefore important to study how individual factors will affect the overall quality, and how the degradation can be controlled given limited bandwidth resources and possibility of data loss. In this paper, the essential factors determining the display quality are reviewed. We provide an overview of our research on designing a 3D perceptual quality metric integrating two important ones, resolution of texture and resolution of mesh, that control the transmission bandwidth. We then suggest alternative strategies for packet 3D transmission of both texture and mesh. These strategies are then compared with respect to preserving 3D perceptual quality under packet loss.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P556115</person_id>
+				<author_profile_id><![CDATA[81100097986]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Irene]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Cheng]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Univ. of Alberta, Edmonton, Alberta, Canada]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P21117</person_id>
+				<author_profile_id><![CDATA[81100646309]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Anup]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Basu]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Univ. of Alberta, Edmonton, Alberta, Canada]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>207639</ref_obj_id>
+				<ref_obj_pid>207628</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[{Ayan95} E. Ayanoglu et al. "A link-layer protocol for wireless networks," ACM/Baltzer Wierless Networks J., Vol. 1, pp. 47--60, Feb. 1995.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>880054</ref_obj_id>
+				<ref_obj_pid>876885</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[{BB95} Ajay Bakre and B. R. Badrinath, "I-TCP: Indirect TCP for mobile hosts," in Proc. 15th Int. Conf. Distributed Computing Systems (ICDCS), May 1995, pp. 136--143.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>851648</ref_obj_id>
+				<ref_obj_pid>850925</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[{BKVP97} B. S. Bakshi, P. Krishna, N. H. Vaidya, D. K. Pradhan, "Improving Performance of TCP over Wireless Networks", Int. Conf. on Distributed Computing Systems, 1997.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>280924</ref_obj_id>
+				<ref_obj_pid>280814</ref_obj_pid>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[{BM98} M. R. Bolin and G. W. Meyer, "A Perceptually Based Adaptive Sampling Algorithm," ACM SIGGRAPH, 299--309, 1998.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>276437</ref_obj_id>
+				<ref_obj_pid>276430</ref_obj_pid>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[{BSK95a} H. Balakrishnan, S. Seshan, and R. H. Katz, "Improving reliable transport and handoff performance in cellular wireless networks," ACM Wireless Networks, vol. 1, no. 4, pp. 469--481, December 1995.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>215544</ref_obj_id>
+				<ref_obj_pid>215530</ref_obj_pid>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[{BSK95b} H. Balakrishnan, S. Seshan, and R. H. Katz, "Improving TCP/IP performance over wireless networks," presented at the 1st ACM Int. Conf. Mobile Computing and Networking (Mobicom), Berkeley, CA, Nov. 1995.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>269794</ref_obj_id>
+				<ref_obj_pid>269790</ref_obj_pid>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[{BS97} K. Brown and S. Singh, "M-TCP: TCP for mobile cellular networks," Computer Communication Review, July, 1997, pp. 19--43.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1083979</ref_obj_id>
+				<ref_obj_pid>1083821</ref_obj_pid>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[{BSRV04} S. Bhandarkar, N. Sadry, A. L. N. Reddy and N. Vaidya, "TCP-DCR: A Novel Protocol for Tolerating Wireless Channel Errors," IEEE Trans. on Mobile Computing, February, 2004.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[{BTB02} L. Balmelli, G. Taubin and F. Bernardini, "Space-optimized texture maps," Eurographics, 2002, pp. 411--420.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2229458</ref_obj_id>
+				<ref_obj_pid>2229220</ref_obj_pid>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[{BW98} A. Basu and K. J. Wiebe, "Enhancing Videoconferencing Using Spatially Varying Sensing," IEEE Trans. on SMC, March 1998.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2323807</ref_obj_id>
+				<ref_obj_pid>2322572</ref_obj_pid>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[{CB05} I. Cheng and P. Boulanger, "Feature extraction on 3D TexMesh using Scale-space analysis and Perceptual Evaluation," IEEE Transactions on Circuits and Systems for Video Technology, Special Issue on Scale-space Feature Extraction, May, 2005.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[{CBB03} Z. Chen, B. Bodenheimer and J. F. Barnes, "Robust transmission of 3D geometry over wireless networks," Web3D, pp: 161--172, 2003.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2316868</ref_obj_id>
+				<ref_obj_pid>2312312</ref_obj_pid>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[{CI95} R. Caceres and L. Iftode, "Improving the performance of reliable transport protocols in mobile computing environments," IEEE J. Select. Areas Comm., vol. 13, pp. 850--857, June 1995.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[{Cign97} P. Cignoni et al., "A comparison of mesh simplification algorithms," In Computers & Graphics, Pergamon Press, 1997.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>197783</ref_obj_id>
+				<ref_obj_pid>197765</ref_obj_pid>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[{Daly93} S. Daly, "The visible differences predictor: an algorithm for the assessment of image fidelity," In Watson, A. B. (ed.). Digital Images and Human Vision. MIT Press, Cambridge, MA, 1993, 179--206.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>218391</ref_obj_id>
+				<ref_obj_pid>218380</ref_obj_pid>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[{Deer95} M. Deering, "Geometry Compression," SIGGRAPH, pp 13--19, 1995.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[{DLV96} C. J. van Den, B. Lambrecht, O. Verscheure, "Perceptual Quality Measure using a Spatio-Temporal Model of the Human Visual System," in Proceedings of the SPIE, 450--461, 1996.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>568524</ref_obj_id>
+				<ref_obj_pid>568522</ref_obj_pid>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[{Elaa02} H. Elaarag, "Improving TCP Performance over Mobile Networks," ACM Computing Surveys, September 2002, pp. 357--374.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>258818</ref_obj_id>
+				<ref_obj_pid>258734</ref_obj_pid>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[{Ferw97} J. A. Ferwerda et al., "A Model of Visual Masking for Computer Graphics," ACM SIGGRAPH, pp 143--152, 1997.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>235162</ref_obj_id>
+				<ref_obj_pid>235160</ref_obj_pid>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[{FF96} K. Fall and S. Floyd, "Simulation-based comparisons of Tahoe, Reno, and SACK TCP," Comput. Commun. Rev., pp. 5--21, 1996.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2313629</ref_obj_id>
+				<ref_obj_pid>2312136</ref_obj_pid>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[{FR01} F. H. P. Fitzek and M. Reisslein, "A Prefetching Protocol for Continuous Media Streaming in Wireless Environments," IEEE Journal on Selected Areas in Communications, 19(6):2015--2028, October 2001.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>22</ref_seq_no>
+				<ref_text><![CDATA[{Guil36} J. P. Guilford, Psychometric Methods, MacGraw-Hill Book Company Inc., 1936.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2216067</ref_obj_id>
+				<ref_obj_pid>2215903</ref_obj_pid>
+				<ref_seq_no>23</ref_seq_no>
+				<ref_text><![CDATA[{HFY03} J. Hu, G. Feng and K. L. Yeung, "Hierarchical Cache Design for Enhancing TCP Over Heterogeneous Networks with Wired and Wireless Links," IEEE Trans. On Wireless Communication, vol. 2, no. 2, March 2003.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>248180</ref_obj_id>
+				<ref_obj_pid>248156</ref_obj_pid>
+				<ref_seq_no>24</ref_seq_no>
+				<ref_text><![CDATA[{Hoe96} J. C. Hoe, "Improving the start-up behavior of a congestion control scheme for TCP," In Proc. ACM SIGCOMM, California, 1996.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>237216</ref_obj_id>
+				<ref_obj_pid>237170</ref_obj_pid>
+				<ref_seq_no>25</ref_seq_no>
+				<ref_text><![CDATA[{Hopp96} H. Hoppe, "Progressive meshes," SIGGRPAH 1996, Los Angeles, USA.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>26</ref_seq_no>
+				<ref_text><![CDATA[{HG97} P. S. Heckbert and M. Garland, "Survey of Polygonal Surface Simplification Algorithms," CMU, 1997.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>27</ref_seq_no>
+				<ref_text><![CDATA[{HS93} P. Haeberli and M. Segal, "Texture Mapping as a Fundamental Drawing Primitive," June 1993, http://www.sgi.com/grafica/texmap.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>344922</ref_obj_id>
+				<ref_obj_pid>344779</ref_obj_pid>
+				<ref_seq_no>28</ref_seq_no>
+				<ref_text><![CDATA[{KSS00} A. Khodakovsky, P. Schroder and W. Sweldens, "Progressive geometry compression," ACM Siggraph, 2000.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>29</ref_seq_no>
+				<ref_text><![CDATA[{LC02} K. V. Lee and S. T. Chanson, "Packet loss probability for real-time wireless communications," IEEE Transactions on Vehicular Technology, vol. 51, No. 6, pp. 1569--1575, Nov. 2002.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>30</ref_seq_no>
+				<ref_text><![CDATA[{Limb79} J. O. Limb, "Distortion Criteria of the Human Viewer," IEEE Transactions on SMC, Vol. 9, No. 12, pp. 778--793, December 1979.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1186211</ref_obj_id>
+				<ref_obj_pid>1186194</ref_obj_pid>
+				<ref_seq_no>31</ref_seq_no>
+				<ref_text><![CDATA[{LOZ00} F. Liu, G. S. Owen and Y. Zhu, "Universal converter for platform independent procedural shaders in X3D," Siggraph 2004, Webgraphics presentation and abstract.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>32</ref_seq_no>
+				<ref_text><![CDATA[{MS74} J. L. Mannos and D. J. Sakrison, "The Effects of a Visual Fidelity Criterion on the Encoding of Images," IEEE Trans. on Information Theory, 1974.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>33</ref_seq_no>
+				<ref_text><![CDATA[{Naga84} S. Nagata, "How to reinforce perception of depth in single 2D pictures, -comparative study on various depth cues," Proceedings of the SID, 1984.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>34</ref_seq_no>
+				<ref_text><![CDATA[{OHM*04} C. O'Sullivan, S. Howlett, R. McDonnell, Y. Morvan and K. O'Conor, "Perceptually adaptive graphics," State of the Art Report, Eurographics, 2004.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2219423</ref_obj_id>
+				<ref_obj_pid>2219083</ref_obj_pid>
+				<ref_seq_no>35</ref_seq_no>
+				<ref_text><![CDATA[{PCB05} Y. Pan, I. Cheng and A. Basu, "Quality metric for approximating subjective evaluation of 3D objects," IEEE Transactions on Multimedia, April, 2005.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>550582</ref_obj_id>
+				<ref_seq_no>36</ref_seq_no>
+				<ref_text><![CDATA[{PE02} F. Pereira and T. Ebrahimi, "The MPEG-4 book," Prentice Hall, 2002.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>506915</ref_obj_id>
+				<ref_obj_pid>506900</ref_obj_pid>
+				<ref_seq_no>37</ref_seq_no>
+				<ref_text><![CDATA[{PNVSB02} P. Sinha, T. Nandagopal, N. Venkitaraman, R. Sivakumar and V. Bharghavan, "WTCP: A Reliable Transport Protocol for Wireless Wide-Area Networks, Wireless Networks, 2002, 301--316.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>38</ref_seq_no>
+				<ref_text><![CDATA[{RR01} B. Rogowitz and H. Rushmeier, "Are image quality metrics adequate to evaluate the quality of geometric objects?" In Proc. SPIE, Vol. 4299, 2001.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>39</ref_seq_no>
+				<ref_text><![CDATA[{RRP00} H. Rushmeier, B. Rogowitz, and C. Piatko, "Perceptual issues in substituting texture for geometry," Proc. SPIE, vol. 3959, pp. 372--383, 2000.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2323088</ref_obj_id>
+				<ref_obj_pid>2322507</ref_obj_pid>
+				<ref_seq_no>40</ref_seq_no>
+				<ref_text><![CDATA[{SN00} M. Siegel and S. Nagata, "Just Enough Reality: Comfortable 3D Viewing via Micro-Stereopsis," IEEE Transactions on Circuits and Systems for Video Technology, Vol. 10, No. 3, 387--396, 2000.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>41</ref_seq_no>
+				<ref_text><![CDATA[{Stei89} C. S. Stein et al., "Psychophysical Rating of Image Compression Techniques," SPIE, Vol. 1977, pp. 198--208, 1989.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>42</ref_seq_no>
+				<ref_text><![CDATA[{TH94} P. Teo and D. Heeger, "Perceptual Image Distortion, Human Vision," Visual Processing, and Digital Display V, SPIE Proceedings, Vol. 2179, pp 127--141, February 1994.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>237274</ref_obj_id>
+				<ref_obj_pid>237170</ref_obj_pid>
+				<ref_seq_no>43</ref_seq_no>
+				<ref_text><![CDATA[{TK96} J. Torborg and J. T. Kajiya, "Talisman: Commodity realtime 3D graphics for the PC," SIGGRAPH '94 Proceedings, pages 353--363, 1996.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>383283</ref_obj_id>
+				<ref_obj_pid>383259</ref_obj_pid>
+				<ref_seq_no>44</ref_seq_no>
+				<ref_text><![CDATA[{WFM01} B. Watson, A. Friedman and A. McGaffey, "Measuring and predicting visual fidelity," ACM SIGGRAPH, 213--220. 2001.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2216114</ref_obj_id>
+				<ref_obj_pid>2215905</ref_obj_pid>
+				<ref_seq_no>45</ref_seq_no>
+				<ref_text><![CDATA[{WN02} D. Wu and R. Negi, "Effective Capacity: A Wireless Channel Model for Support of Quality of Service," IEEE Transactions on Wireless Communications, vol. 2, pp. 630--643, Sept. 2002.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>513827</ref_obj_id>
+				<ref_obj_pid>513800</ref_obj_pid>
+				<ref_seq_no>46</ref_seq_no>
+				<ref_text><![CDATA[{WZ02} F. Wang and Y. Zhang, "Improving TCP Performance over Mobile Ad-hoc Networks with Out-of-Order Detection and Response," in Proc. of ACM MOBIHOC, 2002.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>47</ref_seq_no>
+				<ref_text><![CDATA[{YB94} R. Yavatkar and N. Bhagwat, "Improving End-to-End Performance of TCP over Mobile Internetworks," in Proc. of Workshop on Mobile Computing Systems and Applications, December 1994, pp, 146--152.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187339</article_id>
+		<sort_key>3</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[The fourth party in online arbitration as a shared virtual workspace]]></title>
+		<page_from>3</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187339</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187339</url>
+		<abstract>
+			<par><![CDATA[In this article, we consider the collaboration, implementation and legal issues that arise from the use of a shared virtual workspace during online arbitration. Based on the concept of the fourth party we develop an interface that influences the process of communication and negotiation, something that adds decision making value to an arbitrator. We begin this article with a discussion on the arbitration legal issues that will influence our design methodology. We study the group dynamics and how a virtual workspace may work towards improving some of the human interactions that take place during an arbitral proceeding. We then describe the design methodology of the shared virtual workspace and consider some implementation results.]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[online arbitration]]></kw>
+			<kw><![CDATA[shared 3D objects]]></kw>
+			<kw><![CDATA[virtual shared workspace]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.3</cat_node>
+				<descriptor>Computer-supported cooperative work</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>K.5</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003456.10003462</concept_id>
+				<concept_desc>CCS->Social and professional topics->Computing / technology policy</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003130.10003131.10003570</concept_id>
+				<concept_desc>CCS->Human-centered computing->Collaborative and social computing->Collaborative and social computing theory, concepts and paradigms->Computer supported cooperative work</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003456.10003457.10003567.10003570</concept_id>
+				<concept_desc>CCS->Social and professional topics->Professional topics->Computing and business->Computer supported cooperative work</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P829436</person_id>
+				<author_profile_id><![CDATA[81320494170]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Dimitrios]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Protopsaltou]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Geneva]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP40029497</person_id>
+				<author_profile_id><![CDATA[81100651801]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Nadia]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Magnenat-Thalmann]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Geneva]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Bucciarelli, L. L. 2002. Between Thought and Object in Engineering Design. Design Studies, Vol. 23, No. 3, 219--231.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Clark, H. H., & Brennan, S. E. 1991. Grounding in communication. In L. B. Resnick, R. M. Levine, & S. D. Teasley (Eds.). Perspectives on socially shared cognition, 127--149. Washington, DC: APA.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Dimicco, J. M., Pandolfo, A., Bender, A. 2004 Influencing Group Participation with a shared display.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>358947</ref_obj_id>
+				<ref_obj_pid>358916</ref_obj_pid>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Fussell, S. R., Kraut, R. E., & Siegel, J. 2000. Coordination of communication: Effects of shared visual context on collaborative work. Proceedings of CSCW 2000, 21--30. NY: ACM Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Jarrosson, C. 2001. La notion d'arbitrage. Paris, L.G.D.J, 1987]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1463007</ref_obj_id>
+				<ref_obj_pid>1463005</ref_obj_pid>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Karsenty, L. 1999. Cooperative work and shared visual context: An empirical study of comprehension problems and in side-by-side and remote help dialogues. Human-Computer Interaction, 14(3), 283--315.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>90913</ref_obj_id>
+				<ref_obj_pid>90767</ref_obj_pid>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Maillot, P.-G. 1990. Using quaternions for coding 3D transformations, A. S. Glassner, editor, Graphic Gems, pages 498--515. Academic Press, Boston, MA.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Reid, F., Ball, L., Morley, A. and Evans, J. 1997. Styles of Group Discussion in Computer-Mediated Decision Making. British J. of Social Psychology, vol 36, 3 (1997), 241--262.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Redfern, A. and Hunter, M. 1999. Law and Practice of International Commercial Arbitration. 3rd edn, Sweet & Maxwell, London, 1999), p. 3--4.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Katsh, E. 2002. Online Dispute Resolution: The Next Phase, 7-2 Lex Electronica, at &lt;www.lex-electronica.org/articles/v7-2/katsh.htm&gt;.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>303067</ref_obj_id>
+				<ref_obj_pid>302979</ref_obj_pid>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Veinott, E., Olson, J., Olson, G., & Fu, X., 1999. Video helps remote work: Speakers who need to negotiate common ground benefit from seeing each other. Proceedings of CHI '99, 302--309. NY: ACM Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187340</article_id>
+		<sort_key>4</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Web based molecular visualization using procedural shaders in X3D]]></title>
+		<page_from>4</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187340</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187340</url>
+		<abstract>
+			<par><![CDATA[The introduction of programmable Graphics Processing Units (GPUs) and the addition of procedural shaders to the web3D standard X3D provide us with new techniques to develop real-time Web based visualization. In this paper we discuss the applications of these techniques to bioinformatics and chemistry visualization, specifically the visualization of large biomolecules. By using procedural shaders, we are able to produce higher quality visualizations with minimal performance penalty. We have developed methods to automatically convert from the standard bioinformatics PDB format to CML and then to X3D. The procedural shaders are automatically inserted during the CML to X3D conversion. This provides higher quality images and leads to future possibilities of more flexible and enhanced visualizations.]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[CML]]></kw>
+			<kw><![CDATA[CML2X3D]]></kw>
+			<kw><![CDATA[GPU]]></kw>
+			<kw><![CDATA[PDB]]></kw>
+			<kw><![CDATA[VRML]]></kw>
+			<kw><![CDATA[X3D]]></kw>
+			<kw><![CDATA[XML]]></kw>
+			<kw><![CDATA[programmable shading language]]></kw>
+			<kw><![CDATA[shader]]></kw>
+			<kw><![CDATA[shading language converter]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.1</cat_node>
+				<descriptor>Graphics processors</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor>Color, shading, shadowing, and texture</descriptor>
+				<type>S</type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382.10010384</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation->Texturing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010382</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Image manipulation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387.10010389</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces->Graphics processors</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>PP40030343</person_id>
+				<author_profile_id><![CDATA[81320492299]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Feng]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Liu]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Georgia State University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP24029168</person_id>
+				<author_profile_id><![CDATA[81319498815]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Scott]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Owen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Georgia State University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP39055306</person_id>
+				<author_profile_id><![CDATA[81320497025]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Ying]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Zhu]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Georgia State University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP31053850</person_id>
+				<author_profile_id><![CDATA[81322495651]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Robert]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Harrison]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Georgia State University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P116839</person_id>
+				<author_profile_id><![CDATA[81100649371]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Irene]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Weber]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Georgia State University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Badger, J.: An evaluation of automated model-building procedures for protein crystallography. Acta Crystallographica. International Union of Crystallography pp. 823--827. (2003)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Bernstein, H. J. and Sayle, R: RasMol Molecular Graphics Visualization Tool. (2000): www.openrasmol.com]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Bitmanagement (2005): www.bitmanagement.de]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>563893</ref_obj_id>
+				<ref_obj_pid>563858</ref_obj_pid>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Blinn, J. F.: Models of Light Reflection for Computer Synthesized Pictures. Computer Graphics, Vol. 11, No. 2, pp. 192--198, July 1977 (Proceedings of SIGGRAPH 77).]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>357310</ref_obj_id>
+				<ref_obj_pid>357306</ref_obj_pid>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Blinn, J. F.: a Generalization of Algebraic Surface Drawing. ACM Transactions on Graphics, 1:3, pp. 235--256. (1982)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Casher O., Leach C., Page, C. S. and Rzepa, H. S., Virtual Reality Modelling Language (VRML) in Chemistry. Chemistry in Britain, 34, 26 (1998)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Chem Vis Group on Chemistry Visualization. (2005)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[www2.chemie.uni-erlangen.de/projects/ChemVis/index.html]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[www.ccc.uni-erlangen.de/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[wwwvis.informatik.uni-stuttgart.de/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Chemical Markup Language (2005): www.xml-cml.org]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>965337</ref_obj_id>
+				<ref_obj_pid>965333</ref_obj_pid>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[De Carvalho G. N. M.: High-level procedural shading VRML/X3D, Proceedings of the SIGGRAPH 2003 conference on Web graphics: in conjunction with the 30th annual conference on Computer graphics and interactive techniques, San Diego, California (2003)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>985055</ref_obj_id>
+				<ref_obj_pid>985040</ref_obj_pid>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[De Carvalho, G. N. M., and Gill, T., Parisi, T.: X3D Programmable Shaders Proceedings of the ninth international conference on 3D Web technology 2004: pp. 99--108 (2004)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>862247</ref_obj_id>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Fernando, R., and Kilgard, M. J.: The Cg Tutorial: The Definitive Guide to Programmable Real-Time Graphics. Addison-Wesley (2003)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[Gouraud, H.: Continuous Shading of Curved Surfaces. IEEE Transactions on Computers Vol. C-20, No. 6 pp. 623--629, June 1971.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Google hits for various Web3D technologies: (2004): www.macWeb3D.org/ewiki/index.php?id=most%20popular% 20 Web3D%20format]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Krieger, J. H.: Doing Chemistry in a virtual world: VRML, a new web technology, holds promise for chemistry in three dimensions American Chemical Society (1996)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>383274</ref_obj_id>
+				<ref_obj_pid>383259</ref_obj_pid>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[Lindholm, E., Kilgard, M. J., and Moreton, H.: A User-Programmable Vertex Engine. Proceedings of the 28th annual conference on Computer graphics and interactive techniques, pp 149--158. (2001)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[Liu, P., Wang, Y. F., Ewis, H. E., Abdelal, A. T., Lu, C. D., Harrison, R. W., and Weber, I. T.: Covalent Reaction Intermediate Revealed in Crystal Structure of the Geobacillus Stearothermophilus Carboxylesterase Est30. Journal of Molecular Biology, pp. 342--551 (2004)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>882362</ref_obj_id>
+				<ref_obj_pid>882262</ref_obj_pid>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[Mark, W. R, Glanville, R. S., Akeley, K., and M. J. Kilgard: Cg: a system for programming graphics hardware in a C-like language. ACM Transactions on Graphics 22(3), pp. 896--907. ACM Press, July (2003)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1186336</ref_obj_id>
+				<ref_obj_pid>1186223</ref_obj_pid>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[Ngan, A., Durand F., Matusik, W.: Experimental Validation of Analytical BRDF Models. Sketch of SIGGRAPH2004 July (2004)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>22</ref_seq_no>
+				<ref_text><![CDATA[PDB: Protein Data Bank Resource. (2005): www.rcsb.org/pdb/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>23</ref_seq_no>
+				<ref_text><![CDATA[Peeper, C. and Mitchell, J. L.: Introduction to the DirectX&#174; 9 High Level Shading Language (2002): www.ati.com/developer/ShaderX2_Introduction To HLSL.pdf]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>360839</ref_obj_id>
+				<ref_obj_pid>360825</ref_obj_pid>
+				<ref_seq_no>24</ref_seq_no>
+				<ref_text><![CDATA[Phong, B. T.: Illumination for Computer Generated Pictures, Communications of the ACM, Vol. 18, No. 6, pp. 311--317, June 1975.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>25</ref_seq_no>
+				<ref_text><![CDATA[Perrakis A., Morris R., and Lamzin V. S.: Automated protein model building combined with iterative structure refinement. Nature Struct. Biol., pp 458--463 (1999)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>636606</ref_obj_id>
+				<ref_obj_pid>636593</ref_obj_pid>
+				<ref_seq_no>26</ref_seq_no>
+				<ref_text><![CDATA[Ploys, N.: Stylesheet Transformations for Interactive Visualization: Towards Web3D Chemistry Curricula. Proceeding of the eighth international conference on 3D Web technology pp. 85--91 (2003): www.3dez.net/X3D/CML/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>965338</ref_obj_id>
+				<ref_obj_pid>965333</ref_obj_pid>
+				<ref_seq_no>27</ref_seq_no>
+				<ref_text><![CDATA[Parisi, T.,: Flux: lightweight, standards-based Web graphics in XML, Proceedings of the SIGGRAPH 2003 conference on Web graphics: in conjunction with the 30th annual conference on Computer graphics and interactive techniques. San Diego, California (2003)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>566640</ref_obj_id>
+				<ref_obj_pid>566654</ref_obj_pid>
+				<ref_seq_no>28</ref_seq_no>
+				<ref_text><![CDATA[Purcell, T. J., Buck, L., Mark, W. R., and Hanrahan, P.: Ray Tracing on Programmable Graphics Hardware A CM Transactions on Graphics 21: 3, pp 703--712 (2002).]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>984281</ref_obj_id>
+				<ref_seq_no>29</ref_seq_no>
+				<ref_text><![CDATA[Rost. R. J. And Licea-Kane B.: The OpenGL(R) Shading Language. Addison-Wesley (2004)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>30</ref_seq_no>
+				<ref_text><![CDATA[Raster3D: www.bmsc.washington.edu/raster3d/raster3d.html]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>31</ref_seq_no>
+				<ref_text><![CDATA[Schroder, H. K., Willassen, N. P., and Smalas, A. O.: Structure of a non-psychrophilic trypsin from a cold-adapted fish species. Acta Crystallogr D Biol Crystallogr 54 pp. 780 (1998)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>32</ref_seq_no>
+				<ref_text><![CDATA[Tie, Y., Boross, P. I., Wang, Y. F., Gaddis, L., Hussain, A. K., Leshchenko, S., Ghosh, A. K., Louis, J. M., Harrison, R. W., and Weber, I. T.: High Resolution Crystal Structures of HIV-1 Protease with a Potent Non-Peptide Inhibitor (Uic-94017) Active Against Multi-Drug-Resistant Clinical Strains. Journal of Molecular Biology. pp.338--341 (2004)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>33</ref_seq_no>
+				<ref_text><![CDATA[Web3D-ToolKits: X3D Toolkits CD SIGGRAPH2003. (2003)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>34</ref_seq_no>
+				<ref_text><![CDATA[Web3D Consortium. (2005): www.Web3D.org]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>35</ref_seq_no>
+				<ref_text><![CDATA[Web3D-Shader-Group (2005): www.web3d.org/x3d/workgroups/x3d-shaders.html]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>36</ref_seq_no>
+				<ref_text><![CDATA[Web3D-Tools (2005): www.web3d.org/applications/tools/viewers_and_browsers/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>37</ref_seq_no>
+				<ref_text><![CDATA[Zou, Y.: Built VRML model of 3D molecular structures (1999): www.molvrmltripod.com]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>38</ref_seq_no>
+				<ref_text><![CDATA[Zara, S.: PDB2CML Implementation (1999): www.xml-cml.org/software/pdb2cml.html]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>1187341</section_id>
+		<sort_key>5</sort_key>
+		<section_seq_no>2</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Application & paradigm track]]></section_title>
+		<section_page_from>5</section_page_from>
+	<article_rec>
+		<article_id>1187342</article_id>
+		<sort_key>5</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[A new kind of programmer]]></title>
+		<subtitle><![CDATA[Copyright restrictions prevent ACM from providing the full text for this work.]]></subtitle>
+		<page_from>5</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187342</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187342</url>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP24025708</person_id>
+				<author_profile_id><![CDATA[81100133050]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Amit]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Pitaru]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187343</article_id>
+		<sort_key>6</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[An ubiquitous approach to mobile applications]]></title>
+		<page_from>6</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187343</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187343</url>
+		<abstract>
+			<par><![CDATA[The world gets more interesting as the devices around us get smarter. The problem is, sometimes it's no fun sitting around waiting for devices to evolve. Mobile location based services, games and social software are more fun when everyone can play, not just those with the latest and greatest mobile devices. Two projects are referenced in this paper:]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP24030772</person_id>
+				<author_profile_id><![CDATA[81320488693]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Dennis]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Crowley]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Founder, dodgeball.com]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187344</article_id>
+		<sort_key>7</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[CellMailGraph]]></title>
+		<subtitle><![CDATA[email visualization on handheld computers]]></subtitle>
+		<page_from>7</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187344</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187344</url>
+		<abstract>
+			<par><![CDATA[Information visualization applications provide quick and pleasing access to information that may result complex or dense otherwise. They deal with large sets of data that remain mostly constricted to the academic or research environment, rarely reaching a broader audience. In order to make information visualization a personal experience, it is needed to use content that is meaningful to an average user. Email is a perfect body of data to visualize because it is a widespread communication tool for both personal and professional use. Also, it suffers from its own success. We deal with a massive amount of emails, feel pressured to respond quickly, and fear losing track of messages.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P829441</person_id>
+				<author_profile_id><![CDATA[81320490028]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Laura]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Garcia-Barrio]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[New York University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187345</article_id>
+		<sort_key>8</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Designing an online experience for ease of use]]></title>
+		<page_from>8</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187345</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187345</url>
+		<abstract>
+			<par><![CDATA[The measure of the success of an interactive experience is in how effectively it delivers against the objectives of its creators. Typically, most creators' objectives are powerfully impacted by the ability of the intended users to easily and efficiently learn and use the site, accomplish their most important tasks, and be satisfied by the experience. What happens when a site is not easy to use?]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP24025928</person_id>
+				<author_profile_id><![CDATA[81314492426]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Howard]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Tiersky]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Capgemini]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187346</article_id>
+		<sort_key>9</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[e-Stadium]]></title>
+		<subtitle><![CDATA[wireless football infotainment applications]]></subtitle>
+		<page_from>9</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187346</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187346</url>
+		<abstract>
+			<par><![CDATA[By dynamically reformatting data generated by statisticians in the Ross-Ade press box, e-Stadium provides fans an array of real-time information that is hyperlinked to players' and coaches' biographical information. Besides up-to-the-minute statistics and play-by-play, fans will find diversions that include a food locator, trivia questions, the history of the Boilermakers, weather reports, and the latest updates of other games around the country.The e-Stadium project is a large, high-profile, interdisciplinary effort consisting of a student led ideation/prototyping group and a faculty and staff implementation team. Students develop features for each season during their normal class environment at Purdue, thus keeping the application fresh and appealing to fans. Faculty members advise the students and serve on the implementation team consisting of Information Technology at Purdue (ITaP), the Center for Wireless Systems and Applications (CWSA), Purdue Intercollegiate Athletics, Electrical and Computer Engineering students, and Computer Graphics Technology students.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P653793</person_id>
+				<author_profile_id><![CDATA[81100072571]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ronald]]></first_name>
+				<middle_name><![CDATA[J.]]></middle_name>
+				<last_name><![CDATA[Glotzbach]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Purdue University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP39029562</person_id>
+				<author_profile_id><![CDATA[81407591785]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Edward]]></first_name>
+				<middle_name><![CDATA[J.]]></middle_name>
+				<last_name><![CDATA[Coyle]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Purdue University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P829443</person_id>
+				<author_profile_id><![CDATA[81320488060]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Nathan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bingham]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Purdue University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[ESPN.com college football box score. (2005). Retrieved from http://sports.espn.go.com/ncf/scoreboard]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Gametracker by CollegeSports.com. (2005). Retrieved from http://www.collegesports.com]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>559734</ref_obj_id>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Wigley, A., & Roxburgh, P. (2003). Building Microsoft ASP.NET applications for mobile devices. Redmond, WA: Microsoft Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187347</article_id>
+		<sort_key>10</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>6</seq_no>
+		<title><![CDATA[Experience design unplugged]]></title>
+		<page_from>10</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187347</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187347</url>
+		<abstract>
+			<par><![CDATA[At the crossroads of web design and ubiquitous computing, the user experience is out of control. Salvation lies in the strange connections between social software, semantic webs, convergent architecture, and interaction design. In this cyberspace safari, Peter Morville draws ideas about everyware from his new book on Ambient Findability.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP24032276</person_id>
+				<author_profile_id><![CDATA[81100424209]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Peter]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Morville]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Semantic Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[User Experience Design by Peter Morville. June 2004.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187348</article_id>
+		<sort_key>11</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>7</seq_no>
+		<title><![CDATA[Kanji Block, interface design challenge]]></title>
+		<page_from>11</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187348</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187348</url>
+		<abstract>
+			<par><![CDATA[Kanji Block is an online graphical tool for teaching and learning Kanji characters (Chinese characters). It's designed to make teaching Kanji combinations fun and more visual. Kanji Bock uses animation and three-dimensional approach to display complex information associated with Japanese Kanji characters.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP24024898</person_id>
+				<author_profile_id><![CDATA[81538535056]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Miho]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Aoki]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Alaska, Fairbanks]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P829445</person_id>
+				<author_profile_id><![CDATA[81320488858]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Yoko]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Collier-Sanuki]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Alaska, Fairbanks]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P829434</person_id>
+				<author_profile_id><![CDATA[81320487442]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Benjamin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Barton]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Kirikiri.com]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187349</article_id>
+		<sort_key>12</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>8</seq_no>
+		<title><![CDATA[Mobile content delivery technologies]]></title>
+		<page_from>12</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187349</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187349</url>
+		<abstract>
+			<par><![CDATA[(web_0047)The session presents an overview of mobile content delivery technologies, highlighting strengths, weaknesses, and best practices.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P829438</person_id>
+				<author_profile_id><![CDATA[81320487567]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jonathan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Barsook]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Project Manager, Schematic]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P829437</person_id>
+				<author_profile_id><![CDATA[81320489983]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Ezra]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Freedman]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Senior Software Developer, Schematic]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187350</article_id>
+		<sort_key>13</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>9</seq_no>
+		<title><![CDATA[Moovl]]></title>
+		<subtitle><![CDATA[doodles that move]]></subtitle>
+		<page_from>13</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187350</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187350</url>
+		<abstract>
+			<par><![CDATA[Moovl is a sketchpad for children in which their drawings come alive with interactive motion and sound by adding simulated physical dynamics to freehand strokes in real-time. This deceptively simple transformation places the intuitive activity of drawing in a highly motivating and often surprising feedback loop of hypothesis and experiment, creation and play. Moovl is an ongoing project initially developed with the support of NEST A Futurelab (www.nestafuturelab.org/showcase/moovl/moovl.htm) for use within the KS1 science curriculum and tested in classrooms in Bristol and London during the summer of 2004 using TabletPCs and Interactive Whiteboards.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP24030608</person_id>
+				<author_profile_id><![CDATA[81100093685]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ed]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Burton]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Soda Creative Ltd.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187351</article_id>
+		<sort_key>14</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>10</seq_no>
+		<title><![CDATA[Processing.org]]></title>
+		<subtitle><![CDATA[a networked context for learning computer programming]]></subtitle>
+		<page_from>14</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187351</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187351</url>
+		<abstract>
+			<par><![CDATA[Processing is a programming language and environment built for the electronic arts and design communities. It was created to teach fundamentals of computer programming within a visual context and to serve as a software sketchbook. The software exports Java applets which may be posted on the Internet and shared. Processing.org is the online hub for the international community of people using the software. It hosts examples, reference, a public exhibition, and a forum.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP38027090</person_id>
+				<author_profile_id><![CDATA[81100463130]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Casey]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Reas]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[UCLA Design | Media Arts]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP24031111</person_id>
+				<author_profile_id><![CDATA[81100613376]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Benjamin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Fry]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The Broad Institute]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187352</article_id>
+		<sort_key>15</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>11</seq_no>
+		<title><![CDATA[Creativity in real time]]></title>
+		<subtitle><![CDATA[thought process in an authorship society]]></subtitle>
+		<page_from>15</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187352</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187352</url>
+		<abstract>
+			<par><![CDATA[The brainstorm has emerged as a critical activity in generating creative thought within a multitude of disciplines from design to business to politics. Since the birth of modern psychology, there has been an increased fascination in the phenomenology of mind (Gladwell's recent bestseller BLINK as an example); where do our ideas come from, how stable are our thought processes, what are the connections between what we think and what we feel. In the face of the computer's superior storage, retrieval and sorting power we have begun to appreciate human expertise in terms of adaptive strategy and complex connectivity of mind, the brainstorm is good example of our efforts to harness that expertise, relying on spontaneous associations and collaborations. The purpose of this talk is to discuss what sort of tools and activities are necessary to facilitate real time creativity.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P829446</person_id>
+				<author_profile_id><![CDATA[81320496645]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[zefrank]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Sternberg, Robert(ed). 1999. Handbook of Creativity]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Csikszentmilhalyi, Mihaly. 1997. Creativity]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[de Bono, Edward. 1982, de Bono's Thinking Course.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Gladwell, Malcolm. 2005, Blink.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Johnson, Steven. 2005 Everything Bad Is Good For You.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Klein, Gary. 1998. Sources of Power]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Alexander, Christopher. 1964. Notes on the Synthesis of Form]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Tharp, Twyla. 2003. The Creative Habit]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Boyd, John. 1976. Destruction and Creation]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Rushkoff, Douglas. http://www.rushkoff.com/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187353</article_id>
+		<sort_key>16</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>12</seq_no>
+		<title><![CDATA[The rigid body physics component]]></title>
+		<subtitle><![CDATA[a proposed amendment to the X3D specification]]></subtitle>
+		<page_from>16</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187353</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187353</url>
+		<abstract>
+			<par><![CDATA[This presentation describes a proposed amendment to the X3D Specification that will add a rigid body physics component for integrating a physics engine into X3D. The Rigid Body Physics Component provides the ability to influence the visual output of the scene graph in accordance to some of the laws of physics. In this proposal, a subset of the laws of physics is covered: those associated with rigid bodies. Rigid body physics models deal with objects as solid, unchangeable sets of mass with a velocity. These bodies can be connected together with the use of various forms of joints that allow one body's motion to affect that of another.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP28018475</person_id>
+				<author_profile_id><![CDATA[81320492266]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Stephen]]></first_name>
+				<middle_name><![CDATA[N.]]></middle_name>
+				<last_name><![CDATA[Matsuba]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Yumetech, Inc., Seattle, WA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P433207</person_id>
+				<author_profile_id><![CDATA[81100566886]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Alan]]></first_name>
+				<middle_name><![CDATA[D.]]></middle_name>
+				<last_name><![CDATA[Hudson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Yumetech, Inc., Seattle, WA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP28017983</person_id>
+				<author_profile_id><![CDATA[81100436566]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Justin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Couch]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Yumetech, Inc., Seattle, WA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA["Xj3D Open Source VRML/X3D Toolkit." http://www.web3d.org/fs_workinggroups.htm.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA["Applying Physics Models to X3D Content." Yumetech Whitepaper. Mar 2005. http://www.yumetech.com/information/whitepapers.html. SubmissionID: web_0044]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187354</article_id>
+		<sort_key>17</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>13</seq_no>
+		<title><![CDATA[placeMap]]></title>
+		<subtitle><![CDATA[building community through active context mapping]]></subtitle>
+		<page_from>17</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187354</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187354</url>
+		<abstract>
+			<par><![CDATA[placeMap is a web application that builds a community through an understanding of a user's context in an active spatial landscape. Beginning with the traditional campus map, placeMap reimagines what a map should be by placing the user's community life at the center of the map.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P721002</person_id>
+				<author_profile_id><![CDATA[81100410188]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Matthew]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hockenberry]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[MIT Media Laboratory, Context-Aware Computing]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P829444</person_id>
+				<author_profile_id><![CDATA[81320489952]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Robert]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gens]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[MIT Media Laboratory, Context-Aware Computing]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P278835</person_id>
+				<author_profile_id><![CDATA[81100525482]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Ted]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Selker]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[MIT Media Laboratory, Context-Aware Computing]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>1187355</article_id>
+		<sort_key>18</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>14</seq_no>
+		<title><![CDATA[WorldEar]]></title>
+		<subtitle><![CDATA[alternative interfaces for the web]]></subtitle>
+		<page_from>18</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187355</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187355</url>
+		<abstract>
+			<par><![CDATA[motohoho is a collective of artists and designers who build networked devices that allow users all over the world to communicate with each other through gestural, tactile, sonic and visual interactions. With our projects, people who do not share language, culture or location can find similarities and differences through a shared experience without relying on a common verbal language. In this time of political and international unrest, creating portals through which people around the world can communicate in an intimate manner that accentuates both cultural similarities and differences, has become vitally important. What we create is social hardware that enhances the remote connectivity of people around the world through a shared everyday experience and encourages inter-cultural understanding.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP35034778</person_id>
+				<author_profile_id><![CDATA[81320494737]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Schneider]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[New York University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P829439</person_id>
+				<author_profile_id><![CDATA[81320490364]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Kenneth]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Haller]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Decker Design]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P829440</person_id>
+				<author_profile_id><![CDATA[81320493765]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Kentaro]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Okuda]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[SGF Associates]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Oldenburg, R., 1990, The Great Good Place, Marlowe & Co.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Argo, M, and Wolf, A., 2002, Bass Station.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Rubin, B. and Hansen, M., 2001, Listening Post.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Rheingold, H., 2002, Smart Mobs. Perseus Book Group.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>925309</ref_obj_id>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Fitzmaurice, G., 1996, Graspable User Interface. University of Toronto.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>258715</ref_obj_id>
+				<ref_obj_pid>258549</ref_obj_pid>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Ishii, H. and Ullmer, B., 1997, Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms. Proceedings of ACM CHI '97.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[E. Goffman, 1967. Interactioin ritual; essays in face-to-face behavior. Chicago, IL: Aldine Pub. Co.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[E. Goffman, 1963. Behavior in public places; notes on the social organization of gatherings. New York: Free Press of Glencoe.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>1187356</section_id>
+		<sort_key>19</sort_key>
+		<section_seq_no>3</section_seq_no>
+		<section_type>PANEL SESSION</section_type>
+		<section_title><![CDATA[Panels]]></section_title>
+		<section_page_from>19</section_page_from>
+	<article_rec>
+		<article_id>1187357</article_id>
+		<sort_key>19</sort_key>
+		<display_label></display_label>
+		<article_publication_date>07-31-2005</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[The social web]]></title>
+		<subtitle><![CDATA[platforms, communities, and creativity]]></subtitle>
+		<page_from>19</page_from>
+		<page_to>es</page_to>
+		<doi_number>10.1145/1187335.1187357</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1187357</url>
+		<abstract>
+			<par><![CDATA[Today's web is far more than a bidirectional graph. It has a brain, a voice. It is a virtual "living" organism, a social system. The explosive spread of blogs, combined with the rapid emergence of friendly technologies enable users to interact with ease, has bred a web that affects society, perceptions, and commerce. As we look ahead to new platforms and paradigms that support seamless communication, it is important to consider how we must evolve as practitioners, users, and creators of web technologies.]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP24025031</person_id>
+				<author_profile_id><![CDATA[81320488693]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Dennis]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Crowley]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[dodgeball.com]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2231022</person_id>
+				<author_profile_id><![CDATA[81464672891]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Ze]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Frank]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[zefrank.com]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP38027222</person_id>
+				<author_profile_id><![CDATA[81100463130]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Casey]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Reas]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[UCLA Design | Media Arts]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35034640</person_id>
+				<author_profile_id><![CDATA[81545623256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Schneider]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[New York University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP24025894</person_id>
+				<author_profile_id><![CDATA[81314492426]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Howard]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Tiersky]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Capgemini]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2005</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	</section>
+</content>
+</proceeding>

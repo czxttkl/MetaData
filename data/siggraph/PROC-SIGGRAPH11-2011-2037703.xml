@@ -1,0 +1,1578 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08/07/2011</start_date>
+		<end_date>08/11/2011</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Vancouver]]></city>
+		<state>British Columbia</state>
+		<country>Canada</country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>2037703</proc_id>
+	<acronym>SIGGRAPH '11</acronym>
+	<proc_desc>ACM SIGGRAPH 2011 Studio Talks</proc_desc>
+	<conference_number>2011</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-4503-0973-8</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2011</copyright_year>
+	<publication_date>08-07-2011</publication_date>
+	<pages>11</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>The Studio is the place for making and creating at SIGGRAPH 2011. Roll your sleeves up and get hands on in this three-ring circus of technological wonders. An amazing space where experts, attendees, and the latest technologies are brought together to create new works, experiment, and collaborate. Leave your old work behind, come to The Studio, and create something new.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<chair_editor>
+		<ch_ed>
+			<person_id>P2809230</person_id>
+			<author_profile_id><![CDATA[81488648447]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>1</seq_no>
+			<first_name><![CDATA[Chris]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Williams]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[JumpStart.com, Knowledge Adventure]]></affiliation>
+			<role><![CDATA[Conference Chair]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+	</chair_editor>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>2037704</article_id>
+		<sort_key>10</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>1</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Standards in stock 3D models]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037703.2037704</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037704</url>
+		<abstract>
+			<par><![CDATA[<p>The field of 3D modeling suffers from a lack of standards. This difficulty stems from the relative newness of 3D modeling as compared with older arts such as photography and music, where standards for quality have long been in place. In this presentation, we use the stock 3D industry as a lens to discuss the challenges prevalent in any pipeline that uses 3D models. Currently, stock 3D models available at a variety of venues on the Internet vary widely in topology, texturing, and other technical aspects even within the same category or discipline, making it difficult for production artists to know whether a model will work with their pipelines. The lack of standards creates a specific challenge for artists who create this content, as they continue to work without guidance in meeting production artists' needs.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2809231</person_id>
+				<author_profile_id><![CDATA[81100510105]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Michele]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bousquet]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[TurboSquid New Orleans, LA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[mbousquet@turbosquid.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809232</person_id>
+				<author_profile_id><![CDATA[81758925657]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Jonathan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lloyd]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Falling Pixel Manchester, UK]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jlloyd@fallingpixel.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Michele Bousquet TurboSquid New Orleans, LA, USA mbousquet@turbosquid.com  Jonathan Lloyd Falling 
+Pixel Manchester, UK jlloyd@fallingpixel.com 1. Introduction The field of 3D modeling suffers from a 
+lack of standards. This difficulty stems from the relative newness of 3D modeling as compared with older 
+arts such as photography and music, where standards for quality have long been in place. In this presentation, 
+we use the stock 3D industry as a lens to discuss the challenges prevalent in any pipeline that uses 
+3D models. Currently, stock 3D models available at a variety of venues on the Internet vary widely in 
+topology, texturing, and other technical aspects even within the same category or discipline, making 
+it difficult for production artists to know whether a model will work with their pipelines. The lack 
+of standards creates a specific challenge for artists who create this content, as they continue to work 
+without guidance in meeting production artists needs. 2. Approach TurboSquid and Falling Pixel, two stock 
+3D websites, set out to determine quality standards for 3D models with a three-part process: . Survey 
+and interview stock 3D users to determine standards. . Apply standards to stock 3D models. . Compare 
+interest in standardized models from stock 3D users against control group of non-standardized models. 
+ Over 1000 production artists in a variety of disciplines were surveyed and interviewed. The question 
+of topology in particular was deeply studied. Needs that crossed all industries became standards, and 
+a focus group of experienced 3D modelers applied these standards to their stock 3D models. To measure 
+the success of the standards, complying models were posted on the Internet for   public search, and 
+the number of searches, views, and purchases of these models were tracked and compared to the same statistics 
+for similar models to which standards had not been applied. 3. Results Standards determined by the survey 
+were many and detailed, but dealt mostly with these issues: . Topology: Quads and triangles, good edge 
+flow . Texturing: Must be correct and easy to edit . Scene organization: Objects easy to work with 
+after loading/merging scene  The statistics from the focus group test show that professional production 
+artists in a variety of disciplines greatly prefer 3D models that have met these standards. Conversely, 
+hobbyists and students do not show a greater desire for these models over non-standardized models. These 
+findings correlate with similar data for stock content in more established arts such as photography and 
+music. 4. Conclusion With the art of 3D modeling maturing, a set of standards for 3D model topology, 
+texturing, and organization are needed to move the field forward. The standards determined by the TurboSquid/Falling 
+Pixel study can be applied by any artist to create quality 3D models for professionals in a wide variety 
+of disciplines. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037705</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>2</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Embroidery modeling and rendering in real time]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037703.2037705</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037705</url>
+		<abstract>
+			<par><![CDATA[<p>Many non-photorealistic rendering algorithms have been developed recently that simulate different traditional artistic styles including painting, mosaics, and stippling. However, there is at least one more traditional approach to rendering images non-photorealistically: embroidery. Embroidery creates images by stitching threads of different colours into a base cloth. In free hand embroidery, many different stitch styles are possible and stitches can be placed relatively freely on the surface.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2809233</person_id>
+				<author_profile_id><![CDATA[81488659112]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Xinling]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Waterloo]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[cherrychen0602@gmail.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809234</person_id>
+				<author_profile_id><![CDATA[81100112613]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McCool]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Intel/University of Waterloo]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[michael.mccool@intel.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809235</person_id>
+				<author_profile_id><![CDATA[81100060932]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Asanobu]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kitamoto]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[National Institute of Informatics, Japan]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[kitamoto@nii.ac.jp]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>383327</ref_obj_id>
+				<ref_obj_pid>383259</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Hausner, A. 2001. Simulating decorative mosaics. In <i>Proceedings of the 28th annual conference on Computer graphics and interactive techniques</i>, SIGGRAPH '01, 573--580.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Hiller, S., Hellwig, H., and Deussen, O. 2003. Beyond stippling -- methods for distributing objects on the plane. <i>Eurographics 22</i>, 515--522.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Kurenai-Kai. 2005. <i>Traditional Japanese Patterns 1</i>. Seigensha.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Lengyel, E. 2001. <i>Computing Tangent Space Basis Vectors for an Arbitrary Mesh</i>. Terathon Software 3D Graphics Library, http://www.terathon.com/code/tangent.html.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Mallo, O., Peikert, R., Sigg, C., and Sadlo, F. 2005. Illuminated lines revisited. In <i>IEEE Visualization Conference</i>, 19--26.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>508537</ref_obj_id>
+				<ref_obj_pid>508530</ref_obj_pid>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Secord, A. 2002. Weighted Voronoi stippling. In <i>Proceedings of the 2nd international symposium on Non-photorealistic animation and rendering</i>, ACM, NPAR '02, 37--43.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Embroidery Modeling and Rendering in Real Time Xinling Chen* Michael McCool Asanobu Kitamoto University 
+of Waterloo Intel/University of Waterloo National Institute of Informatics, Japan Figure 1: The extraction 
+phase analyses a line drawing to determine regions and lines. The modeling phase places stitches according 
+to traditional embroidery techniques. The rendering phase dynamically generates a lighting-dependent 
+and antialiased texture which is mapped onto a potentially deforming 3D object. 1 Introduction Many non-photorealistic 
+rendering algorithms have been developed recently that simulate different traditional artistic styles 
+including painting, mosaics, and stippling. However, there is at least one more traditional approach 
+to rendering images non-photorealistically: embroidery. Embroidery creates images by stitching threads 
+of dif­ferent colours into a base cloth. In free hand embroidery, many dif­ferent stitch styles are possible 
+and stitches can be placed relatively freely on the surface. There is no previous work dealing speci.cally 
+with stitch place­ment to simulate embroidery, but there are some applicable tech­niques. For example, 
+based on Lloyd s Method, a common iter­ative technique to place samples by relaxation, Hausner [Haus­ner 
+2001] developed an algorithm to distribute small square tiles to form synthetic mosaics. The stippling 
+algorithm presented by Secord successfully produces attractive results in a natural way by using a weighted 
+variant of Lloyd s method [Secord 2002]. Embroidery also has a set of traditional patterns. As a reference, 
+we have been studying the book Traditional Japanese Patterns [Kurenai-Kai 2005] which de.nes a set of 
+sewing techniques used in Japanese free embroidery. The goal of our work is to transform a traditional 
+embroidery pat­tern (typically consisting mainly of region outlines) into a high­quality embroidery image 
+generated in real time. Real time render­ing enables the user to navigate around the image and manipulate 
+it. We also want to be able to place the embroidery on deforming objects and use dynamic lighting models 
+for the threads. 2 Our Approach We achieved embroidery simulation and rendering in three phases. In 
+the .rst phase, vision algorithms were applied to extract lines and regions in embroidery patterns scanned 
+from traditional sources. In the second phase, the selection and placement of primitives in the identi.ed 
+regions is performed. This is a semi-automatic process since some artistic choice is involved, including 
+but not limited to stitching style, thread parameters and colors. Therefore, an inter­active interface 
+was built. We developed an algorithm to simulate *e-mail: cherrychen0602@gmail.com e-mail: michael.mccool@intel.com 
+e-mail: kitamoto@nii.ac.jp a classic boundary style, line of staggered diagonals, as well as an algorithm 
+to simulate the most used and oldest region-.lling stitch to be found in embroidery, long-short stitching. 
+Since artists often put the stitches along the longest axis of the region, we compute the main inertia 
+axis of each segmented region [Hiller et al. 2003] and use this to orient the stitching. Moreover, we 
+separated lines that represent details from the region outline into a second layer. This was done manually 
+although this could possibly be achieved automatically in future work using vision algorithms. When we 
+render the model, we can easily place these details above the .ll layer, which is similar to what real 
+embroiderer would normally do for such details. In the third phase, stitches are dynamically lit in real 
+time in surface space by a simple thread thread lighting model [Mallo et al. 2005], but modulated with 
+alpha mapping and tangent modi.cations to simulate curved stitches. Our rendering technique supports 
+high-quality real-time rendering on deformable objects us­ing hardware acceleration. Before rendering, 
+we compute the tan­gents from the texture parameterization [Lengyel 2001]. Then light and view vectors 
+as well as local surface frame are captured and projected onto the local frame to light the stitches. 
+Lastly, a .ltered texture pyramid, which supports good antialiasing, is constructed from the resulting 
+texture and applied to the 3D object. References HAUSNER, A. 2001. Simulating decorative mosaics. In 
+Proceed­ings of the 28th annual conference on Computer graphics and interactive techniques, SIGGRAPH 
+01, 573 580. HILLER, S., HELLWIG, H., AND DEUSSEN, O. 2003. Beyond stippling methods for distributing 
+objects on the plane. Euro­graphics 22, 515 522. KURENAI-KAI. 2005. Traditional Japanese Patterns 1. 
+Seigensha. LENGYEL, E. 2001. Computing Tangent Space Basis Vectors for an Arbitrary Mesh. Terathon Software 
+3D Graphics Library, http://www.terathon.com/code/tangent.html. MALLO, O., PEIKERT, R., SIGG, C., AND 
+SADLO, F. 2005. Illu­minated lines revisited. In IEEE Visualization Conference, 19 26. SECORD, A. 2002. 
+Weighted Voronoi stippling. In Proceedings of the 2nd international symposium on Non-photorealistic anima­tion 
+and rendering, ACM, NPAR 02, 37 43. Copyright is held by the author / owner(s). SIGGRAPH 2011, Vancouver, 
+British Columbia, Canada, August 7 11, 2011. ISBN 978-1-4503-0921-9/11/0008  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037706</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>3</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Per-face texture mapping for real-time rendering]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037703.2037706</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037706</url>
+		<abstract>
+			<par><![CDATA[<p>Texture unwrapping is a nearly ubiquitous step in texture mapping, and serves two important purposes: (1) it indicates where to sample texture across each face and (2) it allows artistic freedom to "trade" texels from low importance areas to high importance areas. Unfortunately, texture unwrapping is time-consuming and automated tools generally produce inferior results to those of a skilled artist. Additionally, even the best unwraps suffer from seams, which cause lighting discontinuities at best and surface discontinuities at worst.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2809236</person_id>
+				<author_profile_id><![CDATA[81488652119]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[John]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McDonald]]></last_name>
+				<suffix><![CDATA[Jr]]></suffix>
+				<affiliation><![CDATA[NVIDIA Corporation]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jmcdonald@nvidia.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809237</person_id>
+				<author_profile_id><![CDATA[81332491776]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Brent]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Burley]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[Brent.Burley@disney.com]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>2383478</ref_obj_id>
+				<ref_obj_pid>2383465</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Burley, B., and Lacewell, D. 2008. Ptex: Per-Face Texture Mapping for Production Rendering. In <i>Eurographics Symposium on Rendering 2008</i>, 1155--1164.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Microsoft, Inc. 2011. Semantics (DirectX HLSL), http://msdn.microsoft.com/en-us/library/bb509647%28v=vs.85%29.aspx]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Per-Face Texture Mapping for Real-time Rendering John McDonald, Jr NVIDIA Corporation jmcdonald@nvidia.com 
+ Brent Burley Walt Disney Animation Studios Brent.Burley@disney.com 1. Introduction Texture unwrapping 
+is a nearly ubiquitous step in texture mapping, and serves two important purposes: (1) it indicates where 
+to sample texture across each face and (2) it allows artistic freedom to .trade. texels from low importance 
+areas to high importance areas. Unfortunately, texture unwrapping is time-consuming and automated tools 
+generally produce inferior results to those of a skilled artist. Additionally, even the best unwraps 
+suffer from seams, which cause lighting discontinuities at best and surface discontinuities at worst. 
+ Ptex, proposed in [Burley and Lacewell 2008], assigns a separate texture per face, skipping the texture 
+unwrap entirely. The technique uses adjacency data to filter across faces, removing visible seams. We 
+propose a technique to render Ptex datasets intended for offline rendering at interactive framerates 
+using commodity Direct3D 11 capable hardware. 2. Algorithm As with offline Ptex, meshes must be quad-based, 
+textures must be power-of-two sized (though not necessarily square), and patch adjacency data must be 
+provided. The proposed real-time Ptex algorithm involves a preprocess step as well as straightforward 
+shader modifications to texture lookups. Textures are first grouped by aspect ratio. Within each group, 
+textures are sorted by decreasing size and assigned monotonically increasing IDs in this sorted order. 
+Textures are stored in a manual mip-chain using one Texture2DArray per unique resolution, and each array 
+is indexed by texture ID. Data from adjacent patches are sampled into a fixed size border around each 
+texture. The border size can be chosen according to desired filter quality. A .patch constant. structure 
+stores information about each patch's texture data: base array ID, texture ID, and maximum mip-level. 
+ During shading, we: 1. Use SV_PrimitiveID [Microsoft 2011] to index into an array of patch constant 
+structures to determine the ptex parameter set of the current patch. 2. Compute the desired mip-level 
+and select the corresponding texture array. 3. Adjust SV_DomainLocation [Microsoft 2011] to account 
+for the fixed size border. The scale and offset are pre-computed per unique texture resolution and are 
+accessed from the shader. 4. Sample the specified texture array entry using desired hardware texture 
+filter. 5. Repeat steps 2-4 once more if mip-map interpolation is desired.    Figure 1. Dinosaur 
+with each face textured from unique textures. 3. Advantages  The texture unwrap step is skipped entirely. 
+Texture seams will be invisible along edges and at vertices with a valence of four. Additionally, each 
+face can have a texture size completely independent of its neighbors and this can be changed at any point 
+in a model s lifetime without having to go through another expensive unwrap operation. Unlike most unwrapping 
+schemes, no texture space is wasted, and arbitrary filter widths may be used without sourcing invalid 
+texture data. 4. Results We ve applied this method of rendering to several test meshes, including the 
+dinosaur pictured above. The dinosaur has 5,812 faces each individually textured. The working set of 
+80 mega-texels renders in less than one half of one millisecond on a GTX 460 1 Gb. References BURLEY, 
+B., AND LACEWELL, D. 2008. Ptex: Per-Face Texture Mapping for Production Rendering. In Eurographics Symposium 
+on Rendering 2008, 1155 1164. MICROSOFT, INC. 2011. Semantics (DirectX HLSL), http://msdn.microsoft.com/en-us/library/bb509647%28v=vs.85%29.aspx 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037707</article_id>
+		<sort_key>40</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>4</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[Ornate Screens]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037703.2037707</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037707</url>
+		<abstract>
+			<par><![CDATA[<p>The talk "Ornate Screens" investigates ornamentation of 3-dimensional surfaces using CAAD and CAAM, which allow the re-introduction of variation. Ornament has been abolished by the avant-garde in the first half of the twentieth century and ornamentation has been replaced by material aesthetic. This paper will argue that ornament is not a parergon, an unnecessary accessory, but that the parergon, the ornament, actually becomes the ergon, the main element.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2809238</person_id>
+				<author_profile_id><![CDATA[81488670222]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Daniel]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Baerlecken]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Georgia Institute of Technology, Atlanta]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[daniel.baerlecken@coa.gatech.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809239</person_id>
+				<author_profile_id><![CDATA[81479644746]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Judith]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Reitz]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[RWTH Aachen University/Texas A+M University, Germany]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[reitz@gbl.rwth-aachen.de]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Gombrich, Ernst. The sense of order -- A study in the Psychology of Decorative Art. London: Phaidon, 1979.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Alfred Gell, Art and Agency -- An Anthropological Theory. London: Oxford University Press, 1998.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Wihlem Worringer, Abstraction and Empathy: A Contribution to the Psychology of Style. Chicago: Elephant Paperbacks, 1908.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Ornate Screens Daniel Baerlecken Georgia Institute of Technology, Untitled-2.psd 3.jpg Atlanta, USA 
+daniel.baerlecken@coa.gatech.edu Judith Reitz RWTH Aachen University/ Texas A+M University Germany/ 
+USA reitz@gbl.rwth-aachen.de 1. Introduction The talk Ornate Screens investigates ornamentation of 3-dimensional 
+surfaces using CAAD and CAAM, which allow the re-introduction of variation. Ornament has been abolished 
+by the avant-garde in the first half of the twentieth century and ornamentation has been replaced by 
+material aesthetic. This paper will argue that ornament is not a parergon, an unnecessary accessory, 
+but that the parergon, the ornament, actually becomes the ergon, the main element. 2. Exposition Ornament 
+becomes performative in two ways. Firstly, ornament performs in a perceptual way. With Ernst Gombrich 
+we argue that aesthetic enjoyment is guided by the sense of order as an active agent reaching out toward 
+the environment, not blindly and at random , but structured. Ornamentation allows Einfuehlung - empathy, 
+the identification with an object. Secondly, we argue that ornament can perform on the level of the ergon 
+as structural system. 2.1 Elaboration This will be demonstrated by two experimental research projects: 
+the first example is the design of a series of lights, which are fabricated through STL and SLS technologies. 
+The objects are brought to life primarily as single objects without joints or seams as additive fabrication.. 
+By that, the objects can be produced directly from digital information as unique pieces. Each light can 
+be different from the other, but still belong to the same family. Changing variables in the original 
+script allows creating a different light, which still can feed back to a greater family. Mass production 
+is replaced with mass customization. One can create unique objects by manipulating the parameters. The 
+second project is an installation at the DS2010 in Switzerland, a CNC fabricated wood construction that 
+demonstrates how a pattern based geometry can be optimized structurally through a set of iterations. 
+The tessellation-based project is adapted in order to achieve a maximum of structural strength. The structural 
+calculation model contains not only geometry but also loads resulting from various sources. 3. Results 
+ The first project demonstrates the potential of CAAD and CAAM tools for a design object and shows how 
+these tools allow us to re-think the relationship of author and user: Through parametric tools each user 
+can design its own light within certain constrains. The second project shows how parametric tools can 
+be used to optimize geometry to achieve a structural performance.   Figure 1. Prototype light. Figure 
+2. Installation Designers Saturday. 4. Conclusions Ornament can be re-introduced as ergon that allows 
+to strengthen empathy between subject and object and that allows to solve problems of performance. Ornament 
+becomes necessary again. References GOMBRICH, ERNST. THE SENSE OF ORDER A STUDY IN THE PSYCHOLOGY 
+OF DECORATIVE ART. LONDON: PHAIDON, 1979. ALFRED GELL, ART AND AGENCY AN ANTHROPOLOGICAL THEORY. LONDON: 
+OXFORD UNIVERSITY PRESS, 1998. WIHLEM WORRINGER, ABSTRACTION AND EMPATHY: A CONTRIBUTION TO THE PSYCHOLOGY 
+OF STYLE. CHICAGO: ELEPHANT PAPERBACKS, 1908. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037708</article_id>
+		<sort_key>50</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>5</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[Revolution - evolution]]></title>
+		<subtitle><![CDATA[the collaboration forges on]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037703.2037708</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037708</url>
+		<abstract>
+			<par><![CDATA[<p>Education is on the brink of a revolution. Technological advances and changes in organization allows us to teach, and learn, with innovative tools in ways that only a few years ago were inconceivable. Geographical boundaries are no longer an issue. While this will have a deep impact on distance education, it also impacts how we meet, communicate and collaborate. Communication suites facilitate easy sharing of work, ideas and feedback across miles, and across time zones. While this type of collaboration is now a daily occurrence in global conglomerates, the academic realm is still working to catch up in fully exploiting these tools to the benefit education. Educators and students need to harness communication technology to remain competitive in todays global world. The internet was originally developed by academics primarily for use as a communication tool within and between educational institutions. Instead internet use spread wider than anyone every dreamed, and has now infiltrated all areas of our lives. A similar paradigm shift now has the potential to explode collaborative effort and transform the learning process through fast, cost-efficient communication. At Texas A&M Universities' Department of Visualization we strive to push the boundaries of education by relying heavily on input from the very industries our graduates hope to work for. Our challenge is not only to provide our students with the best possible skill set across the disciplines of Art and Technology, but also to evolve from a system of simple knowledge transfer to a new system that enables graduates to leverage their knowledge within collaborate environments. As the business world "flattens" and disciplines (including production) "are becoming so complex that no single firm or department is going to be able to master them alone.", [Friedman 2005], graduating students will rely on their abilities to forge new networks and collaborations to survive and thrive in our shrinking global economy. One exciting way that students at A&M gain insight into how necessary these collaborative skills are is through a ten-week program which runs each summer in the Department of Visualization (Please see [Walvoord et al. 2009] for a full course description). While the students produce stunning animations (see supplemental movies) the magic of this course is not the product but rather the <i>processs</i> that occurs. It is amazing to watch the students mature and elevate their skills of communication and collaboration. Each Dreamwork professional's visit lasts five days. It is not possible for the artist on-site to teach all things to all students in this time frame, so learning occurs in smaller student groups and those groups then disseminate their newly learned skills to the rest of their team, and across teams. Also, collaboration continues, after the professional left Texas, through the use of (cost effective) state of the art collaboration tools currently available.</p> <p>This is not the first successful collaboration between Texas A&M and Dreamworks, the evolution of the course, and lessons learned have wide-reaching effects within animation education. As in previous years, the industry team (DreamWorks Animation) acted as the <i>client</i> for the project by providing the story, model designs, effects, and environments within specific guidelines, and based on original artwork created specifically for this course by Dream-Works artists. The education team (Texas A&M) took the role of <i>producers</i> by coaching the students through resource and time management. Seven DreamWorks artists and engineers each spent one week at Texas A&M teaching the discrete pipeline disciplines and providing artistic and technical support and as the shorts progressed. As mentioned Dreamworks continued to provide artistic and technical guidance throughout the course via e-mail, blog postings and weekly remote dailies sessions held via video-conference. This complex collaboration benefits all participants. The exposure to realistic production environments and the unique challenges that arise from them is now essential for students preparing for careers in CG animation, visual effects, game production, and the "flat world" beyond. This also results in pairing visiting artists with the skill and talent levels of their future employees, and providing introductions that forge lifelong mentorship and collaborations. Equally important, on the education side, faculty gain a rare opportunity to synthesize the post-graduation expectations for students with existing learning objectives.</p> <p>Our experience serves as a model for other collaborations between academia and industry. In this talk we present in more detail the key elements we found necessary for a successful venture and how this collaboration can be used to instill core skills in graduating students that are not currently being provided in most traditional academic environments.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2809240</person_id>
+				<author_profile_id><![CDATA[81100069081]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ann]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McNamara]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[ann@viz.tamu.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809241</person_id>
+				<author_profile_id><![CDATA[81488668218]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Jose]]></first_name>
+				<middle_name><![CDATA[Guinea]]></middle_name>
+				<last_name><![CDATA[Montalvo]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Texas A&M University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809242</person_id>
+				<author_profile_id><![CDATA[81100173370]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Dave]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Walvoord]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Dreamworks Animation]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809243</person_id>
+				<author_profile_id><![CDATA[81488650995]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Marilyn]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Friedman]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Dreamworks Animation]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>1212877</ref_obj_id>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Friedman, T. 2005. <i>The world is flat: a brief history of the twenty-first century</i>. Farrar, Straus and Giroux, New York.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Walvoord, D., Friedman, M., Mulholland, J., and Montavlo, J. 2009. Bringing the studio to campus: A case study in successful collaboration between academia and industry. In <i>SIGGRAPH 2009: Talks</i>, ACM, New York, NY, USA, SIGGRAPH 09, 76:1--76:1.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Revolution -Evolution: The Collaboration Forges On Ann McNamara*Dave Walvoord, Marilyn Friedman , Jose 
+Guinea Montalvo Texas A&#38;M University Dreamworks Animation Figure 1: Final frames resulting from 
+collaboration between students at Texas A&#38;M and Dreamworks Animation. For full animations please 
+see http://www.viz.tamu.edu/?p=1408 Abstract Education is on the brink of a revolution. Technological 
+advances and changes in organization allows us to teach, and learn, with in­novative tools in ways that 
+only a few years ago were inconceiv­able. Geographical boundaries are no longer an issue. While this 
+will have a deep impact on distance education, it also impacts how we meet, communicate and collaborate. 
+Communication suites fa­cilitate easy sharing of work, ideas and feedback across miles, and across time 
+zones. While this type of collaboration is now a daily occurrence in global conglomerates, the academic 
+realm is still working to catch up in fully exploiting these tools to the bene.t education. Educators 
+and students need to harness communication technology to remain competitive in todays global world. The 
+in­ternet was originally developed by academics primarily for use as a communication tool within and 
+between educational institutions. Instead internet use spread wider than anyone every dreamed, and has 
+now in.ltrated all areas of our lives. A similar paradigm shift now has the potential to explode collaborative 
+effort and transform the learning process through fast, cost-ef.cient communication. At Texas A&#38;M 
+Universities Department of Visualization we strive to push the boundaries of education by relying heavily 
+on input from the very industries our graduates hope to work for. Our challenge is not only to provide 
+our students with the best possible skill set across the disciplines of Art and Technology, but also 
+to evolve from a system of simple knowledge transfer to a new system that enables graduates to leverage 
+their knowledge within collaborate environments. As the business world .attens and disciplines (in­cluding 
+production) are becoming so complex that no single .rm or department is going to be able to master them 
+alone. , [Friedman 2005], graduating students will rely on their abilities to forge new networks and 
+collaborations to survive and thrive in our shrinking global economy. One exciting way that students 
+at A&#38;M gain in­sight into how necessary these collaborative skills are is through a ten-week program 
+which runs each summer in the Department of Visualization (Please see [Walvoord et al. 2009] for a full 
+course description). While the students produce stunning animations (see supplemental movies) the magic 
+of this course is not the product but rather the processs that occurs. It is amazing to watch the stu­dents 
+mature and elevate their skills of communication and collab­oration. Each Dreamwork professional s visit 
+lasts .ve days. It is not possible for the artist on-site to teach all things to all students in this 
+time frame, so learning occurs in smaller student groups and those groups then disseminate their newly 
+learned skills to the rest *e-mail:ann@viz.tamu.edu of their team, and across teams. Also, collaboration 
+continues, after the professional left Texas, through the use of (cost effective) state of the art collaboration 
+tools currently available. This is not the .rst successful collaboration between Texas A&#38;M and Dreamworks, 
+the evolution of the course, and lessons learned have wide-reaching effects within animation education. 
+As in pre­vious years, the industry team (DreamWorks Animation) acted as the client for the project by 
+providing the story, model designs, effects, and environments within speci.c guidelines, and based on 
+original artwork created speci.cally for this course by Dream-Works artists. The education team (Texas 
+A&#38;M) took the role of producers by coaching the students through resource and time management. Seven 
+DreamWorks artists and engineers each spent one week at Texas A&#38;M teaching the discrete pipeline 
+disciplines and providing artistic and technical support and as the shorts pro­gressed. As mentioned 
+Dreamworks continued to provide artistic and technical guidance throughout the course via e-mail, blog 
+post­ings and weekly remote dailies sessions held via video-conference. This complex collaboration bene.ts 
+all participants. The exposure to realistic production environments and the unique challenges that arise 
+from them is now essential for students preparing for careers in CG animation, visual effects, game production, 
+and the .at world beyond. This also results in pairing visiting artists with the skill and talent levels 
+of their future employees, and providing intro­ductions that forge lifelong mentorship and collaborations. 
+Equally important, on the education side, faculty gain a rare opportunity to synthesize the post-graduation 
+expectations for students with exist­ing learning objectives. Our experience serves as a model for other 
+collaborations between academia and industry. In this talk we present in more detail the key elements 
+we found necessary for a successful venture and how this collaboration can be used to instill core skills 
+in graduating students that are not currently being provided in most traditional academic environments. 
+ References FRIEDMAN, T. 2005. The world is .at : a brief history of the twenty-.rst century. Farrar, 
+Straus and Giroux, New York. WALVOORD, D., FRIEDMAN, M., MULHOLLAND, J., AND MON-TAVLO, J. 2009. Bringing 
+the studio to campus: A case study in successful collaboration between academia and industry. In SIG-GRAPH 
+2009: Talks, ACM, New York, NY, USA, SIGGRAPH 09, 76:1 76:1. Copyright is held by the author / owner(s). 
+SIGGRAPH 2011, Vancouver, British Columbia, Canada, August 7 11, 2011. ISBN 978-1-4503-0921-9/11/0008 
+  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037709</article_id>
+		<sort_key>60</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>6</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>6</seq_no>
+		<title><![CDATA[StereoFX]]></title>
+		<subtitle><![CDATA[survey of the main stereo film-making techniques]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037703.2037709</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037709</url>
+		<abstract>
+			<par><![CDATA[<p>The unprecedented popularity of <i>Avatar</i> has pushed the entire movie industry to rapidly evolve to be able to produce "3D" movies. In the past year three main techniques of producing them have been used each with their advantages and flaws. We review them using as examples movies MPC has been involved in: <i>Pirates of the Caribbean: On Stranger Tides, The Chronicles of Narnia: The Voyage of the Dawn Treader and Harry Potter and the Deathly Hallows: Part 2</i></p> <p>In the following presentation we will discuss the principles of each technique, their pros and cons and the changes they impose on previous workflow and mindsets.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2809244</person_id>
+				<author_profile_id><![CDATA[81466647316]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Damien]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Fagnou]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[MPC]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[damien-f@moving-picture.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ StereoFX: survey of the main stereo .lm-making techniques Damien Fagnou* MPC Abstract The unprecedented 
+popularity of Avatar has pushed the entire movie industry to rapidly evolve to be able to produce 3D 
+movies. In the past year three main techniques of producing them have been used each with their advantages 
+and .aws. We review them us­ing as examples movies MPC has been involved in : Pirates of the Caribbean: 
+On Stranger Tides, The Chronicles of Narnia: The Voyage of the Dawn Treader and Harry Potter and the 
+Deathly Hal­lows: Part 2 In the following presentation we will discuss the principles of each technique, 
+their pros and cons and the changes they impose on pre­vious work.ow and mindsets. Native Stereo To 
+illustrate native stereo we look at speci.c examples of work done on Pirates of the Caribbean: On Stranger 
+Tides. Figure 1: Side by side c&#38;#169;2011 Walt Disney Pictures Native Stereo involves .lming with 
+two cameras (one for each eye). Cameras are mounted together using specially built rigs that ensure proper 
+alignment and synchronisation between each camera. Hav­ing to deal with two sequences of images per shot 
+brings several complications to the VFX process. It is very hard to acquire completely identical (apart 
+from horizontal shift) sets of images. Even with the latest and most advanced stereo camera rigs slight 
+misalignments or distortion can be present. As in most rigs the slave camera .lms though a mirror, there 
+is often color shifts between the two views. Using Ocula we were able to re-align and color match the 
+plates. We also adjusted the pipeline around this new process to make it very transparent to the compositors. 
+Once those differences are recti.ed the task at hand is still quite large, as many of the processes have 
+to be done twice (one for each view). This is the case for matchmove, paint and rotoscoping but with 
+the help of modern software it can be made simpler. Having to manage two points of view creates new challenges 
+for compositing and rendering. For this, we leveraged Nuke and Pixar RenderMan to simplify the task, 
+and adjusted our pipeline accord­ingly. *e-mail: damien-f@moving-picture.com 2 Post Conversion We call 
+post conversion the process of creating a stereo version of a mono .lm. Other terms for this process 
+are dimensionalization and 2D to 3D . This technique was used to create the 3D version of The Chronicles 
+of Narnia: The Voyage of the Dawn Treader. Creation of the second view almost always requires rotoscoping 
+a large portion of the image to isolate the parts that need to go at different depths. In general, very 
+accurate detail is needed Using solely rotoscoping and image shifting can create a cardboard cut-out 
+effect. In those cases a geometry reconstruction of the scene using matchmove and camera modeling is 
+necessary. The scene is then rendered using projections. Another possible approach is to create depth 
+maps for each object and combine them. Each method has situations to which it is better suited than the 
+other. Whether we choose depth shifting or projection, occluded areas are revealed which need to be painted. 
+This is one of the most time consuming tasks of the post conversion process. Using custom edge reconstruction 
+or temporal algorithms we can reduce the manual painting needed. 3 Mixed Stereo c Figure 2: Roto and 
+Projections &#38;#169;2011 Warner Bros. Pictures For the last of the Harry Potter series Harry Potter 
+and the Deathly Hallows: Part 2 the Mixed Stereo technique was used. Mixed Stereo represents the hybrid 
+approach. The goal is to use the two previously described techniques where they are most appropriate. 
+This method has gained a lot of popularity in the last year as it can give results that are similar to 
+Native Stereo without some of the cost and .lming complications. Scheduling Mixed Stereo is hard due 
+to the much larger number of tasks and their interdependencies. But using a parallel approach where the 
+.lm plates get processed at the same time as the visual effects are developed and incorporated we can 
+improve conversion quality while keeping tight deadlines. The geometric 2D to 3D technique is particularly 
+useful in mixed stereo projects and we made heavy use of VFX assets to speed up the conversion process 
+while improving the overall quality of the output. Most of the CG elements were rendered using stereo 
+cam­eras, therefore achieving optimal quality. Copyright is held by the author / owner(s). SIGGRAPH 2011, 
+Vancouver, British Columbia, Canada, August 7 11, 2011. ISBN 978-1-4503-0921-9/11/0008   
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037710</article_id>
+		<sort_key>70</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>7</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>7</seq_no>
+		<title><![CDATA[Let there be hair]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037703.2037710</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037710</url>
+		<abstract>
+			<par><![CDATA[<p>The trademark look of Rapunzel in Disney's Tangled presented unique challenges in grooming, animation, rendering, and pipeline management. Her hair was highly art directed and seventy feet long. The length of the hair, the amount of screen space it occupied, and the role it played within the film necessitated advanced planning in order to treat it very much as if it were a character. This talk discusses the original hair roadmap and changes required during production.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2809245</person_id>
+				<author_profile_id><![CDATA[81328490545]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Thomas]]></first_name>
+				<middle_name><![CDATA[V.]]></middle_name>
+				<last_name><![CDATA[Thompson]]></last_name>
+				<suffix><![CDATA[II]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[tom.thompson@disney.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809246</person_id>
+				<author_profile_id><![CDATA[81442600792]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Sean]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jenkins]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[sean.jenkins@disney.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809247</person_id>
+				<author_profile_id><![CDATA[81100279764]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Chuck]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Tappan]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Walt Disney Animation Studios]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[chuck.tappan@disney.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Let There Be Hair Thomas V. Thompson II Sean Jenkins Chuck Tappan Walt Disney Animation Studios* Walt 
+Disney Animation Studios Walt Disney Animation Studios 1 Introduction The trademark look of Rapunzel 
+in Disney s Tangled presented unique challenges in grooming, animation, rendering, and pipeline management. 
+Her hair was highly art directed and seventy feet long. The length of the hair, the amount of screen 
+space it occu­pied, and the role it played within the .lm necessitated advanced planning in order to 
+treat it very much as if it were a character. This talk discusses the original hair roadmap and changes 
+required during production. 2 Roadmap On previous shows hair development was primarily focused on the 
+look of the character with animation as a secondary concern. For this show, animation would take the 
+lead. The main concept was to have a hierarchy of curves that could drive the .nal hair. At the highest 
+level, grooming curves would be uniformly distributed across the head. The simulation department would 
+pick a subset of these curves to meet their needs. Anima­tion could grab a subset of the simulation curves 
+to hand animate if necessary. The system would interpolate the curves from one level to produce the curves 
+at the higher level. We would also allow simulation to layer on top of the animation results before interpolating. 
+This would give us an extreme amount of .exibility and utilize a code base of interpolation with which 
+we have had a lot of success. Secondary to the hair growing from the characters head would be the use 
+of prop hair. This would be hair grown from off stage that could be posed, dressed, and animated separately 
+from the char­acter. Chopping back the character s hair would improve iteration time as you work with 
+the different portions in turn, rendering each separately and compositing results. 3 Off Road Once production 
+started it did not take long before problems with the roadmap surfaced. The .rst problem was that the 
+art direc­tors wanted very speci.c looks. For example, animation supervisor Glen Keane gave dozens of 
+draw overs for the little swoop over Rapunzels forehead alone. This high level of art direction forced 
+a shift in the grooming approach. It became obvious that we were better off parceling out the grooming 
+curves where we needed them, strategically placing them in exact locations. This didn t lend itself to 
+stepping down to a lower density of curves for simulation and animation where a uniform distribution 
+is still required. Further, we found that we really didn t need, or want, the .exibility of changing 
+the number of simulation curves per shot. It was actually more advantageous to have a .xed set that permitted 
+our artists to gain an intuition on expected results with a known simulation run-time. These two things 
+allowed us to better plan out the time required for each shot based story boards. *e-mail: [tom.thompson,sean.jenkins,chuck.tappan]@disney.com 
+ Figure 1: Rapunzel s groom in action with interaction. The disparity of curve distributions between 
+grooming, simulation, and animation precluded using our original interpolation approach. Instead, we 
+developed a motion mapper to drive the motion from one level up onto the next. This mapping would preserve 
+the shape at the higher level but also spread the motion to neighboring curves. Given the high degree 
+of art direction, this approach was vital as it preserved shape better without washing away any of the 
+groom. One major late addition was art directable breaking of the hair. Our grooming package, XGen, could 
+add clumping, noise, and wave but the directors wanted the interpolation to break along the length during 
+animation. Our simulation would track breaking distances on the curves and transfer it to the groom. 
+The artists could paint directly on the simulation curves if necessary to match draw overs done by the 
+directors or animators. 4 Cleanup The interpolation of the guides had to be very precise within XGen 
+for two reasons: groom and animation (Figure 1). The grooms were highly art directed but it was perhaps 
+more important that the in­terpolation be exact for animation. The hair was held, brushed, dragged, and 
+in general there was a lot more interaction than has been seen in previous .lms. To get things exactly 
+right the artists could edit the curves at any level using a suite of tools. Ideally, they would edit 
+the simulation curves since there were many fewer but one could edit the groom curves as well (173 vs 
+1006 for Rapunzel). Since the grooming curves lined up with higher level clumps, this was usually suf.cient 
+to reach the .nal look. If not, the artist could either cull problem hairs or add on a render-time collision 
+module in XGen to resolve collision in the .nal hair. 5 Conclusions Early on we decided not to ask for 
+any story changes to cover for technological short coming. We would set the bar high and reach that height 
+at all costs. Doing this inspired the teams and led to break-throughs in multiple areas. In addition, 
+while planning up front was important and got us all on track, it was equally impor­tant to remain .exible 
+to new ideas and approaches since the .nal solution changed with the shifting needs of production. Copyright 
+is held by the author / owner(s). SIGGRAPH 2011, Vancouver, British Columbia, Canada, August 7 11, 2011. 
+ISBN 978-1-4503-0921-9/11/0008  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037711</article_id>
+		<sort_key>80</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>8</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>8</seq_no>
+		<title><![CDATA[DIYLILCNC]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037703.2037711</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037711</url>
+		<abstract>
+			<par><![CDATA[<p>Computer Numerical Control (CNC) technology, previously limited to large industrial applications, is slowly making its way into the hands of individual artists and designers. Much of this shift in accessibility can be credited to the profusion of inexpensive personal computing equipment and open source software solutions. Every step in digital file preparation necessary for computer-aided manufacturing (CAM), from design to tool-pathing to post-processing, can now be achieved with free and open-source Linux-based software. CNC hardware, however, presents the largest remaining barrier when it comes to CAM for the small-scale or amateur maker.</p> <p>A wide variety of do-it-yourself (DIY) CNC hardware designs can be found online. These plans all vary in size, complexity, accuracy and cost. In the interest of accessibility, we decided to work from an existing design posted on instructables.com. We discovered that these free plans, while perfectly functional, tend to lack the continued refinement and technical support one might find in a funded research project. Free plans also require a fair amount of interpretation and technical ability on the part of the reader, as it is the finished design (and not its codification as an instruction set) that is the goal of the author. With this in mind, we created thorough print documentation and a companion website where the DIY CNC community could both benefit and participate in communal project development and expansion of the field in general.</p> <p>The DIYLILCNC design can be built for approximately $700 (compared with commercial CNC machines that can cost in excess of tens of thousands of dollars). DIYLILCNC is constructed from laser-cut panels of Masonite and measures about 24&#8243; &#215; 30&#8243; &#215; 30&#8243;. Perfect for tabletop use, the device is easily demonstrated for an all-ages audience. Participants will see a modified version of the device, with an open body construction that clearly reveals the engineering of its motion components. We've also created a variety of attachments for the gantry, allowing for both 3D milling and 2D pen plotting (which has the advantage of being quick and also produces samples that are easy to give away).</p> <p>When we presented DIYLILCNC at SIGGRAPH 2010, the project was in its infancy. Thanks to wide publication (including Make Magazine, Maker Faire, the Open Source Hardware Summit, etc.), international participation (US, Canada, South Africa) and planned institutional adoption (DePaul University, Chicago), we.ve decided to establish a L3C (or a "low profit", mission-based LLC) in support of continued research into DIY CAD/CAM education. After an extended period of research, we.ll be ready to present the updated DIYLILCNC design (version 2.0) at SIGGRAPH 2011.</p> <p>In addition to our presentation, we.ll be putting out a call to all of the makers that have completed a DIYLILCNC of their own. We hope to include at least one or two additional builds/builders in our booth, further demonstrating the power of free information, distributed authorship and computer-aided fabrication.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2809248</person_id>
+				<author_profile_id><![CDATA[81488673029]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Taylor]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hokanson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[DIYLILCNC]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809249</person_id>
+				<author_profile_id><![CDATA[81488667094]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Chris]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Reilly]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[DIYLILCNC]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ SIGGRAPH 2011 Studio Proposal (1 page abstract) Authors: Taylor Hokanson and Chris Reilly Project: DIYLILCNC 
+Computer Numerical Control (CNC) technology, previously limited to large industrial applications, is 
+slowly making its way into the hands of individual artists and designers.Much of this shift in accessibility 
+can be credited to the profusion of inexpensive personalcomputing equipment and open source software 
+solutions. Every step in digital filepreparation necessary for computer-aided manufacturing (CAM), from 
+design to tool­pathing to post-processing, can now be achieved with free and open-source Linux-basedsoftware. 
+CNC hardware, however, presents the largest remaining barrier when it comes to CAM for the small-scale 
+or amateur maker. A wide variety of do-it-yourself (DIY) CNC hardware designs can be found online. These 
+plans all vary in size, complexity, accuracy and cost. In the interest of accessibility, wedecided to 
+work from an existing design posted on instructables.com. We discovered that these free plans, while 
+perfectly functional, tend to lack the continued refinementand technical support one might find in a 
+funded research project. Free plans also require a fair amount of interpretation and technical ability 
+on the part of the reader, as itis the finished design (and not its codification as an instruction set) 
+that is the goal of theauthor. With this in mind, we created thorough print documentation and a companion 
+website where the DIY CNC community could both benefit and participate in communalproject development 
+and expansion of the field in general. The DIYLILCNC design can be built for approximately $700 (compared 
+with commercialCNC machines that can cost in excess of tens of thousands of dollars). DIYLILCNC is constructed 
+from laser-cut panels of Masonite and measures about 24" x 30" x 30".Perfect for tabletop use, the device 
+is easily demonstrated for an all-ages audience.Participants will see a modified version of the device, 
+with an open body constructionthat clearly reveals the engineering of its motion components. We've also 
+created a variety of attachments for the gantry, allowing for both 3D milling and 2D pen plotting (which 
+has the advantage of being quick and also produces samples that are easy to give away). When we presented 
+DIYLILCNC at SIGGRAPH 2010, the project was in its infancy.Thanks to wide publication (including Make 
+Magazine, Maker Faire, the Open SourceHardware Summit, etc.), international participation (US, Canada, 
+South Africa) and planned institutional adoption (DePaul University, Chicago), we've decided to establish 
+a L3C (or a low profit , mission-based LLC) in support of continued research into DIY CAD/CAM education. 
+After an extended period of research, we'll be ready to presentthe updated DIYLILCNC design (version 
+2.0) at SIGGRAPH 2011. In addition to our presentation, we'll be putting out a call to all of the makers 
+that havecompleted a DIYLILCNC of their own. We hope to include at least one or two additionalbuilds/builders 
+in our booth, further demonstrating the power of free information,distributed authorship and computer-aided 
+fabrication. Copyright is held by the author / owner(s). SIGGRAPH 2011, Vancouver, British Columbia, 
+Canada, August 7 11, 2011. ISBN 978-1-4503-0921-9/11/0008 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037712</article_id>
+		<sort_key>90</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>9</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>9</seq_no>
+		<title><![CDATA[Map design + social and environmental issues]]></title>
+		<subtitle><![CDATA[graphic design education at its best]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037703.2037712</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037712</url>
+		<abstract>
+			<par><![CDATA[<p>Foster engagement in social and environmental issues through a graphic design assignment focused on the creation of visually interesting folded, printed maps and instruction about aspects of sustainable print production and design techniques and processes.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2809250</person_id>
+				<author_profile_id><![CDATA[81488659540]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jessica]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ring]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Towson University, Towson, Maryland]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[jring@towson.edu]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Forest Stewardship Council (FSC). "Evaluating and Monitoring Social Impacts." &lt;http://www.fsc.org/1112.html&gt;.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1212683</ref_obj_id>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Lipton, Ronnie. <i>The Practical Guide to Information Design</i>. Hoboken: John Wiley & Sons, Inc., 2007.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Sherin, Aaris. <i>SustainAble: A Handbook of Materials and Applications for Graphic Designers and Their Clients</i>. Beverly, Massachusetts: Rockport Publishers, Inc., 2008.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Visocky O'Grady, Jenn and Ken. <i>The Information Design Handbook</i>. HOW, 2008.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Map Design + Social and Environmental Issues: Graphic Design Education at its Best Jessica Ring Towson 
+University Towson, Maryland, USA jring@towson.edu 1. Introduction Foster engagement in social and environmental 
+issues through a graphic design assignment focused on the creation of visually interesting folded, printed 
+maps and instruction about aspects of sustainable print production and design techniques and processes. 
+ 2. Overview This talk will present an overview of the instructional techniques and learning objectives 
+used in a graphic design class project: the design of folded, printed maps. The process of developing 
+and designing the maps is in itself a complex and challenging design problem. By specifying the subject 
+of each map to be one of many possible social or environmental topics, students are immersed in research 
+of the topic and therefore gain a greater understanding of that topic. Exposure to sustainable print 
+design, collaborative learning and information design are also emphasized. 3. Elaboration Design for 
+social issues and sustainable design or design for the environment have recently been gaining more and 
+more attention in the fields of graphic design and graphic design education. While class projects pertaining 
+to social and environmental issues are not new, the combination of social issues, environmental issues, 
+sustainable design, collaborative learning and information design is a less familiar and more unique 
+approach. Because students are tasked with the creation of a visually engaging and useful object, the 
+design ideas presented in the class become experiential and students necessarily become engaged in the 
+social and/or environmental topic of their map s focus. Research, site visits, interviews and guest lectures 
+aid in connecting students to the community and the issues. Collaborative techniques are utilized in 
+teaching, learning and creating, including the use of online collaborative tools such as blogs and shared 
+online documents. Students developed the ability to apply the principles and generalizations of information 
+design, and learned terms and facts related to design for the environment or sustainable design. 4. 
+Conclusion The various components and learning experiences that accompanied this project were broad 
+ranging and of great value to the education of tomorrow s designers. One of the maps designed by a group 
+of students was presented to the university community and selected for production and dissemination across 
+the campus. In this instance, students experienced the possibility of design entrepreneurship. Through 
+group work and reflection, students learned about their own working styles, strengths and weaknesses 
+as well as the importance of communication and organized digital files. The idea of user-centered design 
+was introduced, and students learned firsthand that the audience and its understanding of the designed 
+object is of prime importance. This design assignment and others like it can enable students to become 
+better designers and more knowledgeable citizens of our communities and our planet. http://www.towsonugreenmap.org/ 
+ Figure 1. Towson University Student Green Map  References Forest Stewardship Council (FSC). Evaluating 
+and Monitoring Social Impacts. <http://www.fsc.org/1112.html>. Lipton, Ronnie. The Practical Guide to 
+Information Design. Hoboken: John Wiley &#38; Sons, Inc., 2007. Sherin, Aaris. SustainAble: A Handbook 
+of Materials and Applications for Graphic Designers and Their Clients. Beverly, Massachusetts: Rockport 
+Publishers, Inc., 2008. Visocky O Grady, Jenn and Ken. The Information Design Handbook. HOW, 2008. Copyright 
+is held by the author / owner(s). SIGGRAPH 2011, Vancouver, British Columbia, Canada, August 7 11, 2011. 
+ISBN 978-1-4503-0921-9/11/0008  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037713</article_id>
+		<sort_key>100</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>10</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>10</seq_no>
+		<title><![CDATA[Bridging synthetic and organic materiality]]></title>
+		<subtitle><![CDATA[graded transitions in material connections]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037703.2037713</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037713</url>
+		<abstract>
+			<par><![CDATA[<p><b>Why material connections?</b> If mass produced parts and components are the atoms of Modern design, jointing techniques are the bonds between these atoms, the nucleus of today's built world [1]. The recent movement from mass-production to mass-customization enabled by CAD/CAM has enabled new typologies in architecture and product design. These projects take advantage of computation and typically generate components by parametrically changing shapes; they go beyond modernism's 'arrays of standard components', however parts and components are still assembled in 20th century's styles [2]. Connections of parts and components manifest as seams, joints and corners, typically resulting in visually apparent seam conditions. This paper reveals the dominance of orthogonal seams in today's living environments and product forms and proposes an alternative methodology: graded transition on material connections.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<seq_no />
+				<first_name />
+				<middle_name />
+				<last_name />
+				<suffix />
+				<role />
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Emmitt, S., Olie, J., Schmid, P, Principles of Architectural Detailing, Wiley-Blackwell (2004).]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1349041</ref_obj_id>
+				<ref_obj_pid>1349026</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[O, Kas and B, Nimish, Interactions with Proactive Architectural Spaces: the Muscle Projects, Communications of the ACM, Issue No.8, Volume No.51, pp. 70--78 (2008).]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Next Nature. (2004). Exploring Next Nature. Retrieved January 5, 2011 from http://www.nextnature.net/2005/03/exploring-next-nature]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ BridgingSyntheticandOrganicMateriality:Gradedd TransitionsinMaterialConnections n n Abstract: Whymaterialconnections? 
+Ifmassproducedpartsandtheatoms ofModernjointingares componentsaredesign,techniquesthebond betweentheseatoms,thenucleusoftoday 
+sbuiltw orld[1].Therecentmovementfrommass-productionn tomass-customizationenabledbyCAD/CAMhasenable dnewtypologiesinarchitectureandproductn 
+design.n Thesen projectsn taken advantagen ofn computatio nn andn typicallyn generaten componentsn byn 
+parametricallychangingshapes;theygobeyondmode rnism s arraysofstandardcomponents ,howevern partsn andcomponentsarestillassembledn 
+in20thce ntury sn styles[2].Connectionsofn partsandn componentsseams,t ypicallyresultingincondit ions. 
+manifestasjointsandcorners,visuallyapparentseamThispaperrevealsthedominanceoforthogonalseam sintoday 
+slivingenvironmentsandproductformsn andproposesanalternativemethodology:gradedtra nsitiononmaterialconnections.n 
+n Resultn A24 x48 boardwasfabricated(Fig.2).Thedevel opedfabricationprocessdetectsthecolorintensit yofn 
+woodgrainpatternanddefinescuttingdepthautoma ticallyfortoolingbyaCNCrouter(Fig1),whichn enablestomass-customizegradedtransitionboard.n 
+Avisualtransitioneffectwasachievedbyleveragi ngn theinherentmaterialqualityofthewoodanditsn aturalgrainpattern.Atthesametime,thetranspa 
+rencyn ofpolyesterresinemphasizesthecontrastofmater ialityofwoodandpolyesterresin.Sincethefabri catedn 
+piecepresentsauniformedsurfacewithoutanygapn betweenwoodandresin,thepiecehasacontinuousn mono-structuremadeofdifferentmaterials,anesse 
+ntialelementofgradedmaterialn transition.n Left Fig.1Thefabricationprocess(top4pictrues). Pixelationandgeneratingtoolpathsn 
+byRhinoGrasshopper(bottom Processingand2 pictures) n Rightfinalbuiltpiece Fig.2The d Conclusionn Then 
+builtn piecen raisesn an question:n Whatn isn then boundaryn betweenn organic/inorganic?Sincethedegreeofn 
+hybridizationn ofn organic/inorganicn materialityvaries,boundarywould theblur.Apparentlyatreeintheforestisn 
+natural,n butn oncen cutdown,n isn itn artificialjustbecausethehumanhandn isn involved?Further,isn an 
+90%-10%n wood-resinn piecen artificial?n Ourn notionn ofn naturen willn needn ton ben transformedn sinceartifactsandtechnologieswouldn 
+ben moremediatedn withthesymbolizednaturaln elementsinlivingenvironment.Theboundarybetwee nnaturalandartificialwouldbeblurred.Weneedn 
+toinventanewcategoryforhybridmaterials,orn otdistinguishthemanymore[3].n n 1.P,PrinciplesofA Emmitt,S.,Olie,J.,Schmid,rchitecturalDetailing,Wiley-Blackwell(2004).n 
+2.Proactiv en Commu nicationsofthe O,KasandB,Nimish,InteractionswithArchitecturalSpaces:theMuscleProjects,ACM,IssueNo.51,pp.70-78(2008). 
+No.8,Volume3..rievedJanuary5,2011from NextNature.(2004).ExploringNextNatureRet http://www.nextnature.net/2005/03/exploring-next-naturen 
+n  Copyright is held by the author / owner(s). SIGGRAPH 2011, Vancouver, British Columbia, Canada, August 
+7 11, 2011. ISBN 978-1-4503-0921-9/11/0008 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2037714</article_id>
+		<sort_key>110</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>11</display_no>
+		<article_publication_date>08-07-2011</article_publication_date>
+		<seq_no>11</seq_no>
+		<title><![CDATA[Photochromic sculpture]]></title>
+		<subtitle><![CDATA[volumetric color-forming pixels]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2037703.2037714</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2037714</url>
+		<abstract>
+			<par><![CDATA[<p>In contrast to light-emitting displays like plasma display panels (PDPs) and liquid crystal displays (LCDs), color-forming displays like "E-Ink" which displays information by reflecting surrounding light are being actively researched as a technology that is easy on the eye and can even be applied in bright places such as outdoors in sunlight. Applying photochromic materials (PM) for controlling color in this manner, Photochromic Canvas [Hashida et al. 2010] and Slow Display [Saakes et al. 2010], which are combined with projected-light systems, make it possible to control color without contact with the surface of an object. In this paper, the concept, namely, "contactless color control," is extended to volumetric space, and "volumetric color-forming pixels" are successfully created. This paper proposes a system referred to as "photochromic sculpture" which can generate a dynamically changeable 3D sculpture. (see Figure 1).</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>A.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.3.0</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002944</concept_id>
+				<concept_desc>CCS->General and reference</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P2809251</person_id>
+				<author_profile_id><![CDATA[81100411762]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Tomoko]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hashida]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Tokyo]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[photochromic@nae-lab.org]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809252</person_id>
+				<author_profile_id><![CDATA[81100527572]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Yasuaki]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kakehi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Keio University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P2809253</person_id>
+				<author_profile_id><![CDATA[81100095332]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Takeshi]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Naemura]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Tokyo]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>1836873</ref_obj_id>
+				<ref_obj_pid>1836845</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Hashida, T. et.al. 2010. Photochromic Canvas: Drawing with Patterned Light In <i>Proceedings of SIGGRAPH2010 Poster</i> 2010.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1836843</ref_obj_id>
+				<ref_obj_pid>1836821</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Saakes, D. et.al 2010. Slow Display In <i>Proceedings of SIGGRAPH2010 Emerging Technologies</i> 2010.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1665196</ref_obj_id>
+				<ref_obj_pid>1665137</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Parker, M 2009. Lumarca In <i>Proceedings of SIGGRAPH ASIA '09 Art Gallery and Emerging Technologies</i> 2009.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1778813</ref_obj_id>
+				<ref_obj_pid>1833349</ref_obj_pid>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Barnum, P. et.al. 2010. A Multi-Layered Display withWater Drops In <i>Proceedings of SIGGRAPH2010 paper</i> 2010.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1935808</ref_obj_id>
+				<ref_obj_pid>1935701</ref_obj_pid>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Hashida, T. et.al. 2011. SolaColor: Space Coloration with Solar Light In <i>Proceedings of TEI'11 Art Explorations</i> 2011.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Photochromic Sculpture: Volumetric Color-forming Pixels Tomoko Hashida* Yasuaki Kakehi Takeshi Naemura 
+The University of Tokyo Keio University The University of Tokyo  Figure 1: Volumetric color-forming 
+pixels Figure 2: Multicolored display Figure 3: Controlling UV illumination patterns 1 Introduction In 
+contrast to light-emitting displays like plasma display panels (PDPs) and liquid crystal displays (LCDs), 
+color-forming displays like E-Ink which displays information by re.ecting surrounding light are being 
+actively researched as a technology that is easy on the eye and can even be applied in bright places 
+such as outdoors in sunlight. Applying photochromic materials (PM) for controlling color in this manner, 
+Photochromic Canvas [Hashida et al.2010] and Slow Display [Saakes et al.2010], which are combined with 
+projected-light systems, make it possible to control color without contact with the surface of an object. 
+In this paper, the concept, namely, contactless color control, is extended to volumetric space, and 
+volumetric color-forming pixels are successfully cre­ated. This paper proposes a system referred to as 
+photochromic sculpture which can generate a dynamically changeable 3D sculp­ture. (see Figure 1).  2 
+Photochromic Sculpture Photochromic sculpture consists of two parts: a presentation part composed of 
+laminated plates coated with PM granules and a con­trol part for manipulating projected light. As for 
+the PM, Spiropy­ran, which produces color under ultraviolet light (UV) and returns gradually to colorless 
+and transparent when the UV light is blocked, is used. In detail, .ve types of PM were used: PSP-7, 12, 
+21, 24, and 33 purchased from Yamada Chemical Co., Ltd. Each PM requires a different time for producing 
+and loosing its respective color. As the transparent plates on which the Spiropyran is coated, glass 
+which transmits UV is used. For the UV source, a long wave­length in the invisible range (i.e., 365 nm) 
+is used. In regard to the photochromic sculpture system, the following three technological innovations 
+are noteworthy. First, introducing a structure with high transparency makes it possible to create a sim­ple 
+presentation part which does not require electronic control. Ac­cordingly, it is possible to design the 
+presentation part on various scales. Second, controlling the time and strength of the UV illu­mination 
+makes it possible to control various colors synchronously. That is, by controlling the strength and time 
+of the UV illumination in accordance with each type of Spiropyran with different response times for each 
+color, it is possible to produce and eliminate the in­tended color at the intended timing. Third, the 
+position of *e-mail: photochromic@nae-lab.org the produced colors is controlled three-dimensionally 
+according to the pattern of the projected UV light. To do this, the granulated PM is arranged in such 
+a way that it does not appear to be stacked up from the viewpoint of the UV-light source. As described 
+in [Parker 2009] and [Barnum et al.2010], this inno­vation is an application of a method for controlling 
+3D images with a 2D projector to color-production control by UV light. 3 Experimental Results and Future 
+Works A prototype system, composed of 10 laminated glass plates (10 × 10 cm) spaced 1 cm apart, was constructed. 
+The PM was coated on the glass plates in a pattern of 3-mm-diameter dots. An example of a written 3D 
+geometrical pattern (in this case, a cone) is shown in Figure 1. As shown in this example, the 3D geometrical 
+pattern can be viewed from various angles when the transparent cube contain­ing it is held in the hand. 
+An example of a glass photochromic sculpture formed by using Spiropyran of .ve different colors is shown 
+in Figure 2. An example of projecting a different UV pattern for the same presentation part is shown 
+in Figure 3. In this manner, the photochromic sculpture can be dynamically changed in accor­dance with 
+the projected pattern of UV light from the control part. A system called photochromic sculpture . for 
+controlling volu­metric color-forming pixels with a UV-light pattern. was proposed and implemented. Photochromic 
+sculpture can display volume data by producing pleasing colors even in bright places. At present, aiming 
+at projection control of more complicated UV pat­terns, development of a UV projector using a digital 
+micro-mirror device is progressing well. Moreover, investigation aiming to create larger-scale photochromic 
+sculptures in outdoor locations in the same manner as the sundial principle. namely, using sun­light 
+which contains a considerable amount of UV light as the light source. is underway [Hashida et al.2011]. 
+ References HASHIDA, T. ET.AL. 2010. Photochromic Canvas: Drawing with Patterned Light In Proceedings 
+of SIGGRAPH2010 Poster 2010. SAAKES, D.ET.AL 2010. Slow Display In Proceedings of SIG-GRAPH2010 Emerging 
+Technologies 2010. PARKER, M 2009. Lumarca In Proceedings of SIGGRAPH ASIA 09 Art Gallery and Emerging 
+Technologies 2009. BARNUM, P. ET.AL. 2010. A Multi-Layered Display with Water Drops In Proceedings of 
+SIGGRAPH2010 paper 2010. HASHIDA, T. ET.AL. 2011. SolaColor: Space Coloration with Solar Light In Proceedings 
+of TEI 11 Art Explorations 2011. Copyright is held by the author / owner(s). SIGGRAPH 2011, Vancouver, 
+British Columbia, Canada, August 7 11, 2011. ISBN 978-1-4503-0921-9/11/0008  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+</content>
+</proceeding>

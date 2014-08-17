@@ -1,0 +1,2760 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>07/21/2013</start_date>
+		<end_date>07/25/2013</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Anaheim]]></city>
+		<state>California</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>2503368</proc_id>
+	<acronym>SIGGRAPH '13</acronym>
+	<proc_desc>ACM SIGGRAPH 2013 Emerging Technologies</proc_desc>
+	<conference_number>2013</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-4503-2340-6</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2013</copyright_year>
+	<publication_date>07-21-2013</publication_date>
+	<pages>16</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>Interact with the latest systems before they become hot topics in mainstream media and blogs. Emerging Technologies presents innovative technologies and applications in several fields, from displays and input devices to collaborative environments and robotics, and technologies that apply to film and game production.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<ccc>
+		<copyright_holder>
+			<copyright_holder_name>ACM</copyright_holder_name>
+			<copyright_holder_year>2013</copyright_holder_year>
+		</copyright_holder>
+	</ccc>
+</proceeding_rec>
+<content>
+	<article_rec>
+		<article_id>2503369</article_id>
+		<sort_key>10</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>1</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[AGATHE]]></title>
+		<subtitle><![CDATA[a tool for personalized rehabilitation of cognitive functions]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503369</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503369</url>
+		<abstract>
+			<par><![CDATA[<p>Stroke, traumatic brain injury, multiple sclerosis, Parkinson's disease, Alzheimer's... Every year in France, tens of thousands of people fall victim to one of those neurological pathologies. Acquired brain injury leads to cognitive impairment and heavy loss of autonomy. Rehabilitation interventions are needed to enable people to recover capacity and return to Activities of Daily Living (ADL), such as grocery shopping. Unfortunately, the resources made available in cognitive rehabilitation are insufficient for the growing needs of victims of brain damage. The assets of virtual reality to address this big problem of public health are today scientifically recognized [Rizzo and Kim 2005; Klinger, et al. 2010].</p> <p>In this context, we designed the AGATHE tool (Adaptable, configurable and upgradable tool for the generation of personalized therapeutic applications in cognitive rehabilitation) (AGATHE project, ANR-09-TECS-002).</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190484</person_id>
+				<author_profile_id><![CDATA[81440619445]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Evelyne]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Klinger]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Arts et M&#233;tiers, ParisTech, Angers-Laval, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[evelyne.klinger@ensam.eu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190485</person_id>
+				<author_profile_id><![CDATA[82458609857]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Pierre-Alain]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Joseph]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Bordeaux France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190486</person_id>
+				<author_profile_id><![CDATA[82458944757]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Jena-Luc]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Le Guiet]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Kerpape, Ploemeur France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190487</person_id>
+				<author_profile_id><![CDATA[81331492704]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Philippe]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Fuchs]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Armines, Paris France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190488</person_id>
+				<author_profile_id><![CDATA[82459231857]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Nicolas]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[du Lac]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Intempora, Issy les Moulineaux, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190489</person_id>
+				<author_profile_id><![CDATA[82459116057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Fabrice]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Servant]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Dassault Syst&#232;mes, V&#233;lizy-Villacoublay, France]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Klinger, E., Weiss, P. L., and Joseph, P. A. 2010. Hidden Curve Virtual reality for learning and rehabilitation. In <i>Rethinking physical and rehabilitation medicine (Didier JP, Bigand E, eds)</i>, Paris: Springer, 203--221.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1152120</ref_obj_id>
+				<ref_obj_pid>1152118</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Rizzo, A., and Kim, G. J. 2005. A SWOT analysis of the field of virtual reality rehabilitation and therapy. <i>Presence: Teleoper Virtual Environ</i>, 14(2):119--146.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ AGATHE: a tool for personalized rehabilitation of cognitive functions Evelyne Klinger Pierre-Alain 
+Joseph, Jena-Luc Le Guiet, Philippe Fuchs, Nicolas du Lac, Fabrice Servant, Arts et Métiers EA4136, 
+Kerpape, Armines, Intempora, Dassault Systèmes, ParisTech, Angers- Bordeaux France Ploemeur France Paris 
+France Issy les Moulineaux Vélizy-Villacoublay Laval France France France evelyne.klinger@ensam.eu 1. 
+Introduction Stroke, traumatic brain injury, multiple sclerosis, Parkinson s disease, Alzheimer s Every 
+year in France, tens of thousands of people fall victim to one of those neurological pathologies. Acquired 
+brain injury leads to cognitive impairment and heavy loss of autonomy. Rehabilitation interventions are 
+needed to enable people to recover capacity and return to Activities of Daily Living (ADL), such as grocery 
+shopping. Unfortunately, the resources made available in cognitive rehabilitation are insufficient for 
+the growing needs of victims of brain damage. The assets of virtual reality to address this big problem 
+of public health are today scientifically recognized [Rizzo and Kim 2005; Klinger, et al. 2010]. In this 
+context, we designed the AGATHE tool (Adaptable, configurable and upgradable tool for the generation 
+of personalized therapeutic applications in cognitive rehabilitation) (AGATHE project, ANR-09-TECS-002). 
+ 2. Exposition AGATHE is positioned as an industrial research project that was conceived and coordinated 
+by Arts et Métiers ParisTech. Five other partners participated to the design of the tool: Bordeaux EA4136, 
+Kerpape Rehabilitation Center, Armines, Intempora and Dassault Systèmes. AGATHE objective is to provide 
+therapists with an innovative means of dealing with cognitive rehabilitation and to offer patients customized 
+rehabilitation sessions, on the basis of various simulated Activities of Daily Living (sADL). It also 
+opens a new application field to the technology of the industrial partners. 2.1 Elaboration AGATHE tool 
+is a software package dedicated to two types of users (patients and therapists) and based on two real-time 
+software 3DVIA Studio from Dassault Systèmes (creation of real-time virtual interactive environments 
+) and RTMaps from Intempora (monitoring and real-time recording of patient activity through sensors). 
+Its core leans on a virtual neighborhood where functional places are positioned (town, studio, post office, 
+and supermarket). Each functional place is conducive to functional tasks or specific sADL (topographic 
+tasks, post mail, or shopping). While interacting during the Virtual Therapeutic Scenario (VTS), the 
+participant's activity is recorded in the real world thanks to sensors as well as in the virtual world 
+thanks to indicators. The analysis of the activity provides a picture of the participant s cognitive 
+and global functioning. Graphical User Interfaces (GUI) have been developed around AGATHE core. Therapist 
+GUIs are used for setting the tasks, managing the instructions and the aids, supervising or replaying 
+patient s activity. Patient GUI provides tools potentially useful to carry out the task and linked to 
+specific information (pause, plan of the neighborhood, instruction, help, date and time). Figure 1. 
+AGATHE neighborhood and Patient point of view.  3. Results Usability tests were carried out among healthy 
+subjects and patients with brain injury. A clinical trial is currently set up in order to validate the 
+efficacy of the personalized interventions among patients after stroke. Next steps will consist in consolidating 
+the current prototype and increasing its functionalities, as well as assessing the efficacy of AGATHE­based 
+rehabilitation among various populations of patients. 4. Conclusions With AGATHE, virtual reality serves 
+cognitive therapies, by offering patients customized rehabilitation sessions, on the basis of sADL, and 
+by allowing therapists to measure patient activity and to follow-up his progress. With AGATHE, patients 
+become actors of their therapy. Since mid 2012, AGATHE is being tested with patients in two rehabilitation 
+centers in France. The first phase of this research project ended successfully in Nov 2012 and we are 
+now looking for investors to bring this tool to the market in Europe and in the U.S. References KLINGER, 
+E., WEISS, P.L., AND JOSEPH, P.A. 2010. Hidden Curve Virtual reality for learning and rehabilitation. 
+In Rethinking physical and rehabilitation medicine (Didier JP, Bigand E, eds), Paris: Springer, 203-221. 
+RIZZO, A., AND KIM, G.J. 2005. A SWOT analysis of the field of virtual reality rehabilitation and therapy. 
+Presence: Teleoper Virtual Environ, 14(2):119-146. Permission to make digital or hard copies of part 
+or all of this work for personal or classroom use isgranted without fee provided that copies are not 
+made or distributed for commercial advantage and that copies bear this notice and the full citation on 
+the first page. Copyrights for third-party components of thiswork must be honored. For all other uses, 
+contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by 
+the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503370</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>2</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[AIREAL]]></title>
+		<subtitle><![CDATA[tactile gaming experiences in free air]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503370</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503370</url>
+		<abstract>
+			<par><![CDATA[<p>Interactions with our computers have expanded into the physical world. Recent developments of low-cost gesture tracking technologies, like the Microsoft Kinect, have enabled millions of users to interact with their computers by gesturing with their bodies. Furthermore, computer vision tracking and registration techniques now enable novel projection based displays to overlay projected images into our physical environments, creating entirely new augmented reality experiences. These natural interfaces will continue to be incorporated into our mobile devices enabling rich interactive experiences anywhere and at anytime. However, one missing piece to this emerging world of natural interfaces is the absence of physical feedback.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190490</person_id>
+				<author_profile_id><![CDATA[81548021276]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Rajinder]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sodhi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Disney Research Pittsburgh and University of Illinois]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190491</person_id>
+				<author_profile_id><![CDATA[81504687586]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Matthew]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Glisson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Disney Research Pittsburgh]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190492</person_id>
+				<author_profile_id><![CDATA[81100593278]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Ivan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Poupyrev]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Disney Research Pittsburgh]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>2503370</ref_obj_id>
+				<ref_obj_pid>2503368</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Sodhi, R., Glisson, M., Poupyrev, I. AIREAL: Interactive Tactile Experiences in Free Air <i>(Submitted to Proc of SIGGRAPH, 2013)</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1866073</ref_obj_id>
+				<ref_obj_pid>1866029</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Wilson, A. D and Benko, H. 2010. Combining Multiple Depth Camera and Projectors for Interactions On, Above and Between Surfaces. In <i>Proc. of UIST</i>'10, ACM, 273--282.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ AIREAL: Tactile Gaming Experiences in Free Air RajinderSodhi1,2MatthewGlisson1IvanPoupyrev11Disney Research 
+Pittsburgh, USA 2UniversityofIllinois,USA  1. Introduction Interactions with our computers have expanded 
+into the physicalworld. Recent developments of low-cost gesture trackingtechnologies, like the Microsoft 
+Kinect, have enabled millions ofusers to interact with their computers by gesturing with theirbodies. 
+Furthermore, computer vision tracking and registrationtechniques now enable novel projection based displays 
+to overlayprojected images into our physical environments, creating entirely new augmented reality experiences. 
+These natural interfaces will continue to be incorporated into our mobile devices enabling rich interactive 
+experiences anywhere and at anytime. However, onemissing piece to this emerging world of natural interfaces 
+is theabsence of physical feedback. AIREAL is a technology that delivers interactive tactile experiences 
+in free air. Currently, users are still required to wear aphysical device (e.g., gloves, belts, vests) 
+to receive tactile feedback. The need to instrument users hinders natural user interaction and limits 
+the range of applications that can effectively employ tactile feedback. With AIREAL, interactive tactile 
+sensations can be created in free air using compressed air pressure fields that stimulate the user s 
+skin. AIREAL is designed to usevortices, which are rings of air that can travel large distanceswhile 
+keepings its shape and speed (Figure 1a). Importantly,AIREAL does not require the user or a physical 
+object to beinstrumented with a device. AIREAL is a scalable, inexpensive and a practical free air haptic 
+device that can be used in a broad range of applications. These include gaming, mobile applications,gesture 
+control and interaction among many others. 2. Design of AIREAL AIREAL generates vortices by moving 
+air from an enclosedvolume through an aperture aimed into the physical environment.Our vortex generator 
+is almost entirely 3D printed using UV­cured materials and is comprised of a 3D printed enclosure (8cm 
+x8cm x 8cm), flexible nozzle (4 cm length) and a pan and tilt gimbal structure capable of hitting objects 
+with a 75-degree targeting field. Five speakers (Whisper 2 Subwoofer) are mounted around the enclosure, 
+with the flexible nozzle facing thephysical environment. When the speaker s flexible diaphragmsare actuated, 
+they push air out of the enclosure. The displacementrate of the diaphragm determines the flow rate of 
+the air going inand out of the device. A signal generator board is mountedbehind the enclosure and uses 
+five 20W Class D amplifiers todrive each speaker on the device. Air vortices can be created withan 8.5 
+cm resolution at 1 meter. A more detailed description of the device, design and control mechanisms, experimental 
+evaluation of device performance and perception on users can be found in our companion technical paper 
+[Sodhi et al. 2013]. 3. AIREAL Applications While the application space of AIREAL is broad, we focus 
+oncreating new entertainment-based experiences that provide rich tactile sensations in free air. We are 
+particularly interested inusing AIREAL to create new gaming experiences that allows usto feel and engage 
+with our virtual objects in new and meaningful ways. This can be achieved by enhancing traditional displaydevices 
+(e.g. televisions, desktops, mobile phones) with AIREAL  Figure 1: Top, The AIREAL device emits a ring 
+of air called a vortex towards a user that can be felt in free-air. Bottom, Multiple AIREAL devices can 
+be used to provide free-air sensations when interacting with virtual objects. to provide users with interactive 
+tactile sensations that are coupledto interactions with virtual 3D objects (Figure 1b). Furthermore, 
+novel projection based displays equipped with AIREAL can beused to project virtual elements directly 
+on the user s body thatare collocated with free air tactile sensations [WILSON 2012](please see accompanying 
+video). 4. SIGGRAPH Demonstration At emerging technologies, we will demonstrate an interactivetabletop 
+with overhead projector and depth camera that showcasesa series of gaming experiences with free air sensations. 
+Visitors will be able to interact with virtual objects by selecting them on the tabletop. The system 
+will recognize, track and project virtual elements on the user s hands that contain free air sensations 
+(e.g.,a butterfly moving on top of the users hand and arm). References SODHI, R., GLISSON, M., POUPYREV, 
+I. AIREAL: Interactive Tactile Experiences in Free Air (Submitted to Proc of SIGGRAPH, 2013). WILSON, 
+A.D AND BENKO, H. 2010. Combining Multiple Depth Camera and Projectors for Interactions On, Above and 
+Between Surfaces. In Proc. of UIST 10, ACM, 273-282. Permission to make digital or hard copies of part 
+or all of this work for personal or classroom use isgranted without fee provided that copies are not 
+made or distributed for commercial advantage and that copies bear this notice and the full citation on 
+the first page. Copyrights for third-party components of thiswork must be honored. For all other uses, 
+contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by 
+the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503371</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>3</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[An autostereoscopic projector array optimized for 3D facial display]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503371</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503371</url>
+		<abstract>
+			<par><![CDATA[<p>Video projectors are rapidly shrinking in size, power consumption, and cost. Such projectors provide unprecedented flexibility to stack, arrange, and aim pixels without the need for moving parts. We present a dense projector display that is optimized in size and resolution to display an autostereoscopic life-sized 3D human face with a wide 110 degree field of view. Applications include 3D teleconferencing and fully synthetic characters for education and interactive entertainment.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190493</person_id>
+				<author_profile_id><![CDATA[82458991657]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Koki]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Nagano]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[USC Institute for Creative Technologies]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190494</person_id>
+				<author_profile_id><![CDATA[81100556708]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Andrew]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jones]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[USC Institute for Creative Technologies]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190495</person_id>
+				<author_profile_id><![CDATA[82458855157]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Jing]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Liu]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[USC Institute for Creative Technologies]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190496</person_id>
+				<author_profile_id><![CDATA[81440600975]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Jay]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Busch]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[USC Institute for Creative Technologies]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190497</person_id>
+				<author_profile_id><![CDATA[81440613130]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Xueming]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Yu]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[USC Institute for Creative Technologies]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190498</person_id>
+				<author_profile_id><![CDATA[81100467115]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Mark]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bolas]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[USC Institute for Creative Technologies]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190499</person_id>
+				<author_profile_id><![CDATA[81504685651]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>7</seq_no>
+				<first_name><![CDATA[Paul]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Debevec]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[USC Institute for Creative Technologies]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>1539006</ref_obj_id>
+				<ref_obj_pid>1538981</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Balogh, T., Kov&#225;cs, P., and Megyesi, Z. 2007. Holovizio 3d display system. In <i>Proceedings of the First International Conference on Immersive Telecommunications</i>, ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering), 19.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1276427</ref_obj_id>
+				<ref_obj_pid>1276377</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Jones, A., McDowall, I., Yamada, H., Bolas, M., and Debevec, P. 2007. Rendering for an interactive 360 light field display. <i>ACM Transactions on Graphics (TOG) 26</i>, 3, 40.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Jurik, J., Jones, A., Bolas, M., and Debevec, P. 2011. Prototyping a light field display involving direct observation of a video projector array. In <i>Computer Vision and Pattern Recognition Workshops (CVPRW), 2011 IEEE Computer Society Conference on</i>, IEEE, 15--20.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ An Autostereoscopic Projector Array Optimized for 3D Facial Display Koki Nagano Andrew Jones Jing Liu 
+Jay Busch Xueming Yu Mark Bolas Paul Debevec USC Institute for Creative Technologies  Figure 1: Our 
+projector array (left) generates autostereoscopic views of a virtual character (middle) and 4D facial 
+performance capture (right) Introduction Video projectors are rapidly shrinking in size, power consumption, 
+and cost. Such projectors provide unprece­dented .exibility to stack, arrange, and aim pixels without 
+the need for moving parts. We present a dense projector display that is op­timized in size and resolution 
+to display an autostereoscopic life­sized 3D human face with a wide 110 degree .eld of view. Appli­cations 
+include 3D teleconferencing and fully synthetic characters for education and interactive entertainment. 
+Related Work The commercial company Hologra.ka has demonstrated various large-format screens up to 3m 
+across with up to 80 large-format projectors [Balogh et al. 2007] but does not pub­ lish their projector 
+speci.cations, diffusion materials, calibration process, or rendering algorithms, and has not speci.cally 
+demon­strated the concentrated spatial and angular resolution for convinc­ing autostereoscopic display 
+of an interactive face. Our display is reproducible with off-the-shelf components, and a central goal 
+of our E-Tech exhibit will be to show how such a display can be con­structed easily and run from a single 
+computer to encourage re­search in the .eld. Projector Array Design Our display utilizes 72 Texas Instru­ments 
+DLP Pico Projector Development Kit v2.0 devices to illu­minate a 30cm × 30cm anisotropic screen, and 
+we removed the cases and built custom mounts to place the projectors just 14mm apart. We use the horizontal 
+cylindrical ridges of a plastic 40 line­per inch lenticular screen painted black on its back side to 
+achieve the anisotropic re.ection with a high contrast ratio in ambient light. The light from each projector 
+lens re.ects back as a vertical strip of light, so to blend the lines together we use a 1. horizontal 
+by 60. vertical light-shaping diffuser sheet from Luminit, which also in­creases the vertical diffusion. 
+We wrote a GPU simulator program to show the effect of different projector array shapes, amounts of diffusion, 
+and projector densities, which led us to place the pro­jectors in a 124cm curve with a radius of 60cm 
+to maximize the depth of .eld. We also prototyped the display using a single pico­projector on a motion 
+control arm and long-exposure photography [Jurik et al. 2011] to simulate the 3D effect with real-world 
+equip­ ment. Our setup provides a high angular resolution of 1.66. be­tween views, achieving not only 
+binocular stereo but also com­pelling motion parallax. GPU rendering Notably, we drive our projector 
+array using a single computer with twenty-four 1920 × 480 video outputs from four AMD FirePro W600 Eye.nity 
+graphics cards. We then split each video signal using a Matrox TripleHeadToGo box into three 640x480 
+outputs, yielding the 72 projector signals. We adapted the multiperspective vertex shader technique of 
+[Jones et al. 2007] to work with .xed projector arrays and different display surface shapes. For a given 
+mirror shape and diffusion pro.le, we approx­imate the re.ected projector positions and use them to warp 
+ver­tex positions to generate multiple-center of projection images. We project a series of AR toolkit 
+markers from each projector to cali­brate the display geometrically and photometrically. As shown in 
+the accompanying video, we can produce a stable image with cor­rect perspective for either .at or curved 
+display surfaces. We can also determine the ideal horizontal diffusion width by simulating different 
+anisotropic re.ectance lobes. Vertical Parallax Our display achieves autostereoscopic horizon­tal parallax 
+without lag. For faces which can make eye contact, ver­tical parallax is also important. Unlike other 
+systems, we render ac­curate vertical parallax by detecting the viewer head positions using a Microsoft 
+Kinect. Given the height and distance of the multiple viewers, we warp the multiperspective rendering 
+according to who will see each column of projected pixels. An example of tracked vertical parallax rendering 
+can be seen in the accompanying video. Future Work Our projector array construction and calibration approach 
+admits alternate setups, including rear-projection, and full-body projection using higher-resolution 
+projectors placed with greater density further away from a larger screen. References BA L O G H, T., 
+KOV ´ AC S , P., AND ME GYESI , Z. 2007. Holovizio 3d display system. In Proceedings of the First International 
+Conference on Immersive Telecommunications, ICST (Institute for Computer Sciences, Social-Informatics 
+and Telecommunica­tions Engineering), 19. JO N ES , A., MCDOWALL , I., YA M A DA , H., BO L A S , M., 
+A N D DEB E V EC , P. 2007. Rendering for an interactive 360 light .eld display. ACM Transactions on 
+Graphics (TOG) 26, 3, 40. JU R IK, J., JO NE S, A., BO L A S, M., AND DE B E V E C, P. 2011. Pro­totyping 
+a light .eld display involving direct observation of a video projector array. In Computer Vision and 
+Pattern Recog­nition Workshops (CVPRW), 2011 IEEE Computer Society Con­ference on, IEEE, 15 20. Permission 
+to make digital or hard copies of part or all of this work for personal or classroom use isgranted without 
+fee provided that copies are not made or distributed for commercial advantage and that copies bear this 
+notice and the full citation on the first page. Copyrights for third-party components of thiswork must 
+be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 
+2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503372</article_id>
+		<sort_key>40</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>4</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>4</seq_no>
+		<title><![CDATA[AquaTop display]]></title>
+		<subtitle><![CDATA[a true "immersive" water display system]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503372</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503372</url>
+		<abstract>
+			<par><![CDATA[<p>The AquaTop Display is system that uses the projection of images onto cloudy water. This system allows the users limbs to freely move through, under and over the projection surface. As the projection medium is fluid, we propose new interaction methods specific to this medium by using a Kinect Depth Sensor. Scooping up water, protruding fingers out from underneath the water surface are capable with this system. These type of interactions are not normally possible with current impenetrable rigid surfaces. Using mapped projection, AquaTop Display also augments one's limbs on the water surface, providing a environment for an 'immersible' experience, allowing the users to become one with the screen.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190500</person_id>
+				<author_profile_id><![CDATA[81490686533]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Yasushi]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Matoba]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Electro-Communications (UEC Tokyo)]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[matoba@vogue.is.uec.ac.jp]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190501</person_id>
+				<author_profile_id><![CDATA[81384619528]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Yoichi]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Takahashi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Electro-Communications (UEC Tokyo)]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190502</person_id>
+				<author_profile_id><![CDATA[81442602487]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Taro]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Tokui]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Electro-Communications (UEC Tokyo)]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190503</person_id>
+				<author_profile_id><![CDATA[82458811057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Shin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Phuong]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Electro-Communications (UEC Tokyo)]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190504</person_id>
+				<author_profile_id><![CDATA[82458680057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Shingo]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Yamano]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Electro-Communications (UEC Tokyo)]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190505</person_id>
+				<author_profile_id><![CDATA[81100297951]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Hideki]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Koike]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Electro-Communications (UEC Tokyo)]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>2396687</ref_obj_id>
+				<ref_obj_pid>2396636</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Takahashi, Y., Matoba, Y., and Koike, H. 2012. Fluid surface: interactive water surface display for viewing information in a bathroom. In <i>Proceedings of the 2012 ACM international conference on Interactive tabletops and surfaces</i>, ACM, New York, NY, USA, ITS '12, 311--314.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2073388</ref_obj_id>
+				<ref_obj_pid>2073370</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Yagi, A., Imura, M., Kuroda, Y., and Oshiro, O. 2011. 360-degree fog projection interactive display. In <i>SIGGRAPH Asia 2011 Emerging Technologies</i>, ACM, New York, NY, USA, SA '11, 19:1--19:1.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ AquaTop Display: A true immersive water display system Yasushi Matoba, Yoichi Takahashi, Taro Tokui, 
+Shin Phuong, Shingo Yamano, Hideki Koike* The University of Electro-Communications (UEC Tokyo)  Figure 
+1: (Left) AquaTop Display prototype hardware setup. (Center) Linking physical with virtual, various gestures 
+unique to water interaction. (Right) Launched and illuminated water drops, and force feedback with vibrating 
+water using speakers. Abstract The AquaTop Display is system that uses the projection of images onto 
+cloudy water. This system allows the users limbs to freely move through, under and over the projection 
+surface. As the pro­jection medium is .uid, we propose new interaction methods spe­ci.c to this medium 
+by using a Kinect Depth Sensor. Scooping up water, protruding .ngers out from underneath the water surface 
+are capable with this system. These type of interactions are not normally possible with current impenetrable 
+rigid surfaces. Using mapped projection, AquaTop Display also augments one s limbs on the water surface, 
+providing a environment for an immersible experience, allowing the users to become one with the screen. 
+1 Introduction Throughout the history of display panel technologies, including the dated CRT and now 
+widely adopted LCD, displays have always been a solid, .xed surface. Whilst it is possible to touch these 
+screens, physically immersing ones body into or diving into the screen similar to that of holography 
+in cinema is not capable. In­teractions with these displays were thus considered relative, as the position 
+of the users were mapped to the coordinates of the image within the screen, for example, with current 
+gaming systems the users movement of a virtual tennis racket using a motion controller is not one to 
+one with real world movements. Given these two points, we propose a water display system, the AquaTop 
+Display that allows one to one movement within a display whilst becom­ing one with the displayed image 
+due to the nature of the display medium. This system introduces the idea of using water as a display 
+medium for spatial augmented reality, suggesting true immersive interaction. AquaTop Display builds upon 
+the previous water pro­jection technology [Yagi et al. 2011; Takahashi et al. 2012] whilst adding new 
+and improved interactions such as conventional touch to compliment the submerging of .ngers, as well 
+as suggestion of *e-mail:matoba@vogue.is.uec.ac.jp an interactive application game that also provides 
+haptic feedback. 2 Prototype Figure 1 (Left) shows the architectural layout of the AquaTop Dis­play. 
+The main body of the display is a 600mm x 900mm x 250mm plastic container (the display volume). A Microsoft 
+Kinect depth camera is mounted above the display volume surface together with a projector. Standard speakers 
+are waterproofed and .xed to the bottom of the display volume container. The hardware is controlled by 
+a master computer. A milky bath salt and water mix gives the water display volume a white, opaque surface 
+which can be used for both re.ecting IR light for detecting input via a Kinect, and the pro­jection of 
+clear images on the water s surface. As shown in Figure 1 (Center), the proposed system provides 3 interaction 
+metaphors. One is multi-touch input using detection of .ngers protruding from under the surface (Center-Left). 
+Another is the use of palms and forearms above the .uid surface, creating a direct link with physi­cal 
+and virtual environments. Scooping gestures using both hands to lift objects from the water re.ecting 
+the real-life gestures used with physical water. Additionally, conventional touch from above the surface 
+is also possible, complimenting the touch from below (submerged .ngers), which allows for greater possibilities 
+in spatial interaction on the water surface. All of these interactions provide a natural connection of 
+physical and virtual realities that can be used in real-time entertainment and gaming. For feedback, 
+audio and force feedback is proposed in the form of the vibration of water via a submerged speaker. Adopting 
+the characteristics of sound wave propagation within .uids, the speakers provide water disturbance in 
+the form of splashing and ultrasonic water vibrations as a means of providing haptic feedback.  References 
+TA KAH A S H I, Y., MATO BA , Y., A N D KO IKE, H. 2012. Fluid sur­face: interactive water surface display 
+for viewing information in a bathroom. In Proceedings of the 2012 ACM international con­ference on Interactive 
+tabletops and surfaces, ACM, New York, NY, USA, ITS 12, 311 314. YAGI , A., IMU R A, M., KURODA , Y., 
+AND OS H IRO, O. 2011. 360-degree fog projection interactive display. In SIGGRAPH Asia 2011 Emerging 
+Technologies, ACM, New York, NY, USA, SA 11, 19:1 19:1. Permission to make digital or hard copies of 
+part or all of this work for personal or classroom use isgranted without fee provided that copies are 
+not made or distributed for commercial advantage and that copies bear this notice and the full citation 
+on the first page. Copyrights for third-party components of thiswork must be honored. For all other uses, 
+contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by 
+the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503373</article_id>
+		<sort_key>50</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>5</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>5</seq_no>
+		<title><![CDATA[Foveated 3D display]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503373</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503373</url>
+		<abstract>
+			<par><![CDATA[<p>Humans see at high resolution only within a few degrees of the direction we are looking. Moving our gaze position around the current scene, we build up the rich visual landscape we consider reality from a sparse set of details, filled in with coarser data from our peripheral vision.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190506</person_id>
+				<author_profile_id><![CDATA[81341489999]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Mark]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Finch]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Microsoft Research]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190507</person_id>
+				<author_profile_id><![CDATA[81100130209]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Brian]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Guenter]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Microsoft Research]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190508</person_id>
+				<author_profile_id><![CDATA[81100167784]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[John]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Snyder]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Microsoft Research]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>2366183</ref_obj_id>
+				<ref_obj_pid>2366145</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Guenter, B., Finch, M. Drucker, S. Tan, D., and Snyder, J. 2012. Foveated 3D Graphics. In <i>ACM Trans. Graph. 26</i> (Nov.).]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Foveated 3D Display Figure 1: Foveated rendering. Three low-resolution image layers centered about the 
+viewer s current gaze position, as determined by the eye tracking hardware, are composited together to 
+create the high-resolution final frame. The inner layer, highlighted here in red, matches the screen 
+s pixel density but covers only a tiny fraction of it. The middle layer, outlined in green, covers a 
+larger area at half the pixel density in each dimension. The background layer, outlined in blue, covers 
+the entire screen at a very coarse resolution. Careful but inexpensive antialiasing prevents distracting 
+artifacts in the periphery and maintains the hi-res everywhere illusion.    Mark Finch Brian Guenter 
+John Snyder      Microsoft Research 1. Introduction  Humans see at high resolution only within 
+a few degrees of the direction we are looking. Moving our gaze position around the current scene, we 
+build up the rich visual landscape we consider reality from a sparse set of details, filled in with coarser 
+data from our peripheral vision. Traditional display systems don t know where the user is looking and 
+so must render at uniformly high resolution. Consumer demands to raise graphics quality while lowering 
+hardware weight and power consumption suggest that this obvious inefficiency will not persist indefinitely. 
+We exploit the foveated nature of the human visual system by combining 150 years of psycho-visual research, 
+newly maturing eye tracking technology, and careful antialiasing and compositing techniques on the GPU. 
+User studies have verified that our system provides quality equivalent to traditional display while rendering 
+a factor of 10 to 15 fewer pixels, and achieving an overall speedup of a factor of 6 to 8. Figure 2: 
+The tracker follows user gaze position which governs rendering to this extremely high-resolution 3x3 
+monitor array. 2. System Description  Our system uses commodity hardware to track the viewer s gaze 
+position. Each frame the scene is rendered three times (see Figure 1). Two inner layers are centered 
+at the current gaze position, and a third outer layer fills in the periphery. The three layers are then 
+composited together smoothly to approximate the more continuous falloff of acuity away from the gaze 
+position. The system can be tuned to match acuity falloff as predicted by the psycho-visual literature. 
+We can also push performance at the expense of visual quality in the periphery, to explore more subjective 
+evaluations of good enough . 3. Conclusions  Exploiting foveation has long been a holy grail in computer 
+graphics: promising but practically elusive. Presenting this work at Emerging Technologies would let 
+the CG community experience our system for themselves, to judge the benefits and quality of foveated 
+display. It can seem incredible that rendering which to bystanders looks so blurry in the periphery looks 
+quite normal to the person being tracked. The experience is both startling and convincing. References 
+GUENTER, B., FINCH, M. DRUCKER, S. TAN, D., AND SNYDER, J. 2012. Foveated 3D Graphics. In ACM Trans. 
+Graph. 26 (Nov.). 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503374</article_id>
+		<sort_key>60</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>6</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>6</seq_no>
+		<title><![CDATA[HapSeat]]></title>
+		<subtitle><![CDATA[a novel approach to simulate motion in audiovisual experiences]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503374</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503374</url>
+		<abstract>
+			<par><![CDATA[<p>The <i>HapSeat</i> is a novel and inexpensive approach for simulating motion sensations in audiovisual experience. Multiple force-feedbacks are applied to the sitting users' body to generate a 6DoF sensation of motion as users are experiencing passive navigation. A set of force-feedback devices (a headrest and mobile armrests) are arranged around a seat so that they can apply forces to the user. Several video sequences highlight the capabilities of the <i>HapSeat</i>. We propose SIGGRAPH attendees to experience these videos enhanced by haptic effects of motion.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190509</person_id>
+				<author_profile_id><![CDATA[81482659395]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Fabien]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Danieau]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Technicolor]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[fabien.danieau@technicolor.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190510</person_id>
+				<author_profile_id><![CDATA[81436603202]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Julien]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Fleureau]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Technicolor]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190511</person_id>
+				<author_profile_id><![CDATA[81453662753]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Philippe]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Guillotel]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Technicolor]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190512</person_id>
+				<author_profile_id><![CDATA[82259384757]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Nicolas]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mollet]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Technicolor]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190513</person_id>
+				<author_profile_id><![CDATA[81100094043]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Marc]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Christie]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[IRISA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190514</person_id>
+				<author_profile_id><![CDATA[81100289712]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Anatole]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[L&#233;cuyer]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Inria]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>2407350</ref_obj_id>
+				<ref_obj_pid>2407336</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Danieau, F., Fleureau, J., Guillotel, P., Mollet, N., Christie, M., and L&#233;cuyer, A. 2012. HapSeat: Producing Motion Sensation with Multiple Force-feedback Devices Embedded in a Seat. In <i>ACM VRST</i>, 69--76.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ HapSeat: a novel approach to simulate motion in audiovisual experiences Fabien Danieau* Julien Fleureau 
+Philippe Guillotel Nicolas Mollet Marc Christie Anatole L´ecuyer Technicolor Technicolor Technicolor 
+Technicolor IRISA Inria Abstract The HapSeat is a novel and inexpensive approach for simulat­ing motion 
+sensations in audiovisual experience. Multiple force­feedbacks are applied to the sitting users body 
+to generate a 6DoF sensation of motion as users are experiencing passive navigation. A set of force-feedback 
+devices (a headrest and mobile armrests) are arranged around a seat so that they can apply forces to 
+the user. Several video sequences highlight the capabilities of the HapSeat. We propose SIGGRAPH attendees 
+to experience these videos en­hanced by haptic effects of motion. Figure 1: Prototype of the HapSeat. 
+1 Toward motion simulation in consumer set­tings Motion simulators are well-known devices designed to 
+create a feel­ing of motion. They are intensively used in driving or .ight simula­tors for training purposes. 
+Most are based on a Stewart platform, a 6 Degrees of Freedom (DoF) platform driven by 6 hydraulic cylin­ders. 
+This technology, mainly used in virtual reality settings, is gaining interest in entertainment applications 
+through video games, amusement parks or 4D cinemas . We believe that the next step of this evolution 
+could be the use of motion simulation in consumer environment (to enhance the home cinema experience 
+for instance). Though Stewart-based motion platforms provide a realistic sensa­tion of motion they remain 
+expensive for mass market and they are not suitable for consumer settings. Simpler setups based on force­feedback 
+or vibrating devices would be more adapted but they trig­ger only basic sensations. To .ll the gap between 
+these two categories we propose the HapSeat [Danieau et al. 2012]. Instead of moving the whole user s 
+body as on motion platforms, only some parts of the body are stim­ulated. The perception of motion results 
+from the stimulation of dif­ferent parts of the body (vestibular system, visceral organs, kines­thetic 
+system). Our approach is built on the hypothesis that local *e-mail: fabien.danieau@technicolor.com forces 
+can generate a global sensation of motion. A prototype has been created, relying on 3 low-cost actuators 
+held by an armchair­shaped structure. Two of them stimulate the user s hands while a third one stimulates 
+the head (Figure 1). The originality of this work lies on: a novel approach for motion simulation replacing 
+expensive motion platforms by multiple low-cost force-feedback, the design of a new device, and the development 
+of a new control algorithm. 2 The HapSeat demonstration We invite the SIGGRAPH audience to discover 
+this new type of motion simulator. The user comfortably seated on the HapSeat will experience videos 
+enhanced with haptic effects of motion. In order to illustrate the capabilities of the HapSeat we propose 
+four one­minute sequences. The Horse Ride -A camera coupled to an inertial measurement unit (IMU) has 
+been .xed on a horse rider s torso, resulting in a .rst person point-of-view video of a horse riding 
+session. Using the data from the IMU, the rider s movements are rendered on the HapSeat. The user will 
+feel as he is riding an actual horse! The Rollercoaster -With this sequence the user will enjoy the excit­ing 
+sensations of a rollercoaster. The HapSeat will provide realistic vibrations and motion effects. The 
+Spaceship -The user will board a virtual spaceship navigat­ing through the galaxy. This sequence shows 
+a 6DoF movements rendered by the HapSeat. The 4D Home Cinema -This last scenario shows the capabilities 
+of the HapSeat to enhance a classical movie. Various haptic effects are rendered: vibrations, force-feedback, 
+motion. 3 Results and Perspectives A user study has been conducted to evaluate the quality of the sim­ulated 
+movement and its impact on the quality of the video viewing experience [Danieau et al. 2012]. Participants 
+reported that the sim­ ulated motion was consistent with their real-world experience and they experienced 
+a sensation of self-motion. In general we observed that quality of experience is increased by the HapSeat. 
+This device was tested by 100 people during several internal events at Techni­color and we received enthusiastic 
+and positive feedback from the audience. This new way of simulating motion in a consumer environment 
+opens the path to novel immersive applications. The prototype is not limited to motion simulation but 
+can also provide force­feedback and vibration effects which enable even more creative possibilities. 
+Furthermore the input capabilities of the actuators could be used to allow the user to interact with 
+the simulation, offer­ing the prospect of extending applications of the HapSeat to .ight or driving simulators, 
+teleoperation and more!  References DANI E AU, F., FL EUR E AU, J., GU ILL OTE L , P., MO L L ET, N., 
+CH RI S TI E , M., A N D L ´ E C U YE R , A. 2012. HapSeat: Producing Motion Sensation with Multiple 
+Force-feedback Devices Em­bedded in a Seat. In ACM VRST, 69 76. Permission to make digital or hard copies 
+of part or all of this work for personal or classroom use isgranted without fee provided that copies 
+are not made or distributed for commercial advantage and that copies bear this notice and the full citation 
+on the first page. Copyrights for third-party components of thiswork must be honored. For all other uses, 
+contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by 
+the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503375</article_id>
+		<sort_key>70</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>7</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>7</seq_no>
+		<title><![CDATA[IllumiRoom]]></title>
+		<subtitle><![CDATA[peripheral projected illusions for interactive experiences]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503375</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503375</url>
+		<abstract>
+			<par><![CDATA[<p><i>IllumiRoom</i> is a proof-of-concept system that augments the area surrounding a television with projected visualizations to enhance traditional gaming experiences. Our system demonstrates how projected visualizations in the periphery can negate, include, or augment the existing physical environment and complement the content displayed on the television screen. We can change the appearance of the room, induce apparent motion, extend the field of view, and enable entirely new physical gaming experiences. Our system is entirely self-calibrating and is designed to work in any room.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190515</person_id>
+				<author_profile_id><![CDATA[81558345456]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Brett]]></first_name>
+				<middle_name><![CDATA[R.]]></middle_name>
+				<last_name><![CDATA[Jones]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Microsoft Research, Redmond, WA and University of Illinois at Urbana-Champaign, Urbana, IL]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[brjones2@illinois.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190516</person_id>
+				<author_profile_id><![CDATA[81100182346]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Hrvoje]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Benko]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Microsoft Research, Redmond, WA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[benko@microsoft.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190517</person_id>
+				<author_profile_id><![CDATA[81100064088]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Eyal]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ofek]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Microsoft Research, Redmond, WA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[eyalofek@microsoft.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190518</person_id>
+				<author_profile_id><![CDATA[81350567780]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Andrew]]></first_name>
+				<middle_name><![CDATA[D.]]></middle_name>
+				<last_name><![CDATA[Wilson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Microsoft Research, Redmond, WA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[awilson@microsoft.com]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>502354</ref_obj_id>
+				<ref_obj_pid>502348</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Baudisch, P., Good, N., & Stewart, P. (2001). Focus Plus Context Screens: Combining Display Technology with Visualization Techniques. <i>ACM UIST</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2466112</ref_obj_id>
+				<ref_obj_pid>2470654</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Jones, B., Benko, H., Ofek, E., & Wilson, A. D. (2013). IllumiRoom: Peripheral Projected Illusions for Interactive Experiences. <i>ACM CHI (to appear)</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ IllumiRoom: Peripheral Projected Illusions for Interactive Experiences 1,2 1 1 1 Brett R. JonesHrvoje 
+BenkoEyal OfekAndrew D. Wilson 1Microsoft Research 2University of Illinois at Urbana-Champaign Redmond, 
+WA Urbana, IL {benko, eyalofek, awilson}@microsoft.com brjones2@illinois.edu Figure 1. IllumiRoom is 
+a proof-of-concept system that augments the physical environment surrounding a television to enhance 
+gaming experiences. For example, (a) with a 3D scan of the physical environment we can (b) directly extend 
+the FOV of the game, (c) selectively render scene elements, (d) augment the appearance of the physical 
+environment (here as a cartoon). The images are un-edited; showing the real-time, working prototype. 
+1. Abstract IllumiRoom is a proof-of-concept system that augments the area surrounding a television with 
+projected visualizations to enhance traditional gaming experiences. Our system demonstrates how projected 
+visualizations in the periphery can negate, include, or augment the existing physical environment and 
+complement the content displayed on the television screen. We can change the appearance of the room, 
+induce apparent motion, extend the field of view, and enable entirely new physical gaming experiences. 
+Our system is entirely self-calibrating and is designed to work in any room. 2. Introduction The IllumiRoom 
+proof-of-concept system consists of a projector and a depth sensor that covers a wide area surrounding 
+a television screen (Figure 2). The projected visuals enhance the viewing experience and blur the boundary 
+between the on-screen content and the surrounding room. We demonstrate how projected visualizations in 
+the periphery can negate, include or augment the physical environment, and thus enhance the content displayed 
+on the television screen. We call such visualizations peripheral projected illusions. Similar to Focus+Context 
+displays (Baudisch, Good, &#38; Stewart, 2001), the television provides a traditional, high-resolution 
+gaming experience and the projector provides low-resolution information for the user s peripheral vision. 
+In contrast to previous work, we do not use flat, white projection screens, but instead adapt the projection 
+to the existing living room environment. We are the first project to consider the geometry and appearance 
+of the surrounding room and use that information to create novel, interactive visual experiences. We 
+explore the design space of peripheral projected illusions and demonstrate eleven example illusions. 
+For instance, we can directly extend the game content into the living room by displaying a wide field-of-view 
+rendering of the game on the surrounding physical environment with radiometric compensation (Figure 1b). 
+We can also selectively introduce game elements into the living room; e.g. only displaying weapons fire 
+and explosions in a first person shooter (Figure 1c). Or, we can augment the living room to match the 
+theme or mood of the game; e.g. the room can transform into a cartoon world by super-saturating the colors 
+and adding black silhouette edges. We can also enable physical-virtual gaming experiences by using the 
+3D data of the living room; e.g. a grenade can roll out of the television, then bounce off the coffee 
+table, and roll on the floor of the room. All of these effects adapt to the color and geometry of the 
+living room, and are design to work in any room. Ideally, IllumiRoom would be directly integrated into 
+a next generation console and new games would be designed for IllumiRoom from the ground up. We envision 
+an API that enables triggering illusions, changing surface appearance, controlling room lighting, inserting 
+objects into the physical environment, etc. In our prototype, we demonstrate how to connect existing 
+commercial game content to drive illusions: using controller input, optical flow, and source code integration. 
+ 3. SIGGRAPH Demonstration This work will be initially presented at ACM CHI 2013 in May 2013 (Jones, 
+Benko, Ofek, &#38; Wilson, 2013), but will not have a live demonstration. At SIGGRAPH Emerging Technologies 
+we will demonstrate the full working prototype with a mock living room (shown in Figure 1). Visitors 
+will sit down on a couch and experience a magical, immersive gaming experience. Visitors will take turns 
+using an Xbox controller to play video games, which are coupled with eleven peripheral projected illusions. 
+We can live switch between the peripheral projected illusions for each example game. We believe this 
+system will be very popular among conference attendees. References Baudisch, P., Good, N., &#38; Stewart, 
+P. (2001). Focus Plus Context Screens: Combining Display Technology with Visualization Techniques. ACM 
+UIST. Jones, B., Benko, H., Ofek, E., &#38; Wilson, A. D. (2013). IllumiRoom: Peripheral Projected Illusions 
+for Interactive Experiences. ACM CHI (to appear). granted without fee provided that copies are not made 
+or distributed for commercial advantage and that copies bear this notice and the full citation on the 
+first page. Copyrights for third-party components of this work must be honored. For all other uses, contact 
+the Owner/Author. SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author. 
+ACM 978-1-4503-2261-4/13/07   
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503376</article_id>
+		<sort_key>80</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>8</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>8</seq_no>
+		<title><![CDATA[Incendiary reflection]]></title>
+		<subtitle><![CDATA[evoking emotion through deformed facial feedback]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503376</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503376</url>
+		<abstract>
+			<par><![CDATA[<p>Incendiary reflection aims to create computer-generated emotion by letting people recognize pseudo-generated facial expressions as changes to their own facial expressions (Figure 1, left).</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190519</person_id>
+				<author_profile_id><![CDATA[81555914056]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Shigeo]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Yoshida]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Tokyo]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[shigeodayo@cyber.t.u-tokyo.ac.jp]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190520</person_id>
+				<author_profile_id><![CDATA[81490640954]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Sho]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sakurai]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Tokyo]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[sho@cyber.t.u-tokyo.ac.jp]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190521</person_id>
+				<author_profile_id><![CDATA[81331500452]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Takuji]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Narumi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Tokyo]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[narumi@cyber.t.u-tokyo.ac.jp]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190522</person_id>
+				<author_profile_id><![CDATA[81100172183]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Tomohiro]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Tanikawa]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Tokyo]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[tani@cyber.t.u-tokyo.ac.jp]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190523</person_id>
+				<author_profile_id><![CDATA[81100257385]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Michitaka]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hirose]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Tokyo]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[hirose@cyber.t.u-tokyo.ac.jp]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[James, W., The principles of psychology, vol. 2. Dover Publications, New York, 1950.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Tomkins, S., Affect, imagery, and consciousness: The Positive affects; Springer, New York, vol.1, 1962.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1141920</ref_obj_id>
+				<ref_obj_pid>1141911</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Shaefer, S. et al., Image deformation using moving least squares, ACM Trans. Graph, vol.25, no.3, pp.533--540, 2006.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2459243</ref_obj_id>
+				<ref_obj_pid>2459236</ref_obj_pid>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Yoshida, S. et al., Manipulation of an Emotional Experience by Real-time Deformed Facial Feedback, In Proc of the 4th Augmented Human International Conference, pp.35--42, 2013.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Incendiary reflection: evoking emotion through deformed facial feedback Shigeo Yoshida, Sho Sakurai, 
+Takuji Narumi, Tomohiro Tanikawa, and Michitaka Hirose The University of Tokyo {shigeodayo, sho, narumi, 
+tani, hirose}@cyber.t.u-tokyo.ac.jp  Figure 1: Left: Incendiary reflection. Center: Deformation of the 
+two types of facial expressions: Smiley Face and Sad Face . Right: User s emotional state is influenced 
+by the feedback of deformed facial expressions. 1. Introduction Incendiary reflection aims to create 
+computer-generated emotion by letting people recognize pseudo-generated facial expressions as changes 
+to their own facial expressions (Figure 1, left). With conventional human-computer interactions, the 
+manipulation subjective elements of experienced emotion is not possible. Thus, emotional experience may 
+not be properly conveyed in such contexts. Emotion is assumed to result from perceiving stimulation from 
+the external environment, such as behaviors or situations, and handling this stimulation internally. 
+Bodily responses, such as heart rate and facial expressions, have been thought to consequently change 
+via an evoked emotion. However, the internal processing mechanisms for evoking an emotion by a relevant 
+stimulus have not been fully clarified. Therefore, evoking emotions by reproducing this process through 
+engineering techniques is extremely difficult. However, in the field of cognitive science, some researchers 
+argue that recognition of changes within bodily responses unconsciously evokes an emotion. William James 
+best expressed this phenomenon: We don t laugh because we re happy -we re happy because we laugh. [James. 
+1950] For example, the facial feedback hypothesis [Tomkins. 1962] indicates that changes to facial expressions 
+affect emotional experience: smiling enhances pleasant feelings while attenuating unpleasant feelings. 
+We focus on the effect of facial expressions on evoked emotion. We propose a method for manipulating 
+emotional states through feedback of deformed facial expressions in real time. 2. Incendiary reflection 
+Incendiary reflection consists of a camera, and a display. The camera is used to capture and track a 
+user's face. This system gives feedback of a deformed facial expression by using a mirror-like display. 
+We developed a method for deforming a user s face and transforming a user s facial expression in real 
+time, using an image-processing technique [Schaefer et al. 2006]. Using this method, we easily and naturally 
+deformed the appearance of a user s face. We generated two facial expressions Smiley Face and Sad Face 
+which represent the positive-negative affect dimension (Figure 1, center). Furthermore, we conducted 
+a user study to evaluate the effectiveness of deformed facial feedback. Our results showed that this 
+type of feedback could change emotional states; not only positive affect and negative affect but also 
+preference decision [Yoshida et al. 2013]. This suggested that we could artificially manipulate emotional 
+states. Unlike a mirror, user's gaze direction and his/her gaze direction shown on the display weren't 
+correct exactly in this system configuration. Therefore, this system corrects a user's gaze direction 
+by image processing, and displays it. 3. Visitor Experience We observed visitors behavior at the experimental 
+exhibition on December 6th to 10th. About 300 people experienced it (Figure 1, right). There were few 
+audiences who feel uncomfortable to deformed facial expressions. Moreover, many audiences commented that 
+they seemed to be influenced by the changes of their facial expression. Thus we believe that our method 
+for deforming facial expressions was natural enough for audiences to recognize the changes to their expressions, 
+and artificial changes in facial expression can influence the emotional state. 4. Conclusion We presented 
+the Incendiary reflection, a system for evoking emotion through deformed facial feedback. This system 
+uses a visual feedback of facial expression that is simple but powerful enough for determining one s 
+emotional state. The result of user study and demonstration showed that this system could influence the 
+emotional states. We also think that our system could be applied to entertainment technology, such as 
+movies, amusement attractions, museum exhibitions, and games, as a direct way to evoke emotion. Moreover, 
+we believe this system could be used to manipulate impressions on consumer products. For example, if 
+this system was installed in a clothing store fitting room, someone could use this system while trying 
+on clothes; s/he might think that certain clothes are more attractive if s/he is experiencing Smiley 
+Face feedback. References JAMES, W., The principles of psychology, vol. 2. Dover Publications, New York, 
+1950. TOMKINS, S., Affect, imagery, and consciousness: The Positive affects; Springer, New York, vol.1, 
+1962. SHAEFER, S. et al., Image deformation using moving least squares, ACM Trans. Graph, vol.25, no.3, 
+pp.533-540, 2006. YOSHIDA, S. et al., Manipulation of an Emotional Experience by Real-time Deformed Facial 
+Feedback, In Proc of the 4th Augmented Human International Conference, pp.35-42, 2013. Permission to 
+make digital or hard copies of part or all of this work for personal or classroom use isgranted without 
+fee provided that copies are not made or distributed for commercial advantage and that copies bear this 
+notice and the full citation on the first page. Copyrights for third-party components of thiswork must 
+be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 
+2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503377</article_id>
+		<sort_key>90</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>9</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>9</seq_no>
+		<title><![CDATA[Light-in-flight]]></title>
+		<subtitle><![CDATA[transient imaging using photonic mixer devices]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503377</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503377</url>
+		<abstract>
+			<par><![CDATA[<p>Transient imaging is a recent imaging modality in which short pulses of light are observed "in flight" as they propagate through a scene. Transient images are useful to help understand light propagation in complex environments and to analyze light transport for research and many practical applications. Two such examples are the reconstruction of occluded geometry, i.e. "looking around a corner", [Velten et al. 2012] or measuring surface reflectance [Naik et al. 2011].</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190524</person_id>
+				<author_profile_id><![CDATA[82258863757]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Felix]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Heide]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of British Columbia]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190525</person_id>
+				<author_profile_id><![CDATA[81365598554]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Matthias]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hullin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of British Columbia]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190526</person_id>
+				<author_profile_id><![CDATA[81466643516]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[James]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gregson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of British Columbia]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190527</person_id>
+				<author_profile_id><![CDATA[81100644737]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Wolfgang]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Heidrich]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of British Columbia]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>2024205</ref_obj_id>
+				<ref_obj_pid>2070781</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Naik, N., Zhao, S., Velten, A., Raskar, R., and Bala, K. 2011. Single view reflectance capture using multiplexed scattering and time-of-flight imaging. <i>ACM Trans. Graph. 30</i>, 6, 171.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Velten, A., Willwacher, T., Gupta, O., Veeraraghavan, A., Bawendi, M., and Raskar, R. 2012. Recovering three-dimensional shape around a corner using ultrafast time-of-flight imaging. <i>Nature Communications 3</i>, 745.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Light-in-Flight: Transient Imaging using Photonic Mixer Devices Felix Heide1, Matthias Hullin1, James 
+Gregson, Wolfgang Heidrich The University of British Columbia  Figure 1: Left: Our capture setup for 
+transient images (from left: computer, signal generator, power supply, modulated light source, PMD camera). 
+Middle: A disco ball with many mirrored facets. Right: The same sphere as seen by our transient imager 
+when illuminated from the left, colored according to the time offset of the main intensity peak. 1 Overview 
+Transient imaging is a recent imaging modality in which short pulses of light are observed in .ight as 
+they propagate through a scene. Transient images are useful to help understand light prop­agation in 
+complex environments and to analyze light transport for research and many practical applications. Two 
+such examples are the reconstruction of occluded geometry, i.e. looking around a corner , [Velten et 
+al. 2012] or measuring surface re.ectance [Naik et al. 2011]. Unfortunately, advances in research and 
+practical applications have so far been hindered by the high cost of the required instrumenta­tion, as 
+well as the fragility and dif.culty to operate and calibrate devices such as femtosecond lasers and streak 
+cameras. To address this, we present a device that allows inexpensive and fast transient imaging using 
+photonic mixer devices (PMDs). Our portable device achieves this by capturing a sequence of modulated 
+images with a PMD sensor and inferring a transient image using numerical optimization and a mathematical 
+model for local light interactions. By doing so, the cost of transient imaging is reduced by several 
+orders of magnitude and the capture process is dramati­cally sped up and simpli.ed. We envision that 
+in the future not only research but virtually every­body has access to inexpensive, fast and portable 
+transient-image cameras with its many emerging applications. We consider our de­vice as a large step 
+towards this goal. An in-depth treatment of the idea and theory behind our device will be provided in 
+our technical paper submission associated to this project. Our Emerging Technologies exhibit will showcase 
+a re­vised and improved prototype of our camera in action. We will demonstrate live captures and reconstructions 
+of various scenes. Furthermore, our exhibit will be an interactive experience where visitors can help 
+us set up the scenes for our live-experiments. 2 Problem de.nition Transient imaging currently relies 
+on very expensive custom hard­ware, namely a femtosecond laser as a light source, and a streak camera 
+[Velten et al. 2012] for the image capture. Together these 1Joint .rst authors components amount to 
+hundreds of thousands of dollars worth of equipment that is bulky and extremely slow, sensitive and dif.cult 
+to operate in addition to being a potential eye hazard. Capture times of an hour or more have been reported 
+for a single transient image since the streak camera obtains only a single scanline per exposure and 
+must mechanically scan the scene. To date, such captures have only been performed in lab settings. In 
+our work, we replace this complex setup with one costing only a few hundred dollars that is straightforward 
+to operate and portable. Our hardware consists of a modi.ed, but simple, photonic mixer device (PMD) 
+sensor in conjunction with inexpensive laser diodes as an illuminant. Using data captured by this hardware, 
+we demon­strate how models for local light interaction can be used to extract transient images. This 
+enables research on the applications of tran­sient imaging on a much smaller budget and in only a few 
+minutes per capture. 3 Our interactive exhibit We demonstrate a prototype that allows for .exible measurements 
+of time-of-.ight images using PMD sensors for a range of differ­ent modulation frequencies and phases. 
+Our prototype is shown in Fig. 1. It consists of a computer, signal generator, power supply, modulated 
+light source and the PMD camera. Live captures and reconstructions of various scenes will be shown. Visitors 
+can help us set up scenes for experiments, watch the .ash­ing modulated illumination as we measure the 
+scene and .nally watch the reconstructed transient image video of the light pulses propagating through 
+the scene they just set up. References NA IK , N., ZH AO, S., VE LT E N , A., RA S KAR , R., A N D BAL 
+A, K. 2011. Single view re.ectance capture using multiplexed scattering and time-of-.ight imaging. ACM 
+Trans. Graph. 30, 6, 171. VELTE N, A., WI L LWAC H E R, T., GU P TA, O., VE E R AR AGHAVA N, A., BAW 
+E N D I, M., A ND RA SKAR , R. 2012. Recovering three­dimensional shape around a corner using ultrafast 
+time-of-.ight imaging. Nature Communications 3, 745. Permission to make digital or hard copies of part 
+or all of this work for personal or classroom use isgranted without fee provided that copies are not 
+made or distributed for commercial advantage and that copies bear this notice and the full citation on 
+the first page. Copyrights for third-party components of thiswork must be honored. For all other uses, 
+contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by 
+the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503378</article_id>
+		<sort_key>100</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>10</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>10</seq_no>
+		<title><![CDATA[MicroTips]]></title>
+		<subtitle><![CDATA[augmenting information for microscopic inspection]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503378</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503378</url>
+		<abstract>
+			<par><![CDATA[<p>In the micro-scale world, it is difficult to add sufficient information to users due to the restriction of size in micro manufacture processes. Unlike macroscopic objects in the scale of the human's eye, simply printing some texts to micro-scale objects requires much effort (Hanson and others, 2011), resulting in significant increase of production costs. This aspect of the micro-scale objects may reduce the quality of user experience for those who inspect artificial micro-scale objects with microscopes.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190528</person_id>
+				<author_profile_id><![CDATA[82459287757]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jungman]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chung]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Seoul National Univ.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[mmisman@snu.ac.kr]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190529</person_id>
+				<author_profile_id><![CDATA[81556320356]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Kyungwon]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Yun]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Seoul National Univ.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[kwyun05@snu.ac.kr]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190530</person_id>
+				<author_profile_id><![CDATA[81421599972]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Hyunwoo]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bang]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Seoul National Univ.]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[savoy@snu.ac.kr]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Hanson L, Cui L, Xie C, Cui B. 2011. A microfluidic positioning chamber for long term live cell imaging. Microscopy Research and Technique 74(6):496--501.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Yun K, Chung J, Park Y, Lee B, Lee WG, Bang H. 2013. Microscopic augmented-reality indicators for long-term live cell time-lapsed imaging. Analyst.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ MicroTips: Augmenting Information for Microscopic Inspection Jungman Chung Kyungwon YunHyunwoo Bangmmisman@snu.ac.kr 
+kwyun05@snu.ac.krsavoy@snu.ac.kr Seoul National Univ. Figure 1 (Left) An Overview of MicroTips. (Center) 
+Original video fed from the microscope. (Right) Augmented information overlaid ontop the original video. 
+1. Introduction integrated circuit boards where components are densely integrated In the micro-scale 
+world, it is difficult to add sufficient in a compact area, and there is generally not enough space to 
+contain user-friendly information. With augmented reality information to users due to the restriction 
+of size in micro manufacture processes. Unlike macroscopic objects in the scale oftechniques, it may 
+become easier to contain rich information over the human s eye, simply printing some texts to micro-scale 
+the compact and complex region of micro-scale objects. objects requires much effort (Hanson and others, 
+2011), resulting 3.3. Simulating an Experiment in significant increase of production costs. This aspect 
+of the MicroTips suggests a convenient method for providing manuals micro-scale objects may reduce the 
+quality of user experience for for microchips. Through our technology, we can augment useful those who 
+inspect artificial micro-scale objects with microscopes. information for bio-medical micro-devices such 
+as the Lab-on-a-Chips. For example, MicroTips can augment virtual experiment Authors were previously 
+investigated the possibilities of the animations, showing the detailed sequence of the usage of the augmented 
+reality in the microscopic area (Yun and others, 2013). microchips. In the prototype of our system, the 
+MicroTips In this study, we broaden the concept of the microscopic provided virtual usage of an integrated 
+circuit board. We are augmented reality and demonstrate image-based augmented conducting ongoing researches 
+to enrich the user experience of reality applications for the inspection of microscopic components. bio-medical 
+micro-devices. Using MicroTips, users can be provided with augmented information as virtual images overlaid 
+on top of the original video fed from the microscope. Supported by this augmented reality aids, such 
+as virtual assembly guides, electric connections or specification of micro-components, the inspection 
+of the microscopic world could be enriched. 2. System Overview The prototype of MicroTips system combines 
+a microscope, and the image-based augmented reality framework. Continuously comparing reference images 
+with the current video fed from the Figure 2 (a) Interaction with the interest. (b) Simulation of the 
+microscope, the system provides augmented information of the experiment. microscopic objects. To prove 
+the concept of this microscopic augmented reality, an embedded micro-controller unit board had 4. Conclusions 
+been inspected as an example. In this study, we applied an AR technique to micro-scale objects. Through 
+simple visual guide augmentation while interacting with 3. Applications micro-scale objects, we could 
+enrich the information usually 3.1. Augmenting Information considered difficult to be physically imprinted 
+on micro-scale Just focusing on the target specimen, users can be provided with objects. We believe that 
+this AR technique could greatly enhance dynamic augmented information that is too complicated to be the 
+daily routines of microscopic inspections. printed on micro-scale objects. In our prototype, specification 
+of the component was overlaid on top of the specimen such as the References detailed information of pin-out 
+configurations of microchips. Hanson L, Cui L, Xie C, Cui B. 2011. A microfluidic positioning 3.2. Interaction 
+chamber for long term live cell imaging. Microscopy Research In MicroTips, a basic-level of virtual interaction 
+with micro-scale and Technique 74(6):496-501. objects could be achieved. For example, when a user hovers 
+the Yun K, Chung J, Park Y, Lee B, Lee WG, Bang H. 2013. cursor of a mouse over a certain point of interest 
+in a specimen, Microscopic augmented-reality indicators for long-term livetooltips pop up correspondingly. 
+The interaction is effective to cell time-lapsed imaging. Analyst. Permission to make digital or hard 
+copies of part or all of this work for personal or classroom use isgranted without fee provided that 
+copies are not made or distributed for commercial advantage and that copies bear this notice and the 
+full citation on the first page. Copyrights for third-party components of thiswork must be honored. For 
+all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 
+Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503379</article_id>
+		<sort_key>110</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>11</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>11</seq_no>
+		<title><![CDATA[Near-eye light field displays]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503379</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503379</url>
+		<abstract>
+			<par><![CDATA[<p>We propose a light-field-based approach to near-eye display that allows for thin, lightweight head-mounted displays capable of depicting accurate accommodation, convergence, and binocular disparity depth cues. Our near-eye light field displays depict sharp images from out-of-focus display elements by synthesizing light fields corresponding to virtual scenes located within the viewer's natural accommodation range. While sharing similarities with existing integral imaging displays and microlens-based light field cameras, we optimize performance in the context of near-eye viewing. Near-eye light field displays support continuous accommodation of the eye throughout a finite depth of field; as a result, binocular configurations provide a means to address the accommodation-convergence conflict occurring with existing stereoscopic displays. We construct a binocular prototype and a GPU-accelerated stereoscopic light field renderer.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[accommodation-convergence conflict]]></kw>
+			<kw><![CDATA[head-mounted displays]]></kw>
+			<kw><![CDATA[light field displays]]></kw>
+			<kw><![CDATA[microlens arrays]]></kw>
+			<kw><![CDATA[virtual reality]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190531</person_id>
+				<author_profile_id><![CDATA[81319495323]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Douglas]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lanman]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190532</person_id>
+				<author_profile_id><![CDATA[81100131290]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Luebke]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[NVIDIA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Ng, R., Levoy, M., Br&#233;dif, M., Duval, G., Horowitz, M., and Hanrahan, P. 2005. Light field photography with a hand-held plenoptic camera. Tech. Rep. CTSR 2005-02, Stanford.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2185577</ref_obj_id>
+				<ref_obj_pid>2185520</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Pamplona, V. F., Oliveira, M. M., Aliaga, D. G., and Raskar, R. 2012. Tailored displays to compensate for visual aberrations. <i>ACM Trans. Graph. 31</i>, 4, 81:1--81:12.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Near-Eye Light Field Displays Douglas Lanman David Luebke NVIDIA  Figure 1: Enabling thin, lightweight 
+near-eye displays using light .eld displays. (Left) Our binocular near-eye display prototype is shown, 
+comprising a pair of OLED panels covered with microlens arrays. This design enables a thin head-mounted 
+display, since the black box containing driver electronics could be waist-mounted with longer ribbon 
+cables. (Right) Due to the limited range of human accommodation, a severely defocused image is perceived 
+when a bare microdisplay is held close to the eye (here simulated as a close-up photograph of an OLED). 
+Conventional near-eye displays require bulky magnifying optics to facilitate accommodation. We propose 
+near-eye light .eld displays as thin, lightweight alternatives, achieving comfortable viewing by synthesizing 
+a light .eld corresponding to a virtual scene located within the accommodation range (here implemented 
+by viewing a microdisplay, depicting interlaced perspectives, through a microlens array). Abstract We 
+propose a light-.eld-based approach to near-eye display that allows for thin, lightweight head-mounted 
+displays capable of de­picting accurate accommodation, convergence, and binocular dis­parity depth cues. 
+Our near-eye light .eld displays depict sharp im­ages from out-of-focus display elements by synthesizing 
+light .elds corresponding to virtual scenes located within the viewer s natural accommodation range. 
+While sharing similarities with existing in­tegral imaging displays and microlens-based light .eld cameras, 
+we optimize performance in the context of near-eye viewing. Near-eye light .eld displays support continuous 
+accommodation of the eye throughout a .nite depth of .eld; as a result, binocular con.gura­tions provide 
+a means to address the accommodation-convergence con.ict occurring with existing stereoscopic displays. 
+We con­struct a binocular prototype and a GPU-accelerated stereoscopic light .eld renderer. Keywords: 
+light .eld displays, head-mounted displays, microlens arrays, accommodation-convergence con.ict, virtual 
+reality 1 Overview To be of practical utility, a near-eye display should provide high­resolution, wide-.eld-of-view 
+imagery with compact, comfortable magnifying optics. However, current magni.er designs typically require 
+multiple optical elements to minimize aberrations, leading to bulky eyewear with limited .elds of view. 
+We consider a simple alternative: placing a light .eld display directly in front of a user s eye (or 
+a pair of such displays for binocular viewing). As shown in Figure 1, sharp imagery is depicted by synthesizing 
+a light .eld for a virtual display (or a general 3D scene) within the viewer s un­aided accommodation 
+range. We demonstrate this design enables thin, lightweight head-mounted displays (HMDs) with wide .elds 
+of view and addresses accommodation-convergence con.ict; how­ever, these bene.ts come at a high cost: 
+spatial resolution is re­duced with microlens-based designs, although with commensurate gains in depth 
+of .eld and in accurate rendering of retinal defocus. Through this work, we demonstrate how to mitigate 
+resolution loss. 2 Related Work As characterized by Ng et al. [2005], light .eld cameras share many 
+of the properties of our near-eye display: extending depth of .eld and .eld of view, at the cost of decreased 
+spatial resolution. Sev­eral recent works have proposed placing integral imaging displays close to the 
+eye (described in detail in the supplementary support­ing document). Pamplona et al. [2012] apply related 
+integral imag­ ing displays to correct optical aberrations. In comparison to this closely-related work, 
+we emphasize that our efforts differ in scope; we target general-purpose 3D display, rather than estimation 
+and correction of refractive errors. Furthermore, we are the .rst to op­timize the optical design and 
+underlying rendering algorithms to enable thin, lightweight HMDs, while minimizing resolution loss. 
+3 Implementation As shown in Figure 1, a binocular prototype was constructed us­ ing components from 
+a Sony HMZ-T1 personal media viewer. The case and eyepieces were removed, exposing two OLED microdis­plays. 
+Fresnel Technologies #630 microlenses were af.xed to each panel. We estimate each modi.ed eyepiece achieves 
+a spatial reso­lution of 146×78 pixels and .eld of view of 29×16 degrees. Each modi.ed eyepiece measures 
+42×31×10 mm with a 0.7 gram mi­crolens array (an unmodi.ed HMZ-T1 eyepiece is 43×31×37 mm with a 57.7 
+gram lens). Real-time stereoscopic light .eld rendering was achieved by modifying the NVIDIA OptiX GPU-accelerated 
+ray tracing engine to support quad buffering in OpenGL.  References NG, R., LEVOY, M., BR ´ EDI F, M., 
+DUVA L , G., HOROW I TZ , M., AND HA N RA H A N , P. 2005. Light .eld photography with a hand­held plenoptic 
+camera. Tech. Rep. CTSR 2005-02, Stanford. PA MPLONA , V. F., OLI V E I R A , M. M., AL I AG A , D. G., 
+A N D RA S K A R , R. 2012. Tailored displays to compensate for visual aberrations. ACM Trans. Graph. 
+31, 4, 81:1 81:12. Permission to make digital or hard copies of part or all of this work for personal 
+or classroom use isgranted without fee provided that copies are not made or distributed for commercial 
+advantage and that copies bear this notice and the full citation on the first page. Copyrights for third-party 
+components of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 
+21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503380</article_id>
+		<sort_key>120</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>12</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>12</seq_no>
+		<title><![CDATA[PAPILLON]]></title>
+		<subtitle><![CDATA[expressive eyes for interactive characters]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503380</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503380</url>
+		<abstract>
+			<par><![CDATA[<p><i>PAPILLON</i> is a technology for designing highly expressive animated eyes for interactive characters, robots and toys. Expressive eyes are essential in any form of face-to-face communication [2] and designing them has been a critical challenge in robotics, as well as in interactive character and toy development.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190533</person_id>
+				<author_profile_id><![CDATA[81549048056]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Eric]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Brockmeyer]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Disney Research Pittsburgh]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190534</person_id>
+				<author_profile_id><![CDATA[81100593278]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Ivan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Poupyrev]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Disney Research Pittsburgh]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190535</person_id>
+				<author_profile_id><![CDATA[81466643116]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Moshe]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Mahler]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Disney Research Pittsburgh]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190536</person_id>
+				<author_profile_id><![CDATA[82458986557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Joanne]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Dauner]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Disney Research Pittsburgh and Berlin University of Arts, Germany]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190537</person_id>
+				<author_profile_id><![CDATA[82459009557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[James]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Krahe]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Disney Research Pittsburgh]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Basset, K., Hammon, M., Smoot, L. A Fluid-Suspension, Electro-magnetically Driven Eye with Video Capability for Animatronic Applications, In <i>IEEE Humanoid Robots</i>, 2009. pp. 40--46]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1734471</ref_obj_id>
+				<ref_obj_pid>1734454</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Delaunay, F., de Greeff, J., Belpaeme., T. A Study of a Retro-Projected Robotic Face and its Effectiveness for Gaze Reading by Humans. In <i>ACM/IEEE Human-Robot Interaction</i>, 2010. pp. 39--44]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2380190</ref_obj_id>
+				<ref_obj_pid>2380116</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Willis, K., Brockmeyer, E., Hudson, S., Poupyrev, I. Printed Optics: 3D Printing of Embedded Optical Elements for Interactive Devices. In <i>ACM UIST 2012</i>, pp. 589--598]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ PAPILLON: Expressive Eyes for Interactive Characters Eric Brockmeyer 1 Ivan Poupyrev 1 Moshe Mahler 
+1 Joanne Dauner 1,2 James Krahe 1 1 Disney Research Pittsburgh, USA 2 Berlin University of Arts, Germany 
+1. Introduction PAPILLON is a technology for designing highly expressive anim­ated eyes for interactive 
+characters, robots and toys. Expressive eyes are essential in any form of face-to-face communication 
+[2] and designing them has been a critical challenge in robotics, as well as in interactive character 
+and toy development. The classic approach to designing eyes, in the movie and location­based entertainment 
+industry, is to build mechanically actuated, animatronic eyes [1]. This may produce highly realistic 
+eyes that can indicate gaze direction and blink, but they tend to be complex, expensive and difficult 
+to scale down to fit into small characters, where space for motors and driving electronics may not be 
+avail­able. Crucially, the animatronic approach is not applicable to fic­tional characters from animated 
+movies, comics and cartoons whose eye expressions are non-realistic and highly exaggerated. Figure 1. 
+Interactive character with animated PAPILLON eyes Indeed, the eyes of a character in animated features 
+can take any size and shape to communicate a character's emotions and display all sorts of symbols to 
+indicate its intentions, e.g. dollar signs for greed or a heart for romance. Video projection has also 
+been used to back-project images of eyes and faces onto surfaces shaped as a character's face. This allows 
+for the design of animated and highly expressive eyes for large­scale characters and robots [2]. It is, 
+however, not scalable to small characters due to limited space. Furthermore, popular characters often 
+take on a broad variety of appearances, from a talking sea sponge to a chameleon, with complex faces 
+and bodies, where eyes could be sunk deep inside or stick out. Designing free air op­tical paths for 
+these characters is difficult and often impossible un­less we can design a technology that can effectively 
+guide light between any two locations on the body of the character. This is the approach that we investigate 
+in PAPILLON. 2. PAPILLION eyes PAPILLION uses a new printed optics technology [3] where eyes are designed 
+as a bundle of optical fibers guiding images projected on the receiving end of the bundle to the surfaces 
+of the character eye (Figure 1). The eyes are 3D printed slice-by-slice using trans­parent photopolymers 
+separated by a translucent support material. We designed an algorithm that implements classic Fibonacci 
+spir­als for efficient packing of fibers on a surface of an eye and in the bundle. This allows creating 
+arbitrary curved display surfaces while minimizing visible artifacts, such as distortions on the edges 
+of the eye. A Voronoi tessellation computes shapes of optical ele­ments on the eye surface, optimizing 
+the distribution of light. The PAPILLION eye design has the following advantages: Arbitrary eye shapes 
+and placements. Our eye elements are digit­ally designed and 3D printed, therefore, they can take any 
+shape and any location that is required by the design of the character. In fact, it is easily extended 
+to characters with multitude of eyes. Passive, non-instrumented characters. The characters and toys im­plemented 
+with PAPILLION technology do not have any active electronic elements, moving parts, wires and power requirements. 
+In fact, they are completely passive. This allows creating enga­ging, yet easily replaceable and very 
+robust interactive characters. Figure 2. PAPILLION eyes express rich set of emotions Rich communication 
+and interaction. Because images are projec­ 4. References ted into the character eyes, they can communicate 
+rich set of emo ­ 1. Basset, K., Hammon, M., Smoot, L. A Fluid-Suspension, Electro­ tions and intentions 
+(Figure 2). To enable interaction, we use a magnetically Driven Eye with Video Capability for Animatronic 
+depth camera that tracks user hands and body and initiate charac-Applications, In IEEE Humanoid Robots, 
+2009. pp. 40-46 ters response, creating highly engaging experiences (Figure 1). 2. Delaunay, F., de Greeff, 
+J., Belpaeme., T. A Study of a Retro-Projected Robotic Face and its Effectiveness for Gaze Reading by 
+Humans. In 3. Siggraph Demonstration ACM/IEEE Human-Robot Interaction, 2010. pp. 39-44 At the SIGGRAPH 
+2013 Emerging Technology exhibition we will 3. Willis, K., Brockmeyer, E., Hudson, S., Poupyrev, I. Printed 
+Optics: demonstrate interactive story telling applications where characters 3D Printing of Embedded 
+Optical Elements for Interactive Devices. In respond to the visitors hand and body gestures with rich 
+eye anim-ACM UIST 2012, pp. 589-598 ations synchronized with pre-recorded audio narratives.  Permission 
+to make digital or hard copies of part or all of this work for personal or classroom use isgranted without 
+fee provided that copies are not made or distributed for commercial advantage and that copies bear this 
+notice and the full citation on the first page. Copyrights for third-party components of thiswork must 
+be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 
+2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503381</article_id>
+		<sort_key>130</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>13</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>13</seq_no>
+		<title><![CDATA[Skyfarer]]></title>
+		<subtitle><![CDATA[a mixed reality shoulder exercise game]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503381</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503381</url>
+		<abstract>
+			<par><![CDATA[<p><i>Skyfarer</i> is a mixed reality shoulder exercise game developed for prevention and treatment of shoulder pain for individuals aging with spinal cord injury. We are adapting a shoulder exercise protocol that has been evaluated in a randomized clinical trial [Mulroy et al. 2011]. This demonstration will showcase a second-generation integrated exercise hardware and software system. The system consists of an adjustable metal rig outfitted with GameTrak sensors that are attached to interchangeable Thera-Bands and free weights. The rig can accommodate individuals with various types of manual wheelchairs and can be adjusted for arm length. The GameTrak sensors provide three-dimensional movement data to the calibration and exercise software application that was developed in Unity Engine 3.5.</p> <p><i>Skyfarer</i> has emerged after iterating numerous prototypes that incorporated individual elements of a shoulder exercise protocol using a first-generation metal rig [Gotsis et al. 2012]. Skyfarer requires calibration of the game to the physical dimensions and muscle strength of individual players. Player profiles can be stored and the number of required repetitions per exercise can be manually adjusted before playing.</p> <p>Skyfarer 0.5a incorporates the following parts of the exercise protocol: external rotation, rowing, diagonal pull-down and vertical lift exercises. This version has been evaluated in a biomechanical study conducted at Rancho Los Amigos National Rehabilitation Center. The virtual environment immerses players into an adventure inspired by Pre-Colombian mythology inspired by the landscapes of South America. With each exercise, players prepare, propel and lift their vessel into water or air, collecting energy that can be used during breaks between exercise sets. <i>Skyfarer</i> 0.5b includes Microsoft Kinect as input for free-form movement segments of the game, such as drawing and improved calibration, animation and movement cuing.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190538</person_id>
+				<author_profile_id><![CDATA[81442600669]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Marientina]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gotsis]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[mgotsis@cinema.usc.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190539</person_id>
+				<author_profile_id><![CDATA[82459232457]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Fotos]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Frangoudes]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190540</person_id>
+				<author_profile_id><![CDATA[81502806372]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Vangelis]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lympouridis]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190541</person_id>
+				<author_profile_id><![CDATA[82458900557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Somboon]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Maneekobkunwong]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Rancho Los Amigos National Rehabilitation Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190542</person_id>
+				<author_profile_id><![CDATA[81502709557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Turpin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190543</person_id>
+				<author_profile_id><![CDATA[81464676946]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Maryalice]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jordan-Marsh]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>2224779</ref_obj_id>
+				<ref_obj_pid>2224479</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Gotsis, M., Lympouridis, V., Turpin, D., Tasse, A., Poulos, I. C., Tucker, D., Swider, M., Thin, A. G., and Jordan-Marsh., M. 2012. Mixed Reality Game Prototypes for Upper Body Exercise and Rehabilitation. In <i>Proceedings of the 2012 Virtual Reality</i>. IEEE, 181--182.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Mulroy, S. J., Thompson, L., Kemp, B., Hatchett, P. P., Newsam, C. J., Lupold, D. G., Haubert, L. L., Eberly, V., Ge T. T., and Azen S. P. 2011. Strengthening and Optimal Movements for Painful Shoulders (STOMPS) in Chronic Spinal Cord Injury: A Randomized Controlled Trial. <i>Phys. Ther. 91</i>(3), 305--324. 2011.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Skyfarer: A Mixed Reality Shoulder Exercise Game Marientina Gotsis* University of Southern California 
+Vangelis Lympouridis University of Southern California David TurpinUniversity of Southern California 
+Fotos Frangoudes University of Southern California Somboon Maneekobkunwong Rancho Los Amigos National 
+Rehabilitation Center Maryalice Jordan-Marsh University of Southern California Abstract Skyfarer is 
+a mixed reality shoulder exercise game developed for prevention and treatment of shoulder pain for individuals 
+aging with spinal cord injury. We are adapting a shoulder exercise protocol that has been evaluated in 
+a randomized clinical trial [Mulroy et al. 2011]. This demonstration will showcase a second­generation 
+integrated exercise hardware and software system. The system consists of an adjustable metal rig outfitted 
+with GameTrak sensors that are attached to interchangeable Thera-Bands and free weights. The rig can 
+accommodate individuals with various types of manual wheelchairs and can be adjusted for arm length. 
+The GameTrak sensors provide three-dimensional movement data to the calibration and exercise software 
+application that was developed in Unity Engine 3.5. Figure 1. Skyfarer 0.5a (left and bottom right) 
+was evaluated in real-time in a biomechanical study (top right) Skyfarer has emerged after iterating 
+numerous prototypes that incorporated individual elements of a shoulder exercise protocol using a first-generation 
+metal rig [Gotsis et al. 2012]. Skyfarer requires calibration of the game to the physical dimensions 
+and muscle strength of individual players. Player profiles can be stored and the number of required repetitions 
+per exercise can be manually adjusted before playing. Figure 3 Resistance-training exercises in Skyfarer 
+0.5a Skyfarer 0.5a incorporates the following parts of the exercise protocol: external rotation, rowing, 
+diagonal pull-down and vertical lift exercises. This version has been evaluated in a biomechanical study 
+conducted at Rancho Los Amigos National Rehabilitation Center. The virtual environment immerses players 
+* email: mgotsis@cinema.usc.edu into an adventure inspired by Pre-Colombian mythology inspired by the 
+landscapes of South America. With each exercise, players prepare, propel and lift their vessel into water 
+or air, collecting energy that can be used during breaks between exercise sets. Skyfarer 0.5b includes 
+Microsoft Kinect as input for free-form movement segments of the game, such as drawing and improved calibration, 
+animation and movement cuing. Figure 2. Each movement is first shown to the player and then calibrated 
+for their abilities and body dimensions before playing Acknowledgements The contents of this research 
+paper were developed under a grant from the Department of Education, NIDRR grant number H133E080024. 
+However, those contents do not necessarily represent the policy of the Department of Education, and you 
+should not assume endorsement by the Federal Government. The authors would like to thank Carolee Winstein, 
+Phil Requejo, Sara Mulroy, Lisa Haubert, the OPTT-RERC investigators, the members of the Rehabilitation 
+Engineering and Pathokinesiology Laboratory for their assistance and input in the design and evaluation 
+of Skyfarer, Evan Stern for additional programming and Tristan Dyer for concept art. References GOTSIS, 
+M., LYMPOURIDIS, V., TURPIN, D., TASSE, A., POULOS, I.C., TUCKER, D., SWIDER, M., THIN, A.G., AND JORDAN-MARSH., 
+M. 2012. Mixed Reality Game Prototypes for Upper Body Exercise and Rehabilitation. In Proceedings of 
+the 2012 Virtual Reality. IEEE, 181-182. MULROY, S. J., THOMPSON, L., KEMP, B., HATCHETT, P. P., NEWSAM, 
+C. J., LUPOLD, D. G., HAUBERT, L. L., EBERLY, V., GE T. T., AND AZEN S. P. 2011. Strengthening and Optimal 
+Movements for Painful Shoulders (STOMPS) in Chronic Spinal Cord Injury: A Randomized Controlled Trial. 
+Phys. Ther. 91(3), 305-324. 2011. Permission to make digital or hard copies of part or all of this work 
+for personal or classroom use isgranted without fee provided that copies are not made or distributed 
+for commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights 
+for third-party components of thiswork must be honored. For all other uses, contact the Owner/Author.SIGGRAPH 
+2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<article_sponsors>
+			<funding_agency>Department of Education, NIDRR</funding_agency>
+			<grant_numbers>
+				<grant_number>H133E080024</grant_number>
+			</grant_numbers>
+		</article_sponsors>
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503382</article_id>
+		<sort_key>140</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>14</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>14</seq_no>
+		<title><![CDATA[TransWall]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503382</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503382</url>
+		<abstract>
+			<par><![CDATA[<p>Nowadays, imagining modern buildings without glass is difficult, and glass walls can be found almost everywhere around us. Glass has been one of the most valued materials owing to its transparency. Glass walls' transparency in modern architecture involves two contradictory characteristics: visual continuity and spatial discontinuity. Even though we can see everything through a glass wall, we can hardly hear the sound and cannot touch anything on the opposite side of the wall. Although a glass wall facilitates interpersonal communications beyond a partition, it simultaneously blocks deeper interactions. Can the glass wall be made into an even richer communication medium?</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190544</person_id>
+				<author_profile_id><![CDATA[82459285557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Heejeong]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Heo]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[KAIST Daejeon, South Korea]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[gjgmlwjd20@kaist.ac.kr]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190545</person_id>
+				<author_profile_id><![CDATA[81557105756]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Seungki]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Kim]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[KAIST Daejeon, South Korea]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[best79s@kaist.ac.kr]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190546</person_id>
+				<author_profile_id><![CDATA[82459108657]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Hyungkun]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Park]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[KAIST Daejeon, South Korea]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[hung85@kaist.ac.kr]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190547</person_id>
+				<author_profile_id><![CDATA[82459287957]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Jeeyong]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chung]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[KAIST Daejeon, South Korea]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[cjydgon@kaist.ac.kr]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190548</person_id>
+				<author_profile_id><![CDATA[81100384871]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Geehyuk]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lee]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Design Media Lab and HCI Lab]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[geehyuk@gmail.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190549</person_id>
+				<author_profile_id><![CDATA[81100384795]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Woohun]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Lee]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[KAIST Daejeon, South Korea]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[woohun.lee@kaist.ac.kr]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Joseph L. Flatley. (Jan. 7, 2010). Samsung's 14-inch transparent OLED laptop. Retrieved from http://www.engadget.com/2010/01/07/samsungs-14-inch-transparent-oled-laptop-video/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+  C:\Users\Tablet Lee\Desktop\Abstract final version\IMG_1191.JPG TransWall  Figure 1. (a) Sectional 
+view of TransWall and (b) users playing the game Chromatic rubber band Heejeong Heo, Seungki Kim, Hyungkun 
+Park, Jeeyong Chung, Geehyuk Lee*, Woohun Lee Design Media Lab and HCI Lab*, KAIST Daejeon, South Korea 
+{gjgmlwjd20, best79s, hung85, cjydgon}@kaist.ac.kr, geehyuk@gmail.com*, woohun.lee@kaist.ac.kr 1. Introduction 
+Nowadays, imagining modern buildings without glass is difficult, and glass walls can be found almost 
+everywhere around us. Glass has been one of the most valued materials owing to its transparency. Glass 
+walls transparency in modern architecture involves two contradictory characteristics: visual continuity 
+and spatial discontinuity. Even though we can see everything through a glass wall, we can hardly hear 
+the sound and cannot touch anything on the opposite side of the wall. Although a glass wall facilitates 
+interpersonal communications beyond a partition, it simultaneously blocks deeper interactions. Can the 
+glass wall be made into an even richer communication medium? What would it be like to embed the type 
+of transparent display seen in the movie Avatar in a large glass wall? People can face one another and 
+touch objects on the screen to enjoy gaming. Furthermore, what if a glass wall can transmit the sound 
+or touch from a user to the other side? We propose a concept called TransWall, which allows interpersonal 
+multimodal interactions through a glass wall. 2. Implementation The concept of TransWall can be best 
+realized by means of a large, transparent, OLED (organic light-emitting diode) display. Samsung Electronics 
+demonstrated a transparent OLED display for a laptop1 in 2010; however, obtaining a large panel for our 
+research was difficult. As a result, we built a 32" see-through display wall by sandwiching a thin holographic 
+screen film between two sheets of 3-mm plexiglass. Two video projectors were installed above the user 
+s head 90 cm away from the center of the screen. Two videos were precisely keystoned and aligned so that 
+the resulting images on TransWall were clearer and the occlusion problems that the user s body caused 
+were reduced. We added 32" infrared touch sensor frames (NIB320A) on both sides of the display panel 
+(Figure 1-a). TransWall is not only a video display but also an audio display. We attached a surface 
+transducer (COM-10975) on the plexiglass sheet and two microphones on both of the touch sensor frames 
+so that TransWall could simultaneously propagate the sound of media sources and transmit the user s voice 
+to the other side of the wall. TransWall also provides users with vibrotactile feedback using the same 
+surface transducer. People could feel a vibrotactile stimulus of approximately 80 Hz from the surface 
+transducer very well, but could barely recognize a vibrotactile stimulus of greater than 400 Hz. Therefore, 
+we set the surface transducer s frequency range to under 400 Hz for the vibrotactile feedback channel 
+and to over 400 Hz for the sound propagation channel. As a result, users could see, hear, or even touch 
+other people through the glass wall. 3. Application Users stand face-to-face when using TransWall. This 
+position is substantially distinct from that of general interactive tabletops or shared wall displays. 
+Consequently, people can collaborate with one another in a more natural way. TransWall is touch-sensitive 
+on both sides, so two users can touch the same spot simultaneously without any physical interference. 
+Based on these ideas, we designed a few gaming applications, which are given below. (a) Chromatic rubber 
+band Two players can select the color of their balls. If their fingers approach one another and are close 
+enough, the colored balls create a flexible rubber band line that is filled with gradient colors. By 
+moving fingers on TransWall, players can draw something together using beautiful color patterns (Figure 
+1-b). (b) Talk-through The brighter a pixel is on TransWall, the more opaque it appears. Two players 
+create a transparent hole by simultaneously touching one another on TransWall. The size of the hole is 
+proportional to the distance between the two fingers. The bigger the size of the hole, the louder the 
+volume of the conversation that the players hear through the wall will be. (c) Flip and spell Players 
+have two-dimensional arrays of alphabet puzzle pieces and they present a reversed image on both sides. 
+An alphabet piece flips when a player touches it. Players are allowed to flip the pieces as quickly as 
+possible. If a player has some linearly juxtaposed alphabets in the same direction and the series of 
+alphabets make a word, then he/she scores points. (d) Pat-a-cake We designed a touch-based rhythm game 
+to exploit the advantage of the two-sided touch interaction. Most notes can be touched from a specific 
+side, but both players must simultaneously tap the remaining ones. The game requires a sense of rhythm 
+and good teamwork among players. 4. Future prospect What about installing TransWall as a sterile wall 
+in a hospital? TransWall would allow patients to interact with family and friends without the risk of 
+being infected or spreading infections. References Joseph L. Flatley. (Jan. 7, 2010). Samsung's 14-inch 
+transparent OLED laptop. Retrieved from http://www.engadget.com/2010/ 01/07/samsungs-14-inch-transparent-oled-laptop-video/ 
+ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503383</article_id>
+		<sort_key>150</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>15</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>15</seq_no>
+		<title><![CDATA[VibroTracker]]></title>
+		<subtitle><![CDATA[a vibrotactile sensor tracking objects]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503383</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503383</url>
+		<abstract>
+			<par><![CDATA[<p>Although vibrotactile feedback enlivens virtual interaction, it is difficult to measure actual vibrations of moving objects. Our VibroTracker system achieves this with an optical gaze controller and a laser Doppler vibrometer, enabling users to relive the vibrotactile sensations experienced by others.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[haptic media]]></kw>
+			<kw><![CDATA[laser doppler vibrometer]]></kw>
+			<kw><![CDATA[tactile sensor]]></kw>
+			<kw><![CDATA[vibrotactile sensation]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190550</person_id>
+				<author_profile_id><![CDATA[82458666857]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Leo]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Miyashita]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Tokyo]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[Leo_Miyashita@ipc.i.u-tokyo.ac.jp]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190551</person_id>
+				<author_profile_id><![CDATA[82458807657]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Yuko]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Zou]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Tokyo]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[Yuko_Zou@ipc.i.u-tokyo.ac.jp]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190552</person_id>
+				<author_profile_id><![CDATA[81100353752]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Masatoshi]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ishikawa]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Tokyo]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[Masatoshi_Ishikawa@ipc.i.u-tokyo.ac.jp]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[G&#252;nther, P., Pfister, T., B&#252;ttner, L., and Czarske, J. 2009. Laser doppler distance sensor using phase evaluation. <i>Opt. Express 17</i>, 4 (Feb), 2611--2622.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2343478</ref_obj_id>
+				<ref_obj_pid>2343456</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Minamizawa, K., Kakehi, Y., Nakatani, M., Mihara, S., and Tachi, S. 2012. Techtile toolkit: a prototyping tool for designing haptic media. In <i>ACM SIGGRAPH 2012 Emerging Technologies</i>, SIGGRAPH '12, ACM, 22:1--22:1.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Okumura, K., Oku, H., and Ishikawa, M. 2011. High-speed gaze controller for millisecond-order pan/tilt camera. In <i>IEEE International Conference on Robotics and Automation (ICRA)</i>, IEEE, 6186--6191.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Leo MIYASHITA:, Yuko ZOU Abstract Although vibrotactile feedback enlivens virtual interaction, it is 
+dif­.cult to measure actual vibrations of moving objects. Our Vibro-Tracker system achieves this with 
+an optical gaze controller and a laser Doppler vibrometer, enabling users to relive the vibrotactile 
+sensations experienced by others. Keywords: tactile sensor, vibrotactile sensation, laser Doppler vibrometer, 
+haptic media 1 Introduction It is exciting merely to watch sports events, but simulating the hap­tic 
+sensations experienced by a player would make spectating even more enjoyable. This is not peculiar to 
+sports events. In addition to video and audio, the ability to relive the sensations experienced by others 
+would also offer great entertainment value at temporal and spatial distances (Fig. 1). One example of 
+such a device is the TECHTILE toolkit [Minamizawa et al. 2012], which is user­friendly and has expressive 
+power, but existing systems have some problems in measuring vibrations. A contact-type vibrometer de­forms 
+the original vibrations and is a burden to wear or carry. Even with a non-contact sensor like a microphone, 
+it is dif.cult to mea­sure slight vibrations of a fast-moving target against the surround­ing noise. 
+Our VibroTracker system solved these issues by using a laser Doppler vibrometer (LDV) and a high-speed 
+optical gaze controller (Saccade Mirror), enabling users to relive the vibrotac­tile sensations experienced 
+by others. 2 Vibrometer and Tracking System VibroTracker consists of two parts, an LDV and a Saccade 
+Mirror. The LDV is an optical transducer used for determining the vibra­tion velocity and displacement 
+at an irradiated point [G ¨ unther et al. 2009]. The LDV enables vibration measurement with high accu­racy, 
+in real time, without any in.uence from surrounding noise or physical contact. The Saccade Mirror adjusts 
+a camera s pan and tilt angles and can keep an object always at the center of the viewing .eld by means 
+of visual feedback [Okumura et al. 2011]. When the LDV is coaxially mounted on the Saccade Mirror, non-contact 
+vi­bration measurement of a fast-moving target becomes possible. The object vibrations are reproduced 
+by a vibrator attached to a similar object held by the user, allowing the user to share the vibrotactile 
+sensations. 3 Experiments In an experiment, the VibroTracker measured the vibrations of three targets 
+at a distance of 3 m using an eye-safe (Class 2) laser: a vi­brating speaker radiating a 55 dB, 1 kHz 
+sine wave, a ping-pong paddle smashing a ball, and a ping-pong ball on the rebound. Fig. 2 (a) shows 
+that vibration measurement and object tracking worked well when the vibrating speaker was moved manually. 
+The sine wave and motion of the object are shown respectively in the high­frequency component and the 
+low-frequency component of the vi­ *e-mail:Leo Miyashita@ipc.i.u-tokyo.ac.jp e-mail:Yuko Zou@ipc.i.u-tokyo.ac.jp 
+e-mail:Masatoshi Ishikawa@ipc.i.u-tokyo.ac.jp Permission to make digital or hard copies of part or all 
+of this work for personal or classroom use isgranted without fee provided that copies are not made or 
+distributed for commercial advantage and that copies bear this notice and the full citation on the first 
+page. Copyrights for third-party components of thiswork must be honored. For all other uses, contact 
+the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 2013 Copyright held by the Owner/Author.ACM 
+978-1-4503-2261-4/13/07 (b) Ping-pong paddle smashing a ball. (c) Ping-pong ball on the rebound.  Figure 
+2: The vibrations of three targets.  References G¨ ¨ UNTHER, P., PFISTER, T., B UTTNER, L., AND CZARSKE, 
+J. 2009. Laser doppler distance sensor using phase evaluation. Opt. Express 17, 4 (Feb), 2611 2622. MINAMIZAWA, 
+K., KAKEHI, Y., NAKATANI, M., MIHARA, S., AND TACHI, S. 2012. Techtile toolkit: a prototyping tool for 
+designing haptic media. In ACM SIGGRAPH 2012 Emerging Technologies, SIGGRAPH 12, ACM, 22:1 22:1. OKUMURA, 
+K., OKU, H., AND ISHIKAWA, M. 2011. High-speed gaze controller for millisecond-order pan/tilt camera. 
+In IEEE International Conference on Robotics and Automation (ICRA), IEEE, 6186 6191. 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+	<article_rec>
+		<article_id>2503384</article_id>
+		<sort_key>160</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>16</display_no>
+		<article_publication_date>07-21-2013</article_publication_date>
+		<seq_no>16</seq_no>
+		<title><![CDATA[WAYLA]]></title>
+		<subtitle><![CDATA[novel gaming experience through unique gaze interaction]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2503368.2503384</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2503384</url>
+		<abstract>
+			<par><![CDATA[<p>An eye tracker is a device that tracks a user's eye gaze when interacting with external world. It has mostly been used as a tool for psychology or market research to provide insights of users' viewing behaviors. Few attempts have been made to integrate eye trackers into video games. However, eye trackers were simply treated as alternative input devices to a mouse or a joystick. Eye gaze based interaction for gaming has the potential to offer experiences which are not available through other interaction mechanisms. <i>WAYLA</i> is an original game designed to achieve this purpose.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P4190553</person_id>
+				<author_profile_id><![CDATA[82458685357]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Wein]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chang]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University, Pittsburgh, PA and University of Madeira, Funchal, Madeira, Portugal]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[wein_c@hotmail.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190554</person_id>
+				<author_profile_id><![CDATA[82458615557]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Po-An]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Shen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University, Pittsburgh, PA and University of Madeira, Funchal, Madeira, Portugal]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[shenboan2005@gmail.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190555</person_id>
+				<author_profile_id><![CDATA[82459208857]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Kushal]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ponnam]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University, Pittsburgh, PA and University of Madeira, Funchal, Madeira, Portugal]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[kushal.ponam@gmail.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190556</person_id>
+				<author_profile_id><![CDATA[82459081957]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Helena]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Barbosa]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University, Pittsburgh, PA and University of Madeira, Funchal, Madeira, Portugal]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[helenabarbosa.p@gmail.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190557</person_id>
+				<author_profile_id><![CDATA[82259198157]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Monchu]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Carnegie Mellon University, Pittsburgh, PA and University of Madeira, Funchal, Madeira, Portugal]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[monchu@andrew.cmu.edu]]></email_address>
+			</au>
+			<au>
+				<person_id>P4190558</person_id>
+				<author_profile_id><![CDATA[81421597482]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Sergi]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bermudez]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Madeira, Funchal, Madeira, Portugal]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[sergi.bermudez@m-iti.org]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ WAYLA Novel Gaming Experience through Unique Gaze Interaction Wein Chang1,2, Po-An Shen1,2, Kushal 
+Ponnam1,2, Helena Barbosa2, Monchu Chen1,2, Sergi Bermudez2 1 Entertainment Technology Center, Carnegie 
+Mellon University, Pittsburgh, PA, USA 2 Madeira-Interactive Technologies Institute, University of Madeira, 
+Funchal, Madeira, Portugal wein_c@hotmail.com, shenboan2005@gmail.com, kushal.ponam@gmail.com, helenabarbosa.p@gmail.com, 
+monchu@andrew.cmu.edu, sergi.bermudez@m-iti.org  1. Introduction An eye tracker is a device that tracks 
+a user's eye gaze wheninteracting with external world. It has mostly been used as a tool for psychology 
+or market research to provide insights of users viewing behaviors. Few attempts have been made to integrate 
+eyetrackers into video games. However, eye trackers were simplytreated as alternative input devices to 
+a mouse or a joystick. Eye gaze based interaction for gaming has the potential to offer experiences which 
+are not available through other interactionmechanisms. WAYLA is an original game designed to achieve 
+this purpose. 2. About WAYLA The story of WAYLA, in a sense, is created directly as a result ofthe eye-tracking 
+technology. The game happens in an imaginaryworld inside a computer, where creatures called Ibaus live 
+and perform the jobs of various computer components in order to support a Skype video chat for a real 
+life couple in a long distance relationship. The Ibaus always work with their partners to accomplish 
+their tasks. Like real life couples, they argue with each other sometimes. When Ibaus argue, their productivitydecreases; 
+as a result, the quality of Skype video chat diminishes.In the game, player takes the role of Ohlo, a 
+flying eyeball, who is the angel in the imaginary world. Ohlo has the power to harmonize relationships 
+by looking at troubled Ibaus couples.With the help from the eye-tracker, players obtain the magical healing 
+power of Ohlo. The relationship between troubled Ibaus couple recovers when the player visually attends 
+them. 3. Playing with Your Eyes The nature of eye movement behaviors pose unique and interesting challenges, 
+which do not happen to other traditional input devices. For example, it is difficult to determine whether 
+aplayer wants to act on or just to see a target on the screen, hence, the Midas Touch effect. When any 
+visual changes in the periphery, a rapid eye movement to the stimuli called reflexivesaccade will be 
+triggered automatically, which may disrupt the game play. A straightforward port of an existing game 
+with traditional input device to an eye-tracker with the same gamemechanics will encounter such two issues 
+among many others.WAYLA takes eye movements behaviors into consideration, andutilizes them as part of 
+game design. Players need to continuously look at and switch among multiple targets, as well as to avoid 
+distractors in order to finish the game. This design allows us to create an interesting and novel game 
+play experience that is markedly different from any other eye tracking games that wehave seen. 4. Developing 
+with New Technology in Mind WAYLA is a game created and designed from the beginning as aneye tracker 
+only game. Not only interactions and game mechanics are unique to eye tracking technique. Other aspects 
+of the gamedesign, such as narrative and characters, are also integrated cohesively with the technology. 
+The characters in WAYLA are all eyeballs. Besides the superficial connection with eye tracking, it is 
+a way to subtly immerse a player into the game by casting him/herin the role of the angel Ohlo, who is 
+also an eyeball. The theme ofconnecting relationship with eyes is prevalent throughout the game; not 
+only do the player have to fix characters in relationship troubles through eye gaze, the action also 
+helps a real life coupleoutside the computer communicating and maintaining their long­distance relationship. 
+WAYLA is not simply a proof-of-concept ofeye tracking applications in video games. It is a game createdfollowing 
+a rigorous development process, including steps all theway from pre-production to user testing. We conducted 
+two public playtests, as well as many internal user tests. The gamereceived many praises not only as 
+being innovative use of thetechnology, but also being an enjoyable game overall. 5. Future of Eye Tracking 
+in Gaming As companies, such as Tobii Technology, releasing affordable eyetrackers, this technology begins 
+to step outside of laboratories anduniversities, and into the market. With Tobii's REX, a small USBperipheral 
+for Windows 8, eye tracking has become one of theemerging technologies of the future. As eye tracking 
+becomes more prevalent, the design and development with regard to eyegaze based interactions will also 
+become more important. WAYLA is a game on the forefront of utilizing this new technology, andthere will 
+be many valuable knowledge and lessons to be gleamedfrom the creation of this game. Figure 1. User shift 
+their gaze as needed between the interactionpoints while avoid being distracted by other visuals. Permission 
+to make digital or hard copies of part or all of this work for personal or classroom use isgranted without 
+fee provided that copies are not made or distributed for commercial advantage and that copies bear this 
+notice and the full citation on the first page. Copyrights for third-party components of thiswork must 
+be honored. For all other uses, contact the Owner/Author.SIGGRAPH 2013, July 21 25, 2013, Anaheim, California. 
+2013 Copyright held by the Owner/Author.ACM 978-1-4503-2261-4/13/07 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+		<ccc>
+			<copyright_holder>
+				<copyright_holder_name>ACM</copyright_holder_name>
+				<copyright_holder_year>2013</copyright_holder_year>
+			</copyright_holder>
+		</ccc>
+	</article_rec>
+</content>
+</proceeding>

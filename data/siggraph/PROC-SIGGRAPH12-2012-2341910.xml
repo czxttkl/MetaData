@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08/05/2012</start_date>
+		<end_date>08/09/2012</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[Los Angeles]]></city>
+		<state>California</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES382</series_id>
+		<series_title><![CDATA[International Conference on Computer Graphics and Interactive Techniques]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>2341910</proc_id>
+	<acronym>SIGGRAPH '12</acronym>
+	<proc_desc>ACM SIGGRAPH 2012 Mobile</proc_desc>
+	<conference_number>2012</conference_number>
+	<proc_class>conference</proc_class>
+	<proc_title></proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-4503-1681-1</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2012</copyright_year>
+	<publication_date>08-05-2012</publication_date>
+	<pages>6</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>Inspired by SIGGRAPH Asia 2011's popular Symposium on Apps, this new program presents the latest advances in mobile technologies.</p> <p>In just a few years, smartphones, tablets, and handheld game devices have evolved beyond text, voice, music, news, and simple contests. Now, they combine serious graphics hardware with very cool software, good cameras, full-color screens, and high-resolution sensors that deliver precision space-time data everywhere in the world.</p> <p>The computer in your pocket or purse or lightweight bag is more powerful than the IRIS Indigo (code name: Hollywood) high-end SGI workstation introduced at SIGGRAPH 91. The Indigo looked like a large roll-on suitcase. The entry-level price was $US 8,000.</p> <p>What's next? In talks, workshops, and demonstrations, SIGGRAPH Mobile explores what's possible, and when, for computers that can remain in their bags at security checkpoints.</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+</proceeding_rec>
+<content>
+	<section>
+		<section_id>2341911</section_id>
+		<sort_key>10</sort_key>
+		<section_seq_no>1</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Understanding mobile graphics - GPUs and platforms]]></section_title>
+		<section_page_from>1</section_page_from>
+	<article_rec>
+		<article_id>2341912</article_id>
+		<sort_key>20</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>1</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Saving the planet, one handset at a time]]></title>
+		<subtitle><![CDATA[designing low-power, low-bandwidth GPUs]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341910.2341912</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341912</url>
+		<abstract>
+			<par><![CDATA[<p>GPUs for mobile devices have to deliver ever-increasing performance and capability while living within strict power and memory bandwidth limits. In this talk we'll explore how these limits influence the design of mobile GPUs, and how applications can exploit GPU features to achieve the best power efficiency and performance, using ARM's Mali#8482; GPU family as a case study.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734318</person_id>
+				<author_profile_id><![CDATA[81492646324]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Thomas]]></first_name>
+				<middle_name><![CDATA[J.]]></middle_name>
+				<last_name><![CDATA[Olson]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ARM Ltd]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[Tom.Olson@arm.com]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>2383812</ref_obj_id>
+				<ref_obj_pid>2383795</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Nystad, J., Lassen, A., Pomianowski, A., Ellis, S., and Olson, T. 2012. Adaptive scalable texture compression. In <i>Proceedings of the Conference on High Performance Graphics</i>, Eurographics Association (forthcoming).]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Saving the Planet, One Handset at a Time: Designing Low-Power, Low-Bandwidth GPUs  (a) original (b) 
+S3TC 4bpp (c) ASTC 5.1bpp (d) ASTC 3.6bpp (e) ASTC 2bpp Figure 1: ASTC Texture Compression gives applications 
+control of the quality vs memory bandwidth tradeoff Abstract GPUs for mobile devices have to deliver 
+ever-increasing perfor­mance and capability while living within strict power and memory bandwidth limits. 
+In this talk we ll explore how these limits in.u­ence the design of mobile GPUs, and how applications 
+can exploit GPU features to achieve the best power ef.ciency and performance, using ARM s MaliTM GPU 
+family as a case study. 1 Introduction Power consumption has become a key factor in determining the per­formance 
+of modern mobile GPUs. Among the various contributors to GPU power dissipation, external memory bandwidth 
+stands out, because of its magnitude and because it is independent of silicon technology and local circuit 
+optimizations. Consumers of memory bandwidth include frame buffer read/write, texture fetch, display 
+output, and geometry input; which if these is dominant varies with the application, but all are important 
+at one time or another. To reduce frame buffer read/write bandwidth, many mobile GPUs use some form of 
+deferred rasterization. In this technique, the frame buffer is conceptually divided into .xed-size rectangles 
+or tiles. Tri­angles submitted by the application are not drawn immediately, but are instead saved in 
+a database that is indexed by the tiles that they overlap. When the application signals that the frame 
+is complete, tiles are rendered one at a time into an on-chip memory store or tile buffer, using the 
+database to extract only the triangles relevant to the current tile. When all triangles for a given tile 
+have been ren­dered, the tile is written out to the appropriate place in the external frame buffer. Since 
+most depth, stencil, and color buffer accesses are con.ned to the on-chip tile buffer, frame buffer bandwidth 
+is limited to the .nal write to external memory. However, application behavior can affect how effective 
+this strategy is, as we ll discuss. As mobile device screen resolutions continue to grow, even writing 
+tiles to external memory becomes a signi.cant consumer of mem­ory bandwidth. However, in real-world applications 
+it is surpris­ingly common for many of the tiles in a frame to be unchanged *e-mail:Tom.Olson@arm.com 
+ from the previous frame, which makes writing those tiles to mem­ory unnecessary. In the latest ARM Mali 
+GPUs, each tile written to memory is accompanied by a signature. When a newly rendered tile is ready 
+to be written back to memory, the GPU computes its sig­nature and compares it to the one for that tile 
+in the previous frame; if they are the same, the memory write is cancelled. This can save 50% or more 
+of external memory bandwidth in many widely used applications. With frame buffer bandwidth reduced to 
+a minimum, the next biggest consumer of memory bandwidth for most applications is texture access. While 
+caching helps to minimize redundant tex­ture reads within a frame, most applications have such large 
+work­ing sets that caching texture data between frames is impractical. Instead, application developers 
+are encouraged to use lossy com­pression methods to reduce texture bandwidth and improve cache ef.ciency. 
+Unfortunately, existing compressed texture formats lack .exibility and have quality limitations that 
+make them unsuitable for many use cases. To address these problems, we introduce a new format called 
+Adaptive Scalable Texture Compression (ASTC) [Nystad et al. 2012]. ASTC supports bit rates ranging from 
+8 bits­ per-pixel (bpp) down to less than 1bpp in very .ne steps, giving the application a high degree 
+of control over the size / quality trade-off. At any bit rate, texels can have from one to four color 
+components. The format supports both HDR and standard (normalized) dynamic ranges, and can encode 3D 
+as well as 2D images. Surprisingly, this .exibility comes with no penalty in quality or coding ef.ciency; 
+on the contrary, ASTC outperforms S3TC and PVRTC by several dB (PSNR) at comparable bit rates, and is 
+competitive with advanced formats like BC6H and BC7. We ll show examples of the quality at various bit 
+rates, and talk about ways to exploit ASTCs .exibility in game engines and other applications.  References 
+NYSTAD, J., LASSEN, A., POMIANOWSKI, A., ELLIS, S., AND OLSON, T. 2012. Adaptive scalable texture compression. 
+In Proceedings of the Conference on High Performance Graphics, Eurographics Association (forthcoming). 
+Copyright is held by the author / owner(s). SIGGRAPH 2012, Los Angeles, California, August 5 9, 2012. 
+ISBN 978-1-4503-1435-0/12/0008  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341913</article_id>
+		<sort_key>30</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>2</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Unity: iOS and Android]]></title>
+		<subtitle><![CDATA[cross platform challenges and solutions]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341910.2341913</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341913</url>
+		<abstract>
+			<par><![CDATA[<p>Unity powers more than a thousand different titles on mobile platforms. One of the main strengths of Unity is the ability to efficiently support a very wide range of mobile devices starting from low-end Android devices running on ARMv6 CPUs with GLES1.1 level GPUs to iPad3, and across 5 different GPU architectures.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734319</person_id>
+				<author_profile_id><![CDATA[81504687519]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Renaldas]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Zioma]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Unity Technologies]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[rej@unity3d.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P3734320</person_id>
+				<author_profile_id><![CDATA[81504688274]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Aras]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Pranckevi&#269;ius]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Unity Technologies]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[aras@unity3d.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Unity: iOS and Android - Cross Platform Challenges and Solutions Renaldas Zioma Unity Technologies 
+rej@unity3d.com 1. Introduction Unity powers more than a thousand different titles on mobileplatforms. 
+One of the main strengths of Unity is the ability to ef.ciently support a very wide range of mobile devices 
+starting from low-end Android devices running on ARMv6 CPUs with GLES1.1 level GPUs to iPad3, and across 
+5 different GPUarchitectures. In this talk we will share our experience harnessing distinctGPU architectures 
+and lessons learned to maintain an acceptable quality and performance level across multiple devices and 
+operating systems. 2. Elaboration At present several different GPU architectures are .ourishing in the 
+mobile space. Almost every architecture introduces itsown texture compression scheme, a set of API extensions, 
+performance analysis tools, and different bugs in graphicaldrivers. 2.1 Graphical test suite on mobiles 
+We have adopted a graphics functional test suite for automated testing on mobile platforms. There are 
+a number of gotchas welearned in the process of .nding the suitable devices and achieving reproducible 
+results. 2.2 Cross platform shaders Unity can deploy not only to mobile platforms, but to desktopsand 
+web as well. Cg is used as the main cross platform shading language. The cross compilation step is employed 
+to generate aplatform speci.c shader in the HLSL, GLSL or GLSL ESlanguage. An additional optimization 
+step was developed to help the platform driver in achieving the best performance. 2.3 Ef.cient dynamic 
+geometry submission The combination of certain API extensions, driver bugs and GPU architectures calls 
+for several practical approaches when submitting dynamic geometry depending on the mobile platform. Currently 
+we employ the following approaches: vertex buffer orphaning  double/triple buffering  queue of preallocated 
+buffers and  rendering directly from system memory. We will compare the performance of different approaches 
+on a set of widely used mobile devices and explain why the performance differs so drastically.   2.4 
+Measuring GPU performance We will present several poor-man approaches for coarseGPU pro.ling we developed 
+so far for platforms which lack related tools (such as iOS) and overview our experienceintegrating extensions 
+suitable for GPU pro.ling directly into the engine, when available. Aras Pranckevicius Unity Technologies 
+ aras@unity3d.com   2.5 Dealing with broken paths in drivers We will share our experience dealing 
+with driver pitfalls on certain platforms and propose workarounds. 2.6 Different texture compressions 
+We will give a short overview of the different texture compression schemes, their pros and cons, overview 
+availablecompression libraries and explain why we chose certain approaches ourselves. 2.7 Skinning on 
+CPU We will present the performance results and explain why wechoose to implement skinning on the CPU 
+using VFP or NEON instructions instead of the GPU approach. 2.8 Optimizing shaders and post-processeffects 
+We will present a number of approaches we use to pro.le and optimize shaders and full screen post-process 
+effects on avariety of mobile platforms. 3. Conclusions Cross platform challenges and lessons learned 
+while developing genre agnostic technology suitable for a very widerange of devices can be applied by 
+mobile developers working on their custom game engines and can foster further discussions in the .eld 
+of driver stability and pro.ling tools on mobile platforms. Copyright is held by the author / owner(s). 
+SIGGRAPH 2012, Los Angeles, California, August 5 9, 2012. ISBN 978-1-4503-1435-0/12/0008  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	</section>
+	<section>
+		<section_id>2341914</section_id>
+		<sort_key>40</sort_key>
+		<section_seq_no>2</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Mobile graphics - hardware and software techniques]]></section_title>
+		<section_page_from>2</section_page_from>
+	<article_rec>
+		<article_id>2341915</article_id>
+		<sort_key>50</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>3</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Advancing dynamic lighting on mobile]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341910.2341915</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341915</url>
+		<abstract>
+			<par><![CDATA[<p>Dynamic lighting is common place for PC and console graphics, but until recently was too expensive for mobile devices. Many of the rendering techniques that work well on desktop architectures are inherently energy inefficient and perform poorly.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734321</person_id>
+				<author_profile_id><![CDATA[81487641330]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Sam]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Martin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Geomerics, Cambridge, UK]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[sam.martin@geomerics.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P3734322</person_id>
+				<author_profile_id><![CDATA[81504688057]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Matt]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Wash]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Geomerics, Cambridge, UK]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[matt.wash@geomerics.com]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Jeung, S. 2012. Light Pre Pass Renderer on iPhone, Web page. http://simonstechblog.blogspot.co.uk/2012/03/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1944761</ref_obj_id>
+				<ref_obj_pid>1944745</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Laurizen, A., Salvi, M., Lefohn, A. 2011. Sample Distribution Shadow Maps. From <i>ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (I3D) 2011</i>
+]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Martin, S., Einarsson, P. 2010. A Real-Time Radiosity Architecture for Video Games. From <i>Advances in Real-Time Rendering in 3D Graphics and Games</i>, SIGGRAPH course, http://advances.realtimerendering.com/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Pranckevi&#269;ius, A., Zioma, R. 2011. How to Write Fast iPhone and Android Shaders in Unity. SIGGRAPH Studio Talk. http://blogs.unity3d.com/2011/08/18/fast-mobile-shaders-talk-at-siggraph/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Advancing Dynamic Lighting on Mobile Sam Martin Geomerics Cambridge, UK IMG_0582.JPG sam.martin@geomerics.com 
+ Matt Wash Geomerics Cambridge, UK matt.wash@geomerics.com 1. Introduction Dynamic lighting is common 
+place for PC and console graphics, but until recently was too expensive for mobile devices. Many of the 
+rendering techniques that work well on desktop architectures are inherently energy inefficient and perform 
+poorly. In this talk, we explore what can be achieved on current mobile devices, and ways to advance 
+the state of the art. We focus on a dynamically lit scene with time-of-day lighting, including real time 
+radiosity. We describe how this result was obtained and which additional hardware and graphics API features 
+would have significant impact. 2. Approach For each frame in our test application, we render the scene 
+in a single pass as follows: 1. Generate a HDR lightmap on the CPU containing all indirect lighting 
+and low frequency direct lights, using Enlighten, a real time radiosity SDK 2. Generate a shadow map 
+to provide visibility for the sun 3. Render the scene geometry in a single pass, combining the sun and 
+lightmap in high precision, and tonemap the result before writing to the framebuffer.  The sun and 
+distant environment can be animated by the user to change the time of day. The Enlighten lightmap generation 
+pipeline is described in [Martin and Einarsson 2010] and is summarized in this talk. We ported the application 
+to a wide range of mobile GPUs to compare performance and determine the level of support.      
+    Figure 1. Palace scene with fully dynamic lighting on iPad2  3. Analysis We focus on rendering 
+with a single pass. OpenGL ES 2.0 lacks support for multiple render targets which deferred lighting would 
+require to avoid additional passes. Light pre-pass rendering has been demonstrated at real time rates 
+[Jeung 2012], and can extend our work, but requires a low resolution backbuffer to maintain the frame 
+rate. We limit our test application to a single directional light and discuss how the exposure of tiles 
+and on-chip memory may allow for more efficient rendering of multiple lights. Similar to the findings 
+of previous work [Pranckevicius and Zioma 2011], we find performance is limited by pixel processing. 
+We show how the radiosity system can be used to add additional low frequency illumination, including 
+environment lighting and local area lights. By handling all bounce lighting and low frequency light sources 
+on the CPU we reduce the per-pixel workload by minimizing the number of GPU light sources. Efficient 
+generation of shadow maps requires the extension GL_OES_depth_texture. Support for hardware PCF filtering 
+is not widely available, and we show that manual filtering is unlikely to be affordable on most hardware. 
+We compare the available options and discuss the feasibility of cascades and sample distribution shadow 
+maps [Laurizen et al. 2011]. Mobile devices have limited support for HDR textures. We show a method 
+for efficiently encoding HDR lightmaps through a simple 4-byte RGBA format, but only on devices that 
+support high precision texture interpolation. The precision of interpolation is not currently prescribed 
+by OpenGL ES, and we show how doing so would have a practical application. We discuss general techniques 
+to improve performance, including a fast tonemapping approximation and simplifications for specular materials, 
+and report performance on all hardware tested. References JEUNG, S. 2012. Light Pre Pass Renderer on 
+iPhone, Web page. http://simonstechblog.blogspot.co.uk/2012/03/ LAURIZEN, A., SALVI, M., LEFOHN, A. 
+2011. Sample Distribution Shadow Maps. From ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games 
+(I3D) 2011 MARTIN, S., EINARSSON, P. 2010. A Real-Time Radiosity Architecture for Video Games. From 
+Advances in Real-Time Rendering in 3D Graphics and Games, SIGGRAPH course, http://advances.realtimerendering.com/ 
+ PRANCKEVICIUS, A., ZIOMA, R. 2011. How to Write Fast iPhone and Android Shaders in Unity. SIGGRAPH Studio 
+Talk. http://blogs.unity3d.com/2011/08/18/fast-mobile-shaders-talk-at-siggraph/ 
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341916</article_id>
+		<sort_key>60</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>4</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Novel approaches for GPU performance analysis]]></title>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341910.2341916</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341916</url>
+		<abstract>
+			<par><![CDATA[<p>Most modern embedded GPU architectures use a concept called <i>deferred rendering</i> - a rendering job submitted to the GPU gets scheduled at a future point in time. When a graphics application issues a rendering API call (e.g. OpenGLES&#174; call), the graphics driver running on the CPU, stores the state necessary for that call, but doesn't execute it on the GPU immediately. The CPU consumes subsequent API calls to build a rendering job for the GPU. When the application wants to display the result of rendering on a window (eg SwapBuffers), the CPU submits the constructed job to the GPU. This architecture is especially suited for an embedded GPU as it reduces communication and bandwidth between the CPU and GPU. Once the job has been submitted to the GPU, the CPU is free to work on preparing the next frame. It is important to ensure that different processing units CPU and GPU) are kept busy running in parallel. An application that consumes a lot of time doing CPU computation, will starve the GPU and vice-versa. Understanding the relationship between the CPU and GPU is vital for developers who want to efficiently utilize the GPU. Timeline charts capture the amount of time a processing unit is busy. A timeline chart in the most basic form is a binary chart that indicates activity on a processing unit over time. This presentation discusses the state-of-the art approaches for capturing timeline and then discusses a different approach that moves both capture and visualization to the target device.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[deferred rendering]]></kw>
+			<kw><![CDATA[embedded GPU]]></kw>
+			<kw><![CDATA[performance]]></kw>
+			<kw><![CDATA[timeline]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734323</person_id>
+				<author_profile_id><![CDATA[81319492803]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Karthik]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Hariharakrishnan]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ARM&#174; Ltd, Cambridge, UK]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[karthik.hariharakrishnan@arm.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Novel approaches for GPU Performance Analysis Karthik Hariharakrishnan* ARM R ® Ltd, Cambridge, UK Keywords: 
+timeline, performance, deferred rendering, embedded GPU 1 Introduction Most modern embedded GPU architectures 
+use a concept called de­ferred rendering -a rendering job submitted to the GPU gets sched­uled at a future 
+point in time. When a graphics application issues a rendering API call(e.g. OpenGLES R ® call), the graphics 
+driver running on the CPU, stores the state necessary for that call, but doesn t execute it on the GPU 
+immediately. The CPU consumes subsequent API calls to build a rendering job for the GPU. When the application 
+wants to display the result of rendering on a win­dow(eg SwapBuffers), the CPU submits the constructed 
+job to the GPU. This architecture is especially suited for an embedded GPU as it reduces communication 
+and bandwidth between the CPU and GPU. Once the job has been submitted to the GPU, the CPU is free to 
+work on preparing the next frame. It is important to ensure that different processing units(CPU and GPU) 
+are kept busy running in parallel. An application that consumes a lot of time doing CPU computation, 
+will starve the GPU and vice-versa. Understanding the relationship between the CPU and GPU is vital for 
+developers who want to ef.ciently utilize the GPU. Timeline charts capture the amount of time a processing 
+unit is busy. A timeline chart in the most basic form is a binary chart that indicates activity on a 
+pro­cessing unit over time. This presentation discusses the state-of-the art approaches for capturing 
+timeline and then discusses a differ­ent approach that moves both capture and visualization to the target 
+device. 2 Exposition For performance analysis of applications running on embedded GPUs, the most vital 
+piece of information to .nd out is how loaded the GPU is over a period of time. As discussed above, this 
+is cap­tured by a timeline chart for each processing unit in the GPU. The latest approaches for capturing 
+timeline information from a tar­get are discussed. The current suite of GPU performance analysis tools 
+that run on desktops provide an integrated solution for pro­.ling the complete system that includes both 
+the CPU and GPU. We then discuss how some of the GPU timeline information can be directly captured and 
+displayed on the target device. Hardware counters that describe the load on different parts of the GPU 
+can also be acquired along with the timeline information. This provides *e-mail:karthik.hariharakrishnan@arm.com 
+very useful .rst level information for quickly identifying the bottle­neck and load on the GPU s processing 
+units. The technique has been demostrated as an application developed in AndroidTM. TheAndroidapplicationusesaservicetocommunicate 
+with the GPU device driver and retrieve the timeline information for the application that is being pro.led. 
+Once the pro.ling stops, the acquired timeline information is displayed on the target device. Figure 
+1: Snapshot of Android application 3 Elaboration The acquisition of timeline data from the GPU consists 
+of the fol­lowing steps. The .rst step is to establish a way to retrieve hardware information from the 
+GPU device driver( across the user-kernel in­terface). This can be done by the addition of necessary 
+ioctl (in­put/output control) calls. These ioctls are used to start/stop the pro­.ling and to retrieve 
+the pro.ling data. All of this is written using the Android NDK. The collected data is then plotted as 
+a line chart showing the activity on the different cores in the GPU. The acquired hardware counters are 
+also displayed to give more insight into the bottleneck. Another interesting use-case of such a technique, 
+would be to use the GPU hardware information to take a different software path, thereby making a closed-loop 
+software system with hardware performance feedback. 4 Conclusion This presentation discussed a different 
+approach for performance analysis where the acquisition and display of data was done on the target. A 
+technique for this approach was developed in Android to pro.le 3D applications running on the same device. 
+Copyright is held by the author / owner(s). SIGGRAPH 2012, Los Angeles, California, August 5 9, 2012. 
+ISBN 978-1-4503-1435-0/12/0008  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	</section>
+	<section>
+		<section_id>2341917</section_id>
+		<sort_key>70</sort_key>
+		<section_seq_no>3</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Mobile applications - in your hand and on the road]]></section_title>
+		<section_page_from>3</section_page_from>
+	<article_rec>
+		<article_id>2341918</article_id>
+		<sort_key>80</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>5</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Mobile augmented reality in advertising]]></title>
+		<subtitle><![CDATA[the TineMelk AR app - a case study]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341910.2341918</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341918</url>
+		<abstract>
+			<par><![CDATA[<p>Producing digital stories for mobile Augmented Reality applications poses a number of creative and technical challenges. This presentation covers lessons learned from the production of the TineMelk AR app and key issues and possibilities to be aware of when creating interactive AR stories for the mobile platform.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734324</person_id>
+				<author_profile_id><![CDATA[81504687117]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Kim]]></first_name>
+				<middle_name><![CDATA[Baumann]]></middle_name>
+				<last_name><![CDATA[Larsen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Placebo Effects, Oslo, Norway]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[kimbaumannlarsen@me.com]]></email_address>
+			</au>
+			<au>
+				<person_id>P3734325</person_id>
+				<author_profile_id><![CDATA[81504687364]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Tuck]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Siver]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Labrat, Melbourne, Australia]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[tuck@asylumproductions.net]]></email_address>
+			</au>
+			<au>
+				<person_id>P3734326</person_id>
+				<author_profile_id><![CDATA[81504685951]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[David]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Jones]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Labrat, Boston, MA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[dgsjones@gmail.com]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Mobile Augmented Reality in Advertising: The TineMelk AR App - a Case Study Kim Baumann Larsen Tuck 
+Siver David Jones Placebo Effects Labrat Labrat Oslo, Norwaykimbaumannlarsen@me.com Melbourne, Australiatuck@asylumproductions.net 
+Boston, MA, USA dgsjones@gmail.com 1. Introduction Producing digital stories for mobile Augmented Reality 
+applications poses a number of creative and technical challenges. This presentation covers lessons learned 
+from the production of the TineMelk AR app and key issues and possibilities to be awareof when creating 
+interactive AR stories for the mobile platform. 2. Exposition Augmented Reality offers many creative 
+and technical opportunities that are only beginning to be understood by advertisers. Placebo Effects 
+and Labrat s work with TineMelk AR provided a production challenge to apply this emerging technology 
+in a real world environment. 3. Results The TineMelk AR application for Android and iOS ran in Norway 
+in January 2012, nationwide. An AR marker was printed on theback of more than 50 million milk cartons. 
+The app was part of afour month campaign to raise awareness of locally produced and distributed milk 
+and was built on an existing marketing concept of cows talking like humans when unobserved. The AR app 
+placed two small animated cows on the user s tableplaying out an amusing mise en scène with the cows 
+speaking in adifferent Norwegian dialect, depending on which region the milk was from. The story ends 
+when the cows are surprised to discover the user and then clumsily return to playing cow.  4. Conclusions 
+For the writer / director, AR gave us: the ability to weave a real, physical object or location into 
+thenarrative;  the power to give the digital world or characters true knowledge of where the user (the 
+mobile device) is so as to include the user into the narrative;  the ability to allow interaction by 
+the user touching the digitalworld. For the production team, AR raised the challenges of:  a variety 
+of regionally-based marker objects; the impact of pre­de.ned packaging requirements on our choice of 
+middleware;  voice over and marker selection complications;  the complexities of the hardware and software 
+options availableat the time;  picking the right Middleware for the job;  pre-empting the various merits 
+and .aws of our choices.  The presentation will be OSX Keynote and will include a practical demonstration.. 
+ Copyright is held by the author / owner(s). SIGGRAPH 2012, Los Angeles, California, August 5 9, 2012. 
+ISBN 978-1-4503-1435-0/12/0008  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	<article_rec>
+		<article_id>2341919</article_id>
+		<sort_key>90</sort_key>
+		<display_label>Article No.</display_label>
+		<pages>1</pages>
+		<display_no>6</display_no>
+		<article_publication_date>08-05-2012</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Auto(mobile)]]></title>
+		<subtitle><![CDATA[mobile visual interfaces for the road]]></subtitle>
+		<page_from>1</page_from>
+		<page_to>1</page_to>
+		<doi_number>10.1145/2341910.2341919</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=2341919</url>
+		<abstract>
+			<par><![CDATA[<p>The increased prevalence of mobile touch screen interfaces in cars provides for new challenges in terms of optimizing safety, usability and affective response. While touch screens have certain usability benefits, the interfaces present significant visual attention demands from the driver. Suppose that you are traveling to an unfamiliar destination in your city to visit a friend. You know that she lives close to a popular landmark (mall, tourist attraction) and have visited that landmark several times. If you get directions from your GPS to visit your friend, it will most likely provide a shortest or fastest route, none of which will take into account the fact that you have visited the popular landmark several times. Additionally, the amount of navigational details that you would need to get to the popular landmark would be far fewer than the assistance you would need when you are driving in an unfamiliar region. By using context from the phone and car, more informed visual navigation applications can be created for a better user experience.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P3734327</person_id>
+				<author_profile_id><![CDATA[81504687514]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Frederik]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Wiehr]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Saarland University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P3734328</person_id>
+				<author_profile_id><![CDATA[81100609586]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Vidya]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Setlur]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Nokia Research Center]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P3734329</person_id>
+				<author_profile_id><![CDATA[81504684109]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Alark]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Joshi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Boise State University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>604066</ref_obj_id>
+				<ref_obj_pid>604045</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Kray, C., Elting, C., Laakso, K., and Coors, V. 2003. Presenting route instructions on mobile devices. In <i>IUI '03: Proceedings of the 8th international conference on Intelligent user interfaces</i>, ACM, New York, NY, USA, 117--124.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1166282</ref_obj_id>
+				<ref_obj_pid>1166253</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Patel, K., Chen, M., Smith, I., and Landay, J. 2006. Personalizing routes. In <i>Proceedings of the 19th annual ACM symposium on User interface software and technology</i>, ACM, 187--190.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1122742</ref_obj_id>
+				<ref_obj_pid>1122739</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Reilly, D., Rodgers, M., Argue, R., Nunes, M., and Inkpen, K. 2006. Marked-up maps: combining paper maps and electronic information resources. <i>Personal Ubiquitous Comput. 10</i>, 4, 215--226.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Tversky, B., Agrawala, M., Heiser, J., Lee, P., Hanrahan, P., Phan, D., Stolte, C., and Daniel, M. 2006. Cognitive design principles for automated generation of visualizations. <i>Applied spatial cognition: from research to cognitive technology</i>, 53--75.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+ Auto(mobile): Mobile Visual Interfaces for the Road Frederik Wiehr Vidya Setlur Alark Joshi Saarland 
+University Nokia Research Center Boise State University Figure 1: Comparison of route maps for varying 
+speeds. As the speed increases (left to right), the amount of detail displayed to the user is reduced. 
+Abstract The increased prevalence of mobile touch screen interfaces in cars provides for new challenges 
+in terms of optimizing safety, usability and affective response. While touch screens have certain usability 
+bene.ts, the interfaces present signi.cant visual attention demands from the driver. Suppose that you 
+are traveling to an unfamiliar des­tination in your city to visit a friend. You know that she lives close 
+to a popular landmark (mall, tourist attraction) and have visited that landmark several times. If you 
+get directions from your GPS to visit your friend, it will most likely provide a shortest or fastest 
+route, none of which will take into account the fact that you have visited the popular landmark several 
+times. Additionally, the amount of navigational details that you would need to get to the popular land­mark 
+would be far fewer than the assistance you would need when you are driving in an unfamiliar region. By 
+using context from the phone and car, more informed visual navigation applications can be created for 
+a better user experience. 1 Background Techniques in cartography have been an inspiration for several 
+re­search papers. Rendering route maps effectively and succinctly has been a widely researched topic 
+[Tversky et al. 2006] . Kray et al. describe a method of presenting route instructions on a mo­bile device 
+depending on various situational factors such as lim­ited resources and varying quality of positional 
+information [Kray et al. 2003]. Reilly and Inkpen describe a map morphing technique for relating maps 
+with signi.cant spatial and schematic differences [Reilly et al. 2006]. While their approach focuses 
+on web pages on the mobile phone we provide the user with relevant information by minimizing visual clutter 
+in a map through semantic zooming.Patel et al. [Patel et al. 2006] developed a system that suggests alter­ 
+native directions using pre-de.ned familiar landmarks/routes. We propose leveraging context both from 
+the mobile device and the car for delivering more relevant map navigation for the user on-the-go. 2 
+Phone + Car Context With a rapid development of ubiquitous computing technology, context about the user 
+s environment is made available via mo­bile phones. Sensors on these phones, such as, the GPS, camera, 
+gyroscope and bluetooth provide varied granularity for perceiving location, task, and the proximate environment. 
+Analogously, the On-Board Diagnostics (OBD-II) interface is a standard supported by all modern vehicles 
+for accessing data regarding the vehicle s operation. This standard supports numbers sensors including 
+vehi­cle speed, engine load, fuel, and tire pressure. We leverage the dual advantage of phone and automobile 
+to come up with a system called DriveSense for providing a better nav­igational experience for users 
+on the go. DriveSense, a context­sensitive visualization system that automatically varies the visual­ization 
+being displayed to the user based on the speed of the vehi­cle as well as the familiarity of the region 
+that the user is driving in (Figure 1). Details and labels are accordingly varied based on the cognitive 
+load that the user may be experiencing at that point. 3 Future Directions In this extended abstract, 
+we present novel visualization techniques for context-based navigation of route maps in an automobile. 
+By leveraging mobile context and OBD-II data, mobile devices can transform themselves into automotive 
+application platforms, facil­itating new ways of thinking about visual interfaces. Here, we present a 
+comprehensive view of the current state-of-the-art, hoping that this would encourage further exploration 
+in the auto(mobile) world of map navigation.  References KRAY, C., ELTING, C., LAAKSO, K., AND COORS, 
+V. 2003. Pre­senting route instructions on mobile devices. In IUI 03: Pro­ceedings of the 8th international 
+conference on Intelligent user interfaces, ACM, New York, NY, USA, 117 124. PATEL, K., CHEN, M., SMITH, 
+I., AND LANDAY, J. 2006. Per­sonalizing routes. In Proceedings of the 19th annual ACM sym­posium on User 
+interface software and technology, ACM, 187 190. REILLY, D., RODGERS, M., ARGUE, R., NUNES, M., AND INKPEN, 
+K. 2006. Marked-up maps: combining paper maps and electronic information resources. Personal Ubiquitous 
+Comput. 10, 4, 215 226. TVERSKY, B., AGRAWALA, M., HEISER, J., LEE, P., HANRA-HAN, P., PHAN, D., STOLTE, 
+C., AND DANIEL, M. 2006. Cognitive design principles for automated generation of visual­izations. Applied 
+spatial cognition: from research to cognitive technology, 53 75. Copyright is held by the author / owner(s). 
+SIGGRAPH 2012, Los Angeles, California, August 5 9, 2012. ISBN 978-1-4503-1435-0/12/0008  
+			]]></ft_body>
+		</fulltext>
+		<article_type art_type="regular_article" />
+	</article_rec>
+	</section>
+</content>
+</proceeding>
