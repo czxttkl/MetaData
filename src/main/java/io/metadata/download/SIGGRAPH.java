@@ -1,10 +1,5 @@
 package io.metadata.download;
 
-import io.metadata.misc.Globals;
-import io.metadata.misc.Logger;
-import io.metadata.orm.MyMongoCollection;
-import io.metadata.orm.Paper;
-
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
@@ -15,6 +10,11 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
+import io.metadata.misc.Globals;
+import io.metadata.misc.Logger;
+import io.metadata.orm.MyMongoCollection;
+import io.metadata.orm.Paper;
+
 import org.apache.commons.lang.StringEscapeUtils;
 
 /**
@@ -24,7 +24,7 @@ import org.apache.commons.lang.StringEscapeUtils;
  */
 public class SIGGRAPH {
 
-    public static String VENUE = "SIGGRAPH";
+    public static final String VENUE = "SIGGRAPH";
 
     public static void main(String[] args) throws XMLStreamException, IOException {
         // Initialize logger
@@ -68,7 +68,7 @@ public class SIGGRAPH {
                     // Convert html encode to unicode
                     tagContent = StringEscapeUtils.unescapeHtml(tagContent);
                     // Remove html tags in tagcontent 
-                    tagContent = tagContent.replaceAll("\\<.*?>","");
+                    tagContent = tagContent.replaceAll("\\<.*?>", "");
                     
                     switch (reader.getLocalName()) {
                     case "copyright_year":

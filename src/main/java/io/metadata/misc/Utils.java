@@ -8,15 +8,19 @@ package io.metadata.misc;
 public class Utils {
     
     /**
-     * Return true if the string is null or empty ("")
+     * Return true if the string is null or empty ("").
      * @param s
      * @return
      */
     public static boolean nullOrEmpty(String s) {
-        if (s == null)
+        if (s == null) {
             return true;
-        if (s.equals(""))
+        }
+        
+        if (s.equals("")) {
             return true;
+        }
+        
         return false;
     }
 
