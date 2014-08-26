@@ -5,9 +5,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * @author Zhengxing Chen
- *
  * Self-implemented logger for logging crawling information.
+ * @author Zhengxing Chen
  */
 public class Logger {
 

@@ -10,8 +10,8 @@ import io.metadata.orm.MyMongoCollection;
 import io.metadata.orm.Paper;
 
 /**
- * @author Zhengxing Chen
  * ACE from Springer.
+ * @author Zhengxing Chen
  */
 public class ACESpringer {
 
@@ -192,6 +192,10 @@ public class ACESpringer {
                 mLogger.appendLine("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
                 mLogger.appendLine(e.getMessage());
             }
+            
+            // Anti-robotics
+            Thread.sleep((long) (Math.random() * 60000));
+            System.out.println();
         }  
         
     }

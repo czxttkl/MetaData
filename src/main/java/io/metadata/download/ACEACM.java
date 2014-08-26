@@ -681,6 +681,10 @@ public class ACEACM {
                 mLogger.appendLine("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
                 mLogger.appendLine(e.getMessage());
             }
+            
+            // Anti-robotics
+            Thread.sleep((long) (Math.random() * 60000));
+            System.out.println();
         }  
         
         

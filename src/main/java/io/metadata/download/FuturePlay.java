@@ -1,5 +1,10 @@
 package io.metadata.download;
 
+import io.metadata.misc.Globals;
+import io.metadata.misc.Logger;
+import io.metadata.orm.MyMongoCollection;
+import io.metadata.orm.Paper;
+
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
@@ -10,25 +15,20 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
-import io.metadata.misc.Globals;
-import io.metadata.misc.Logger;
-import io.metadata.orm.MyMongoCollection;
-import io.metadata.orm.Paper;
-
 import org.apache.commons.lang.StringEscapeUtils;
 
 /**
- * Xml Parser for SIGGRAPH. Xmls for SIGGRAPH are available in data/siggraph.
+ * Xml Parser for FuturePlay. Xmls for FuturePlay are available in data/futureplay.
  * @author Zhengxing Chen
  *
  */
-public class SIGGRAPH {
+public class FuturePlay {
 
-    public static final String VENUE = "SIGGRAPH";
+    public static final String VENUE = "FuturePlay";
 
     public static void main(String[] args) throws XMLStreamException, IOException {
         // Initialize logger
-        Logger mLogger = new Logger("logSIGGRAPH", true);
+        Logger mLogger = new Logger("logFuturePlay", true);
         
         String tagContent = "";
         Paper paper = new Paper();
@@ -39,7 +39,7 @@ public class SIGGRAPH {
 
         ArrayList<Paper> papersList = new ArrayList<Paper>();
 
-        for (File file : new File("data/siggraph").listFiles()) {
+        for (File file : new File("data/futureplay").listFiles()) {
             XMLInputFactory factory = XMLInputFactory.newInstance();
             XMLStreamReader reader = factory.createXMLStreamReader(new FileReader(file));
             mLogger.appendLine(file.getName());
@@ -134,10 +134,10 @@ public class SIGGRAPH {
                             mLogger.appendLine(url);
                             mLogger.appendLine("///////////////////////////////////////////////////////////////////////");
                         }
+                        mLogger.appendLine("");
                         break;
                     }
 
-                    mLogger.appendLine("");
                     break;
 
                 } // switch
@@ -162,4 +162,5 @@ public class SIGGRAPH {
         mPapersCollection.insert(papersArray);
         
     } // main
+
 }
