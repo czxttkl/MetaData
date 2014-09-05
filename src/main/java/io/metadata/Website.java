@@ -49,8 +49,8 @@ public abstract class Website {
     }
 
     /**
-     * Get html string and set keywords, abstract, title, years, authors.
-     * Using "final" to prevent the method from being inherited.
+     * Get html string and set keywords, abstract, title, years, authors. Using "final" to prevent the method from being inherited.
+     * 
      * @throws IOException
      */
     final void process() throws IOException {
@@ -60,6 +60,10 @@ public abstract class Website {
         setTitle();
         setYears();
         setAuthors();
+    }
+
+    public final String getArticleURL() {
+        return articleUrl;
     }
 
     abstract void setKeywords();

@@ -10,44 +10,24 @@ import io.metadata.orm.MyMongoCollection;
 import io.metadata.orm.Paper;
 
 /**
- * ICEC from Springer.
+ * ISAGA from Springer.
  * 
  * @author Zhengxing Chen
  */
-public class ICECSpringer {
+public class ISAGASpringer {
 
     // Online DOI
-    public static String[] bookDOIs = {
-            // "978-3-540-28643-1", // 2004
-            "11558651", // 2005
-            "11872320", // 2006
-            "978-3-540-74873-1", // 2007
-            "978-3-540-89222-9", // 2008
-            "978-3-642-04052-8", // 2009
-            "978-3-642-15399-0", // 2010
-            "978-3-642-24500-8", // 2011
-            "978-3-642-33542-6", // 2012
-            "978-3-642-41106-9", // 2013
+    public static String[] bookDOIs = { "978-3-319-04954-0", // 2013
     };
 
-    public static int[] numberOfChapters = {
-            // 82, // 2004
-            56, // 2005
-            62, // 2006
-            64, // 2007
-            31, // 2008
-            62, // 2009
-            77, // 2010
-            70, // 2011
-            81, // 2012
-            30, // 2013
+    public static int[] numberOfChapters = { 30, // 2013
     };
 
-    public static final String VENUE = "ICEC";
+    public static final String VENUE = "ISAGA";
 
     public static void main(String[] args) throws IOException, InterruptedException {
         // Initialize logger
-        Logger mLogger = new Logger("logICEC", true);
+        Logger mLogger = new Logger("logISAGA", true);
 
         // Initialize self-wrapped mongocollection
         MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);

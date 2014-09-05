@@ -75,7 +75,7 @@ public class Paper {
     public String getTitle() {
         return title;
     }
-    
+
     public Paper setVenueType(String venueTypeString) {
         venueType = venueTypeString;
         return this;

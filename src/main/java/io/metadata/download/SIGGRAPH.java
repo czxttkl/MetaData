@@ -19,8 +19,9 @@ import org.apache.commons.lang.StringEscapeUtils;
 
 /**
  * Xml Parser for SIGGRAPH. Xmls for SIGGRAPH are available in data/siggraph.
+ * 
  * @author Zhengxing Chen
- *
+ * 
  */
 public class SIGGRAPH {
 
@@ -29,7 +30,7 @@ public class SIGGRAPH {
     public static void main(String[] args) throws XMLStreamException, IOException {
         // Initialize logger
         Logger mLogger = new Logger("logSIGGRAPH", true);
-        
+
         String tagContent = "";
         Paper paper = new Paper();
         String keywords = "";
@@ -67,9 +68,9 @@ public class SIGGRAPH {
                     tagContent = tagContent.trim();
                     // Convert html encode to unicode
                     tagContent = StringEscapeUtils.unescapeHtml(tagContent);
-                    // Remove html tags in tagcontent 
+                    // Remove html tags in tagcontent
                     tagContent = tagContent.replaceAll("\\<.*?>", "");
-                    
+
                     switch (reader.getLocalName()) {
                     // Only have year information for conference. Set year at the end of one article.
                     case "copyright_year":
@@ -125,7 +126,7 @@ public class SIGGRAPH {
                     case "article_rec":
                         paper.setYear(year);
                         mLogger.appendLine("year:" + String.valueOf(year));
-                        
+
                         // Validate papers. Only add papers with complete information
                         if (paper.validate()) {
                             papersList.add(paper);
@@ -143,23 +144,23 @@ public class SIGGRAPH {
                 } // switch
 
             } // while
-            
+
             mLogger.appendLine("");
             mLogger.appendLine("");
             mLogger.appendLine("");
-            
+
         } // for traverse all files in data/siggraph folder
 
         mLogger.close();
-        
+
         // Convert to array for bulk insert
         Paper[] papersArray = new Paper[papersList.size()];
         papersList.toArray(papersArray);
-        
+
         // Initialize self-wrapped mongocollection
         MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
-        
+
         mPapersCollection.insert(papersArray);
-        
+
     } // main
 }
