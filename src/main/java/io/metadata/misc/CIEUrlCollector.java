@@ -5,6 +5,11 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * CIECollector collect urls from data/cie
+ * @author Zhengxing Chen
+ *
+ */
 public class CIEUrlCollector {
 
     public static void main(String[] args) throws IOException {

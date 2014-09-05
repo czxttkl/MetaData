@@ -68,6 +68,11 @@ public class Paper {
         return this;
     }
 
+    public Paper setVenueType(String venueTypeString) {
+        venueType = venueTypeString;
+        return this;
+    }
+
     public String getAbstraction() {
         return abstraction;
     }
@@ -75,11 +80,7 @@ public class Paper {
     public String getTitle() {
         return title;
     }
-    
-    public Paper setVenueType(String venueTypeString) {
-        venueType = venueTypeString;
-        return this;
-    }
+
 
     /**
      * Validate if this paper instance has enough information: 1. title 2. year 3. venue 4. authors 5. abstract or keywords

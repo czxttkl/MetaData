@@ -30,7 +30,7 @@ public class Utils {
     }
 
     /**
-     * Read file as String
+     * Read file as String.
      * @param filePath
      * @return
      * @throws IOException
