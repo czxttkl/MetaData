@@ -10,7 +10,7 @@ import io.metadata.orm.MyMongoCollection;
 import io.metadata.orm.Paper;
 
 /**
- * ACE from Springer.
+ * ACEICECrom Springer.
  * @author Zhengxing Chen
  */
 public class ICECSpringer {

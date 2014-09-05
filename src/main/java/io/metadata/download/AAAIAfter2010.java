@@ -1059,11 +1059,11 @@ public class AAAIAfter2010 {
         "AAAI/AAAI13/paper/viewPaper/6111",
     };
     
-    public static final String VENUE = "AIII";
+    public static final String VENUE = "AAAI";
 
     public static void main(String[] args) throws Exception {
         // Initialize logger
-        Logger mLogger = new Logger("logAIII", true);
+        Logger mLogger = new Logger("logAAAI", true);
 
         // Initialize self-wrapped mongocollection
         MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
