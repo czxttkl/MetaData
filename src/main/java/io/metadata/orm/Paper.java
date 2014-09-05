@@ -23,6 +23,7 @@ public class Paper {
     String abstraction;
     long year = 0;
     String venue;
+    String venueType = "conference";
 
     /*
      * public Paper(String titleString, String abstractString, String keywordsString, String authorsString, String yearString, String venueString) {
@@ -73,6 +74,11 @@ public class Paper {
 
     public String getTitle() {
         return title;
+    }
+    
+    public Paper setVenueType(String venueTypeString) {
+        venueType = venueTypeString;
+        return this;
     }
 
     /**
