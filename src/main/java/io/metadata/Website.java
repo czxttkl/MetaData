@@ -48,6 +48,10 @@ public abstract class Website {
         return authorsString;
     }
 
+    public final String getArticleURL() {
+        return articleUrl;
+    }
+
     /**
      * Get html string and set keywords, abstract, title, years, authors. Using "final" to prevent the method from being inherited.
      * 
@@ -60,10 +64,6 @@ public abstract class Website {
         setTitle();
         setYears();
         setAuthors();
-    }
-
-    public final String getArticleURL() {
-        return articleUrl;
     }
 
     abstract void setKeywords();

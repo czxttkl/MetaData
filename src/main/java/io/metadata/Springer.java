@@ -6,17 +6,17 @@ import java.util.regex.Pattern;
 
 /**
  * @author Zhengxing Chen
- * 
+ *
  */
 public class Springer extends Website {
 
     public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://link.springer.com/chapter/";
     public static final Pattern TITLE_PATTERN = Pattern.compile("<meta name=\"citation_title\" content=\"(.*?)\"/>");
-    public static final Pattern YEAR_PATTERN = Pattern.compile("<meta name=\"citation_publication_date\" content=\"(\\d{4})/\\d{2}/"
-            + "\\d{2}\"/>");
+    public static final Pattern YEAR_PATTERN = Pattern.compile("<meta name=\"citation_publication_date\" content=\"(\\d{4})/\\d{2}/" +
+            "\\d{2}\"/>");
     public static final Pattern KEYWORD_PATTERN = Pattern.compile("<ul class=\"abstract-keywords\">\\s+(<li>(.*?)</li>\\s+)+</ul>");
-    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("<div class=\"abstract-content formatted\" itemprop=\"description"
-            + "\">\\s+<p class=\"a-plus-plus\">(.*?)</p>");
+    public static final Pattern ABSTRACT_PATTERN = Pattern.compile("<div class=\"abstract-content formatted\" itemprop=\"description" +
+            "\">\\s+<p class=\"a-plus-plus\">(.*?)</p>");
     public static final Pattern AUTHORS_PATTERN = Pattern.compile("<meta name=\"citation_author\" content=\"(.*?)\"/>");
 
     public Springer(String doi) throws IOException {

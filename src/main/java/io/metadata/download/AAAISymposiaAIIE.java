@@ -74,11 +74,11 @@ public class AAAISymposiaAIIE {
         "Symposia/Spring/2000/ss00-02-016",
     };
     
-    public static final String VENUE = "AIIISAIIE";
+    public static final String VENUE = "AAAISAIIE";
 
     public static void main(String[] args) throws IOException, InterruptedException {
         // Initialize logger
-        Logger mLogger = new Logger("logAIIISAIIE", true);
+        Logger mLogger = new Logger("logAAAISAIIE", true);
 
         // Initialize self-wrapped mongocollection
         MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);

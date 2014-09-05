@@ -71,11 +71,11 @@ public class AAAIINTWorkshop {
         "AIIDE/AIIDE12/paper/viewPaper/5499",
     };
     
-    public static final String VENUE = "AIIIINTWorkshop";
+    public static final String VENUE = "AAAIINTWorkshop";
 
     public static void main(String[] args) throws IOException, InterruptedException {
         // Initialize logger
-        Logger mLogger = new Logger("logAIIIINTWorkshop", true);
+        Logger mLogger = new Logger("logAAAIINTWorkshop", true);
 
         // Initialize self-wrapped mongocollection
         MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
