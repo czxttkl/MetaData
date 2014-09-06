@@ -1,0 +1,778 @@
+@charset "utf-8";
+/* version no. [v.2014.07.14.01.xml_display.css] 02:29 PM */
+@font-face {
+ font-family: 'XITSMath';
+ src: url('/fonts/xitsmath.ttf');
+ /*src: local("?"), url('/fonts/xitsmath.ttf') format('truetype');*/
+}
+/* Safari */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+@font-face {
+ font-family: 'XITSMath';
+ src:url('http://files.hindawi.com.s3.amazonaws.com/fonts/xitsmath.svg#xitsmath') format('svg');
+}
+}
+/* Opera */
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+@font-face {
+ font-family: 'XITSMath';
+ src:url("http://files.hindawi.com.s3.amazonaws.com/fonts/xitsmath.ttf");
+}
+}
+@font-face {
+    font-family: 'xits-math';
+    src: url('http://files.hindawi.com/fonts/xits-math.eot');
+    src: url('http://files.hindawi.com/fonts/xits-math.eot?#iefix') format('embedded-opentype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*-- end -- */
+
+.middle_content pre {
+	padding: 0px;
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 18px; /*1.5em*/
+	margin-left: 0px;
+	font-family: MinionPro-Regular, Times;
+	font-size: 17px;
+}
+.middle_content pre a {
+	white-space: normal;
+}
+.article_type {
+	color: #000000;
+	font-size: 18px;
+	font-family:MinionPro-bold;
+	margin-bottom: 0.4em;	 
+}
+.middle_content .author_gp {
+	text-align: left;
+	color: #000000;
+	padding: 0px;
+	margin: 12px 0px;
+	font-size: 17px;
+	line-height: 19px;
+	font-weight: normal;	
+	font-family:MinionPro-Regular;
+}
+ 
+.icon_holder {
+    float: left;
+    height: 18px;
+    margin-left: 0;
+    margin-top: 4px;
+    width: 15px;
+}
+#container .xml-content p {
+	text-align: justify;
+}
+/*#container .xml-content p a {
+word-break: break-all;
+}*/
+.middle_content .secapp { /* check if orphaned */ /* not orphaned for two h4 */
+	border-bottom-width: 0px;
+	margin: 24px 0px -12px;/*2em 0px -1em*/
+}
+.xml-content h5, #container .xml-content h6 {
+	font-family:MinionPro-bold;
+	text-align: left;
+	padding: 0px;
+	margin: 0px 0px 12px 0px;/*0em 0em 1em 0em*/
+	color: #999999;
+	font-size: 17px;
+ 
+}
+.xml-content .fig {
+	border: 1px solid #CCCCCC;
+	background: #F5F5F5;
+	display: inline-block; /* block */
+	/*padding: 12px;*/ /* 12px Paul 03.08.2010 */
+	margin: 6px 0px 6px 0px; /*1.5em 0em*/ /* 18px 0px */
+ 	*margin: 12px 0px; /* for IE */
+	font-size: 17px;
+	/*width:682px;*/ /* 640px Paul 03.08.2010 */
+ 	/**width:auto;*/
+	width: /*\**/:676px\9;
+	font-family:MinionPro-Regular,Times;
+	
+	width: 100%;
+	padding: 0px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+#content .middle_content .xml-content .fig + h5, #content .middle_content .xml-content .fig + h6 {
+	margin: 18px 0px 12px 0px; /*1.5em 0em*/ /* 18px 0px */
+}
+.statement-content {
+	font-style: normal;
+}
+
+.thumbnail {
+	display: block;
+	border: 1px solid #CCCCCC;
+	background: #FFFFFF;
+	padding: 0px;
+	line-height:0px;
+	width:100px;
+}
+.xml-content .fig tr {
+	vertical-align: top;
+}
+.xml-content .fig img {
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+	display:inline;
+}
+.xml-content img {
+	margin: 0px 0px 0px 0px;/*0.3em 0 0.3em 0*//*4px 0px 4px 0px*/
+}
+.xml-content .fn-content { /* orphaned */
+	font-size:17px;
+	text-align:justify;
+	font-family:MinionPro-Regular,Times;
+}
+.xml-content .abbr-def {
+	display:block;
+}
+.xml-content .def {
+	display:block;
+	float:left;
+}
+.xml-content hr {
+	height:1px;
+	color:#CCCCCC;
+	background-color:#CCCCCC;
+	border-top: 0px solid #CCCCCC;
+	border-right: 0px solid #CCCCCC;
+	border-bottom: 0px solid #CCCCCC;
+	border-left: 0px solid #CCCCCC;
+	margin:24px 0px;/*2em 0em*/
+	#margin:0px 0px 12px 0px;/*0em*/
+}
+span.equation {
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	width: 100%;
+}
+.equation-line {
+	text-align: center;
+	display: block;
+	vertical-align: middle;
+	margin: 12px 0px;/*1em 0*/
+	position: relative;
+	width: 100%;
+}
+.equation .equation-line .displayed-label {
+	text-align: center;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.inlineformula {
+ top:3px;
+ position:relative;
+}
+}
+.equation-label {
+	position: absolute;
+	bottom:45%;
+	right: 0px;
+ #right: 3px;
+	float:right;
+	font-style: normal;
+}
+.figgroupcaption {
+	float:left;
+	margin: 12px;
+}
+.groupcaption {
+	/*float:right;*/
+	/*#width:84%;*/
+	text-align:justify;
+	margin-left:114px;
+	_margin-left:111px;
+	margin-top:-3px;
+/* #margin-top:-2px;*/
+
+	margin: 12px 12px 12px 126px;
+}
+.figcaptiongroup {
+	background-color: #0099CC;
+}
+.figcaptiongroup a {
+	border: 1px solid #FF0000;
+	display:block;
+}
+.figcaptiongroup a img {
+	border: none;
+}
+.xml-content math, .math {
+	font-family:MinionPro-Regular,Times;
+}
+.xml-content mtable {
+	font-size:100%;
+}
+.xml-content mfrac, msqrt {
+	font-size:100%;
+}
+mstyle[displaystyle="true"] mo {
+	font-family:"Times New Roman", Times, serif;
+	font-size:16px;
+}
+mstyle[mathvariant="bold"] mi, mi[mathvariant="bold"], mstyle[mathvariant="bold"] mo, mstyle[mathvariant="bold"] mn {
+	font-family:MinionPro-bold;
+	font-style:normal;
+	font-size:17px;
+}
+mstyle[mathvariant="monospace"] mi {
+	font-style: normal;
+}
+mstyle[mathvariant="bold-italic"] mi, mstyle[mathvariant="italic"] mo {
+	font-family:MinionPro-bold;
+	font-style:italic;
+	font-size:17px;
+}
+mi[mathvariant="bold-italic"] {
+	font-family:MinionPro-bold;
+	font-style:normal;
+	font-size:17px;
+}
+mstyle[mathvariant="normal"] mi, mstyle[mathvariant="normal"] mrow mi {
+	font-style:normal;
+}
+munderover mrow mtable mtr mtd mrow {
+	margin-bottom:-2em;/*unknown font size*/
+}
+.xml-content .fig td {
+	font-size: 17px;
+	font-family:MinionPro-Regular,Times;
+}
+.xml-content .fig b {
+	font-size: 17px;
+	font-family:MinionPro-bold;
+}
+.xml-content .ref-item {
+	margin: 0px;
+}
+/* Size of Operator*/
+mo[minsize="1em"] {
+	font-size:18px
+}
+mo[minsize="1.5em"] {
+	font-size:22px
+}
+mo[minsize="1.75em"] {
+	font-size:24px;
+}
+/* ---  New List CSS --- */
+.xml-content .list, .list {
+/*	display:table;
+ 	*display:block;
+	margin-top:12px;
+	margin-left:24px;
+	text-align:justify;
+	position:relative;
+	#width:594px;
+	_width:590px;
+	*left:0px;
+*/
+display: table;
+margin-top: 12px;
+margin-bottom: 0px;
+position: relative;
+text-align: justify;
+/*
+	#width:594px;
+	_width:590px;
+*/
+	*left:0px;
+*display:block;
+}
+
+.xml-content .list .list, .list .list {
+	/*margin-left:0px;
+ #margin-left:18px;
+	width:100%;*/
+display: table;
+    margin-bottom: 0px;
+    margin-top: 0px;
+position: relative;
+text-align: justify;
+
+	#margin-left:18px;
+/*
+	#width:573px;
+	_width:573px;
+*/
+}
+.xml-content .list .list .list, .list .list .list {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.xml-content .list-item, .list-item {
+	display: table-row;
+ *display:block;
+}
+.xml-content .list-label, .list-label {
+/*	display:table-cell;
+ *display:inline-block;
+	vertical-align:top;
+	font-style: normal;
+	padding-right:6px;
+	width:4%;
+	white-space:nowrap;
+*/
+ *display:inline-block;
+ *white-space:nowrap;
+
+display: table-cell;
+font-style: normal;
+padding-left: 24px;
+padding-right: 6px;
+vertical-align: top;
+white-space: nowrap;
+width: 4%;
+}
+.xml-content .list-content, .list-content {
+display: table-cell;
+position: relative;
+vertical-align: top;
+ *display:inline;
+}
+.xml-content .list-content .equation-line {
+	margin: 8px 0px;/*0.7em 0*/
+	float: left;
+}
+/* ---  End --- */
+.xml-content .statement {
+	display:block;
+	margin-top:10px;
+}
+.xml-content .statement br {
+	margin-bottom:10px;
+}
+.xml-content h4 img, .xml-content h5 img {
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+.xml-content .smallmatrix mtr mtd {
+	line-height:.5pt;
+	font-size:9.5px;
+	padding: 0px 0px 0px 0px;
+}
+.sub mtr mtd {
+	font-size:9.5px;
+	line-height:0.5pt;
+	padding: 0px 0px 0px 0px;
+}
+.gloss-abbr td {
+	vertical-align:top;
+}
+.gloss-abbr tr td:first-child {
+	vertical-align:top;
+/*	width:10%; mpe/2010/805195 gloss-abbr Nomenclature */
+	max-width:10%;
+	padding-right: 3px;
+}
+/* Duplicated
+#container .fig img {
+	display:inline;
+}
+*/
+.double-underline {
+	border-bottom:double;
+}
+table.gloss-abbr {
+	font-size:17px !important;font-family:MinionPro-Regular,Times;
+}
+.xml-content math munder mrow:last-child {
+	font-size:12px
+}
+.xml-content ol {
+	margin-bottom:0px;
+	padding-left: 44px;
+}
+/*.xml-content ol, .xml-content ol li:last-child {
+	margin-bottom:0px;
+}*/
+.xml-content ol li {
+	text-align:justify;
+}
+span.sep {
+    color: #000000;
+    display: inline;
+    float: none;
+    font-size: 17px;
+    font-weight: normal;
+    height: 15px;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: top;
+    width: auto;font-family:MinionPro-Regular,Times;
+}
+/* for SVG fonts 28.09.2010 -- start --*/
+svg text {
+	font-family:'XITSMath';
+	font-style:normal;
+}
+.symbol {
+	font-family:MinionPro-Regular,Times;
+}
+h4 svg, h5 svg, h6 svg {
+	fill:#999999;
+}
+.displayed-label {
+	display: block;
+	margin:12px 0px;
+	text-align: right;
+}
+ol.ref-list li.ref-item .displayed-label {
+	margin-left:-40px;
+}
+ol.notes .displayed-label {
+	margin-left: -44px;
+}
+.list-content .displayed-label {
+	/*margin-left:-48px;*/
+	margin-left: -77px;/*-60px*/
+}
+.list-content .list-content .displayed-label {
+	margin-left:-170px;/*-170px 06.09.2011 301205 not done */ /*108*//* -111px 15.04.2013 */
+}
+.list-content .list-content .list-content .displayed-label {
+	margin-left:-184px;
+}
+.svg-td {
+	white-space: nowrap; 
+	display: inline-block;
+}
+/*.fig-group-caption .svg-td , .table-group-caption .svg-td , .table-fn .svg-td {
+	white-space: nowrap; 
+	display: inline-block;
+}*/
+.displayed-label svg {
+    /*float: right;
+    margin-bottom: 12px;*/
+}
+.list .displayed-label svg {
+float: right;
+margin-bottom: 12px;
+}
+blockquote {
+	margin:0 36px;
+}
+ul.noliststyle li{
+	margin:0px;
+	padding-bottom:0px;
+	padding-left: 12px;
+	list-style-type: none;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+	background-image: none !important;
+	background-color:transparent;
+	list-style-image:none;
+	list-style:none;
+}
+i{font-family:MinionPro-It ;font-style: normal;}
+h1 i,h2 i,h4 i,h5 i,h6 i,h3 i{font-family:MinionPro-BoldIt;font-style: normal;}
+
+.displayeq-css {
+	font-family: 'xits-math';
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+.displayed-label {
+	font-family: 'xits-math';
+	display:block;	
+}
+.displayeq-css span {
+	font-family: 'xits-math';
+}
+h2 .displayeq-css {
+	line-height:30px;
+}
+.middle_content div sup {
+	line-height: normal;
+	#line-height: 24px;
+}
+/* version no. [v.2013.04.02.02.xml_display.css] 02:17 PM */
+/* version no. [v.2013.04.02.01.xml_display.css] 09:08 AM */
+/* version no. [v.2013.03.10.01.xml_display.css] 09:49 AM */
+/* for SVG fonts 28.09.2010 -- start --*/
+
+/* articles actions menu start */
+/* responsive styles */
+/*@media screen and (max-width: 560px) {*/
+@media only screen and (max-width: 564px) {
+/* navigation bar */
+#topnav {
+	display: block;
+	position: relative;
+}
+#topnav #navbtn {
+	display: none;
+	float: right;
+	top: 0;
+	width: 28px;
+	height: 23px;
+	background-image: url('../images/menu.svg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	-webkit-background-size: 28px 23px;
+	-o-background-size: 28px 23px;
+	-moz-background-size: 28px 23px;
+	background-size: 28px 23px;
+	margin: 0px 0 12px 14px;
+}
+#topnav #navbtn:hover {
+	background-color: transparent;
+}
+#topnav #article_list {
+	position: absolute;
+	top: 0;
+}
+
+#topnav {
+height: auto;
+float: none;
+width: 100%;
+padding-left: 0;
+padding-bottom: 0;
+margin-top: 0px;
+}
+#topnav #article_list {
+	display: none;
+	position: static;
+	width: 100%;
+	top: auto;
+	right: auto;
+	padding-bottom: 12px;
+}
+#topnav #article_list ul li {
+	float: none;
+}
+#topnav #article_list ul li a {
+	display: block;
+	line-height: 24px;
+}
+#topnav #navbtn {
+	display: block;
+}
+#article_list li:first-child {
+margin: 0px;
+}
+}
+
+
+#topnav .abstract {
+	background: url('../images/actions_icon2.svg') no-repeat left center;
+}
+#topnav .full_text_pdf {
+	background: url('../images/actions_icon4.svg') no-repeat left center;
+}
+#topnav .full_text_xhtml {
+	background: url('../images/actions_icon8.svg') no-repeat left center;
+}
+#topnav .how_to_cite {
+	background: url('../images/actions_icon5.svg') no-repeat left center;
+}
+#topnav .forward_cite {
+	background: url('../images/actions_icon3.svg') no-repeat left center;
+}
+#topnav .linked_ref {
+	background: url('../images/actions_icon1.svg') no-repeat left center;
+}
+#topnav .sup_materials {
+	background: url('../images/actions_icon6.svg') no-repeat left center;
+}
+#topnav .erratum {
+	background: url('../images/actions_icon7.svg') no-repeat left center;
+}
+#topnav .full_text_epub {
+	background: url('../images/actions_icon9.svg') no-repeat left center;
+}
+#topnav .complete_s_i {
+	background: url('../images/actions_icon10.svg') no-repeat left center;
+}
+#topnav .full_text_xml {
+	background: url('../images/actions_icon11.svg') no-repeat left center;
+}
+/* articles actions menu end */
+
+/**********svg*****************/
+/*
+@media only screen and (max-width: 319px) {
+svg{
+    max-width:  319px ;
+    width: auto !important;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 394px), (max-width: 320px) {
+svg{
+    max-width: 294px ;
+    width: auto !important;
+}
+}
+@media only screen and (min-width: 395px) and (max-width: 565px) {
+svg{
+    max-width:  565px  
+    width: auto !important;
+}
+}
+@media only screen and (min-width: 566px) and (max-width: 630px) {
+svg{
+    max-width:  630px ;
+    width: auto !important;
+}
+}
+@media only screen and (min-width: 631px) and (max-width: 734px) {
+svg{
+    max-width: 734px  ;
+    width: auto !important;
+}
+}
+@media only screen and (min-width: 735px) and (max-width: 854px) {
+svg{
+    max-width: 854px  ;
+    width: auto !important;
+}
+}
+ */
+ 
+
+
+.left, .right {
+    display: table-cell;
+    max-width: 100%;
+}.left {
+max-width: 13%  ;
+text-align: left;
+width: 7%;
+display: block !important;
+}
+ .middle {
+   display: table-cell;
+   padding: 0 12px;
+}
+.right svg {
+    float: right;
+    max-width: 100%;
+}
+span.equation  svg {
+ 
+	max-width: 100% !important;
+}
+
+.xml-content svg.contentdisp {
+    margin: 0 auto;
+    max-width: 100% !important;
+}
+span.equation {
+    width: 100%;
+	display:table!important;
+	margin: 12px 0;
+}
+ 
+@-moz-document url-prefix() { 
+span.equation svg{
+ height: auto!important; 
+    width: auto !important; 
+}
+}
+@media screen {@media (min-width: 0px) {
+span.equation svg ,.left svg, .right svg, span.equation svg , .right {
+  /*  height: auto;*/
+    width: auto;
+   /* max-height: 100%; /* to fix space below SVG issue */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 394px), (max-width: 320px) {
+svg{
+    max-width: 294px ;
+  /*  width: auto !important;*/
+	max-height: 100%;  /* to fix space below SVG issue */
+}
+
+}
+
+} }
+
+span.equation svg ,.left svg, .right svg, span.equation svg , .right {
+   [;height: auto;];
+    [;width: auto;];
+  /*[;max-height: 100%;]; /* to fix space below SVG issue */
+}
+ 
+@media \\0 screen {
+/* Safari only  */
+span.equation svg ,.left svg, .right svg, span.equation svg , .right {
+max-height:none /*!important;*/
+}
+  
+}
+/****for mobile only***/
+@media (max-width: 25em) {
+ 
+.equation svg{
+width: auto !important; 
+max-height: 100%!important; /* to fix space below SVG issue */
+}
+span.equation {
+display:table-row!important;
+}
+span.equation  span{height: 100%}
+.middle {padding: 12px}
+}
+/**************/
+ 
+/*****IE11***/
+
+@media all and (max-width: 566px){ 
+*::-ms-backdrop, .middle {
+    display: inline-block;
+    padding: 0 12px;
+    max-width: 77%;
+    width: auto;/*remove from small screens*/
+}
+*::-ms-backdrop,.left, .right {
+    max-width: 100%;
+    display: inline-block;
+    max-width: 100%;
+}
+*::-ms-backdrop,.left {
+    max-width:5%;
+    text-align: left;
+    width: 5%;
+    display: block !important;
+    float: left;
+}
+*::-ms-backdrop,.right{float: right;}
+*::-ms-backdrop,.xml-content svg.contentdisp {
+  /*  max-width: 100% !important;
+    width: auto !important;
+	    margin: 0 auto;*/
+}
+ *::-ms-backdrop,span.equation svg {
+    max-width: 100% !important;
+}
+
+ *::-ms-backdrop,span.equation {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+    float: left;
+	display: inline-block !important;
+    margin: 12px 0;
+    overflow: hidden;
+}
+}

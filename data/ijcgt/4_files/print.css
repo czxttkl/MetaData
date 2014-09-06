@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* v.2014.06.29.01.print.css 01:00 PM */
+#container .search_container, .open_access a, .open_access img, .hindawi_links ul, .covers_rotation a {
+	display: none;
+}
+#container {
+	width: 1022px;
+}
+#container .middle_content {
+	width: 756px;
+}
+#site_head {
+	background-color: transparent !important;
+	background-image: none !important;
+	height: 64px;
+	position: relative;
+}
+#site_head:before {
+	content: url("../images/slogan_bg.gif");
+	float: right;
+	height: 64px;
+}
+#container .slogan {
+	color: transparent;
+	text-shadow: 0px 0px 0px #DADADA;
+	filter: dropshadow(color=#DADADA, offx=0, offy=0);
+	font-family: MyriadPro-bold;
+	font-size: 22px;
+	line-height: 65px;
+	position: absolute;
+	top: 0;
+	-webkit-print-color-adjust: exact !important;
+}
+#container .slogan {
+ (-bracket-:hack;
+	color: #DADADA;
+ );
+}
+#banner {
+	background-image: none !important;
+}
+#banner img {
+	display: block !important;
+	width: 1022px !important;
+	height: auto !important;
+	position: relative !important;
+}
+#container p.banner_title {
+	color: transparent;
+	*color: #FFFFFF;
+	color: #FFFFFF\0/;
+	text-shadow: 0px 0px 0px #FFFFFF;
+	filter: dropshadow(color=#FFFFFF, offx=0, offy=0);
+	-webkit-print-color-adjust: exact !important;
+}
+#container p.banner_title {
+ (-bracket-:hack;
+	color: #FFFFFF !important;
+ );
+}
+#container .hindawi_links a {
+	color: transparent;
+	text-shadow: 0 0 #FFFFFF;
+}
+.open_access span object {
+	display: none;
+}
+.open_access span {
+	float: none;
+	width: 228px;
+	height: 84px !important;
+}
+.open_access span:before {
+	content: url("../images/open_access_p.svg");
+	height: 84px !important;
+	width: 226px;
+}
+.journal_icon object, .details_icon object, .article_icon object, .services_icon object {
+	display: none;
+}
+.details_icon:before, .article_icon:before, .services_icon:before {
+	content: url("../images/details_icon_p.gif"); /* add other icons */
+	padding-left: 0px;
+	padding-top: 12px;
+	position: absolute;
+	float: left;
+	top: -12px;
+}
+.journal_icon:before {
+	content: url("../images/journal_icon_p.gif"); /* add other icons */
+	padding-left: 0px;
+	padding-top: 12px;
+	position: absolute;
+	float: left;
+	top: -12px;
+}
+.journal_icon, .details_icon, .article_icon, .services_icon {
+	padding-left: 0px;
+	top: -12px;
+	width: 36px;
+	height: 30px;
+}
+.journal_icon span, .details_icon span, .article_icon span, .services_icon span {
+	padding-left: 48px;
+}
+.green_strip, .top_strip {
+	position: relative;
+	border-top: 12px solid #6DB33F;
+	height: 0px !important;
+	background-color: transparent !important;
+}
+.middle_content ul li, .feature_head ul li {
+	background-image: none;
+	position: relative;
+}
+.middle_content ul {
+	position: relative;
+}
+.middle_content ul li a:before {
+	content: url("../images/green_arrow.svg");
+	margin-left: -12px;
+	width: 12px;
+	height: 12px;
+	margin-top: -2px;
+	position: absolute;
+}
+#container .li_special li:before {
+	content: url("../images/green_arrow.svg");
+	margin-left: -12px;
+	margin-right: 6px;
+}
+#container .li_special li a:before, .journal_browse ul li a:before, #container .right_column_actions ul li:before, #container .right_column_actions ul li a:before {
+	content: "";
+}
+#left_column {
+	-webkit-print-color-adjust: exact !important;
+}
+.left_column_list li a, .special_issues li a {
+	background-image: none;
+}
+.left_column_list li:before, .special_issues li:before {
+	content: url("../images/bullet_p.jpg");
+	float: left;
+	margin-left: 12px;
+}
+.left_column_list li a, .special_issues li a {
+	padding-left: 24px;
+}
+.left_column_list li span, .open_access li span, #SpecialIssuesDiv li span, .special_issues li span {
+	display: none !important;
+}
+#container #journal_navigation {
+	background-image: none;
+}
+#journal_navigation div {
+	position: absolute;
+	top: 0;
+}
+#container #journal_navigation:before {
+	background-image: none;
+	content: url("../images/navigation_p.gif");
+}
+#journal_navigation a {
+	background-image: none;
+	color: white;
+}
+#journal_navigation a {
+	display: none;
+}
+.left_column_list li, .left_column_list li a, .special_issues li, .special_issues li a {
+	border-color: transparent;
+}
+.table_list {
+	float: left;
+}
+.left_features, .right_features {
+	width: 371px;
+	_width: 371px;
+}
+.covers_rotation td, .covers_rotation a, .covers_rotation span, .covers_rotation object {
+	height: 187px !important;
+	width: 114px !important;
+}
+#footer {
+	height: 0px !important;
+	border-top: 6px solid #CCCCCC;
+}

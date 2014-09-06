@@ -1,0 +1,4043 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceeding SYSTEM "proceeding.dtd">
+<proceeding ver="6.0" ts="04/10/2010">
+<conference_rec>
+	<conference_date>
+		<start_date>08/04/2007</start_date>
+		<end_date>08/05/2007</end_date>
+	</conference_date>
+	<conference_loc>
+		<city><![CDATA[San Diego]]></city>
+		<state>California</state>
+		<country></country>
+	</conference_loc>
+	<conference_url></conference_url>
+</conference_rec>
+<series_rec>
+	<series_name>
+		<series_id>SERIES11411</series_id>
+		<series_title><![CDATA[ACM Siggraph Video Game Symposium]]></series_title>
+		<series_vol></series_vol>
+	</series_name>
+</series_rec>
+<proceeding_rec>
+	<proc_id>1274940</proc_id>
+	<acronym>Sandbox '07</acronym>
+	<proc_desc>Proceedings of the 2007 ACM SIGGRAPH symposium</proc_desc>
+	<conference_number>2007</conference_number>
+	<proc_class>symposium</proc_class>
+	<proc_title>Video games</proc_title>
+	<proc_subtitle></proc_subtitle>
+	<proc_volume_no></proc_volume_no>
+	<isbn13>978-1-59593-749-0</isbn13>
+	<issn></issn>
+	<eissn></eissn>
+	<copyright_year>2007</copyright_year>
+	<publication_date>08-04-2007</publication_date>
+	<pages>169</pages>
+	<plus_pages></plus_pages>
+	<price><![CDATA[]]></price>
+	<other_source></other_source>
+	<abstract>
+		<par><![CDATA[<p>This is the second year of existence for the Sandbox Symposium. It's also the first year we have a printed proceedings. It was a challenge to pull the first year of the symposium together. In this second year the symposium has settled into a groove with an even mix of presentations on game development, game design, algorithms, and education and psychology. Although the 31 submissions were fewer than last year they were more focused and higher quality. We chose the best 16 of them for presentation. In addition to these papers we have two discussion panels, on Open Source and Prototyping, and keynote addresses by Warren Spector and John Klima.</p> <p>The symposium has tried to balance a practical focus on game development with meta-commentary on the uses and impact of games. As a result it attracts a diverse audience from industry and academia. We hope that in future years it will continue to be a locus for the study of games, both how to make them and what they are, and for dissemination of knowledge.</p> <p>The Animation session presents two papers that have practical techniques that can be applied immediately to character animation. The Open Source session demonstrates how to build a facial animation system. And concludes with a panel that will show how to construct an Open Source game developers toolchain.</p> <p>The Education and Psychology session focuses on the impact of games on individuals in education and in play. Game Design I discusses three research and serious games that are in varying stages of development.</p> <p>The Graphics session presents a novel rendering technique and an interactive tool for developing graphics shaders. Game Design II describes the experience of making an electronic game from a board game, and presents an analysis of game genres based on user surveys.</p> <p>Stretching the Interface follows our keynote address by John Klima. The first paper shows the results of experiments with the Wii controller, while the second paper presents a quantitative approach to information placement.</p> <p>The last session on prototyping presents an example from pervasive game development, and concludes with a panel of industry experts who describe their use of prototyping in the game design process. This session concludes with the "best paper" award.</p> <p>We hope this program is informative and look forward to future years of Sandbox!</p>]]></par>
+	</abstract>
+	<publisher>
+		<publisher_id>PUB27</publisher_id>
+		<publisher_code>ACMNY</publisher_code>
+		<publisher_name>ACM</publisher_name>
+		<publisher_address>2 Penn Plaza, Suite 701</publisher_address>
+		<publisher_city>New York</publisher_city>
+		<publisher_state>NY</publisher_state>
+		<publisher_country>USA</publisher_country>
+		<publisher_zip_code>10121-0701</publisher_zip_code>
+		<publisher_contact>Bernard Rous</publisher_contact>
+		<publisher_phone>212 869-7440</publisher_phone>
+		<publisher_isbn_prefix></publisher_isbn_prefix>
+		<publisher_url>www.acm.org/publications</publisher_url>
+	</publisher>
+	<sponsor_rec>
+		<sponsor>
+			<sponsor_id>SP932</sponsor_id>
+			<sponsor_name>ACM Special Interest Group on Computer Graphics and Interactive Techniques</sponsor_name>
+			<sponsor_abbr>SIGGRAPH</sponsor_abbr>
+		</sponsor>
+	</sponsor_rec>
+	<categories>
+		<primary_category>
+			<cat_node/>
+			<descriptor/>
+			<type/>
+		</primary_category>
+	</categories>
+	<chair_editor>
+		<ch_ed>
+			<person_id>PP39087687</person_id>
+			<author_profile_id><![CDATA[81100099437]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>1</seq_no>
+			<first_name><![CDATA[Drew]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Davidson]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[]]></affiliation>
+			<role><![CDATA[Conference Chair]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+		<ch_ed>
+			<person_id>PP40039972</person_id>
+			<author_profile_id><![CDATA[81100200189]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>2</seq_no>
+			<first_name><![CDATA[Alan]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Heirich]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[]]></affiliation>
+			<role><![CDATA[Program Chair]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+		<ch_ed>
+			<person_id>PP39110377</person_id>
+			<author_profile_id><![CDATA[81339531889]]></author_profile_id>
+			<orcid_id></orcid_id>
+			<seq_no>3</seq_no>
+			<first_name><![CDATA[Douglas]]></first_name>
+			<middle_name><![CDATA[]]></middle_name>
+			<last_name><![CDATA[Thomas]]></last_name>
+			<suffix><![CDATA[]]></suffix>
+			<affiliation><![CDATA[]]></affiliation>
+			<role><![CDATA[Program Chair]]></role>
+			<email_address><![CDATA[]]></email_address>
+		</ch_ed>
+	</chair_editor>
+</proceeding_rec>
+<content>
+	<section>
+		<section_id>1274941</section_id>
+		<sort_key>7</sort_key>
+		<section_seq_no>1</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Keynote address]]></section_title>
+		<section_page_from>7</section_page_from>
+	<article_rec>
+		<article_id>1274942</article_id>
+		<sort_key>7</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Emergent gameplay]]></title>
+		<subtitle><![CDATA[potential, pitfalls and progress]]></subtitle>
+		<page_from>7</page_from>
+		<page_to>7</page_to>
+		<doi_number>10.1145/1274940.1274942</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274942</url>
+		<abstract>
+			<par><![CDATA[<p>Take a trip to your local software store or videogame outlet and what do you see? If you're feeling cynical, you probably see shelf after shelf of "me-too" product: Licensed this, sequeled that... But if you look past that, past the fictional and genre constraints we place upon ourselves, you might notice something else.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP35053476</person_id>
+				<author_profile_id><![CDATA[81328490438]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Warren]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Spector]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>1274943</section_id>
+		<sort_key>9</sort_key>
+		<section_seq_no>2</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Animation]]></section_title>
+		<section_page_from>9</section_page_from>
+	<article_rec>
+		<article_id>1274944</article_id>
+		<sort_key>9</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Interactive dynamic response for games]]></title>
+		<page_from>9</page_from>
+		<page_to>14</page_to>
+		<doi_number>10.1145/1274940.1274944</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274944</url>
+		<abstract>
+			<par><![CDATA[<p>Dynamic response is a technique for employing a physical reaction to an animated character. The technique utilizes a database of reactions as example motions to transition to following a dynamic simulation of an interaction. The search for the example to follow has been the stumbling block for bringing such a system into realtime applications and in this paper, we address that issue by proposing a number of speed-ups which make the approach faster and more appropriate for an electronic game implementation. We accomplish our speed-up by using a supervised learning routine which trains offine on a large set of dynamic response examples and predicts online among the choices found in the database. Also, we propose a near-optimal routine which finds the alignment of the selected motion for the given scenario based on a sparse sampling with an additional speed-up over the original algorthim. With both of these changes in place, we enjoy a tremendous speed-up with inperceptable difference in the final motion compared to previous published results. Finally we offer a few additional alternatives that allow the user to choose between quality and speed based on their individual needs.</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor>Animation</descriptor>
+				<type>S</type>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P735243</person_id>
+				<author_profile_id><![CDATA[81100319485]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Victor]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Zordan]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of California, Riverside]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889430</person_id>
+				<author_profile_id><![CDATA[81335494302]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Adriano]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Macchietto]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of California, Riverside]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889439</person_id>
+				<author_profile_id><![CDATA[81335494476]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Jose]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Medina]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of California, Riverside]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P822800</person_id>
+				<author_profile_id><![CDATA[81331504664]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Marc]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Soriano]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of California, Riverside]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P822495</person_id>
+				<author_profile_id><![CDATA[81452603110]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Chun-Chih]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Wu]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of California, Riverside]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>1028546</ref_obj_id>
+				<ref_obj_pid>1028523</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Abe, Y., Liu, C. K., and Popovi&#263;, Z. 2004. Momentum-based parameterization of dynamic character motion. In <i>2004 ACM SIGGRAPH/Eurographics Symposium on Computer Animation</i>, 173--182.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1073376</ref_obj_id>
+				<ref_obj_pid>1073368</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Arikan, O., Forsyth, D. A., and O'Brien, J. F. 2005. Pushing people around. In <i>SCA '05: Proceedings of the 2005 ACM SIGGRAPH/Eurographics symposium on Computer animation</i>, ACM Press, New York, NY, USA, 59--66.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>130401</ref_obj_id>
+				<ref_obj_pid>130385</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Boser, B., Guyon, I., and Vapnik, V. 2002. A training algorithm for optimal margin classifiers. In <i>In Proceedings of the Fifth Annual Workshop on Computational Learning Theory, pp. 144--152. ACM Press</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1073248</ref_obj_id>
+				<ref_obj_pid>1073204</ref_obj_pid>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Chai, J., and Hodgins, K. 2005. Performance animation from low-dimensional control signals. <i>ACM Trans. Graph 24</i>, 686--696.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Chang, C.-C., and Lin, C.-J. 2001. <i>LIBSVM: a library for support vector machines</i>. Software available at http://www.csie.ntu.edu.tw/cjlin/libsvm.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>383287</ref_obj_id>
+				<ref_obj_pid>383259</ref_obj_pid>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Faloutsos, P., van de Panne, M., and Terzopoulos, D. 2001. Composable controllers for physics-based character animation. In <i>Proceedings of ACM SIGGRAPH 2001</i>, 251--260.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[International Workshop on Human Activity Recognition and Modeling. 2005. Segmentation and Classification of Human Activities, HAREM.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1077542</ref_obj_id>
+				<ref_obj_pid>1077534</ref_obj_pid>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Komura, T., Leung, H., and Kuffner, J. 2004. Animating reactive motions for biped locomotion. In <i>Proc. ACM Symp. on Virtual Reality Software and Technology (VRST '04)</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1089872</ref_obj_id>
+				<ref_obj_pid>1089870</ref_obj_pid>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Komura, T., Ho, E. S., and Lau, R. W. 2005. Animating reactive motion using momentum-based inverse kinematics. <i>Compute Animation and Virtual Worlds 1</i>, 16, 213--223.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1073314</ref_obj_id>
+				<ref_obj_pid>1073204</ref_obj_pid>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Liu, C. K., Hertzmann, A., and Popovi&#263;, Z. 2005. Learning physics-based motion style with nonlinear inverse optimization. <i>ACM Transactions on Graphics 24</i>, 3 (Aug.), 1071--1081.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Mandel, M., 2004. Versatile and interactive virtual humans: Hybrid use of data-driven and dynamics-based motion synthesis. <i>Master's Thesis, Carnegie Mellon University</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Oshita, M., and Makinouchi, A. 2001. A dynamic motion control technique for human-like articulated figures. <i>Computer Graphics Forum (Eurographics 2001) 20</i>, 3, 192--202.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Playter, R. 2000. Physics-based simulation of running using motion capture. In <i>Course notes for SIGGRAPH 2000</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>311536</ref_obj_id>
+				<ref_obj_pid>311535</ref_obj_pid>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Popovi&#263;, Z., and Witkin, A. 1999. Physically based motion transformation. In <i>Proceedings of ACM SIGGRAPH 1999</i>, 11--20.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[Press, W., Teukolsky, S., Vetterling, W., and Flannery, B. 1994. <i>Numerical Recipes in C</i>. Cambridge University Press, New York.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>237229</ref_obj_id>
+				<ref_obj_pid>237170</ref_obj_pid>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Rose, C., Guenter, B., Bodenheimer, B., and Cohen, M. F. 1996. Efficient generation of motion transitions using spacetime constraints. In <i>Proceedings of ACM SIGGRAPH 1996</i>, 147--154.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>946930</ref_obj_id>
+				<ref_obj_pid>946250</ref_obj_pid>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Shapiro, A., Pighin, F., and Faloutsos, P. 2003. Hybrid control for interactive character animation. In <i>Pacific Graphics 2003</i>, 455--461.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[Smith, R., 2007. Open dynamics engine. www.ode.org.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>946926</ref_obj_id>
+				<ref_obj_pid>946250</ref_obj_pid>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[Yin, K., Cline, M. B., and Pai, D. K. 2003. Motion perturbation based on simple neuromotor control models. In <i>Pacific Graphics</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>545276</ref_obj_id>
+				<ref_obj_pid>545261</ref_obj_pid>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[Zordan, V. B., and Hodgins, J. K. 2002. Motion capturedriven simulations that hit and react. In <i>ACM SIGGRAPH / Eurographics Symposium on Computer Animation</i>, 89--96.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1073249</ref_obj_id>
+				<ref_obj_pid>1073204</ref_obj_pid>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[Zordan, V. B., Majkowska, A., Chiu, B., and Fast, M. 2005. Dynamic response for motion capture animation. <i>ACM Trans. Graph. 24</i>, 3, 697--701.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	<article_rec>
+		<article_id>1274945</article_id>
+		<sort_key>15</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[A dynamic controller toolkit]]></title>
+		<page_from>15</page_from>
+		<page_to>20</page_to>
+		<doi_number>10.1145/1274940.1274945</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274945</url>
+		<abstract>
+			<par><![CDATA[<p>We introduce a toolkit for creating dynamic controllers for articulated characters under physical simulation. Our toolkit allows users to create dynamic controllers for interactive or offline use through a combination of both visual and scripting tools. Users can design controllers by specifying keyframe poses, using a high-level scripting language, or by manipulating the rules of physics through a group of helper functions that can temporarily modify the environment in order to make the desired animation more feasible under physical simulation. The goal of the toolkit is to integrate dynamic control methods into a usable interactive system for noncomputer scientists and non-roboticists, and provide the means to quickly generate physically based motion.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[character animation]]></kw>
+			<kw><![CDATA[dynamic control]]></kw>
+			<kw><![CDATA[physical simulation]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.4</cat_node>
+				<descriptor>Graphics packages</descriptor>
+				<type>S</type>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010387</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Graphics systems and interfaces</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P641166</person_id>
+				<author_profile_id><![CDATA[81100431086]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Ari]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Shapiro]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of California, Los Angeles]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P888003</person_id>
+				<author_profile_id><![CDATA[81335489151]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Derek]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Chu]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of California, Los Angeles]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35046583</person_id>
+				<author_profile_id><![CDATA[81407591949]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Brian]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Allen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of California, Los Angeles]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P225799</person_id>
+				<author_profile_id><![CDATA[81100370834]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Petros]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Faloutsos]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of California, Los Angeles]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>1073376</ref_obj_id>
+				<ref_obj_pid>1073368</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Arikan, O., Forsyth, D. A., and O'Brien, J. F. (2005). Pushing people around. In <i>SCA '05: Proceedings of the 2005 ACM SIGGRAPH/Eurographics symposium on Computer animation</i>, pages 59--66, New York, NY, USA. ACM Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>383287</ref_obj_id>
+				<ref_obj_pid>383259</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Faloutsos, P., van de Panne, M., and Terzopoulos, D. (2001). Composable controllers for physics-based character animation. In <i>Proceedings of ACM SIGGRAPH 2001</i>, Computer Graphics Proceedings, Annual Conference Series, pages 251--260.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>882286</ref_obj_id>
+				<ref_obj_pid>882262</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Fang, A. and Pollard, N. (2003). Efficient synthesis of physically valid human motion. <i>ACM Transactions on Graphics (SIGGRAPH 2003)</i>, 22(3):417--426.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Havok Inc. (2007). Havok behavior. http://www.havok.com/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>218414</ref_obj_id>
+				<ref_obj_pid>218380</ref_obj_pid>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Hodgins, J., Wooten, W., Brogan, D., and O'Brien, J. (1995). Animating human athletics. In <i>Computer Graphics (SIGGRAPH '95 Proceedings)</i>, pages 71--78.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Joe Laszlo, Michael Neff, K. S. (2005). Predictive feedback for interactive control of physics-based characters. In <i>Proceedings of Eurographics 2005</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>846278</ref_obj_id>
+				<ref_obj_pid>846276</ref_obj_pid>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Ka&#269;i&#263;-Alesi&#263;, Z., Nordenstam, M., and Bullock, D. (2003). A practical dynamics system. In <i>Proceedings of the 2003 ACM SIGGRAPH/Eurographics Symposium on Computer animation</i>, pages 7--16. Eurographics Association.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[KangKang Yin, D. K. P. and van de Panne, M. (2005). Data-driven interactive balancing behaviors. In <i>Pacific Graphics '05</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1077542</ref_obj_id>
+				<ref_obj_pid>1077534</ref_obj_pid>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Komura, T., Leung, H., and Kuffner, J. (2004). Animating reactive motions for biped locomotion. In <i>VRST '04: Proceedings of the ACM symposium on Virtual reality software and technology</i>, pages 32--40, New York, NY, USA. ACM Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Kudoh, S. (2004). <i>Balance Maintenance for Human-Like Models With Whole Body Motion</i>. PhD thesis, University of Tokyo.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>237231</ref_obj_id>
+				<ref_obj_pid>237170</ref_obj_pid>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Laszlo, J., van de Panne, M., and Fiume, E. (1996). Limit cycle control and its application to the animation of balancing and walking. In <i>Computer Graphics (SIGGRAPH '96 Proceedings)</i>, pages 155--162.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>344876</ref_obj_id>
+				<ref_obj_pid>344779</ref_obj_pid>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Laszlo, J., van de Panne, M., and Fiume, E. (2000). Interactive control for physicallybased animation. In <i>SIGGRAPH '00: Proceedings of the 27th annual conference on Computer graphics and interactive techniques</i>, pages 201--208, New York, NY, USA. ACM Press/Addison-Wesley Publishing Co.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1073314</ref_obj_id>
+				<ref_obj_pid>1073204</ref_obj_pid>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Liu, C. K., Hertzmann, A., and Popovi&#263;, Z. (2005). Learning physics-based motion style with nonlinear inverse optimization. <i>ACM Trans. Graph.</i>, 24(3):1071--1081.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>566596</ref_obj_id>
+				<ref_obj_pid>566570</ref_obj_pid>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Liu, C. K. and Popovi&#263;, Z. (2002). Synthesis of complex dynamic character motion from simple animations. In <i>SIGGRAPH '02: Proceedings of the 29th annual conference on Computer graphics and interactive techniques</i>, pages 408--416, New York, NY, USA. ACM Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[Mandel, M. (2004). Virtual humans. Master's thesis, School of Computer Science.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Michel, O. (2004). Webots(tm): Professional mobile robot simulation. <i>International Journal of Advanced Robotic Systems</i>, 1(1):39--42.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Microsoft Corp. (2007). Microsoft robotics studio. http://msdn.microsoft.com/robotics/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[NaturalMotion Ltd. (2007). Endorphin. http://www.naturalmotion.com/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>545275</ref_obj_id>
+				<ref_obj_pid>545261</ref_obj_pid>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[Neff, M. and Fiume, E. (2002). Modeling tension and relaxation for computer animation. In <i>SCA '02: Proceedings of the 2002 ACM SIGGRAPH/Eurographics symposium on Computer animation</i>, pages 81--88, New York, NY, USA. ACM Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>846310</ref_obj_id>
+				<ref_obj_pid>846276</ref_obj_pid>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[Neff, M. and Fiume, E. (2003). Aesthetic edits for character animation. In <i>SCA '03: Proceedings of the 2003 ACM SIGGRAPH/Eurographics symposium on Computer animation</i>, pages 239--244, Aire-la-Ville, Switzerland, Switzerland. Eurographics Association.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1028531</ref_obj_id>
+				<ref_obj_pid>1028523</ref_obj_pid>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[Neff, M. and Fiume, E. (2004). Methods for exploring expressive stance. In <i>SCA '04: Proceedings of the 2004 ACM SIGGRAPH/Eurographics symposium on Computer animation</i>, pages 49--58, New York, NY, USA. ACM Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>22</ref_seq_no>
+				<ref_text><![CDATA[Oore, S., Terzopoulos, D., and Hinton, G. E. (2002). Local physical models for interactive character animation. <i>Comput. Graph. Forum</i>, 21(3).]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1073413</ref_obj_id>
+				<ref_obj_pid>1073368</ref_obj_pid>
+				<ref_seq_no>23</ref_seq_no>
+				<ref_text><![CDATA[Pollard, N. S. and Zordan, V. B. (2005). Physically based grasping control from example. In <i>SCA '05: Proceedings of the 2005 ACM SIGGRAPH/Eurographics symposium on Computer animation</i>, pages 311--318, New York, NY, USA. ACM Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1198671</ref_obj_id>
+				<ref_obj_pid>1198555</ref_obj_pid>
+				<ref_seq_no>24</ref_seq_no>
+				<ref_text><![CDATA[Regelous, S. (2005). <i>Crowd and Group Animation</i>. SIGGRAPH Course Notes.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1089519</ref_obj_id>
+				<ref_obj_pid>1089508</ref_obj_pid>
+				<ref_seq_no>25</ref_seq_no>
+				<ref_text><![CDATA[Shapiro, A., Faloutsos, P., and Ng-Thow-Hing, V. (2005). Dynamic animation and control environment. In <i>GI '05: Proceedings of the 2005 conference on Graphics interface</i>, pages 61--70.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>946930</ref_obj_id>
+				<ref_obj_pid>946250</ref_obj_pid>
+				<ref_seq_no>26</ref_seq_no>
+				<ref_text><![CDATA[Shapiro, A., Pighin, F. H., and Faloutsos, P. (2003). Hybrid control for interactive character animation. In <i>11th Pacific Conference on Computer Graphics and Applications</i>, pages 455--461.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>27</ref_seq_no>
+				<ref_text><![CDATA[Smith, R. (2003). <i>Intelligent Motor Control with an Artificial Cerebellum</i>. PhD thesis, Department of Electrical and Electronic Engineering.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>28</ref_seq_no>
+				<ref_text><![CDATA[Tak, S., young Song, O., and Ko, H.-S. (2000). Motion balance filtering. <i>Computer Graphics Forum</i>, 19(3).]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>29</ref_seq_no>
+				<ref_text><![CDATA[van de Panne, M. and Lee, C. (2003). Experiments with interactive dynamics. In <i>Proceedings of the 14th Western Computer Graphics Symposium</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>30</ref_seq_no>
+				<ref_text><![CDATA[van Rossum, G. and Drake, F. (2006). <i>Python Reference Manual</i>. Python Software Foundation.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>533579</ref_obj_id>
+				<ref_seq_no>31</ref_seq_no>
+				<ref_text><![CDATA[Vukobratovic, M., Borovac, B., Surla, D., and Stokic, D. (1990). <i>Biped Locomotion: Dynamics, Stability, Control and Application</i>. Springer.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1183325</ref_obj_id>
+				<ref_obj_pid>1183316</ref_obj_pid>
+				<ref_seq_no>32</ref_seq_no>
+				<ref_text><![CDATA[Wrotek, P., Jenkins, O. C., and McGuire, M. (2006). Dynamo: Dynamic, data-driven character control with adjustable balance. In <i>Proceedings of the Sandbox Symposium on Video Games</i>. ACM, ACM.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1028529</ref_obj_id>
+				<ref_obj_pid>1028523</ref_obj_pid>
+				<ref_seq_no>33</ref_seq_no>
+				<ref_text><![CDATA[Yang, P.-F., Laszlo, J., and Singh, K. (2004). Layered dynamic control for interactive character swimming. In <i>Proceedings of the 2004 ACM SIGGRAPH/Eurographics symposium on Computer animation</i>, pages 39--47. ACM Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>946926</ref_obj_id>
+				<ref_obj_pid>946250</ref_obj_pid>
+				<ref_seq_no>34</ref_seq_no>
+				<ref_text><![CDATA[Yin, K., Cline, M. B., and Pai, D. K. (2003). Motion perturbation based on simple neuromotor control models. In <i>PG '03: Proceedings of the 11th Pacific Conference on Computer Graphics and Applications</i>, page 445, Washington, DC, USA. IEEE Computer Society.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1053441</ref_obj_id>
+				<ref_obj_pid>1053427</ref_obj_pid>
+				<ref_seq_no>35</ref_seq_no>
+				<ref_text><![CDATA[Zhao, P. and van de Panne, M. (2005). User interfaces for interactive control of physicsbased 3d characters. In <i>SI3D '05: Proceedings of the 2005 symposium on Interactive 3D graphics and games</i>, pages 87--94, New York, NY, USA. ACM Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1028528</ref_obj_id>
+				<ref_obj_pid>1028523</ref_obj_pid>
+				<ref_seq_no>36</ref_seq_no>
+				<ref_text><![CDATA[Zordan, V. B., Celly, B., Chiu, B., and DiLorenzo, P. C. (2004). Breathe easy: Model and control of simulated respiration for animation. In <i>SCA '04: Proceedings of the 2004 ACM SIGGRAPH/Eurographics symposium on Computer animation</i>, pages 29--37. ACM Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>545276</ref_obj_id>
+				<ref_obj_pid>545261</ref_obj_pid>
+				<ref_seq_no>37</ref_seq_no>
+				<ref_text><![CDATA[Zordan, V. B. and Hodgins, J. K. (2002). Motion capture-driven simulations that hit and react. In <i>SCA '02: Proceedings of the 2002 ACM SIGGRAPH/Eurographics symposium on Computer animation</i>, pages 89--96, New York, NY, USA. ACM Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1073249</ref_obj_id>
+				<ref_obj_pid>1073204</ref_obj_pid>
+				<ref_seq_no>38</ref_seq_no>
+				<ref_text><![CDATA[Zordan, V. B., Majkowska, A., Chiu, B., and Fast, M. (2005). Dynamic response for motion capture animation. <i>ACM Trans. Graph.</i>, 24(3):697--701.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>1274946</section_id>
+		<sort_key>21</sort_key>
+		<section_seq_no>3</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Open source]]></section_title>
+		<section_page_from>21</section_page_from>
+	<article_rec>
+		<article_id>1274947</article_id>
+		<sort_key>21</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Assembling an expressive facial animation system]]></title>
+		<page_from>21</page_from>
+		<page_to>26</page_to>
+		<doi_number>10.1145/1274940.1274947</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274947</url>
+		<abstract>
+			<par><![CDATA[<p>In this paper we investigate the development of an expressive facial animation system from publicly available components. There is a great body of work on face modeling, facial animation and conversational agents. However, most of the current research either targets a specific aspect of a conversational agent or is tailored to systems that are not publicly available. We propose a high quality facial animation system that can be easily built based on affordable off-the-shelf components. The proposed system is modular, extensible, efficient and suitable for a wide range of applications that require expressive speaking avatars. We demonstrate the effectiveness of the system with two applications: (a) a text-to-speech synthesizer with expression control and (b) a conversational agent that can react to simple phrases.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[expressive visual speech]]></kw>
+			<kw><![CDATA[facial animation]]></kw>
+			<kw><![CDATA[text-to-visual speech synthesis]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node>I.3.7</cat_node>
+				<descriptor>Animation</descriptor>
+				<type>S</type>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010371.10010352</concept_id>
+				<concept_desc>CCS->Computing methodologies->Computer graphics->Animation</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>PP35054155</person_id>
+				<author_profile_id><![CDATA[81335498992]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Alice]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Wang]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Northrop Grumman]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35049199</person_id>
+				<author_profile_id><![CDATA[81333488438]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Michael]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Emmi]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of California Los Angeles]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P225799</person_id>
+				<author_profile_id><![CDATA[81100370834]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Petros]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Faloutsos]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of California Los Angeles]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>826612</ref_obj_id>
+				<ref_obj_pid>826030</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Albrecht, I., Haber, J., K&#228;hler, K., Schr&#246;der, M., and Seidel, H. (2002). May I talk to you? Facial animation from text. In <i>Proceedings, Tenth Pacific Conference on Computer Graphics and Applications</i>, pages 77--86.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[ATT Inc. Natural Voices. www.naturalvoices.att.com/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>311556</ref_obj_id>
+				<ref_obj_pid>311535</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Blanz, T. and Vetter, T. (1999). A morphable model for the synthesis of 3d faces. In <i>SIGGRAPH 99 Conference Proceedings</i>. ACM SIGGRAPH.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>311537</ref_obj_id>
+				<ref_obj_pid>311535</ref_obj_pid>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Brand, M. (1999). Voice puppetry. In <i>Proceedings of ACM SIGGRAPH 1999</i>, pages 21--28. ACM Press/Addison-Wesley Publishing Co.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>258880</ref_obj_id>
+				<ref_obj_pid>258734</ref_obj_pid>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Bregler, C., Covell, M., and Slaney, M. (1997). Video rewrite: driving visual speech with audio. In <i>SIGGRAPH 97 Conference Proceedings</i>, pages 353--360. ACM SIGGRAPH.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Brook, N. and Scott, S. (1994). Computer graphics animations of talking faces based on stochastic models. In <i>International Symposium on Speech, Image Processing, and Neural Networkds</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>846308</ref_obj_id>
+				<ref_obj_pid>846276</ref_obj_pid>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Cao, Y., Faloutsos, P., and Pighin, F. (2003). Unsupervised learning for speech motion editing. In <i>Proceedings of Eurographics/ACM SIGGRAPH Symposium on Computer Animation</i>, pages 225--231.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1095881</ref_obj_id>
+				<ref_obj_pid>1095878</ref_obj_pid>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Cao, Y., Tien, W. C., Faloutsos, P., and Pighin, F. (2005). Expressive speech-driven facial animation. <i>ACM Trans. Graph.</i>, 24(4):1283--1302.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>192272</ref_obj_id>
+				<ref_obj_pid>192161</ref_obj_pid>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Cassell, J., Pelachaud, C., Badler, N., Steedman, M., Achorn, B., Becket, W., Douville, B., Prevost, S., and Stone, M. (1994). Animated conversation: Rule-based generation of facial expression, gesture and spoken intonation for multiple conversational agents. In <i>Proceedings of ACM SIGGRAPH 1994</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Cohen, N. and Massaro, D. W. (1993). Modeling coarticulation in synthetic visual speech. In Thalmann, N. M. and Thalmann, D., editors, <i>Models and Techniques in Computer Animation</i>, pages 139--156. Springer---Verlang.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Curious Labs Inc. Poser 6. www.curiouslabs.com/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[DeCarlo, D. and Stone, M. http://www.cs.rutgers.edu/~village/ruth.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>566594</ref_obj_id>
+				<ref_obj_pid>566570</ref_obj_pid>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Ezzat, T., Geiger, G., and Poggio, T. (2002). Trainable videorealistic speech animation. In <i>Proceedings of ACM SIGGRPAH 2002</i>, pages 388--398. ACM Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>280822</ref_obj_id>
+				<ref_obj_pid>280814</ref_obj_pid>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Guenter, B., Grimm, C., Wood, D., Malvar, H., and Pighin, F. (1998). Making faces. In <i>SIGGRAPH 98 Conference Proceedings</i>, pages 55--66. ACM SIGGRAPH.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>846303</ref_obj_id>
+				<ref_obj_pid>846276</ref_obj_pid>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[Joshi, P., Tien, W. C., Desbrun, M., and Pighin, F. (2003). Learning controls for blend shape based realistic facial animation. In <i>Proceedings of the 2003 ACM SIGGRAPH/Eurographics Symposium on Computer Animation</i>, pages 187--192. Eurographics Association.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Kalberer, G., Mueller, P., and Gool, L. V. (2002). Speech animation using viseme space. In <i>Vision, Modeling and Visualization</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Kalberer, G. A. (2003). <i>Realistic Face Animation for Speech</i>. PhD thesis, Swiss Federal Institute of Technology Zurich.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[Kent, R. D. (1977). Coarticulation in recent speech production models. <i>Journal of Phonetics</i>, 5:115--133.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>218407</ref_obj_id>
+				<ref_obj_pid>218380</ref_obj_pid>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[Lee, Y., Terzopoulos, D., and Waters, K. (1995). Realistic modeling for facial animation. In <i>SIGGRAPH 95 Conference Proceedings</i>, pages 55--62. ACM SIGGRAPH.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[Lundeberg, M. and Beskow, J. Developing a 3d-agent for the august dialogue system.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[Massaro, D. (1997). <i>Perceiving Talking Faces</i>. MIT Press, Cambridge, MA.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>22</ref_seq_no>
+				<ref_text><![CDATA[Masuko, T., Kobayashi, T., Tamura, M., Masubuchi, J., and k. Tokuda (1998). Text-to-visual speech synthesis based on parameter generation from hmm. In <i>ICASSP</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>23</ref_seq_no>
+				<ref_text><![CDATA[Microsoft, Inc. Speech SDK 5.1. www.microsoft.com/speech/download/sdk51.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>907312</ref_obj_id>
+				<ref_seq_no>24</ref_seq_no>
+				<ref_text><![CDATA[Parke, F. (1974). <i>A parametric model for human faces</i>. PhD thesis, University of Utah, Salt Lake City, Utah. UTEC-CSc-75-047.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>25</ref_seq_no>
+				<ref_text><![CDATA[Pelachaud, C. (1991). <i>Realistic Face Animation for Speech</i>. PhD thesis, University of Pennsylvania.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>280825</ref_obj_id>
+				<ref_obj_pid>280814</ref_obj_pid>
+				<ref_seq_no>26</ref_seq_no>
+				<ref_text><![CDATA[Pighin, F., Hecker, J., Lischinski, D., Szeliski, R., and Salesin, D. (1998). Synthesizing realistic facial expressions from photographs. In <i>SIGGRAPH 98 Conference Proceedings</i>, pages 75--84. ACM SIGGRAPH.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>27</ref_seq_no>
+				<ref_text><![CDATA[Reveret, L., Bailly, G., and Badin, P. Mother: A new generation of talking heads providing a flexible articulatory control for video-realistic speech animation.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>28</ref_seq_no>
+				<ref_text><![CDATA[Saisan, P., Bissacco, A., Chiuso, A., and Soatto, S. (2004). Modeling and synthesis of facial motion driven by speech. In <i>ECCV 2004 (to appear)</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1089519</ref_obj_id>
+				<ref_obj_pid>1089508</ref_obj_pid>
+				<ref_seq_no>29</ref_seq_no>
+				<ref_text><![CDATA[Shapiro, A., Faloutsos, P., and Ng-Thow-Hing, V. (2005). Dynamic animation and control environment. In <i>Graphics Interface 2005</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>30</ref_seq_no>
+				<ref_text><![CDATA[Singular Inversion, I. FaceGen. www.facegen.com.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>31</ref_seq_no>
+				<ref_text><![CDATA[Speech Group, C. M. U. www.speech.cs.cmu.edu/festival.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1015753</ref_obj_id>
+				<ref_obj_pid>1015706</ref_obj_pid>
+				<ref_seq_no>32</ref_seq_no>
+				<ref_text><![CDATA[Stone, M., DeCarlo, D., Oh, I., Rodriguez, C., Stere, A., Lees, A., and Bregler, C. (2004). Speaking with hands: creating animated conversational characters from recordings of human performance. <i>ACM Transaction on Graphics</i>, 23(3):506--513.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>37405</ref_obj_id>
+				<ref_obj_pid>37401</ref_obj_pid>
+				<ref_seq_no>33</ref_seq_no>
+				<ref_text><![CDATA[Waters, K. (1987). A muscle model for animating three-dimensional facial expression. In <i>SIGGRAPH 87 Conference Proceedings)</i>, volume 21, pages 17--24. ACM SIGGRAPH.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	<article_rec>
+		<article_id>1274948</article_id>
+		<sort_key>27</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Open source toolchains]]></title>
+		<page_from>27</page_from>
+		<page_to>29</page_to>
+		<doi_number>10.1145/1274940.1274948</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274948</url>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP35046725</person_id>
+				<author_profile_id><![CDATA[81545831256]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Mark]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Barnes]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35052537</person_id>
+				<author_profile_id><![CDATA[81335496097]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Jon]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Phillips]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35047766</person_id>
+				<author_profile_id><![CDATA[81327488143]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Erwin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Coumans]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35051762</person_id>
+				<author_profile_id><![CDATA[81327490282]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Morgan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McGuire]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP40037620</person_id>
+				<author_profile_id><![CDATA[81100184715]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Gary]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Bradski]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35051909</person_id>
+				<author_profile_id><![CDATA[81100145235]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Ton]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Roosendaal]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>1274949</section_id>
+		<sort_key>31</sort_key>
+		<section_seq_no>4</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Education and psychology]]></section_title>
+		<section_page_from>31</section_page_from>
+	<article_rec>
+		<article_id>1274950</article_id>
+		<sort_key>31</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[GameLog]]></title>
+		<subtitle><![CDATA[fostering reflective gameplaying for learning]]></subtitle>
+		<page_from>31</page_from>
+		<page_to>38</page_to>
+		<doi_number>10.1145/1274940.1274950</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274950</url>
+		<abstract>
+			<par><![CDATA[<p>On the surface, it seems like teaching about games should be easy. After all, students are highly motivated, enjoy engaging with course content, and have extensive personal experience with videogames. Games education in reality is surprisingly complex. In game classes, students are often asked to reflect, generalize, and articulate their understanding of games as they play and analyze them. Educational research suggests that these tasks are particularly challenging for students. We report on the use of GameLog, an online blogging environment for supporting reflection on gameplaying experiences. GameLog differs from traditional blogging environments because each user maintains multiple parallel blogs, with each blog devoted to a single game. GameLog was used in two university level games-related classes. Our results indicate students perceived writing GameLogs as a positive learning experience for three reasons. First, it improved their relationship with videogames as a medium. Second, it helped them broaden and deepen their understanding of videogames. Third, it provided a vehicle for expression, communication, and collaboration. Students found that by reflecting on their experiences playing games they began to understand how game design elements helped shape that experience. Most importantly, they stepped back from their traditional role of "gamers" or "fans" and engaged in reasoning critically and analytically about the games they were studying. Our analysis of the students' GameLog entries supports the students' perceptions. We identified six common styles of entry: overview, narrative, comparative analysis, plan/hypothesis, experiment, and insight/analysis. These styles align with practices necessary for supporting learning and understanding. We propose that blogging about gameplay experience, as a reflective writing activity, can help lay the foundations on which further learning and understanding of games can happen.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[blogs]]></kw>
+			<kw><![CDATA[learning]]></kw>
+			<kw><![CDATA[reflection]]></kw>
+			<kw><![CDATA[videogames]]></kw>
+			<kw><![CDATA[writing]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node>K.8.0</cat_node>
+				<descriptor>Games</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>K.3.1</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010489</concept_id>
+				<concept_desc>CCS->Applied computing->Education</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002951.10003227.10003251.10003258</concept_id>
+				<concept_desc>CCS->Information systems->Information systems applications->Multimedia information systems->Massively multiplayer online games</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10011007.10010940.10010941.10010969.10010970</concept_id>
+				<concept_desc>CCS->Software and its engineering->Software organization and properties->Contextual software domains->Virtual worlds software->Interactive games</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010476.10011187.10011190</concept_id>
+				<concept_desc>CCS->Applied computing->Computers in other domains->Personal computers and PC applications->Computer games</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P889440</person_id>
+				<author_profile_id><![CDATA[81309502667]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jose]]></first_name>
+				<middle_name><![CDATA[P.]]></middle_name>
+				<last_name><![CDATA[Zagal]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Georgia Institute of Technology]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P16291</person_id>
+				<author_profile_id><![CDATA[81100562702]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Amy]]></first_name>
+				<middle_name><![CDATA[S.]]></middle_name>
+				<last_name><![CDATA[Bruckman]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Georgia Institute of Technology]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Aarseth, E. (2001). "Computer Game Studies, Year One." <i>Game Studies</i> 1(1).]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Baker, J. H. (2003). "The learning log." <i>Journal of Information Systems Education</i> 14(1): 11--13.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Barron, B., D. Schwartz, N. Vye, L. Zech, J. D. Bransford and T. C. A. T. G. A. Vanderbilt (1998). "Doing With Understanding: Lessons from Research on Problem- and Project-Based Learning." <i>Journal of the Learning Sciences</i> 7(3&4): 271--310.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Bereiter, C. and M. Scardamalia (1987). <i>The Psychology of Written Composition</i>. Hillsdale, NJ, Lawrence Erlbaum Associates.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Bransford, J. D., A. L. Brown and R. R. Cocking (2000). <i>How People Learn: Brain, Mind, Experience, and School (Expanded Edition)</i>. Washington, National Academy Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Britton, J., N. Burgess, A. Macleod and H. Rosen (1975). <i>The Development of Writing Abilities</i>. London, Macmillan.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Commander, N. E. and B. D. Smith (1996). "Learning Logs: A tool for cognitive monitoring." <i>Journal of Adolescent &amp; Adult Literacy</i> 39(6): 446--453.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1042699</ref_obj_id>
+				<ref_obj_pid>1042432</ref_obj_pid>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Du, H. S. and C. Wagner (2005). <i>Learning with Weblogs: An Empirical Investigation</i>. Proceedings of the 38th Hawaii International Conference on System Sciences, Hawaii]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Edelson, D., D. Gordin and R. D. Pea (1999). "Addressing the Challenges of Inquiry-Based Learning through Technology and Curriculum Design." <i>The Journal of the Learning Sciences</i> 8(3/4): 391--450.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Eisenhardt, K. M. (1989). "Building Theories from Case Study Research." <i>Academy of Management Review</i> 14(4): 532--550.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Emig, J. (1977). "Writing as a mode of learning." <i>College Composition and Communication</i> 28: 122--127.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Esa (2005). "Entertainment Software Association (ESA) - Essential Facts About the Computer and Video Game Industry."]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Flavell, J. H. (1973). Metacognitive aspects of problem solving. <i>The Nature of Intelligence</i>. L. B. Resnick. Hillsdale, NJ, Erlbaum.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1150061</ref_obj_id>
+				<ref_obj_pid>1150034</ref_obj_pid>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Forte, A. and A. Bruckman (2006). From Wikipedia to the Classroom: Exploring Online Publication and Learning. <i>Proceedings of the 7th International Conference of the Learning Sciences</i>. Bloomington, IN: (1) 182--188.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[Glaser, B. and A. Strauss (1967). <i>The Discovery of Grounded Theory: Strategies for Qualitative Research</i>. Chicago, Aldine.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Kolodner, J. L., D. Crismond, J. Gray, J. Holbrook and S. Puntambekar (1998). <i>Learning by Design from Theory to Practice</i>. International Conference of the Learning Sciences, Atlanta, GA.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1035163</ref_obj_id>
+				<ref_obj_pid>1035134</ref_obj_pid>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Nardi, B. A., D. J. Schiano, M. Gumbrecht and L. Swartz (2004). "Why we Blog." <i>Communications of the ACM</i> 47(12): 41--46.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[Papert, S. (1991). Situating Constructionism. <i>Constructionism</i>. I. P. Harel, Seymour. Norwood, NJ, Ablex Publishing Company: 1--11.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[Piaget, J. (1972). <i>The Principles of Genetic Epistemology</i>. New York, Basic Books]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[Pratchett, R. (2005). Gamers in the UK: Digital play, digital lifestyles, BBC Creative Research and Development: 1--25.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[Reagin, J. (2004). <i>Theoretical and Practical Applications of Emergent Technology in ELT Classrooms; How the 'Blog' Can Change English Language Teaching</i>. The Fourth International Symposium on ELT in China, Beiking, PRC.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>22</ref_seq_no>
+				<ref_text><![CDATA[Stiler, G. M. and T. Philleo (2003). "Blogging and Blogspots: An Alternative Format for Encouraging Reflective Practice Among Preservice Teachers." <i>Education</i> 123: 789--797.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>23</ref_seq_no>
+				<ref_text><![CDATA[Wiltse, E. M. (2004). <i>Blog, Blog, Blog: Experiences with web logs in journalism classes</i>. International Symposium on Online Journalism.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>24</ref_seq_no>
+				<ref_text><![CDATA[Zagal, J. and A. Bruckman (2007). <i>From Gamers to Scholars: Challenges of Teaching Game Studies</i>. Currently Under Review for the Digital Games Research Association International Conference (DiGRA) 2007, Tokyo, Japan]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>25</ref_seq_no>
+				<ref_text><![CDATA[Zagal, J., M. Mateas, C. Fernandez-Vara, B. Hochhalter and N. Lichti (2005). Towards an Ontological Language for Game Analysis. <i>Changing Views: Worlds in Play, Selected Papers of DIGRA 2005</i>. S. de Castell and J. Jenson. Vancouver, Canada: 3--14.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	<article_rec>
+		<article_id>1274951</article_id>
+		<sort_key>39</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[The experience of telepresence with a foreign language video game and video]]></title>
+		<page_from>39</page_from>
+		<page_to>46</page_to>
+		<doi_number>10.1145/1274940.1274951</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274951</url>
+		<abstract>
+			<par><![CDATA[<p>We investigated the experience of telepresence elicited by foreign language media with different interactivities (i.e., a video game and a video recording of the video game being played) with 10 undergraduates. Self-report questionnaires and open-ended interviews showed that, in general, telepresence was experienced more strongly with the video game. There was some variation in the results, however, depending on individuals' immersion tendencies and other media preferences and habits. Additionally, many participants reported not feeling as telepresent with this project's media as with other media and framed this experience by discussing investment, involvement, narrative, and play. We offer several implications for game designers aiming to create virtual realities for their players.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[game design]]></kw>
+			<kw><![CDATA[sense of presence]]></kw>
+			<kw><![CDATA[video games]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.m</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003120</concept_id>
+				<concept_desc>CCS->Human-centered computing</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120</concept_id>
+				<concept_desc>CCS->Human-centered computing</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P889438</person_id>
+				<author_profile_id><![CDATA[81335489674]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Jonathan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[deHaan]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of Aizu]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35048882</person_id>
+				<author_profile_id><![CDATA[81100435692]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[James]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Diamond]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[New York University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Costikyan, G. 1994. I have no words and I must design. Retrieved February 12, 2007 from http://www.costik.com/nowords.html]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Coyle, J. R., and Thorson, E. 2001. The effects of progressive levels of interactivity and vividness in web marketing sites. <i>Journal of Advertising</i>, 30, 3, 67--77.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1202754</ref_obj_id>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Crawford, C. 2005. <i>Chris Crawford on Interactive Storytelling</i>. Berkeley, CA: New Riders.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1246798</ref_obj_id>
+				<ref_obj_pid>1246796</ref_obj_pid>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Freeman, J., Avons, S. E., Pearson, D. E., and Ijsselsteijn, W. A. 1999. Effects of sensory information and prior experience on direct subjective ratings of presence. <i>Presence: Teleoperators and Virtual Environments, 8</i>, 1, 1--13.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Gilkey, R. H. and Weisenberger, J. M. 1995. The sense of presence for the suddenly deafened adult. <i>Presence: Teleoperators and Virtual Environments, 4</i>, 4, 357--363.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Heeter, C. 2000. Interactivity in the context of designed experiences. <i>Journal of Interactive Advertising, 1</i>, 1. Retrieved December 21, 2005 from http://www.jiad.org/vol1/no1/heeter/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[ISPR: International Society for Presence Research. 2003. Resources for the study of presence. Retrieved February 24, 2006 from http://www.temple.edu/ispr/index.htm]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Ivory, J. D. 2005. <i>New and improved: The effects of technological advancement and violent content in video games on player arousal, presence, attitudes, perceptions of interactivity, and aggression</i>. Unpublished doctoral dissertation, The University of North Carolina at Chapel Hill.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Jenkins, H. 2003. Game design as narrative architecture. In Wardrip-Fruin, N. and Harrigan, P. (Eds.) <i>First Person: New Media as Story, Performance, and Game</i>. Cambridge, MA: MIT Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Juul, J. 2001. Games telling stories? <i>Game Studies, 1</i>, 1. Retrieved February 12, 2007 from http://www.gamestudies.org/0101/juul-gts]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Johnson, R. B. and Onwuegbuzie, A. J. 2004. Mixed methods research: A research paradigm whose time has come. <i>Educational Researcher</i>, 33, 7, 14--26.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Kim, T. 1996. <i>Effects of presence on memory and persuasion</i>. Unpublished doctoral dissertation, University of North Carolina, Chapel Hill.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Kim, T. and Biocca, F. 1997. Telepresence in television: Two dimensions of telepresence may have different connections to memory and persuasion. <i>Journal of computer-mediated communication, 3</i>, 2. Retrieved April 9, 2006 from http://www.ascusc.org/jcmc/vol3/issue2]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>529145</ref_obj_id>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Laurel, B. 1993. <i>Computers as Theatre</i>. Reading, MA: Addison- Wesley.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[Klein, L. R. 2003. Creating virtual product experiences: The role of telepresence. <i>Journal of Interactive Marketing, 17</i>, 1, 41--55.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Lombard, M. and Ditton, 1997. T. At the heart of it all: The concept of presence. <i>Journal of Computer-Mediated Communication, 3</i>, 2. Retrieved March 15, 2007 from http://jcmc.indiana.edu/vol3/issue2/lombard.html]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>802839</ref_obj_id>
+				<ref_obj_pid>800088</ref_obj_pid>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Malone, T. W. 1980. What makes things fun to learn? Heuristics for Designing Instructional Computer Games. In <i>Proceedings of the 3rd ACM SIGSMALL symposium and the first SIGPC symposium on Small systems</i>. 162--169.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>196545</ref_obj_id>
+				<ref_obj_pid>195966</ref_obj_pid>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[McGreevy, M. W. 1993. The presence of field geologists in a Mars-like terrain. <i>Presence: Teleoperators and Virtual Environments, 1</i>, 4, 375--403.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[Murray, J. 1997. <i>Hamlet on the Holodeck</i>. Cambridge, MA: MIT Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1028068</ref_obj_id>
+				<ref_obj_pid>1028014</ref_obj_pid>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[Ravaja, N., Salminen, M., Holopainen, J., Saari, T., Laarni, J, and Jarvinen, A. 2004. Emotional response patterns and sense of presence during video games: potential criterion variables for game design. <i>ACM International Conference Proceeding Series, 82</i>, 339--347.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[Reeves, B. 1991. "Being there:" Television as symbolic versus natural experience. Unpublished manuscript, Stanford University, Institute for Communication Research, Stanford, CA.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>22</ref_seq_no>
+				<ref_text><![CDATA[Retaux, X. (2003). Presence in the environment: Theories, methodologies and applications to video games. <i>PsychNology Journal, 1</i>, 3, 283--309.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>23</ref_seq_no>
+				<ref_text><![CDATA[Rieber, L. P. 1996. Seriously considering play: Designing interactive learning environments based on the blending of microworlds, simulations, and games. <i>Educational Technology Research &amp; Development, 44</i>, 2, 43--58.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>24</ref_seq_no>
+				<ref_text><![CDATA[Schneider, E. F., Lang, A., Shin, M. and Bradley, S. D. 2004. Death with a story: How story impacts emotional, motivational, and physiological response to first-person shooter video games. <i>Human Communications Research, 30</i>, 3, 361--375.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>25</ref_seq_no>
+				<ref_text><![CDATA[Schwienhorst, K. 2000a. The state of VR: A meta-analysis of virtual reality tools in second language acquisition. <i>Computer Assisted Language Learning, 15</i>, 3, 221--239.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>633602</ref_obj_id>
+				<ref_obj_pid>633594</ref_obj_pid>
+				<ref_seq_no>26</ref_seq_no>
+				<ref_text><![CDATA[Schwienhorst, K. 2000b. Why virtual, why environments? Implementing virtual reality concepts in computer-assisted language learning. <i>Simulation and Gaming, 33</i>, 2, 196--209.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>128956</ref_obj_id>
+				<ref_obj_pid>128947</ref_obj_pid>
+				<ref_seq_no>27</ref_seq_no>
+				<ref_text><![CDATA[Sheridan, T. B. 1992. Musings on telepresence and virtual presence. <i>Presence, 1</i>, 1, 120--126.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1246846</ref_obj_id>
+				<ref_obj_pid>1246838</ref_obj_pid>
+				<ref_seq_no>28</ref_seq_no>
+				<ref_text><![CDATA[Slater, M. 1999. Measuring presence: A response to the Witmer and Singer presence questionnaire. <i>Presence: Teleoperators &amp; Virtual Environments, 8</i>, 5, 560--565.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>29</ref_seq_no>
+				<ref_text><![CDATA[Slater, M., and Usoh, M. 1993. Representations systems, perceptual position, and presence in immersive virtual environments. <i>Presence: Teleoperators and Virtual Environments, 2</i>, 3, 221--233.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>30</ref_seq_no>
+				<ref_text><![CDATA[Steuer, J. 1992. Defining virtual reality: Dimensions determining telepresence. <i>Journal of Communication, 42</i>, 4, 73--93.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>31</ref_seq_no>
+				<ref_text><![CDATA[Tamborini, R., Eastin, M., Lachlan, K., Skalski, P., Fediuk, T., and Brady, R. 2001, May 24--28. Hostile thoughts, presence and violent virtual video games. Paper presented at the 51&#60;sup&#62;st&#60;/sup&#62; annual convention of the International Communication Association. Retrieved December 21, 2005 from http://info.cas.msu.edu/icagames/HTP.pdf]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>32</ref_seq_no>
+				<ref_text><![CDATA[Turkle, S. 1985. <i>The second self</i>. New York: Simon &amp; Schuster]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1246762</ref_obj_id>
+				<ref_obj_pid>1246761</ref_obj_pid>
+				<ref_seq_no>33</ref_seq_no>
+				<ref_text><![CDATA[Witmer, B and Singer, M. 1998. Measuring presence in virtual environments: A presence questionnaire. <i>Presence: Teleoperators and Virtual Environments, 7</i>, 3, 225--240.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>861462</ref_obj_id>
+				<ref_seq_no>34</ref_seq_no>
+				<ref_text><![CDATA[Wolf, M. J. P. and Perron, B. 2003. <i>The Video Game Theory Reader</i>. New York: Routledge.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	<article_rec>
+		<article_id>1274952</article_id>
+		<sort_key>47</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[Drawing a line in the sand]]></title>
+		<subtitle><![CDATA[border/boundary theories and games]]></subtitle>
+		<page_from>47</page_from>
+		<page_to>54</page_to>
+		<doi_number>10.1145/1274940.1274952</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274952</url>
+		<abstract>
+			<par><![CDATA[<p>Game play, however brief, monopolizes a player's time, physical engagement, cognition, and even identity. How best to understand, describe and explain how people navigate between these worlds, cross social boundaries while maintaining a sense of identity? Border and Boundary theories seek to understand and explain the transitions between the interdependent domains of work and family. Boundary theory even admits the possibility of "third places" which suggests that these theories may be a useful analytical tool to study activities such as gaming, instant messaging or more broadly social networking. However, the work of select authors [Bateson 1972; Bogost 2006; Gee 2003; Goffman 1974; Jenkins 2004; Juul 2005; Salen & Zimmerman 2003; Suits 1990 etc.] suggest that border and boundaries theories as currently formulated are inadequate to explain the full dynamic of immersion in game play or engagement in social networking. This paper introduces some additional concepts listed as a <i>Dictionary of Terms</i> that may address some of the shortcomings of border and boundary theories, thereby providing greater analytical power to the consideration of gaming as a subset of what Thomas Vander Wal calls the "info cloud."</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[border theory]]></kw>
+			<kw><![CDATA[boundary theory]]></kw>
+			<kw><![CDATA[family]]></kw>
+			<kw><![CDATA[games]]></kw>
+			<kw><![CDATA[gaming]]></kw>
+			<kw><![CDATA[home]]></kw>
+			<kw><![CDATA[info cloud]]></kw>
+			<kw><![CDATA[lusory]]></kw>
+			<kw><![CDATA[play]]></kw>
+			<kw><![CDATA[role identity]]></kw>
+			<kw><![CDATA[role playing]]></kw>
+			<kw><![CDATA[role transitions]]></kw>
+			<kw><![CDATA[social domains]]></kw>
+			<kw><![CDATA[work]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node>K.8.0</cat_node>
+				<descriptor>Games</descriptor>
+				<type>S</type>
+			</primary_category>
+			<other_category>
+				<cat_node>K.4.m</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003456.10003462</concept_id>
+				<concept_desc>CCS->Social and professional topics->Computing / technology policy</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002951.10003227.10003251.10003258</concept_id>
+				<concept_desc>CCS->Information systems->Information systems applications->Multimedia information systems->Massively multiplayer online games</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10011007.10010940.10010941.10010969.10010970</concept_id>
+				<concept_desc>CCS->Software and its engineering->Software organization and properties->Contextual software domains->Virtual worlds software->Interactive games</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010476.10011187.10011190</concept_id>
+				<concept_desc>CCS->Applied computing->Computers in other domains->Personal computers and PC applications->Computer games</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>PP35023041</person_id>
+				<author_profile_id><![CDATA[81100031851]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Gregory]]></first_name>
+				<middle_name><![CDATA[P.]]></middle_name>
+				<last_name><![CDATA[Garvey]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Quinnipiac University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Adams, D. 2005. Killer Tries GTA Defense, Jury Convicts. Accessed September 18, 2006 from ign.com, http://xbox.ign.com/articles/640/640952pl.html]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Ashforth, B. E., Kreiner, G. E. &amp; Fugate, M. 2000. All in a day's work: Boundaries and micro role transitions. <i>Academy of Management. The Academy of Management Review, 25</i>, 3, 472--491.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Bateson, G. 1972. "A Theory of Play and Fantasy" in <i>Steps to an Ecology of Mind</i>. Chicago: University of Chicago Press. 191.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1197651</ref_obj_id>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Bogost, I. 2006. <i>Unit Operations: An Approach to Videogame Criticism</i>. Cambridge, MA: MIT Press. 68--107.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Burr, W. R. 1972. Role transitions: A reformulation of theory. <i>Journal of Marriage and the Family</i>. 34. 407--416.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Chesley, N., Moen, P., &amp; Shore, R. P. 2002. The new technology climate: Work and family in the information age. In P. Moen (Ed.) <i>It's about time: Couples' career strains, strategies, and successes</i>. Ithaca, NY: Cornell University Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Clark, S. C. 2000, June. Work/family border theory: A new theory of work/family balance. <i>Human Relations</i>, 53, 6, 747--771.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Cowan, N. 2005. <i>Working Memory Capacity: Essays in Cognitive Psychology</i>. Philadelphia: Psychology Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Csikszentmihalyi, M. 1982. "Does Being Human Matter--On Some Interpretive Problems of Comparative Ludology." <i>Behavioral and Brain Sciences</i> 5, no. 1.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Descrochers, S. &amp; Sargent L. 2003. Boundary/Border Theory and Work-Family Integration. A Sloan Work and Family Encyclopedia Entry. 9/09/03 <i>Sloan Work and Family Research Network. Work-Family Encyclopedia</i>. Boston College. http://wfnetwork.bc.edu/encyclopedia_entry.php?id=220. Accessed April 25, 2007.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Fantz, A. 2007. <i>Teen 'sport killings' of homeless on the rise. CNN.com</i>. February 20, 2007. Accessed May 10, 2007. http://www.cnn.com/2007/US/02/19/homeless.attacks/index.html?eref=rss_latest]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Fiske, S. T. &amp; Taylor, S. E. 1991. <i>Social Cognition</i>. (2&#60;sup&#62;nd&#60;/sup&#62;. Ed.). New York: McGraw-Hill.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Gabe 2007. <i>A rare opportunity</i>. February 21 2007. Accessed 5/8/07. http://www.penny-arcade.com/2007/02/21#1172088960.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Galinsky, E., &amp; Kim, S. 2000. Navigating work and parenting by working at home: Perspectives of workers and children whose parents work at home. <i>U.S. Department of Labor Website, Telework and the New Workplace of the 21st Century</i>. http://www.dol.gov/asp/telework/p3_4.htm]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[GamePro Staff, 2006. Ala. Supreme Court Rejects Grand Theft Auto Appeal. Accessed September 18, 2006. GamePro.com. http://www.gamepro.com/news.cfm?article_id=53056]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Garvey, G. 2007. Border Crossings: Drawing the Line Between the Virtual and the Real. <i>The International Journal of Interdisciplinary Social Sciences</i>. Vol. 1, Issue 5, 91--100. http://iji.cgpublisher.com/product/pub.88/prod.108]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>983348</ref_obj_id>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Gee, J. P. 2003. <i>What Video Games Have to Teach Us About Learning and Literacy</i>. New York: Palgrave MacMillan. 55--185.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[Gibson, E. 2005. <i>Thompson withdraws from Grand Theft Auto lawsuit</i>. Accessed November 30, 2006. http://www.gamesindustry.biz/content_page.php?aid=12797]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[Gioia, D. A. &amp; Poole, P. 1984. Scripts in organizational behavior. <i>Academy of Management Review</i>, 9, 449--459.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[Goffman, E. 1974. <i>Frame Analysis: An Essay on the Organization of Experience</i>. London: Harper and Row. 1--39.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[Huizinga, J. 1971. <i>Homo Ludens</i>. Boston: Beacon Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1076823</ref_obj_id>
+				<ref_seq_no>22</ref_seq_no>
+				<ref_text><![CDATA[Juul, J. 2005. <i>Half-Real: Video Games between Real Rules and Fictional Worlds</i>. Cambridge. MIT Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>23</ref_seq_no>
+				<ref_text><![CDATA[Jenkins, H. 2004. <i>Reality Bytes: Eight Myths About Video Games Debunked</i>. Accessed September 18, 2006 from pbs.org, http://www.pbs.org/kcts/videogamerevolution/impact/myths.html]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>24</ref_seq_no>
+				<ref_text><![CDATA[Kreiner, G. E. 2002. Boundary preferences and work-family conflict: A person-environment fit perspective. Paper presented at the annual meeting of the <i>Academy of Management Conference</i>. Denver, CO: Cited in Descrochers, S. &amp; Sargent L., {2003}.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>25</ref_seq_no>
+				<ref_text><![CDATA[Louis, M. R., &amp; Sutton, R. I. 1991. Switching cognitive gears: From habits of mind to active thinking. <i>Human Relations</i>, 44, 55--76.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>26</ref_seq_no>
+				<ref_text><![CDATA[Michaelsen, S., &amp; Johnson, D. E. (Eds.) 1997. <i>Border theory: The limits of cultural politics</i>. Minneapolis: University of Minnesota Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>27</ref_seq_no>
+				<ref_text><![CDATA[Miller, G. A. 1956. "The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information." <i>The Psychological Review</i>, 1956, vol. 63, 81--97.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>28</ref_seq_no>
+				<ref_text><![CDATA[Nippert-Eng, C. 1996. <i>Home and work</i>. Chicago: University of Chicago Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>29</ref_seq_no>
+				<ref_text><![CDATA[Oldenburg, R. 1997. <i>The great good place: Caf&#233;s, coffee shops, community centers, beauty parlors, general stores, bars, hangouts and how they get your through the day</i>. New York: Marlowe. 16.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1205153</ref_obj_id>
+				<ref_seq_no>30</ref_seq_no>
+				<ref_text><![CDATA[Raessens, J. and Goldstein, J., Ed. 2005. <i>Handbook of Computer Game Studies</i>. Cambridge: MIT Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>31</ref_seq_no>
+				<ref_text><![CDATA[Roush, W. 2005, August. Social Machines: Computing means connecting. <i>Technology Review</i>. Accessed September 18, 2006. http://www.technologyreview.com/articles/05/08/issue/feature_social.asp]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>32</ref_seq_no>
+				<ref_text><![CDATA[Rychlak, J. F. 1981. <i>Personality and psychotherapy: A theoryconstruction approach</i>, 2&#60;sup&#62;nd&#60;/sup&#62;. Edn. Boston: Houghton Mifflin.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1215723</ref_obj_id>
+				<ref_seq_no>33</ref_seq_no>
+				<ref_text><![CDATA[Salen, K. &amp; Zimmerman, E. 2003. <i>Rules of Play: Game Design Fundamentals</i>. Cambridge: MIT Press. 371--450.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>34</ref_seq_no>
+				<ref_text><![CDATA[Schein, E. H. 1971. The individual, the organization, and the career: A conceptual scheme. <i>Journal of Applied Behavioral Science</i>. 7, 401--426.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>35</ref_seq_no>
+				<ref_text><![CDATA[Shamir, B. 1992. Home: The perfect workplace? In S. Zedeck (Ed.), <i>Work, families and organizations</i>. San Francisco: Jossey-Bass. 272--311.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>36</ref_seq_no>
+				<ref_text><![CDATA[Shiffrin, R. M. &amp; Schneider, W. 1977. Controlled and automatic human information processing: II. Perceptual learning, automatic attending, and a general theory. <i>Psychological Review</i>, 84, 127--190.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>37</ref_seq_no>
+				<ref_text><![CDATA[Suits, B. 1990. <i>Grasshopper: Games, Life, and Utopia</i>. Boston: David R. Godine.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>38</ref_seq_no>
+				<ref_text><![CDATA[Van Maanen, J. 1982. Boundary crossings: Major strategies of organizational socialization and their consequences. In R. Katz (Ed.), <i>Career issues in human resource management:</i> 85--115. Englewood Cliffs, NJ: Prentice-Hall.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>39</ref_seq_no>
+				<ref_text><![CDATA[Wikipedia, <i>List of Characters: Grand Theft Auto</i>. http://en.wikipedia.org/wiki/List_of_characters_in_Grand_Theft _Auto:_Vice_City#Tommy_Vercetti. Accessed April 5, 2007.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>40</ref_seq_no>
+				<ref_text><![CDATA[Zerubavel, E. 1991. <i>The fine line: Making distinctions in everyday life</i>. New York: Free Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>41</ref_seq_no>
+				<ref_text><![CDATA[Zerubavel, E. 1996. Lumping and splitting: Notes on social classification. <i>Sociological Forum</i>. 11(3), 421--423.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>1274953</section_id>
+		<sort_key>55</sort_key>
+		<section_seq_no>5</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Game design I]]></section_title>
+		<section_page_from>55</section_page_from>
+	<article_rec>
+		<article_id>1274954</article_id>
+		<sort_key>55</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Journey of discovery]]></title>
+		<subtitle><![CDATA[the night journey project as "video/game art"]]></subtitle>
+		<page_from>55</page_from>
+		<page_to>63</page_to>
+		<doi_number>10.1145/1274940.1274954</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274954</url>
+		<abstract>
+			<par><![CDATA[<p>This paper describes the development of a video/game art project being produced by media artist Bill Viola in collaboration with a team from the USC Game Innovation Lab, which uses a combination of both video and game technologies to explore the universal experience of an individual's journey towards enlightenment. Here, we discuss both the creative and technical approaches to achieving the project's goals of evoking in the player the sense of undertaking a spiritual journey.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[3D environments]]></kw>
+			<kw><![CDATA[emotion in games]]></kw>
+			<kw><![CDATA[game design]]></kw>
+			<kw><![CDATA[game visuals]]></kw>
+			<kw><![CDATA[innovation]]></kw>
+			<kw><![CDATA[iterative process]]></kw>
+			<kw><![CDATA[playtesting]]></kw>
+			<kw><![CDATA[post processing]]></kw>
+			<kw><![CDATA[prototyping]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P676470</person_id>
+				<author_profile_id><![CDATA[81320489774]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Tracy]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Fullerton]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889448</person_id>
+				<author_profile_id><![CDATA[81335490668]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Todd]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Furmanski]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889441</person_id>
+				<author_profile_id><![CDATA[81335498849]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Kurosh]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[ValaNejad]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Bellour, R., Viola, B. "An Interview with Bill Viola" <i>October</i> (Vol. 34), Autumn, 1985.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1183324</ref_obj_id>
+				<ref_obj_pid>1183316</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Fullerton, T., Chen, J., Santiago, K. et al. "That Cloud Game: Dreaming (and Doing) Innovative Game Design" Sandbox Siggraph proceedings, 2006.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>994735</ref_obj_id>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Fullerton, T., Hoffman, S. and Swain, C. <i>Game Design Workshop: Designing, Prototyping and Playtesting Games</i>. CMP Books, San Francisco, CA, 2004.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Gayford, M. "Expanded Memories: Expanded memories: to mark his major exhibition opening in Japan this month, Bill Viola talks about his philosophy of art" <i>Apollo</i>, October, 2006.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>340917</ref_obj_id>
+				<ref_obj_pid>340916</ref_obj_pid>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Hertzmann, A., Perlin, K. "Painterly Rendering for Video and Interaction" Proceedings, First International Symposium on Non-Photorealistic Animation and Rendering, June, 2000.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Judson, W. "Bill Viola: Allegories in Subjective Perception" <i>Art Journal</i> (Vol. 54, No. 4), Winter, 1995.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>340918</ref_obj_id>
+				<ref_obj_pid>340916</ref_obj_pid>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Lake, A., Marshall, C., Harris, M. et al. "Stylized Rendering Techniques for Scalable Real-Time 3D Animation" Proceedings, Non-Photorealistic Animation and Rendering, June, 2000.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Lander, J. "Under the Shade of the Rendering Tree" Game Developer Magazine, February, 2000.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Lander, J. "Shades of Disney" Opaquing a 3D World, March, 2000.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>618268</ref_obj_id>
+				<ref_obj_pid>616036</ref_obj_pid>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Landsdown, J., Schifields S. "Expressive Rendering: A Review of Nonphotorealistic Techniques" IEEE Computer Graphics and Applications, May, 1995.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>258894</ref_obj_id>
+				<ref_obj_pid>258734</ref_obj_pid>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Markosian, L., Kowalski, M., Trychin, S. et al. "Real-Time Nonphotorealistic Rendering" Proceedings, ACM Siggraph, 1997.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>364392</ref_obj_id>
+				<ref_obj_pid>364338</ref_obj_pid>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Mohr, A., Gleicher, M. "Non-Invasive, Interactive, Stylized Rendering" Proceedings, ACM Symposium on Interactive 3D Graphics, 2001.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Teixeira, K., Viola, B. "The Night Journey: Design Overview &amp; Content Assessment, Rev. 4.0 October 9, 2002" Internal document, 2002.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	<article_rec>
+		<article_id>1274955</article_id>
+		<sort_key>65</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Principles of emergent design in online games]]></title>
+		<subtitle><![CDATA[<i>Mermaids</i> phase 1 prototype]]></subtitle>
+		<page_from>65</page_from>
+		<page_to>71</page_to>
+		<doi_number>10.1145/1274940.1274955</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274955</url>
+		<abstract>
+			<par><![CDATA[<p>This paper outlines the first phase prototype of <i>Mermaids</i>, a massively multiplayer online game (MMOG) being developed by Georgia Tech's Emergent Game Group {EGG}. We describe <i>Mermaids</i> in the context of the group's research mission, to develop specific games, techniques and design features that promote large-scale emergent social behavior in multiplayer games. We also discuss some of the innovative design features of the <i>Mermaids</i> game, and describe the rapid prototyping and iterative development process that enabled us to create a working prototype in a relatively short period of time on a zero budget project using a student-based development team. We also discuss the special challenges encountered when trying to develop a nontraditional game, one of whose stated research goals is to interrogate MMOG conventions, using a relatively conventional game engine.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[MMOGs]]></kw>
+			<kw><![CDATA[emergence in games]]></kw>
+			<kw><![CDATA[massively multiplayer online games]]></kw>
+			<kw><![CDATA[networked games]]></kw>
+			<kw><![CDATA[online games]]></kw>
+			<kw><![CDATA[real-time 3D]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP35052587</person_id>
+				<author_profile_id><![CDATA[81332520442]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Celia]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Pearce]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Georgia Institute of Technology]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889432</person_id>
+				<author_profile_id><![CDATA[81335487904]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Calvin]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Ashmore]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Georgia Institute of Technology]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Arkane Studios. 2002. <i>Arx Fatalis</i>. Dreamcatcher Interactive.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Bartle, R. 1996. <i>Hearts, Clubs, Diamonds, Spades: Players Who Suit MUDs</i>. http://www.mud.co.uk/richard/hcds.htm]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Blizzard Entertainment. 2004. <i>World of Warcraft</i>. Blizzard.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Clover Studio. 2006. <i>Okami</i>. Capcom.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>538111</ref_obj_id>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Crawford, C. 1984. The Art of Computer Game Design. Berkeley: McGraw Hill/Osborne Media.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Cyan Worlds. 2003. <i>Uru: Ages Beyond Myst</i>. Ubisoft. Re-released by Gametap in 2007.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Cyan Worlds. 2005. <i>Myst V</i>. Ubisoft.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Disney. 2002. Entertainment Technology Center, Carnegie Mellon University. www.panda3d.org]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Iwerks And Evans &amp; Sutherland. 1994. <i>Virtual Adventures: The Loch Ness Expedition</i>. (Creative Directed by Pearce; Presented in the Electronic Theater, Siggraph 1994)]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Kaneva. 2006. <i>Kaneva</i>. www.kaneva.com]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Linden Lab. 2003. <i>Second Life</i>. Linden Lab. www.secondlife.com]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Multiverse Network, Inc. 2006. <i>Multiverse</i>. www.multiverse.net]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Ncsoft. 2001. <i>Lineage</i>. NCsoft.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Otee. 2005-2007. <i>Unity 3D</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[Pearce, C. 2006. <i>Playing Ethnography: A study of emergent behaviour in online games and virtual worlds</i>. Ph.D. Thesis, Central Saint Martins College of Art and Design, University of the Arts, London.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Sony Online Entertainment. 2003. <i>Star Wars Galaxies</i>. LucasArts.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[There, Inc. <i>There.com</i>. Makena Technologies. www.there.com]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[Verant/989 Studios. 1999. <i>Everquest</i>. Sony Online Entertainment.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	<article_rec>
+		<article_id>1274956</article_id>
+		<sort_key>73</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>3</seq_no>
+		<title><![CDATA[The birth of the virtual clinic]]></title>
+		<subtitle><![CDATA[the <i>Virtual Terrorism Response Academy</i> as serious game and epistemological space]]></subtitle>
+		<page_from>73</page_from>
+		<page_to>80</page_to>
+		<doi_number>10.1145/1274940.1274956</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274956</url>
+		<abstract>
+			<par><![CDATA[<p>The Interactive Media Laboratory at Dartmouth Medical School produces computer games and multimedia programs for public health preparedness. With funding from the U.S. Department of Homeland Security, the IML is now developing the <i>Virtual Terrorism Response Academy</i>, which uses game technology to prepare first responders for rescue efforts in which hazardous materials may be involved. This paper looks at the taxonomy of related game genres, the history of the "Virtual Clinic" concept that shapes the user's spatial experience, and the original rationale for creating what Max Boisot calls "epistemology space." From the perspective of an outside researcher, it also offers an account of the VRTA designers' responses to potential criticism from learning specialists in game studies who object that the game is too didactic and discourages trial-and-error by restraining the learner in the narrative conceit of a "simulation of a simulation." The author argues that despite an understandable emphasis on the rhetorical situation of professional communication and the chain of command, the tendencies of the game's mechanics to emphasize multiple-choice testing rather than exploit potential spatial enhancements could detract from the effectiveness of the game.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[computer game]]></kw>
+			<kw><![CDATA[computer simulation]]></kw>
+			<kw><![CDATA[crisis management]]></kw>
+			<kw><![CDATA[epistemological space]]></kw>
+			<kw><![CDATA[public rhetoric]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node>K.4.1</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003456.10003462</concept_id>
+				<concept_desc>CCS->Social and professional topics->Computing / technology policy</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003456.10003462</concept_id>
+				<concept_desc>CCS->Social and professional topics->Computing / technology policy</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Human Factors</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P826815</person_id>
+				<author_profile_id><![CDATA[81320492670]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Elizabeth]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Losh]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of California, Irvine, CA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>1208280</ref_obj_id>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Barab&#225;si, A. 2003. <i>Linked: How Everything is Connected to Everything Else and What It Means</i>. Penguin.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1214315</ref_obj_id>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Bogost, I. 2007. <i>Persuasive Games: The Expressive Power of Videogames</i>. MIT Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>581106</ref_obj_id>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Boisot, M. 1995. <i>Information Space: A framework for learning in organizations, institutions, and culture</i>. Routledge.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Boosman, F. Serious Games Case Study Blasts. http://www.boosman.com/blog/2006/03/sgs_2006_serious_games_case_st.html.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Bower, J. M. 2006. Constructivism on the World Wide Web: Whyville.net. Serious Games Summit.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Carless, S. 2005. Postcard from SGS: 2005: <i>Hazmat Hotzone</i> - First-Person First Responder Gaming. <i>Gamasutra</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Cicero, M. T. 1970. <i>Cicero on Oratory and Orators</i>. Southern Illinois University Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1202447</ref_obj_id>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Consalvo, M. 2007. <i>Cheating: Gaining Advantage in Videogames</i>. MIT Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Falstein, N. 2006. Audience Comments on <i>The Virtual Terrorism Response Academy</i>. 2&#60;sup&#62;nd&#60;/sup&#62; Annual TATRIC West/Summit Workshop.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Foucault, M. 1973. <i>The Birth of the Clinic: An Archeology of Medical Perception</i>. Vintage.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1202101</ref_obj_id>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Galloway, A. 2006. <i>Gaming: Essays on Algorithmic Culture</i>. University of Minnesota Press]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>983348</ref_obj_id>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Gee, J. P. 2003. <i>What video games have to teach us about learning and literacy</i>. Palgrave MacMillan.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Henderson, J. 1998. Comprehensive Technology-Based Clinical Education: The 'Virtual Practicum.' <i>International Journal of Psychiatry in Medicine</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Henderson, J. 2006. Narratives, Emotions, and Media for Simulated Learning. TATRIC West/Summit Workshop.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[Henderson, J. 2006. Interview.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Incident Commander. 2007. Incident Commander: A Crisis Training Simulation. http://www.incidentcommander.net/index.shtml.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1076823</ref_obj_id>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Juul, J. 2005. <i>Half-Real: Video Games between Real Rules and Fictional Worlds</i>. MIT Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[Steuer, J. 1992. Defining Virtual Reality: Dimensions Determining Telepresence, <i>Journal of Communication</i> 42, 4, 73--93.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[Ward, M. 2005. Deadly Plague Hits Warcraft World. BBC News. http://news.bbc.co.uk/2/hi/technology/4272418.stm.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1096886</ref_obj_id>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[Wiener, N. 1948. <i>Cybernetics or Control and Communication in the Animal and the Machine</i>, MIT Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[Wong, J. and Storkerson, P. 1997. Hypertext and the Art of Memory. <i>Visible Language</i> 31, 2.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>22</ref_seq_no>
+				<ref_text><![CDATA[Yates, A. 1994. <i>The Art of Memory</i>. Trafalger Square.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>1274957</section_id>
+		<sort_key>81</sort_key>
+		<section_seq_no>6</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Graphics]]></section_title>
+		<section_page_from>81</section_page_from>
+	<article_rec>
+		<article_id>1274958</article_id>
+		<sort_key>81</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Rendering 3D volumes using per-pixel displacement mapping]]></title>
+		<page_from>81</page_from>
+		<page_to>87</page_to>
+		<doi_number>10.1145/1274940.1274958</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274958</url>
+		<abstract>
+			<par><![CDATA[<p>Rendering 3D Volumes Using Per-Pixel Displacement Mapping offers a simple and practical solution to the problem of seamlessly integrating many highly detailed 3D objects into a scene without the need to render large sets of polygons or introduce the overhead of an obtrusive scene-graph. This work takes advantage of modern programmable GPU's as well as recent related research in the area of per-pixel displacement mapping to achieve view independent fully 3D rendering with per-pixel level of detail. To achieve this, a box is used to bound texture-defined volumes. The box acts as a surface to which the volume will be drawn on. By computing a viewing ray from the camera to a point on the box and using that point as a ray origin, the correct intersection with the texture volume can be found using various per-pixel displacement mapping techniques. Once the correct intersection is found, the final color value for the corresponding point on the box can be computed. The technique supports various effects taken both from established raycasting and ray-tracing methods such as reflection, refraction, selfshadowing on models, a simple animation scheme and an efficient method for finding distances through volumes.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[image based rendering]]></kw>
+			<kw><![CDATA[impostor rendering]]></kw>
+			<kw><![CDATA[per-pixel displacement mapping]]></kw>
+			<kw><![CDATA[refraction]]></kw>
+			<kw><![CDATA[volumetric rendering]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP18010455</person_id>
+				<author_profile_id><![CDATA[81331502452]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Eric]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Risser]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Central Florida]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>507101</ref_obj_id>
+				<ref_obj_pid>800248</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Blinn, J. F. 1978. Simulation of wrinkled surfaces. In <i>SIGGRAPH '78: Proceedings of the 5th annual conference on Computer graphics and interactive techniques</i>, ACM Press, New York, NY, USA, 286--292.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1015726</ref_obj_id>
+				<ref_obj_pid>1186562</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Chen, Y., Tong, X., Wang, J., Lin, S., Guo, B., and Shum, H. 2004. Shell texture functions. In <i>Transaction of Grpahics - Proceedings of SIGGRAPH 2004 23</i>. 343--352.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>808602</ref_obj_id>
+				<ref_obj_pid>800031</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Cook, R. L. 1984. Shade trees. In <i>SIGGRAPH '84: Proceedings of the 11th annual conference on Computer graphics and interactive techniques</i>, ACM Press, New York, NY, USA, 223--231.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Hart, J. C. 1996. Sphere tracing: A geometric method for the antialiased ray tracing of implicit surfaces. <i>The Visual Computer 12</i>, 10, 527--545.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1006077</ref_obj_id>
+				<ref_obj_pid>1006058</ref_obj_pid>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Hirche, J., Ehlert, A., Guthe, S., and Doggett, M. 2004. Hardware accelerated per-pixel displacement mapping. In <i>GI '04: Proceedings of the 2004 conference on Graphics interface</i>, Canadian Human-Computer Communications Society, School of Computer Science, University of Waterloo, Waterloo, Ontario, Canada, 153--158.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Kaneko, T., Takahei, T., Inami, M., Kawakami, N., Yanagida, Y., and Maeda, T. 2001. Detailed shape representation with parallax mapping. In <i>Proceedings of the ICAT 2001</i>, 205--208.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>780995</ref_obj_id>
+				<ref_obj_pid>780986</ref_obj_pid>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Kautz, J., and Seidel, H.-P. 2001. Hardware accelerated displacement mapping for image based rendering. In <i>GRIN'01: No description on Graphics interface 2001</i>, Canadian Information Processing Society, Toronto, Ont., Canada, Canada, 61--70.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Kolb, A., and Rezk-Salama, C. 2005. Efficient empty space skipping for per-pixel displacement mapping. In <i>Proc. Vision, Modeling and Visualization</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>199420</ref_obj_id>
+				<ref_obj_pid>199404</ref_obj_pid>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Maciel, P. W. C., Shirley, P. 1995. Visual navigation fo large environments using textured clusters. In <i>Proceedings of the 1995 symposium on Interactive 3D graphics</i>. 95--102.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Max, N. 1998. Horizon mapping: shadows for bump-mapped surfaces. In <i>The Visual Computer 4, 2</i>, 109--117.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[McGuire, M. 2005. Steep parallax mapping. In <i>I3D 2005 Poster</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>344947</ref_obj_id>
+				<ref_obj_pid>344779</ref_obj_pid>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Oliveira, M. M., Bishop, G., and McAllister, D. 2000. relief texture mapping. In <i>SIGGRAPH '00: Proceedings of the 27th annual conference on Computer graphics and interactive techniques</i>, ACM Press/Addison-Wesley Publishing Co., New York, NY, USA, 359--368.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Patterson, J. W., Hoggar, S. G., and Logie, J. R. 1991. Inverse displacement mapping. <i>Comput. Graph. Forum 10, 2</i>, 129--139.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1053453</ref_obj_id>
+				<ref_obj_pid>1053427</ref_obj_pid>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Policarpo, F., Oliveira, M. M., and Comba, J. L. D. 2005. Real-time relief mapping on arbitrary polygonal surfaces. In <i>SI3D '05: Proceedings of the 2005 symposium on Interactive 3D graphics and games</i>, ACM Press, New York, NY, USA, 155--162.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1111422</ref_obj_id>
+				<ref_obj_pid>1111411</ref_obj_pid>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[Policarpo, F., Oliveira, M. M. 2006. Relief Mapping of Non-Height-Field Surface Details. In <i>SI3D '06:ACM SIGGRAPH 2006 Symposium on Interactive 3D Graphics and Games</i>, Redwood City, CA, USA, 55--62.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Press, W., Flannery, B., Teukolsky, S., and Vetterling, W. 2002. Root finding and non-linear sets of equations. In <i>Numerical Recipes in C</i>, 354--360.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2383832</ref_obj_id>
+				<ref_obj_pid>2383815</ref_obj_pid>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Schaufler, G., and Priglinger, M. 1999. Horizon mapping: shadows for bump-mapped surfaces. In <i>Efficient displacement mapping by image warping</i>, 175--186.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[Risser, E. 2007. True Impostors. In <i>GPU Gems 3</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>732129</ref_obj_id>
+				<ref_obj_pid>647652</ref_obj_pid>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[Sloan, P., and Cohen, M., 2000. Interactive horizon mapping.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1111423</ref_obj_id>
+				<ref_obj_pid>1111411</ref_obj_pid>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[Tatarchuk. 2006. Dynamic parallax occlusion mapping with approximate soft shadows. In <i>SI3D '06: Proceedings of the 2006 symposium on Interactive 3D graphics and games</i>, Redwood City, California, 63--69.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[Walsh. 2003. Parallax mapping with offset limiting. In <i>Infiniscape Tech Report</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>882272</ref_obj_id>
+				<ref_obj_pid>882262</ref_obj_pid>
+				<ref_seq_no>22</ref_seq_no>
+				<ref_text><![CDATA[Wang, L., Wang, X., Tong, X., Lin, S., Hu, S., Guo, B., and Shum, H.-Y. 2003. View-dependent displacement mapping. <i>ACM Trans. Graph. 22</i>, 3, 334--339.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2383565</ref_obj_id>
+				<ref_obj_pid>2383533</ref_obj_pid>
+				<ref_seq_no>23</ref_seq_no>
+				<ref_text><![CDATA[Wang, X., Tong, X., Lin, S., Hu, S., Guo, B., and Shum, H.-Y. 2003. Generalized displacement maps. In <i>Eurographics Symposium on Rendering</i>, 227--233.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	<article_rec>
+		<article_id>1274959</article_id>
+		<sort_key>89</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Interactive shader development]]></title>
+		<page_from>89</page_from>
+		<page_to>95</page_to>
+		<doi_number>10.1145/1274940.1274959</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274959</url>
+		<abstract>
+			<par><![CDATA[<p>Since the introduction of programmable graphics hardware, the creation of shader programs has played an increasingly important role in real-time graphics. Programming shaders is no trivial task, and this has led to the introduction of graphical shader editor tools. Using these tools, shaders are authored by connecting nodes and building a shade tree.</p> <p>In this paper we present an improved approach to real-time graphical shader authoring that removes several programming difficulties. Our approach automatically handles type- and geometrical space transformations by using intelligent variables as connection slots in the nodes. Our work also offers workflow enhancements for a more interactive creation process. When shaders are to be used in interactive applications such as games, they need to be optimized. Therefore we present a scheme for automatic optimization in two steps; first optimal code placement and second optimization of inserted transformations. Performance will be compared to hand-optimized programs.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[graphical editing]]></kw>
+			<kw><![CDATA[optimization of shaders]]></kw>
+			<kw><![CDATA[real-time shaders]]></kw>
+			<kw><![CDATA[shader trees]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P889445</person_id>
+				<author_profile_id><![CDATA[81335492389]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Peter]]></first_name>
+				<middle_name><![CDATA[Dahl Ejby]]></middle_name>
+				<last_name><![CDATA[Jensen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Technical University of Denmark]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889444</person_id>
+				<author_profile_id><![CDATA[81100150029]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Nicholas]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Francis]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[OTEE]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P864624</person_id>
+				<author_profile_id><![CDATA[81100221826]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Bent]]></first_name>
+				<middle_name><![CDATA[Dalgaard]]></middle_name>
+				<last_name><![CDATA[Larsen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Technical University of Denmark]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP14106349</person_id>
+				<author_profile_id><![CDATA[81100285054]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Niels]]></first_name>
+				<middle_name><![CDATA[J&#248;rgen]]></middle_name>
+				<last_name><![CDATA[Christensen]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Technical University of Denmark]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>97910</ref_obj_id>
+				<ref_obj_pid>97879</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Abram, G. D., and Whitted, T. 1990. Building Block Shaders. In <i>SIGGRAPH 92</i>, ACM.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Autodesk, 2006. Autodesk maya. Online resource at: http://usa.autodesk.com/adsk/servlet/index?id = 6871843&siteID = 123112, October.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Blender, 2006. Blender. Online resource at: http://www.blender.org/cms/Home.2.0.html, October.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>569056</ref_obj_id>
+				<ref_obj_pid>569046</ref_obj_pid>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Chan, E., Ng, R., Sen, P., Proudfoot, K., and Hanrahan, P. 2002. Efficient Partitioning of Fragment Shaders for Multipass Rendering on Programmable Graphics Hardware. In <i>Graphics Hardware</i>, The Eurographics Association.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>314700</ref_obj_id>
+				<ref_obj_pid>314613</ref_obj_pid>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Charikar, M., Chekuri, C., Yat Cheung, T., Dai, Z., Goel, A., Guha, S., and Li, M. 1998. Approximation Algorithms for Directed Steiner Problems. In <i>SODA '98: Proceedings of the ninth annual ACM-SIAM symposium on Discrete algorithms</i>, Society for Industrial and Applied Mathematics, Philadelphia, PA, USA, 192--200.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>808602</ref_obj_id>
+				<ref_obj_pid>800031</ref_obj_pid>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Cook, R. L. 1984. Shade Trees. In <i>SIGGRAPH 84</i>, ACM.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Epic, 2005. Unreal Engine 3 Shader Graph. Online resource at: http://www.unrealtechnology.com/screens/MaterialEditor.jpg, November.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>985054</ref_obj_id>
+				<ref_obj_pid>985040</ref_obj_pid>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Goetz, F., Borau, R., and Domik, G. 2004. An XML-Based Visual Shading Language for Vertex and Fragment Shaders. In <i>Proceedings of the ninth international conference on 3D Web technology</i>, ACM.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Hwang, F., Richards, D., and Winter, P. 1992. The Steiner Tree Problem. In <i>Annals of Discrete Mathematics, 53</i>, Reed Elsevier.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1111425</ref_obj_id>
+				<ref_obj_pid>1111411</ref_obj_pid>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[McGuire, M., Stahis, G., Pfister, H., and Krishnamurhi, S. 2006. Abstract Shade Trees. In <i>Proceedings of the Symposium on Interactive 3D Graphics and Games</i>, ACM.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Otee, 2006. Unity Webpage. Online resource at: http://www.unity3d.com, October.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>344976</ref_obj_id>
+				<ref_obj_pid>344779</ref_obj_pid>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Peercy, M. S., Olano, M., Airey, J., and Ungar, P. J. 2000. Interactive Multi-Pass Programmable Shading. In <i>SIGGRAPH '00: Proceedings of the 27th annual conference on Computer graphics and interactive techniques</i>, ACM Press/Addison-Wesley Publishing Co., New York, NY, USA, 425--432.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>383275</ref_obj_id>
+				<ref_obj_pid>383259</ref_obj_pid>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Proudfoot, K., Mark, W. R., Tzvetkov, S., and Hanrahan, P. 2001. A Real-Time Procedural Shading System for Programmable Graphics Hardware. In <i>SIGGRAPH 2001</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Softimage, 2006. Softimage xsi. Online resource at: http://www.softimage.com/, October.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>534134</ref_obj_id>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[Upstill, S., 1989. The Renderman Companion: A Programmer's Guide to Realistic Computer Graphics. Addison-Wesley, November.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>545388</ref_obj_id>
+				<ref_obj_pid>545381</ref_obj_pid>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Zosin, L., and Khuller, S. 2002. On Directed Steiner Trees. In <i>SODA '02: Proceedings of the thirteenth annual ACM-SIAM symposium on Discrete algorithms</i>, Society for Industrial and Applied Mathematics, Philadelphia, PA, USA, 59--63.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>1274960</section_id>
+		<sort_key>97</sort_key>
+		<section_seq_no>7</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Game design II]]></section_title>
+		<section_page_from>97</section_page_from>
+	<article_rec>
+		<article_id>1274961</article_id>
+		<sort_key>97</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Managing the tradeoffs in the digital transformation of an educational board game to a computer-based simulation]]></title>
+		<page_from>97</page_from>
+		<page_to>102</page_to>
+		<doi_number>10.1145/1274940.1274961</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274961</url>
+		<abstract>
+			<par><![CDATA[<p>There is a need for new pedagogical strategies to educate the current generation of engineering students who are still typically taught using standard lecture practices. The desire to address complex technological and social issues in an engaged manner inspired the development of a prototype board game created to raise the awareness of environmental issues in engineering. As part of a graduate thesis, the board game Shortfall was designed for in-class play by undergraduate and graduate engineering students and business students. The game structure was based on team competition of "companies" in the automobile supply chain, with the game objective set to achieve the highest profit. In 2005, it was evident that developments in digital technology allowed new opportunities to engage students in collaborative and active learning. A team of engineers, educators and designers further developed the board game with more in-depth scenarios and graphic organization. The game was then play tested and assessed learning and game play as an initial step in the process of developing a multi-player computer-based version of Shortfall.</p> <p>Student feedback from play testing, focus groups and surveys provided insights for redesigning the game for the computer platform. Two senior undergraduate engineering students in an independent study took these results and have created a prototype computer-based simulation designed as an experimental educational technology for an engineering course on environmentally benign manufacturing. This prototype was created to be the first computer-based step towards a fully networked multiplayer implementation. The transformation from board game to computer-based simulation presented many new challenges and tradeoffs, which are detailed in this paper. The goal was to maintain the core mechanics of the board game so that intellectual merit was not lost in translation while forging the first computer-based implementation.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[educational technology]]></kw>
+			<kw><![CDATA[environmentally benign manufacturing]]></kw>
+			<kw><![CDATA[serious games]]></kw>
+			<kw><![CDATA[supply chain simulation]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node>K.3.1</cat_node>
+				<descriptor>Collaborative learning</descriptor>
+				<type>S</type>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010489.10010492</concept_id>
+				<concept_desc>CCS->Applied computing->Education->Collaborative learning</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010489.10010492</concept_id>
+				<concept_desc>CCS->Applied computing->Education->Collaborative learning</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P889447</person_id>
+				<author_profile_id><![CDATA[81335497877]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Seth]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sivak]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Northeastern University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889443</person_id>
+				<author_profile_id><![CDATA[81435601300]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Mark]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Sivak]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Northeastern University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889434</person_id>
+				<author_profile_id><![CDATA[81335492162]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Jacqueline]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Isaacs]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Northeastern University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889435</person_id>
+				<author_profile_id><![CDATA[81315490260]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Jay]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Laird]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Northeastern University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889431</person_id>
+				<author_profile_id><![CDATA[81335494526]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[Ann]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McDonald]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Northeastern University]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Brown, J. S., <i>Growing Up Digital: How the Web Changes Work, Education, and the Way People Learn</i>, Change, 2000.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Corriere, J., <i>Shortfall: An Educational Game on Environmental Issues in Supply Chain Management</i>, in <i>Industrial Engineering</i>. 2002, M.S. Thesis, Northeastern University: Boston, MA.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Howe, N. and W. Strauss, <i>Millennials Rising: The Next Great Generation</i>. 2000, New York: Vintage.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Isaacs, J. A., Cullinane, T. P., Qualters, D. M. McDonald, A., and Laird, J., <i>Games as Learning Tools to Promote Environmentally Benign Systems</i>, LCE2006, 13th CIRP International Conference on Life Cycle Engineering, May 31 -- June 2, 2006, Leuven, Belgium.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>507765</ref_obj_id>
+				<ref_obj_pid>507763</ref_obj_pid>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Lane, J. L., Slavin, S., Ziv, A. <i>Simulation in Medical Education: A Review</i>. Simulation &amp; Gaming, 2001; 32; 297]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Qualters, D. M., Isaacs, J. A., Cullinane, T. P. Cullinane, McDonald, A., and Laird, J., <i>Assessment of Shortfall: A Board Game on Environmental Decisionmaking</i>, Proceedings of ASEE 2006 Annual Conference and Exposition, June 18 -- 21, 2006, Chicago IL, American Society for Engineering Education (ASEE), Washington, DC, CD-ROM.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Torabkhani, A., Isaacs, J. A., Benneyan, J. C., <i>Embedded Simulation Models in Educational Games on Environmental Issues for Engineering Students</i>, 2007, Proceedings of the 2007 IEEE International Symposium on Electronics and the Environment, 7--10 May 2007, Orlando, FL.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	<article_rec>
+		<article_id>1274962</article_id>
+		<sort_key>103</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Mapping the mental space of game genres]]></title>
+		<page_from>103</page_from>
+		<page_to>108</page_to>
+		<doi_number>10.1145/1274940.1274962</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274962</url>
+		<abstract>
+			<par><![CDATA[<p>The gaming community currently uses an informal classification of games into genres such as first-person shooters, real-time strategy games, etc. While this classification is generally accepted, producing a more formal taxonomy of game types directly from data has several scholarly and commercial advantages. These include providing a basis for analysis of age- and gender-related data, statistically meaningful grouping in critical literature, improved game recommendations on retail websites, and better evaluation of a game's market potential <i>before</i> production.</p> <p>Mapping the mental space of game genres is challenging, both because it involves subjective evaluations and because there are many axes on which games can vary. We collected pairwise similarity metrics of games from game players through an online survey to build a large similarity matrix that is the projection of a highdimensional space representing the unknown and hypothetical true mental space of game genres. We then applied previous techniques in manifold learning and psychology to the problem of reconstructing the most significant dimensions into maps that can be meaningfully interpreted. We believe this is the first application of these techniques to games and one of the first to work with conceptual (instead of physical) data.</p> <p>The resulting maps arrange related games into spontaneously arising clusters that sometimes contradict current marketing genres. We analyze several of these clusters and propose both interpretations for these "true genres" as well as axes that game players appear to use in discriminating between them. Our initial results indicate that game players tend to primarily distinguish games not by traditional genres but instead by aesthetic and mechanics, which is closely related to how developers construct games.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[games]]></kw>
+			<kw><![CDATA[genre]]></kw>
+			<kw><![CDATA[manifold learning]]></kw>
+			<kw><![CDATA[mental map]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP77045661</person_id>
+				<author_profile_id><![CDATA[81414601343]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[J.]]></first_name>
+				<middle_name><![CDATA[P.]]></middle_name>
+				<last_name><![CDATA[Lewis]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Stanford Computer Graphics Lab]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35050658</person_id>
+				<author_profile_id><![CDATA[81327490282]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Morgan]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[McGuire]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Williams College]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35049383</person_id>
+				<author_profile_id><![CDATA[81310499856]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Pamela]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Fox]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[University of Southern California]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Alcalde, V., Ulod, C., Bonet, A., Llopis, A., Marcos, J., Ysern, D., and Arkwright, D., 2006. Method and system for music recommendation, July. US Patent 7081579.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Broadcast Data Systems, 2007. Hitpredictor. www.hitpredictor.com, viewed May 7, 2007.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1178736</ref_obj_id>
+				<ref_obj_pid>1178723</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Chon, S. H., Slaney, M., and Berger, J. 2006. Predicting success from music sales data: a statistical and adaptive approach. In <i>AMCMM '06: Proceedings of the 1st ACM workshop on Audio and music computing multimedia</i>, ACM Press, New York, NY, USA, 83--88.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Cukier, J. 2006. For a new classification of game genres. Gamethink column, Oct 12, gamethink.net/For-a-new-classification-of-game.html.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[ESA. 2005. Entertainment Software Association / NPD Group 2005 Sales and Genre Data. http://www.theesa.com/facts/sales_genre_data.php, viewed March 20, 2007.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>517493</ref_obj_id>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Farrell, W. 2000. <i>How Hits Happen: Forecasting Predictability in a Chaotic Marketplace</i>. Harper Business.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>994735</ref_obj_id>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Fullerton, T., Swain, C., and Hoffman, S. 2004. <i>Game Design Workshop: Designing, Prototyping, and Playtesting Games</i>. CMP Books, February.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1076823</ref_obj_id>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Juul, J. 2005. <i>Half-Real: Video Games between Real Rules and Fictional Worlds</i>. The MIT Press.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>238589</ref_obj_id>
+				<ref_obj_pid>238386</ref_obj_pid>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Lokuge, I., Gilbert, S. A., and Richards, W. 1996. Structuring information with mental models: a tour of boston. In <i>CHI '96: Proceedings of SIGCHI</i>, ACM Press, New York, NY, USA, 413--419.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Plutchik, R., and Conte, H., Eds. 1996. <i>Circumplex Models of Personality and Emotions</i>. American Psychological Association.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Richardson, A., Montello, D., and Hegarty, M. 1999. Spatial knowledge acquisition from maps and from navigation in real and virtual environments. <i>Memory and Cognition 27</i>, 4, 741--750.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>555187</ref_obj_id>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Rollings, A., and Morris, D. 1999. <i>Game Architecture and Design with Cdrom</i>. Coriolis Group Books, Scottsdale, AZ, USA.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Russell, J. A. 1980. A circumplex model of affect. <i>J. Personality and Social Psychology 39</i>, 1161--1178.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Satalich, G. 1995. <i>Navigation and Wayfinding In Virtual Reality</i>. Master's thesis, University of Washington HIT Lab.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[Sudderth, E. 2002. Nonlinear manifold learning part II. web.mit.edu/6.454/www/www_fall_2003/esuddert/manifold2_summary.pdf.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Tenenbaum, J. B., De Silva, V., and Langford, J. C. 2000. A global geometric framework for nonlinear dimensionality reduction. <i>Science 290</i>, 2319--2323.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1057439</ref_obj_id>
+				<ref_obj_pid>1057432</ref_obj_pid>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Zhou, K., Synder, J., Guo, B., and Shum, H.-Y. 2004. Iso-charts: stretch-driven mesh parameterization using spectral analysis. In <i>SGP '04: Proc. of the 2004 Eurographics/ACM SIGGRAPH symp. on Geometry processing</i>, 45--54.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>1274963</section_id>
+		<sort_key>109</sort_key>
+		<section_seq_no>8</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Keynote address]]></section_title>
+		<section_page_from>109</section_page_from>
+	<article_rec>
+		<article_id>1274964</article_id>
+		<sort_key>109</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Kissing]]></title>
+		<page_from>109</page_from>
+		<page_to>132</page_to>
+		<doi_number>10.1145/1274940.1274964</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274964</url>
+		<abstract>
+			<par><![CDATA[<p>I intend to present an overview of my work of the past 8 years, and then concentrate on my recent efforts to be God and create the world in seven days.</p> <p>Technologically, my focus currently consists of the synthesis of procedural and traditional key-frame skeletal animations, the integration of a A* path finding algorithms, and the integration of small neural networks to drive trainable behavior in avatars. Through the meshing these techniques, I am beginning to develop trainable characters that can learn from their environment and physically interact with each other in meaningful ways. I present the avatars in a-typical "game-like" circumstances, often involving a direct relationship with a real-world analogue, typically an installation in an art gallery or museum. I play with systems of meaning in games, and the real world, as a way to understand how we might reconcile a life increasingly lived in a realm of "virtuality."</p> <p>The most technologically stable of these approaches have been implemented within the existing on-line world, "The Lounge" - currently boasting 100,000 downloads and 300 concurrent players. My contributions are a tiny fraction of the total effort by Doppelganger, the company responsible for "The Lounge," but indicate that these techniques can indeed find their way into independently produced games that have commercial viability, as well as soon-to-be-blockbusters such as "Spore."</p>]]></par>
+		</abstract>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>P889437</person_id>
+				<author_profile_id><![CDATA[81335493173]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[John]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Klima]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>1274965</section_id>
+		<sort_key>133</sort_key>
+		<section_seq_no>9</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Stretching the interface]]></section_title>
+		<section_page_from>133</section_page_from>
+	<article_rec>
+		<article_id>1274966</article_id>
+		<sort_key>133</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[WiiMedia]]></title>
+		<subtitle><![CDATA[motion analysis methods and applications using a consumer video game controller]]></subtitle>
+		<page_from>133</page_from>
+		<page_to>140</page_to>
+		<doi_number>10.1145/1274940.1274966</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274966</url>
+		<abstract>
+			<par><![CDATA[<p>"WiiMedia" is a study using the WiiRemote, a new consumer video game controller from Nintendo's, for media art, pedagogical applications, scientific research and innovative unprecedented entertainment systems. Normally, consumer hardwares, like standard controllers of new video game platforms, are closed to public developers. The Nintendo's WiiRemote however can be connected easily to an ordinary PC thanks to a BlueTooth adapter. Thus, public developers can access to the WiiRemote's acceleration and IR sensors via this wireless connection. We think it might enlarge the non-professional game development environment with a new innovative game controller. However, when we tried to develop our projects with the WiiRemote, we encountered many difficulties because the only data that can be captured are basic data and not the full player's motion. Through the WiiMedia project, with the development of a few applications, we developed some motion analysis methods using the WiiRemote. This paper describes case studies that include states of the arts and several motion analysis methods.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[WiiRemote]]></kw>
+			<kw><![CDATA[entertainment]]></kw>
+			<kw><![CDATA[media study]]></kw>
+			<kw><![CDATA[video game]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node>H.5.2</cat_node>
+				<descriptor>Input devices and strategies (e.g., mouse, touchscreen)</descriptor>
+				<type>S</type>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10003120.10003121.10003125</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction devices</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003125.10011666</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction devices->Touch screens</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003125</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction devices</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10003120.10003121.10003125.10011666</concept_id>
+				<concept_desc>CCS->Human-centered computing->Human computer interaction (HCI)->Interaction devices->Touch screens</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P823199</person_id>
+				<author_profile_id><![CDATA[81319501381]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Akihiko]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Shirai]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ENSAM Presence & Innovation / JSPS]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889433</person_id>
+				<author_profile_id><![CDATA[81335490613]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Erik]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Geslin]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ESCIN Laval]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35052867</person_id>
+				<author_profile_id><![CDATA[81320493863]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Simon]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Richir]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[ENSAM Presence & Innovation]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>42230</ref_obj_id>
+				<ref_obj_pid>42188</ref_obj_pid>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Bleser, T. W., Sibert, J. L., and McGee, J. P. 1988. Charcoal sketching: returning control to the artist. <i>ACM Trans. Graph. 7</i>, 1, 76--81.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Bluesoleil. http://www.bluesoleil.com/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>509739</ref_obj_id>
+				<ref_obj_pid>509709</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Bouguila, L., Sato, M., Hasegawa, S., Naoki, H., Matsumoto, N., and Toyama, A. 2002. A new step-in-place locomotion interface for virtual environment with large display system. In <i>ACM SIGGRAPH 2002 Emerging Technologies</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Caillois, R. 1958. <i>Les jeux et les hommes</i>. Gallimard, ISBN2-07-035125-4.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>732296</ref_obj_id>
+				<ref_obj_pid>647653</ref_obj_pid>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Durand, F., Ostromoukhov, V., Miller, M., Duranleau, F., and Dorsey, J. 2001. Decoupling strokes and high-level attributes for interactive traditional drawing. In <i>Proceedings of the 12th Eurographics Workshop on Rendering Techniques</i>, Springer-Verlag, London, UK, 71--82.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[E. Kako. http://www.kako.com/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[GlovePIE. http://carl.kenner.googlepages.com/glovepie.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Huizinga, J. 1939. <i>Homo ludens. Vom Ursprung der Kultur im Spiel</i>. Rowohlt Verlag, 1994, ISBN 3-499-55435-6.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Huizinga, J. 1955. Homo ludens: A study of the play-element in culture. <i>Boston</i>, Beacon Press, ISB.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>566648</ref_obj_id>
+				<ref_obj_pid>566570</ref_obj_pid>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Kalnins, R. D., Markosian, L., Meier, B. J., Kowalski, M. A., Lee, J. C., Davidson, P. L., Webb, M., Hughes, J. F., and Finkelstein, A. 2002. Wysiwyg npr: drawing strokes directly on 3d models. In <i>SIGGRAPH '02: Proceedings of the 29th annual conference on Computer graphics and interactive techniques</i>, ACM Press, New York, NY, USA, 755--762.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1165203</ref_obj_id>
+				<ref_obj_pid>1165198</ref_obj_pid>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Kyoko Murakami, Reiji Tsuruno, E. G. 2006. Natural-looking strokes for drawing applications. <i>The Visual Computer Volume 22, Number 6</i>, pp.415--423.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1165203</ref_obj_id>
+				<ref_obj_pid>1165198</ref_obj_pid>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Murakami, K., Tsuruno, R., and Genda, E. 2006. Natural-looking strokes for drawing applications. <i>Vis. Comput. 22</i>, 6, 415--423.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Rudolf, D., Mould, D., and Neufeld, E. 2005. A bidirectional deposition model of wax crayons. <i>Computer Graphics Forum 24</i>, 1, 27--39.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1215723</ref_obj_id>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Salen, K., and Zimmerman, E. 2003. <i>Rules of Play: Game Design Fundamentals</i>. ISBN: 0262240459.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>284801</ref_obj_id>
+				<ref_obj_pid>280953</ref_obj_pid>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[Shirai, A., Sato, M., Kume, Y., and Kusahara, M. 1998. Foot interface: Fantastic phantom slipper. In <i>ACM SIGGRAPH {unknown 2019}98 Enhanced Realities, Orlando, Florida USA</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Shirai, A., Hasegawa, S., Sato, M., and Koike, Y. 2002. {unknown 201c}penguin hockey{unknown 201d}:a virtual reality game system for children. <i>International Workshop on Entertainment Computing(IWEC2002) Workshop Note, Makuhari, Japan</i>, pp.439--446.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>2131192</ref_obj_id>
+				<ref_obj_pid>2131186</ref_obj_pid>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Shirai, A., Kobayashi, K., Kawakita, M., Hasegawa, S., Masayuki, M. N., and SATO. 2004. <i>Entertainment Applications of Human-scale Virtual Reality Systems</i>. The fifth Pacific-Rim Conference on Multimedia (PCM2004) Special Session:Human-scale VR and Interaction, Tokyo, Japan, pp31--38,.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1178587</ref_obj_id>
+				<ref_obj_pid>1178477</ref_obj_pid>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[Shirai, A., Dominjon, L., Takahashi, M., Miyata, K., Sato, M., and Richir, S. 2005. Robogamer: Development of robotic tv game player using haptic interface and gpu image recognition. <i>Proceedings of SIGCHI International Conference on Advances in Computer Entertainment Technology (ACE2005), ACM digital library</i>, pp.471--472.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1179706</ref_obj_id>
+				<ref_obj_pid>1179622</ref_obj_pid>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[Shirai, A., Nakatani, T., Geslin, E., Kimura, H., Takahashi, M., Miyata, K., and Richir, S. 2006. Physical evaluation of new computer entertainment interfaces under natural play conditions. <i>Sandbox: an ACM SIGGRAPH Video Game Symposium</i>, poster.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[SHIRAI, A. 2004. Entertainment systems. Transaction of art and science, <i>Volume 3, No1</i>, pp.22--34.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[Sousa, M. C., and Buchanan, J. W. 2000. Observational models of graphite pencil materials. <i>Computer Graphics Forum 19</i>, 1, 27--49.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>826498</ref_obj_id>
+				<ref_obj_pid>826028</ref_obj_pid>
+				<ref_seq_no>22</ref_seq_no>
+				<ref_text><![CDATA[Takagi, S., Nakajima, M., and Fujishiro, I. 1999. Volumetric modeling of colored pencil drawing. In <i>PG '99: Proceedings of the 7th Pacific Conference on Computer Graphics and Applications</i>, IEEE Computer Society, Washington, DC, USA, 250.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>23</ref_seq_no>
+				<ref_text><![CDATA[Takahiro NAKATANI, R. Acespeeder2, http://www.raingraph.com/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>24</ref_seq_no>
+				<ref_text><![CDATA[WiiLi.ORG. http://www.wiili.org/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>25</ref_seq_no>
+				<ref_text><![CDATA[WiinRemote. http://onakasuita.org/wii/.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	<article_rec>
+		<article_id>1274967</article_id>
+		<sort_key>141</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Optimal information placement in an interactive 3D environment]]></title>
+		<page_from>141</page_from>
+		<page_to>147</page_to>
+		<doi_number>10.1145/1274940.1274967</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274967</url>
+		<abstract>
+			<par><![CDATA[<p>The correct placement of important artifacts and information in interactive three-dimensional (3D) environments is important to ensure that those key artifacts and information are seen and absorbed by the immersed user. This can include training information, advertisements, clues, interaction points, and other information that needs to be conveyed to or manipulated by the user. We propose a novel algorithm for calculating the optimal positioning of such artifacts and information based on a corpus of prior play testers, which are used to determine distance-weighted and radially focused observation densities on surfaces of interactive 3D environments. We have developed a tool called HIIVVE (Highly Interactive Information Value Visualization and Evaluation) which allows for interactive evaluation as well as offline processing of the information value surfaces. A user study involving information placement using the calculated information value surfaces and observation densities shows that higher valued locations do yield improved user observation by as much as 58.3%.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[data visualization]]></kw>
+			<kw><![CDATA[game environments]]></kw>
+			<kw><![CDATA[information value]]></kw>
+			<kw><![CDATA[interactive data mining]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node>I.6.3</cat_node>
+				<descriptor/>
+				<type/>
+			</primary_category>
+			<other_category>
+				<cat_node>I.6.6</cat_node>
+				<descriptor></descriptor>
+				<type></type>
+			</other_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010147.10010341.10010370</concept_id>
+				<concept_desc>CCS->Computing methodologies->Modeling and simulation->Simulation evaluation</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010147.10010341</concept_id>
+				<concept_desc>CCS->Computing methodologies->Modeling and simulation</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<authors>
+			<au>
+				<person_id>P889446</person_id>
+				<author_profile_id><![CDATA[81335489765]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Priyesh]]></first_name>
+				<middle_name><![CDATA[N.]]></middle_name>
+				<last_name><![CDATA[Dixit]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of North Carolina at Charlotte, Charlotte, NC]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP132032208</person_id>
+				<author_profile_id><![CDATA[81335499808]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[G.]]></first_name>
+				<middle_name><![CDATA[Michael]]></middle_name>
+				<last_name><![CDATA[Youngblood]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[The University of North Carolina at Charlotte, Charlotte, NC]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Chaney, I. M., Lin, K.-H., and Chaney, J. 2004. The Effect of Billboards within the Gaming Environment. <i>Journal of Interactive Advertising 5</i>, 1.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1176160</ref_obj_id>
+				<ref_obj_pid>1175891</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Chittaro, L., Ranon, R., and Ieronutti, L. 2006. VU-Flow: A Visualization Tool for Analyzing Navigation in Virtual Environments. <i>IEEE Transactions on Visualization and Computer Graphics 12</i>, 6 (Nov/Dec), 1475--1485.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1313209</ref_obj_id>
+				<ref_obj_pid>1313048</ref_obj_pid>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Cook, D. J., Holder, L. B., and Youngblood, G. M. 2007. Analysis of Human Transfer Learning Using a Real-Time Game Testbed. <i>IEEE Transactions on Knowledge and Data Engineering</i>. Under review.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1047703</ref_obj_id>
+				<ref_obj_pid>1047671</ref_obj_pid>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Coutaz, J., Crowley, J., Dobson, S., and Garlan, D. 2005. Context is Key. <i>Communications of the ACM 48</i>, 3 (March), 49--53.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Green, C. S., and Bavelier, D. 2003. Action Video Game Modifies Visual Selective Attention. <i>Nature 423</i> (May), 534--537.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Hong, Q., 2005. Question of the Week Responses: In-Game Advertising?, November. http://www.gamasutra.com/features/20051130/hong_01.shtml.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1238788</ref_obj_id>
+				<ref_obj_pid>1238784</ref_obj_pid>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Ruddle, R. A., and Lessels, S. 2006. Three Levels of Metric for Evaluating Wayfinding. <i>Presence: Teleoperators and Virtual Environments</i>, 15, 637--654.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[Suma, E., Babu, S., and Hodges, L. 2007. Comparison of Travel Techniques in a Complex, Multi-level 3D Environment. <i>IEEE Symposium on 3D User Interfaces</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[Youngblood, G. M., and Holder, L. B. 2004. Agent-based Players for a First-person Entertainment-based Real-time Artificial Environment. In <i>the 17th International Conferenece of the Florida Artificial Intelligence Research Society (FLAIRS) held in Miami Beach, Florida</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[Youngblood, G. M., Nolen, B., Ross, M., and Holder, L. 2006. Building Test Beds for AI with the Q3 Mod Base. In <i>Artificial Intelligence in Interactive Digital Entertainment (AIIDE)</i>.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Youngblood, G. 2002. <i>Agent-based Simulated Cognitive Intelligence in a Real-time First-person Entertainment-based Artificial Environment</i>. Master's thesis, The University of Texas at Arlington.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	</section>
+	<section>
+		<section_id>1274968</section_id>
+		<sort_key>149</sort_key>
+		<section_seq_no>10</section_seq_no>
+		<section_type>SESSION</section_type>
+		<section_title><![CDATA[Prototyping]]></section_title>
+		<section_page_from>149</section_page_from>
+	<article_rec>
+		<article_id>1274969</article_id>
+		<sort_key>149</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>1</seq_no>
+		<title><![CDATA[Using prototypes in early pervasive game development]]></title>
+		<page_from>149</page_from>
+		<page_to>156</page_to>
+		<doi_number>10.1145/1274940.1274969</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274969</url>
+		<abstract>
+			<par><![CDATA[<p>In this paper, we discuss using various prototyping methods in early game development. We have playtested pervasive game prototypes using agile software prototype development methods and guided paper prototyping methods. We give examples of four pervasive games where both paper-prototyping and software-prototyping methods are used. We also compare results that have been achieved by testing games with the potential end users of the game and with colleagues or other experts. The benefits and disadvantages of the methods are discussed and their use in the game development process is described, i.e. when the methods should be used and what should be considered when using them.</p>]]></par>
+		</abstract>
+		<keywords>
+			<kw><![CDATA[agile software development]]></kw>
+			<kw><![CDATA[game design]]></kw>
+			<kw><![CDATA[mobile]]></kw>
+			<kw><![CDATA[paper prototyping]]></kw>
+			<kw><![CDATA[process]]></kw>
+		</keywords>
+		<categories>
+			<primary_category>
+				<cat_node>K.8.0</cat_node>
+				<descriptor>Games</descriptor>
+				<type>S</type>
+			</primary_category>
+		</categories>
+		<ccs2012>
+			<concept>
+				<concept_id>0.10010405.10010476.10011187.10011190</concept_id>
+				<concept_desc>CCS->Applied computing->Computers in other domains->Personal computers and PC applications->Computer games</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10011007.10010940.10010941.10010969.10010970</concept_id>
+				<concept_desc>CCS->Software and its engineering->Software organization and properties->Contextual software domains->Virtual worlds software->Interactive games</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002951.10003227.10003251.10003258</concept_id>
+				<concept_desc>CCS->Information systems->Information systems applications->Multimedia information systems->Massively multiplayer online games</concept_desc>
+				<concept_significance>100</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10010405.10010476.10011187.10011190</concept_id>
+				<concept_desc>CCS->Applied computing->Computers in other domains->Personal computers and PC applications->Computer games</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10011007.10010940.10010941.10010969.10010970</concept_id>
+				<concept_desc>CCS->Software and its engineering->Software organization and properties->Contextual software domains->Virtual worlds software->Interactive games</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+			<concept>
+				<concept_id>0.10002951.10003227.10003251.10003258</concept_id>
+				<concept_desc>CCS->Information systems->Information systems applications->Multimedia information systems->Massively multiplayer online games</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</ccs2012>
+		<general_terms>
+			<gt>Design</gt>
+			<gt>Experimentation</gt>
+			<gt>Human Factors</gt>
+		</general_terms>
+		<authors>
+			<au>
+				<person_id>P729800</person_id>
+				<author_profile_id><![CDATA[81100104924]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Elina]]></first_name>
+				<middle_name><![CDATA[M. I.]]></middle_name>
+				<last_name><![CDATA[Koivisto]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Nokia Research Center, Tampere Finland]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P243640</person_id>
+				<author_profile_id><![CDATA[81100085182]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Riku]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Suomela]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Nokia Research Center, Tampere Finland]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<references>
+			<ref>
+				<ref_obj_id>1076267</ref_obj_id>
+				<ref_seq_no>1</ref_seq_no>
+				<ref_text><![CDATA[Beck, K. <i>Extreme Programming Explained</i>. Addison-Wesley, 1999.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>592608</ref_obj_id>
+				<ref_obj_pid>592600</ref_obj_pid>
+				<ref_seq_no>2</ref_seq_no>
+				<ref_text><![CDATA[Bj&#246;rk, S., Holopainen, J., Ljungstrand, P., and Mandryk, R. "Special Issue on Ubiquitous Games" in <i>Personal and Ubiquitous Computing</i>, vol. 6 no. 5-6 (December 2002) pp. 358--361.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>3</ref_seq_no>
+				<ref_text><![CDATA[Bj&#246;rk, S., Falk, J., Hansson, R., and Ljungstrand., P. 2001. Pirates! - using the physical world as a game board. In Proceedings of the <i>Human-Computer Interaction INTERACT'01</i>, 2001, 423--430.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>4</ref_seq_no>
+				<ref_text><![CDATA[Cyan Inc. The Myst. 1993. USA.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>502980</ref_obj_id>
+				<ref_seq_no>5</ref_seq_no>
+				<ref_text><![CDATA[Cockburn, A. <i>Agile Software Development</i>. Addison-Wesley, 2002.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>994735</ref_obj_id>
+				<ref_seq_no>6</ref_seq_no>
+				<ref_text><![CDATA[Fullerton, T., Swain, C., and Hoffman, S. <i>Game Design Workshop: Designing, Prototyping and Playtesting Games</i>. CMP Books, San Francisco, CA, 2004.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>7</ref_seq_no>
+				<ref_text><![CDATA[Harmonix Music Systems (publisher), RedOctane (developer). Guitar Hero. Northern America, 2005.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>8</ref_seq_no>
+				<ref_text><![CDATA[H&#246;ysniemi, J. <i>"Design and Evaluation of Physically Interactive Games."</i> Dissertations in Interactive Technology, Number 5; University of Tampere, 2006.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>9</ref_seq_no>
+				<ref_text><![CDATA[IPerG. Integrated Project on Pervasive Gaming. Available online at: http.//www.pervasive-gaming.org]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>10</ref_seq_no>
+				<ref_text><![CDATA[It's Alive. 2001. BotFighters. Available online at: http://www.botfighters.com/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>11</ref_seq_no>
+				<ref_text><![CDATA[Koivisto, E. M. I, and Eladhari, M. User Evaluation of a Pervasive Game Concept. Proceedings of <i>DIME-arts</i> 2006, Bangkok, Thailand, 2006,]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>12</ref_seq_no>
+				<ref_text><![CDATA[Koivisto, E. and Korhonen, H. <i>Mobile Game Playability Heuristics</i>. Forum Nokia, (17&#60;sup&#62;th&#60;/sup&#62; of March) 2006. Available at http://forum.nokia.com.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>13</ref_seq_no>
+				<ref_text><![CDATA[Koivisto, E. M. I and Palm, T. Iterative Design of Mobile Games. <i>Proceedings of Game Design &amp; Technologies Workshop</i>, Liverpool, UK, 2005.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>14</ref_seq_no>
+				<ref_text><![CDATA[Koskinen, K. and Suomela, R. Rapid Prototyping of Context-Aware Games, <i>Proceedings of the 2nd International Conference on Intelligent Environments</i> (IE06), July 5-6, 2006, Athens, Greece.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>15</ref_seq_no>
+				<ref_text><![CDATA[Koivisto, E. and Wenninger, C. Enhancing Player Experience in MMORPGs with Mobile Features. In <i>Proceedings of Digital Games Research Conference</i>. Vancouver, Canada, 2005.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>1152218</ref_obj_id>
+				<ref_obj_pid>1152215</ref_obj_pid>
+				<ref_seq_no>16</ref_seq_no>
+				<ref_text><![CDATA[Korhonen, H. and Koivisto, E. M. I. Gameplay Heuristics for Mobile Games. <i>Proceedings of MobileHCI</i>, Helsinki, Finland, 2006.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>17</ref_seq_no>
+				<ref_text><![CDATA[Newt Games. Mogi Available online at: http://www.mogimogi.com, 2003.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_obj_id>526071</ref_obj_id>
+				<ref_seq_no>18</ref_seq_no>
+				<ref_text><![CDATA[Nielsen, J. <i>Usability Engineering</i>. Academic Press, London, 1994.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>19</ref_seq_no>
+				<ref_text><![CDATA[Nintendo. Nintendo DS. 2005. Available online at: http://www.nintendo.com/systemsds]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>20</ref_seq_no>
+				<ref_text><![CDATA[Nintendo. Nintendo Wii. 2006]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>21</ref_seq_no>
+				<ref_text><![CDATA[Signman, T. The Siren Song of The Paper Cutter: Tips and Tricks from the Trenches of Paper Prototyping. In <i>Gamasutra</i>, September 2005. Available at http://www.gamasutra.com/features/20050913/sigman_01.shtml.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>22</ref_seq_no>
+				<ref_text><![CDATA[Sony. Eyetoy. 2003. Available online at http://www.eyetoy.com]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>23</ref_seq_no>
+				<ref_text><![CDATA[Sotamaa, O. 2002. In Proceedings of the <i>Computer Games and Digital Cultures Conference</i>, Tampere University Press, 35--44]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>24</ref_seq_no>
+				<ref_text><![CDATA[Suomela, R., Koskinen, K. Heikkinen, K., Rapid Prototyping of Location- Based Games with the Multi-User publishing Environment Application Platform. <i>Proceedings of The IEE International Workshop on Intelligent Environments</i>, June 2005, 143--151. c IEE. {rapid1}]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>25</ref_seq_no>
+				<ref_text><![CDATA[Suomela, R., R&#228;s&#228;nen, E., Koivisto, A., and Mattila, J. 2004. Open-Source Game Development with the Multi-user Publishing Environment (MUPE) Application Platform. <i>Proceedings of the Third International Conference on entertainment Computing</i>. Eindhoven, The Netherlands. 2004. ICEC 2004. Lecture Notes in Computer Science. Springer-Verlag GmbH.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>26</ref_seq_no>
+				<ref_text><![CDATA[Snyder, C. <i>Paper Prototyping - The Fast and Easy Way to Design and Refine User Interfaces</i>. Morgan Kaufman Publishers, San Francisco, CA, 2003.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>27</ref_seq_no>
+				<ref_text><![CDATA[The Agile Alliance. http://www.agilealliance.com/]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+			<ref>
+				<ref_seq_no>28</ref_seq_no>
+				<ref_text><![CDATA[Wright, W. "Triangulation: A Schizophrenic Approach to Game Design". A speech in <i>Game Developer's Conference 2004</i>, San Jose, CA, USA.]]></ref_text>
+				<ref_id></ref_id>
+			</ref>
+		</references>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	<article_rec>
+		<article_id>1274970</article_id>
+		<sort_key>157</sort_key>
+		<display_label></display_label>
+		<article_publication_date>08-04-2007</article_publication_date>
+		<seq_no>2</seq_no>
+		<title><![CDATA[Rapid prototyping]]></title>
+		<subtitle><![CDATA[visualizing new ideas]]></subtitle>
+		<page_from>157</page_from>
+		<page_to>158</page_to>
+		<doi_number>10.1145/1274940.1274970</doi_number>
+		<url>http://dl.acm.org/citation.cfm?id=1274970</url>
+		<categories>
+			<primary_category>
+				<cat_node/>
+				<descriptor/>
+				<type/>
+			</primary_category>
+		</categories>
+		<authors>
+			<au>
+				<person_id>PP35049976</person_id>
+				<author_profile_id><![CDATA[81320491684]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>1</seq_no>
+				<first_name><![CDATA[Henry]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[LaBounta]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Electronic Arts, Vancouver, BC]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP35048477</person_id>
+				<author_profile_id><![CDATA[81100357344]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>2</seq_no>
+				<first_name><![CDATA[Chaim]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gingold]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Maxis/Electronic Arts, Emeryville, CA]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889436</person_id>
+				<author_profile_id><![CDATA[81335498487]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>3</seq_no>
+				<first_name><![CDATA[Jeremy]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Townsend]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Tiburon/Electronic Arts, Orlando, FL]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889442</person_id>
+				<author_profile_id><![CDATA[81335490898]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>4</seq_no>
+				<first_name><![CDATA[Kyle]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Gray]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Tiburon/Electronic Arts, Orlando, FL]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>PP39083080</person_id>
+				<author_profile_id><![CDATA[81100456101]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>5</seq_no>
+				<first_name><![CDATA[John]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Buchanan]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Entertainment Technology Center, Carnegie Mellon, Melbourne, AU]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+			<au>
+				<person_id>P889449</person_id>
+				<author_profile_id><![CDATA[81335488424]]></author_profile_id>
+				<orcid_id></orcid_id>
+				<seq_no>6</seq_no>
+				<first_name><![CDATA[Vander]]></first_name>
+				<middle_name><![CDATA[]]></middle_name>
+				<last_name><![CDATA[Caballero]]></last_name>
+				<suffix><![CDATA[]]></suffix>
+				<affiliation><![CDATA[Game Designer, EA Montreal, Montreal, QB]]></affiliation>
+				<role><![CDATA[Author]]></role>
+				<email_address><![CDATA[]]></email_address>
+			</au>
+		</authors>
+		<fulltext>
+			<file>
+				<seq_no></seq_no>
+				<fname></fname>
+			</file>
+			<ft_body><![CDATA[
+			]]></ft_body>
+		</fulltext>
+	</article_rec>
+	</section>
+</content>
+</proceeding>
