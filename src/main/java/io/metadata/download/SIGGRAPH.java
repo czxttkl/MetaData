@@ -12,10 +12,9 @@ import javax.xml.stream.XMLStreamReader;
 
 import io.metadata.misc.Globals;
 import io.metadata.misc.Logger;
+import io.metadata.misc.Utils;
 import io.metadata.orm.MyMongoCollection;
 import io.metadata.orm.Paper;
-
-import org.apache.commons.lang.StringEscapeUtils;
 
 /**
  * Xml Parser for SIGGRAPH. Xmls for SIGGRAPH are available in data/siggraph.
@@ -45,16 +44,20 @@ public class SIGGRAPH {
             mLogger.appendLine(file.getName());
 
             while (reader.hasNext()) {
+                
                 int event = reader.next();
+                
                 switch (event) {
                 case XMLStreamConstants.START_ELEMENT:
+                    // find new article
                     if (reader.getLocalName().equals("article_rec")) {
-                        mLogger.appendLine("new article");
-                        paper = new Paper();
-                        paper.setVenue(VENUE);
-                        mLogger.appendLine("venue:" + VENUE);
+                        // Initiates new paper instance
+                        paper = new Paper().setVenue(VENUE).setVenueType(Globals.VENUE_TYPE_CONFERENCE);
                         keywords = "";
                         authors = "";
+                        
+                        mLogger.appendLine("new article");
+                        mLogger.appendLine("venue:" + VENUE);
                     }
                     break;
 
@@ -63,15 +66,10 @@ public class SIGGRAPH {
                     break;
 
                 case XMLStreamConstants.END_ELEMENT:
-                    // Trim the string
-                    tagContent = tagContent.trim();
-                    // Convert html encode to unicode
-                    tagContent = StringEscapeUtils.unescapeHtml(tagContent);
-                    // Remove html tags in tagcontent 
-                    tagContent = tagContent.replaceAll("\\<.*?>", "");
+                    tagContent = Utils.trimHtmlString(tagContent);
                     
                     switch (reader.getLocalName()) {
-                    // Only have year information for conference. Set year at the end of one article.
+                    // Only have year information for conference. Set year at the end of each article.
                     case "copyright_year":
                         year = Long.valueOf(tagContent);
                         mLogger.appendLine(tagContent);
@@ -130,9 +128,7 @@ public class SIGGRAPH {
                         if (paper.validate()) {
                             papersList.add(paper);
                         } else {
-                            mLogger.appendLine("///////////////////////////////////////////////////////////////////////");
-                            mLogger.appendLine(url);
-                            mLogger.appendLine("///////////////////////////////////////////////////////////////////////");
+                            mLogger.appendErrMsg(url);
                         }
                         break;
                     }
