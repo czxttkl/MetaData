@@ -10,7 +10,7 @@ import io.metadata.orm.Paper;
 import java.io.IOException;
 
 /**
- * Crawl data for Computer In Entertainments
+ * Crawl data for Computer In Entertainments.
  * @author Zhengxing Chen
  *
  */

@@ -27,7 +27,7 @@ public class Logger {
     }
     
     /**
-     * Append the error to the log file and also display it to the console
+     * Append the error to the log file and also display it to the console.
      * @param msg
      */
     public void appendErrMsg(String msg) {
@@ -59,7 +59,7 @@ public class Logger {
         appendLine(line, true);
     }
     
-    /** append lines to the log and also display the lines to the console*/
+    /** append lines to the log and also display the lines to the console. */
     public void appendLines(String... lines) {
         for (String line : lines) {
             appendLine(line);
