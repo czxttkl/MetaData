@@ -198,20 +198,22 @@ public class AIIDEAfter2010 {
                 Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.AAAILibAfter2010", doi);
                 
                 // Note: AAAI papers don't have keywords.
-                mLogger.appendLine(doi);
-                mLogger.appendLine(mWebsite.getTitle());
-                mLogger.appendLine(mWebsite.getAbstract());
-                mLogger.appendLine(mWebsite.getKeywords());
-                mLogger.appendLine(mWebsite.getAuthors());
-                mLogger.appendLine(mWebsite.getYear());
-                mLogger.appendLine("");
+                mLogger.appendLines(doi, mWebsite.getTitle(), mWebsite.getAbstract(), mWebsite.getKeywords(), mWebsite.getAuthors(),
+                        mWebsite.getYear(), "");
                 
-                mPapersCollection.insert(new Paper().setTitle(mWebsite.getTitle()).setAbstraction(mWebsite.getAbstract())
-                        .setKeywords(mWebsite.getKeywords()).setAuthors(mWebsite.getAuthors()).setYear(mWebsite.getYear()).setVenue(VENUE));
+                Paper mPaper = new Paper().setTitle(mWebsite.getTitle()).setAbstraction(mWebsite.getAbstract())
+                        .setKeywords(mWebsite.getKeywords()).setAuthors(mWebsite.getAuthors()).setYear(mWebsite.getYear()).setVenue(VENUE)
+                        .setVenueType(Globals.VENUE_TYPE_CONFERENCE);
+                
+                if (mPaper.validate()) {
+                    mPapersCollection.insert(mPaper);
+                } else {
+                    mLogger.appendErrMsg(mWebsite.getArticleURL());
+                }
+                
             } catch (Exception e) {
              // Catch any exception
-                mLogger.appendLine("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
-                mLogger.appendLine(e.getMessage());
+                mLogger.appendErrMsg(e.getMessage());
             }
             
             // Anti-robotics

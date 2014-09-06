@@ -2,6 +2,10 @@ package io.metadata.download;
 
 import io.metadata.MetaDataFactory;
 import io.metadata.Website;
+import io.metadata.misc.Globals;
+import io.metadata.misc.Logger;
+import io.metadata.orm.MyMongoCollection;
+import io.metadata.orm.Paper;
 
 /**
  * @author Zhengxing Chen
@@ -342,21 +346,44 @@ public class FDG {
 */
     };
     
+    public static final String VENUE = "FDG";
+   
     public static void main(String[] args) throws Exception {
+        // Initialize logger
+        Logger mLogger = new Logger("logFDG", true);
+
+        // Initialize self-wrapped mongocollection
+        MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
+
         MetaDataFactory mMetaDataFactory = new MetaDataFactory();
+        
         for (String doi : dois) {
-            System.out.println(doi);
-            Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.ACM", doi);
-            System.out.println(mWebsite.getTitle());
-            System.out.println(mWebsite.getAbstract());
-            // Note: some papers don't have keywords.
-            System.out.println(mWebsite.getKeywords());
-            System.out.println(mWebsite.getAuthors());
-            System.out.println(mWebsite.getYear());
-            // ACM forbids robotic process
-            Thread.sleep((long) (10000 + Math.random() * 10000));
+            try {
+                Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.ACM", doi);
+
+                mLogger.appendLines(doi, mWebsite.getTitle(), mWebsite.getAbstract(), mWebsite.getKeywords(), mWebsite.getAuthors(),
+                        mWebsite.getYear(), "");
+
+                Paper mPaper = new Paper().setTitle(mWebsite.getTitle()).setAbstraction(mWebsite.getAbstract())
+                        .setKeywords(mWebsite.getKeywords()).setAuthors(mWebsite.getAuthors()).setYear(mWebsite.getYear()).setVenue(VENUE)
+                        .setVenueType(Globals.VENUE_TYPE_CONFERENCE);
+
+                if (mPaper.validate()) {
+                    mPapersCollection.insert(mPaper);
+                } else {
+                    mLogger.appendErrMsg(mWebsite.getArticleURL());
+                }
+
+            } catch (Exception e) {
+                // Catch any exception
+                mLogger.appendErrMsg(e.getMessage());
+            }
+
+            // Anti-robotics
+            Thread.sleep((long) (Math.random() * 60000));
             System.out.println();
-        }
+
+        } // for
     }
 
 }

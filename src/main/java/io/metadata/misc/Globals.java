@@ -19,6 +19,7 @@ public class Globals {
     public static final int READ_TIMEOUT = 20000;
     public static final String GET_METHOD = "GET";
     
-    public static final String VENUE_CONFERENCE = "conference";
+    public static final String VENUE_TYPE_CONFERENCE = "conference";
+    public static final String VENUE_TYPE_JOURNAL = "journal";
 
 }

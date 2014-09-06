@@ -5,6 +5,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
+import org.apache.commons.lang.StringEscapeUtils;
+
 /**
  * Utils static functions.
  * @author Zhengxing Chen
@@ -52,4 +54,20 @@ public class Utils {
         bf.close();
         return finalString;
     }
+    
+    /**
+     * Trim the string and remove html encodings and tags
+     * @param raw
+     * @return
+     */
+    public static String trimHtmlString(String raw) {
+        // Trim the string
+        raw = raw.trim();
+        // Convert html encode to unicode
+        raw = StringEscapeUtils.unescapeHtml(raw);
+        // Remove html tags in tagcontent 
+        raw = raw.replaceAll("\\<.*?>", "");
+        return raw;
+    }
+    
 }

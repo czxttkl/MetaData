@@ -49,28 +49,22 @@ public class EdutainmentSpringer {
                 try {
                     Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.Springer", doi);
 
-                    mLogger.appendLine(doi);
-                    mLogger.appendLine(mWebsite.getTitle());
-                    mLogger.appendLine(mWebsite.getAbstract());
-                    mLogger.appendLine(mWebsite.getKeywords());
-                    mLogger.appendLine(mWebsite.getAuthors());
-                    mLogger.appendLine(mWebsite.getYear());
-                    mLogger.appendLine("");
-
+                    mLogger.appendLines(doi, mWebsite.getTitle(), mWebsite.getAbstract(), mWebsite.getKeywords(), mWebsite.getAuthors(),
+                            mWebsite.getYear(), "");
+                    
                     Paper mPaper = new Paper().setTitle(mWebsite.getTitle()).setAbstraction(mWebsite.getAbstract())
-                            .setKeywords(mWebsite.getKeywords()).setAuthors(mWebsite.getAuthors()).setYear(mWebsite.getYear())
-                            .setVenue(VENUE).setVenueType("conference");
+                            .setKeywords(mWebsite.getKeywords()).setAuthors(mWebsite.getAuthors()).setYear(mWebsite.getYear()).setVenue(VENUE)
+                            .setVenueType(Globals.VENUE_TYPE_CONFERENCE);
+                    
                     if (mPaper.validate()) {
                         mPapersCollection.insert(mPaper);
                     } else {
-                        mLogger.appendLine("///////////////////////////////////////////////////////////////////////");
-                        mLogger.appendLine(mWebsite.getArticleURL());
-                        mLogger.appendLine("///////////////////////////////////////////////////////////////////////");
+                        mLogger.appendErrMsg(mWebsite.getArticleURL());
                     }
+                    
                 } catch (Exception e) {
-                    // Catch any exception
-                    mLogger.appendLine("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
-                    mLogger.appendLine(e.getMessage());
+                 // Catch any exception
+                    mLogger.appendErrMsg(e.getMessage());
                 }
 
                 // Anti-robot

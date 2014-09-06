@@ -9,7 +9,8 @@ import org.jongo.marshall.jackson.oid.Id;
 import org.jongo.marshall.jackson.oid.ObjectId;
 
 /**
- * @author Zhengxing Chen Java Object for one document in MongoDB.metadata.papers collection
+ * Java Object for one document in MongoDB.metadata.papers collection.
+ * @author Zhengxing Chen 
  */
 public class Paper {
     @Id
