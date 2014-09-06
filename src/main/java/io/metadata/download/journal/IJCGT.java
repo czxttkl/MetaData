@@ -152,8 +152,7 @@ public class IJCGT {
                         .setVenueType(Globals.VENUE_TYPE_JOURNAL);
 
                 if (mPaper.validate()) {
-                    System.out.println("valid");
-//                    mPapersCollection.insert(mPaper);
+                    mPapersCollection.insert(mPaper);
                 } else {
                     mLogger.appendErrMsg(mWebsite.getArticleURL());
                 }

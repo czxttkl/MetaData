@@ -57,8 +57,8 @@ public class IJCGTLib extends Website {
             for (String author : authorsArr) {
                 String[] names = author.split(",");
                 String authorName = "";
-                for (String name : names) {
-                    authorName = authorName + name.trim() + " ";
+                for (int i = names.length-1; i >= 0; i--) {
+                    authorName = authorName + names[i].trim() + " ";
                 }
                 authorsString = authorsString + "," + authorName.trim();
             }
