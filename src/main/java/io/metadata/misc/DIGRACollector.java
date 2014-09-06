@@ -8,9 +8,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
+ * Collect 70 pages of DIGRA LIB
  * @author Zhengxing Chen
  *
- * Collect 70 pages of DIGRA LIB
  */
 public class DIGRACollector {
 

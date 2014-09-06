@@ -1,8 +1,6 @@
 package io.metadata.misc;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -23,13 +21,7 @@ public class AAAIINTWorkshopUrlCollector {
                 continue;
             }
 
-            StringBuilder sBuilder = new StringBuilder();
-            BufferedReader bf = new BufferedReader(new FileReader(file));
-            String aString;
-            while ((aString = bf.readLine()) != null) {
-                sBuilder.append(aString);
-            }
-            String finalString = sBuilder.toString();
+            String finalString = Utils.readFileAsString(file);
 
             // Url Pattern
             Pattern urlPattern = Pattern.compile("<p class=\"left\"><a href=\"http://(www.)?aaai.org/ocs/index.php/(AIIDE/AIIDE((\\d){2})(.*?)/paper/view/((\\d){4}))");
@@ -38,7 +30,6 @@ public class AAAIINTWorkshopUrlCollector {
                 String urlString = "\"" + urlMatcher.group(2) + "\",";
                 System.out.println(urlString);
             }
-            bf.close();
         }
     }
 }
