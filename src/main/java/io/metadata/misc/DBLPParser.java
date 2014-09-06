@@ -7,7 +7,6 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 /**
- * @author Zhengxing Chen
  *  1. This file tries to parse xml file from dblp.xml and dblp.dtd. (The two files must be put under the same directory)
  *  dblp.xml: https://www.dropbox.com/s/51ehap7mhdo4xi4/dblp.xml
  *  dblp.dtd: https://www.dropbox.com/s/az2zfgyjljyapkp/dblp.dtd
@@ -17,6 +16,7 @@ import org.xml.sax.helpers.DefaultHandler;
  *  org.xml.sax.SAXParseException: The parser has encountered more than ¡°64000¡± entity expansions in this document
  *  
  *  3. Some links in dblp.xml are incomplete and invalid.
+ * @author Zhengxing Chen
  */
 public class DBLPParser {
     

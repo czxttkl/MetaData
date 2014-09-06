@@ -27,6 +27,20 @@ public class Logger {
     }
     
     /**
+     * Append the error to the log file and also display it to the console
+     * @param msg
+     */
+    public void appendErrMsg(String msg) {
+        appendErrMsg(msg, true);
+    }
+    
+    public void appendErrMsg(String msg, boolean toConsole) {
+        appendLine("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", toConsole);
+        appendLine(msg, toConsole);
+        appendLine("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", toConsole);
+    }
+    
+    /**
      * @param line
      * @param toConsole If true, the line to be appended is also displayed in the console of Java
      */
@@ -43,6 +57,13 @@ public class Logger {
      */
     public void appendLine(String line) {
         appendLine(line, true);
+    }
+    
+    /** append lines to the log and also display the lines to the console*/
+    public void appendLines(String... lines) {
+        for (String line : lines) {
+            appendLine(line);
+        }
     }
     
     public void close() {
