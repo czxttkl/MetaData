@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.List;
 
 import org.apache.commons.lang.StringEscapeUtils;
 
@@ -26,6 +27,25 @@ public class Utils {
         
         if (s.equals("")) {
             return true;
+        }
+        
+        return false;
+    }
+    
+    /**
+     * If the strings contained in the list are either null or empty
+     * @param list
+     * @return
+     */
+    public static boolean nullOrEmpty(List<String> list) {
+        if (list == null) {
+            return true;
+        }
+        
+        for (String str : list) {
+            if (nullOrEmpty(str)) {
+                return true;
+            }
         }
         
         return false;
