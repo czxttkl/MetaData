@@ -56,7 +56,7 @@ public class Utils {
     }
     
     /**
-     * Trim the string and remove html encodings and tags
+     * Trim the string and remove html encodings and tags.
      * @param raw
      * @return
      */

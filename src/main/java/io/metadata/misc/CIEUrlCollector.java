@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * CIECollector collect urls from data/cie
+ * CIECollector collect urls from data/cie.
  * @author Zhengxing Chen
  *
  */
