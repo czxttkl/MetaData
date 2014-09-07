@@ -78,8 +78,7 @@ public class ACM extends Website {
                 authorsString = authorsString + "," + firstName + " " + lastName;
             }
         }
-        // Remove the first comma if keywords are found.
-        // In some articles there are no keywords.
+        // Remove the first comma if authors are found.
         if (authorsString.length() > 0) {
             authorsString = authorsString.substring(1);
         }

@@ -72,8 +72,7 @@ public class Springer extends Website {
         while (authorsMatcher.find()) {
             authorsString = authorsString + "," + authorsMatcher.group(1);
         }
-        // Remove the first comma if keywords are found.
-        // In some articles there are no keywords.
+        // Remove the first comma if authors are found.
         if (authorsString.length() > 0) {
             authorsString = authorsString.substring(1);
         }

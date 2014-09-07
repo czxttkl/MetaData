@@ -91,7 +91,7 @@ public class Paper {
     public boolean validate() {
         if (Utils.nullOrEmpty(title) || year == 0 || Utils.nullOrEmpty(venue)
                 || (authors == null ? true : (authors.get(0).trim().equals("") && authors.size() == 1))
-                || (Utils.nullOrEmpty(abstraction) && keywords == null)) {
+                || (Utils.nullOrEmpty(abstraction) && Utils.nullOrEmpty(keywords))) {
             return false;
         } else {
             return true;
