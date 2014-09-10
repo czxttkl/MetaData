@@ -9,6 +9,8 @@ public class Globals {
 
     public static final String MONGODB_DBNAME = "metadata";
     public static final String MONGODB_PAPERS_COLLECTION = "papers";
+    public static final String MONGODB_PAPERS_CLEAN_COL = "papers_clean";
+    
     public static final String MONGODB_SERVER_ADDR = "129.10.76.16";
     public static final int MONGODB_PORT = 27017;
 

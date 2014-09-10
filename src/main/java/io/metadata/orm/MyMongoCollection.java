@@ -44,6 +44,10 @@ public class MyMongoCollection<T> {
         return mCollection.insert(objs);
     }
     
+    public MongoCollection getCollection() {
+        return mCollection;
+    }
+    
     @SuppressWarnings("deprecation")
     public void close() {
         db.cleanCursors(true);

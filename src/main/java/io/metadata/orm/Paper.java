@@ -53,6 +53,11 @@ public class Paper {
         keywords = Arrays.asList(keyword);
         return this;
     }
+    
+    public Paper setKeywords(List<String> keywords) {
+        this.keywords = keywords;
+        return this;
+    }
 
     public Paper setYear(String yearString) {
         year = Long.valueOf(yearString);
@@ -82,7 +87,18 @@ public class Paper {
         return title;
     }
 
+    public String getVenue() {
+        return venue;
+    }
 
+    public String getId() {
+        return key;
+    }
+    
+    public List<String> getKeywords() {
+        return keywords;
+    }
+    
     /**
      * Validate if this paper instance has enough information: 1. title 2. year 3. venue 4. authors 5. abstract or keywords
      * 
@@ -97,5 +113,7 @@ public class Paper {
             return true;
         }
     }
+    
+    
 
 }
