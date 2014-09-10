@@ -99,6 +99,10 @@ public class Paper {
         return keywords;
     }
     
+    public List<String> getAuthors() {
+        return authors;
+    }
+    
     /**
      * Validate if this paper instance has enough information: 1. title 2. year 3. venue 4. authors 5. abstract or keywords
      * 

@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import org.apache.commons.lang.StringEscapeUtils;
 
@@ -121,30 +122,38 @@ public class Utils {
         return false;
     }
 
-}
-
-class MutableInt {
-    int value = 1; // note that we start at 1 since we're counting
-
-    public void increment() {
-        ++value;
+    public static class KeyCountMap {
+        
+        private Map<String, MutableInt> map = new HashMap<String, MutableInt>();
+        
+        public void addCount(String key) {
+            MutableInt count = map.get(key);
+            if (count == null) {
+                map.put(key, new MutableInt());
+            } else {
+                count.increment();
+            }
+        }
+        
+        public Integer get(String key) {
+            return map.get(key).get();
+        }
+        
+        public Set<String> keySet() {
+            return map.keySet();
+        }
     }
 
-    public int get() {
-        return value;
-    }
-}
-
-class KeyCountMap {
-
-    private Map<String, MutableInt> map = new HashMap<String, MutableInt>();
-
-    public void addCount(String key) {
-        MutableInt count = map.get(key);
-        if (count == null) {
-            map.put(key, new MutableInt());
-        } else {
-            count.increment();
+    public static class MutableInt {
+        int value = 1; // note that we start at 1 since we're counting
+        
+        public void increment() {
+            ++value;
+        }
+        
+        public int get() {
+            return value;
         }
     }
 }
+
