@@ -3,7 +3,6 @@ package io.metadata.data;
 import io.metadata.misc.Utils;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class KeywordsExtractor {
@@ -65,7 +64,6 @@ public class KeywordsExtractor {
             }
         }
         
-        System.out.println(Arrays.toString(keywords.toArray()));
         return keywords;
     }
 }

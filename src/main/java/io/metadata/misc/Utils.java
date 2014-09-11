@@ -4,9 +4,13 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 import org.apache.commons.lang.StringEscapeUtils;
@@ -57,13 +61,7 @@ public class Utils {
         return false;
     }
 
-    /**
-     * Read file as String.
-     * 
-     * @param filePath
-     * @return
-     * @throws IOException
-     */
+    /**  Read file as String.  */
     public static String readFileAsString(File file) throws IOException {
         if (!file.exists()) {
             throw new IOException();
@@ -82,12 +80,7 @@ public class Utils {
         return finalString;
     }
 
-    /**
-     * Trim the string and remove html encodings and tags.
-     * 
-     * @param raw
-     * @return
-     */
+    /** Trim the string and remove html encodings and tags.  */
     public static String trimHtmlString(String raw) {
         // Trim the string
         raw = raw.trim();
@@ -104,6 +97,7 @@ public class Utils {
         return raw;
     }
 
+    /** If the array contains the element v. */
     public static <T> boolean ifContains(final T[] arr, final T v) {
         if (v == null) {
             for (final T e : arr) {
@@ -122,10 +116,49 @@ public class Utils {
         return false;
     }
 
+    /** Sort map's keyset by values. */
+    public static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map) {
+        List<Map.Entry<K, V>> list = new LinkedList<>(map.entrySet());
+        Collections.sort(list, new Comparator<Map.Entry<K, V>>() {
+            @Override
+            public int compare(Map.Entry<K, V> o1, Map.Entry<K, V> o2) {
+                return (o1.getValue()).compareTo(o2.getValue());
+            }
+        });
+
+        Map<K, V> result = new LinkedHashMap<>();
+        for (Map.Entry<K, V> entry : list) {
+            result.put(entry.getKey(), entry.getValue());
+        }
+        return result;
+    }
+    
+    /** Sort KeyCountMap's keyset by values and return a new KeyCountMap. */
+    public static KeyCountMap sortByValue(KeyCountMap map) {
+        List<Entry<String, MutableInt>> list = new LinkedList<>(map.entrySet());
+        Collections.sort(list, new Comparator<Entry<String, MutableInt>>() {
+            @Override
+            public int compare(Entry<String, MutableInt> o1, Entry<String, MutableInt> o2) {
+                return (-1)*(o1.getValue().get()).compareTo(o2.getValue().get());
+            }
+        });
+
+        KeyCountMap result = new KeyCountMap();
+        for (Entry<String, MutableInt> entry : list) {
+            result.put(entry.getKey(), entry.getValue());
+        }
+        return result;
+    }
+
+    
+    /**
+     * Key-Count map. Record counts for each key.
+     * @author Zhengxing Chen
+     */
     public static class KeyCountMap {
-        
-        private Map<String, MutableInt> map = new HashMap<String, MutableInt>();
-        
+
+        private Map<String, MutableInt> map = new LinkedHashMap<String, MutableInt>();
+
         public void addCount(String key) {
             MutableInt count = map.get(key);
             if (count == null) {
@@ -134,26 +167,38 @@ public class Utils {
                 count.increment();
             }
         }
+
+        public void put(String key, MutableInt mi) {
+            map.put(key, mi);
+        }
         
         public Integer get(String key) {
             return map.get(key).get();
         }
-        
+
         public Set<String> keySet() {
             return map.keySet();
         }
+        
+        public Set<Entry<String, MutableInt>> entrySet() {
+            return map.entrySet();
+        }
     }
 
+    /**
+     * Class for KeyCountMap.
+     * @author Zhengxing Chen
+     *
+     */
     public static class MutableInt {
-        int value = 1; // note that we start at 1 since we're counting
-        
+        Integer value = 1; // note that we start at 1 since we're counting
+
         public void increment() {
-            ++value;
+            value++;
         }
-        
-        public int get() {
+
+        public Integer get() {
             return value;
         }
     }
 }
-

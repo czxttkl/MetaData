@@ -1,6 +1,7 @@
 package io.metadata.data;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.jongo.MongoCursor;
@@ -32,9 +33,12 @@ public class DataCleaner {
                     paper.setAbstraction(Utils.removeNewLine(paper.getAbstraction()));
                 }
                 
+                // Extractv keywords simply from paper titles
                 if (Utils.nullOrEmpty(paper.getKeywords())) {
-                    paper.setKeywords(KeywordsExtractor.simpleExtract(paper.getAbstraction()));
+                    paper.setKeywords(KeywordsExtractor.simpleExtract(paper.getTitle()));
                 }
+                
+                System.out.println("Insert paper:" + paper.getId() + "  keywords:"+ Arrays.toString(paper.getKeywords().toArray()));
                 
                 // Add to the cleanedPaper list
                 cleanedPapers.add(paper);
