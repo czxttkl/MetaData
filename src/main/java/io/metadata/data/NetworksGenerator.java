@@ -50,7 +50,7 @@ public class NetworksGenerator {
                 ntwDir.mkdirs();
             }
 
-            // count appearances of venues, authors and keywords
+            // count appearances of venues, authors and keywords in this year
             KeyCountMap venueCountMap = new KeyCountMap();
             KeyCountMap authorCountMap = new KeyCountMap();
             KeyCountMap keywordCountMap = new KeyCountMap();
@@ -64,22 +64,24 @@ public class NetworksGenerator {
 
             for (Paper paper : thisYearPapers) {
                 // Temporary KeyCountMap only for this paper
-                // Count how many times authors and keywords appear only in this paper
+                // Count how many times authors and keywords appear in this paper
                 KeyCountMap authorCountMapTmp = new KeyCountMap();
                 KeyCountMap keywordCountMapTmp = new KeyCountMap();
                 
-                // count venue for each paper
+                // increment the count of the venue for this year
                 venueCountMap.addCount(paper.getVenue());
                 
-                // count keyword for each paper
                 for (String kw : paper.getKeywords()) {
+                   // increment the count of the keyword for this year
                    keywordCountMap.addCount(kw);
+                   // increment the count of the keyword for this paper 
                    keywordCountMapTmp.addCount(kw);
                 }
                 
-                // count author for each paper
                 for (String ath : paper.getAuthors()) {
+                    // increment the count of the author for this year
                     authorCountMap.addCount(ath);
+                     // increment the count of the author for this paper
                     authorCountMapTmp.addCount(ath);
                 }
 
@@ -103,13 +105,13 @@ public class NetworksGenerator {
             // Finish printing network.tsr
             // Now print 0.dict (venue_id-venue-times), 1.dict (author_id-author-times), 2.dict (keyword_id-keyword-times)
             
-            // sort venue appearances 
+            // sort by venue appearances
             venueCountMap = Utils.sortByValue(venueCountMap);
             
-            // sort author appearances 
+            // sort by author appearances 
             authorCountMap = Utils.sortByValue(authorCountMap);
             
-            // sort keyword appearances 
+            // sort by keyword appearances 
             keywordCountMap = Utils.sortByValue(keywordCountMap);
             
             // output venue
@@ -147,7 +149,7 @@ public class NetworksGenerator {
     }
     
     
-    /** Construct String-Integer pairs map.     */
+    /** Construct String-Integer pairs map. The key is String value, the value is the index of the string value in List values. */
     public static Map<String, Integer> constructStringIdMap(List<String> values) {
         Map<String, Integer> valueIdMap = new HashMap<String, Integer>();
         for (int i = 0; i < values.size(); i++) {
