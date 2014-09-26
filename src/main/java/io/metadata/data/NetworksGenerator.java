@@ -23,10 +23,6 @@ import io.metadata.orm.Paper;
  */
 public class NetworksGenerator {
 
-    /**
-     * @param args
-     * @throws IOException 
-     */
     public static void main(String[] args) throws IOException {
         // Connect to mongodb papers_clean
         MyMongoCollection<Paper> mPapersColCln = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
@@ -36,15 +32,15 @@ public class NetworksGenerator {
         Map<String, Long> paperIdMap = constructPaperIdMap(paperIdsList);
         
         // create venue-id pairs
-        List<String> venueValuesList= mPapersColCln.getCollection().distinct("venue").as(String.class);
+        List<String> venueValuesList = mPapersColCln.getCollection().distinct("venue").as(String.class);
         Map<String, Integer> venueValueIdMap = constructStringIdMap(venueValuesList);
 
         // create author-id pairs
-        List<String> authorValuesList= mPapersColCln.getCollection().distinct("authors").as(String.class);
+        List<String> authorValuesList = mPapersColCln.getCollection().distinct("authors").as(String.class);
         Map<String, Integer> authorValueIdMap = constructStringIdMap(authorValuesList);
 
         // create keyword-id pairs
-        List<String> keywordValuesList= mPapersColCln.getCollection().distinct("keywords").as(String.class);
+        List<String> keywordValuesList = mPapersColCln.getCollection().distinct("keywords").as(String.class);
         Map<String, Integer> keywordValueIdMap = constructStringIdMap(keywordValuesList);
         
         for (int i = 2000; i <= 2013; i++) {
@@ -151,11 +147,7 @@ public class NetworksGenerator {
     }
     
     
-    /**
-     * Construct String-Integer pairs map
-     * @param values
-     * @return
-     */
+    /** Construct String-Integer pairs map.     */
     public static Map<String, Integer> constructStringIdMap(List<String> values) {
         Map<String, Integer> valueIdMap = new HashMap<String, Integer>();
         for (int i = 0; i < values.size(); i++) {
@@ -164,11 +156,7 @@ public class NetworksGenerator {
         return valueIdMap;
     }
 
-    /**
-     * Construct String-Long pairs map by ObjectId
-     * @param values
-     * @return
-     */
+    /** Construct String-Long pairs map by ObjectId.     */
     public static Map<String, Long> constructPaperIdMap(List<ObjectId> values) {
         Map<String, Long> valueIdMap = new HashMap<String, Long>();
         for (int i = 0; i < values.size(); i++) {

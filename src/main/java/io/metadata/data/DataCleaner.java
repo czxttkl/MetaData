@@ -11,6 +11,13 @@ import io.metadata.misc.Utils;
 import io.metadata.orm.MyMongoCollection;
 import io.metadata.orm.Paper;
 
+/**
+ * Process data from papers collection and save to papers_clean collecton.
+ * 1. Remove new lines in title or abstract
+ * 2. Extract keywords if missing
+ * @author Zhengxing Chen
+ *
+ */
 public class DataCleaner {
 
     public static void main(String[] args) {
@@ -38,7 +45,7 @@ public class DataCleaner {
                     paper.setKeywords(KeywordsExtractor.simpleExtract(paper.getTitle()));
                 }
                 
-                System.out.println("Insert paper:" + paper.getId() + "  keywords:"+ Arrays.toString(paper.getKeywords().toArray()));
+                System.out.println("Insert paper:" + paper.getId() + "  keywords:" + Arrays.toString(paper.getKeywords().toArray()));
                 
                 // Add to the cleanedPaper list
                 cleanedPapers.add(paper);

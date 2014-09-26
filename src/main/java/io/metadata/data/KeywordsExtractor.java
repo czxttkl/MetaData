@@ -5,6 +5,11 @@ import io.metadata.misc.Utils;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This class is used to extract keywords from string.
+ * @author Zhengxing Chen
+ *
+ */
 public class KeywordsExtractor {
 
     private static String[] stopwords = { "a", "about", "above", "above", "across", "after", "afterwards", "again", "against", "all", "almost", "alone",
@@ -39,9 +44,7 @@ public class KeywordsExtractor {
             "discussion", "tmus", "diffrent.", "layout", "area.", "thanks", "thankyou", "hello", "bye", "rise", "fell", "fall", "psqft.",
             "http://", "km", "miles" };
 
-    /**
-     * Only split by \\s and keep words which are not stopwords.
-     */
+    /** Only split by \\W and keep words which are not stopwords. */
     public static List<String> simpleExtract(String raw) {
         List<String> keywords = new ArrayList<String>();
         String[] words = raw.split("((\\W)+)");
@@ -54,7 +57,7 @@ public class KeywordsExtractor {
             
             // Remove 
             if (w.endsWith("'s")) {
-                w = w.substring(0,w.length()-2);
+                w = w.substring(0, w.length() - 2);
             }
             
             if (Utils.ifContains(stopwords, w)) {

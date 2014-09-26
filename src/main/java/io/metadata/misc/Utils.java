@@ -41,12 +41,7 @@ public class Utils {
         return false;
     }
 
-    /**
-     * If the strings contained in the list are either null or empty
-     * 
-     * @param list
-     * @return
-     */
+    /** If the strings contained in the list are either null or empty.     */
     public static boolean nullOrEmpty(List<String> list) {
         if (list == null) {
             return true;
@@ -139,7 +134,7 @@ public class Utils {
         Collections.sort(list, new Comparator<Entry<String, MutableInt>>() {
             @Override
             public int compare(Entry<String, MutableInt> o1, Entry<String, MutableInt> o2) {
-                return (-1)*(o1.getValue().get()).compareTo(o2.getValue().get());
+                return (-1) * (o1.getValue().get()).compareTo(o2.getValue().get());
             }
         });
 
