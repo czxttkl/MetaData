@@ -6,11 +6,13 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Random;
 import java.util.Set;
 
 import org.apache.commons.lang.StringEscapeUtils;
@@ -23,12 +25,21 @@ import org.apache.commons.lang.StringEscapeUtils;
  */
 public class Utils {
 
-    /**
-     * Return true if the string is null or empty ("").
-     * 
-     * @param s
-     * @return
-     */
+    /** Generate random integer in range of min and max.     */
+    public static int randInt(int min, int max) {
+
+        // NOTE: Usually this should be a field rather than a method
+        // variable so that it is not re-seeded every call.
+        Random rand = new Random();
+
+        // nextInt is normally exclusive of the top value,
+        // so add 1 to make it inclusive
+        int randomNum = rand.nextInt((max - min) + 1) + min;
+
+        return randomNum;
+    }
+    
+    /** Return true if the string is null or empty ("").     */
     public static boolean nullOrEmpty(String s) {
         if (s == null) {
             return true;
@@ -145,6 +156,15 @@ public class Utils {
         return result;
     }
 
+    public static <T, E> Set<T> getKeysByValue(Map<T, E> map, E value) {
+        Set<T> keys = new HashSet<T>();
+        for (Entry<T, E> entry : map.entrySet()) {
+            if (value.equals(entry.getValue())) {
+                keys.add(entry.getKey());
+            }
+        }
+        return keys;
+    }
     
     /**
      * Key-Count map. Record counts for each key.
