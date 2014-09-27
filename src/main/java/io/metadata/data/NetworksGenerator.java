@@ -41,9 +41,6 @@ public class NetworksGenerator {
         List<String> authorValuesList = mPapersColCln.getCollection().distinct("authors").as(String.class);
         Map<String, Integer> authorValueIdMap = constructStringIdMap(authorValuesList);
 
-        System.out.println(Utils.getKeysByValue(authorValueIdMap, new Integer(4963)));
-        System.out.println(Utils.getKeysByValue(authorValueIdMap, new Integer(3815)));
-
         // create keyword-id pairs
         List<String> keywordValuesList = mPapersColCln.getCollection().distinct("keywords").as(String.class);
         Map<String, Integer> keywordValueIdMap = constructStringIdMap(keywordValuesList);
@@ -164,7 +161,8 @@ public class NetworksGenerator {
         return valueIdMap;
     }
 
-    /** Construct String-Long pairs map by ObjectId.     */
+    /** Construct String-Integer pairs map by ObjectId. Since Yizhou's code only accepts paper id as Integer, 
+     *  we have to map ObjectId String to Integer.     */
     public static Map<String, Integer> constructPaperIdMap(List<ObjectId> values) {
         Map<String, Integer> valueIdMap = new HashMap<String, Integer>();
         for (int i = 0; i < values.size(); i++) {
