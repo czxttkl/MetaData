@@ -25,6 +25,8 @@ import io.metadata.orm.Paper;
  */
 public class NetworksGenerator {
 
+    private final static String NETWORK_INPUT_FOLDER = "networks_input/";
+    
     public static void main(String[] args) throws IOException {
         // Connect to mongodb papers_clean
         MyMongoCollection<Paper> mPapersColCln = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
@@ -47,7 +49,7 @@ public class NetworksGenerator {
         
         for (int i = 2000; i <= 2013; i++) {
             // create dir for network dict files in this year
-            File ntwDir = new File("networks/" + i);
+            File ntwDir = new File(NETWORK_INPUT_FOLDER + i);
             if (!ntwDir.exists()) {
                 ntwDir.mkdirs();
             }
@@ -62,7 +64,7 @@ public class NetworksGenerator {
             MongoCursor<Paper> thisYearPapers = mPapersColCln.getCollection().find(yearQuery).as(Paper.class);
             
             // Prepare to write to network.tsr in year folder
-            PrintWriter pwNetworkTsr = new PrintWriter(new OutputStreamWriter(new FileOutputStream("networks/" + i + "/network.tsr"), "UTF-8"));
+            PrintWriter pwNetworkTsr = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/network.tsr"), "UTF-8"));
 
             for (Paper paper : thisYearPapers) {
                 // Temporary KeyCountMap only for this paper
@@ -117,7 +119,7 @@ public class NetworksGenerator {
             keywordCountMap = Utils.sortByValue(keywordCountMap);
             
             // output venue
-            PrintWriter pwVenue = new PrintWriter(new OutputStreamWriter(new FileOutputStream("networks/" + i + "/0.dict"), "UTF-8"));
+            PrintWriter pwVenue = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/0.dict"), "UTF-8"));
             for (String venue : venueCountMap.keySet()) {
                 Integer count = venueCountMap.get(venue);
                 String line = String.format("%d\t%s\t%d", venueValueIdMap.get(venue), venue, count); 
@@ -127,7 +129,7 @@ public class NetworksGenerator {
             pwVenue.close();
             
             // output author
-            PrintWriter pwAuthor = new PrintWriter(new OutputStreamWriter(new FileOutputStream("networks/" + i + "/1.dict"), "UTF-8"));
+            PrintWriter pwAuthor = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/1.dict"), "UTF-8"));
             for (String author : authorCountMap.keySet()) {
                 Integer count = authorCountMap.get(author);
                 String line = String.format("%d\t%s\t%d", authorValueIdMap.get(author), author, count);
@@ -137,7 +139,7 @@ public class NetworksGenerator {
             pwAuthor.close();
             
             // output keyword
-            PrintWriter pwKeyword = new PrintWriter(new OutputStreamWriter(new FileOutputStream("networks/" + i + "/2.dict"), "UTF-8"));
+            PrintWriter pwKeyword = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/2.dict"), "UTF-8"));
             for (String keyword : keywordCountMap.keySet()) {
                 Integer count = keywordCountMap.get(keyword);
                 String line = String.format("%d\t%s\t%d", keywordValueIdMap.get(keyword), keyword, count);

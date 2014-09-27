@@ -3,6 +3,7 @@ package io.metadata.data;
 import io.metadata.misc.Utils;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 /**
@@ -46,7 +47,7 @@ public class KeywordsExtractor {
 
     /** Only split by \\W and keep words which are not stopwords. */
     public static List<String> simpleExtract(String raw) {
-        List<String> keywords = new ArrayList<String>();
+        HashSet<String> keywords = new HashSet<String>();
         String[] words = raw.split("((\\W)+)");
         for (String w : words) {
             // remove space
@@ -67,6 +68,6 @@ public class KeywordsExtractor {
             }
         }
         
-        return keywords;
+        return new ArrayList<String>(keywords);
     }
 }
