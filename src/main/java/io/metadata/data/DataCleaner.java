@@ -13,7 +13,7 @@ import io.metadata.orm.Paper;
 
 /**
  * Process data from papers collection and save to papers_clean collecton.
- * 1. Remove new lines (\t or \n) in title or abstract
+ * 1. Remove new lines (\r or \n) in title or abstract
  * 2. Extract keywords if missing
  * @author Zhengxing Chen
  *
