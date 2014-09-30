@@ -1,4 +1,4 @@
-package io.metadata.download.undone;
+package io.metadata.download.conference;
 
 import io.metadata.MetaDataFactory;
 import io.metadata.Website;
