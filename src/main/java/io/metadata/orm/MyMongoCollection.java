@@ -27,8 +27,12 @@ public class MyMongoCollection<T> {
     }
 
     public MyMongoCollection(String collectionName) {
+        new MyMongoCollection<T>(collectionName, Globals.MONGODB_DBNAME);
+    }
+    
+    public MyMongoCollection(String collectionName, String dbName) {
         try {
-            db = new MongoClient(Globals.MONGODB_SERVER_ADDR, Globals.MONGODB_PORT).getDB(Globals.MONGODB_DBNAME);
+            db = new MongoClient(Globals.MONGODB_SERVER_ADDR, Globals.MONGODB_PORT).getDB(dbName);
             Jongo jongo = new Jongo(db);
             mCollection = jongo.getCollection(collectionName);
         } catch (Exception e) {
