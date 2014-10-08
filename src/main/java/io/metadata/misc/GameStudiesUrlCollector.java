@@ -22,11 +22,11 @@ public class GameStudiesUrlCollector {
         String finalString = Utils.readFileAsString(file);
 
         // Url Pattern before 2009
-        Pattern urlPattern = Pattern.compile("<dd>URI: <a href=\"(http://www.gamestudies.org/(\\d){4}/(.*?))\">");
+        Pattern urlPattern = Pattern.compile("<dd>URI: <a href=\"http://(www.)?gamestudies.org/((\\d){4}/(.*?))\">");
         Matcher urlMatcher = urlPattern.matcher(finalString);
         while (urlMatcher.find()) {
-            String urlString = urlMatcher.group(1);
-            System.out.println(urlString);
+            String urlString = urlMatcher.group(2);
+            System.out.println("\"" + urlString + "\",");
         }
     }
 

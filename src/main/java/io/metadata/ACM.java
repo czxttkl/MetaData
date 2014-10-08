@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
  */
 public class ACM extends Website {
 
-    public static final String ARTICLE_ABSTRACT_URL_PREFIX = "http://dl.acm.org/citation.cfm?doid=%s&preflayout=flat";
+    public static final String ARTICLE_URL_PREFIX = "http://dl.acm.org/citation.cfm?doid=%s&preflayout=flat";
     public static final Pattern TITLE_PATTERN = Pattern.compile("<meta name=\"citation_title\" content=\"(.*?)\">");
     public static final Pattern YEAR_PATTERN = Pattern.compile("<meta name=\"citation_date\" content=\"(\\d){2}/(\\d){2}/((\\d){4})\">");
     public static final Pattern KEYWORD_PATTERN = Pattern.compile("<meta name=\"citation_keywords\" content=\"(.*?)\">");
@@ -86,7 +86,7 @@ public class ACM extends Website {
 
     @Override
     String constructUrlFromDoi(String doi) {
-        return String.format(ARTICLE_ABSTRACT_URL_PREFIX, doi);
+        return String.format(ARTICLE_URL_PREFIX, doi);
     }
 
 }
