@@ -4,6 +4,12 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * 
+ * Parser for GameStudies.
+ * @author Zhengxing Chen
+ *
+ */
 public class GameStudiesLib extends Website {
 
     public static final String ARTICLE_URL_PREFIX = "http://www.gamestudies.org/%s";
@@ -63,9 +69,6 @@ public class GameStudiesLib extends Website {
                 if (firstParaMatcher.find()) {
                     abstractString = firstParaMatcher.group(2);
                 }
-                
-                
-                
             }
         }
         // System.out.println(abstractString);

@@ -9,7 +9,13 @@ import io.metadata.orm.Paper;
 
 import java.io.IOException;
 
+/**
+ * Crawl Data for GameStudies.
+ * @author Zhengxing Chen
+ *
+ */
 public class GameStudies {
+    
     public static String[] dois = {
         
         // The commented-out block has irregular formats thus difficult to crawl.

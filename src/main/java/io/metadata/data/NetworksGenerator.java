@@ -25,7 +25,7 @@ import io.metadata.orm.Paper;
  */
 public class NetworksGenerator {
 
-    private final static String NETWORK_INPUT_FOLDER = "networks_input/";
+    private static final String NETWORK_INPUT_FOLDER = "networks_input/";
     
     public static void main(String[] args) throws IOException {
         // Connect to mongodb papers_clean
