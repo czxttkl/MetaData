@@ -97,7 +97,7 @@ public class Utils {
         return raw;
     }
 
-    public static String removeNewLine(String raw) {
+    public static String removeHttpNewLine(String raw) {
         raw = raw.replaceAll("\r", "");
         raw = raw.replaceAll("\n", "");
         return raw;

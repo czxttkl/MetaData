@@ -9,17 +9,6 @@ checkstyle {
     configFile = new File(rootDir, "checkstyle/checkstyle.xml")
 }
 
-jar {
-    manifest {
-        attributes 'Main-Class': 'io.metadata.download.CGames',
-                   'Implementation-Title': 'CGames',
-                   'Implementation-Version': version
-    }
-        from { 
-                configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } 
-        }
-}
-
 repositories {
     mavenCentral()
         
@@ -32,13 +21,7 @@ dependencies {
     compile 'commons-lang:commons-lang:2.6'
     compile 'org.mongodb:mongo-java-driver:2.12.3'
     compile 'org.jongo:jongo:1.1'
-}
-
-
-task(runGenomeStore, dependsOn: 'classes', type: JavaExec) {
-    main = 'io.metadata.download.CGames'
-
-    classpath = sourceSets.main.runtimeClasspath
+    compile 'org.jsoup:jsoup:1.7.3'
 }
 
 defaultTasks 'build'

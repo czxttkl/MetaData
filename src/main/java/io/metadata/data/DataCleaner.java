@@ -28,6 +28,7 @@ public class DataCleaner {
         
         for (Paper paper : allPapers) {
             if (!paper.validate()) {
+                // Ignore papers which are not valid.
                 /*System.out.println(paper.getId());
                 System.out.println(paper.getTitle());
                 System.out.println(paper.getAbstraction());
@@ -35,12 +36,13 @@ public class DataCleaner {
                 System.out.println();*/
             } else {
                 // Clean new lines (\r or \n) in title string and abstract string 
-                paper.setTitle(Utils.removeNewLine(paper.getTitle()));
+                paper.setTitle(HtmlStringCleaner.cleanByJsoup(paper.getTitle()));
+                
                 if (!Utils.nullOrEmpty(paper.getAbstraction())) {
-                    paper.setAbstraction(Utils.removeNewLine(paper.getAbstraction()));
+                    paper.setAbstraction(HtmlStringCleaner.cleanByJsoup(paper.getAbstraction()));
                 }
                 
-                // Extract keywords simply from paper titles
+                // In the absence of keywords, extract keywords simply from paper titles.
                 if (Utils.nullOrEmpty(paper.getKeywords())) {
                     paper.setKeywords(KeywordsExtractor.simpleExtract(paper.getTitle()));
                 }
