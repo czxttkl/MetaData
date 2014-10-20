@@ -81,6 +81,10 @@ public class FuturePlay {
                         paper.setTitle(tagContent);
                         mLogger.appendLine("title:" + tagContent);
                         break;
+                    case "subtitle":
+                        paper.setTitle(paper.getTitle() + tagContent);
+                        mLogger.appendLine("subtitle:" + tagContent);
+                        break;
                     case "par":
                         paper.setAbstraction(tagContent);
                         mLogger.appendLine("abstract:" + tagContent);

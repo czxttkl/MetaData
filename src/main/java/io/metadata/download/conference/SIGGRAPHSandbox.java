@@ -51,6 +51,7 @@ public class SIGGRAPHSandbox {
                 case XMLStreamConstants.START_ELEMENT:
                     // find new article
                     if (reader.getLocalName().equals("article_rec")) {
+                        mLogger.appendLine("");
                         // Initiates new paper instance
                         paper = new Paper().setVenue(VENUE).setVenueType(Globals.VENUE_TYPE_CONFERENCE);
                         keywords = "";
@@ -80,6 +81,10 @@ public class SIGGRAPHSandbox {
                     case "title":
                         paper.setTitle(tagContent);
                         mLogger.appendLine("title:" + tagContent);
+                        break;
+                    case "subtitle":
+                        paper.setTitle(paper.getTitle() + tagContent);
+                        mLogger.appendLine("subtitle:" + tagContent);
                         break;
                     case "par":
                         paper.setAbstraction(tagContent);
@@ -133,7 +138,6 @@ public class SIGGRAPHSandbox {
                         break;
                     }
 
-                    mLogger.appendLine("");
                     break;
 
                 } // switch
@@ -154,7 +158,7 @@ public class SIGGRAPHSandbox {
         
         // Initialize self-wrapped mongocollection
         MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
-        
+
         mPapersCollection.insert(papersArray);
         
     } // main
