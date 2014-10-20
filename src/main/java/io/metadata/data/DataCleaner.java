@@ -35,17 +35,27 @@ public class DataCleaner {
                 System.out.println(paper.getVenue());
                 System.out.println();*/
             } else {
-                // Clean new lines (\r or \n) in title string and abstract string 
-                paper.setTitle(HtmlStringCleaner.cleanByJsoup(paper.getTitle()));
+                // Remove http entities and accent letters in title, abstract and author string 
+                paper.setTitle(cleanHtmlString(paper.getTitle()));
                 
                 if (!Utils.nullOrEmpty(paper.getAbstraction())) {
-                    paper.setAbstraction(HtmlStringCleaner.cleanByJsoup(paper.getAbstraction()));
+                    paper.setAbstraction(cleanHtmlString(paper.getAbstraction()));
+                }
+                
+                for (int i = 0; i < paper.getAuthors().size(); i++) {
+                    String author = paper.getAuthors().get(i);
+                    paper.getAuthors().set(i, cleanHtmlString(author));
                 }
                 
                 // In the absence of keywords, extract keywords simply from paper titles.
                 if (Utils.nullOrEmpty(paper.getKeywords())) {
                     paper.setKeywords(KeywordsExtractor.simpleExtract(paper.getTitle()));
                 }
+                
+                for (int i = 0; i < paper.getKeywords().size(); i++) {
+                    String keyword = paper.getKeywords().get(i);
+                    paper.getKeywords().set(0, cleanHtmlString(keyword));
+                }    
                 
                 System.out.println("Insert paper:" + paper.getId() + "  keywords:" + Arrays.toString(paper.getKeywords().toArray()));
                 
@@ -61,5 +71,14 @@ public class DataCleaner {
         mPapersColCln.insert(cleanedPapersArr);
     }
     
-
+    /** Integrate several ways to clean html string */
+    public static String cleanHtmlString(String raw) {
+        //Remove http entities
+        String p = HtmlStringCleaner.cleanByJsoup(raw);
+        // Remove accent letters
+        p = HtmlStringCleaner.cleanByNormalizer(p);
+        // Convert to lower cases
+        p = p.toLowerCase();
+        return p;
+    }
 }

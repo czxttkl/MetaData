@@ -1,5 +1,7 @@
 package io.metadata.data;
 
+import java.text.Normalizer;
+
 import org.jsoup.Jsoup;
 
 /**
@@ -16,5 +18,11 @@ public class HtmlStringCleaner {
      */
     public static String cleanByJsoup(String raw) {
         return Jsoup.parse(raw).text();
+    }
+    
+    public static String cleanByNormalizer(String raw) {
+        String str = Normalizer.normalize(raw, Normalizer.Form.NFD);
+        str = str.replaceAll("\\p{M}", "");
+        return str;
     }
 }

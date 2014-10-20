@@ -62,6 +62,7 @@ public class DIGRALib extends Website {
     }
 
     @Override
+    /** Warning!! In digra library, the order of names is misleading!! */
     void setAuthors() {
         Matcher authorsMatcher = AUTHORS_PATTERN.matcher(htmlString);
         while (authorsMatcher.find()) {
