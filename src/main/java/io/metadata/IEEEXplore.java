@@ -80,6 +80,7 @@ public class IEEEXplore extends Website {
 
     @Override
     void setAuthors() {
+        System.out.println(htmlString);
         Matcher authorsMatcher = AUTHORS_PATTERN.matcher(htmlString);
         while (authorsMatcher.find()) {
             authorsString = authorsString + "," + authorsMatcher.group(1).replace(",", "");

@@ -444,22 +444,24 @@ public class CIG {
         4100132,
         4100136,
         4100139,
+        5035662
     };
     
     public static void main(String[] args) throws Exception {
         MetaDataFactory mMetaDataFactory = new MetaDataFactory();
         for (long doi : dois) {
             System.out.println(doi);
-            Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.IEEEXplore", doi);
+            Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.IEEEXplore1", doi);
             System.out.println(mWebsite.getTitle());
             System.out.println(mWebsite.getAbstract());
             System.out.println(mWebsite.getKeywords());
             System.out.println(mWebsite.getAuthors());
             System.out.println(mWebsite.getYear());
             System.out.println();
+            
             // Anti-robotics
-            Thread.sleep((long) (10000 + Math.random() * 10000));
-            System.out.println();
+            /*Thread.sleep((long) (10000 + Math.random() * 10000));
+            System.out.println();*/
         }
     }
 
