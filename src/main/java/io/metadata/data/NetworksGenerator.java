@@ -151,9 +151,28 @@ public class NetworksGenerator {
             System.out.println("year " + i + " network data generated");
         }
 
+        PrintWriter pwPaperId = new PrintWriter(new File(NETWORK_INPUT_FOLDER + "paperIdMap.txt"));
+        printMapToFile(pwPaperId, paperIdMap);
+        PrintWriter pwVenueId = new PrintWriter(new File(NETWORK_INPUT_FOLDER + "venueValueIdMap.txt"));
+        printMapToFile(pwVenueId, venueValueIdMap);
+        PrintWriter pwAuthorId = new PrintWriter(new File(NETWORK_INPUT_FOLDER + "authorValueIdMap.txt"));
+        printMapToFile(pwAuthorId, authorValueIdMap);
+        PrintWriter pwKeywordId = new PrintWriter(new File(NETWORK_INPUT_FOLDER + "keywordValueIdMap.txt"));
+        printMapToFile(pwKeywordId, keywordValueIdMap);
+        
+        
     } // main
     
     
+    private static void printMapToFile(PrintWriter pw, Map<String, Integer> keywordValueIdMap) {
+        for (String keyword : keywordValueIdMap.keySet()) {
+            pw.println(keywordValueIdMap.get(keyword) + ":" + keyword);
+        }
+        pw.flush();
+        pw.close();
+    }
+
+
     /** Construct String-Integer pairs map. The key is String value, the value is the index of the string value in List values. */
     public static Map<String, Integer> constructStringIdMap(List<String> values) {
         Map<String, Integer> valueIdMap = new HashMap<String, Integer>();

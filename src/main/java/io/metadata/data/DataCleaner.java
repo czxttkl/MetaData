@@ -47,9 +47,6 @@ public class DataCleaner {
                     paper.getAuthors().set(i, cleanHtmlString(author));
                 }
                 
-                if (paper.getId().equals("542a8c47ba4fc60620c4dff6")) {
-                    System.out.println("adsfadsfasdf");
-                }
                 // In the absence of keywords, extract keywords simply from paper titles.
                 if (Utils.nullOrEmpty(paper.getKeywords())) {
                     paper.setKeywords(KeywordsExtractor.simpleExtract(paper.getTitle()));
