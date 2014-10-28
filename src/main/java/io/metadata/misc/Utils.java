@@ -57,6 +57,10 @@ public class Utils {
         if (list == null) {
             return true;
         }
+        
+        if (list.size() == 0) {
+            return true;
+        }
 
         for (String str : list) {
             if (nullOrEmpty(str)) {

@@ -10,7 +10,8 @@ import org.jongo.marshall.jackson.oid.ObjectId;
 
 /**
  * Java Object for one document in MongoDB.metadata.papers collection.
- * @author Zhengxing Chen 
+ * 
+ * @author Zhengxing Chen
  */
 public class Paper {
     @Id
@@ -53,7 +54,7 @@ public class Paper {
         keywords = Arrays.asList(keyword);
         return this;
     }
-    
+
     public Paper setKeywords(List<String> keywords) {
         this.keywords = keywords;
         return this;
@@ -94,17 +95,17 @@ public class Paper {
     public String getId() {
         return key;
     }
-    
+
     public List<String> getKeywords() {
         return keywords;
     }
-    
+
     public List<String> getAuthors() {
         return authors;
     }
-    
+
     /**
-     * Validate if this paper instance has enough information: 1. title 2. year 3. venue 4. authors 5. abstract or keywords
+     * Validate if this paper instance has enough information: 1. title 2. year 3. venue 4. authors 5. abstract or keywords. Also look at validate1().
      * 
      * @return true if the instance has enough information
      */
@@ -117,7 +118,19 @@ public class Paper {
             return true;
         }
     }
-    
-    
+
+    /**
+     * Validate if this paper instance has enough information: 1. title 2. year 3. venue 4. authors. Also look at validate().
+     * 
+     * @return true if the instance has enough information
+     */
+    public boolean validate1() {
+        if (Utils.nullOrEmpty(title) || year == 0 || Utils.nullOrEmpty(venue)
+                || (authors == null ? true : (authors.get(0).trim().equals("") && authors.size() == 1))) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 
 }

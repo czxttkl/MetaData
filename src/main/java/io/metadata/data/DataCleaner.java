@@ -27,7 +27,7 @@ public class DataCleaner {
         MongoCursor<Paper> allPapers = mPapersColOrig.getCollection().find().as(Paper.class);
         
         for (Paper paper : allPapers) {
-            if (!paper.validate()) {
+            if (!paper.validate1()) {
                 // Ignore papers which are not valid.
                 /*System.out.println(paper.getId());
                 System.out.println(paper.getTitle());
@@ -47,6 +47,9 @@ public class DataCleaner {
                     paper.getAuthors().set(i, cleanHtmlString(author));
                 }
                 
+                if (paper.getId().equals("542a8c47ba4fc60620c4dff6")) {
+                    System.out.println("adsfadsfasdf");
+                }
                 // In the absence of keywords, extract keywords simply from paper titles.
                 if (Utils.nullOrEmpty(paper.getKeywords())) {
                     paper.setKeywords(KeywordsExtractor.simpleExtract(paper.getTitle()));
