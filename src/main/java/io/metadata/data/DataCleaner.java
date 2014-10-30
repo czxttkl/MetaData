@@ -35,7 +35,7 @@ public class DataCleaner {
                 System.out.println(paper.getVenue());
                 System.out.println();*/
             } else {
-                // Remove http entities and accent letters in title, abstract and author string 
+                // Remove http entities and accent letters in title, keywords, abstract and author string 
                 paper.setTitle(cleanHtmlString(paper.getTitle()));
                 
                 if (!Utils.nullOrEmpty(paper.getAbstraction())) {
@@ -50,6 +50,12 @@ public class DataCleaner {
                 // In the absence of keywords, extract keywords simply from paper titles.
                 if (Utils.nullOrEmpty(paper.getKeywords())) {
                     paper.setKeywords(KeywordsExtractor.simpleExtract(paper.getTitle()));
+                }
+                
+                // Also clean keyword list
+                List<String> kwList = paper.getKeywords();
+                for (int i = 0; i < kwList.size(); i++) {
+                    kwList.set(i, cleanHtmlString(kwList.get(i)));
                 }
                 
                 for (int i = 0; i < paper.getKeywords().size(); i++) {
@@ -79,6 +85,8 @@ public class DataCleaner {
         p = HtmlStringCleaner.cleanByNormalizer(p);
         // Convert to lower cases
         p = p.toLowerCase();
+        // Remove punctuations
+        p = p.replaceAll("\\p{P}", "");
         return p;
     }
 }

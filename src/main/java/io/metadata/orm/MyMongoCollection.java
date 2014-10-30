@@ -18,8 +18,8 @@ import org.jongo.MongoCollection;
  */
 public class MyMongoCollection<T> {
 
-    private static MongoCollection mCollection;
-    private static DB db;
+    private MongoCollection mCollection;
+    private DB db;
     
     @SuppressWarnings("unused")
     private MyMongoCollection() {
@@ -27,10 +27,10 @@ public class MyMongoCollection<T> {
     }
 
     public MyMongoCollection(String collectionName) {
-        new MyMongoCollection<T>(collectionName, Globals.MONGODB_DBNAME);
+        setCollection(collectionName, Globals.MONGODB_DBNAME);
     }
     
-    public MyMongoCollection(String collectionName, String dbName) {
+    private void setCollection(String collectionName, String dbName) {
         try {
             db = new MongoClient(Globals.MONGODB_SERVER_ADDR, Globals.MONGODB_PORT).getDB(dbName);
             Jongo jongo = new Jongo(db);
