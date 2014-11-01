@@ -86,7 +86,9 @@ public class DataCleaner {
         // Convert to lower cases
         p = p.toLowerCase();
         // Remove punctuations
-        p = p.replaceAll("\\p{P}", "");
+        p = p.replaceAll("\\p{P}", " ");
+        // Final trim()
+        p = p.trim();
         return p;
     }
 }
