@@ -2,6 +2,7 @@ package io.metadata.data;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 
 import org.jongo.MongoCursor;
@@ -49,19 +50,24 @@ public class DataCleaner {
                 
                 // In the absence of keywords, extract keywords simply from paper titles.
                 if (Utils.nullOrEmpty(paper.getKeywords())) {
+                    /*String keywordCandidate = paper.getTitle() + " ";
+                    if (!Utils.nullOrEmpty(paper.getAbstraction())) {
+                        keywordCandidate += paper.getAbstraction();
+                    }*/
                     paper.setKeywords(KeywordsExtractor.simpleExtract(paper.getTitle()));
                 }
                 
                 // Also clean keyword list
                 List<String> kwList = paper.getKeywords();
+                HashSet<String> keywordSet = new HashSet<String>();
                 for (int i = 0; i < kwList.size(); i++) {
-                    kwList.set(i, cleanHtmlString(kwList.get(i)));
+                    String cleanedKeyword = cleanHtmlString(kwList.get(i));
+                    PorterStemmer ps = new PorterStemmer();
+                    ps.add(cleanedKeyword.toCharArray(), cleanedKeyword.length());
+                    ps.stem();
+                    keywordSet.add(ps.toString());
                 }
-                
-                for (int i = 0; i < paper.getKeywords().size(); i++) {
-                    String keyword = paper.getKeywords().get(i);
-                    paper.getKeywords().set(0, cleanHtmlString(keyword));
-                }    
+                paper.setKeywords(new ArrayList<String>(keywordSet));
                 
                 System.out.println("Insert paper:" + paper.getId() + "  keywords:" + Arrays.toString(paper.getKeywords().toArray()));
                 

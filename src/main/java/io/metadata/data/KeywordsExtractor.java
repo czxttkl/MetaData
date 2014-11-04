@@ -48,19 +48,11 @@ public class KeywordsExtractor {
     /** Only split by \\W and keep words which are not stopwords. */
     public static List<String> simpleExtract(String raw) {
         HashSet<String> keywords = new HashSet<String>();
-        String[] words = raw.split("((\\W)+)");
+        String[] words = raw.split("[^a-zA-Z]+");
         for (String w : words) {
             // remove space
             w = w.trim();
-            
-            // Convert all characters to lower case
-            w = w.toLowerCase();
-            
-            // Remove 
-            if (w.endsWith("'s")) {
-                w = w.substring(0, w.length() - 2);
-            }
-            
+
             if (Utils.ifContains(stopwords, w)) {
                 continue;
             } else {
