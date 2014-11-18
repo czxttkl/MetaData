@@ -9,7 +9,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Crawl papers on IEEE. 
+ * Crawl papers on IEEE. This library is more advanced than IEEEXplore.class because it uses selenium to open IEBrowser.
  * Created by Zhengxing Chen.
  */
 public class IEEEXplore1 extends Website {

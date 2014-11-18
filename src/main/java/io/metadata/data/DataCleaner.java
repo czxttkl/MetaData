@@ -62,10 +62,17 @@ public class DataCleaner {
                 HashSet<String> keywordSet = new HashSet<String>();
                 for (int i = 0; i < kwList.size(); i++) {
                     String cleanedKeyword = cleanHtmlString(kwList.get(i));
-                    PorterStemmer ps = new PorterStemmer();
-                    ps.add(cleanedKeyword.toCharArray(), cleanedKeyword.length());
-                    ps.stem();
-                    keywordSet.add(ps.toString());
+                    String[] keywords = cleanedKeyword.split("[^a-zA-Z]+");
+                    for (String kw : keywords) {
+                        PorterStemmer ps = new PorterStemmer();
+                        ps.add(kw.toCharArray(), kw.length());
+                        ps.stem();
+                        String stemmedKw = ps.toString();
+                        if (stemmedKw.equals("game")) {
+                            continue;
+                        }
+                        keywordSet.add(stemmedKw);
+                    }
                 }
                 paper.setKeywords(new ArrayList<String>(keywordSet));
                 
