@@ -90,7 +90,7 @@ public class DataCleaner {
         mPapersColCln.insert(cleanedPapersArr);
     }
     
-    /** Integrate several ways to clean html string */
+    /** Integrate several ways to clean html string. */
     public static String cleanHtmlString(String raw) {
         //Remove http entities
         String p = HtmlStringCleaner.cleanByJsoup(raw);

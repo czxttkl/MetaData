@@ -69,7 +69,7 @@ public class KeywordsExtractor {
         return new ArrayList<String>(keywords);
     }
     
-    /** Test for ngrams extraction */
+    /** Test for ngrams extraction. */
     public static void main(String... args) {
         MyMongoCollection<Paper> mPapersColOrig = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
         MongoCursor<Paper> mPapers = mPapersColOrig.getCollection().find().as(Paper.class);

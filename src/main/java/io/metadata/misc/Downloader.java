@@ -14,7 +14,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 /**
  * 
- * Downloader that supports different levels of html rendering 
+ * Downloader that supports different levels of html rendering. 
  * @author Zhengxing Chen
  * 
  */
