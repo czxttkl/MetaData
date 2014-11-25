@@ -1,4 +1,4 @@
-package io.metadata.download.undone;
+package io.metadata.download.conference;
 
 import io.metadata.MetaDataFactory;
 import io.metadata.Website;
@@ -8,6 +8,7 @@ import io.metadata.orm.MyMongoCollection;
 import io.metadata.orm.Paper;
 
 /**
+ * Downloader for CIG.
  * @author Zhengxing Chen
  */
 public class CIG {
@@ -485,7 +486,7 @@ public class CIG {
             }
 
             // Anti-robotics
-            Thread.sleep((long) (Math.random() * 60000));
+            Thread.sleep((long) (Math.random() * 20000));
             System.out.println();
 
         }

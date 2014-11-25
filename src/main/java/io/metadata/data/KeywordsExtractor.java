@@ -1,10 +1,16 @@
 package io.metadata.data;
 
+import io.metadata.misc.Globals;
 import io.metadata.misc.Utils;
+import io.metadata.orm.MyMongoCollection;
+import io.metadata.orm.Paper;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
+
+import org.jongo.MongoCursor;
 
 /**
  * This class is used to extract keywords from string.
@@ -62,4 +68,28 @@ public class KeywordsExtractor {
         
         return new ArrayList<String>(keywords);
     }
+    
+    /** Test for ngrams extraction */
+    public static void main(String... args) {
+        MyMongoCollection<Paper> mPapersColOrig = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
+        MongoCursor<Paper> mPapers = mPapersColOrig.getCollection().find().as(Paper.class);
+//        Set<String> oneGrams = new HashSet<String>();
+        Set<String> twoGrams = new HashSet<String>();
+        
+        for (Paper mPaper : mPapers) {
+//            oneGrams.addAll(Ngram.ngramSet(1, mPaper.getTitle()));
+            twoGrams.addAll(Ngram.ngramSet(2, mPaper.getTitle()));
+            /*if (!Utils.nullOrEmpty(mPaper.getAbstraction())) {
+                oneGrams.addAll(Ngram.ngramSet(1, mPaper.getAbstraction()));
+                twoGrams.addAll(Ngram.ngramSet(2, mPaper.getAbstraction()));
+            }*/
+        }
+        
+//      System.out.println(oneGrams);
+        System.out.println(twoGrams.size());
+        System.out.println(twoGrams);
+        
+        
+    }
+    
 }

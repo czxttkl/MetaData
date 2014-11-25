@@ -19,7 +19,8 @@ public class IEEEXplore1 extends Website {
     public static final Pattern TITLE_PATTERN = Pattern.compile("<div class=\"text\">([\\s\\S]*?)<h1>([\\s\\S]*?)</h1>");
     public static final Pattern AUTHORS_PATTERN = Pattern.compile("searchWithin=p_Authors([\\s\\S]*?)>([\\s\\S]*?)</a>");
     public static final Pattern YEAR_PATTERN = Pattern.compile("<dd><span class=\"dt_date\" id=\"dt_conf_date\"([\\s\\S]*?)((\\d){4})</a></span></dd>");
-
+    public static final Pattern YEAR_PATTERN1 = Pattern.compile("(\\d{4})\\.(\\d{7})");
+    
     public IEEEXplore1(String doi) throws IOException {
         super(doi);
     }
@@ -67,15 +68,20 @@ public class IEEEXplore1 extends Website {
     @Override
     void setYears() {
         Matcher yearMatcher = YEAR_PATTERN.matcher(htmlString);
+        // Possibly can't find year information in this pattern.
         if (yearMatcher.find()) {
             yearString = yearMatcher.group(2);
+        } else {
+            Matcher yearMatcher1 = YEAR_PATTERN1.matcher(htmlString);
+            if (yearMatcher1.find()) {
+                yearString = yearMatcher1.group(1);
+            }
         }
     }
 
     @Override
     void setAuthors() {
         Matcher authorsMatcher = AUTHORS_PATTERN.matcher(htmlString);
-//        System.out.println(htmlString);
         String firstAuthor = "";
         while (authorsMatcher.find()) {
             String author = authorsMatcher.group(2).trim();
