@@ -49,36 +49,32 @@ public class DataCleaner {
                 }
                 
                 // In the absence of keywords, extract keywords simply from paper titles.
-                if (Utils.nullOrEmpty(paper.getKeywords())) {
-                    /*String keywordCandidate = paper.getTitle() + " ";
-                    if (!Utils.nullOrEmpty(paper.getAbstraction())) {
-                        keywordCandidate += paper.getAbstraction();
-                    }*/
-                    paper.setKeywords(KeywordsExtractor.simpleExtract(paper.getTitle()));
-                }
+//                if (Utils.nullOrEmpty(paper.getKeywords())) {
+//                    paper.setKeywords(KeywordsExtractor.simpleExtract(paper.getTitle()));
+//                }
                 
                 // Also clean keyword list
                 List<String> kwList = paper.getKeywords();
-                HashSet<String> keywordSet = new HashSet<String>();
-                for (int i = 0; i < kwList.size(); i++) {
-                    String cleanedKeyword = cleanHtmlString(kwList.get(i));
-                    String[] keywords = cleanedKeyword.split("[^a-zA-Z]+");
-                    for (String kw : keywords) {
-                        PorterStemmer ps = new PorterStemmer();
-                        ps.add(kw.toCharArray(), kw.length());
-                        ps.stem();
-                        String stemmedKw = ps.toString();
-                        if (stemmedKw.equals("game")) {
-                            continue;
-                        }
-                        keywordSet.add(stemmedKw);
+                if (!Utils.nullOrEmpty(kwList)) {
+                    HashSet<String> keywordSet = new HashSet<String>();
+                    for (int i = 0; i < kwList.size(); i++) {
+                        String cleanedKeyword = cleanHtmlString(kwList.get(i));
+//                    String[] keywords = cleanedKeyword.split("[^a-zA-Z]+");
+//                    String stemmedKeyword = "";
+//                    for (String kw : keywords) {
+//                        PorterStemmer ps = new PorterStemmer();
+//                        ps.add(kw.toCharArray(), kw.length());
+//                        ps.stem();
+//                        String stemmedKw = ps.toString();
+//                        stemmedKeyword
+//                    }
+                        keywordSet.add(cleanedKeyword);
                     }
+                    paper.setKeywords(new ArrayList<String>(keywordSet));
                 }
-                paper.setKeywords(new ArrayList<String>(keywordSet));
-                
-                System.out.println("Insert paper:" + paper.getId() + "  keywords:" + Arrays.toString(paper.getKeywords().toArray()));
                 
                 // Add to the cleanedPaper list
+//                System.out.println("Insert paper:" + paper.getId() + "  keywords:" + Arrays.toString(paper.getKeywords().toArray()));
                 cleanedPapers.add(paper);
             }
         }

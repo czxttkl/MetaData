@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashSet;
@@ -184,6 +185,12 @@ public class Utils {
                 map.put(key, new MutableInt());
             } else {
                 count.increment();
+            }
+        }
+        
+        public void addCount(Collection<String> c) {
+            for (String key : c) {
+                addCount(key);
             }
         }
 

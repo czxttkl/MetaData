@@ -2,13 +2,18 @@ package io.metadata.data;
 
 import io.metadata.misc.Globals;
 import io.metadata.misc.Utils;
+import io.metadata.misc.Utils.MutableInt;
 import io.metadata.orm.MyMongoCollection;
 import io.metadata.orm.Paper;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.Map.Entry;
 
 import org.jongo.MongoCursor;
 
@@ -69,26 +74,65 @@ public class KeywordsExtractor {
         return new ArrayList<String>(keywords);
     }
     
-    /** Test for ngrams extraction. */
-    public static void main(String... args) {
+    /** Test for ngrams extraction. 
+     * @throws FileNotFoundException */
+    public static void main(String... args) throws FileNotFoundException {
         MyMongoCollection<Paper> mPapersColOrig = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
         MongoCursor<Paper> mPapers = mPapersColOrig.getCollection().find().as(Paper.class);
-//        Set<String> oneGrams = new HashSet<String>();
-        Set<String> twoGrams = new HashSet<String>();
+        Utils.KeyCountMap keywordCntMap = new Utils.KeyCountMap();
         
         for (Paper mPaper : mPapers) {
-//            oneGrams.addAll(Ngram.ngramSet(1, mPaper.getTitle()));
-            twoGrams.addAll(Ngram.ngramSet(2, mPaper.getTitle()));
-            /*if (!Utils.nullOrEmpty(mPaper.getAbstraction())) {
-                oneGrams.addAll(Ngram.ngramSet(1, mPaper.getAbstraction()));
-                twoGrams.addAll(Ngram.ngramSet(2, mPaper.getAbstraction()));
-            }*/
+            // A keyword only counts once within one paper.
+            Set<String> paperKeywords = new HashSet<String>();
+            
+            // Add existing keywords
+            if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
+                for (String keyword : mPaper.getKeywords()) {
+                    paperKeywords.add(keyword);
+                }
+            }
+
+            // Add 2grams in titles
+            for (String twoGram : Ngram.ngramSet(2, mPaper.getTitle(), "[^a-zA-Z0-9]+")) {
+                paperKeywords.add(twoGram);
+            }
+            
+            // Add 2grams in abstract
+            if (!Utils.nullOrEmpty(mPaper.getAbstraction())) {
+                for (String twoGram : Ngram.ngramSet(2, mPaper.getAbstraction(), "[^a-zA-Z0-9]+")) {
+                    paperKeywords.add(twoGram);
+                }
+            }
+
+            keywordCntMap.addCount(paperKeywords);
         }
         
-//      System.out.println(oneGrams);
-        System.out.println(twoGrams.size());
-        System.out.println(twoGrams);
-        
+        // Save to the file.
+        PrintWriter pw = new PrintWriter(new File("keywords_raw.txt"));
+        for (Entry<String, MutableInt> entry : keywordCntMap.entrySet()) {
+            // if a keyword contains at least one stopword, skip saving it.
+            String[] keywords = entry.getKey().split("[^a-zA-Z0-9]");
+            boolean skip = false;
+            for (String keyword : keywords) {
+                if (Utils.ifContains(stopwords, keyword)) {
+                    skip = true;
+                }
+            }
+            
+            if (skip) {
+                continue;
+            }
+
+            // if a keyword appears only one time, skip saving it.
+            if (entry.getValue().get() <= 1) {
+                continue;
+            }
+            
+            
+            pw.println(entry.getKey() + ":" + entry.getValue().get());
+        }
+        pw.flush();
+        pw.close();
         
     }
     
