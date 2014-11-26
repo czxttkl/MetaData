@@ -1,9 +1,11 @@
 package io.metadata.test;
 
+import java.util.HashMap;
 import java.util.Set;
 
 import io.metadata.data.Ngram;
 import io.metadata.data.PorterStemmer;
+import io.metadata.misc.Utils.KeyCountMap;
 
 /**
  * Test anything you want within the project.
@@ -11,12 +13,7 @@ import io.metadata.data.PorterStemmer;
  */
 public class Test {
 
-    public static void main(String[] args) {
-        String kw = "symbolic interaction";
-        PorterStemmer ps = new PorterStemmer();
-        ps.add(kw.toCharArray(), kw.length());
-        ps.stem();
-        System.out.println(ps.toString());
+    public static void main(String[] args) throws InstantiationException, IllegalAccessException {
     }
 
 }

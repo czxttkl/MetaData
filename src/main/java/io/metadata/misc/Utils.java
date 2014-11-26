@@ -179,6 +179,15 @@ public class Utils {
 
         private Map<String, MutableInt> map = new LinkedHashMap<String, MutableInt>();
 
+        public KeyCountMap() {
+            
+        }
+        
+        @SuppressWarnings({ "unchecked", "rawtypes" })
+        public KeyCountMap(Class<? extends Map> mapType) throws InstantiationException, IllegalAccessException {
+            map = mapType.newInstance();
+        }
+        
         public void addCount(String key) {
             MutableInt count = map.get(key);
             if (count == null) {
@@ -198,6 +207,10 @@ public class Utils {
             map.put(key, mi);
         }
         
+        public void remove(String key) {
+            map.remove(key);
+        }
+        
         public Integer get(String key) {
             return map.get(key).get();
         }
@@ -208,6 +221,10 @@ public class Utils {
         
         public Set<Entry<String, MutableInt>> entrySet() {
             return map.entrySet();
+        }
+        
+        public boolean contains(String key) {
+            return map.get(key) != null;
         }
     }
 

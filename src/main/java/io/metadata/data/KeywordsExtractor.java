@@ -14,6 +14,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.Map.Entry;
+import java.util.TreeMap;
 
 import org.jongo.MongoCursor;
 
@@ -75,11 +76,13 @@ public class KeywordsExtractor {
     }
     
     /** Test for ngrams extraction. 
-     * @throws FileNotFoundException */
-    public static void main(String... args) throws FileNotFoundException {
+     * @throws FileNotFoundException 
+     * @throws IllegalAccessException 
+     * @throws InstantiationException */
+    public static void main(String... args) throws FileNotFoundException, InstantiationException, IllegalAccessException {
         MyMongoCollection<Paper> mPapersColOrig = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
         MongoCursor<Paper> mPapers = mPapersColOrig.getCollection().find().as(Paper.class);
-        Utils.KeyCountMap keywordCntMap = new Utils.KeyCountMap();
+        Utils.KeyCountMap keywordCntMap = new Utils.KeyCountMap(TreeMap.class);
         
         for (Paper mPaper : mPapers) {
             // A keyword only counts once within one paper.
@@ -112,27 +115,55 @@ public class KeywordsExtractor {
         for (Entry<String, MutableInt> entry : keywordCntMap.entrySet()) {
             // if a keyword contains at least one stopword, skip saving it.
             String[] keywords = entry.getKey().split("[^a-zA-Z0-9]");
-            boolean skip = false;
             for (String keyword : keywords) {
                 if (Utils.ifContains(stopwords, keyword)) {
-                    skip = true;
+                    keywordCntMap.put(entry.getKey(), new MutableInt());
+                    break;
                 }
             }
             
-            if (skip) {
-                continue;
-            }
-
-            // if a keyword appears only one time, skip saving it.
+            // if a keyword appears only one time or contains stopword in it, skip saving it.
             if (entry.getValue().get() <= 1) {
                 continue;
             }
-            
             
             pw.println(entry.getKey() + ":" + entry.getValue().get());
         }
         pw.flush();
         pw.close();
+        
+        // check how many papers can't be labelled keyword.
+        mPapers = mPapersColOrig.getCollection().find().as(Paper.class);
+        for (Paper mPaper : mPapers) {
+            // skip the papers which already have keywords.
+            if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
+                continue;
+            }
+            
+            mPaper.setKeywords(new ArrayList<String>());
+            for (String kw : Ngram.ngramSet(2, mPaper.getTitle(), "[^a-zA-Z0-9]+")) {
+                if (keywordCntMap.contains(kw) && keywordCntMap.get(kw) > 1) {
+                    mPaper.getKeywords().add(kw);
+                }
+            }
+
+            if (!Utils.nullOrEmpty(mPaper.getAbstraction())) {
+                for (String kw : Ngram.ngramSet(2, mPaper.getAbstraction(), "[^a-zA-Z0-9]+")) {
+                    if (keywordCntMap.contains(kw) && keywordCntMap.get(kw) > 1) {
+                        mPaper.getKeywords().add(kw);
+                    }
+                }
+            }
+            
+            if (Utils.nullOrEmpty(mPaper.getKeywords())) {
+                System.err.println(mPaper.getId() + ":" + mPaper.getTitle());
+            } else {
+//                System.out.println(mPaper.getId() + ":" + mPaper.getKeywords());
+            }
+            
+        }
+        
+        
         
     }
     
