@@ -146,7 +146,7 @@ public class IGIC {
  
     };
 
-public static final String VENUE = "IGIC";
+    public static final String VENUE = "IGIC";
     
     public static void main(String[] args) throws Exception {
         // Initialize logger
