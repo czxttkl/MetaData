@@ -83,7 +83,7 @@ public class SIGGRAPHSandbox {
                         mLogger.appendLine("title:" + tagContent);
                         break;
                     case "subtitle":
-                        paper.setTitle(paper.getTitle() + tagContent);
+                        paper.setTitle(paper.getTitle() + " " + tagContent);
                         mLogger.appendLine("subtitle:" + tagContent);
                         break;
                     case "par":
