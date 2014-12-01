@@ -156,10 +156,9 @@ public class KeywordsExtractor {
             }
             
             if (Utils.nullOrEmpty(mPaper.getKeywords())) {
-                System.err.println(mPaper.getId() + ":" + mPaper.getTitle());
-            } else {
-//                System.out.println(mPaper.getId() + ":" + mPaper.getKeywords());
-            }
+                System.err.println(/*mPaper.getId() + */"Title:" + mPaper.getTitle() + "\nVenue:" + mPaper.getVenue() + "  \nAbstract:" + mPaper.getAbstraction() + "\n\n");
+//                System.err.println(Ngram.ngramSet(2, mPaper.getTitle(), "[^a-zA-Z0-9]+"));
+            } 
             
         }
         

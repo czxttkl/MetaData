@@ -97,7 +97,7 @@ public class DataCleaner {
         // Remove punctuations
         p = p.replaceAll("\\p{P}", " ");
         // Final trim()
-        p = p.trim();
+        p = p.trim().replaceAll(" +", " ");
         return p;
     }
 }
