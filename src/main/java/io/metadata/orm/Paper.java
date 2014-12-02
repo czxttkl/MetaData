@@ -103,6 +103,10 @@ public class Paper {
     public List<String> getAuthors() {
         return authors;
     }
+    
+    public long getYear() {
+        return year;
+    }
 
     /**
      * Validate if this paper instance has enough information: 1. title 2. year 3. venue 4. authors 5. abstract or keywords. Also look at validate1().
