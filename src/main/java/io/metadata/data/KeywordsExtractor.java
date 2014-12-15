@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -56,6 +57,36 @@ public class KeywordsExtractor {
             "contact", "grounds", "buyers", "tried", "said,", "plan", "value", "principle.", "forces", "sent:", "is,", "was", "like",
             "discussion", "tmus", "diffrent.", "layout", "area.", "thanks", "thankyou", "hello", "bye", "rise", "fell", "fall", "psqft.",
             "http://", "km", "miles" };
+    
+    private static String[] commonwords = {
+        "aaai", "paper","result", "results", "experiment", "experiments","experimental",
+        "world", "method", "approach", "case", "et", "al", "low", "high",
+        "large","small","new", "old", "big", "tiny","use", "using", "exact",
+        "common","commonly","year","years","approaches",
+        "experimental results","paper presents","real world",
+        "proposed method", "paper proposes", "paper describes",
+        "case study", "proposed approach","case study","high performance",
+        "widely used", "et al", "recent years", "based approach",
+        "high quality","previous work","new approach","proposed algorithm",
+        "results demonstrate","paper introduces","novel approach",
+        "computer science","results indicate","case studies","different types",
+        "new method","commonly used", "algorithm based", "results obtained",
+        "wide variety","new algorithm", "existing methods", "results suggest",
+        "approach based", "proposed model","previous approaches","recently proposed",
+        "significant improvement","based method","based system",
+        "efficient algorithm", "systems using", "numerical results","data set", "data sets",
+        "original article", "minimum number","paper investigates",
+        "large numbers", "al 2000", "al 2001", "al 2002", "al 2003", "al 2004", "al 2005",
+        "al 2006", "al 2007", "al 2008", "al 2009", "al 2010", "al 2011", "al 2012", "al 2013",
+        "al 1999", "al 1998", "al 1997", "al 1996", "al 1995", "al 1994", "al 1993", "al 1992",
+        "al 1991", "al 1990", "al 1971", "al 1988", "al 16", "al 17", "al 1981", "al 1974", 
+        "results showed", "future research", "simulation results", 
+        "wide range","long term", "approach provides"
+    };
+    
+    
+    private static HashSet<String> stopwordSet = new HashSet<String>(Arrays.asList(stopwords));
+    private static HashSet<String> commonwordSet = new HashSet<String>(Arrays.asList(commonwords));
 
     /** Only split by \\W and keep words which are not stopwords. */
     public static List<String> simpleExtract(String raw) {
@@ -96,13 +127,16 @@ public class KeywordsExtractor {
             }
 
             // Add 2grams in titles
-            for (String twoGram : Ngram.ngramSet(2, mPaper.getTitle(), "[^a-zA-Z0-9]+")) {
+            for (String twoGram : Ngram.ngramSet(2, mPaper.getTitle(), "[^a-zA-Z0-9]+", true)) {
+                if (twoGram.equals("academic sports")) {
+                    System.err.println(twoGram);
+                }
                 paperKeywords.add(twoGram);
             }
             
             // Add 2grams in abstract
             if (!Utils.nullOrEmpty(mPaper.getAbstraction())) {
-                for (String twoGram : Ngram.ngramSet(2, mPaper.getAbstraction(), "[^a-zA-Z0-9]+")) {
+                for (String twoGram : Ngram.ngramSet(2, mPaper.getAbstraction(), "[^a-zA-Z0-9]+", true)) {
                     paperKeywords.add(twoGram);
                 }
             }
@@ -116,10 +150,15 @@ public class KeywordsExtractor {
             // if a keyword contains at least one stopword, skip saving it.
             String[] keywords = entry.getKey().split("[^a-zA-Z0-9]");
             for (String keyword : keywords) {
-                if (Utils.ifContains(stopwords, keyword)) {
+                if (stopwordSet.contains(keyword) || commonwordSet.contains(keyword)) {
                     keywordCntMap.put(entry.getKey(), new MutableInt());
                     break;
                 }
+            }
+            
+            // if whole keyword contains common words, also skip it
+            if (commonwordSet.contains(entry.getKey())) {
+                keywordCntMap.put(entry.getKey(), new MutableInt());
             }
             
             // if a keyword appears only one time or contains stopword in it, skip saving it.
@@ -141,14 +180,14 @@ public class KeywordsExtractor {
             }
             
             mPaper.setKeywords(new ArrayList<String>());
-            for (String kw : Ngram.ngramSet(2, mPaper.getTitle(), "[^a-zA-Z0-9]+")) {
+            for (String kw : Ngram.ngramSet(2, mPaper.getTitle(), "[^a-zA-Z0-9]+", true)) {
                 if (keywordCntMap.contains(kw) && keywordCntMap.get(kw) > 1) {
                     mPaper.getKeywords().add(kw);
                 }
             }
 
             if (!Utils.nullOrEmpty(mPaper.getAbstraction())) {
-                for (String kw : Ngram.ngramSet(2, mPaper.getAbstraction(), "[^a-zA-Z0-9]+")) {
+                for (String kw : Ngram.ngramSet(2, mPaper.getAbstraction(), "[^a-zA-Z0-9]+", true)) {
                     if (keywordCntMap.contains(kw) && keywordCntMap.get(kw) > 1) {
                         mPaper.getKeywords().add(kw);
                     }

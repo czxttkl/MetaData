@@ -1,5 +1,6 @@
 package io.metadata.orm;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -26,7 +27,8 @@ public class Paper {
     long year = 0;
     String venue;
     String venuetype = "conference";
-
+    
+    
     /*
      * public Paper(String titleString, String abstractString, String keywordsString, String authorsString, String yearString, String venueString) {
      * 
