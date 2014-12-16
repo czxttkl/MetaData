@@ -54,7 +54,7 @@ public class Utils {
     }
 
     /** If the strings contained in the list are either null or empty.     */
-    public static boolean nullOrEmpty(List<String> list) {
+    public static boolean nullOrEmpty(Collection<String> list) {
         if (list == null) {
             return true;
         }

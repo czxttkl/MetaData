@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.jongo.MongoCursor;
 
@@ -54,11 +55,11 @@ public class DataCleaner {
 //                }
                 
                 // Also clean keyword list
-                List<String> kwList = paper.getKeywords();
+                Set<String> kwList = paper.getKeywords();
                 if (!Utils.nullOrEmpty(kwList)) {
                     HashSet<String> keywordSet = new HashSet<String>();
-                    for (int i = 0; i < kwList.size(); i++) {
-                        String cleanedKeyword = cleanHtmlString(kwList.get(i));
+                    for (String keywordStr : kwList) {
+                        String cleanedKeyword = cleanHtmlString(keywordStr);
 //                    String[] keywords = cleanedKeyword.split("[^a-zA-Z]+");
 //                    String stemmedKeyword = "";
 //                    for (String kw : keywords) {
@@ -70,7 +71,7 @@ public class DataCleaner {
 //                    }
                         keywordSet.add(cleanedKeyword);
                     }
-                    paper.setKeywords(new ArrayList<String>(keywordSet));
+                    paper.setKeywords(keywordSet);
                 }
                 
                 // Add to the cleanedPaper list

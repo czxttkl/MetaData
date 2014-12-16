@@ -2,7 +2,9 @@ package io.metadata.orm;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import io.metadata.misc.Utils;
 
@@ -20,7 +22,7 @@ public class Paper {
     private String key;
 
     List<String> authors;
-    List<String> keywords;
+    Set<String> keywords;
 
     String title;
     String abstraction;
@@ -53,11 +55,11 @@ public class Paper {
 
     public Paper setKeywords(String keywordsString) {
         String[] keyword = keywordsString.split(",");
-        keywords = Arrays.asList(keyword);
+        keywords = new HashSet<String>(Arrays.asList(keyword));
         return this;
     }
 
-    public Paper setKeywords(List<String> keywords) {
+    public Paper setKeywords(HashSet<String> keywords) {
         this.keywords = keywords;
         return this;
     }
@@ -98,7 +100,7 @@ public class Paper {
         return key;
     }
 
-    public List<String> getKeywords() {
+    public Set<String> getKeywords() {
         return keywords;
     }
 

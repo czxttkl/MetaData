@@ -16,23 +16,13 @@ public class Ngram {
 
     /** use " " as default delimiter. */
     public static Set<String> ngramSet(int n, String str) {
-        return ngramSet(n, str, " ", false);
+        return ngramSet(n, str, " ");
     }
 
-    public static Set<String> ngramSet(int n, String str, String delimiter, boolean cleanPlural) {
+    public static Set<String> ngramSet(int n, String str, String delimiter) {
         Set<String> ngrams = new HashSet<String>();
-        if (cleanPlural) {
-            str.replaceAll("[^a-zA-Z0-9]+s[^a-zA-Z0-9]+", " ");
-        }
+        
         List<String> words = new LinkedList<String>(Arrays.asList(str.split(delimiter)));
-
-        if (cleanPlural) {
-            for (int i = 0; i < words.size(); i++) {
-                if (words.get(i).endsWith("s")) {
-                    words.set(i, words.get(i).substring(0, words.get(i).length() - 1));
-                }
-            }
-        }
         
         for (int i = 0; i < words.size() - n + 1; i++) {
             ngrams.add(concat(words, i, i + n));
