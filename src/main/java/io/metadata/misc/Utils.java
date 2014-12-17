@@ -184,8 +184,14 @@ public class Utils {
         }
         
         @SuppressWarnings({ "unchecked", "rawtypes" })
-        public KeyCountMap(Class<? extends Map> mapType) throws InstantiationException, IllegalAccessException {
-            map = mapType.newInstance();
+        public KeyCountMap(Class<? extends Map> mapType) {
+            try {
+                map = mapType.newInstance();
+            } catch (InstantiationException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
         }
         
         public void addCount(String key) {

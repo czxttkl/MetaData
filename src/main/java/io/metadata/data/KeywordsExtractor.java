@@ -14,7 +14,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Set;
 import java.util.Map.Entry;
@@ -35,11 +34,11 @@ public class KeywordsExtractor {
             "and", "another", "any", "anyhow", "anyone", "anything", "anyway", "anywhere", "are", "around", "as", "at", "back", "be",
             "became", "because", "become", "becomes", "becoming", "been", "before", "beforehand", "behind", "being", "below", "beside",
             "besides", "between", "beyond", "bill", "both", "bottom", "but", "by", "call", "can", "cannot", "cant", "co", "con", "could",
-            "couldnt", "cry", "de", "describe", "detail", "do", "doe", "does", "done", "down", "due", "during", "each", "eg", "eight",
+            "couldnt", "cry", "de", "describe", "despite", "detail", "do", "did", "doe", "does", "done", "down", "due", "during", "each", "eg", "eight",
             "either", "eleven", "else", "elsewhere", "empty", "enough", "etc", "even", "ever", "every", "everyone", "everything",
             "everywhere", "except", "few", "fifteen", "fify", "fill", "find", "fire", "first", "five", "for", "former", "formerly",
             "forty", "found", "four", "from", "front", "full", "further", "get", "give", "go", "had", "has", "hasnt", "have", "having",
-            "he", "hence", "her", "here", "hereafter", "hereby", "herein", "hereupon", "hers", "herself", "him", "himself", "his", "how",
+            "he", "hence", "her", "here", "hereafter", "hereby", "herein", "hereupon", "hers", "herself", "him", "himself", "his", "hitherto", "how",
             "however", "hundred", "ie", "if", "in", "inc", "indeed", "interest", "into", "is", "it", "its", "itself", "keep", "last",
             "latter", "latterly", "least", "less", "ltd", "made", "many", "may", "me", "meanwhile", "might", "mill", "mine", "more",
             "moreover", "most", "mostly", "move", "much", "must", "my", "myself", "name", "namely", "neither", "never", "nevertheless",
@@ -62,39 +61,75 @@ public class KeywordsExtractor {
             "sent:", "is,", "was", "like", "discussion", "tmus", "diffrent.", "layout", "area.", "thanks", "thankyou", "hello", "bye",
             "rise", "fell", "fall", "psqft.", "http://", "km", "miles", "wa", "thi", "thu" };
 
-    private static String[] commonwords = { "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011",
-            "2012", "2013", "2014", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "acm", "aaai",
-            "approach", "approache", "al", "algorithm", "article", "according", "addresse", "address", "addressing",
+    /** Common words that shouldn't appear in 1grams. */
+    private static String[] commonword1Gram = {
+        "analysi", "application", "assessment", "association", "affect", "architecture", "appropriation",
+        "agent", "agency",
+        "benefit", "book", "balance", "busines",
+        "cost", "control", "computer", "competition", "conference", "change", "character", "complexity",
+        "content", "context", "cooperation", "culture",
+        "definition", "digital", "display", "diversity", "death",
+        "enjoyment", "entertainment", "environment", "engineering", "experience",
+        
+        "framework", "fan", "fun", 
+        "game", "gaming", "gamer", "gameplay", "guideline", "generation", "global",
+        "high", "human",
+        "installation", "industry", "information", "interaction", "interactive", "internet",
+        "low", "language", "learning",
+        "media", "material", "modelling", "modeling", "mapping", "magic",
+        "network",
+        "play", "proces", "player", "pleasure", "power", "protocal", "pattern", "practice",
+        "perspective", "production", "philosophy", "prototype",
+        "questionnaire",
+        
+        "representation", "relationship", "reading", "role", "rule", "road",
+        "scale", "survey", "standard", "space", "software", "skill", "sense", "shape", "schema",
+        "story",
+        "science",
+        "sound", "search",
+        "technique", "time", "tool", "theory", "technology", "taeching", "text",
+        "uncertainty", "vector",
+        "video", "virtual",
+        "writing",
+    };
+    
+    /** Common words that shouldn't appear in 2grams as well as in 1grams. */
+    private static String[] commonword2Gram = {
+            "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011",
+            "2012", "2013", "2014", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", 
+            "acm", "aaai", "approach", "approache", "al", "algorithm", "article", "according", "addresse", "address", "addressing",
             "academic", "accept", "accepted",
             "acceptance", "achieve", "achievement", "achieving", "achieved", "available", "adopt", "adoption", "adopted", "assume",
             "assumption", "approximately", "approximate", "appropriate", "apply", "applying", "applied", "aim", "aimed", "aiming",
-            "alternate", "alternative", "alternatively", "allow", "allowing", "allowed", "add", "added", "adding", "actual", "accurate",
-            "accuracy", "accurately", "abstract", "author", "automatically", "average", "aware", "avoid", "avoided", "avoiding",
-            "acquire", "acquired", "acquiring",
+            "alternate", "alternative", "alternatively", "allow", "allowing", "allowed", "add", "added", "adding", 
+            "actual", "actually", "accurate", "accuracy", "accurately", "abstract", "author", "automatically", "average", "aware", 
+            "avoid", "avoided", "avoiding",
+            "acquire", "acquired", "acquiring", "additional", "additionally",
 
-            "big", "bigger", "biggest", "base", "based", "better", "best", "basic", "basically", "basis", "brief", "briefly", "begin", 
+            "big", "bigger", "biggest", "base", "based", "better", "best", "basic", "basically", "brief", "briefly", "begin", 
             "build", "built", "building", "broad", "broader", "broardly", "begun", "began", "beginning", "break", "breaking",
 
             "create", "creating", "created", "correct", "correctly", "common", "commonly", "current", "currently", "combining", "case",
             "computer science", "call", "called", "challenge", "challenging", "carefully", "contain", "contained", "containing",
             "consider", "considering", "considered", "certain", "certainly", "conclude", "concluded", "cause", "caused", "causing",
-            "changing", "century", "choose", "choosing", "chosen", "compare", 
+            "changing", "century", "choose", "choosing", "chosen", "compare", "computer games",
 
             "day", "define", "defined", "defining", "discus", "discussed", "directly", "describe", "demonstrate", "difficult",
-            "difficulty", "difficultie", "different", "data set", "data sets", "design", "designed", "designing", 
+            "difficulty", "difficultie", "different", "data set", "data sets", "design", "designed", "designing", "doctoral",
             "develop", "developed", "developing", "development", "dramatic", "dramatically", "drastically", "decrease", "decreased", "decreasing",
-
+            
             "exact", "experiment", "experiments", "experimental", "et", "existing", "efficient", "efficiently", "enable", "enabled",
             "enabling", "encourage", "encouraging", "extremely", "example", "evaluate", "evaluating", "evaluation", "essential",
             "essentially", "especial", "especially", "eqaully", "entire", "entirely", "enhance", "enhanced", "enhancing", "effective",
             "easy", "easily", "easier", "early", "explained", "explanation", "explain", "exploit", "exploitation", "explored", "explore",
-            "exploring", "exploration", "explosive", "explosion", "explosive", "exponential", "exponentially", "error",
+            "exploring", "exploration", "explosive", "explosion", "explosive", "exponential", "exponentially", "error", 
+            "employ", "employed",
 
             "future", "fully", "follow", "following", "finding", "finally", "find", "final", "fast", "faster", "facilitate",
             "facilitating", "facilitated", "facilitation", "furthermore", "good", "great", "greatly", "greater", "goal", "grow", "growing",
             "grew", "giving", "given", "generated", "generating", "generate", "general", "generally", "fail", "failed", "failure",
 
-            "high performance", "higher", "highest", "high quality", "highly", "hopefully", "help",
+            "high performance", "higher", "highest", "high quality", "highly", "hopefully", "help", "helped", "helping",
             
             "introduce", "introducing", "introduced", "introductory", "intuitive", "intuititively", "intuition", "issue",
             "involve", "involving", "involved",
@@ -107,7 +142,8 @@ public class KeywordsExtractor {
             
             "large", "larger", "long", "longer", "longest", "look", "lead", "leading", "likely", "led", "left", "little",
             
-            "method", "month", "model", "new", "novel", "number", "main", "maintain", "maintaining", "maintained", "making", "major",
+            "method", "month", "model", "new", "novel", "number", "main", "mainly", 
+            "maintain", "maintaining", "maintained", "making", "major",
             "meaning", "measure", "measured", "measuring", "measurement", "metric",
             
             "nearly", "necessary", "necessarily", "need", "newly", "naturally",
@@ -115,22 +151,23 @@ public class KeywordsExtractor {
             "old", "obtained", "original", "observed", "observation", "observing", "ongoing",
             "offer", "offered", "offering", "overcome", "outcome", "outperform", "outperformed", "overall",
             
-            "paper", "present", "proposed", "project", "purpose", 
+            "paper", "present", "proposed", "project", "purpose", "played", "predicted",
             "propose", "previou", "previously", "provide", "provided", "providing", "purely",
             "participant", "past", "people", "particular", "particularly", "perform",
-            "performed", "performing", "performance", "possible", "possibly", "problem", "plot", "potential", "potentially",
-            "present", "presenting", "presented", "presentation",
+            "performed", "performing", "performance", "possible", "possibly", "problem", "plot", "potentially",
+            "present", "presenting", "presented", "presentation", "peer reviewed", "peer review",
 
             "quickly", "quite",
             
             "real world", "result", "results", "resulting", "recent", "recently", "research", "researcher", "researche", 
-            "relative", "relatively", "review", "related", "relate", "relating", "right", "represent", "representing", "represented", 
+            "relative", "relatively", "review", "related", "relate", "relating", "right", 
+            "represent", "representing", "represented",  
             "rapid", "rapidly", "raise", "record", "recording", "recorded", "reduce", "reducing", "reduced",
-            "relevant", "rely", "remain", "remained", "rendering", "require", "required", "requirement", "requiring",
+            "relevant", "rely", "relied", "relie", "remain", "remained", "rendering", "require", "required", "requirement", "requiring",
             "revisit", "revisiting", "rich", "richer", "reach", 
             
             "success", "successful", "small", "study", "studie", "studies", "suggest", "suggesting", "suggested",
-            "significant", "significantly", "show", "showed",
+            "significant", "significantly", "show", "showed", "setting",
             "showing", "surprise", "surprising", "surprisingly", "support", "supporting", "supported", "summary", 
             "satisfy", "satisfying", "satisfied", "satisfie", "simple", "simply", "solve", "solving", "solved",
             "special", "specific", "specially", "strong", "stronger", "studied", 
@@ -140,15 +177,17 @@ public class KeywordsExtractor {
             "use", "using", "used", "useful", "usual", "usually", "unlike", "unknown", "unnecessary", "undergoe", "undergo",
             "understand", "understanding", "underlying", "ultimate", "ultimately", "unexpected", "undertake", "unique",
 
-            "variou", "viewing", "view", "viewed", "varying", "vary", "vast",
+            "variou", "viewing", "view", "viewed", "varying", "vary", "vast", "vice versa", "video games",
             
-            "world", "widely", "work", "wide", "workshop", "worst", "www", "way", "week", 
-            "yield", "year", 
+            "world", "widely", "wider", "wide", "work", "workshop", "worst", "www", "way", "week", 
+            "yield", "year", "york",
     };
-
+    
     private static HashSet<String> stopwordSet = new HashSet<String>(Arrays.asList(stopwords));
-    private static HashSet<String> commonwordSet = new HashSet<String>(Arrays.asList(commonwords));
+    private static HashSet<String> commonword2GramSet = new HashSet<String>(Arrays.asList(commonword2Gram));
+    private static HashSet<String> commonword1GramSet = new HashSet<String>(Arrays.asList(commonword1Gram));
 
+    
     /** Only split by \\W and keep words which are not stopwords. */
     public static List<String> simpleExtract(String raw) {
         HashSet<String> keywords = new HashSet<String>();
@@ -166,64 +205,37 @@ public class KeywordsExtractor {
         return new ArrayList<String>(keywords);
     }
 
-    /**
-     * Test for ngrams extraction.
-     * 
-     * @throws FileNotFoundException
-     * @throws IllegalAccessException
-     * @throws InstantiationException
-     */
+    public static final int OCCURRRENCE_THRES = 3;
+    public static KeyCountMap twoGramKeywordCntMap = new KeyCountMap(TreeMap.class);
+    public static KeyCountMap oneGramKeywordCntMap = new KeyCountMap(TreeMap.class);
+    
+    /** Test for ngrams extraction.  */
     public static void main(String... args) throws FileNotFoundException, InstantiationException, IllegalAccessException {
-        MyMongoCollection<Paper> mPapersColOrig = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
+        MyMongoCollection<Paper> mPapersColOrig = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
         MongoCursor<Paper> mPapers = mPapersColOrig.getCollection().find().as(Paper.class);
-        Utils.KeyCountMap keywordCntMap = new Utils.KeyCountMap(TreeMap.class);
-        Utils.KeyCountMap existingKeywordCntMap = new Utils.KeyCountMap(TreeMap.class);
         
         for (Paper mPaper : mPapers) {
-            // A keyword only counts once within one paper.
-            Set<String> paperKeywords = new HashSet<String>();
-            
             // Add existing keywords
-/*            if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
+            if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
                 for (String keyword : mPaper.getKeywords()) {
-                    paperKeywords.add(keyword);
-                    processWord(keyword, existingKeywordCntMap);
+                    processWord(keyword);
                 }
             }
-*/
-            // Add 2grams in titles
-            for (String twoGram : Ngram.ngramSet(2, mPaper.getTitle(), "[^a-zA-Z0-9]+")) {
-                paperKeywords.add(twoGram);
-            }
-
-            // Add 2grams in abstract
-            if (!Utils.nullOrEmpty(mPaper.getAbstraction())) {
-                for (String twoGram : Ngram.ngramSet(2, mPaper.getAbstraction(), "[^a-zA-Z0-9]+")) {
-                    paperKeywords.add(twoGram);
-                }
-            }
-
-            // Add paperKeywords to keywordCntMap
-            Iterator<String> iterator = paperKeywords.iterator();
+            // Add new 2gram paperKeywords to keywordCntMap
+            Iterator<String> iterator = generate2GramFromPaper(mPaper).iterator();
             while (iterator.hasNext()) {
                 String paperKeyword = iterator.next();
-                processWord(paperKeyword, keywordCntMap);
+                processWord(paperKeyword);
             }
-        }
+        } // traverse all papers
 
-        // Save to the file.
-        PrintWriter pw = new PrintWriter(new File("keywords_raw.txt"));
-        for (Entry<String, MutableInt> entry : keywordCntMap.entrySet()) {
-            // if a keyword appears only one time or contains stopword in it, skip saving it.
-            if (entry.getValue().get() <= 1) {
-                continue;
-            }
+        // Save 2grams to the file.
+        saveKeyCntMapToFile("2gram_keywords_raw.txt", twoGramKeywordCntMap);
+        
+        // Save 1grams to the file.
+        saveKeyCntMapToFile("1gram_keywords_raw.txt", oneGramKeywordCntMap);
 
-            pw.println(entry.getKey() + ":" + entry.getValue().get());
-        }
-        pw.flush();
-        pw.close();
-
+        
         // check how many papers can't be labelled keyword.
         mPapers = mPapersColOrig.getCollection().find().as(Paper.class);
         for (Paper mPaper : mPapers) {
@@ -231,26 +243,21 @@ public class KeywordsExtractor {
             if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
                 continue;
             }
-
+            
             mPaper.setKeywords(new HashSet<String>());
-            for (String kw : Ngram.ngramSet(2, mPaper.getTitle(), "[^a-zA-Z0-9]+")) {
-                if (keywordCntMap.contains(kw) && keywordCntMap.get(kw) > 1) {
+            Set<String> keywordCandidates = generate2GramFromPaper(mPaper);
+            for (String kw : keywordCandidates) {
+                if (twoGramKeywordCntMap.contains(kw) && twoGramKeywordCntMap.get(kw) > OCCURRRENCE_THRES) {
                     mPaper.getKeywords().add(kw);
                 }
             }
 
-            if (!Utils.nullOrEmpty(mPaper.getAbstraction())) {
-                for (String kw : Ngram.ngramSet(2, mPaper.getAbstraction(), "[^a-zA-Z0-9]+")) {
-                    if (keywordCntMap.contains(kw) && keywordCntMap.get(kw) > 1) {
-                        mPaper.getKeywords().add(kw);
-                    }
-                }
-            }
-
+            // Extract single word
             for (String singleword : (mPaper.getTitle() + " " + mPaper.getAbstraction()).split("[^a-zA-Z0-9]+")) {
                 if (stopwordSet.contains(singleword)) {
                     continue;
                 }
+                
                 if (singleword.endsWith("s")) {
                     singleword = singleword.substring(0, singleword.length() - 1);
                     if (singleword.length() <=1) {
@@ -258,7 +265,7 @@ public class KeywordsExtractor {
                     }
                 }
 
-                if (keywordCntMap.contains(singleword) && keywordCntMap.get(singleword) > 1) {
+                if (oneGramKeywordCntMap.contains(singleword) && oneGramKeywordCntMap.get(singleword) > OCCURRRENCE_THRES) {
                     mPaper.getKeywords().add(singleword);
                 }
             }
@@ -272,14 +279,44 @@ public class KeywordsExtractor {
                 System.out.println(Arrays.toString(mPaper.getKeywords().toArray()));
                 System.out.println();
             }
+        } //traverse all papers
 
-           
+    } // main
+
+    /** Generate 2grams from paper's title and abstract (if it is not null). */
+    private static Set<String> generate2GramFromPaper(Paper mPaper) {
+        Set<String> paperKeywords = new HashSet<String>();
+        // Add 2grams in titles
+        for (String twoGram : Ngram.ngramSet(2, mPaper.getTitle(), "[^a-zA-Z0-9]+")) {
+            paperKeywords.add(twoGram);
         }
 
+        // Add 2grams in abstract
+        if (!Utils.nullOrEmpty(mPaper.getAbstraction())) {
+            for (String twoGram : Ngram.ngramSet(2, mPaper.getAbstraction(), "[^a-zA-Z0-9]+")) {
+                paperKeywords.add(twoGram);
+            }
+        }
+        return paperKeywords;
     }
 
-    /** Remove stopword and plurals. */
-    private static void processWord(String paperKeyword, KeyCountMap keywordCntMap) {
+    /** Save keycountmap to file. 
+     * @throws FileNotFoundException */
+    private static void saveKeyCntMapToFile(String path, KeyCountMap keywordCntMap) throws FileNotFoundException {
+        PrintWriter pw = new PrintWriter(new File(path));
+        for (Entry<String, MutableInt> entry : keywordCntMap.entrySet()) {
+            // if a keyword appears only one time or contains stopword in it, skip saving it.
+            if (entry.getValue().get() <= OCCURRRENCE_THRES) {
+                continue;
+            }
+            pw.println(entry.getKey() + ":" + entry.getValue().get());
+        }
+        pw.flush();
+        pw.close();
+    }
+
+    /** Remove stopword and plurals and then add it to keycountmap. */
+    private static void processWord(String paperKeyword) {
         String[] keywords = paperKeyword.split("[^a-zA-Z0-9]");
         
         // 1 gram
@@ -288,13 +325,17 @@ public class KeywordsExtractor {
             if (stopwordSet.contains(paperKeyword)) {
                 return;
             }
+            
             if (paperKeyword.endsWith("s")) {
                 paperKeyword = paperKeyword.substring(0, paperKeyword.length() - 1);
                 if (paperKeyword.length() <=1) {
                     return;
                 }
             }
-            keywordCntMap.addCount(paperKeyword);
+            
+            if (!commonword1GramSet.contains(paperKeyword) && !commonword2GramSet.contains(paperKeyword)) {
+                oneGramKeywordCntMap.addCount(paperKeyword);
+            }
             return;
         }
 
@@ -315,16 +356,16 @@ public class KeywordsExtractor {
         }
         
         
-        if (commonwordSet.contains(keywords[0]) || commonwordSet.contains(keywords[1]) 
+        if (commonword2GramSet.contains(keywords[0]) || commonword2GramSet.contains(keywords[1]) 
                 || stopwordSet.contains(keywords[0]) || stopwordSet.contains(keywords[1])) {
             return;
         }
 
         nexPaperKeyword = keywords[0] + " " + keywords[1];
-        if (commonwordSet.contains(nexPaperKeyword)) {
+        if (commonword2GramSet.contains(nexPaperKeyword)) {
             return;
         }
-        keywordCntMap.addCount(nexPaperKeyword);
+        twoGramKeywordCntMap.addCount(nexPaperKeyword);
     }
     
 }
