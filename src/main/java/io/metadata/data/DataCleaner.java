@@ -48,11 +48,6 @@ public class DataCleaner {
                     paper.getAuthors().set(i, cleanHtmlString(author));
                 }
                 
-                // In the absence of keywords, extract keywords simply from paper titles.
-//                if (Utils.nullOrEmpty(paper.getKeywords())) {
-//                    paper.setKeywords(KeywordsExtractor.simpleExtract(paper.getTitle()));
-//                }
-                
                 // Also clean keyword list
                 Set<String> kwList = paper.getKeywords();
                 if (!Utils.nullOrEmpty(kwList)) {
