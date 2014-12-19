@@ -17,9 +17,10 @@ import org.jongo.MongoCursor;
 /** The class lists occurences of authors for each venue in each year in order to prune editors if there is any. */
 public class EditorPrune {
 
+    public static final int OCCURRENCES_THRES = 4;
+    
     public static void main(String... args) throws InstantiationException, IllegalAccessException {
         MyMongoCollection<Paper> mPapersCol = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
-        MongoCursor<Paper> allPapers = mPapersCol.getCollection().find().as(Paper.class);
         HashMap<String, TreeMap<Long, KeyCountMap>> venueAuthorMap = new HashMap<String, TreeMap<Long, KeyCountMap>>();
 
         List<String> venues = mPapersCol.getCollection().distinct("venue").as(String.class);
@@ -28,15 +29,15 @@ public class EditorPrune {
         for (String venue : venues) {
             MongoCursor<Paper> papersThisVenue = mPapersCol.getCollection().find("{venue:#}", venue).as(Paper.class);
             for (Paper mPaper : papersThisVenue) {
-                insertPaper(venueAuthorMap, mPaper);
+                insertPaperToMap(venueAuthorMap, mPaper);
             }
         }
 
         for (String venue : venues) {
             for (long year : venueAuthorMap.get(venue).keySet()) {
                 for (Entry<String, MutableInt> entry : Utils.sortByValue(venueAuthorMap.get(venue).get(year)).entrySet()) {
-                    // Only keep authors with occurrences more than 4
-                    if (entry.getValue().get() > 4) {
+                    // Only keep authors with occurrences more than OCCURRENCES_THRES
+                    if (entry.getValue().get() > OCCURRENCES_THRES) {
                         System.out.println("*********************************************************************");
                         System.out.println(venue + ":" + year);
                         System.out.println("*********************************************************************");
@@ -44,12 +45,12 @@ public class EditorPrune {
                         System.out.println();
                     }
                 }
-            }
-        }
+            } // traverse year
+        } // traverse venues
 
     }
 
-    private static void insertPaper(HashMap<String, TreeMap<Long, KeyCountMap>> venueAuthorMap, Paper mPaper) {
+    private static void insertPaperToMap(HashMap<String, TreeMap<Long, KeyCountMap>> venueAuthorMap, Paper mPaper) {
         if (venueAuthorMap.get(mPaper.getVenue()) == null) {
             venueAuthorMap.put(mPaper.getVenue(), new TreeMap<Long, KeyCountMap>());
         }
