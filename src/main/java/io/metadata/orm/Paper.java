@@ -1,4 +1,3 @@
-// CHECKSTYLE:OFF
 package io.metadata.orm;
 
 import java.util.ArrayList;
@@ -25,8 +24,10 @@ public class Paper {
     List<String> authors;
     Set<String> keywords;
 
+    // CHECKSTYLE:OFF
     List<List<String>> s_references;
     List<String> id_references;
+    // CHECKSTYLE:ON
     
     String title;
     String abstraction;
