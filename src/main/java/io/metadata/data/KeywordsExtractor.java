@@ -190,7 +190,6 @@ public class KeywordsExtractor {
     private static HashSet<String> stopwordSet = new HashSet<String>(Arrays.asList(stopwords));
     private static HashSet<String> commonword2GramSet = new HashSet<String>(Arrays.asList(commonword2Gram));
     private static HashSet<String> commonword1GramSet = new HashSet<String>(Arrays.asList(commonword1Gram));
-
     
     /** Only split by \\W and keep words which are not stopwords. */
     public static List<String> simpleExtract(String raw) {
@@ -304,8 +303,7 @@ public class KeywordsExtractor {
         return paperKeywords;
     }
 
-    /** Save keycountmap to file. 
-     * @throws FileNotFoundException */
+    /** Save keycountmap to file.  */
     private static void saveKeyCntMapToFile(String path, KeyCountMap keywordCntMap) throws FileNotFoundException {
         PrintWriter pw = new PrintWriter(new File(path));
         for (Entry<String, MutableInt> entry : keywordCntMap.entrySet()) {
