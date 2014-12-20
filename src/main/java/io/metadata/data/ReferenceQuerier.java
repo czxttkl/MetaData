@@ -49,9 +49,9 @@ public class ReferenceQuerier {
                     }
                 } // traverse all candidate for a specific ref
                 
-                if ((int)minDist == 0) {
+                if ((int) minDist == 0) {
                     System.out.printf("title:%s \ncandi:%s \ndist:%d, cnt:%d, mPaperId:%s refId:%s\n\n", 
-                            title, minDistTitle, (int)minDist , cnt, mPaper.getId(), minDistId);
+                            title, minDistTitle, (int) minDist , cnt, mPaper.getId(), minDistId);
                     mPaper.addIdReference(minDistId);
                 }
             } // traverse all refs in mPaper

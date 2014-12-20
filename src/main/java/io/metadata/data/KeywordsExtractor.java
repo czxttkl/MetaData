@@ -262,7 +262,7 @@ public class KeywordsExtractor {
                 
                 if (singleword.endsWith("s")) {
                     singleword = singleword.substring(0, singleword.length() - 1);
-                    if (singleword.length() <=1) {
+                    if (singleword.length() <= 1) {
                         continue;
                     }
                 }
@@ -330,7 +330,7 @@ public class KeywordsExtractor {
             
             if (paperKeyword.endsWith("s")) {
                 paperKeyword = paperKeyword.substring(0, paperKeyword.length() - 1);
-                if (paperKeyword.length() <=1) {
+                if (paperKeyword.length() <= 1) {
                     return;
                 }
             }
