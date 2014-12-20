@@ -54,18 +54,17 @@ public class DataCleaner {
                     HashSet<String> keywordSet = new HashSet<String>();
                     for (String keywordStr : kwList) {
                         String cleanedKeyword = cleanHtmlString(keywordStr);
-//                    String[] keywords = cleanedKeyword.split("[^a-zA-Z]+");
-//                    String stemmedKeyword = "";
-//                    for (String kw : keywords) {
-//                        PorterStemmer ps = new PorterStemmer();
-//                        ps.add(kw.toCharArray(), kw.length());
-//                        ps.stem();
-//                        String stemmedKw = ps.toString();
-//                        stemmedKeyword
-//                    }
                         keywordSet.add(cleanedKeyword);
                     }
                     paper.setKeywords(keywordSet);
+                }
+                
+                // Clean reference
+                List<List<String>> refs = paper.getReferences();
+                if (refs != null && refs.size() > 0 && refs.get(0).size() > 0) {
+                    for (List<String> ref : refs) {
+                        ref.set(0, cleanHtmlString(ref.get(0)));
+                    }
                 }
                 
                 // Add to the cleanedPaper list

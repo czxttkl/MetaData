@@ -24,6 +24,9 @@ public class Paper {
     List<String> authors;
     Set<String> keywords;
 
+    List<List<String>> s_references;
+    List<String> id_references;
+    
     String title;
     String abstraction;
     long year = 0;
@@ -111,7 +114,26 @@ public class Paper {
     public long getYear() {
         return year;
     }
-
+    
+    public List<List<String>> getReferences() {
+        return s_references;
+    }
+    
+    public void setIdReferences(List<String> idReferences) {
+        id_references = idReferences; 
+    }
+    
+    public void addIdReference(String refId) {
+        if (id_references == null) {
+            id_references = new ArrayList<String>();
+        } 
+        id_references.add(refId);
+    }
+    
+    public List<String> getIdReference() {
+        return id_references;
+    }
+    
     /**
      * Validate if this paper instance has enough information: 1. title 2. year 3. venue 4. authors 5. abstract or keywords. Also look at validate1().
      * 
