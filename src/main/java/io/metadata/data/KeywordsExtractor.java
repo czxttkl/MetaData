@@ -19,6 +19,7 @@ import java.util.Set;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
+import org.bson.types.ObjectId;
 import org.jongo.MongoCursor;
 
 /**
@@ -78,7 +79,7 @@ public class KeywordsExtractor {
         "low", "language", "learning",
         "media", "material", "modelling", "modeling", "mapping", "magic",
         "network",
-        "play", "proces", "player", "pleasure", "power", "protocal", "pattern", "practice",
+        "play", "proces", "player", "pleasure", "power", "protocal", "pattern", "practice", "probability",
         "perspective", "production", "philosophy", "prototype",
         "questionnaire",
         
@@ -126,8 +127,11 @@ public class KeywordsExtractor {
             "employ", "employed",
 
             "future", "fully", "follow", "following", "finding", "finally", "find", "final", "fast", "faster", "facilitate",
-            "facilitating", "facilitated", "facilitation", "furthermore", "good", "great", "greatly", "greater", "goal", "grow", "growing",
-            "grew", "giving", "given", "generated", "generating", "generate", "general", "generally", "fail", "failed", "failure",
+            "fail", "failed", "failure", "formal framework",
+            "facilitating", "facilitated", "facilitation", "furthermore", 
+            
+            "good", "great", "greatly", "greater", "goal", "grow", "growing",
+            "grew", "giving", "given", "generated", "generating", "generate", "general", "generally", 
 
             "high performance", "higher", "highest", "high quality", "highly", "hopefully", "help", "helped", "helping",
             
@@ -172,7 +176,7 @@ public class KeywordsExtractor {
             "satisfy", "satisfying", "satisfied", "satisfie", "simple", "simply", "solve", "solving", "solved",
             "special", "specific", "specially", "strong", "stronger", "studied", 
 
-            "tiny", "typical", "typically", "task", "traditional", "traditionally",
+            "tiny", "typical", "typically", "task", "traditional", "traditionally", "training data",
             
             "use", "using", "used", "useful", "usual", "usually", "unlike", "unknown", "unnecessary", "undergoe", "undergo",
             "understand", "understanding", "underlying", "ultimate", "ultimately", "unexpected", "undertake", "unique",
@@ -211,8 +215,8 @@ public class KeywordsExtractor {
     
     /** Test for ngrams extraction.  */
     public static void main(String... args) throws FileNotFoundException, InstantiationException, IllegalAccessException {
-        MyMongoCollection<Paper> mPapersColOrig = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
-        MongoCursor<Paper> mPapers = mPapersColOrig.getCollection().find().as(Paper.class);
+        MyMongoCollection<Paper> mPapersCol = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
+        MongoCursor<Paper> mPapers = mPapersCol.getCollection().find().as(Paper.class);
         
         for (Paper mPaper : mPapers) {
             // Add existing keywords
@@ -235,9 +239,8 @@ public class KeywordsExtractor {
         // Save 1grams to the file.
         saveKeyCntMapToFile("1gram_keywords_raw.txt", oneGramKeywordCntMap);
 
-        
         // check how many papers can't be labelled keyword.
-        mPapers = mPapersColOrig.getCollection().find().as(Paper.class);
+        mPapers = mPapersCol.getCollection().find().as(Paper.class);
         for (Paper mPaper : mPapers) {
             // skip the papers which already have keywords.
             if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
@@ -271,13 +274,14 @@ public class KeywordsExtractor {
             }
 
             if (Utils.nullOrEmpty(mPaper.getKeywords())) {
-                System.err.println(/* mPaper.getId() + */"Title:" + mPaper.getTitle() + "\nVenue:" + mPaper.getVenue() + "  \nAbstract:"
+                System.err.println(mPaper.getId() + " Title:" + mPaper.getTitle() + "\nVenue:" + mPaper.getVenue() + "  \nAbstract:"
                         + mPaper.getAbstraction() + "\n\n");
-                // System.err.println(Ngram.ngramSet(2, mPaper.getTitle(), "[^a-zA-Z0-9]+"));
             } else {
-                System.out.println("Title:" + mPaper.getTitle() + "\nAbstract:" + mPaper.getAbstraction());
+                mPapersCol.getCollection().update(new ObjectId(mPaper.getId())).with(mPaper);
+//                System.out.println("updated:" + mPaper.getId());
+                /*System.out.println("Title:" + mPaper.getTitle() + "\nAbstract:" + mPaper.getAbstraction());
                 System.out.println(Arrays.toString(mPaper.getKeywords().toArray()));
-                System.out.println();
+                System.out.println();*/
             }
         } //traverse all papers
 

@@ -13,7 +13,8 @@ import io.metadata.orm.Paper;
 
 import com.aliasi.spell.EditDistance;
 
-public class SearchComparison {
+/** Query s_references in MongoDB. */
+public class ReferenceQuerier {
 
     public static void main(String[] args) {
         
