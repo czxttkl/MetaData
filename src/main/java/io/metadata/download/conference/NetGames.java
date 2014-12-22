@@ -82,7 +82,7 @@ public class NetGames {
         "6404015",
         "6404016",
         "6404017",
-        "6404018",
+        "6404018", 
         "6404019",
         "6404020",
         "6404021",
@@ -141,7 +141,7 @@ public class NetGames {
             }
 
             // Anti-robotics
-            Thread.sleep((long) (Math.random() * 20000));
+            Thread.sleep((long) (Math.random() * 80000));
             System.out.println();
         }
     }

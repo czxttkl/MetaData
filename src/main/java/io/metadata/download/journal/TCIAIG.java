@@ -11,14 +11,14 @@ import io.metadata.orm.Paper;
 public class TCIAIG {
 
     public static String[] dois = {
-        "4812073",
+        /*"4812073",
         "4804734",
         "4804731",
         "4811953",
         "4812072",
         "4804732",
         "4907351",
-        "4804730",
+        "4804730",*/
         "5169832",
         "4804736",
         "5067377",
@@ -194,7 +194,7 @@ public class TCIAIG {
             }
 
             // Anti-robotics
-            Thread.sleep((long) (Math.random() * 20000));
+            Thread.sleep((long) (Math.random() * 100000));
             System.out.println();
         }
     }
