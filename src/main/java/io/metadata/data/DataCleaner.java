@@ -68,7 +68,7 @@ public class DataCleaner {
                 }
                 
                 // Add to the cleanedPaper list
-//                System.out.println("Insert paper:" + paper.getId() + "  keywords:" + Arrays.toString(paper.getKeywords().toArray()));
+//              System.out.println("Insert paper:" + paper.getId() + "  keywords:" + Arrays.toString(paper.getKeywords().toArray()));
                 cleanedPapers.add(paper);
             }
         }

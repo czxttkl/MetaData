@@ -275,9 +275,10 @@ public class KeywordsExtractor {
             if (Utils.nullOrEmpty(mPaper.getKeywords())) {
                 System.err.println(mPaper.getId() + " Title:" + mPaper.getTitle() + "\nVenue:" + mPaper.getVenue() + "  \nAbstract:"
                         + mPaper.getAbstraction() + "\n\n");
+                mPapersCol.getCollection().remove(new ObjectId(mPaper.getId()));
             } else {
                 mPapersCol.getCollection().update(new ObjectId(mPaper.getId())).with(mPaper);
-//                System.out.println("updated:" + mPaper.getId());
+                System.out.println("updated:" + mPaper.getId());
                 /*System.out.println("Title:" + mPaper.getTitle() + "\nAbstract:" + mPaper.getAbstraction());
                 System.out.println(Arrays.toString(mPaper.getKeywords().toArray()));
                 System.out.println();*/

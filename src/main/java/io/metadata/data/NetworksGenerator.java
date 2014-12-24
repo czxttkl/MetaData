@@ -58,6 +58,7 @@ public class NetworksGenerator {
             KeyCountMap venueCountMap = new KeyCountMap();
             KeyCountMap authorCountMap = new KeyCountMap();
             KeyCountMap keywordCountMap = new KeyCountMap();
+            KeyCountMap authorCitedCountMap = new KeyCountMap();
 
             // get all papers in a particular year
             String yearQuery = "{year:" + i + "}";
@@ -68,9 +69,10 @@ public class NetworksGenerator {
 
             for (Paper paper : thisYearPapers) {
                 // Temporary KeyCountMap only for this paper
-                // Count how many times authors and keywords appear in this paper
+                // Count how many times authors, authors_cited and keywords appear in this paper
                 KeyCountMap authorCountMapTmp = new KeyCountMap();
                 KeyCountMap keywordCountMapTmp = new KeyCountMap();
+                KeyCountMap authorCitedCountMapTmp = new KeyCountMap();
                 
                 // increment the count of the venue for this year
                 venueCountMap.addCount(paper.getVenue());
@@ -88,6 +90,15 @@ public class NetworksGenerator {
                      // increment the count of the author for this paper
                     authorCountMapTmp.addCount(ath);
                 }
+                
+                if (!Utils.nullOrEmpty(paper.getAuthorsCited())) {
+                    for (String ath_cited : paper.getAuthorsCited()) {
+                        // increment the count of the author_cited for this year
+                        authorCitedCountMap.addCount(ath_cited);
+                        // increment the count of the author_cited for this paper
+                        authorCitedCountMapTmp.addCount(ath_cited);
+                    }
+                }
 
                 // print to network.tsr
                 pwNetworkTsr.println(String.format("%d\t0\t%d\t1", paperIdMap.get(paper.getId()), venueValueIdMap.get(paper.getVenue())));
@@ -102,12 +113,20 @@ public class NetworksGenerator {
                     pwNetworkTsr.println(line);
                 }
                 
+                if (!Utils.nullOrEmpty(paper.getAuthorsCited())) {
+                    for (String ath_cited : paper.getAuthorsCited()) {
+                        String line = String.format("%d\t3\t%d\t%d", paperIdMap.get(paper.getId()), authorValueIdMap.get(ath_cited), authorCitedCountMapTmp.get(ath_cited));
+                        pwNetworkTsr.println(line);
+                    }
+                }
+                
             }// traverse all papers
             
             pwNetworkTsr.close();
             
             // Finish printing network.tsr
-            // Now print 0.dict (venue_id-venue-times), 1.dict (author_id-author-times), 2.dict (keyword_id-keyword-times)
+            // Now print 0.dict (venue_id-venue-times), 1.dict (author_id-author-times), 
+            // 2.dict (keyword_id-keyword-times), 3.dict (author_cited_id-author_cited_times) 
             
             // sort by venue appearances
             venueCountMap = Utils.sortByValue(venueCountMap);
@@ -117,6 +136,9 @@ public class NetworksGenerator {
             
             // sort by keyword appearances 
             keywordCountMap = Utils.sortByValue(keywordCountMap);
+            
+            // sort by author_cited appearances
+            authorCitedCountMap = Utils.sortByValue(authorCitedCountMap);
             
             // output venue
             PrintWriter pwVenue = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/0.dict"), "UTF-8"));
@@ -148,6 +170,16 @@ public class NetworksGenerator {
             pwKeyword.flush();
             pwKeyword.close();
             
+            // output author_cited
+            PrintWriter pwAuthorCited = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/3.dict"), "UTF-8"));
+            for (String author_cited : authorCitedCountMap.keySet()) {
+                Integer count = authorCitedCountMap.get(author_cited);
+                String line = String.format("%d\t%s\t%d", authorValueIdMap.get(author_cited), author_cited, count);
+                pwAuthorCited.println(line);
+            }
+            pwAuthorCited.flush();
+            pwAuthorCited.close();
+            
             System.out.println("year " + i + " network data generated");
         }
 
@@ -159,8 +191,7 @@ public class NetworksGenerator {
         printMapToFile(pwAuthorId, authorValueIdMap);
         PrintWriter pwKeywordId = new PrintWriter(new File(NETWORK_INPUT_FOLDER + "keywordValueIdMap.txt"));
         printMapToFile(pwKeywordId, keywordValueIdMap);
-        
-        
+
     } // main
     
     

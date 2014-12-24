@@ -7,7 +7,6 @@ import java.util.Map.Entry;
 import org.bson.types.ObjectId;
 
 import io.metadata.misc.Globals;
-import io.metadata.misc.Utils;
 import io.metadata.orm.MyMongoCollection;
 import io.metadata.orm.Paper;
 
@@ -27,9 +26,13 @@ public class ReferenceQuerier {
         }
         System.out.println("finished building idtitlemap");
         
+        // Count how many papers have been processed
         cnt = 0;
         EditDistance edWithoutTrans = new EditDistance(false);
         for (Paper mPaper : mPapersCol.getCollection().find().as(Paper.class)) {
+            cnt++;
+            
+            // filter out papers with no references
             List<List<String>> refs = mPaper.getReferences();
             if (refs == null || refs.size() == 0 || refs.get(0).size() == 0) {
                 continue;
@@ -37,31 +40,23 @@ public class ReferenceQuerier {
             
             for (List<String> ref : refs) {
                 String title = ref.get(0);
-                double minDist = Double.MAX_VALUE;
-                String minDistId = "";
-                String minDistTitle = "";
                 for (Entry<String, String> candiEntry : idTitleMap.entrySet()) {
                     double dist = edWithoutTrans.distance(title, candiEntry.getValue());
-                    if (dist < minDist) {
-                        minDist = dist;
-                        minDistId = candiEntry.getKey();
-                        minDistTitle = candiEntry.getValue();
+                    // find match if dist == 0
+                    if (dist <= 2) {
+                        String cite_id = candiEntry.getKey(); 
+                        String cite_title = candiEntry.getValue();
+                        System.out.printf("title:%s \ncandi:%s \ndist:%d, cnt:%d, mPaperId:%s refId:%s\n\n", 
+                                title, cite_title, 0 , cnt, mPaper.getId(), cite_id);
+                        Paper citePaper = mPapersCol.getCollection().findOne(new ObjectId(cite_id)).as(Paper.class);
+                        citePaper.addAuthorsCited(mPaper.getAuthors());
+                        mPapersCol.getCollection().update(new ObjectId(cite_id)).with(citePaper);
+                        break;
                     }
                 } // traverse all candidate for a specific ref
-                
-                if ((int) minDist == 0) {
-                    System.out.printf("title:%s \ncandi:%s \ndist:%d, cnt:%d, mPaperId:%s refId:%s\n\n", 
-                            title, minDistTitle, (int) minDist , cnt, mPaper.getId(), minDistId);
-                    mPaper.addIdReference(minDistId);
-                }
             } // traverse all refs in mPaper
             
-            if (!Utils.nullOrEmpty(mPaper.getIdReference())) {
-                mPapersCol.getCollection().update(new ObjectId(mPaper.getId())).with(mPaper);
-                System.out.println("updated!" + mPaper.getId());
-            }
-            cnt++;
         }// traverse all papers
         
-    }
+    }// main
 }

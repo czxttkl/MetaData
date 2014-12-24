@@ -2,6 +2,7 @@ package io.metadata.orm;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -26,7 +27,7 @@ public class Paper {
 
     // CHECKSTYLE:OFF
     List<List<String>> s_references;
-    List<String> id_references;
+    List<String> authors_cited;
     // CHECKSTYLE:ON
     
     String title;
@@ -113,27 +114,24 @@ public class Paper {
         return authors;
     }
     
+    public List<String> getAuthorsCited() {
+        return authors_cited;
+    }
+    
     public long getYear() {
         return year;
     }
     
+    /** Return a list of papers which cited this paper. */
     public List<List<String>> getReferences() {
         return s_references;
     }
     
-    public void setIdReferences(List<String> idReferences) {
-        id_references = idReferences; 
-    }
-    
-    public void addIdReference(String refId) {
-        if (id_references == null) {
-            id_references = new ArrayList<String>();
+    public void addAuthorsCited(Collection<String> authors) {
+        if (authors_cited == null) {
+            authors_cited = new ArrayList<String>();
         } 
-        id_references.add(refId);
-    }
-    
-    public List<String> getIdReference() {
-        return id_references;
+        authors_cited.addAll(authors);
     }
     
     /**
