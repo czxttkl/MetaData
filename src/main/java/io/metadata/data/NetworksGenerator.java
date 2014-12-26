@@ -101,21 +101,19 @@ public class NetworksGenerator {
                 }
 
                 // print to network.tsr
-                pwNetworkTsr.println(String.format("%d\t0\t%d\t1", paperIdMap.get(paper.getId()), venueValueIdMap.get(paper.getVenue())));
-                
                 for (String ath : paper.getAuthors()) {
-                    String line = String.format("%d\t1\t%d\t%d", paperIdMap.get(paper.getId()), authorValueIdMap.get(ath), authorCountMapTmp.get(ath));
+                    String line = String.format("%d\t0\t%d\t%d", paperIdMap.get(paper.getId()), authorValueIdMap.get(ath), authorCountMapTmp.get(ath));
                     pwNetworkTsr.println(line);
                 }
 
                 for (String kw : paper.getKeywords()) {
-                    String line = String.format("%d\t2\t%d\t%d", paperIdMap.get(paper.getId()), keywordValueIdMap.get(kw), keywordCountMapTmp.get(kw));
+                    String line = String.format("%d\t1\t%d\t%d", paperIdMap.get(paper.getId()), keywordValueIdMap.get(kw), keywordCountMapTmp.get(kw));
                     pwNetworkTsr.println(line);
                 }
                 
                 if (!Utils.nullOrEmpty(paper.getAuthorsCited())) {
                     for (String ath_cited : paper.getAuthorsCited()) {
-                        String line = String.format("%d\t3\t%d\t%d", paperIdMap.get(paper.getId()), authorValueIdMap.get(ath_cited), authorCitedCountMapTmp.get(ath_cited));
+                        String line = String.format("%d\t2\t%d\t%d", paperIdMap.get(paper.getId()), authorValueIdMap.get(ath_cited), authorCitedCountMapTmp.get(ath_cited));
                         pwNetworkTsr.println(line);
                     }
                 }
@@ -140,18 +138,8 @@ public class NetworksGenerator {
             // sort by author_cited appearances
             authorCitedCountMap = Utils.sortByValue(authorCitedCountMap);
             
-            // output venue
-            PrintWriter pwVenue = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/0.dict"), "UTF-8"));
-            for (String venue : venueCountMap.keySet()) {
-                Integer count = venueCountMap.get(venue);
-                String line = String.format("%d\t%s\t%d", venueValueIdMap.get(venue), venue, count); 
-                pwVenue.println(line);
-            }
-            pwVenue.flush();
-            pwVenue.close();
-            
             // output author
-            PrintWriter pwAuthor = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/1.dict"), "UTF-8"));
+            PrintWriter pwAuthor = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/0.dict"), "UTF-8"));
             for (String author : authorCountMap.keySet()) {
                 Integer count = authorCountMap.get(author);
                 String line = String.format("%d\t%s\t%d", authorValueIdMap.get(author), author, count);
@@ -161,7 +149,7 @@ public class NetworksGenerator {
             pwAuthor.close();
             
             // output keyword
-            PrintWriter pwKeyword = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/2.dict"), "UTF-8"));
+            PrintWriter pwKeyword = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/1.dict"), "UTF-8"));
             for (String keyword : keywordCountMap.keySet()) {
                 Integer count = keywordCountMap.get(keyword);
                 String line = String.format("%d\t%s\t%d", keywordValueIdMap.get(keyword), keyword, count);
@@ -171,7 +159,7 @@ public class NetworksGenerator {
             pwKeyword.close();
             
             // output author_cited
-            PrintWriter pwAuthorCited = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/3.dict"), "UTF-8"));
+            PrintWriter pwAuthorCited = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/2.dict"), "UTF-8"));
             for (String author_cited : authorCitedCountMap.keySet()) {
                 Integer count = authorCitedCountMap.get(author_cited);
                 String line = String.format("%d\t%s\t%d", authorValueIdMap.get(author_cited), author_cited, count);
