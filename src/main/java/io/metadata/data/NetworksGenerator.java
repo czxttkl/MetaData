@@ -118,6 +118,9 @@ public class NetworksGenerator {
                     }
                 }
                 
+                pwNetworkTsr.println(String.format("%d\t3\t%d\t1", paperIdMap.get(paper.getId()), venueValueIdMap.get(paper.getVenue())));
+                
+                
             }// traverse all papers
             
             pwNetworkTsr.close();
@@ -167,6 +170,16 @@ public class NetworksGenerator {
             }
             pwAuthorCited.flush();
             pwAuthorCited.close();
+            
+            // output venue
+            PrintWriter pwVenue = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/3.dict"), "UTF-8"));
+            for (String venue : venueCountMap.keySet()) {
+                Integer count = venueCountMap.get(venue);
+                String line = String.format("%d\t%s\t%d", venueValueIdMap.get(venue), venue, count); 
+                pwVenue.println(line);
+            }
+            pwVenue.flush();
+            pwVenue.close();
             
             System.out.println("year " + i + " network data generated");
         }
