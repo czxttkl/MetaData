@@ -17,15 +17,22 @@ import io.metadata.orm.Paper;
 public class EdutainmentSpringer {
 
     // Online DOI
-    public static String[] bookDOIs = { "978-3-642-03364-3", // 2009
-            "978-3-642-14533-9", // 2010
-            "978-3-642-23456-9", // 2011
-    };
+    public static String[] bookDOIs = {
+        "978-3-540-73011-8"// 2007
+        };
+//        { "978-3-642-03364-3", // 2009
+//            "978-3-642-14533-9", // 2010
+//            "978-3-642-23456-9", // 2011
+//    };
 
-    public static int[] numberOfChapters = { 71, // 2009 - 4th
-            63, // 2010
-            99, // 2011
+    public static int[] numberOfChapters = { 
+        99
+//        71, // 2009 - 4th
+//            63, // 2010
+//            99, // 2011
     };
+    
+    public static int[] startingChapter = {3};
 
     public static final String VENUE = "Edutainment";
 
@@ -34,7 +41,10 @@ public class EdutainmentSpringer {
         Logger mLogger = new Logger("logEdutainment", true);
 
         // Initialize self-wrapped mongocollection
-        MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
+        MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_TEST_COLLECTION);
+        //MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
+        
+        
 
         MetaDataFactory mMetaDataFactory = new MetaDataFactory();
 
@@ -43,11 +53,12 @@ public class EdutainmentSpringer {
         for (int i = 0; i < bookDOIs.length; i++) {
 
             // each chapter in book
-            for (int j = 1; j <= numberOfChapters[i]; j++) {
+            for (int j = startingChapter[i]; j <= numberOfChapters[i]; j++) {
                 doi = "10.1007/" + bookDOIs[i] + "_" + j;
-
+                System.out.println(doi);
                 try {
                     Website mWebsite = mMetaDataFactory.getWebsite("io.metadata.Springer", doi);
+                    System.out.println(mWebsite.getArticleURL());
 
                     mLogger.appendLines(doi, mWebsite.getTitle(), mWebsite.getAbstract(), mWebsite.getKeywords(), mWebsite.getAuthors(),
                             mWebsite.getYear(), "");
@@ -68,7 +79,7 @@ public class EdutainmentSpringer {
                 }
 
                 // Anti-robot
-                Thread.sleep((long) (Math.random() * 60000));
+                Thread.sleep((long) (Math.random() * 10000));
                 System.out.println();
             }
         }
