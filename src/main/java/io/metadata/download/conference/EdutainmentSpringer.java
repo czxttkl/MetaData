@@ -41,10 +41,7 @@ public class EdutainmentSpringer {
         Logger mLogger = new Logger("logEdutainment", true);
 
         // Initialize self-wrapped mongocollection
-        MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_TEST_COLLECTION);
-        //MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
-        
-        
+        MyMongoCollection<Paper> mPapersCollection = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
 
         MetaDataFactory mMetaDataFactory = new MetaDataFactory();
 
