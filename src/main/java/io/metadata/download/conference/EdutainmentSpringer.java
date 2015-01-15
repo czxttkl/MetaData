@@ -18,7 +18,10 @@ public class EdutainmentSpringer {
 
     // Online DOI
     public static String[] bookDOIs = {
-        "978-3-540-73011-8"// 2007
+        "11736639", // 2006
+        "978-3-540-73011-8",// 2007
+        "978-3-540-69736-7"// 2008
+        
         };
 //        { "978-3-642-03364-3", // 2009
 //            "978-3-642-14533-9", // 2010
@@ -26,13 +29,15 @@ public class EdutainmentSpringer {
 //    };
 
     public static int[] numberOfChapters = { 
-        99
+        173,
+        99,
+        83
 //        71, // 2009 - 4th
 //            63, // 2010
 //            99, // 2011
     };
     
-    public static int[] startingChapter = {3};
+    public static int[] startingChapter = {2, 3, 1};
 
     public static final String VENUE = "Edutainment";
 
