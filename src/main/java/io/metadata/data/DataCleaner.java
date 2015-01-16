@@ -68,11 +68,12 @@ public class DataCleaner {
                 }
                 
                 // Add to the cleanedPaper list
-//              System.out.println("Insert paper:" + paper.getId() + "  keywords:" + Arrays.toString(paper.getKeywords().toArray()));
+                System.out.println("Insert paper:" + paper.getId());
                 cleanedPapers.add(paper);
             }
         }
         
+        System.out.println("out");
         // batch insert to clean version collection
         MyMongoCollection<Paper> mPapersColCln = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
         Paper[] cleanedPapersArr = new Paper[cleanedPapers.size()];
