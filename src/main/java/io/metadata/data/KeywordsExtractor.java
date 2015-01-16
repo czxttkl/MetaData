@@ -209,7 +209,7 @@ public class KeywordsExtractor {
     }
 
     /** skip 2-gram candidates appearing less than OCCURRENCE_THRES times. */
-    public static final int OCCURRRENCE_THRES = 3;
+    public static final int OCCURRENCE_THRES = 3;
     /** keywords with size than KEYWORD_SIZE_THRES is enough. */
     public static final int KEYWORD_SIZE_THRES = 3;
     public static KeyCountMap twoGramKeywordCntMap = new KeyCountMap(TreeMap.class);
@@ -244,20 +244,20 @@ public class KeywordsExtractor {
         // check how many papers can't be labelled keyword.
         mPapers = mPapersClnCol.getCollection().find().as(Paper.class);
         for (Paper mPaper : mPapers) {
+            if (mPaper.getId().equals("53e8de76d837748b0acd25ee")) {
+                System.out.println("..");
+            }
             // skip the papers which already have keywords.
             if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
                 continue;
             }
-            // initialize paper keyword set for those without keywords originally.
-            mPaper.setKeywords(new HashSet<String>());
-            // Set existing keywords for papers
-            setExstWrdForPpr(mPaper);
-            // the paper is done if it has more than three existing keywords
-            if (mPaper.getKeywords().size() > KEYWORD_SIZE_THRES ) {
-                continue;
-            }
             // if the paper has less than 3 keywords, extract 2 grams from its title and abstract.
             set2GramForPpr(mPaper);
+//            // the paper is done if it has more than three existing keywords
+//            if (mPaper.getKeywords().size() < KEYWORD_SIZE_THRES ) {
+//                // Set existing keywords for papers without keywords originally.
+//                setExstWrdForPpr(mPaper);
+//            }
 
             if (Utils.nullOrEmpty(mPaper.getKeywords())) {
                 System.err.println(mPaper.getId() + " Title:" + mPaper.getTitle() + "\nVenue:" + mPaper.getVenue() + "  \nAbstract:"
@@ -274,7 +274,7 @@ public class KeywordsExtractor {
     private static void set2GramForPpr(Paper mPaper) {
         Set<String> keywordCandidates = gen2GramFromPaper(mPaper);
         for (String kw : keywordCandidates) {
-            if (twoGramKeywordCntMap.contains(kw) && twoGramKeywordCntMap.get(kw) > OCCURRRENCE_THRES) {
+            if (twoGramKeywordCntMap.contains(kw) && twoGramKeywordCntMap.get(kw) > OCCURRENCE_THRES) {
                 mPaper.getKeywords().add(kw);
             }
         }
@@ -282,6 +282,10 @@ public class KeywordsExtractor {
 
     private static void setExstWrdForPpr(Paper mPaper) {
         for (String exstWord : existingKeywordCntMap.keySet()) {
+            if (existingKeywordCntMap.get(exstWord) <= OCCURRENCE_THRES) {
+                continue;
+            }
+            exstWord = " " + exstWord + " ";
             // check if title has existing keywords
             if (mPaper.getTitle().contains(exstWord)) {
                 mPaper.addKeyword(exstWord);
@@ -331,7 +335,7 @@ public class KeywordsExtractor {
         PrintWriter pw = new PrintWriter(new File(path));
         for (Entry<String, MutableInt> entry : keywordCntMap.entrySet()) {
             // if a keyword appears only one time or contains stopword in it, skip saving it.
-            if (entry.getValue().get() <= OCCURRRENCE_THRES) {
+            if (entry.getValue().get() <= OCCURRENCE_THRES) {
                 continue;
             }
             pw.println(entry.getKey() + ":" + entry.getValue().get());

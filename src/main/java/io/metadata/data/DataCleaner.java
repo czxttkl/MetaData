@@ -25,6 +25,7 @@ public class DataCleaner {
         List<Paper> cleanedPapers = new ArrayList<Paper>();
 
         MyMongoCollection<Paper> mPapersColOrig = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_COLLECTION);
+        
         MongoCursor<Paper> allPapers = mPapersColOrig.getCollection().find().as(Paper.class);
         
         for (Paper paper : allPapers) {
