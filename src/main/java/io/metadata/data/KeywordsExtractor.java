@@ -210,6 +210,8 @@ public class KeywordsExtractor {
 
     /** skip 2-gram candidates appearing less than OCCURRENCE_THRES times. */
     public static final int OCCURRRENCE_THRES = 3;
+    /** keywords with size than KEYWORD_SIZE_THRES is enough. */
+    public static final int KEYWORD_SIZE_THRES = 3;
     public static KeyCountMap twoGramKeywordCntMap = new KeyCountMap(TreeMap.class);
     public static KeyCountMap existingKeywordCntMap = new KeyCountMap(TreeMap.class);
     
@@ -222,21 +224,21 @@ public class KeywordsExtractor {
             // Add existing keywords
             if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
                 for (String keyword : mPaper.getKeywords()) {
-                    addToExistingWordPool(keyword);
+                    addToExstWordPool(keyword);
                 }
             }
             // Add new 2gram paperKeywords to keywordCntMap
-            Iterator<String> iterator = generate2GramFromPaper(mPaper).iterator();
+            Iterator<String> iterator = gen2GramFromPaper(mPaper).iterator();
             while (iterator.hasNext()) {
                 String paperKeyword = iterator.next();
                 addTo2GramPool(paperKeyword);
             }
         } // traverse all papers
 
-        // Save n-grams(n>=2) to the file.
+        // Save n-grams(n>=2) with appearance larger than OCCURRENCE_THRES to the file.
         saveKeyCntMapToFile("2gram_pool.txt", twoGramKeywordCntMap);
         
-        // Save 1grams to the file.
+        // Save 1grams with appearance larger than OCCURRENCE_THRES to the file.
         saveKeyCntMapToFile("existing_keyword_pool.txt", existingKeywordCntMap);
 
         // check how many papers can't be labelled keyword.
@@ -246,53 +248,54 @@ public class KeywordsExtractor {
             if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
                 continue;
             }
-            
             // initialize paper keyword set for those without keywords originally.
             mPaper.setKeywords(new HashSet<String>());
-            
-            
-            
-            Set<String> keywordCandidates = generate2GramFromPaper(mPaper);
-            for (String kw : keywordCandidates) {
-                if (twoGramKeywordCntMap.contains(kw) && twoGramKeywordCntMap.get(kw) > OCCURRRENCE_THRES) {
-                    mPaper.getKeywords().add(kw);
-                }
+            // Set existing keywords for papers
+            setExstWrdForPpr(mPaper);
+            // the paper is done if it has more than three existing keywords
+            if (mPaper.getKeywords().size() > KEYWORD_SIZE_THRES ) {
+                continue;
             }
-
-            // Extract single word
-            for (String singleword : (mPaper.getTitle() + " " + mPaper.getAbstraction()).split("[^a-zA-Z0-9]+")) {
-                if (stopwordSet.contains(singleword)) {
-                    continue;
-                }
-                
-                if (singleword.endsWith("s")) {
-                    singleword = singleword.substring(0, singleword.length() - 1);
-                    if (singleword.length() <= 1) {
-                        continue;
-                    }
-                }
-
-                if (existingKeywordCntMap.contains(singleword) && existingKeywordCntMap.get(singleword) > OCCURRRENCE_THRES) {
-                    mPaper.getKeywords().add(singleword);
-                }
-            }
+            // if the paper has less than 3 keywords, extract 2 grams from its title and abstract.
+            set2GramForPpr(mPaper);
 
             if (Utils.nullOrEmpty(mPaper.getKeywords())) {
                 System.err.println(mPaper.getId() + " Title:" + mPaper.getTitle() + "\nVenue:" + mPaper.getVenue() + "  \nAbstract:"
                         + mPaper.getAbstraction() + "\n\n");
-                mPapersClnCol.getCollection().remove(new ObjectId(mPaper.getId()));
+//                mPapersClnCol.getCollection().remove(new ObjectId(mPaper.getId()));
             } else {
                 mPapersClnCol.getCollection().update(new ObjectId(mPaper.getId())).with(mPaper);
                 System.out.println("updated:" + mPaper.getId());
-                /*System.out.println("Title:" + mPaper.getTitle() + "\nAbstract:" + mPaper.getAbstraction());
-                System.out.println(Arrays.toString(mPaper.getKeywords().toArray()));
-                System.out.println();*/
             }
         } //traverse all papers
 
     } // main
 
-    private static void addToExistingWordPool(String keyword) {
+    private static void set2GramForPpr(Paper mPaper) {
+        Set<String> keywordCandidates = gen2GramFromPaper(mPaper);
+        for (String kw : keywordCandidates) {
+            if (twoGramKeywordCntMap.contains(kw) && twoGramKeywordCntMap.get(kw) > OCCURRRENCE_THRES) {
+                mPaper.getKeywords().add(kw);
+            }
+        }
+    }
+
+    private static void setExstWrdForPpr(Paper mPaper) {
+        for (String exstWord : existingKeywordCntMap.keySet()) {
+            // check if title has existing keywords
+            if (mPaper.getTitle().contains(exstWord)) {
+                mPaper.addKeyword(exstWord);
+            }
+            // check if abstract has existing keywords
+            if (!Utils.nullOrEmpty(mPaper.getAbstraction())) {
+                if (mPaper.getAbstraction().contains(exstWord)) {
+                    mPaper.addKeyword(exstWord);
+                }
+            }
+        }
+    }
+
+    private static void addToExstWordPool(String keyword) {
         keyword = processWord(keyword);    
         if (keyword != null) {
             existingKeywordCntMap.addCount(keyword);
@@ -307,7 +310,7 @@ public class KeywordsExtractor {
     }
 
     /** Generate 2grams from paper's title and abstract (if it is not null). */
-    private static Set<String> generate2GramFromPaper(Paper mPaper) {
+    private static Set<String> gen2GramFromPaper(Paper mPaper) {
         Set<String> paperKeywords = new HashSet<String>();
         // Add 2grams in titles
         for (String twoGram : Ngram.ngramSet(2, mPaper.getTitle(), "[^a-zA-Z0-9]+")) {
@@ -371,9 +374,6 @@ public class KeywordsExtractor {
             return null;
         }
         // roughly remove plurals
-        if (keywords[0].endsWith("s")) {
-            keywords[0] = keywords[0].substring(0, keywords[0].length() - 1);
-        }
         if (keywords[1].endsWith("s")) {
             keywords[1] = keywords[1].substring(0, keywords[1].length() - 1);
         }

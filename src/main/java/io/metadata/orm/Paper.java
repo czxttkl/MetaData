@@ -12,6 +12,8 @@ import io.metadata.misc.Utils;
 import org.jongo.marshall.jackson.oid.Id;
 import org.jongo.marshall.jackson.oid.ObjectId;
 
+import com.mongodb.util.Hash;
+
 /**
  * Java Object for one document in MongoDB.metadata.papers collection.
  * 
@@ -125,6 +127,13 @@ public class Paper {
     /** Return a list of papers which cited this paper. */
     public List<List<String>> getReferences() {
         return s_references;
+    }
+    
+    public void addKeyword(String keyword) {
+        if (keywords == null) {
+            keywords = new HashSet<String>();
+        }
+        keywords.add(keyword);
     }
     
     public void addAuthorsCited(Collection<String> authors) {
