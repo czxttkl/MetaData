@@ -213,7 +213,8 @@ public class KeywordsExtractor {
     /** keywords with size than KEYWORD_SIZE_THRES is enough. */
     public static final int KEYWORD_SIZE_THRES = 3;
     public static KeyCountMap twoGramKeywordCntMap = new KeyCountMap(TreeMap.class);
-    public static KeyCountMap existingKeywordCntMap = new KeyCountMap(TreeMap.class);
+    public static List<Paper> noKeywrdPapers = new ArrayList<Paper>();
+    
     
     /** Test for ngrams extraction.  */
     public static void main(String... args) throws FileNotFoundException, InstantiationException, IllegalAccessException {
@@ -221,36 +222,33 @@ public class KeywordsExtractor {
         MongoCursor<Paper> mPapers = mPapersClnCol.getCollection().find().as(Paper.class);
         
         for (Paper mPaper : mPapers) {
+            System.out.println("traverse:" + mPaper.getId());
             // Add existing keywords
             if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
                 for (String keyword : mPaper.getKeywords()) {
-                    addToExstWordPool(keyword);
+                    addToNGramPool(keyword);
                 }
             }
             // Add new 2gram paperKeywords to keywordCntMap
             Iterator<String> iterator = gen2GramFromPaper(mPaper).iterator();
             while (iterator.hasNext()) {
                 String paperKeyword = iterator.next();
-                addTo2GramPool(paperKeyword);
+                addToNGramPool(paperKeyword);
             }
         } // traverse all papers
 
         // Save n-grams(n>=2) with appearance larger than OCCURRENCE_THRES to the file.
         saveKeyCntMapToFile("2gram_pool.txt", twoGramKeywordCntMap);
         
-        // Save 1grams with appearance larger than OCCURRENCE_THRES to the file.
-        saveKeyCntMapToFile("existing_keyword_pool.txt", existingKeywordCntMap);
-
         // check how many papers can't be labelled keyword.
         mPapers = mPapersClnCol.getCollection().find().as(Paper.class);
         for (Paper mPaper : mPapers) {
-            if (mPaper.getId().equals("53e8de76d837748b0acd25ee")) {
-                System.out.println("..");
-            }
             // skip the papers which already have keywords.
             if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
                 continue;
             }
+            // initialize paper keyword set for those without keywords originally.
+            mPaper.setKeywords(new HashSet<String>());
             // if the paper has less than 3 keywords, extract 2 grams from its title and abstract.
             set2GramForPpr(mPaper);
 //            // the paper is done if it has more than three existing keywords
@@ -260,15 +258,21 @@ public class KeywordsExtractor {
 //            }
 
             if (Utils.nullOrEmpty(mPaper.getKeywords())) {
-                System.err.println(mPaper.getId() + " Title:" + mPaper.getTitle() + "\nVenue:" + mPaper.getVenue() + "  \nAbstract:"
-                        + mPaper.getAbstraction() + "\n\n");
+                noKeywrdPapers.add(mPaper);
 //                mPapersClnCol.getCollection().remove(new ObjectId(mPaper.getId()));
             } else {
                 mPapersClnCol.getCollection().update(new ObjectId(mPaper.getId())).with(mPaper);
-                System.out.println("updated:" + mPaper.getId());
+                System.out.println("updated:" + mPaper.getId() + " " + mPaper.getKeywords());
             }
         } //traverse all papers
 
+        for (Paper mPaper : noKeywrdPapers) {
+            System.err.println(mPaper.getId() + " Title:" + mPaper.getTitle() + "\nVenue:" + mPaper.getVenue() + "  \nAbstract:"
+                    + mPaper.getAbstraction() + "\n\n");
+        }
+        System.out.println("No keywrd paper in total:" + noKeywrdPapers.size());
+        
+        
     } // main
 
     private static void set2GramForPpr(Paper mPaper) {
@@ -279,34 +283,8 @@ public class KeywordsExtractor {
             }
         }
     }
-
-    private static void setExstWrdForPpr(Paper mPaper) {
-        for (String exstWord : existingKeywordCntMap.keySet()) {
-            if (existingKeywordCntMap.get(exstWord) <= OCCURRENCE_THRES) {
-                continue;
-            }
-            exstWord = " " + exstWord + " ";
-            // check if title has existing keywords
-            if (mPaper.getTitle().contains(exstWord)) {
-                mPaper.addKeyword(exstWord);
-            }
-            // check if abstract has existing keywords
-            if (!Utils.nullOrEmpty(mPaper.getAbstraction())) {
-                if (mPaper.getAbstraction().contains(exstWord)) {
-                    mPaper.addKeyword(exstWord);
-                }
-            }
-        }
-    }
-
-    private static void addToExstWordPool(String keyword) {
-        keyword = processWord(keyword);    
-        if (keyword != null) {
-            existingKeywordCntMap.addCount(keyword);
-        }
-    }
     
-    private static void addTo2GramPool(String keyword) {
+    private static void addToNGramPool(String keyword) {
         keyword = processWord(keyword);
         if (keyword != null) {
             twoGramKeywordCntMap.addCount(keyword);
@@ -344,7 +322,8 @@ public class KeywordsExtractor {
         pw.close();
     }
 
-    /** Remove stopword and plurals. Return null for those invalid keyword*/
+    /** Only return not null if the keyword is n-gram (n>=2)
+     * Remove stopword and plurals. Return null for those invalid keyword*/
     private static String processWord(String paperKeyword) {
         String[] keywords = paperKeyword.split("[^a-zA-Z0-9]");
         switch (keywords.length) {
@@ -353,7 +332,7 @@ public class KeywordsExtractor {
             break;
         case 1:
             // 1 gram
-            paperKeyword = process1Gram(paperKeyword);
+            paperKeyword = null;
             break;
         case 2:
             // 2 grams
@@ -368,6 +347,11 @@ public class KeywordsExtractor {
     
     // for now we do nothing for n-gram (n>2)
     private static String processNGram(String paperKeyword) {
+        // roughly remove plurals
+        if (paperKeyword.endsWith("s")) {
+            paperKeyword = paperKeyword.substring(0, paperKeyword.length() - 1);
+        }
+        
         return paperKeyword;
     }
 
@@ -395,25 +379,6 @@ public class KeywordsExtractor {
         }
         
         return cleanPaperKeyword;
-    }
-
-    private static String process1Gram(String paperKeyword) {
-        paperKeyword = paperKeyword.trim();
-        if (stopwordSet.contains(paperKeyword)) {
-            return null;
-        }
-
-        if (paperKeyword.endsWith("s")) {
-            paperKeyword = paperKeyword.substring(0, paperKeyword.length() - 1);
-            if (paperKeyword.length() <= 1) {
-                return null;
-            }
-        }
-
-        if (commonword1GramSet.contains(paperKeyword) || commonword2GramSet.contains(paperKeyword)) {
-            return null;
-        }
-        return paperKeyword;
     }
     
 }
