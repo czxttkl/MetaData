@@ -208,45 +208,50 @@ public class KeywordsExtractor {
         return new ArrayList<String>(keywords);
     }
 
+    /** skip 2-gram candidates appearing less than OCCURRENCE_THRES times. */
     public static final int OCCURRRENCE_THRES = 3;
     public static KeyCountMap twoGramKeywordCntMap = new KeyCountMap(TreeMap.class);
-    public static KeyCountMap oneGramKeywordCntMap = new KeyCountMap(TreeMap.class);
+    public static KeyCountMap existingKeywordCntMap = new KeyCountMap(TreeMap.class);
     
     /** Test for ngrams extraction.  */
     public static void main(String... args) throws FileNotFoundException, InstantiationException, IllegalAccessException {
-        MyMongoCollection<Paper> mPapersCol = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
-        MongoCursor<Paper> mPapers = mPapersCol.getCollection().find().as(Paper.class);
+        MyMongoCollection<Paper> mPapersClnCol = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
+        MongoCursor<Paper> mPapers = mPapersClnCol.getCollection().find().as(Paper.class);
         
         for (Paper mPaper : mPapers) {
             // Add existing keywords
             if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
                 for (String keyword : mPaper.getKeywords()) {
-                    processWord(keyword);
+                    addToExistingWordPool(keyword);
                 }
             }
             // Add new 2gram paperKeywords to keywordCntMap
             Iterator<String> iterator = generate2GramFromPaper(mPaper).iterator();
             while (iterator.hasNext()) {
                 String paperKeyword = iterator.next();
-                processWord(paperKeyword);
+                addTo2GramPool(paperKeyword);
             }
         } // traverse all papers
 
-        // Save 2grams to the file.
-        saveKeyCntMapToFile("2gram_keywords_raw.txt", twoGramKeywordCntMap);
+        // Save n-grams(n>=2) to the file.
+        saveKeyCntMapToFile("2gram_pool.txt", twoGramKeywordCntMap);
         
         // Save 1grams to the file.
-        saveKeyCntMapToFile("1gram_keywords_raw.txt", oneGramKeywordCntMap);
+        saveKeyCntMapToFile("existing_keyword_pool.txt", existingKeywordCntMap);
 
         // check how many papers can't be labelled keyword.
-        mPapers = mPapersCol.getCollection().find().as(Paper.class);
+        mPapers = mPapersClnCol.getCollection().find().as(Paper.class);
         for (Paper mPaper : mPapers) {
             // skip the papers which already have keywords.
             if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
                 continue;
             }
             
+            // initialize paper keyword set for those without keywords originally.
             mPaper.setKeywords(new HashSet<String>());
+            
+            
+            
             Set<String> keywordCandidates = generate2GramFromPaper(mPaper);
             for (String kw : keywordCandidates) {
                 if (twoGramKeywordCntMap.contains(kw) && twoGramKeywordCntMap.get(kw) > OCCURRRENCE_THRES) {
@@ -267,7 +272,7 @@ public class KeywordsExtractor {
                     }
                 }
 
-                if (oneGramKeywordCntMap.contains(singleword) && oneGramKeywordCntMap.get(singleword) > OCCURRRENCE_THRES) {
+                if (existingKeywordCntMap.contains(singleword) && existingKeywordCntMap.get(singleword) > OCCURRRENCE_THRES) {
                     mPaper.getKeywords().add(singleword);
                 }
             }
@@ -275,9 +280,9 @@ public class KeywordsExtractor {
             if (Utils.nullOrEmpty(mPaper.getKeywords())) {
                 System.err.println(mPaper.getId() + " Title:" + mPaper.getTitle() + "\nVenue:" + mPaper.getVenue() + "  \nAbstract:"
                         + mPaper.getAbstraction() + "\n\n");
-                mPapersCol.getCollection().remove(new ObjectId(mPaper.getId()));
+                mPapersClnCol.getCollection().remove(new ObjectId(mPaper.getId()));
             } else {
-                mPapersCol.getCollection().update(new ObjectId(mPaper.getId())).with(mPaper);
+                mPapersClnCol.getCollection().update(new ObjectId(mPaper.getId())).with(mPaper);
                 System.out.println("updated:" + mPaper.getId());
                 /*System.out.println("Title:" + mPaper.getTitle() + "\nAbstract:" + mPaper.getAbstraction());
                 System.out.println(Arrays.toString(mPaper.getKeywords().toArray()));
@@ -286,6 +291,20 @@ public class KeywordsExtractor {
         } //traverse all papers
 
     } // main
+
+    private static void addToExistingWordPool(String keyword) {
+        keyword = processWord(keyword);    
+        if (keyword != null) {
+            existingKeywordCntMap.addCount(keyword);
+        }
+    }
+    
+    private static void addTo2GramPool(String keyword) {
+        keyword = processWord(keyword);
+        if (keyword != null) {
+            twoGramKeywordCntMap.addCount(keyword);
+        }
+    }
 
     /** Generate 2grams from paper's title and abstract (if it is not null). */
     private static Set<String> generate2GramFromPaper(Paper mPaper) {
@@ -318,57 +337,79 @@ public class KeywordsExtractor {
         pw.close();
     }
 
-    /** Remove stopword and plurals and then add it to keycountmap. */
-    private static void processWord(String paperKeyword) {
+    /** Remove stopword and plurals. Return null for those invalid keyword*/
+    private static String processWord(String paperKeyword) {
         String[] keywords = paperKeyword.split("[^a-zA-Z0-9]");
-        
-        // 1 gram
-        if (keywords.length <= 1) {
-            paperKeyword = paperKeyword.trim();
-            if (stopwordSet.contains(paperKeyword)) {
-                return;
-            }
-            
-            if (paperKeyword.endsWith("s")) {
-                paperKeyword = paperKeyword.substring(0, paperKeyword.length() - 1);
-                if (paperKeyword.length() <= 1) {
-                    return;
-                }
-            }
-            
-            if (!commonword1GramSet.contains(paperKeyword) && !commonword2GramSet.contains(paperKeyword)) {
-                oneGramKeywordCntMap.addCount(paperKeyword);
-            }
-            return;
+        switch (keywords.length) {
+        case 0:
+            paperKeyword = null;
+            break;
+        case 1:
+            // 1 gram
+            paperKeyword = process1Gram(paperKeyword);
+            break;
+        case 2:
+            // 2 grams
+            paperKeyword = process2Gram(paperKeyword);
+            break;
+        default:
+            paperKeyword = processNGram(paperKeyword);
+            break;
         }
+        return paperKeyword;
+    }
+    
+    // for now we do nothing for n-gram (n>2)
+    private static String processNGram(String paperKeyword) {
+        return paperKeyword;
+    }
 
-        // 2 grams
-        String nexPaperKeyword = "";
+    private static String process2Gram(String paperKeyword) {
+        String[] keywords = paperKeyword.split("[^a-zA-Z0-9]");
+        String cleanPaperKeyword = "";
         if (stopwordSet.contains(keywords[0]) || stopwordSet.contains(keywords[1])) {
-            return;
+            return null;
         }
-
+        // roughly remove plurals
         if (keywords[0].endsWith("s")) {
             keywords[0] = keywords[0].substring(0, keywords[0].length() - 1);
         }
         if (keywords[1].endsWith("s")) {
             keywords[1] = keywords[1].substring(0, keywords[1].length() - 1);
         }
+
         if (keywords[0].matches("\\d+") || keywords[1].matches("\\d+")) {
-            return;
+            return null;
         }
-        
-        
-        if (commonword2GramSet.contains(keywords[0]) || commonword2GramSet.contains(keywords[1]) 
-                || stopwordSet.contains(keywords[0]) || stopwordSet.contains(keywords[1])) {
-            return;
+        if (commonword2GramSet.contains(keywords[0]) || commonword2GramSet.contains(keywords[1])) {
+            return null;
         }
 
-        nexPaperKeyword = keywords[0] + " " + keywords[1];
-        if (commonword2GramSet.contains(nexPaperKeyword)) {
-            return;
+        cleanPaperKeyword = keywords[0] + " " + keywords[1];
+        if (commonword2GramSet.contains(cleanPaperKeyword)) {
+            return null;
         }
-        twoGramKeywordCntMap.addCount(nexPaperKeyword);
+        
+        return cleanPaperKeyword;
+    }
+
+    private static String process1Gram(String paperKeyword) {
+        paperKeyword = paperKeyword.trim();
+        if (stopwordSet.contains(paperKeyword)) {
+            return null;
+        }
+
+        if (paperKeyword.endsWith("s")) {
+            paperKeyword = paperKeyword.substring(0, paperKeyword.length() - 1);
+            if (paperKeyword.length() <= 1) {
+                return null;
+            }
+        }
+
+        if (commonword1GramSet.contains(paperKeyword) || commonword2GramSet.contains(paperKeyword)) {
+            return null;
+        }
+        return paperKeyword;
     }
     
 }
