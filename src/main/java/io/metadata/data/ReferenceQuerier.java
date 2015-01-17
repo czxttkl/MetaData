@@ -30,6 +30,7 @@ public class ReferenceQuerier {
         cnt = 0;
         EditDistance edWithoutTrans = new EditDistance(false);
         int cntThres = (int) mPapersCol.getCollection().count();
+        // using while loop to prevent cursur missing
         while (cnt < cntThres) {
             try {
                 mPapersCol = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);

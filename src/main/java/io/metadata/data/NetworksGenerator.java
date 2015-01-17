@@ -77,11 +77,13 @@ public class NetworksGenerator {
                 // increment the count of the venue for this year
                 venueCountMap.addCount(paper.getVenue());
                 
-                for (String kw : paper.getKeywords()) {
-                   // increment the count of the keyword for this year
-                   keywordCountMap.addCount(kw);
-                   // increment the count of the keyword for this paper 
-                   keywordCountMapTmp.addCount(kw);
+                if (!Utils.nullOrEmpty(paper.getKeywords())) {
+                    for (String kw : paper.getKeywords()) {
+                        // increment the count of the keyword for this year
+                        keywordCountMap.addCount(kw);
+                        // increment the count of the keyword for this paper 
+                        keywordCountMapTmp.addCount(kw);
+                    }
                 }
                 
                 for (String ath : paper.getAuthors()) {
@@ -106,10 +108,12 @@ public class NetworksGenerator {
                     pwNetworkTsr.println(line);
                 }
 
-                for (String kw : paper.getKeywords()) {
-                    String line = String.format("%d\t1\t%d\t%d", paperIdMap.get(paper.getId()), keywordValueIdMap.get(kw), keywordCountMapTmp.get(kw));
-                    pwNetworkTsr.println(line);
-                }
+                if (!Utils.nullOrEmpty(paper.getKeywords())) {
+                    for (String kw : paper.getKeywords()) {
+                        String line = String.format("%d\t1\t%d\t%d", paperIdMap.get(paper.getId()), keywordValueIdMap.get(kw), keywordCountMapTmp.get(kw));
+                        pwNetworkTsr.println(line);
+                    }
+                }               
                 
                 if (!Utils.nullOrEmpty(paper.getAuthorsCited())) {
                     for (String ath_cited : paper.getAuthorsCited()) {
@@ -182,7 +186,7 @@ public class NetworksGenerator {
             pwVenue.close();
             
             System.out.println("year " + i + " network data generated");
-        }
+        } // traverse all years
 
         PrintWriter pwPaperId = new PrintWriter(new File(NETWORK_INPUT_FOLDER + "paperIdMap.txt"));
         printMapToFile(pwPaperId, paperIdMap);
