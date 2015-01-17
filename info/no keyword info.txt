@@ -1,0 +1,641 @@
+5462167adc3be929ecee3891 Title:defamiliarization and poetic interaction in kentucky route zero
+Venue:Well Played  
+Abstract:
+
+
+546af9c4ba4fc60c6199b9ef Title:development in context
+Venue:Eludamos  
+Abstract:
+
+
+5462167adc3be929ecee3890 Title:the weird humanity of i have no mouth and i must scream
+Venue:Well Played  
+Abstract:
+
+
+5462167adc3be929ecee388e Title:takeshi no chousenjou a terrible game by design
+Venue:Well Played  
+Abstract:
+
+
+5462167adc3be929ecee388f Title:conspiracy hermeneutics the secret world as weird tale
+Venue:Well Played  
+Abstract:
+
+
+543568d9efae14427db107d7 Title:forever a moral subject
+Venue:GameStudies  
+Abstract:with the book
+
+
+546afa1cba4fc60c6cff668a Title:the role of fantasy in video games a reappraisal
+Venue:Eludamos  
+Abstract:the majority of videogames as they are currently constituted seem to display a mechanistic repetitiveness in conception development and production a creative shallowness in games a lack of innovation and a tendency to clone successful titles are in part attributable to the hegemonic control exerted by game producers this situation persists despite the intense frustration from the creative talent within the industry design documents are worked out by the marketing department effectively as an artist or programmer you do what you re told wade 2007 p 687 this article approaches fantasy as an underlying structuring element capable of energising the creative evolution of video games fantasy is interpreted as persisting throughout all game forms and not confined to its own recognisable genre
+
+
+5446218eba4fc60261446a42 Title:the ethical space of computer games
+Venue:The Philosophy of Computer Games  
+Abstract:
+
+
+5462167adc3be929ecee3892 Title:how do frog fractions and nier use intertextual knowledge to subvert the player s expectations
+Venue:Well Played  
+Abstract:
+
+
+53ed06c8bc52af673d06e135 Title:simulating adaptive quests for increased player impact in mmorpgs
+Venue:AIIDE  
+Abstract:in this paper we present adaptive quests an extension to the dominant quest model that guides and motivates gameplay in mmorpg shared worlds the standard model has proven effective but is significantly incompatible with the desire for player driven change in the world we present an incremental step to increasing player impact discuss the problems it creates with the quest model and show how adaptive quests can help reconcile the two we present simulation experiments supporting not only that adaptive quests help mitigate those problems but that they can actually improve them over the standard model
+
+
+54356948efae14427db107f4 Title:myths monsters and markets ethos identification and the video game adaptations of the lord of the rings
+Venue:GameStudies  
+Abstract:marshal mcluhan noted in
+
+
+54271179145e57b004eec763 Title:structuring hypermedia novels
+Venue:TIDSE  
+Abstract:a generic structure for media oriented modular storytelling is presented the concept is based on a simple container and content model we also show how various paths along a continuous storyline and branching threads can be organized an initial implementation is compared with a second more general and flexible structuring approach
+
+
+53fc4185bc52229f1250f44b Title:digital collages
+Venue:ACE  
+Abstract:we present an extended version of the palimpsest system a tool for turning a series of digital photographs into a video flux of images melting one into each other we propose several algorithms to generate different kinds of video fluxes based on slideshows of digital photographs with a new kind of intertwining transition mixing phase
+
+
+53e96ccdd8371083b8c4c745 Title:science considered harmful
+Venue:AAAIINTWorkshop  
+Abstract:as the int community matures one hears increasing calls for the field to become more scientific and even prior restraint in which researchers avoid a project entirely out fear it wouldn t be sufficiently scientific in this position paper i ll argue that science and more generally rigor are not well served by a discourse that labels things as science and not science in particular i will argue that we need to open ourselves to the adoption of methods from the arts including case studies and the practice of studio critique
+
+
+53e96cdad8371083b8c4c746 Title:contact a multimodal corpus for studying expressive styles and informing the design of individualized virtual narrators
+Venue:AAAIINTWorkshop  
+Abstract:virtual agents used in storytelling applications should display consistent and natural multimodal expressions of emotions in this paper we describe the method that we defined to endow virtual narrators with individual gesture profiles we explain how we collected a corpus of gestural behaviors displayed by different actors telling the same story videos were annotated both manually and automatically preliminary analyses are presented
+
+
+53fc4987bc52229f1250f486 Title:process of indexing and querying for theatrical texts
+Venue:ACE  
+Abstract:we briefly present a tool called dramatexte for indexing theatrical texts in order to emphasize the existing informations about characters sets and accessories after the indexation step a process of simple or crossed querying allows the user an easy access to the previously indexed informations
+
+
+542a7c9aba4fc605349c13e2 Title:wiki for designing games at summer camp
+Venue:GLS  
+Abstract:in this paper we present a wiki as a medium for storing and sharing materials for games and as an ecological system that can serve as a basis for creating games and simulations we used both approaches in the framework of summer schools for students 10? 12 years old between 2008? 2010
+
+
+540a17a56396aa1e0e34736b Title:co creating networked educational innovations via process simulations
+Venue:ISAGA  
+Abstract:three facilitated discussion based process simulation workshops were arranged to enable the actors of an emerging school network to co develop their educational processes the workshops applied specific visual boundary objects in subsequent phases the workshop data and the follow up interviews show that the workshops supported a stepwise double co creation of novel ideas for educational innovations and of the necessary ties for their successful implementation more analysis of the longitudinal data is still needed to refine and test this hypothesis
+
+
+5400cd30ba4fc60b4800804c Title:body centred interaction meaningful design and aesthetic distance
+Venue:Meaningful Play  
+Abstract:if we accept that video games are a form of art costikyan 1994 then it is proposed that the concept of aesthetic distance should also apply to them this is a literary term defined by encyclopedia britannica as the frame of reference that an artist creates by the use of technical devices in and around the work of art to differentiate it psychologically from reality 2010 in other words the aesthetic distance is the degree of separation required in order for a player to be able to be able to appreciate and critically evaluate a game as art
+
+
+5400ce19ba4fc60b62ff0c0b Title:endless supply an ecocritical perspective on crafting and resources in minecraft
+Venue:Meaningful Play  
+Abstract:as seen in the progress freedom foundation s magna carta early prospectors of the wealth to be had in an economy founded on immaterial information based goods nonetheless relied on the language of nature and ecological themes for describing their motivations the authors of this libertarian stance evoke a distinctly american rhetoric fueled by notions of exploration discovery and of conquest to perpetuate an ideology of third wave dominion over the digital frontier another branch of american philosophy however is positioned as counteractive to this utilitarian view
+
+
+54271403145e57b004eec778 Title:navigating by following stories
+Venue:TIDSE  
+Abstract:in this paper we present an approach that examines if storytelling techniques can be used to relate navigation instructions and if such a presentation improves retention of instructions we describe the concept of a system to present geographical information as a sequence of story elements present an initial prototype and the design of an experiment to evaluate this approach
+
+
+546afa1cba4fc60c6cff6687 Title:the performance of gameplay developing a ludoliteracy
+Venue:Eludamos  
+Abstract:the best way to understand a game is to play it as the playing of video games is a performative experience this short essay explores the idea of performance and gameplay and how they relate on various levels it is through performance that we develop a ludoliteracy and become well versed or well played in understanding of games
+
+
+545918bfba4fc60d2bc85013 Title:gaming and programming affinities in modding communities
+Venue:GLS  
+Abstract:in this paper i use jp gee 2004 s notion of affinity spaces to theorize the typology of divergent game modder for participation in modding observed within civfanatics an online civilization based fan modding site i investigate players motivations to mod and thus how they learn to mod in this paper i present a typology of varying modding inclinations as observed within an online modding community
+
+
+5497e754ba4fc6047caf3dd3 Title:a framework for computer mahjong competitions
+Venue:ICGA  
+Abstract:this contribution specifies a tournament framework for computer mahjong competitions a first version is described in lin shan and wu 2011 the protocol between the framework and ai programs is also described in lin and wu 2010 in chinese the appendices are not directly appended to the contribution they are accessible at http aigames nctu edu tw mahjong protocol html
+
+
+54b74875d4ed61f38d76c4a3 Title:style conversion of cartoon animation
+Venue:Edutainment  
+Abstract:this paper describes a computational approach to style conversion of cartoon animation our system works in two stages the internal color shading phase in which characters painted by the conventional method are segmented into their constituent regions and edges first textures painted using different media are then added to the identified regions and the line rendering phase in which curvature of edges detected during the first phase is calculated and used to pick up turning points from edges strokes with defined shapes and textures are then placed in the positions determined by turning points along the contour as well as internal lines of characters our system obviates the tedium of creating more expressive rendering by hand and keeps frame to frame coherence in the resultant animations
+
+
+54b748ffd4ed61f38d76c4bd Title:effects of filtering policies on task performance in a desktop cve system
+Venue:Edutainment  
+Abstract:to quantify the regularity of state updates the concept of irregular degree was introduced two experiments corresponding to four different filtering policies were designed in the first experiment three filtering policies based on irregular degree were compared in the second experiment the filtering policy achieving the best task performance in the first experiment was selected to compare with other filtering policies the results of the first experiment indicate that the stability of state updates per second is a more important impact factor than irregular degree on the task performance the results of the second experiment indicate that corresponding to different state updates per second the filtering policies can achieve different task performance
+
+
+54b74920d4ed61f38d76c4c4 Title:digital repair research on archeological relics
+Venue:Edutainment  
+Abstract:in this paper we present a digital repair method for archeological relics with some vacant areas we first use the simple method to find the neighboring area which influences the shape of the vacant area then we construct the bi cubic bezier spline surface to interpolate given points in the influencing area re sampling points on the bi cubic bezier spline surface we can use triangle meshes to repair vacant areas the advantage of this method is that the repaired area can smoothly be patched with other parts of archeological relics and it can keep the real shape of vacant areas
+
+
+540a19056396aa1e0e347378 Title:identifying the competencies and capabilities of simulation professionals
+Venue:ISAGA  
+Abstract:simulation australia the national body for simulation professionals in australia is developing an approach to documenting the skills and knowledge used by simulation professionals the aim is threefold the first and most basic is to identify an irreducible set of core knowledge and skills required by anyone using simulation in a professional manner in any context the second goal involves developing a means of aligning the work of all users of simulation with these core skills and knowledge so that relevant professional competencies can be documented and demonstrated to exist within a professional field the third involves developing the framework for a set of formal qualifications within the australian qualifications framework aqf
+
+
+543433bdefae0bf05345267f Title:computer games have words too
+Venue:GameStudies  
+Abstract:dialogue conventions in final fantasy vii
+
+
+5435686fefae14427db107bc Title:raising the stakes e sports and the professionalization of gaming
+Venue:GameStudies  
+Abstract:with the closure of championship gaming series cgs and recent collapses of games companies in the fallout of 2009 global financial crisis one could foolishly believe that games and its professionalization had reached its heyday rather as tl taylor eloquently outlines in
+
+
+54621671dc3be929e70afa3e Title:stories from the seats of power chopper versus chopper as dueling travelogues
+Venue:Well Played  
+Abstract:
+
+
+54621671dc3be929e70afa47 Title:why we glitch process meaning and pleasure in the discovery documentation sharing and use of videogame exploits
+Venue:Well Played  
+Abstract:
+
+
+543ae6125d92b1034f7ca917 Title:the rhetoric of persuasive games freedom and discipline in america s army
+Venue:The Philosophy of Computer Games  
+Abstract:
+
+
+546af944ba4fc60c57cb715e Title:generations and game localization
+Venue:Eludamos  
+Abstract:an interview with alexander o smith steve anderson and matthew alt
+
+
+546b01e9ba4fc60d08d4ec76 Title:games gamification and labour politics
+Venue:Journal of Gaming and Virtual Worlds  
+Abstract:
+
+
+53e83001d837b8e1cb2aa5a4 Title:mmogs and the ecology of fiction understanding lotro as transmedial world abstract
+Venue:DIGRA  
+Abstract:the aim of this paper is to examine the medium related particular strengths and weaknesses of computer games that are part of a wider ecology of fictions previously described by us as transmedial worlds
+
+
+542651a7145e55a98ecf4bc1 Title:you oughta be in pictures
+Venue:CIE  
+Abstract:a golden age of old worlds new worlds and hybrids
+
+
+540a18956396aa1e0e347372 Title:using gamification to enhance staff motivation in logistics
+Venue:ISAGA  
+Abstract:logistics is concerned with effectively managing the flow of materials and supplies for production commerce and other purposes christopher 2003 transport logistics deals with resource flows on a large scale level as it involves transport by land water and air a second domain of logistics is intralogistics which is concerned with the internal handling of materials and supplies within specific production sites or intermediate storage facilities arnold 2006 this paper focuses on intralogistics or more specifically on one of its central tasks order picking
+
+
+546b00a4ba4fc60cf5c7b37a Title:gaming in education a trojan mouse
+Venue:Journal of Gaming and Virtual Worlds  
+Abstract:
+
+
+5400ce19ba4fc60b62ff0c3a Title:simulations and games for teaching law what s possible
+Venue:Meaningful Play  
+Abstract:over the last decade or so there has been a growing interested in using serious games as tools for teaching and learning e g aldrich 2004 gee 2003 mcgonigal 2010 prensky 2001 reeves 2009 salen zimmerman 2004
+
+
+5462167adc3be929ecee388c Title:playing with feelings porn emotion and disability in katawa shoujo
+Venue:Well Played  
+Abstract:
+
+
+5462167adc3be929ecee388b Title:romancing pigeons the deconstruction of the dating sim in hatoful boyfriend
+Venue:Well Played  
+Abstract:
+
+
+5462167adc3be929ecee3889 Title:weird warioware instructional dissonance and characterization in warioware inc mega microgame$
+Venue:Well Played  
+Abstract:
+
+
+5462167adc3be929ecee3887 Title:good fences make good neighbors values of digital objects in farmville2
+Venue:Well Played  
+Abstract:
+
+
+5462167adc3be929ecee3886 Title:replaying the remnants in mark of the ninja
+Venue:Well Played  
+Abstract:
+
+
+5462167adc3be929ecee3884 Title:ninja gaiden black and the tutorial less tutorial
+Venue:Well Played  
+Abstract:
+
+
+5462167adc3be929ecee3883 Title:fiasco and failure uncovering hidden rules in a story game
+Venue:Well Played  
+Abstract:
+
+
+5462167adc3be929ecee3882 Title:assassins creed iii the complete unofficial guide a teachers limited edition
+Venue:Well Played  
+Abstract:
+
+
+54621671dc3be929e70afa46 Title:on justification wow eq2 and aion forums
+Venue:Well Played  
+Abstract:
+
+
+54621669dc3be929e4c0ec43 Title:quest for love playing the women of kings quest
+Venue:Well Played  
+Abstract:
+
+
+54621669dc3be929e4c0ec41 Title:npc romance as a safe space bioware and healthier identity tourism
+Venue:Well Played  
+Abstract:
+
+
+54621669dc3be929e4c0ec40 Title:technology and emotion playing for the love of the game
+Venue:Well Played  
+Abstract:
+
+
+54621669dc3be929e4c0ec3f Title:playing as a woman as a woman as if a man
+Venue:Well Played  
+Abstract:
+
+
+54621669dc3be929e4c0ec3d Title:europa universalis ii conquest trading diplomacy from the middle ages to napoleon
+Venue:Well Played  
+Abstract:
+
+
+54621669dc3be929e4c0ec3c Title:queue d up the functioning of randomized groups in world of warcraft
+Venue:Well Played  
+Abstract:
+
+
+54621669dc3be929e4c0ec37 Title:bioshock and portal a discussion of poetics
+Venue:Well Played  
+Abstract:
+
+
+540a0a886396107ad978ba93 Title:a new progressive mesh with adaptive subdivision for lod models
+Venue:ICEC  
+Abstract:highly detailed models are becoming commonplace in computer graphics such models are often represented as triangle meshes challenging rendering performance transmission bandwidth and storage capacities this paper proposes a new scheme for constructing progressive meshes with adaptive subdivision besides we introduce half edge collapse simplification and present a new way to calculate error distance some experimental results show that our proposed method works well on various meshes
+
+
+5462167adc3be929ecee388a Title:community based play in twitch plays pok mon
+Venue:Well Played  
+Abstract:
+
+
+54621671dc3be929e70afa41 Title:well suffered
+Venue:Well Played  
+Abstract:
+
+
+54621669dc3be929e4c0ec42 Title:tick tock a review of jason rohrers passage
+Venue:Well Played  
+Abstract:
+
+
+54621669dc3be929e4c0ec3a Title:a life in baseball digital and otherwise
+Venue:Well Played  
+Abstract:
+
+
+53fc2094bc520ebb15df7db2 Title:paintrix color up your life
+Venue:ACE  
+Abstract:train stations shopping malls and airports all public places where we spend a lot of time waiting for the train for our friends and for the gate to open while waiting we get bored and we would like to entertain ourselves in order to kill time the first thing that comes to our minds is playing a game or socializing using our smartphone people around you are doing the exact same thing wouldn t it be great if you could play a game with those people a game which requires collaboration and interaction with your surroundings
+
+
+54264f75145e55a98ecf4bb5 Title:a day in the life
+Venue:CIE  
+Abstract:one day filled with the convergence of computers and entertainment
+
+
+54621669dc3be929e4c0ec34 Title:architecture as teambuilding in left 4 dead 2
+Venue:Well Played  
+Abstract:
+
+
+5488602028036717f88d3b39 Title:haptic carillon a computationally enhanced mechanical performing instrument
+Venue:Entertainment Computing  
+Abstract:none
+
+
+543ae6125d92b1034f7ca90b Title:the phenomenology of video games
+Venue:The Philosophy of Computer Games  
+Abstract:
+
+
+54461f67ba4fc6023a4d6b56 Title:gameness and negotiable consequences
+Venue:The Philosophy of Computer Games  
+Abstract:
+
+
+543ae5375d92b10330ddbe35 Title:the derivative reality of computer game entities
+Venue:The Philosophy of Computer Games  
+Abstract:
+
+
+53fc1f34bc520ebb15df7da6 Title:mood dependent music generator
+Venue:ACE  
+Abstract:music is one of the most expressive media to show and manipulate emotions but there have been few studies on how to generate music connected to emotions
+
+
+54264d98145e55a98ecf4ba7 Title:around the universe in twelve days
+Venue:CIE  
+Abstract:a strategic exploration of the ongoing evolution of computers and entertainment
+
+
+540a7c7741b817fceee0b67c Title:bass impact dj studio a music mixing software with gesture controls
+Venue:Intetain  
+Abstract:everyone can be a music dj nowadays however most djs forget about the interaction with the audience while performing their mixing tasks a new way of interacting with the music and the audience is presented in this paper our solution is a software which allows perfect beat matched mixing and interaction with the software and the audience at the same time by using gesture controls the interaction with the software works well and is entertaining however finding the appropriate gestures is not trivial in addition new ideas regarding interaction with music are presented
+
+
+5400cb37ba4fc60b27323366 Title:the international edition and national exoticism
+Venue:Meaningful Play  
+Abstract:this paper analyzes the current group of locally released and consumed japanese international edition video games it considers the meaning of internationalism nationalism language and translation localization within the context of these video game special editions in the late 20th and early 21st centuries by understanding the international edition as linked to trends of both self exoticism and self orientalism within japanese history the paper seeks to understand alternate meanings to the video games beyond simple commercial ventures and how language and translation bring about these alternate meanings
+
+
+5400cd30ba4fc60b4800803a Title:the art of nailing pudding to the wall strategies on modeling abstract concepts in games
+Venue:Meaningful Play  
+Abstract:exploring and tapping games potential as deep and though provoking conceptual tools requires experimentation one thing i like to experiment with is basing games on abstract ideas such as responsibility dignity or optimism basing games on such intangible concepts however is a lot like nailing pudding to the wall the idea of love for example is hard to grasp what are its elements its mechanisms and which concept of love are we talking about anyway
+
+
+54621669dc3be929e4c0ec3b Title:time tech and tales the fall and rise of the popularity of narration in games seen through monkey island 2 and phoenix wright ace attorney
+Venue:Well Played  
+Abstract:
+
+
+5446237aba4fc60282ad4ddd Title:+10 gamification and degamification
+Venue:GAME The Italian Journal of Game Studies  
+Abstract:this article investigates the cultural meaning of gamification and of its degamificator power in particular we will see what gamification is +1 which are the levels of analysis +2 how gamification makes explicit how culture derives from the game +3 even if they are different things +4 how the formation of culture in game and vice versa could delete them and how gamification cannot do that +5 why every gamification is a degamification +6 why pointsification cancels fiction and gameness from games +7 why gamification of devices does not involve a playification of experiences +8 and how the gamed player stops to play +9
+
+
+54461f67ba4fc6023a4d6b5f Title:the ontology of interactivity
+Venue:The Philosophy of Computer Games  
+Abstract:when discussing modern entertainment people frequently use the terms interactive and noninteractive despite the fact that there is no clear consensus on what these concepts mean to this point in the book rules of play salen and zimmerman write interactivity is one of those words which can mean everything and nothing at once 2005 58 despite this ambiguity there is an apparent consensus that interactivity is essential to understanding the difference between computer games and other forms of entertainment it is often said that computer games are different from films literature and other works of art precisely because computer games are interactive and these other media are not not only is interactivity considered to be necessary to a computer game but games are often criticized by gaming reviewers for having long noninteractive portions such as cutscenes suggesting that interactivity is essential for a computer game to be successful newman 2004 so what is interactivity
+
+
+546b16baba4fc60e3cd2ee93 Title:landescapes the photography of ellen jantzen
+Venue:iDMAa Journal  
+Abstract:the tradition of linear forward marching time is backward from the standpoint of the aymara people of south america they see history as lying in front of them because history consists of known events they can see it in their language nayra mara means in past times or history but translates literally as time in front conversely because you can t see what is behind you it is unknown the aymara see this as the future since they haven t seen it yet
+
+
+549559a3ba4fc61df072680d Title:on asymmetric multiplayer for learning
+Venue:GLS  
+Abstract:this short talk will focus on the value of engineering the interfaces and systems of learning games for the asymmetric distribution of information control and more games are often viewed as a way around the one size fits all classroom but make similar design choices ultimately
+
+
+549559a3ba4fc61df0726819 Title:visual analysis toolkit four use cases
+Venue:GLS  
+Abstract:this poster provides four visual analyses of videogames with a focus on the structures of semiotic resources based on tools developed by the authors in order to establish a methodology for exploring how we create meaning around the practice of gaming using several perspectives including the relationship between noticings and orientational elements visual conventions within and beyond games and ideological frameworks to explore various videogames this poster both uses the visual analysis tools as well as critiques the applicability of these tools to further an emerging discussion about how we create and share meaning in and around videogames
+
+
+549559a3ba4fc61df0726826 Title:verb challenge
+Venue:GLS  
+Abstract:verb challenge is a spanish verb conjugation puzzle where the player has to identify and tap blocks with pronouns verb stems and verb endings in order to form correct sentences to advance in the game
+
+
+5497d433ba4fc60262cf8854 Title:6 man chess solved
+Venue:ICGA  
+Abstract:eugene nalimov has completed the computation of a set of endgame tables for 6 man chess and independently marc bourzutschky has completed tables for 3 3 chess and for 4 2 chess where black is not just kp the icga salutes both achievements and looks ahead
+
+
+5497e43dba4fc60428e209a0 Title:static exchange evaluation with αβ approach
+Venue:ICGA  
+Abstract:the development and analysis of a static exchange evaluator see is a challenging issue the see is an important module of the computer chess architecture for the qualitative and quantitative evaluation of moves and threatened squares by means of the αβ window on which the static exchange evaluation is based it is also possible to implement pruning conditions the benefit of these pruning conditions is a reduction of the iterative computation this article deals with the theoretical elements and the implementation of different see algorithms
+
+
+5497e6edba4fc6046f5c6373 Title:a diagonal english peg solitaire problem from 32 to 9 pegs
+Venue:ICGA  
+Abstract:a programmer s analysis of the problem is presented the total number of solutions is listed
+
+
+54b7472bd4ed61f38d76c467 Title:cinematographic techniques for edutainment applications
+Venue:Edutainment  
+Abstract:in film cinematographic techniques are used in a concurrent sense predominantly to achieve creative goals the use of cinematographic techniques in edutainment applications would especially affect the modeling of virtual characters as well as the authoring and perception of interactive stories
+
+
+54b7481bd4ed61f38d76c493 Title:dynamic surface deformation and modeling using rubber sweepers
+Venue:Edutainment  
+Abstract:we introduce a new surface deformation and modeling method in this paper referring to the swept volume generation the surface is pulled or pushed along a trajectory curve the key point is the sweeping function surface points are moved to where they should be during sweeping operations according to the global parameter which is determined by topological distance an index factor controls how much the surface deforms around the handle point the proposed method is easy to extend to fit different applications such as various constraints local deformation and animations
+
+
+54b7485fd4ed61f38d76c4a0 Title:generating 3d paper cutting effects
+Venue:Edutainment  
+Abstract:we present a framework for generating paper cutting effects on mesh models our system involves the construction of model defined paper cutting patterns extraction of the medial axis ma from the mesh models and position location for patterns on the mesh surface based on ma patch sets for placing patterns on the mesh surface are determined by the region growing algorithm after patch sets parameterization patterns are drawn on the parameterized domain and mapped onto the mesh surface by inverse sampling
+
+
+54b747f7d4ed61f38d76c48e Title:texture synthesis using incremental patches
+Venue:Edutainment  
+Abstract:this paper presents a fast texture synthesis method using texture patches with incremental sizes in contrast to the existing work in the area it offers much fast speed through efficient computations by applying the method to a wide variety of texture samples we have demonstrated the effectiveness of the method through the results and discussions in addition we have also applied this texture synthesis method to cube mapping for the fast viewing of surfaces decorated by textures
+
+
+54b7469dd4ed61f38d76c446 Title:study on the long range marine cruise system of unmanned aerial vehicles
+Venue:Edutainment  
+Abstract:the paper analyzes the significance and feasibility of the undertaking of long range marine cruise mission by unmanned aerial vehicles and proposes the composition and major functions of this long range marine cruise system which lays foundations to the realization of long range marine cruise of unmanned aerial vehicles and to the establishment of a marine supervision and administration system with all directional coverage all weather operation and rapid response
+
+
+54b74641d4ed61f38d76c437 Title:a new method for testing embedded software with scenario pattern
+Venue:Edutainment  
+Abstract:this paper presents a new way to test embedded software with a scenario pattern based method it also introduces some concepts of scenario and scenario patterns and formalizes the embedded software with scenario model acdate the verification patterns are built with embedded system and are tested with the samples of basic scenario pattern this paper shows the process about how to verify the embedded software
+
+
+54621671dc3be929e70afa45 Title:well played and well debated understanding perspective in contested affinity spaces
+Venue:Well Played  
+Abstract:
+
+
+54621671dc3be929e70afa43 Title:inhabiting games well if not uncomfortably
+Venue:Well Played  
+Abstract:
+
+
+54621671dc3be929e70afa3f Title:unbroken immersion the skyrim experience
+Venue:Well Played  
+Abstract:
+
+
+53ecff24bc52af673d06e0d8 Title:dhpa and shpa efficient hierarchical pathfinding in dynamic and static game worlds
+Venue:AIIDE  
+Abstract:in 2004 botea et al published the hpa algorithm hierarchical pathfinding a which is the first detailed study of hierarchical pathfinding in games however hpa can be optimized in this paper we introduce the dhpa and shpa hierarchical pathfinding algorithms along with a metric for comparing the dynamic performance of pathfinding algorithms in games we show that dhpa searches up to an order of magnitude faster than hpa but consumes significantly more memory and produces slightly less optimal paths the shpa algorithm searches up to five times faster than hpa and consumes less memory but it also produces slightly less optimal paths and is only fit for static environments when comparing the algorithms in dynamic environments our results show that dhpa often outperforms hpa unlike many other hierarchical pathfinding algorithms both solutions presented in this paper maintain a read only terrain representation during search which simplifies programming and debugging and improves multithreaded performance
+
+
+546af9c4ba4fc60c6199b9f8 Title:commodifying scarcity society struggle and spectacle in world of warcraft
+Venue:Eludamos  
+Abstract:overrun by monsters and tyrants and ravaged by fanaticism excess and greed world of warcraft offers players a chance to struggle metaphorically against that which oppresses them the excesses of late capitalism as they are represented by the game s spectacular antagonisms in order to take advantage of this opportunity however players must employ the very thing through which their oppression is manifested interpellated into the game as fetishized images players must construct themselves and function in accordance with the limitations imposed upon them by the race and class of their characters players as such are incorporated into world of warcraft s spectacle even as they struggle against it what world of warcraft sells players is thus not liberation and fulfillment but more of the same a spectacular version of the present tense in which the race and class based antagonisms that define the status quo of late capitalism are represented as magical and fantastic in approaching world of warcraft in these terms this article attempts to understand how the game commodifies struggle not only securing the consent of players to produce themselves and perform as subjects but in doing so reproducing the illusion in which the society of world of warcraft s spectacle is manifested the illusion that the spectacular hierarchies and inequalities of late capitalism are natural and inevitable rather than socially constructed
+
+
+542a7c9aba4fc605349c13d8 Title:mixed methods to study games and learning
+Venue:GLS  
+Abstract:this paper outlines a mixed methods workshop describing how the methods of quantifying qualitative codes repertory grid analysis matched sample comparison triangulation and discourse analysis can be used in various combinations to create a more detailed analysis these methods are presented in the context of researching online games
+
+
+542a7c9aba4fc605349c13db Title:conversations
+Venue:GLS  
+Abstract:
+
+
+540b21eef3bdaef7bef3d9f9 Title:a gameplay definition through videogame classification
+Venue:IJCGT  
+Abstract:this paper is part of an experimental approach aimed to raise a videogames classification being inspired by the methodology that propp used for the classification of russian fairy tales we have identified recurrent diagrams within rules of videogames that we called gameplay bricks the combinations of these different bricks should allow us to represent a classification of all videogames in accordance with their rules in this article we will study the nature of these bricks especially the link they seem to have with two types of game rules the rules that allow the player to manipulate the elements of the game and the rules defining the goal of the game this study will lead to an hypothesis about the nature of gameplay
+
+
+5462167adc3be929ecee388d Title:switch panic sega cds greatest enigma
+Venue:Well Played  
+Abstract:
+
+
+546af7c0ba4fc60c2e3abdec Title:translating narrative into code thoughts on a technology centric model of digital games as programmable media
+Venue:Eludamos  
+Abstract:even in a discipline as young as game studies ignoring for a moment the increasingly popular further differentiation between ludologists and narratologists 1 it has become impossible to account for every approach concerning methodology for the study of digital games for precisely that reason it is important to be aware that the better part of academic literature is published and debated online new techniques of archival storage faster reaction times and a far greater transience of the contributions shape the flow and crystallization of gaming theories i will thus critically comment on a selection of texts and examples displaying current notions in game analysis
+
+
+546af8e1ba4fc60c4b161b8f Title:a review of agent emotion architectures
+Venue:Eludamos  
+Abstract:this paper attempts to highlight some of the research that has been conducted worldwide in the area of computational models of emotions with a particular emphasis on agent emotions suitable for simulations and games the intended outcome is to both review some of the more prominent research in the field and to also ascertain the level of formal psychology that may underpin such work with a view to proposing that there is scope for an architecture built from the ground up that arises from non conflicting theories of emotion
+
+
+546af944ba4fc60c57cb7160 Title:generations of game analytics achievements and high scores
+Venue:Eludamos  
+Abstract:this paper poses the question how has game recording evolved over the generations and how will it affect future generations of players and game developers who have access to the digital past high scores have a history behind them and as generations of games have moved forward they begin to record much more than just scores the present player generation can record complete replays of their entire gameplay performances and even play against other recorded player ghosts as the future generations of gamers and developers take over they will have unprecedented access to the digital history archive as it becomes easier and easier to record and store the past deciding what to do with that past will be the next generation s task as games move into the future
+
+
+543568ceefae14427db107d4 Title:combat in context
+Venue:GameStudies  
+Abstract:what follows is a critical consideration of
+
+
+5435691fefae14427db107ea Title:narrative games and theory
+Venue:GameStudies  
+Abstract:during the last quarter of a century narrativity has been a key concept in the humanities whereas in earlier centuries the world was thought of as a stage in the last quarter of the twentieth century it was conceived as a text woven by the narrative threads human beings read in it in their efforts to make sense of their perceptions and experiences as roland barthes wrote narrative is international trans historical trans cultural it is simply there like life itself barthes 1977 narrative became generally considered as the core pattern for cognition comprehension and explanation and as the most important tool for construing identities and histories the linguistic turn rorty 1992 in the humanities was a narrative turn as well
+
+
+5426f091145e23f871c4895c Title:beyond human avatar as multimedia expression
+Venue:ICVS  
+Abstract:the avatar the representation of the user in three dimensional chat environments serves as a visual identifier for the user and through gestures costumes acts as a means of expression for the user the avatar also serves as a point through which the user receives information and manipulates the environment abstracted into programming terminology the avatar is not a humanoid representation endowed with gestural expression but a four dimensional point 3d time for data exchange accepting this abstraction of the avatar opens the door to a world of simple yet previously unthinkable possibilities for expressive communication
+
+
+54621669dc3be929e4c0ec33 Title:minecraft beyond construction and survival
+Venue:Well Played  
+Abstract:
+
+
+5446218eba4fc60261446a3a Title:defining the videogame
+Venue:The Philosophy of Computer Games  
+Abstract:in philosophy the question why do we really use that word that proposition constantly leads to valuable results wittgenstein 1922 6 211 you look much like your forefather said skepticus there was no answer only a bit heavier and less agile skepticus added to himself as he continued to size up grasshopper who was slouched in a comfy chair fingers dancing on a device that seemed to affect the screen on which his eyes were locked perhaps the visit had been a mistake then the sky turned grey and a thunderstorm took over lights went out curse words echoed through the house thus after a few passing moments skepticus found himself in candlelight talking to young grasshopper
+
+
+53ecfedcbc52af673d06e0d3 Title:realistic fireteam movement in urban environments
+Venue:AIIDE  
+Abstract:realistic simulations of the movement of infantry in urban environments with 3d models and at interactive rates is of wide and enduring interest many video games have attempted it and military simulations are increasingly doing the same previous attempts have fallen short in two areas properly coordinating movement and adequate modeling of the detection of hostile targets novel algorithms to simulate fireteam movement and visual scanning appropriate to urban environments are described measurements of the computational performance of the most expensive components of the approach are provided
+
+
+5424d2bd45a6f877e1e6be8e Title:monkey see monkey do an ecological approach to challenges in games
+Venue:FDG  
+Abstract:games whether they are digital games tabletop games or sports basically challenge two aspects of human nature our ability to choose appropriate actions and our ability to perform appropriate actions expressed in theoretical terms games are constituted by exploratory and performatory challenges i will claim that this distinction is the key to understanding the experience of playing a specific game and what kind of skills and knowledge the game demands of its player in this talk i will build upon this claim in order to discuss the following themes categories of games one framework for digital games tabletop games and sports the role of coaches sharing the performatory and exploratory work backseat gaming the pleasure of sitting next to a gamer the illusion of learning how digital games can give us an effortless sensation of accomplishment
+
+
+546af9c4ba4fc60c6199b9f6 Title:strategy computer games and discourses of geopolitical order
+Venue:Eludamos  
+Abstract:this article presents some thoughts on the forms and functions of hidden knowledge in popular strategy games it concentrates specifically on discourses of geopolitical thinking to argue that actual games use and reproduce specific forms of a geographical and political knowledge which are both deeply connected to the ideas of an extreme national and political thinking of the early 20th century and form a way of describing globalized forms of order policy and conflict exposing this idea will take a three step approach first the close linkage between strategy games and spatial concepts in general needs to be examined second some structural arguments of classical geopolitics of the 1920s to 1960s in contemporary strategy games must be revealed finally this text refers to current booms and renaissances of such geopolitical discourses in short this article tries to show how politics are coded as actions in space and how the german lebensraum policy is connected to samuel huntington s clash of civilization via age of empires
+
+
+546afa79ba4fc60c6f2d7e4f Title:designing a game for playful communication within families
+Venue:Eludamos  
+Abstract:this article presents the game junomi a game designed to give families and teenagers opportunities to play with the way they communicate and also experience closeness and togetherness taking a research based approach and getting a detailed understanding of the situation to design for facilitated an investigation that helped seeing potentials for playful moments and spaces in the situation as well as how the different elements and aspects of the situation could be made playable everyday communication is considered complex heterogeneous and indefinable and the game does not which models or simulate the complexity of the situation but to create a frame that invites suggests reminds and encourage for a playful mind in the everyday and thereby gives possibilities for the families to through play explore and experiments with ways of communicating and ways of being together the experience of the game depends largely on how the players choose to engage with the game
+
+
+543ae5375d92b10330ddbe29 Title:?the ludic parenthesis
+Venue:The Philosophy of Computer Games  
+Abstract:strong somnial antirealism holds that nothing is real in a dream moderate somnial antirealism argues that real objects can never be imported into a dream to the effect that a person you meet in a dream can at most be a counterpart of a person from reality weak somnial antirealism maintains that somnial qualities alone will never suffice to constitute an object that can be referred to when you are awake corresponding by negation to these three grades of somnial antirealism there are three grades of somnial realism grade one there are objects in a dream grade two real objects can enter into a dream grade three dreams can create real objects in the comics series calvin and hobbes hobbes is a doll in the shape of a tiger calvin the boy plays fantasy games with in calvin s fantasy play hobbes is transformed into a real tiger in order to analyze this i introduce a ludic sentence operator l with a scope delimited by a left and right parenthesis to the effect that everything that happens in this parenthesis is purely ludic an object may exist only within this ludic context as the value of the variable bound by a quantifier inside the parenthesis or it may exist outside it as well if the ludic operator is within the scope of an existential quantifier outside it i will discuss whether hobbes is identical with the ludic tiger or whether it is some kind of proxy turning finally to the worlds of videogames i raise the question of who dies in a videogame killing i will discuss identity criteria for the inhabitants of virtual worlds in order to assess their reality
+
+
+53fc1618bc52229f1250f31c Title:applying recent techniques for retro games in the case of undo function
+Venue:ACE  
+Abstract:emulation is one of the most important methods for providing lower compatibilities and several game machines truly adopt emulations a game emulator establishes executions of the games of its target machine at the same time when we append a new function on an emulator we can apply the function for all games on the emulator actually many game emulators adopt extra functions and we gain many benefits from these functions these functions sometimes bridge the gaps between recent games and retro games however these functions leave rooms for improvements we implemented and evaluated undo function as an example of the improvements this function removed the problems of the traditional function and achieved performance gains from the traditional except when we fully engaged in the traditional function our function considerably reduced the penalties of the failures in games in addition our function also homogenized the penalties without dedications we can use our function easily and safely
+
+
+5409f1826396ff79b9c5bf29 Title:strategy selection in games using co evolution between artificial immune systems
+Venue:ICEC  
+Abstract:in this paper we create a simple artificial computer game in order to illustrate a means of making software players in computer games more intelligent despite being known as ais the current generation of computer players are anything but intelligent we suggest an algorithm motivated by concepts from artificial immune systems ais in which an attack from one opponent is met with a response from the other which is refined in time to create an optimal response to that attack we refine the ais algorithm in that we model the response with a probability vector rather than a population of antibodies some typical results are shown on the simple computer game
+
+
+5409f3a46396ff79b9c5bf3c Title:development of extemporaneous performance by synthetic actors in the rehearsal process
+Venue:ICEC  
+Abstract:autonomous synthetic actors must invent variations of known material in order to perform given only a limited script and to assist the director with development of the performance in addition the synthetic actors need to learn through the rehearsal process as their human counterparts do via feedback from the director through the production of two performances involving both human and synthetic actors a variety of methods of creating extemporaneous performance and utilising feedback to select the most effective performance variations will be examined one method of varying the performance is the manner in which lines of dialogue are delivered the paper outlines use of a statistical technique to create three variations of a performance each variation was then ranked and these rankings used to weight the variances in individual lines to create a superior variation this allowed quick evaluation of many lines without having to score each individual line
+
+
+540a1ae86396107ad978bb1c Title:you are here
+Venue:ICEC  
+Abstract:the continuing expansion of the visible domain increasingly including and giving force and reality to the creations of our imagination and to formerly inaccessible places and dimensions of our unfolding universe has produced a radical shift of the shared concepts of time and space suddenly the statement you are here has a very different meaning thanks to the proliferation and increased mastery of interactive immersive and socially engaging media we have passed beyond the simple curiosity for technologies to find ourselves as macluhan professed dressed and immersed in them immersed indeed we are collectively engaged in a reality jam with the physical the artificial the augmented and the virtual in the process we have turned from spectators to users visitors and now inhabitants of our own crafts questions such as who am i who are you where are we how are we supposed to behave are now being asked with new relevance and urgency survival skills such as conversation posture attitude or simply what to wear are being reformulated on the fly by the natives and immigrants of this new territory that does not always perfectly accommodates the biological features we inherited from evolution
+
+
+540a0aed6396107ad978ba98 Title:concept and construction of an interactive folktale system
+Venue:ICEC  
+Abstract:in this paper as one example of a new edutainment system we propose an interactive folktale system which makes it possible for people especially children to enjoy folktales in various ways they can appreciate the generation of original tales and variations also they can interact with the story by communicating with its characters or by playing one of the characters moreover they can easily create a new folktale by changing the original story or by describing a new story
+
+
+5409fdd36396107ad978ba28 Title:robot navigation by eye pointing
+Venue:ICEC  
+Abstract:we present a novel wearable system for robot navigation in this system a user can operate multiple robots in a very intuitive way the user gazes at a robot and then gazes at its destination on the floor as this system needs no equipment in the environment the user can apply it anywhere on a flat floor with only the wearable system in this paper we show how to estimate the positions and orientations of the robots and the gazed position we also describe implementation of the robot navigation system
+
+
+540a6c2041b817fceee0b5f3 Title:disjunctor selection for one line jokes
+Venue:Intetain  
+Abstract:here we present a model of a subtype of one line jokes not puns that describes the relationship between the connector part of the set up and the disjunctor often called the punchline this relationship is at the heart of what makes this common type of joke humorous we have implemented this model in a system diss disjunctor selector which given a joke set up can select the best disjunctor from a list of alternatives diss agrees with human judges on the best disjunctor for one typical joke and we are currently testing it on other jokes of the same sub type
+
+
+540a1a296396e490d9fe5721 Title:a serious game for the learning of vibrotactile feedbacks presented under the foot how many and how fast
+Venue:SGDA  
+Abstract:vision and auditory channels are often used to convey information quickly knowing that hearing and vision are generally loaded with plenty of stimuli the use of touch as an alternative medium of communication could unload those senses although many studies have been conducted on hapic icons or tactile icons few of them have focused on the foot as a medium of communication this paper particularly investigate the maximum number of vibrotactile messages that could be memorized when displayed under the foot the method is based on a daily training wrapped in a serious game in the latter the avatar must be led to different locations through risky path risky events are displayed along the route through vibrotactile feedbacks which have to be identified by the player a preliminary experiment shows the usability of this serious game for learning a large number of vibrotactile stimuli
+
+
+546af8e1ba4fc60c4b161b86 Title:real boys carry girly epics normalising gender bending in online games
+Venue:Eludamos  
+Abstract:players in online games frequently choose the opposite gender when they select an avatar previously this has been attributed to a player s unconscious sexual anxieties and the need to experiment through the anonymous location of the avatar however this paper argues that the development of choice in games where players have frequently selected the female form for ludic reasons means that this choice has become normalised through a historical process the avatar is frequently considered as a tool with gender regarded as a freely admitted aesthetic pleasure the player does not see this as a site of tension or seeks to absolve this tension publicly as an act of appropriation typical to jenkins? textual poachers overall the act of gender switching is not considered deviant within gaming more it is embraced as a common practise with historical precedents to support it
+
+
+5497e43dba4fc60428e209a2 Title:the 2010 contest mogotw vs human go players
+Venue:ICGA  
+Abstract:this report describes the games played in the context of the 2010 invited games for mogotw vs human go players held at the national university of tainan nutn taiwan on march 21 2010 twenty four go players ranking from 1d dan to 3d were invited to challenge the computergo program mogotw by playing 9×9 games to validate whether mogotw has reached the level id 2d or 3d based on the amateur taiwanese scale see photo 1 the games results were convincing mogotw won 23 out of 24 games therefore mogotw was awarded the 1d 2d and 3d certificates by the taiwanese go association at the haifong weiqi academy on april 2 2010 in the future the team members of mogotw both in taiwan and france will continue to improve the current weaknesses of mogotw to let computer go achieve similar results or better as computer chess and chinese chess
+
+
+5497d433ba4fc60262cf8859 Title:yet another mastermind strategy
+Venue:ICGA  
+Abstract:over the years many easily computable strategies for the game of mastermind have been proposed in this paper we present a new strategy at least to our knowledge that performs better than the well known strategies guess the code that has the highest number of possible answers it is motivated and compared to four well known strategies some empirical results are presented and discussed
+
+
+5446203aba4fc60248afe4a0 Title:identity and simulacrum thank you mario but your identity is in another castle
+Venue:The Philosophy of Computer Games  
+Abstract:the simulacrum far from being a new foundation it engulfs all foundations it assures an universal breakdown but as a joyful and positive event as an unfounding behind each cave another that opens still more deeply and beyond each surface a subterranean world yet more vast more strange richer still and under all foundations under every ground a subsoil still more profound the video games transgress in the majority of cases unknowingly or while attempting to reproduce the different conceptions of the identities found throughout the history of philosophy from the being thrown into the world geworfenheit to the being towards death sein zum tode video games set forth a new type of identity consciously created that unlike the presumed essential identity can always be transgressed dismantled and put back together this presumed essential identity has carried enormous problems and philosophical contradictions like social conceptions that given rise to discriminatory politics racist sexist and classist being aware of the political force the simulacrum can entail we want to undertake a cartesian adventure of course perverting its origin if descartes intended to find a secure foundation for science and with this purpose in the peaceful retreat of his home next to the hearth he trod the path that led him to the methodic doubt we among the hustle and bustle of the city and bathed in the light of a screen prepare ourselves to hit all those foundations that descartes hit himself using the doubt but our aim far from seeking an indubitable truth inside the conscience will not go beyond the pleasure of doubt itself we propose five simulacra that operate in video games and open the path to spaces for the experimentation and creation of identities simulacra that will shake the sense of oneself and allow us to assert the existence of some kind of self gamer an analysis of and experimentation with these simulacra could lead us to new conceptions of the self outside the context of video games that we hope will help impulse the imaging of emancipatory social structures and policies you can take this as a crazy and desperate experiment carried out by those who searching for meaning had no option but creating a new one
+
+
+5446218eba4fc60261446a39 Title:postphenomenological play
+Venue:The Philosophy of Computer Games  
+Abstract:this paper aims to identify an understanding of digital games in virtual environments1 by using don ihde s 1990 postphenomenological approach to how technology mediates the world to human beings in conjunction with hans georg gadamer s 1993 notion of play2 through this tentatively proposed amalgamation of theories i point towards an alternative understanding of the relationship between play and game as not only dialectic but also as socially and ethically relevant qua the design and implementation of the game as technology at first i outline ihde s concept of hermeneutical technological mediation and apply it to digital games as technology considering that such an application of concepts to digital games requires a working definition of play i subsequently draw upon gadamer s notion of play to further understand the relationship between players3 and digital games as technology consequently i propose an adjusted view on how digital games as technology mediate the world to their players given gadamer s dialectic notion of play along with the implications of the paper s proposal finally i outline potential objections and future directions of analysis and research for the proposed concepts although it is a challenge to merge these two different theories without doing injustice to their respective concepts it is my assessment that the theories indicate a potentially rich way of understanding the activity of play through technology 4 thus this paper should be regarded as a theoretical compliment or contribution to how we approach complex phenomena like play and game and their dialectic relationship
+
+
+54461f67ba4fc6023a4d6b60 Title:fiction as play reassessing the relation of of play games and fiction
+Venue:The Philosophy of Computer Games  
+Abstract:it is more than a rhetorical appeal to auctoritas to say that the object of the present paper is to propose a return to huizinga all poetry is born of play huizinga 1955 129 in essence that is the position i wish to lend authority to here if one allows the artistic license to take poetry as a pars pro toto for fiction i suggest reassessing the relation of game and fiction in video games and hope to demonstrate that a fruitful theoretical approach to this relation is to conceive of both as belonging to the larger category of play
+
+
+542a965bba4fc60293f1db9b Title:the language of gaming between code and communication
+Venue:Under the Mask  
+Abstract:this panel looks at two major aspects of the language of gaming cf ensslin 2011 the ways in which videogames including their underlying source codes and surrounding paratexts convey meanings to their audiences and the ways in which gamers communicate and negotiate meanings between themselves in various meta zones revolving around gameplay whilst refraining from contending that there is a single and united language of videogames and gaming we aim to identify and show examples of idiosyncratic linguistic semiotic and discursive practices and processes that are characteristic of the social and semiotic sphere of videogaming in seeking to exemplify the diversity of multimodal signification the numerous layers of encoding and decoding and in particular the pragmatic and social aspects involved in the language of gaming the three papers in this panel focus on 1 the relationships between player rule and variety 2 illocutionary forces politeness and player discourses as elements of metaludic communication and 3 in world metalinguistic practices and folk metalanguage
+
+
+54b74890d4ed61f38d76c4a7 Title:adaptive level set method for mesh evolution
+Venue:Edutainment  
+Abstract:a narrow band based adaptive level set method is proposed for mesh evolution in this paper in the preprocessing step the portions of the mesh with high curvature are detected and clustered as fine geometric details then the fine grids with optimal orientations are defined for each detected portions while the coarse grid is chosen for global evolution the solutions on different scale grids are synthesized as the final results compared with the level set solution on the uniform grid our approach can achieve a good compromise between computational costs and mesh evolution quality the implementation results also show that it is an efficient and robust method
+
+
+54b74ae2d4ed61f38d76c511 Title:tile based interactive texture design
+Venue:Edutainment  
+Abstract:in this paper we present a novel interactive texture design scheme based on the tile optimization and image composition given a small example texture the design process starts with applying an optimized sample patches selection operation to the example texture to obtain a set of sample patches then a set of ω tiles are constructed from these patches local changes to those tiles are further made by composing their local regions with the texture elements or objects interactively selected from other textures or normal images such select compose process is iterated many times until the desired ω tiles are obtained finally the tiles are tiled together to form a large texture our experimental results demonstrate that the proposed technique can be used for designing a large variety of versatile textures from a single small example texture increasing or decreasing the decreasing the density of texture elements as well as for synthesizing textures from multiple sources
+
+
+No keyword paper in total:128
