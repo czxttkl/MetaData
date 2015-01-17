@@ -9,3 +9,5 @@ Metada project
 	```
 3. run `KeywordsExtractor.java` to generate keywords for papers without them originally.
 4. run `ReferenceMatcher.java` in order to add the authors to each paper who cite the paper.
+5. run `NetworksGenerator.java` to generate input for EvoClusNet algorithm
+6. run `EvoClusNet\Program.cs` for EvoClusNet algorithm
