@@ -240,6 +240,14 @@ public class Utils {
     public static class MutableInt {
         Integer value = 1; // note that we start at 1 since we're counting
 
+        public MutableInt() {
+
+        }
+        
+        public MutableInt(int v) {
+            value = v;
+        }
+        
         public void increment() {
             value++;
         }

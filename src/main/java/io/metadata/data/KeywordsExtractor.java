@@ -22,6 +22,8 @@ import java.util.TreeMap;
 import org.bson.types.ObjectId;
 import org.jongo.MongoCursor;
 
+import com.sun.org.apache.xerces.internal.xni.grammars.Grammar;
+
 /**
  * This class is used to extract keywords from string.
  * 
@@ -30,7 +32,7 @@ import org.jongo.MongoCursor;
  */
 public class KeywordsExtractor {
 
-    private static String[] stopwords = { "a", "about", "above", "above", "across", "after", "afterwards", "again", "against", "all",
+    private static String[] stopwords = { "a", "about", "above", "above", "across", "after", "afterwards", "again", "against", "ago", "all",
             "almost", "alone", "along", "already", "also", "although", "always", "am", "among", "amongst", "amoungst", "amount", "an",
             "and", "another", "any", "anyhow", "anyone", "anything", "anyway", "anywhere", "are", "around", "as", "at", "back", "be",
             "became", "because", "become", "becomes", "becoming", "been", "before", "beforehand", "behind", "being", "below", "beside",
@@ -62,36 +64,9 @@ public class KeywordsExtractor {
             "sent:", "is,", "was", "like", "discussion", "tmus", "diffrent.", "layout", "area.", "thanks", "thankyou", "hello", "bye",
             "rise", "fell", "fall", "psqft.", "http://", "km", "miles", "wa", "thi", "thu" };
 
-    /** Common words that shouldn't appear in 1grams. */
-    private static String[] commonword1Gram = {
-        "analysi", "application", "assessment", "association", "affect", "architecture", "appropriation",
-        "agent", "agency",
-        "benefit", "book", "balance", "busines",
-        "cost", "control", "computer", "competition", "conference", "change", "character", "complexity",
-        "content", "context", "cooperation", "culture",
-        "definition", "digital", "display", "diversity", "death",
-        "enjoyment", "entertainment", "environment", "engineering", "experience",
+    /** selected 1 grams that should be included to ngrampool.*/
+    private static String[] selected1Gram = {
         
-        "framework", "fan", "fun", 
-        "game", "gaming", "gamer", "gameplay", "guideline", "generation", "global",
-        "high", "human",
-        "installation", "industry", "information", "interaction", "interactive", "internet",
-        "low", "language", "learning",
-        "media", "material", "modelling", "modeling", "mapping", "magic",
-        "network",
-        "play", "proces", "player", "pleasure", "power", "protocal", "pattern", "practice", "probability",
-        "perspective", "production", "philosophy", "prototype",
-        "questionnaire",
-        
-        "representation", "relationship", "reading", "role", "rule", "road",
-        "scale", "survey", "standard", "space", "software", "skill", "sense", "shape", "schema",
-        "story",
-        "science",
-        "sound", "search",
-        "technique", "time", "tool", "theory", "technology", "taeching", "text",
-        "uncertainty", "vector",
-        "video", "virtual",
-        "writing",
     };
     
     /** Common words that shouldn't appear in 2grams as well as in 1grams. */
@@ -127,13 +102,14 @@ public class KeywordsExtractor {
             "employ", "employed",
 
             "future", "fully", "follow", "following", "finding", "finally", "find", "final", "fast", "faster", "facilitate",
-            "fail", "failed", "failure", "formal framework",
+            "fail", "failed", "failure", "formal framework", "frequently",
             "facilitating", "facilitated", "facilitation", "furthermore", 
             
-            "good", "great", "greatly", "greater", "goal", "grow", "growing",
+            "good", "great", "greatly", "greater", "goal", "grow", "growing", "gaining",
             "grew", "giving", "given", "generated", "generating", "generate", "general", "generally", 
 
             "high performance", "higher", "highest", "high quality", "highly", "hopefully", "help", "helped", "helping",
+            "high level", "hot", 
             
             "introduce", "introducing", "introduced", "introductory", "intuitive", "intuititively", "intuition", "issue",
             "involve", "involving", "involved",
@@ -148,7 +124,7 @@ public class KeywordsExtractor {
             
             "method", "month", "model", "new", "novel", "number", "main", "mainly", 
             "maintain", "maintaining", "maintained", "making", "major",
-            "meaning", "measure", "measured", "measuring", "measurement", "metric",
+            "meaning", "measure", "measured", "measuring", "measurement", "metric", "make sense", "make believe",
             
             "nearly", "necessary", "necessarily", "need", "newly", "naturally",
             
@@ -176,7 +152,7 @@ public class KeywordsExtractor {
             "satisfy", "satisfying", "satisfied", "satisfie", "simple", "simply", "solve", "solving", "solved",
             "special", "specific", "specially", "strong", "stronger", "studied", 
 
-            "tiny", "typical", "typically", "task", "traditional", "traditionally", "training data",
+            "tiny", "typical", "typically", "task", "traditional", "traditionally", "training data", "topic", "tend",
             
             "use", "using", "used", "useful", "usual", "usually", "unlike", "unknown", "unnecessary", "undergoe", "undergo",
             "understand", "understanding", "underlying", "ultimate", "ultimately", "unexpected", "undertake", "unique",
@@ -187,9 +163,17 @@ public class KeywordsExtractor {
             "yield", "year", "york",
     };
     
+    private static String[] finalRemove = {
+      "empirical study",  
+      "digital game", 
+      "video game", 
+      "computer game",
+      "computer science",
+      "games today",
+    };
+    
     private static HashSet<String> stopwordSet = new HashSet<String>(Arrays.asList(stopwords));
     private static HashSet<String> commonword2GramSet = new HashSet<String>(Arrays.asList(commonword2Gram));
-    private static HashSet<String> commonword1GramSet = new HashSet<String>(Arrays.asList(commonword1Gram));
     
     /** Only split by \\W and keep words which are not stopwords. */
     public static List<String> simpleExtract(String raw) {
@@ -212,7 +196,7 @@ public class KeywordsExtractor {
     public static final int OCCURRENCE_THRES = 3;
     /** keywords with size than KEYWORD_SIZE_THRES is enough. */
     public static final int KEYWORD_SIZE_THRES = 3;
-    public static KeyCountMap twoGramKeywordCntMap = new KeyCountMap(TreeMap.class);
+    public static KeyCountMap nGramKeywordCntMap = new KeyCountMap(TreeMap.class);
     public static List<Paper> noKeywrdPapers = new ArrayList<Paper>();
     
     
@@ -221,24 +205,28 @@ public class KeywordsExtractor {
         MyMongoCollection<Paper> mPapersClnCol = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
         MongoCursor<Paper> mPapers = mPapersClnCol.getCollection().find().as(Paper.class);
         
+        // traverse all papers in the database in order to create n-gram-pool.
         for (Paper mPaper : mPapers) {
             System.out.println("traverse:" + mPaper.getId());
-            // Add existing keywords
+            // Add existing keywords to n-gram-pool
             if (!Utils.nullOrEmpty(mPaper.getKeywords())) {
                 for (String keyword : mPaper.getKeywords()) {
-                    addToNGramPool(keyword);
+                    addToNGramPool(keyword, true);
                 }
             }
-            // Add new 2gram paperKeywords to keywordCntMap
+            // Add 2grams generated from title or abstract to the n-gram-pool
             Iterator<String> iterator = gen2GramFromPaper(mPaper).iterator();
             while (iterator.hasNext()) {
                 String paperKeyword = iterator.next();
-                addToNGramPool(paperKeyword);
+                addToNGramPool(paperKeyword, false);
             }
-        } // traverse all papers
+        } // traverse all papers in the database in order to create n-gram-pool.
 
+        // finally clean inappropriate 2-grams and also add selected 1 gram.
+        finalCleanNGramPool();
+        
         // Save n-grams(n>=2) with appearance larger than OCCURRENCE_THRES to the file.
-        saveKeyCntMapToFile("2gram_pool.txt", twoGramKeywordCntMap);
+        saveKeyCntMapToFile("ngram_pool.txt", nGramKeywordCntMap);
         
         // check how many papers can't be labelled keyword.
         mPapers = mPapersClnCol.getCollection().find().as(Paper.class);
@@ -250,12 +238,7 @@ public class KeywordsExtractor {
             // initialize paper keyword set for those without keywords originally.
             mPaper.setKeywords(new HashSet<String>());
             // if the paper has less than 3 keywords, extract 2 grams from its title and abstract.
-            set2GramForPpr(mPaper);
-//            // the paper is done if it has more than three existing keywords
-//            if (mPaper.getKeywords().size() < KEYWORD_SIZE_THRES ) {
-//                // Set existing keywords for papers without keywords originally.
-//                setExstWrdForPpr(mPaper);
-//            }
+            setNGramForPpr(mPaper);
 
             if (Utils.nullOrEmpty(mPaper.getKeywords())) {
                 noKeywrdPapers.add(mPaper);
@@ -270,24 +253,49 @@ public class KeywordsExtractor {
             System.err.println(mPaper.getId() + " Title:" + mPaper.getTitle() + "\nVenue:" + mPaper.getVenue() + "  \nAbstract:"
                     + mPaper.getAbstraction() + "\n\n");
         }
-        System.out.println("No keywrd paper in total:" + noKeywrdPapers.size());
+        System.out.println("No keyword paper in total:" + noKeywrdPapers.size());
         
         
     } // main
 
-    private static void set2GramForPpr(Paper mPaper) {
+    /** finally clean inappropriate 2-grams and also add selected 1 gram. */
+    private static void finalCleanNGramPool() {
+        // remove inappropriate 2-grams that are added from existing keywords.
+        for (String wrdToRemove : finalRemove) {
+            if (nGramKeywordCntMap.contains(wrdToRemove)) {
+                // make it invalid by setting its count to 0
+                nGramKeywordCntMap.put(wrdToRemove, new MutableInt(0));
+            }
+        }
+        
+        // add selected 1-grams
+        for (String oneGram : selected1Gram) {
+            // make the selected one gram valid by setting its count to 100 
+            nGramKeywordCntMap.put(oneGram, new MutableInt(100));
+        }
+        
+    }
+
+    /** set paper keywords that appear in the n-gram-pool. */
+    private static void setNGramForPpr(Paper mPaper) {
         Set<String> keywordCandidates = gen2GramFromPaper(mPaper);
         for (String kw : keywordCandidates) {
-            if (twoGramKeywordCntMap.contains(kw) && twoGramKeywordCntMap.get(kw) > OCCURRENCE_THRES) {
+            if (nGramKeywordCntMap.contains(kw) && nGramKeywordCntMap.get(kw) > OCCURRENCE_THRES) {
                 mPaper.getKeywords().add(kw);
             }
         }
     }
     
-    private static void addToNGramPool(String keyword) {
-        keyword = processWord(keyword);
+    private static void addToNGramPool(String keyword, boolean exist) {
+        // processWord( , ) only return strings if keyword is n-gram (n>=2)
+        keyword = processWord(keyword, exist);
         if (keyword != null) {
-            twoGramKeywordCntMap.addCount(keyword);
+            if (exist) {
+                // ensure that exist keywords can be valid by setting its count to 100
+                nGramKeywordCntMap.put(keyword, new MutableInt(100));
+            } else {
+                nGramKeywordCntMap.addCount(keyword);
+            }
         }
     }
 
@@ -322,9 +330,9 @@ public class KeywordsExtractor {
         pw.close();
     }
 
-    /** Only return not null if the keyword is n-gram (n>=2)
+    /** processWord( , ) only return strings if keyword is n-gram (n>=2)
      * Remove stopword and plurals. Return null for those invalid keyword*/
-    private static String processWord(String paperKeyword) {
+    private static String processWord(String paperKeyword, boolean exist) {
         String[] keywords = paperKeyword.split("[^a-zA-Z0-9]");
         switch (keywords.length) {
         case 0:
@@ -336,7 +344,7 @@ public class KeywordsExtractor {
             break;
         case 2:
             // 2 grams
-            paperKeyword = process2Gram(paperKeyword);
+            paperKeyword = process2Gram(paperKeyword, exist);
             break;
         default:
             paperKeyword = processNGram(paperKeyword);
@@ -345,40 +353,44 @@ public class KeywordsExtractor {
         return paperKeyword;
     }
     
-    // for now we do nothing for n-gram (n>2)
+    /**  for now simply remove plural for n-gram (n>2) */
     private static String processNGram(String paperKeyword) {
-        // roughly remove plurals
-        if (paperKeyword.endsWith("s")) {
-            paperKeyword = paperKeyword.substring(0, paperKeyword.length() - 1);
-        }
-        
-        return paperKeyword;
+        return removePlural(paperKeyword);
     }
 
-    private static String process2Gram(String paperKeyword) {
+    /** roughly remove plural for words ending with 's'. */
+    private static String removePlural(String keyword) {
+        // roughly remove plurals
+        if (keyword.endsWith("s")) {
+            keyword = keyword.substring(0, keyword.length() - 1);
+        }
+        return keyword;
+    }
+    
+    private static String process2Gram(String paperKeyword, boolean exist) {
         String[] keywords = paperKeyword.split("[^a-zA-Z0-9]");
-        String cleanPaperKeyword = "";
         if (stopwordSet.contains(keywords[0]) || stopwordSet.contains(keywords[1])) {
             return null;
         }
-        // roughly remove plurals
-        if (keywords[1].endsWith("s")) {
-            keywords[1] = keywords[1].substring(0, keywords[1].length() - 1);
-        }
-
+        // remove plurals
+        keywords[1] = removePlural(keywords[1]);
         if (keywords[0].matches("\\d+") || keywords[1].matches("\\d+")) {
             return null;
         }
-        if (commonword2GramSet.contains(keywords[0]) || commonword2GramSet.contains(keywords[1])) {
-            return null;
-        }
-
-        cleanPaperKeyword = keywords[0] + " " + keywords[1];
-        if (commonword2GramSet.contains(cleanPaperKeyword)) {
-            return null;
-        }
         
-        return cleanPaperKeyword;
+        if (!exist) {
+            if (commonword2GramSet.contains(keywords[0]) || commonword2GramSet.contains(keywords[1])) {
+                return null;
+            }
+            String cleanPaperKeyword = "";
+            cleanPaperKeyword = keywords[0] + " " + keywords[1];
+            if (commonword2GramSet.contains(cleanPaperKeyword)) {
+                return null;
+            }
+            return cleanPaperKeyword;
+        } else {
+            return keywords[0] + " " + keywords[1];
+        }
     }
     
 }
