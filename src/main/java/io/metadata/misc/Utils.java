@@ -63,10 +63,15 @@ public class Utils {
             return true;
         }
 
-        if (list.size() == 1 && nullOrEmpty(list.iterator().next())) {
+        if (list.size() >= 1) {
+            for (String o : list) {
+                if (!nullOrEmpty(o))
+                    return false;
+            }
             return true;
         }
 
+        // never return to this
         return false;
     }
 
