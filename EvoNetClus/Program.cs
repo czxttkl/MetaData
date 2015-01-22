@@ -19,7 +19,7 @@ namespace EvoNetClus
 
             // She used 1 as alpha which leads to too many clusters.
             //EvoNetClusFunc evoFunc = new EvoNetClusFunc(indir, outdir, "network.tsr", ".dict", 3, 2000, 2013, 1/*alpha*/);
-            EvoNetClusFunc evoFunc = new EvoNetClusFunc(indir, outdir, "network.tsr", ".dict", 4, 2000, 2013, 1/*alpha*/);
+            EvoNetClusFunc evoFunc = new EvoNetClusFunc(indir, outdir, "network.tsr", ".dict", 3, 2000, 2013, 0.5/*alpha*/);
             evoFunc.mainFunc(2000, 2013, 1/*winlen*/);
 
             //EvoNetClusFunc evoFunc = new EvoNetClusFunc(indir, outdir, "delicious", ".dict", 3, 1, 4, 5);

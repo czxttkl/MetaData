@@ -42,13 +42,11 @@ namespace EvoNetClus.clustering
             
             betaVec = new Dictionary<int, double>();
             // authors
-            betaVec[0] = 0.4;
-            // keywords
-            betaVec[1] = 0.8;
+            betaVec[0] = 0.2;
             // author_cited
-            betaVec[2] = 0.6;
+            betaVec[1] = 0.2;
             // venue
-            betaVec[3] = 0.1;
+            betaVec[2] = 0.2;
 
             // original code
             //for (int i = 0; i < typeNum; i++)
