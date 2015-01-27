@@ -30,6 +30,7 @@ public class Paper {
     // CHECKSTYLE:OFF
     List<List<String>> s_references;
     List<String> authors_cited;
+    Set<String> title_keywords;
     // CHECKSTYLE:ON
     
     String title;
@@ -38,13 +39,6 @@ public class Paper {
     String venue;
     String venuetype = "conference";
     
-    
-    /*
-     * public Paper(String titleString, String abstractString, String keywordsString, String authorsString, String yearString, String venueString) {
-     * 
-     * }
-     */
-
     public Paper setTitle(String titleString) {
         title = titleString;
         return this;
@@ -129,18 +123,40 @@ public class Paper {
         return s_references;
     }
     
-    public void addKeyword(String keyword) {
+    public Paper addKeyword(String keyword) {
         if (keywords == null) {
             keywords = new HashSet<String>();
         }
         keywords.add(keyword);
+        return this;
     }
     
-    public void addAuthorsCited(Collection<String> authors) {
+    public Paper addAuthorsCited(Collection<String> authors) {
         if (authors_cited == null) {
             authors_cited = new ArrayList<String>();
         } 
         authors_cited.addAll(authors);
+        return this;
+    }
+    
+    public Paper addTitleKeyword(String keyword) {
+        if (title_keywords == null) {
+            title_keywords = new HashSet<String>();
+        }
+        title_keywords.add(keyword);
+        return this;
+    }
+    
+    public Paper addTitleKeywords(Collection<String> keywords) {
+        if (title_keywords == null) {
+            title_keywords = new HashSet<String>();
+        }
+        title_keywords.addAll(keywords);
+        return this;
+    }
+    
+    public Set<String> getTitleKeywords() {
+        return title_keywords;
     }
     
     /**
