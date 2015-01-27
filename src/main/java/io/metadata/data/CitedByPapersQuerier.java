@@ -12,8 +12,8 @@ import io.metadata.orm.Paper;
 
 import com.aliasi.spell.EditDistance;
 
-/** Query s_references in MongoDB. */
-public class ReferenceQuerier {
+/** Query cited_by_papers in MongoDB. */
+public class CitedByPapersQuerier {
 
     public static void main(String[] args) throws InterruptedException {
         
@@ -37,7 +37,7 @@ public class ReferenceQuerier {
                 for (Paper mPaper : mPapersCol.getCollection().find().skip(cnt).as(Paper.class)) {
                     cnt++;
                     // filter out papers with no references
-                    List<List<String>> refs = mPaper.getReferences();
+                    List<List<String>> refs = mPaper.getCitedByPapers();
                     if (refs == null || refs.size() == 0 || refs.get(0).size() == 0) {
                         continue;
                     }
@@ -53,7 +53,7 @@ public class ReferenceQuerier {
                                 System.out.printf("title:%s \ncandi:%s \ndist:%d, cnt:%d, mPaperId:%s refId:%s\n\n", title, cite_title, 0,
                                         cnt, mPaper.getId(), cite_id);
                                 Paper citePaper = mPapersCol.getCollection().findOne(new ObjectId(cite_id)).as(Paper.class);
-                                citePaper.addAuthorsCited(mPaper.getAuthors());
+                                citePaper.addCitedAuthors(mPaper.getAuthors());
                                 mPapersCol.getCollection().update(new ObjectId(cite_id)).with(citePaper);
                                 break;
                             }

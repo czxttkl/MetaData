@@ -12,8 +12,6 @@ import io.metadata.misc.Utils;
 import org.jongo.marshall.jackson.oid.Id;
 import org.jongo.marshall.jackson.oid.ObjectId;
 
-import com.mongodb.util.Hash;
-
 /**
  * Java Object for one document in MongoDB.metadata.papers collection.
  * 
@@ -28,8 +26,8 @@ public class Paper {
     Set<String> keywords;
 
     // CHECKSTYLE:OFF
-    List<List<String>> s_references;
-    List<String> authors_cited;
+    List<List<String>> cited_by_papers;
+    List<String> cited_authors;
     Set<String> title_keywords;
     // CHECKSTYLE:ON
     
@@ -37,8 +35,15 @@ public class Paper {
     String abstraction;
     long year = 0;
     String venue;
-    String venuetype = "conference";
+    String venue_type = "conference";
     
+    
+    /*
+     * public Paper(String titleString, String abstractString, String keywordsString, String authorsString, String yearString, String venueString) {
+     * 
+     * }
+     */
+
     public Paper setTitle(String titleString) {
         title = titleString;
         return this;
@@ -82,7 +87,7 @@ public class Paper {
     }
 
     public Paper setVenueType(String venueTypeString) {
-        venuetype = venueTypeString;
+        venue_type = venueTypeString;
         return this;
     }
 
@@ -110,8 +115,8 @@ public class Paper {
         return authors;
     }
     
-    public List<String> getAuthorsCited() {
-        return authors_cited;
+    public List<String> getCitedAuthors() {
+        return cited_authors;
     }
     
     public long getYear() {
@@ -119,24 +124,22 @@ public class Paper {
     }
     
     /** Return a list of papers which cited this paper. */
-    public List<List<String>> getReferences() {
-        return s_references;
+    public List<List<String>> getCitedByPapers() {
+        return cited_by_papers;
     }
     
-    public Paper addKeyword(String keyword) {
+    public void addKeyword(String keyword) {
         if (keywords == null) {
             keywords = new HashSet<String>();
         }
         keywords.add(keyword);
-        return this;
     }
     
-    public Paper addAuthorsCited(Collection<String> authors) {
-        if (authors_cited == null) {
-            authors_cited = new ArrayList<String>();
+    public void addCitedAuthors(Collection<String> authors) {
+        if (cited_authors == null) {
+            cited_authors = new ArrayList<String>();
         } 
-        authors_cited.addAll(authors);
-        return this;
+        cited_authors.addAll(authors);
     }
     
     public Paper addTitleKeyword(String keyword) {

@@ -61,7 +61,7 @@ public class DataCleaner {
                 }
                 
                 // Clean reference
-                List<List<String>> refs = paper.getReferences();
+                List<List<String>> refs = paper.getCitedByPapers();
                 if (refs != null && refs.size() > 0 && refs.get(0).size() > 0) {
                     for (List<String> ref : refs) {
                         ref.set(0, cleanHtmlString(ref.get(0)));

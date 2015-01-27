@@ -93,8 +93,8 @@ public class NetworksGenerator {
                     authorCountMapTmp.addCount(ath);
                 }
                 
-                if (!Utils.nullOrEmpty(paper.getAuthorsCited())) {
-                    for (String ath_cited : paper.getAuthorsCited()) {
+                if (!Utils.nullOrEmpty(paper.getCitedAuthors())) {
+                    for (String ath_cited : paper.getCitedAuthors()) {
                         // increment the count of the author_cited for this year
                         authorCitedCountMap.addCount(ath_cited);
                         // increment the count of the author_cited for this paper
@@ -115,8 +115,8 @@ public class NetworksGenerator {
                     }
                 }               
                 
-                if (!Utils.nullOrEmpty(paper.getAuthorsCited())) {
-                    for (String ath_cited : paper.getAuthorsCited()) {
+                if (!Utils.nullOrEmpty(paper.getCitedAuthors())) {
+                    for (String ath_cited : paper.getCitedAuthors()) {
                         String line = String.format("%d\t2\t%d\t%d", paperIdMap.get(paper.getId()), authorValueIdMap.get(ath_cited), authorCitedCountMapTmp.get(ath_cited));
                         pwNetworkTsr.println(line);
                     }
