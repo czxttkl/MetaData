@@ -1,6 +1,7 @@
 package io.metadata.data;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map.Entry;
 
@@ -12,12 +13,16 @@ import io.metadata.orm.Paper;
 
 import com.aliasi.spell.EditDistance;
 
-/** Query cited_by_papers in MongoDB. */
-public class CitedByPapersQuerier {
+/** add cited_papers in MongoDB. */
+public class CitedPapersQuerier {
 
     public static void main(String[] args) throws InterruptedException {
+        HashSet<String> processedPapers = new HashSet<String>();
         
         HashMap<String, String> idTitleMap = new HashMap<String, String>();
+        
+        
+        
         MyMongoCollection<Paper> mPapersCol = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
         int cnt = 0;
         for (Paper mPaper : mPapersCol.getCollection().find().as(Paper.class)) {
@@ -37,24 +42,26 @@ public class CitedByPapersQuerier {
                 for (Paper mPaper : mPapersCol.getCollection().find().skip(cnt).as(Paper.class)) {
                     cnt++;
                     // filter out papers with no references
-                    List<List<String>> refs = mPaper.getCitedByPapers();
-                    if (refs == null || refs.size() == 0 || refs.get(0).size() == 0) {
+                    List<List<String>> citedByPapers = mPaper.getCitedByPapers();
+                    if (citedByPapers == null || citedByPapers.size() == 0 || citedByPapers.get(0).size() == 0) {
                         continue;
                     }
 
-                    for (List<String> ref : refs) {
-                        String title = ref.get(0);
+                    for (List<String> citedByPaper : citedByPapers) {
+                        String title = citedByPaper.get(0);
                         for (Entry<String, String> candiEntry : idTitleMap.entrySet()) {
                             double dist = edWithoutTrans.distance(title, candiEntry.getValue());
                             // find match if dist == 0
                             if (dist <= 2) {
                                 String cite_id = candiEntry.getKey();
                                 String cite_title = candiEntry.getValue();
-                                System.out.printf("title:%s \ncandi:%s \ndist:%d, cnt:%d, mPaperId:%s refId:%s\n\n", title, cite_title, 0,
+                                Paper mCitedPaper = mPapersCol.getCollection().findOne(new ObjectId(cite_id)).as(Paper.class);
+                                mCitedPaper.addCitedPapers(mPaper.getTitle());
+                                mPapersCol.getCollection().update(new ObjectId(cite_id)).with(mCitedPaper);
+                                System.out.printf("title:%s \ncandi:%s \ndist:%d, cnt:%d, mPaperId:%s mCitedPaperId:%s\n", title, cite_title, 0,
                                         cnt, mPaper.getId(), cite_id);
-                                Paper citePaper = mPapersCol.getCollection().findOne(new ObjectId(cite_id)).as(Paper.class);
-                                citePaper.addCitedAuthors(mPaper.getAuthors());
-                                mPapersCol.getCollection().update(new ObjectId(cite_id)).with(citePaper);
+                                processedPapers.add(mCitedPaper.getId());
+                                System.out.println("add cited_papers for " + processedPapers.size() + " papers\n");
                                 break;
                             }
                         } // traverse all candidate for a specific ref

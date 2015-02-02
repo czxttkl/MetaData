@@ -28,6 +28,7 @@ public class Paper {
     // CHECKSTYLE:OFF
     List<List<String>> cited_by_papers;
     List<String> cited_authors;
+    List<String> cited_papers;
     Set<String> title_keywords;
     // CHECKSTYLE:ON
     
@@ -119,6 +120,10 @@ public class Paper {
         return cited_authors;
     }
     
+    public List<String> getCitedPapers() {
+        return cited_papers;
+    }
+    
     public long getYear() {
         return year;
     }
@@ -135,11 +140,20 @@ public class Paper {
         keywords.add(keyword);
     }
     
-    public void addCitedAuthors(Collection<String> authors) {
+    public Paper addCitedPapers(String title) {
+        if (cited_papers == null) {
+            cited_papers = new ArrayList<String>();
+        }
+        cited_papers.add(title);
+        return this;
+    }
+    
+    public Paper addCitedAuthors(Collection<String> authors) {
         if (cited_authors == null) {
             cited_authors = new ArrayList<String>();
         } 
         cited_authors.addAll(authors);
+        return this;
     }
     
     public Paper addTitleKeyword(String keyword) {
