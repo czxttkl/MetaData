@@ -37,6 +37,7 @@ public class Paper {
     long year = 0;
     String venue;
     String venue_type = "conference";
+    Integer label = null;
     
     
     /*
@@ -92,6 +93,10 @@ public class Paper {
         return this;
     }
 
+    public Integer getLabel() {
+        return label;
+    }
+    
     public String getAbstraction() {
         return abstraction;
     }
