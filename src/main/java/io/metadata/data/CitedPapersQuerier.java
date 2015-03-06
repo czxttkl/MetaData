@@ -13,15 +13,13 @@ import io.metadata.orm.Paper;
 
 import com.aliasi.spell.EditDistance;
 
-/** add cited_papers in MongoDB. */
+/** add cited_papers information to MongoDB by parsing citedByPaper. */
 public class CitedPapersQuerier {
 
     public static void main(String[] args) throws InterruptedException {
         HashSet<String> processedPapers = new HashSet<String>();
         
         HashMap<String, String> idTitleMap = new HashMap<String, String>();
-        
-        
         
         MyMongoCollection<Paper> mPapersCol = new MyMongoCollection<Paper>(Globals.MONGODB_PAPERS_CLEAN_COL);
         int cnt = 0;
@@ -53,13 +51,13 @@ public class CitedPapersQuerier {
                             double dist = edWithoutTrans.distance(title, candiEntry.getValue());
                             // find match if dist == 0
                             if (dist <= 2) {
-                                String cite_id = candiEntry.getKey();
-                                String cite_title = candiEntry.getValue();
-                                Paper mCitedPaper = mPapersCol.getCollection().findOne(new ObjectId(cite_id)).as(Paper.class);
+                                String citeId = candiEntry.getKey();
+                                String citeTitle = candiEntry.getValue();
+                                Paper mCitedPaper = mPapersCol.getCollection().findOne(new ObjectId(citeId)).as(Paper.class);
                                 mCitedPaper.addCitedPapers(mPaper.getTitle());
-                                mPapersCol.getCollection().update(new ObjectId(cite_id)).with(mCitedPaper);
-                                System.out.printf("title:%s \ncandi:%s \ndist:%d, cnt:%d, mPaperId:%s mCitedPaperId:%s\n", title, cite_title, 0,
-                                        cnt, mPaper.getId(), cite_id);
+                                mPapersCol.getCollection().update(new ObjectId(citeId)).with(mCitedPaper);
+                                System.out.printf("title:%s \ncandi:%s \ndist:%d, cnt:%d, mPaperId:%s mCitedPaperId:%s\n", title, citeTitle, 0,
+                                        cnt, mPaper.getId(), citeId);
                                 processedPapers.add(mCitedPaper.getId());
                                 System.out.println("add cited_papers for " + processedPapers.size() + " papers\n");
                                 break;
