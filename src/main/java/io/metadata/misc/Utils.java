@@ -65,8 +65,9 @@ public class Utils {
 
         if (list.size() >= 1) {
             for (String o : list) {
-                if (!nullOrEmpty(o))
+                if (!nullOrEmpty(o)) {
                     return false;
+                }
             }
             return true;
         }

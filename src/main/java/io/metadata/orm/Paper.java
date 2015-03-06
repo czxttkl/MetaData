@@ -30,7 +30,6 @@ public class Paper {
     List<String> cited_authors;
     List<String> cited_papers;
     Set<String> title_keywords;
-    // CHECKSTYLE:ON
     
     String title;
     String abstraction;
@@ -38,6 +37,7 @@ public class Paper {
     String venue;
     String venue_type = "conference";
     Integer label = null;
+    // CHECKSTYLE:ON
     
     
     /*
