@@ -94,11 +94,11 @@ public class NetworksGenerator {
                 }
                 
                 if (!Utils.nullOrEmpty(paper.getCitedAuthors())) {
-                    for (String ath_cited : paper.getCitedAuthors()) {
+                    for (String athCited : paper.getCitedAuthors()) {
                         // increment the count of the author_cited for this year
-                        authorCitedCountMap.addCount(ath_cited);
+                        authorCitedCountMap.addCount(athCited);
                         // increment the count of the author_cited for this paper
-                        authorCitedCountMapTmp.addCount(ath_cited);
+                        authorCitedCountMapTmp.addCount(athCited);
                     }
                 }
 
@@ -116,8 +116,8 @@ public class NetworksGenerator {
                 }               
                 
                 if (!Utils.nullOrEmpty(paper.getCitedAuthors())) {
-                    for (String ath_cited : paper.getCitedAuthors()) {
-                        String line = String.format("%d\t2\t%d\t%d", paperIdMap.get(paper.getId()), authorValueIdMap.get(ath_cited), authorCitedCountMapTmp.get(ath_cited));
+                    for (String athCited : paper.getCitedAuthors()) {
+                        String line = String.format("%d\t2\t%d\t%d", paperIdMap.get(paper.getId()), authorValueIdMap.get(athCited), authorCitedCountMapTmp.get(athCited));
                         pwNetworkTsr.println(line);
                     }
                 }
@@ -167,9 +167,9 @@ public class NetworksGenerator {
             
             // output author_cited
             PrintWriter pwAuthorCited = new PrintWriter(new OutputStreamWriter(new FileOutputStream(NETWORK_INPUT_FOLDER + i + "/2.dict"), "UTF-8"));
-            for (String author_cited : authorCitedCountMap.keySet()) {
-                Integer count = authorCitedCountMap.get(author_cited);
-                String line = String.format("%d\t%s\t%d", authorValueIdMap.get(author_cited), author_cited, count);
+            for (String authorCited : authorCitedCountMap.keySet()) {
+                Integer count = authorCitedCountMap.get(authorCited);
+                String line = String.format("%d\t%s\t%d", authorValueIdMap.get(authorCited), authorCited, count);
                 pwAuthorCited.println(line);
             }
             pwAuthorCited.flush();
