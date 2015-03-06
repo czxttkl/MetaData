@@ -22,8 +22,6 @@ import java.util.TreeMap;
 import org.bson.types.ObjectId;
 import org.jongo.MongoCursor;
 
-import com.sun.org.apache.xerces.internal.xni.grammars.Grammar;
-
 /**
  * This class is used to extract keywords from string.
  * 
@@ -654,20 +652,21 @@ public class KeywordsExtractor {
             setNGramForPpr(mPaper);
 
             if (Utils.nullOrEmpty(mPaper.getKeywords())) {
+                // record the papers that can't be assigned keywords
                 noKeywrdPapers.add(mPaper);
-//                mPapersClnCol.getCollection().remove(new ObjectId(mPaper.getId()));
             } else {
+                // update the papers that are newly assigned with keywords
                 mPapersClnCol.getCollection().update(new ObjectId(mPaper.getId())).with(mPaper);
                 System.out.println("updated:" + mPaper.getId() + " " + mPaper.getKeywords());
             }
         } //traverse all papers
 
+        // Print out all papers that can't be assigned with keywords finally.
         for (Paper mPaper : noKeywrdPapers) {
             System.err.println(mPaper.getId() + " Title:" + mPaper.getTitle() + "\nVenue:" + mPaper.getVenue() + "  \nAbstract:"
                     + mPaper.getAbstraction() + "\n\n");
         }
         System.out.println("No keyword paper in total:" + noKeywrdPapers.size());
-        
         
     } // main
 
@@ -777,7 +776,7 @@ public class KeywordsExtractor {
         return paperKeyword;
     }
     
-    /**  for now simply remove plural for n-gram (n>2) */
+    /**  for now simply remove plural for n-gram (n>2).  */
     private static String processNGram(String paperKeyword) {
         return removePlural(paperKeyword);
     }
